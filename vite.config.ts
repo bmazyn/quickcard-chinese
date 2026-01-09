@@ -8,28 +8,29 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
         name: 'QuickCard',
         short_name: 'QuickCard',
-        description: 'TikTok-style Chinese vocabulary quiz PWA',
-        theme_color: '#667eea',
-        background_color: '#667eea',
+        description: 'QuickCard — Chinese flashcard quiz',
+        start_url: '/',
+        theme_color: '#ffffff',
+        background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: 'pwa-192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'pwa-512.png',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'pwa-512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
@@ -46,7 +47,7 @@ export default defineConfig({
               cacheName: 'google-fonts-cache',
               expiration: {
                 maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+                maxAgeSeconds: 60 * 60 * 24 * 365
               },
               cacheableResponse: {
                 statuses: [0, 200]

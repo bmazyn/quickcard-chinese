@@ -41,6 +41,39 @@ npm run build
 npm run preview
 ```
 
+## Deploy to Vercel
+
+### Quick Deploy
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and import your repository
+3. Vercel will auto-detect Vite settings:
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+   - **Install Command**: `npm install`
+4. Click "Deploy"
+
+### Manual Deploy via CLI
+
+```bash
+npm install -g vercel
+vercel login
+vercel
+```
+
+The app will be live at your Vercel URL (e.g., `quickcard-chinese.vercel.app`)
+
+## Install as PWA on iPhone
+
+1. Open the deployed app in Safari on your iPhone
+2. Tap the **Share** button (square with arrow up)
+3. Scroll down and tap **"Add to Home Screen"**
+4. Tap **"Add"** in the top right
+5. The QuickCard icon will appear on your home screen
+6. Launch it like a native app - works offline!
+
+**Note**: On iPhone, PWAs must be added through Safari (not Chrome).
+
 ## PWA Installation
 
 The app is installable as a Progressive Web App:

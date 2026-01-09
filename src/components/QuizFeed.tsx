@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
 import quizCardsData from "../data/quizCards.json";
