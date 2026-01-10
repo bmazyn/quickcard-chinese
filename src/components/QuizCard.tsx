@@ -47,6 +47,20 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
     }
   };
 
+  const handlePronunciation = () => {
+    // Use browser Text-to-Speech for hanzi pronunciation
+    if ('speechSynthesis' in window) {
+      // Stop any currently playing audio
+      window.speechSynthesis.cancel();
+      
+      const utterance = new SpeechSynthesisUtterance(hanzi);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.9; // Slightly slower for learning
+      window.speechSynthesis.speak(utterance);
+    }
+    // Fail silently if not supported
+  };
+
   // Split promptLine from dataset - format: "pinyin — hanzi"
   const [pinyin, hanzi] = card.promptLine.split(' — ');
 
@@ -56,7 +70,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
 
       <div className="prompt-section">
         <div className="pinyin">{pinyin}</div>
-        <div className="hanzi">{hanzi}</div>
+        <div className="hanzi" onClick={handlePronunciation}>{hanzi}</div>
       </div>
 
       <div className="choices">
