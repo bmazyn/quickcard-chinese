@@ -214,19 +214,20 @@
   transform: translateY(0);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 430px) {
   .quiz-card {
     padding: 6px;
     gap: 8px;
   }
 
   .prompt-line {
-    font-size: 1.5rem;
+    font-size: 1.85rem;
+    line-height: 1.25;
     padding: 6px 0;
   }
 
   .question {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 
   .choices {
@@ -234,12 +235,13 @@
   }
 
   .choice-button {
-    padding: 10px 14px;
+    padding: 11px 14px;
     gap: 10px;
   }
 
   .choice-text {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    line-height: 1.35;
   }
 
   .feedback {

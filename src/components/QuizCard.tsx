@@ -29,7 +29,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext }: QuizCa
         <span className="card-kind">{card.kind}</span>
       </div>
 
-      <div className="prompt-line">{card.promptLine}</div>
+      <div className="prompt-line">{card.promptLine.replace(' — ', '    ')}</div>
       
       <div className="question">{card.question}</div>
 
