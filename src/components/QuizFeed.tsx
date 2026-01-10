@@ -37,8 +37,11 @@ export default function QuizFeed() {
 
   // Initialize shuffled deck on mount
   useEffect(() => {
-    const cards = quizCardsData as QuizCardType[];
-    setShuffledDeck(shuffleArray(cards));
+    const allCards = quizCardsData as QuizCardType[];
+    const filteredCards = allCards.filter(card => 
+      card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase'
+    );
+    setShuffledDeck(shuffleArray(filteredCards));
   }, []);
 
   // Clear timer on unmount

@@ -26,16 +26,16 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
     return "choice-button dimmed";
   };
 
+  const [pinyin, hanzi] = card.promptLine.split(' — ');
+
   return (
     <div className="quiz-card">
       <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-      <div className="card-header">
-        <span className="card-kind">{card.kind}</span>
-      </div>
 
-      <div className="prompt-line">{card.promptLine.replace(' — ', '    ')}</div>
-      
-      <div className="question">{card.question}</div>
+      <div className="prompt-section">
+        <div className="pinyin">{pinyin}</div>
+        <div className="hanzi">{hanzi}</div>
+      </div>
 
       <div className="choices">
         {choices.map((choice) => (

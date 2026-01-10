@@ -1,4 +1,4 @@
-export type CardKind = "vocab" | "sentence" | "phrase" | "contrast";
+export type CardKind = "vocab" | "sentence" | "phrase";
 
 export type ChoiceKey = "A" | "B" | "C" | "D";
 
