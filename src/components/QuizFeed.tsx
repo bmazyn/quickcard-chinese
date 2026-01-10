@@ -109,6 +109,36 @@ export default function QuizFeed() {
   };
 
   const handleNext = () => {
+    // Calculate next card's hanzi for pronunciation
+    const nextIndex = currentIndex + 1;
+    let nextCard: QuizCardType | null = null;
+    
+    if (nextIndex >= shuffledDeck.length) {
+      // Will reshuffle - get first card of reshuffled deck
+      const cards = quizCardsData as QuizCardType[];
+      const filteredCards = cards.filter(card => 
+        card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase'
+      );
+      if (filteredCards.length > 0) {
+        nextCard = filteredCards[0]; // Approximate - actual shuffle happens in advanceToNext
+      }
+    } else {
+      nextCard = shuffledDeck[nextIndex];
+    }
+    
+    // Pronounce immediately within tap handler (iPhone Safari requirement)
+    if (nextCard && 'speechSynthesis' in window) {
+      const hanzi = nextCard.promptLine.split(' — ')[1];
+      if (hanzi) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(hanzi);
+        utterance.lang = 'zh-CN';
+        utterance.rate = 0.9;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+    
+    // Advance immediately
     advanceToNext();
   };
 
