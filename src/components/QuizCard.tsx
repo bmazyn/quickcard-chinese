@@ -11,6 +11,19 @@ interface QuizCardProps {
   onToggleTheme: () => void;
 }
 
+function triggerHaptic(isCorrect: boolean) {
+  // Check if device supports vibration API
+  if ('vibrate' in navigator) {
+    if (isCorrect) {
+      // Light tap for correct answer
+      navigator.vibrate(10);
+    } else {
+      // Slightly stronger pattern for incorrect answer
+      navigator.vibrate([15, 10, 15]);
+    }
+  }
+}
+
 export default function QuizCard({ card, answerState, onAnswer, onNext, theme, onToggleTheme }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   const choices: ChoiceKey[] = ["A", "B", "C", "D"];
@@ -24,6 +37,14 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
     if (isCorrect) return "choice-button correct";
     if (isSelected && !isCorrect) return "choice-button incorrect";
     return "choice-button dimmed";
+  };
+
+  const handleAnswerClick = (choice: ChoiceKey) => {
+    if (!isAnswered) {
+      const isCorrect = choice === card.correct;
+      triggerHaptic(isCorrect);
+      onAnswer(choice);
+    }
   };
 
   const [pinyin, hanzi] = card.promptLine.split(' — ');
@@ -42,7 +63,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
           <button
             key={choice}
             className={getChoiceClassName(choice)}
-            onClick={() => !isAnswered && onAnswer(choice)}
+            onClick={() => handleAnswerClick(choice)}
             disabled={isAnswered}
           >
             <span className="choice-label">{choice}</span>
