@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import QuizCard from "./QuizCard";
-import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
+import type { QuizCard as QuizCardType, ChoiceKey, AnswerState, HSKLevel } from "../types";
 // Single source of truth for all quiz content - DO NOT modify or supplement
 import quizCardsData from "../data/quizCards.json";
-import { useTheme } from "../hooks/useTheme";
 import "./QuizFeed.css";
 
 // Fisher-Yates shuffle
@@ -17,7 +17,11 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function QuizFeed() {
-  const { theme, toggleTheme } = useTheme();
+  const navigate = useNavigate();
+  const [selectedLevels] = useState<HSKLevel[]>(() => {
+    const saved = localStorage.getItem("selectedLevels");
+    return saved ? JSON.parse(saved) : ["HSK1"];
+  });
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answerState, setAnswerState] = useState<AnswerState>({
@@ -45,10 +49,11 @@ export default function QuizFeed() {
       level: card.level || "HSK1"
     }));
     const filteredCards = cardsWithLevel.filter(card => 
-      card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase'
+      (card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase') &&
+      selectedLevels.includes(card.level as HSKLevel)
     );
     setShuffledDeck(shuffleArray(filteredCards));
-  }, []);
+  }, [selectedLevels]);
 
   // Clear timer on unmount
   // useEffect(() => {
@@ -155,18 +160,27 @@ export default function QuizFeed() {
 
   return (
     <div className="quiz-feed">
-      <div className="stats-bar">
-        <div className="stat">
-          <span className="stat-label">Streak</span>
-          <span className="stat-value">{streak}</span>
-        </div>
-        <div className="stat">
-          <span className="stat-label">Best</span>
-          <span className="stat-value">{bestStreak}</span>
-        </div>
-        <div className="stat">
-          <span className="stat-label">Total ✓</span>
-          <span className="stat-value">{totalCorrect}</span>
+      <div className="header-container">
+        <button className="home-icon" onClick={() => navigate("/")} aria-label="Go to home">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+        </button>
+        
+        <div className="stats-bar">
+          <div className="stat">
+            <span className="stat-label">Streak</span>
+            <span className="stat-value">{streak}</span>
+          </div>
+          <div className="stat">
+            <span className="stat-label">Best</span>
+            <span className="stat-value">{bestStreak}</span>
+          </div>
+          <div className="stat">
+            <span className="stat-label">Total ✓</span>
+            <span className="stat-value">{totalCorrect}</span>
+          </div>
         </div>
       </div>
 
@@ -175,8 +189,6 @@ export default function QuizFeed() {
         answerState={answerState}
         onAnswer={handleAnswer}
         onNext={handleNext}
-        theme={theme}
-        onToggleTheme={toggleTheme}
       />
 
       <div className="progress-indicator">

@@ -1,6 +1,5 @@
 import { useMemo } from "react";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
-import ThemeToggle from "./ThemeToggle";
 import "./QuizCard.css";
 
 interface QuizCardProps {
@@ -8,8 +7,6 @@ interface QuizCardProps {
   answerState: AnswerState;
   onAnswer: (choice: ChoiceKey) => void;
   onNext: () => void;
-  theme: 'light' | 'dark';
-  onToggleTheme: () => void;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -25,7 +22,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, theme, onToggleTheme }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -78,8 +75,6 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, theme, o
 
   return (
     <div className="quiz-card">
-      <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-
       <div className="prompt-section">
         <div className="pinyin">{pinyin}</div>
         <div className="hanzi" onClick={handlePronunciation}>{hanzi}</div>
