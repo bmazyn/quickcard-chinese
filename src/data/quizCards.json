@@ -3298,5 +3298,555 @@
     },
     "tags": ["hsk1", "vocab"],
     "difficulty": 1
+  },
+  {
+    "id": "hsk2-001",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bān — 班",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "class",
+      "B": "lesson",
+      "C": "homework",
+      "D": "exam"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 班 (bān) means 'class' or 'team'",
+      "B": "Lesson is 课 (kè)",
+      "C": "Homework is 作业 (zuò yè)",
+      "D": "Exam is 考试 (kǎo shì)"
+    },
+    "tags": ["hsk2", "vocab", "school"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-002",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bāng zhù — 帮助",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to borrow",
+      "B": "to help",
+      "C": "to teach",
+      "D": "to ask"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To borrow is 借 (jiè)",
+      "B": "Correct! 帮助 (bāng zhù) means 'to help'",
+      "C": "To teach is 教 (jiāo)",
+      "D": "To ask is 问 (wèn)"
+    },
+    "tags": ["hsk2", "vocab", "verb"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-003",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bào zhǐ — 报纸",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "magazine",
+      "B": "book",
+      "C": "newspaper",
+      "D": "letter"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Magazine is 杂志 (zá zhì)",
+      "B": "Book is 书 (shū)",
+      "C": "Correct! 报纸 (bào zhǐ) means 'newspaper'",
+      "D": "Letter is 信 (xìn)"
+    },
+    "tags": ["hsk2", "vocab", "reading"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-004",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bǐ — 比",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "than/to compare",
+      "B": "more",
+      "C": "same",
+      "D": "different"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 比 (bǐ) means 'than' or 'to compare'",
+      "B": "More is 更 (gèng) or 更多 (gèng duō)",
+      "C": "Same is 一样 (yí yàng)",
+      "D": "Different is 不同 (bù tóng)"
+    },
+    "tags": ["hsk2", "vocab", "comparison"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-005",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bié — 别",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "must",
+      "B": "don't",
+      "C": "should",
+      "D": "can"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Must is 必须 (bì xū)",
+      "B": "Correct! 别 (bié) means 'don't' (imperative)",
+      "C": "Should is 应该 (yīng gāi)",
+      "D": "Can is 能 (néng) or 可以 (kě yǐ)"
+    },
+    "tags": ["hsk2", "vocab", "grammar"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-006",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "cháng — 长",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "short",
+      "B": "long",
+      "C": "wide",
+      "D": "tall"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Short is 短 (duǎn)",
+      "B": "Correct! 长 (cháng) means 'long'",
+      "C": "Wide is 宽 (kuān)",
+      "D": "Tall is 高 (gāo)"
+    },
+    "tags": ["hsk2", "vocab", "adjective"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-007",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "chàng gē — 唱歌",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to dance",
+      "B": "to sing",
+      "C": "to play music",
+      "D": "to listen to music"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To dance is 跳舞 (tiào wǔ)",
+      "B": "Correct! 唱歌 (chàng gē) means 'to sing'",
+      "C": "To play music is 弹 (tán) or 演奏 (yǎn zòu)",
+      "D": "To listen to music is 听音乐 (tīng yīn yuè)"
+    },
+    "tags": ["hsk2", "vocab", "activity"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-008",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "chuān — 穿",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to buy",
+      "B": "to wash",
+      "C": "to wear",
+      "D": "to take off"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "To buy is 买 (mǎi)",
+      "B": "To wash is 洗 (xǐ)",
+      "C": "Correct! 穿 (chuān) means 'to wear' (clothing)",
+      "D": "To take off is 脱 (tuō)"
+    },
+    "tags": ["hsk2", "vocab", "clothing"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-009",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "cì — 次",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "time/occasion",
+      "B": "hour",
+      "C": "day",
+      "D": "moment"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 次 (cì) is a measure word for 'time/occasion'",
+      "B": "Hour is 小时 (xiǎo shí)",
+      "C": "Day is 天 (tiān)",
+      "D": "Moment is 时刻 (shí kè)"
+    },
+    "tags": ["hsk2", "vocab", "time"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-010",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "cōng míng — 聪明",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hardworking",
+      "B": "smart/clever",
+      "C": "kind",
+      "D": "careful"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Hardworking is 努力 (nǔ lì)",
+      "B": "Correct! 聪明 (cōng míng) means 'smart/clever'",
+      "C": "Kind is 善良 (shàn liáng)",
+      "D": "Careful is 小心 (xiǎo xīn)"
+    },
+    "tags": ["hsk2", "vocab", "personality"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-011",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "dān xīn — 担心",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to hope",
+      "B": "to worry",
+      "C": "to remember",
+      "D": "to forget"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To hope is 希望 (xī wàng)",
+      "B": "Correct! 担心 (dān xīn) means 'to worry'",
+      "C": "To remember is 记得 (jì de)",
+      "D": "To forget is 忘记 (wàng jì)"
+    },
+    "tags": ["hsk2", "vocab", "emotion"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-012",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "dào — 到",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to leave",
+      "B": "to arrive",
+      "C": "to pass",
+      "D": "to return"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To leave is 离开 (lí kāi)",
+      "B": "Correct! 到 (dào) means 'to arrive/reach'",
+      "C": "To pass is 过 (guò)",
+      "D": "To return is 回 (huí)"
+    },
+    "tags": ["hsk2", "vocab", "movement"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-013",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "dì tiě — 地铁",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "bus",
+      "B": "train",
+      "C": "subway",
+      "D": "taxi"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Bus is 公共汽车 (gōng gòng qì chē)",
+      "B": "Train is 火车 (huǒ chē)",
+      "C": "Correct! 地铁 (dì tiě) means 'subway/metro'",
+      "D": "Taxi is 出租车 (chū zū chē)"
+    },
+    "tags": ["hsk2", "vocab", "transport"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-014",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "dǒng — 懂",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to teach",
+      "B": "to learn",
+      "C": "to understand",
+      "D": "to explain"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "To teach is 教 (jiāo)",
+      "B": "To learn is 学 (xué)",
+      "C": "Correct! 懂 (dǒng) means 'to understand'",
+      "D": "To explain is 解释 (jiě shì)"
+    },
+    "tags": ["hsk2", "vocab", "cognition"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-015",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "duàn liàn — 锻炼",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to rest",
+      "B": "to exercise",
+      "C": "to compete",
+      "D": "to run"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To rest is 休息 (xiū xi)",
+      "B": "Correct! 锻炼 (duàn liàn) means 'to exercise'",
+      "C": "To compete is 比赛 (bǐ sài)",
+      "D": "To run is 跑步 (pǎo bù)"
+    },
+    "tags": ["hsk2", "vocab", "health"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-016",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "fā xiàn — 发现",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to hide",
+      "B": "to discover",
+      "C": "to search",
+      "D": "to lose"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To hide is 藏 (cáng)",
+      "B": "Correct! 发现 (fā xiàn) means 'to discover/find out'",
+      "C": "To search is 找 (zhǎo) or 搜索 (sōu suǒ)",
+      "D": "To lose is 丢 (diū)"
+    },
+    "tags": ["hsk2", "vocab", "discovery"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-017",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "gǎn jué — 感觉",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "thought",
+      "B": "feeling",
+      "C": "opinion",
+      "D": "reason"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Thought is 想法 (xiǎng fǎ)",
+      "B": "Correct! 感觉 (gǎn jué) means 'feeling/to feel'",
+      "C": "Opinion is 意见 (yì jiàn)",
+      "D": "Reason is 原因 (yuán yīn)"
+    },
+    "tags": ["hsk2", "vocab", "emotion"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-018",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "gāng cái — 刚才",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "later",
+      "B": "just now",
+      "C": "always",
+      "D": "soon"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Later is 以后 (yǐ hòu)",
+      "B": "Correct! 刚才 (gāng cái) means 'just now/a moment ago'",
+      "C": "Always is 总是 (zǒng shì)",
+      "D": "Soon is 马上 (mǎ shàng)"
+    },
+    "tags": ["hsk2", "vocab", "time"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-019",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "gào sù — 告诉",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to ask",
+      "B": "to tell",
+      "C": "to hear",
+      "D": "to answer"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To ask is 问 (wèn)",
+      "B": "Correct! 告诉 (gào sù) means 'to tell/inform'",
+      "C": "To hear is 听 (tīng)",
+      "D": "To answer is 回答 (huí dá)"
+    },
+    "tags": ["hsk2", "vocab", "communication"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-020",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "gēn — 跟",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "from",
+      "B": "with",
+      "C": "for",
+      "D": "by"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "From is 从 (cóng)",
+      "B": "Correct! 跟 (gēn) means 'with' or 'to follow'",
+      "C": "For is 为 (wèi) or 给 (gěi)",
+      "D": "By is 被 (bèi)"
+    },
+    "tags": ["hsk2", "vocab", "preposition"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-021",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "guò — 过",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to pass/to cross",
+      "B": "to stop",
+      "C": "to turn",
+      "D": "to enter"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 过 (guò) means 'to pass/cross' or aspect marker for experience",
+      "B": "To stop is 停 (tíng)",
+      "C": "To turn is 转 (zhuǎn)",
+      "D": "To enter is 进 (jìn)"
+    },
+    "tags": ["hsk2", "vocab", "movement"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-022",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "hái shì — 还是",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "and",
+      "B": "or",
+      "C": "but",
+      "D": "if"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "And is 和 (hé)",
+      "B": "Correct! 还是 (hái shì) means 'or' (in questions)",
+      "C": "But is 但是 (dàn shì)",
+      "D": "If is 如果 (rú guǒ)"
+    },
+    "tags": ["hsk2", "vocab", "conjunction"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-023",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "hēi — 黑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "white",
+      "B": "black",
+      "C": "red",
+      "D": "blue"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "White is 白 (bái)",
+      "B": "Correct! 黑 (hēi) means 'black'",
+      "C": "Red is 红 (hóng)",
+      "D": "Blue is 蓝 (lán)"
+    },
+    "tags": ["hsk2", "vocab", "color"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-024",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "huā — 花",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "tree",
+      "B": "grass",
+      "C": "flower",
+      "D": "leaf"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Tree is 树 (shù)",
+      "B": "Grass is 草 (cǎo)",
+      "C": "Correct! 花 (huā) means 'flower'",
+      "D": "Leaf is 叶子 (yè zi)"
+    },
+    "tags": ["hsk2", "vocab", "nature"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-025",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "huà — 画",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to write",
+      "B": "to draw",
+      "C": "to read",
+      "D": "to paint walls"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To write is 写 (xiě)",
+      "B": "Correct! 画 (huà) means 'to draw/paint' or 'picture'",
+      "C": "To read is 读 (dú)",
+      "D": "To paint walls is 刷 (shuā)"
+    },
+    "tags": ["hsk2", "vocab", "art"],
+    "difficulty": 2
   }
 ]
