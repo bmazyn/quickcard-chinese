@@ -99,7 +99,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext }: QuizCa
           <div className={`feedback-status ${answerState.isCorrect ? "correct" : "incorrect"}`}>
             {answerState.isCorrect 
               ? "✓ Correct" 
-              : `✕ Wrong — Correct: ${card.correct}`}
+              : "✕ Wrong"}
           </div>
           <button className="next-button" onClick={onNext}>
             Next →
