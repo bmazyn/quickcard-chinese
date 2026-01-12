@@ -1,6 +1,6 @@
 export type CardKind = "vocab" | "sentence" | "phrase";
 
-export type HSKLevel = "HSK1" | "HSK2";
+export type HSKLevel = "HSK1" | "HSK1b" | "HSK2";
 
 export type ChoiceKey = "A" | "B" | "C" | "D";
 

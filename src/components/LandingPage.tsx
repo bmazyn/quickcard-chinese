@@ -58,6 +58,14 @@ export default function LandingPage() {
             <label className="level-checkbox">
               <input
                 type="checkbox"
+                checked={selectedLevels.includes("HSK1b")}
+                onChange={() => handleLevelToggle("HSK1b")}
+              />
+              <span>HSK1b</span>
+            </label>
+            <label className="level-checkbox">
+              <input
+                type="checkbox"
                 checked={selectedLevels.includes("HSK2")}
                 onChange={() => handleLevelToggle("HSK2")}
               />

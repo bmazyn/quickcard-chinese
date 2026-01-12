@@ -4288,5 +4288,1178 @@
     },
     "tags": ["hsk2", "vocab", "adverb"],
     "difficulty": 2
+  },
+  {
+    "id": "hsk1b-days-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī yī — 星期一",
+    "question": "",
+    "choices": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "Wednesday",
+      "D": "Thursday"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 星期一 means Monday",
+      "B": "Tuesday is 星期二",
+      "C": "Wednesday is 星期三",
+      "D": "Thursday is 星期四"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī èr — 星期二",
+    "question": "",
+    "choices": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Monday is 星期一",
+      "B": "Correct! 星期二 means Tuesday",
+      "C": "Friday is 星期五",
+      "D": "Saturday is 星期六"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī sān — 星期三",
+    "question": "",
+    "choices": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Tuesday is 星期二",
+      "B": "Correct! 星期三 means Wednesday",
+      "C": "Thursday is 星期四",
+      "D": "Friday is 星期五"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī sì — 星期四",
+    "question": "",
+    "choices": {
+      "A": "Wednesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Wednesday is 星期三",
+      "B": "Correct! 星期四 means Thursday",
+      "C": "Friday is 星期五",
+      "D": "Saturday is 星期六"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī wǔ — 星期五",
+    "question": "",
+    "choices": {
+      "A": "Thursday",
+      "B": "Friday",
+      "C": "Saturday",
+      "D": "Sunday"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Thursday is 星期四",
+      "B": "Correct! 星期五 means Friday",
+      "C": "Saturday is 星期六",
+      "D": "Sunday is 星期日"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī liù — 星期六",
+    "question": "",
+    "choices": {
+      "A": "Thursday",
+      "B": "Friday",
+      "C": "Saturday",
+      "D": "Sunday"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Thursday is 星期四",
+      "B": "Friday is 星期五",
+      "C": "Correct! 星期六 means Saturday",
+      "D": "Sunday is 星期日"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-days-007",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "days",
+    "promptLine": "xīng qī rì — 星期日",
+    "question": "",
+    "choices": {
+      "A": "Friday",
+      "B": "Saturday",
+      "C": "Sunday",
+      "D": "Monday"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Friday is 星期五",
+      "B": "Saturday is 星期六",
+      "C": "Correct! 星期日 means Sunday",
+      "D": "Monday is 星期一"
+    },
+    "tags": ["hsk1b", "days", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "yī yuè — 一月",
+    "question": "",
+    "choices": {
+      "A": "January",
+      "B": "February",
+      "C": "March",
+      "D": "April"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 一月 means January",
+      "B": "February is 二月",
+      "C": "March is 三月",
+      "D": "April is 四月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "èr yuè — 二月",
+    "question": "",
+    "choices": {
+      "A": "January",
+      "B": "February",
+      "C": "March",
+      "D": "May"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "January is 一月",
+      "B": "Correct! 二月 means February",
+      "C": "March is 三月",
+      "D": "May is 五月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "sān yuè — 三月",
+    "question": "",
+    "choices": {
+      "A": "February",
+      "B": "March",
+      "C": "April",
+      "D": "June"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "February is 二月",
+      "B": "Correct! 三月 means March",
+      "C": "April is 四月",
+      "D": "June is 六月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "sì yuè — 四月",
+    "question": "",
+    "choices": {
+      "A": "March",
+      "B": "April",
+      "C": "May",
+      "D": "July"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "March is 三月",
+      "B": "Correct! 四月 means April",
+      "C": "May is 五月",
+      "D": "July is 七月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "wǔ yuè — 五月",
+    "question": "",
+    "choices": {
+      "A": "April",
+      "B": "May",
+      "C": "June",
+      "D": "August"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "April is 四月",
+      "B": "Correct! 五月 means May",
+      "C": "June is 六月",
+      "D": "August is 八月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "liù yuè — 六月",
+    "question": "",
+    "choices": {
+      "A": "May",
+      "B": "June",
+      "C": "July",
+      "D": "September"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "May is 五月",
+      "B": "Correct! 六月 means June",
+      "C": "July is 七月",
+      "D": "September is 九月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-007",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "qī yuè — 七月",
+    "question": "",
+    "choices": {
+      "A": "June",
+      "B": "July",
+      "C": "August",
+      "D": "October"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "June is 六月",
+      "B": "Correct! 七月 means July",
+      "C": "August is 八月",
+      "D": "October is 十月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-008",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "bā yuè — 八月",
+    "question": "",
+    "choices": {
+      "A": "July",
+      "B": "August",
+      "C": "September",
+      "D": "November"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "July is 七月",
+      "B": "Correct! 八月 means August",
+      "C": "September is 九月",
+      "D": "November is 十一月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-009",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "jiǔ yuè — 九月",
+    "question": "",
+    "choices": {
+      "A": "August",
+      "B": "September",
+      "C": "October",
+      "D": "December"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "August is 八月",
+      "B": "Correct! 九月 means September",
+      "C": "October is 十月",
+      "D": "December is 十二月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-010",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "shí yuè — 十月",
+    "question": "",
+    "choices": {
+      "A": "September",
+      "B": "October",
+      "C": "November",
+      "D": "January"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "September is 九月",
+      "B": "Correct! 十月 means October",
+      "C": "November is 十一月",
+      "D": "January is 一月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-011",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "shí yī yuè — 十一月",
+    "question": "",
+    "choices": {
+      "A": "October",
+      "B": "November",
+      "C": "December",
+      "D": "February"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "October is 十月",
+      "B": "Correct! 十一月 means November",
+      "C": "December is 十二月",
+      "D": "February is 二月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-months-012",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "months",
+    "promptLine": "shí èr yuè — 十二月",
+    "question": "",
+    "choices": {
+      "A": "October",
+      "B": "November",
+      "C": "December",
+      "D": "March"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "October is 十月",
+      "B": "November is 十一月",
+      "C": "Correct! 十二月 means December",
+      "D": "March is 三月"
+    },
+    "tags": ["hsk1b", "months", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "zhōng guó — 中国",
+    "question": "",
+    "choices": {
+      "A": "China",
+      "B": "Japan",
+      "C": "Korea",
+      "D": "France"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 中国 means China",
+      "B": "Japan is 日本",
+      "C": "Korea is 韩国",
+      "D": "France is 法国"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "měi guó — 美国",
+    "question": "",
+    "choices": {
+      "A": "China",
+      "B": "United States",
+      "C": "United Kingdom",
+      "D": "Canada"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "China is 中国",
+      "B": "Correct! 美国 means United States",
+      "C": "United Kingdom is 英国",
+      "D": "Canada is 加拿大"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "rì běn — 日本",
+    "question": "",
+    "choices": {
+      "A": "China",
+      "B": "Japan",
+      "C": "Korea",
+      "D": "Germany"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "China is 中国",
+      "B": "Correct! 日本 means Japan",
+      "C": "Korea is 韩国",
+      "D": "Germany is 德国"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "hán guó — 韩国",
+    "question": "",
+    "choices": {
+      "A": "Japan",
+      "B": "China",
+      "C": "South Korea",
+      "D": "Spain"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Japan is 日本",
+      "B": "China is 中国",
+      "C": "Correct! 韩国 means South Korea",
+      "D": "Spain is 西班牙"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "yīng guó — 英国",
+    "question": "",
+    "choices": {
+      "A": "United States",
+      "B": "United Kingdom",
+      "C": "France",
+      "D": "Australia"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "United States is 美国",
+      "B": "Correct! 英国 means United Kingdom",
+      "C": "France is 法国",
+      "D": "Australia is 澳大利亚"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "fǎ guó — 法国",
+    "question": "",
+    "choices": {
+      "A": "United Kingdom",
+      "B": "France",
+      "C": "Germany",
+      "D": "Spain"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "United Kingdom is 英国",
+      "B": "Correct! 法国 means France",
+      "C": "Germany is 德国",
+      "D": "Spain is 西班牙"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-007",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "dé guó — 德国",
+    "question": "",
+    "choices": {
+      "A": "France",
+      "B": "Germany",
+      "C": "United Kingdom",
+      "D": "Canada"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "France is 法国",
+      "B": "Correct! 德国 means Germany",
+      "C": "United Kingdom is 英国",
+      "D": "Canada is 加拿大"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-008",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "jiā ná dà — 加拿大",
+    "question": "",
+    "choices": {
+      "A": "United States",
+      "B": "Canada",
+      "C": "Australia",
+      "D": "United Kingdom"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "United States is 美国",
+      "B": "Correct! 加拿大 means Canada",
+      "C": "Australia is 澳大利亚",
+      "D": "United Kingdom is 英国"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-009",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "ào dà lì yà — 澳大利亚",
+    "question": "",
+    "choices": {
+      "A": "Canada",
+      "B": "Australia",
+      "C": "United Kingdom",
+      "D": "Germany"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Canada is 加拿大",
+      "B": "Correct! 澳大利亚 means Australia",
+      "C": "United Kingdom is 英国",
+      "D": "Germany is 德国"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-countries-010",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "countries",
+    "promptLine": "xī bān yá — 西班牙",
+    "question": "",
+    "choices": {
+      "A": "France",
+      "B": "Spain",
+      "C": "Germany",
+      "D": "Japan"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "France is 法国",
+      "B": "Correct! 西班牙 means Spain",
+      "C": "Germany is 德国",
+      "D": "Japan is 日本"
+    },
+    "tags": ["hsk1b", "countries", "geo"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "hóng — 红",
+    "question": "",
+    "choices": {
+      "A": "red",
+      "B": "blue",
+      "C": "yellow",
+      "D": "green"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 红 means red",
+      "B": "Blue is 蓝",
+      "C": "Yellow is 黄",
+      "D": "Green is 绿"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "lán — 蓝",
+    "question": "",
+    "choices": {
+      "A": "red",
+      "B": "blue",
+      "C": "green",
+      "D": "black"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Red is 红",
+      "B": "Correct! 蓝 means blue",
+      "C": "Green is 绿",
+      "D": "Black is 黑"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "bái — 白",
+    "question": "",
+    "choices": {
+      "A": "white",
+      "B": "black",
+      "C": "gray",
+      "D": "pink"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 白 means white",
+      "B": "Black is 黑",
+      "C": "Gray is 灰",
+      "D": "Pink is 粉红"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "hēi — 黑",
+    "question": "",
+    "choices": {
+      "A": "white",
+      "B": "black",
+      "C": "gray",
+      "D": "blue"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "White is 白",
+      "B": "Correct! 黑 means black",
+      "C": "Gray is 灰",
+      "D": "Blue is 蓝"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "lǜ — 绿",
+    "question": "",
+    "choices": {
+      "A": "blue",
+      "B": "green",
+      "C": "yellow",
+      "D": "red"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Blue is 蓝",
+      "B": "Correct! 绿 means green",
+      "C": "Yellow is 黄",
+      "D": "Red is 红"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "huáng — 黄",
+    "question": "",
+    "choices": {
+      "A": "red",
+      "B": "green",
+      "C": "yellow",
+      "D": "pink"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Red is 红",
+      "B": "Green is 绿",
+      "C": "Correct! 黄 means yellow",
+      "D": "Pink is 粉红"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-007",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "huī — 灰",
+    "question": "",
+    "choices": {
+      "A": "white",
+      "B": "black",
+      "C": "gray",
+      "D": "blue"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "White is 白",
+      "B": "Black is 黑",
+      "C": "Correct! 灰 means gray",
+      "D": "Blue is 蓝"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-colors-008",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "colors",
+    "promptLine": "fěn hóng — 粉红",
+    "question": "",
+    "choices": {
+      "A": "red",
+      "B": "pink",
+      "C": "white",
+      "D": "yellow"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Red is 红",
+      "B": "Correct! 粉红 means pink",
+      "C": "White is 白",
+      "D": "Yellow is 黄"
+    },
+    "tags": ["hsk1b", "colors", "color"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "gē ge — 哥哥",
+    "question": "",
+    "choices": {
+      "A": "older brother",
+      "B": "younger brother",
+      "C": "older sister",
+      "D": "father"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 哥哥 means older brother",
+      "B": "Younger brother is 弟弟",
+      "C": "Older sister is 姐姐",
+      "D": "Father is 爸爸"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "jiě jie — 姐姐",
+    "question": "",
+    "choices": {
+      "A": "younger sister",
+      "B": "older sister",
+      "C": "mother",
+      "D": "grandmother"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Younger sister is 妹妹",
+      "B": "Correct! 姐姐 means older sister",
+      "C": "Mother is 妈妈",
+      "D": "Grandmother is 奶奶"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "dì di — 弟弟",
+    "question": "",
+    "choices": {
+      "A": "older brother",
+      "B": "younger brother",
+      "C": "son",
+      "D": "grandfather"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Older brother is 哥哥",
+      "B": "Correct! 弟弟 means younger brother",
+      "C": "Son is 儿子",
+      "D": "Grandfather is 爷爷"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "mèi mei — 妹妹",
+    "question": "",
+    "choices": {
+      "A": "older sister",
+      "B": "younger sister",
+      "C": "daughter",
+      "D": "mother"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Older sister is 姐姐",
+      "B": "Correct! 妹妹 means younger sister",
+      "C": "Daughter is 女儿",
+      "D": "Mother is 妈妈"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "yé ye — 爷爷",
+    "question": "",
+    "choices": {
+      "A": "father",
+      "B": "grandfather",
+      "C": "uncle",
+      "D": "older brother"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Father is 爸爸",
+      "B": "Correct! 爷爷 means grandfather (paternal)",
+      "C": "Uncle is 叔叔 or 伯伯",
+      "D": "Older brother is 哥哥"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-family-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "family",
+    "promptLine": "nǎi nai — 奶奶",
+    "question": "",
+    "choices": {
+      "A": "mother",
+      "B": "grandmother",
+      "C": "aunt",
+      "D": "older sister"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Mother is 妈妈",
+      "B": "Correct! 奶奶 means grandmother (paternal)",
+      "C": "Aunt is 阿姨 or 姑姑",
+      "D": "Older sister is 姐姐"
+    },
+    "tags": ["hsk1b", "family", "family"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-001",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "yín háng — 银行",
+    "question": "",
+    "choices": {
+      "A": "bank",
+      "B": "hospital",
+      "C": "company",
+      "D": "supermarket"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 银行 means bank",
+      "B": "Hospital is 医院",
+      "C": "Company is 公司",
+      "D": "Supermarket is 超市"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-002",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "gōng sī — 公司",
+    "question": "",
+    "choices": {
+      "A": "bank",
+      "B": "company",
+      "C": "library",
+      "D": "station"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Bank is 银行",
+      "B": "Correct! 公司 means company",
+      "C": "Library is 图书馆",
+      "D": "Station is 车站"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-003",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "chāo shì — 超市",
+    "question": "",
+    "choices": {
+      "A": "market",
+      "B": "supermarket",
+      "C": "store",
+      "D": "airport"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Market is 市场",
+      "B": "Correct! 超市 means supermarket",
+      "C": "Store is 商店",
+      "D": "Airport is 机场"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-004",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "jī chǎng — 机场",
+    "question": "",
+    "choices": {
+      "A": "station",
+      "B": "airport",
+      "C": "hospital",
+      "D": "library"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Station is 车站",
+      "B": "Correct! 机场 means airport",
+      "C": "Hospital is 医院",
+      "D": "Library is 图书馆"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-005",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "yī yuàn — 医院",
+    "question": "",
+    "choices": {
+      "A": "hospital",
+      "B": "bank",
+      "C": "company",
+      "D": "movie theater"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 医院 means hospital",
+      "B": "Bank is 银行",
+      "C": "Company is 公司",
+      "D": "Movie theater is 电影院"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-006",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "chē zhàn — 车站",
+    "question": "",
+    "choices": {
+      "A": "airport",
+      "B": "station",
+      "C": "supermarket",
+      "D": "library"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Airport is 机场",
+      "B": "Correct! 车站 means station",
+      "C": "Supermarket is 超市",
+      "D": "Library is 图书馆"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-007",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "diàn yǐng yuàn — 电影院",
+    "question": "",
+    "choices": {
+      "A": "library",
+      "B": "movie theater",
+      "C": "hospital",
+      "D": "bank"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Library is 图书馆",
+      "B": "Correct! 电影院 means movie theater",
+      "C": "Hospital is 医院",
+      "D": "Bank is 银行"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1b-places-008",
+    "kind": "vocab",
+    "level": "HSK1b",
+    "unit": "places",
+    "promptLine": "tú shū guǎn — 图书馆",
+    "question": "",
+    "choices": {
+      "A": "movie theater",
+      "B": "library",
+      "C": "company",
+      "D": "station"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Movie theater is 电影院",
+      "B": "Correct! 图书馆 means library",
+      "C": "Company is 公司",
+      "D": "Station is 车站"
+    },
+    "tags": ["hsk1b", "places", "place"],
+    "difficulty": 1
   }
 ]
