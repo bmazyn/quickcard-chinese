@@ -22,6 +22,7 @@ export default function QuizFeed() {
     const saved = localStorage.getItem("selectedLevels");
     return saved ? JSON.parse(saved) : ["HSK1"];
   });
+  const [filteredCards, setFilteredCards] = useState<QuizCardType[]>([]);
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answerState, setAnswerState] = useState<AnswerState>({
@@ -48,11 +49,12 @@ export default function QuizFeed() {
       ...card,
       level: card.level || "HSK1"
     }));
-    const filteredCards = cardsWithLevel.filter(card => 
+    const filtered = cardsWithLevel.filter(card => 
       (card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase') &&
       selectedLevels.includes(card.level as HSKLevel)
     );
-    setShuffledDeck(shuffleArray(filteredCards));
+    setFilteredCards(filtered);
+    setShuffledDeck(shuffleArray(filtered));
   }, [selectedLevels]);
 
   // Clear timer on unmount
@@ -104,9 +106,8 @@ export default function QuizFeed() {
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= shuffledDeck.length) {
-      // Reshuffle and restart
-      const cards = quizCardsData as QuizCardType[];
-      setShuffledDeck(shuffleArray(cards));
+      // Reshuffle and restart with same filtered cards
+      setShuffledDeck(shuffleArray(filteredCards));
       setCurrentIndex(0);
     } else {
       setCurrentIndex(nextIndex);
@@ -124,11 +125,7 @@ export default function QuizFeed() {
     let nextCard: QuizCardType | null = null;
     
     if (nextIndex >= shuffledDeck.length) {
-      // Will reshuffle - get first card of reshuffled deck
-      const cards = quizCardsData as QuizCardType[];
-      const filteredCards = cards.filter(card => 
-        card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase'
-      );
+      // Will reshuffle - get first card of filtered deck
       if (filteredCards.length > 0) {
         nextCard = filteredCards[0]; // Approximate - actual shuffle happens in advanceToNext
       }

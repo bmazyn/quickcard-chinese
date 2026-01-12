@@ -3300,6 +3300,226 @@
     "difficulty": 1
   },
   {
+    "id": "hsk1-151",
+    "kind": "phrase",
+    "level": "HSK1",
+    "promptLine": "nǐ jiào shén me míng zi — 你叫什么名字",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "What's your name?",
+      "B": "How old are you?",
+      "C": "Where are you from?",
+      "D": "What do you do?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你叫什么名字 (nǐ jiào shén me míng zi) means 'What's your name?'",
+      "B": "How old are you is 你几岁 (nǐ jǐ suì) or 你多大 (nǐ duō dà)",
+      "C": "Where are you from is 你是哪里人 (nǐ shì nǎ lǐ rén)",
+      "D": "What do you do is 你做什么工作 (nǐ zuò shén me gōng zuò)"
+    },
+    "tags": ["phrase", "greeting", "introduction"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-152",
+    "kind": "sentence",
+    "level": "HSK1",
+    "promptLine": "wǒ jiào... — 我叫...",
+    "question": "What does this sentence pattern mean?",
+    "choices": {
+      "A": "I am...",
+      "B": "My name is...",
+      "C": "I like...",
+      "D": "I want..."
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I am is 我是 (wǒ shì)",
+      "B": "Correct! 我叫... (wǒ jiào...) means 'My name is...' or 'I'm called...'",
+      "C": "I like is 我喜欢 (wǒ xǐ huan)",
+      "D": "I want is 我想 (wǒ xiǎng) or 我要 (wǒ yào)"
+    },
+    "tags": ["sentence", "introduction"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-153",
+    "kind": "phrase",
+    "level": "HSK1",
+    "promptLine": "zài nǎ lǐ — 在哪里",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "How much?",
+      "B": "Where?",
+      "C": "When?",
+      "D": "Who?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "How much is 多少 (duō shao) or 多少钱 (duō shao qián)",
+      "B": "Correct! 在哪里 (zài nǎ lǐ) means 'where?' (where is/are...)",
+      "C": "When is 什么时候 (shén me shí hou)",
+      "D": "Who is 谁 (shéi/shuí)"
+    },
+    "tags": ["phrase", "question", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-154",
+    "kind": "sentence",
+    "level": "HSK1",
+    "promptLine": "wǒ yào... — 我要...",
+    "question": "What does this sentence pattern mean?",
+    "choices": {
+      "A": "I have...",
+      "B": "I am...",
+      "C": "I want...",
+      "D": "I can..."
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "I have is 我有 (wǒ yǒu)",
+      "B": "I am is 我是 (wǒ shì)",
+      "C": "Correct! 我要... (wǒ yào...) means 'I want...'",
+      "D": "I can is 我会 (wǒ huì) or 我能 (wǒ néng)"
+    },
+    "tags": ["sentence", "request"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-155",
+    "kind": "sentence",
+    "level": "HSK1",
+    "promptLine": "wǒ méi yǒu... — 我没有...",
+    "question": "What does this sentence pattern mean?",
+    "choices": {
+      "A": "I don't have...",
+      "B": "I don't want...",
+      "C": "I don't like...",
+      "D": "I don't know..."
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我没有... (wǒ méi yǒu...) means 'I don't have...'",
+      "B": "I don't want is 我不要 (wǒ bú yào)",
+      "C": "I don't like is 我不喜欢 (wǒ bù xǐ huan)",
+      "D": "I don't know is 我不知道 (wǒ bù zhī dào)"
+    },
+    "tags": ["sentence", "negation"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-156",
+    "kind": "phrase",
+    "level": "HSK1",
+    "promptLine": "zhè shì shén me — 这是什么",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "What is this?",
+      "B": "Who is this?",
+      "C": "Where is this?",
+      "D": "How is this?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 这是什么 (zhè shì shén me) means 'What is this?'",
+      "B": "Who is this is 这是谁 (zhè shì shéi)",
+      "C": "Where is this is 这是哪里 (zhè shì nǎ lǐ)",
+      "D": "How is this is 这怎么样 (zhè zěn me yàng)"
+    },
+    "tags": ["phrase", "question"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-157",
+    "kind": "sentence",
+    "level": "HSK1",
+    "promptLine": "duō shao qián — 多少钱",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "Too expensive",
+      "B": "How much money?",
+      "C": "I have money",
+      "D": "No money"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Too expensive is 太贵了 (tài guì le)",
+      "B": "Correct! 多少钱 (duō shao qián) means 'How much money?' or 'How much does it cost?'",
+      "C": "I have money is 我有钱 (wǒ yǒu qián)",
+      "D": "No money is 没钱 (méi qián)"
+    },
+    "tags": ["phrase", "shopping", "money"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-158",
+    "kind": "phrase",
+    "level": "HSK1",
+    "promptLine": "rèn shi nǐ hěn gāo xìng — 认识你很高兴",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "How are you?",
+      "B": "Nice to meet you",
+      "C": "See you later",
+      "D": "Thank you very much"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "How are you is 你好吗 (nǐ hǎo ma)",
+      "B": "Correct! 认识你很高兴 (rèn shi nǐ hěn gāo xìng) means 'Nice to meet you' (literally 'very happy to know you')",
+      "C": "See you later is 一会儿见 (yí huì r jiàn) or 回头见 (huí tóu jiàn)",
+      "D": "Thank you very much is 非常感谢 (fēi cháng gǎn xiè)"
+    },
+    "tags": ["phrase", "greeting", "courtesy"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-159",
+    "kind": "sentence",
+    "level": "HSK1",
+    "promptLine": "wǒ bù zhī dào — 我不知道",
+    "question": "What does this sentence mean?",
+    "choices": {
+      "A": "I don't understand",
+      "B": "I don't know",
+      "C": "I don't want",
+      "D": "I don't have"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I don't understand is 我不懂 (wǒ bù dǒng) or 我听不懂 (wǒ tīng bu dǒng)",
+      "B": "Correct! 我不知道 (wǒ bù zhī dào) means 'I don't know'",
+      "C": "I don't want is 我不要 (wǒ bú yào)",
+      "D": "I don't have is 我没有 (wǒ méi yǒu)"
+    },
+    "tags": ["sentence", "negation"],
+    "difficulty": 1
+  },
+  {
+    "id": "hsk1-160",
+    "kind": "phrase",
+    "level": "HSK1",
+    "promptLine": "qǐng wèn — 请问",
+    "question": "What does this phrase mean?",
+    "choices": {
+      "A": "Goodbye",
+      "B": "Excuse me / May I ask",
+      "C": "Please come in",
+      "D": "You're welcome"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Goodbye is 再见 (zài jiàn)",
+      "B": "Correct! 请问 (qǐng wèn) means 'Excuse me' or 'May I ask' (polite way to start a question)",
+      "C": "Please come in is 请进 (qǐng jìn)",
+      "D": "You're welcome is 不客气 (bú kè qi)"
+    },
+    "tags": ["phrase", "courtesy", "question"],
+    "difficulty": 1
+  },
+  {
     "id": "hsk2-001",
     "kind": "vocab",
     "level": "HSK2",
@@ -3847,6 +4067,226 @@
       "D": "To paint walls is 刷 (shuā)"
     },
     "tags": ["hsk2", "vocab", "art"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-026",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "yīn wèi — 因为",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "therefore",
+      "B": "because",
+      "C": "but",
+      "D": "if"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Therefore is 所以 (suǒ yǐ)",
+      "B": "Correct! 因为 (yīn wèi) means 'because'",
+      "C": "But is 但是 (dàn shì) or 可是 (kě shì)",
+      "D": "If is 如果 (rú guǒ) or 要是 (yào shi)"
+    },
+    "tags": ["hsk2", "vocab", "conjunction"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-027",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "suǒ yǐ — 所以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "because",
+      "B": "although",
+      "C": "so / therefore",
+      "D": "however"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Because is 因为 (yīn wèi)",
+      "B": "Although is 虽然 (suī rán)",
+      "C": "Correct! 所以 (suǒ yǐ) means 'so' or 'therefore'",
+      "D": "However is 但是 (dàn shì) or 可是 (kě shì)"
+    },
+    "tags": ["hsk2", "vocab", "conjunction"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-028",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "jué de — 觉得",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to know",
+      "B": "to understand",
+      "C": "to feel / think",
+      "D": "to believe"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "To know is 知道 (zhī dào)",
+      "B": "To understand is 懂 (dǒng) or 明白 (míng bai)",
+      "C": "Correct! 觉得 (jué de) means 'to feel' or 'to think' (opinion)",
+      "D": "To believe is 相信 (xiāng xìn)"
+    },
+    "tags": ["hsk2", "vocab", "opinion"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-029",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "kāi shǐ — 开始",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to finish",
+      "B": "to start",
+      "C": "to continue",
+      "D": "to stop"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To finish is 结束 (jié shù) or 完成 (wán chéng)",
+      "B": "Correct! 开始 (kāi shǐ) means 'to start' or 'to begin'",
+      "C": "To continue is 继续 (jì xù)",
+      "D": "To stop is 停 (tíng)"
+    },
+    "tags": ["hsk2", "vocab", "action"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-030",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "jié shù — 结束",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to start",
+      "B": "to pause",
+      "C": "to finish",
+      "D": "to rest"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "To start is 开始 (kāi shǐ)",
+      "B": "To pause is 暂停 (zàn tíng)",
+      "C": "Correct! 结束 (jié shù) means 'to finish' or 'to end'",
+      "D": "To rest is 休息 (xiū xi)"
+    },
+    "tags": ["hsk2", "vocab", "action"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-031",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bāng zhù — 帮助",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to teach",
+      "B": "to help",
+      "C": "to ask",
+      "D": "to give"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To teach is 教 (jiāo)",
+      "B": "Correct! 帮助 (bāng zhù) means 'to help'",
+      "C": "To ask is 问 (wèn)",
+      "D": "To give is 给 (gěi)"
+    },
+    "tags": ["hsk2", "vocab", "action"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-032",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "yì qǐ — 一起",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "alone",
+      "B": "together",
+      "C": "separate",
+      "D": "nearby"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Alone is 一个人 (yí gè rén)",
+      "B": "Correct! 一起 (yì qǐ) means 'together'",
+      "C": "Separate is 分开 (fēn kāi)",
+      "D": "Nearby is 附近 (fù jìn)"
+    },
+    "tags": ["hsk2", "vocab", "adverb"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-033",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "yǐ jīng — 已经",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "not yet",
+      "B": "still",
+      "C": "already",
+      "D": "soon"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Not yet is 还没 (hái méi)",
+      "B": "Still is 还 (hái)",
+      "C": "Correct! 已经 (yǐ jīng) means 'already'",
+      "D": "Soon is 快 (kuài) or 马上 (mǎ shàng)"
+    },
+    "tags": ["hsk2", "vocab", "time"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-034",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "zhèng zài — 正在",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "will do",
+      "B": "just did",
+      "C": "in the process of",
+      "D": "finished doing"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Will do is 会 (huì) or 要 (yào)",
+      "B": "Just did is 刚 (gāng) + verb",
+      "C": "Correct! 正在 (zhèng zài) means 'in the process of' (ongoing action)",
+      "D": "Finished doing is verb + 完了 (wán le)"
+    },
+    "tags": ["hsk2", "vocab", "aspect"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk2-035",
+    "kind": "vocab",
+    "level": "HSK2",
+    "promptLine": "bǐ jiào — 比较",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "very",
+      "B": "too",
+      "C": "comparatively / rather",
+      "D": "extremely"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Very is 很 (hěn)",
+      "B": "Too is 太 (tài)",
+      "C": "Correct! 比较 (bǐ jiào) means 'comparatively' or 'rather' (moderately)",
+      "D": "Extremely is 非常 (fēi cháng)"
+    },
+    "tags": ["hsk2", "vocab", "adverb"],
     "difficulty": 2
   }
 ]
