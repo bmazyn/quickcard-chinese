@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState, HSKLevel } from "../types";
@@ -39,6 +39,9 @@ export default function QuizFeed() {
     return saved ? parseInt(saved, 10) : 0;
   });
 
+  // Track ongoing audio to prevent race conditions
+  const audioPlayingRef = useRef(false);
+
   // const autoAdvanceTimerRef = useRef<number | null>(null);
 
   // Initialize shuffled deck on mount
@@ -56,6 +59,47 @@ export default function QuizFeed() {
     setFilteredCards(filtered);
     setShuffledDeck(shuffleArray(filtered));
   }, [selectedLevels]);
+
+  // Centralized audio playback: play current card's Chinese audio whenever visible card changes
+  useEffect(() => {
+    if (shuffledDeck.length === 0) return;
+    if (!('speechSynthesis' in window)) return;
+
+    const currentCard = shuffledDeck[currentIndex];
+    const hanzi = currentCard.promptLine.split(' — ')[1];
+    if (!hanzi) return;
+
+    // Cancel any previous audio to prevent race conditions
+    window.speechSynthesis.cancel();
+    audioPlayingRef.current = false;
+
+    // Small delay to ensure cancel completes and to work around iOS quirks
+    const timeoutId = setTimeout(() => {
+      const utterance = new SpeechSynthesisUtterance(hanzi);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.9;
+      
+      utterance.onstart = () => {
+        audioPlayingRef.current = true;
+      };
+      
+      utterance.onend = () => {
+        audioPlayingRef.current = false;
+      };
+      
+      utterance.onerror = () => {
+        audioPlayingRef.current = false;
+      };
+      
+      window.speechSynthesis.speak(utterance);
+    }, 100);
+
+    return () => {
+      clearTimeout(timeoutId);
+      window.speechSynthesis.cancel();
+      audioPlayingRef.current = false;
+    };
+  }, [shuffledDeck, currentIndex]);
 
   // Clear timer on unmount
   // useEffect(() => {
@@ -120,32 +164,7 @@ export default function QuizFeed() {
   };
 
   const handleNext = () => {
-    // Calculate next card's hanzi for pronunciation
-    const nextIndex = currentIndex + 1;
-    let nextCard: QuizCardType | null = null;
-    
-    if (nextIndex >= shuffledDeck.length) {
-      // Will reshuffle - get first card of filtered deck
-      if (filteredCards.length > 0) {
-        nextCard = filteredCards[0]; // Approximate - actual shuffle happens in advanceToNext
-      }
-    } else {
-      nextCard = shuffledDeck[nextIndex];
-    }
-    
-    // Pronounce immediately within tap handler (iPhone Safari requirement)
-    if (nextCard && 'speechSynthesis' in window) {
-      const hanzi = nextCard.promptLine.split(' — ')[1];
-      if (hanzi) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(hanzi);
-        utterance.lang = 'zh-CN';
-        utterance.rate = 0.9;
-        window.speechSynthesis.speak(utterance);
-      }
-    }
-    
-    // Advance immediately
+    // Audio will be handled automatically by useEffect when currentIndex changes
     advanceToNext();
   };
 
