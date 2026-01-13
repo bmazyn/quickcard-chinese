@@ -5461,5 +5461,445 @@
     },
     "tags": ["hsk1b", "places", "place"],
     "difficulty": 1
+  },
+  {
+    "id": "hsk1p-001",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "nǐ jiào shén me míng zi — 你叫什么名字",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "What's your name?",
+      "B": "How old are you?",
+      "C": "Where are you from?",
+      "D": "How are you?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你叫什么名字 means 'What's your name?'",
+      "B": "How old are you is 你几岁 or 你多大",
+      "C": "Where are you from is 你是哪里人",
+      "D": "How are you is 你好吗"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-002",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ bù míng bai — 我不明白",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I don't know",
+      "B": "I don't understand",
+      "C": "I don't want",
+      "D": "I don't remember"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I don't know is 我不知道",
+      "B": "Correct! 我不明白 means 'I don't understand'",
+      "C": "I don't want is 我不要",
+      "D": "I don't remember is 我不记得"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-003",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "qǐng zài shuō yí biàn — 请再说一遍",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Please say it again",
+      "B": "I don't understand",
+      "C": "What did you say?",
+      "D": "Can't understand"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 请再说一遍 means 'Please say it again'",
+      "B": "I don't understand is 我不明白",
+      "C": "What did you say is 你说什么",
+      "D": "Can't understand is 听不懂"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-004",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "duō shao qián — 多少钱",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "How much is it?",
+      "B": "What time is it?",
+      "C": "How many people?",
+      "D": "What day is it?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 多少钱 means 'How much is it?' or 'How much money?'",
+      "B": "What time is 几点 or 现在几点",
+      "C": "How many people is 多少人",
+      "D": "What day is 星期几 or 今天几号"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-005",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "méi wèn tí — 没问题",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "No problem",
+      "B": "It doesn't matter",
+      "C": "You're welcome",
+      "D": "Excuse me"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 没问题 means 'No problem'",
+      "B": "It doesn't matter is 没关系",
+      "C": "You're welcome is 不客气",
+      "D": "Excuse me is 不好意思"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-006",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "zài nǎ lǐ — 在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is it?",
+      "B": "What is it?",
+      "C": "When is it?",
+      "D": "Who is it?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在哪里 means 'Where is it?' or 'Where?'",
+      "B": "What is it is 是什么",
+      "C": "When is 什么时候",
+      "D": "Who is 谁"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-007",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ yào zhè ge — 我要这个",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want this one",
+      "B": "I like this one",
+      "C": "I have this one",
+      "D": "I need that one"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我要这个 means 'I want this one'",
+      "B": "I like this one is 我喜欢这个",
+      "C": "I have this one is 我有这个",
+      "D": "I need that one is 我需要那个"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-008",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "qǐng wèn — 请问",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Excuse me / May I ask",
+      "B": "Sorry / I apologize",
+      "C": "Excuse me (casual)",
+      "D": "Thank you"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 请问 means 'Excuse me' or 'May I ask' (polite way to start a question)",
+      "B": "Sorry is 对不起",
+      "C": "Excuse me (casual) is 不好意思",
+      "D": "Thank you is 谢谢"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-009",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "nǐ hǎo ma — 你好吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "How are you?",
+      "B": "What's your name?",
+      "C": "Where are you?",
+      "D": "Are you okay?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你好吗 means 'How are you?'",
+      "B": "What's your name is 你叫什么名字",
+      "C": "Where are you is 你在哪里",
+      "D": "Are you okay is 你还好吗 or 你没事吧"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-010",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ méi yǒu qián — 我没有钱",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I don't have money",
+      "B": "I don't want money",
+      "C": "I have money",
+      "D": "I don't know"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我没有钱 means 'I don't have money'",
+      "B": "I don't want money is 我不要钱",
+      "C": "I have money is 我有钱",
+      "D": "I don't know is 我不知道"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-011",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "zhè shì shén me — 这是什么",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "What is this?",
+      "B": "Who is this?",
+      "C": "Where is this?",
+      "D": "Why is this?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 这是什么 means 'What is this?'",
+      "B": "Who is this is 这是谁",
+      "C": "Where is this is 这是哪里",
+      "D": "Why is 为什么"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-012",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "rèn shi nǐ hěn gāo xìng — 认识你很高兴",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Nice to meet you",
+      "B": "How are you?",
+      "C": "Thank you",
+      "D": "Goodbye"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 认识你很高兴 means 'Nice to meet you' (literally 'very happy to know you')",
+      "B": "How are you is 你好吗",
+      "C": "Thank you is 谢谢你",
+      "D": "Goodbye is 再见"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-013",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ hěn hǎo — 我很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I'm very well",
+      "B": "I'm very busy",
+      "C": "I'm very tired",
+      "D": "I'm very happy"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我很好 means 'I'm very well' or 'I'm fine'",
+      "B": "I'm very busy is 我很忙",
+      "C": "I'm very tired is 我很累",
+      "D": "I'm very happy is 我很高兴 or 我很开心"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-014",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "nǐ huì shuō zhōng wén ma — 你会说中文吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Can you speak Chinese?",
+      "B": "Are you Chinese?",
+      "C": "Do you like Chinese?",
+      "D": "Do you study Chinese?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你会说中文吗 means 'Can you speak Chinese?'",
+      "B": "Are you Chinese is 你是中国人吗",
+      "C": "Do you like Chinese is 你喜欢中文吗",
+      "D": "Do you study Chinese is 你学中文吗"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-015",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "bù hǎo yì si — 不好意思",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Excuse me / Sorry",
+      "B": "You're welcome",
+      "C": "No problem",
+      "D": "Never mind"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 不好意思 means 'Excuse me' or 'Sorry' (less formal than 对不起)",
+      "B": "You're welcome is 不客气",
+      "C": "No problem is 没问题",
+      "D": "Never mind is 没关系"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-016",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ xiǎng hē shuǐ — 我想喝水",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want to drink water",
+      "B": "I want to eat food",
+      "C": "I want to go home",
+      "D": "I want to sleep"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我想喝水 means 'I want to drink water'",
+      "B": "I want to eat food is 我想吃饭",
+      "C": "I want to go home is 我想回家",
+      "D": "I want to sleep is 我想睡觉"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-017",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "nǐ shì nǎ lǐ rén — 你是哪里人",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where are you from?",
+      "B": "What's your name?",
+      "C": "Where are you?",
+      "D": "Where are you going?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你是哪里人 means 'Where are you from?' (literally 'You are where person?')",
+      "B": "What's your name is 你叫什么名字",
+      "C": "Where are you is 你在哪里",
+      "D": "Where are you going is 你去哪里"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-018",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "tài guì le — 太贵了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Too expensive",
+      "B": "Too cheap",
+      "C": "Too many",
+      "D": "Too big"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 太贵了 means 'Too expensive'",
+      "B": "Too cheap is 太便宜了",
+      "C": "Too many is 太多了",
+      "D": "Too big is 太大了"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-019",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "wǒ huí jiā — 我回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I'm going home",
+      "B": "I'm at home",
+      "C": "I have a home",
+      "D": "I'm going to school"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我回家 means 'I'm going home' or 'I go home'",
+      "B": "I'm at home is 我在家",
+      "C": "I have a home is 我有家",
+      "D": "I'm going to school is 我去学校"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1p-020",
+    "kind": "phrase",
+    "level": "HSK1-PHRASE",
+    "promptLine": "nǐ chī le ma — 你吃了吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Have you eaten?",
+      "B": "Are you hungry?",
+      "C": "Do you like eating?",
+      "D": "What did you eat?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你吃了吗 means 'Have you eaten?' (common greeting in Chinese culture)",
+      "B": "Are you hungry is 你饿吗",
+      "C": "Do you like eating is 你喜欢吃吗",
+      "D": "What did you eat is 你吃什么了"
+    },
+    "tags": ["hsk1", "phrase"],
+    "difficulty": 2
   }
 ]
