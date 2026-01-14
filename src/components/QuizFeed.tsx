@@ -207,7 +207,7 @@ export default function QuizFeed() {
         };
         
         window.speechSynthesis.speak(englishUtterance);
-      }, 100);
+      }, 0);
     };
     
     chineseUtterance.onerror = () => {
@@ -246,17 +246,18 @@ export default function QuizFeed() {
             <span className="stat-label">Total ✓</span>
             <span className="stat-value">{totalCorrect}</span>
           </div>
-          {answerState.selectedChoice !== null && (
-            <button 
-              className="reinforcement-audio-button-header"
-              onClick={handleReinforcementAudio}
-              disabled={isPlayingReinforcement}
-              aria-label="Play reinforcement audio"
-            >
-              🔊
-            </button>
-          )}
         </div>
+        
+        {answerState.selectedChoice !== null && (
+          <button 
+            className="reinforcement-audio-button-header"
+            onClick={handleReinforcementAudio}
+            disabled={isPlayingReinforcement}
+            aria-label="Play reinforcement audio"
+          >
+            🔊
+          </button>
+        )}
       </div>
 
       <QuizCard

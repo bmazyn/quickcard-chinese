@@ -21,16 +21,19 @@
 
 .header-container {
   width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  padding: 0 8px;
 }
 
 .home-icon {
   position: absolute;
-  left: 0;
+  left: 8px;
   padding: 8px;
   background: transparent;
   border: none;
@@ -65,6 +68,8 @@
 }
 
 .reinforcement-audio-button-header {
+  position: absolute;
+  right: 8px;
   padding: 6px 10px;
   background: var(--bg-card);
   border: 2px solid var(--border-color);
