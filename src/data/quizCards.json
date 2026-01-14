@@ -5901,5 +5901,555 @@
     },
     "tags": ["hsk1", "phrase"],
     "difficulty": 2
+  },
+  {
+    "id": "hsk1c-001",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "lěng — 冷",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Hot",
+      "B": "Cold",
+      "C": "Warm",
+      "D": "Cool"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Hot is 热 (rè)",
+      "B": "Correct! 冷 (lěng) means 'cold'",
+      "C": "Warm is 暖和 (nuǎn huo)",
+      "D": "Cool is 凉快 (liáng kuai)"
+    },
+    "tags": ["adjective", "temperature"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-002",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "rè — 热",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Cold",
+      "B": "Warm",
+      "C": "Hot",
+      "D": "Freezing"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Cold is 冷 (lěng)",
+      "B": "Warm is 暖和 (nuǎn huo)",
+      "C": "Correct! 热 (rè) means 'hot'",
+      "D": "Freezing is 很冷 (hěn lěng)"
+    },
+    "tags": ["adjective", "temperature"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-003",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "lèi — 累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Sleepy",
+      "B": "Hungry",
+      "C": "Tired",
+      "D": "Busy"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Sleepy is 困 (kùn)",
+      "B": "Hungry is 饿 (è)",
+      "C": "Correct! 累 (lèi) means 'tired'",
+      "D": "Busy is 忙 (máng)"
+    },
+    "tags": ["adjective", "state"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-004",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "è — 饿",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Thirsty",
+      "B": "Hungry",
+      "C": "Full",
+      "D": "Tired"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Thirsty is 渴 (kě)",
+      "B": "Correct! 饿 (è) means 'hungry'",
+      "C": "Full is 饱 (bǎo)",
+      "D": "Tired is 累 (lèi)"
+    },
+    "tags": ["adjective", "state"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-005",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "kě — 渴",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Hungry",
+      "B": "Thirsty",
+      "C": "Tired",
+      "D": "Sick"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Hungry is 饿 (è)",
+      "B": "Correct! 渴 (kě) means 'thirsty'",
+      "C": "Tired is 累 (lèi)",
+      "D": "Sick is 病 (bìng)"
+    },
+    "tags": ["adjective", "state"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-006",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "máng — 忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Free",
+      "B": "Tired",
+      "C": "Busy",
+      "D": "Fast"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Free is 有空 (yǒu kòng)",
+      "B": "Tired is 累 (lèi)",
+      "C": "Correct! 忙 (máng) means 'busy'",
+      "D": "Fast is 快 (kuài)"
+    },
+    "tags": ["adjective", "state"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-007",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "guì — 贵",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Cheap",
+      "B": "Free",
+      "C": "Expensive",
+      "D": "Valuable"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Cheap is 便宜 (pián yi)",
+      "B": "Free is 免费 (miǎn fèi)",
+      "C": "Correct! 贵 (guì) means 'expensive'",
+      "D": "Valuable is 有价值 (yǒu jià zhí)"
+    },
+    "tags": ["adjective", "price"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-008",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "pián yi — 便宜",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Expensive",
+      "B": "Free",
+      "C": "Cheap",
+      "D": "Discount"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Expensive is 贵 (guì)",
+      "B": "Free is 免费 (miǎn fèi)",
+      "C": "Correct! 便宜 (pián yi) means 'cheap' or 'inexpensive'",
+      "D": "Discount is 打折 (dǎ zhé)"
+    },
+    "tags": ["adjective", "price"],
+    "difficulty": 3
+  },
+  {
+    "id": "hsk1c-009",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "gāo — 高",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Short",
+      "B": "Tall",
+      "C": "Long",
+      "D": "Big"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Short is 矮 (ǎi)",
+      "B": "Correct! 高 (gāo) means 'tall' or 'high'",
+      "C": "Long is 长 (cháng)",
+      "D": "Big is 大 (dà)"
+    },
+    "tags": ["adjective", "size"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-010",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "ǎi — 矮",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Tall",
+      "B": "Short",
+      "C": "Small",
+      "D": "Low"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Tall is 高 (gāo)",
+      "B": "Correct! 矮 (ǎi) means 'short' (for height)",
+      "C": "Small is 小 (xiǎo)",
+      "D": "Low is 低 (dī)"
+    },
+    "tags": ["adjective", "size"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-011",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "cháng — 长",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Short",
+      "B": "Tall",
+      "C": "Long",
+      "D": "Wide"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Short is 短 (duǎn)",
+      "B": "Tall is 高 (gāo)",
+      "C": "Correct! 长 (cháng) means 'long'",
+      "D": "Wide is 宽 (kuān)"
+    },
+    "tags": ["adjective", "size"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-012",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "duǎn — 短",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Long",
+      "B": "Tall",
+      "C": "Short",
+      "D": "Small"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Long is 长 (cháng)",
+      "B": "Tall is 高 (gāo)",
+      "C": "Correct! 短 (duǎn) means 'short' (for length)",
+      "D": "Small is 小 (xiǎo)"
+    },
+    "tags": ["adjective", "size"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-013",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "kuài — 快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Slow",
+      "B": "Fast",
+      "C": "Quick",
+      "D": "Soon"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Slow is 慢 (màn)",
+      "B": "Correct! 快 (kuài) means 'fast' or 'quick'",
+      "C": "Quick is also 快 (kuài) - same word",
+      "D": "Soon is 快要 (kuài yào)"
+    },
+    "tags": ["adjective", "speed"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-014",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "màn — 慢",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Fast",
+      "B": "Slow",
+      "C": "Late",
+      "D": "Lazy"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Fast is 快 (kuài)",
+      "B": "Correct! 慢 (màn) means 'slow'",
+      "C": "Late is 晚 (wǎn)",
+      "D": "Lazy is 懒 (lǎn)"
+    },
+    "tags": ["adjective", "speed"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-015",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "xīn — 新",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Old",
+      "B": "Used",
+      "C": "New",
+      "D": "Modern"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Old is 旧 (jiù)",
+      "B": "Used is 二手 (èr shǒu)",
+      "C": "Correct! 新 (xīn) means 'new'",
+      "D": "Modern is 现代 (xiàn dài)"
+    },
+    "tags": ["adjective", "condition"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-016",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "jiù — 旧",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "New",
+      "B": "Old",
+      "C": "Ancient",
+      "D": "Used"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "New is 新 (xīn)",
+      "B": "Correct! 旧 (jiù) means 'old' or 'used'",
+      "C": "Ancient is 古代 (gǔ dài)",
+      "D": "Used is 二手 (èr shǒu) or 旧 can also mean used"
+    },
+    "tags": ["adjective", "condition"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-017",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "duō — 多",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Few",
+      "B": "Many",
+      "C": "Some",
+      "D": "All"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Few is 少 (shǎo)",
+      "B": "Correct! 多 (duō) means 'many' or 'much'",
+      "C": "Some is 一些 (yī xiē)",
+      "D": "All is 都 (dōu)"
+    },
+    "tags": ["adjective", "quantity"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-018",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "shǎo — 少",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Many",
+      "B": "Few",
+      "C": "Some",
+      "D": "None"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Many is 多 (duō)",
+      "B": "Correct! 少 (shǎo) means 'few' or 'little'",
+      "C": "Some is 一些 (yī xiē)",
+      "D": "None is 没有 (méi yǒu)"
+    },
+    "tags": ["adjective", "quantity"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-019",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "pàng — 胖",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Thin",
+      "B": "Fat",
+      "C": "Strong",
+      "D": "Heavy"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Thin is 瘦 (shòu)",
+      "B": "Correct! 胖 (pàng) means 'fat' or 'chubby'",
+      "C": "Strong is 强壮 (qiáng zhuàng)",
+      "D": "Heavy is 重 (zhòng)"
+    },
+    "tags": ["adjective", "body"],
+    "difficulty": 3
+  },
+  {
+    "id": "hsk1c-020",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "shòu — 瘦",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Fat",
+      "B": "Thin",
+      "C": "Weak",
+      "D": "Light"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Fat is 胖 (pàng)",
+      "B": "Correct! 瘦 (shòu) means 'thin' or 'skinny'",
+      "C": "Weak is 弱 (ruò)",
+      "D": "Light is 轻 (qīng)"
+    },
+    "tags": ["adjective", "body"],
+    "difficulty": 3
+  },
+  {
+    "id": "hsk1c-021",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "yuǎn — 远",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Near",
+      "B": "Far",
+      "C": "Away",
+      "D": "Distance"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Near is 近 (jìn)",
+      "B": "Correct! 远 (yuǎn) means 'far' or 'distant'",
+      "C": "Away is 离开 (lí kāi)",
+      "D": "Distance is 距离 (jù lí)"
+    },
+    "tags": ["adjective", "distance"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-022",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "jìn — 近",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Far",
+      "B": "Near",
+      "C": "Close",
+      "D": "Next to"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Far is 远 (yuǎn)",
+      "B": "Correct! 近 (jìn) means 'near' or 'close'",
+      "C": "Close is also 近 (jìn) - same word",
+      "D": "Next to is 旁边 (páng biān)"
+    },
+    "tags": ["adjective", "distance"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-023",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "zǎo — 早",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Late",
+      "B": "Early",
+      "C": "Morning",
+      "D": "Soon"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Late is 晚 (wǎn)",
+      "B": "Correct! 早 (zǎo) means 'early'",
+      "C": "Morning is 早上 (zǎo shang)",
+      "D": "Soon is 快 (kuài) or 很快 (hěn kuài)"
+    },
+    "tags": ["adjective", "time"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-024",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "wǎn — 晚",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Early",
+      "B": "Late",
+      "C": "Evening",
+      "D": "Night"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Early is 早 (zǎo)",
+      "B": "Correct! 晚 (wǎn) means 'late'",
+      "C": "Evening is 晚上 (wǎn shang)",
+      "D": "Night is 夜晚 (yè wǎn)"
+    },
+    "tags": ["adjective", "time"],
+    "difficulty": 2
+  },
+  {
+    "id": "hsk1c-025",
+    "kind": "phrase",
+    "level": "HSK1c",
+    "promptLine": "nán — 难",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Easy",
+      "B": "Difficult",
+      "C": "Hard",
+      "D": "Complex"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Easy is 容易 (róng yì)",
+      "B": "Correct! 难 (nán) means 'difficult' or 'hard'",
+      "C": "Hard is also 难 (nán) - same meaning",
+      "D": "Complex is 复杂 (fù zá)"
+    },
+    "tags": ["adjective", "difficulty"],
+    "difficulty": 3
   }
 ]
