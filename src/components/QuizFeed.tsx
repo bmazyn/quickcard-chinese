@@ -41,6 +41,10 @@ export default function QuizFeed() {
 
   // Track ongoing audio to prevent race conditions
   const audioPlayingRef = useRef(false);
+  
+  // Reinforcement audio state
+  const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
+  const reinforcementTimeoutRef = useRef<number | null>(null);
 
   // const autoAdvanceTimerRef = useRef<number | null>(null);
 
@@ -168,6 +172,51 @@ export default function QuizFeed() {
     advanceToNext();
   };
 
+  const handleReinforcementAudio = () => {
+    if (!('speechSynthesis' in window)) return;
+    if (isPlayingReinforcement) return;
+    if (answerState.selectedChoice === null) return; // Only play if answered
+    
+    if (reinforcementTimeoutRef.current !== null) {
+      clearTimeout(reinforcementTimeoutRef.current);
+    }
+    
+    window.speechSynthesis.cancel();
+    setIsPlayingReinforcement(true);
+    
+    const currentCard = shuffledDeck[currentIndex];
+    const hanzi = currentCard.promptLine.split(' — ')[1];
+    
+    const chineseUtterance = new SpeechSynthesisUtterance(hanzi);
+    chineseUtterance.lang = 'zh-CN';
+    chineseUtterance.rate = 0.9;
+    
+    chineseUtterance.onend = () => {
+      reinforcementTimeoutRef.current = window.setTimeout(() => {
+        const englishText = currentCard.choices[currentCard.correct];
+        const englishUtterance = new SpeechSynthesisUtterance(englishText);
+        englishUtterance.lang = 'en-US';
+        englishUtterance.rate = 0.9;
+        
+        englishUtterance.onend = () => {
+          setIsPlayingReinforcement(false);
+        };
+        
+        englishUtterance.onerror = () => {
+          setIsPlayingReinforcement(false);
+        };
+        
+        window.speechSynthesis.speak(englishUtterance);
+      }, 100);
+    };
+    
+    chineseUtterance.onerror = () => {
+      setIsPlayingReinforcement(false);
+    };
+    
+    window.speechSynthesis.speak(chineseUtterance);
+  };
+
   if (shuffledDeck.length === 0) {
     return <div className="quiz-feed loading">Loading cards...</div>;
   }
@@ -197,6 +246,16 @@ export default function QuizFeed() {
             <span className="stat-label">Total ✓</span>
             <span className="stat-value">{totalCorrect}</span>
           </div>
+          {answerState.selectedChoice !== null && (
+            <button 
+              className="reinforcement-audio-button-header"
+              onClick={handleReinforcementAudio}
+              disabled={isPlayingReinforcement}
+              aria-label="Play reinforcement audio"
+            >
+              🔊
+            </button>
+          )}
         </div>
       </div>
 
