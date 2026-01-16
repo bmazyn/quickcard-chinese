@@ -325,7 +325,6 @@
     "id": "hsk1-015",
     "kind": "vocab",
     "level": "HSK1",
-    "deck": "Foundation 1",
     "promptLine": "zhōng guó — 中国",
     "question": "What does this mean?",
     "choices": {
@@ -486,6 +485,7 @@
     "id": "hsk1-022",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "yī — 一",
     "question": "What number is this?",
     "choices": {
@@ -508,6 +508,7 @@
     "id": "hsk1-023",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "èr — 二",
     "question": "What number is this?",
     "choices": {
@@ -530,6 +531,7 @@
     "id": "hsk1-024",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "sān — 三",
     "question": "What number is this?",
     "choices": {
@@ -552,6 +554,7 @@
     "id": "hsk1-025",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "sì — 四",
     "question": "What number is this?",
     "choices": {
@@ -574,6 +577,7 @@
     "id": "hsk1-026",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "wǔ — 五",
     "question": "What number is this?",
     "choices": {
@@ -596,6 +600,7 @@
     "id": "hsk1-027",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "liù — 六",
     "question": "What number is this?",
     "choices": {
@@ -618,6 +623,7 @@
     "id": "hsk1-028",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "qī — 七",
     "question": "What number is this?",
     "choices": {
@@ -640,6 +646,7 @@
     "id": "hsk1-029",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "bā — 八",
     "question": "What number is this?",
     "choices": {
@@ -662,6 +669,7 @@
     "id": "hsk1-030",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "jiǔ — 九",
     "question": "What number is this?",
     "choices": {
@@ -684,6 +692,7 @@
     "id": "hsk1-031",
     "kind": "vocab",
     "level": "HSK1",
+    "deck": "Numbers",
     "promptLine": "shí — 十",
     "question": "What number is this?",
     "choices": {

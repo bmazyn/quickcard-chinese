@@ -21,6 +21,11 @@ export default function LandingPage() {
     return saved ? JSON.parse(saved) : [];
   });
 
+  const [masteredSections, setMasteredSections] = useState<Record<string, boolean>>(() => {
+    const saved = localStorage.getItem("quickcard_mastered_sections");
+    return saved ? JSON.parse(saved) : {};
+  });
+
   useEffect(() => {
     localStorage.setItem("selectedLevels", JSON.stringify(selectedLevels));
   }, [selectedLevels]);
@@ -91,7 +96,15 @@ export default function LandingPage() {
                 checked={selectedDecks.includes("Foundation 1")}
                 onChange={() => handleDeckToggle("Foundation 1")}
               />
-              <span>Foundation 1</span>
+              <span>Foundation 1 {masteredSections["Foundation 1"] && "✅"}</span>
+            </label>
+            <label className="level-checkbox">
+              <input
+                type="checkbox"
+                checked={selectedDecks.includes("Numbers")}
+                onChange={() => handleDeckToggle("Numbers")}
+              />
+              <span>Numbers {masteredSections["Numbers"] && "✅"}</span>
             </label>
           </div>
         </div>
@@ -104,7 +117,7 @@ export default function LandingPage() {
                 checked={selectedLevels.includes("HSK1")}
                 onChange={() => handleLevelToggle("HSK1")}
               />
-              <span>HSK1</span>
+              <span>HSK1 {masteredSections["HSK1"] && "✅"}</span>
             </label>
             <label className="level-checkbox">
               <input
@@ -112,7 +125,7 @@ export default function LandingPage() {
                 checked={selectedLevels.includes("HSK1b")}
                 onChange={() => handleLevelToggle("HSK1b")}
               />
-              <span>HSK1b</span>
+              <span>HSK1b {masteredSections["HSK1b"] && "✅"}</span>
             </label>
             <label className="level-checkbox">
               <input
@@ -120,7 +133,7 @@ export default function LandingPage() {
                 checked={selectedLevels.includes("HSK1-PHRASE")}
                 onChange={() => handleLevelToggle("HSK1-PHRASE")}
               />
-              <span>HSK1-PHRASE</span>
+              <span>HSK1-PHRASE {masteredSections["HSK1-PHRASE"] && "✅"}</span>
             </label>
             <label className="level-checkbox">
               <input
@@ -128,7 +141,7 @@ export default function LandingPage() {
                 checked={selectedLevels.includes("HSK1c")}
                 onChange={() => handleLevelToggle("HSK1c")}
               />
-              <span>HSK1c</span>
+              <span>HSK1c {masteredSections["HSK1c"] && "✅"}</span>
             </label>
             <label className="level-checkbox">
               <input
@@ -136,7 +149,7 @@ export default function LandingPage() {
                 checked={selectedLevels.includes("HSK2")}
                 onChange={() => handleLevelToggle("HSK2")}
               />
-              <span>HSK2</span>
+              <span>HSK2 {masteredSections["HSK2"] && "✅"}</span>
             </label>
           </div>
         </div>

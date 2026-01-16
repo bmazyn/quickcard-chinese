@@ -43,6 +43,14 @@ export default function QuizFeed() {
     return saved ? parseInt(saved, 10) : 0;
   });
 
+  // Section Mastery tracking
+  const [loopIndex, setLoopIndex] = useState(0);
+  const [loopMissed, setLoopMissed] = useState(false);
+  const [pendingLoopRestart, setPendingLoopRestart] = useState(false);
+  const [isReshuffling, setIsReshuffling] = useState(false);
+  const [showMasteryComplete, setShowMasteryComplete] = useState(false);
+  const currentSectionId = selectedDecks.length > 0 ? selectedDecks.join(',') : selectedLevels.join(',');
+
   // Track ongoing audio to prevent race conditions
   const audioPlayingRef = useRef(false);
   
@@ -75,6 +83,8 @@ export default function QuizFeed() {
     
     setFilteredCards(filtered);
     setShuffledDeck(shuffleArray(filtered));
+    setLoopIndex(0);
+    setLoopMissed(false);
   }, [selectedLevels, selectedDecks]);
 
   // Centralized audio playback: play current card's Chinese audio whenever visible card changes
@@ -147,8 +157,25 @@ export default function QuizFeed() {
         setBestStreak(newStreak);
         localStorage.setItem("bestStreak", newStreak.toString());
       }
+
+      // Increment loop progress
+      const newLoopIndex = loopIndex + 1;
+      setLoopIndex(newLoopIndex);
+
+      // Check if loop completed perfectly
+      if (newLoopIndex >= shuffledDeck.length && !loopMissed) {
+        // Mark section as mastered
+        const masteredSections = JSON.parse(localStorage.getItem("quickcard_mastered_sections") || "{}");
+        masteredSections[currentSectionId] = true;
+        localStorage.setItem("quickcard_mastered_sections", JSON.stringify(masteredSections));
+        
+        // Show mastery completion screen (every time, regardless of previous mastery)
+        setShowMasteryComplete(true);
+      }
     } else {
       setStreak(0);
+      // Wrong answer: set flag to restart loop on Next press
+      setPendingLoopRestart(true);
     }
 
     // Auto-advance after 1 second
@@ -164,12 +191,32 @@ export default function QuizFeed() {
     //   autoAdvanceTimerRef.current = null;
     // }
 
+    // If pending loop restart from wrong answer, reshuffle and restart
+    if (pendingLoopRestart) {
+      setIsReshuffling(true);
+      setPendingLoopRestart(false);
+      
+      setTimeout(() => {
+        setShuffledDeck(shuffleArray(filteredCards));
+        setCurrentIndex(0);
+        setLoopIndex(0);
+        setAnswerState({
+          selectedChoice: null,
+          isCorrect: null,
+        });
+        setIsReshuffling(false);
+      }, 700);
+      return;
+    }
+
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= shuffledDeck.length) {
       // Reshuffle and restart with same filtered cards
       setShuffledDeck(shuffleArray(filteredCards));
       setCurrentIndex(0);
+      setLoopIndex(0);
+      setLoopMissed(false);
     } else {
       setCurrentIndex(nextIndex);
     }
@@ -183,6 +230,18 @@ export default function QuizFeed() {
   const handleNext = () => {
     // Audio will be handled automatically by useEffect when currentIndex changes
     advanceToNext();
+  };
+
+  const handleContinueMastery = () => {
+    setShowMasteryComplete(false);
+    setShuffledDeck(shuffleArray(filteredCards));
+    setCurrentIndex(0);
+    setLoopIndex(0);
+    setLoopMissed(false);
+    setAnswerState({
+      selectedChoice: null,
+      isCorrect: null,
+    });
   };
 
   const handleReinforcementAudio = () => {
@@ -238,6 +297,100 @@ export default function QuizFeed() {
 
   return (
     <div className="quiz-feed">
+      {isReshuffling && (
+        <div style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          backgroundColor: 'var(--bg-card)',
+          padding: '16px 24px',
+          borderRadius: '12px',
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
+          zIndex: 1000,
+          display: 'flex',
+          alignItems: 'center',
+          gap: '12px',
+          fontSize: '1.125rem',
+          fontWeight: 500,
+          color: 'var(--text-primary)'
+        }}>
+          <span style={{ fontSize: '1.5rem' }}>🔀</span>
+          <span>Reshuffling…</span>
+        </div>
+      )}
+      {showMasteryComplete && (
+        <div style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          backgroundColor: 'var(--bg-card)',
+          padding: '32px 40px',
+          borderRadius: '12px',
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
+          zIndex: 1000,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '24px',
+          minWidth: '280px'
+        }}>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '8px'
+          }}>
+            <div style={{ fontSize: '3rem' }}>✅</div>
+            <div style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>100% Mastered!</div>
+          </div>
+          <div style={{
+            display: 'flex',
+            gap: '12px',
+            width: '100%'
+          }}>
+            <button
+              onClick={() => navigate("/")}
+              style={{
+                flex: 1,
+                padding: '12px 20px',
+                fontSize: '1rem',
+                fontWeight: 500,
+                color: 'var(--text-primary)',
+                backgroundColor: 'var(--bg-hover)',
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                transition: 'opacity 0.2s'
+              }}
+              onMouseOver={(e) => e.currentTarget.style.opacity = '0.8'}
+              onMouseOut={(e) => e.currentTarget.style.opacity = '1'}
+            >
+              Back to Home
+            </button>
+            <button
+              onClick={handleContinueMastery}
+              style={{
+                flex: 1,
+                padding: '12px 20px',
+                fontSize: '1rem',
+                fontWeight: 600,
+                color: 'white',
+                backgroundColor: 'var(--accent-color)',
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                transition: 'opacity 0.2s'
+              }}
+              onMouseOver={(e) => e.currentTarget.style.opacity = '0.9'}
+              onMouseOut={(e) => e.currentTarget.style.opacity = '1'}
+            >
+              Continue
+            </button>
+          </div>
+        </div>
+      )}
       <div className="header-container">
         <button className="home-icon" onClick={() => navigate("/")} aria-label="Go to home">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -256,8 +409,8 @@ export default function QuizFeed() {
             <span className="stat-value">{bestStreak}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Total ✓</span>
-            <span className="stat-value">{totalCorrect}</span>
+            <span className="stat-label">Loop</span>
+            <span className="stat-value">{Math.floor(100 * loopIndex / shuffledDeck.length)}%</span>
           </div>
         </div>
         
@@ -278,6 +431,7 @@ export default function QuizFeed() {
         answerState={answerState}
         onAnswer={handleAnswer}
         onNext={handleNext}
+        isDisabled={isReshuffling || showMasteryComplete}
       />
 
       <div className="progress-indicator">
