@@ -106,15 +106,6 @@ export default function LandingPage() {
             </span>
           </div>
           
-          <button 
-            className="play-audio-button"
-            onClick={() => {
-              navigate('/audio-loop?section=Foundation');
-            }}
-          >
-            🔊 Play Audio
-          </button>
-          
           <div className="blocks-grid">
             <div 
               className={`block-card ${
@@ -219,6 +210,19 @@ export default function LandingPage() {
         </div>
 
         <div className="start-button-footer">
+          <button 
+            className="play-audio-button"
+            onClick={() => {
+              if (selectedDecks.length > 0) {
+                navigate(`/audio-loop?decks=${encodeURIComponent(selectedDecks.join(','))}`);
+              } else if (selectedLevels.length > 0) {
+                navigate(`/audio-loop?levels=${encodeURIComponent(selectedLevels.join(','))}`);
+              }
+            }}
+            disabled={selectedLevels.length === 0 && selectedDecks.length === 0}
+          >
+            🔊 Play Audio
+          </button>
           <button 
             className="start-button"
             onClick={handleStart}

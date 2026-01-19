@@ -9,33 +9,50 @@ export default function AudioLoop() {
   const { theme } = useTheme();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const sectionName = searchParams.get("section") || "";
+  const decksParam = searchParams.get("decks") || "";
+  const levelsParam = searchParams.get("levels") || "";
+  const sectionParam = searchParams.get("section") || "";
 
   const [cards, setCards] = useState<QuizCard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  const [displayTitle, setDisplayTitle] = useState("");
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const timeoutRef = useRef<number | null>(null);
 
-  // Load cards for the section
+  // Load cards for the selected decks/levels
   useEffect(() => {
     let sectionCards: QuizCard[] = [];
+    let title = "Audio Loop";
     
-    if (sectionName === "Foundation") {
-      // Load all Foundation decks
+    if (decksParam) {
+      // Load selected decks
+      const selectedDecks = decksParam.split(',');
+      sectionCards = quizCardsData.filter((card) => 
+        card.deck && selectedDecks.includes(card.deck)
+      ) as QuizCard[];
+      title = selectedDecks.length === 1 ? selectedDecks[0] : `${selectedDecks.length} Decks`;
+    } else if (levelsParam) {
+      // Load selected levels
+      const selectedLevels = levelsParam.split(',');
+      sectionCards = quizCardsData.filter((card) => 
+        selectedLevels.includes(card.level)
+      ) as QuizCard[];
+      title = selectedLevels.length === 1 ? selectedLevels[0] : `${selectedLevels.length} Levels`;
+    } else if (sectionParam === "Foundation") {
+      // Legacy support: Load all Foundation decks
       const foundationDecks = ["Foundation 1", "Numbers", "Time 1", "Greetings 1"];
       sectionCards = quizCardsData.filter((card) => 
         foundationDecks.includes(card.deck || "")
       ) as QuizCard[];
-    } else {
-      // Load specific deck
-      sectionCards = quizCardsData.filter((card) => card.deck === sectionName) as QuizCard[];
+      title = "Foundation";
     }
     
     setCards(sectionCards);
-  }, [sectionName]);
+    setDisplayTitle(title);
+  }, [decksParam, levelsParam, sectionParam]);
 
   // Parse pinyin and hanzi from promptLine (format: "pinyin — hanzi")
   const parseCard = (card: QuizCard) => {
@@ -121,7 +138,7 @@ export default function AudioLoop() {
     if (!isPlaying || isPaused) return;
 
     // Advance to next card
-    setCurrentIndex((prev) => prev + 1);
+    setCurrentIndex((prev) => (prev + 1) % cards.length);
   };
 
   // Handle play button
@@ -174,6 +191,13 @@ export default function AudioLoop() {
     };
   }, []);
 
+  // Guard: Reset index if out of bounds
+  useEffect(() => {
+    if (cards.length > 0 && currentIndex >= cards.length) {
+      setCurrentIndex(0);
+    }
+  }, [currentIndex, cards.length]);
+
   if (cards.length === 0) {
     return (
       <div className={`audio-loop ${theme}`}>
@@ -185,7 +209,7 @@ export default function AudioLoop() {
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
               </svg>
             </button>
-            <h2 className="audio-loop-title">{sectionName}</h2>
+            <h2 className="audio-loop-title">{displayTitle}</h2>
           </div>
           <p className="no-cards">No cards found for this section</p>
         </div>
@@ -209,7 +233,7 @@ export default function AudioLoop() {
               <polyline points="9 22 9 12 15 12 15 22"></polyline>
             </svg>
           </button>
-          <h2 className="audio-loop-title">{sectionName}</h2>
+          <h2 className="audio-loop-title">{displayTitle}</h2>
         </div>
 
         <div className="audio-loop-card">
