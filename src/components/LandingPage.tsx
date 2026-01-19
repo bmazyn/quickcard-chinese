@@ -92,27 +92,78 @@ export default function LandingPage() {
           </button>
         </div>
 
-        <div className="level-selection">
-          <div className="level-checkboxes">
-            <label className="level-checkbox">
-              <input
-                type="checkbox"
-                checked={selectedDecks.includes("Foundation 1")}
-                onChange={() => handleDeckToggle("Foundation 1")}
-              />
-              <span>Foundation 1 {masteredSections["Foundation 1"] && "✅"}</span>
-            </label>
-            <label className="level-checkbox">
-              <input
-                type="checkbox"
-                checked={selectedDecks.includes("Numbers")}
-                onChange={() => handleDeckToggle("Numbers")}
-              />
-              <span>Numbers {masteredSections["Numbers"] && "✅"}</span>
-            </label>
+        {/* Foundation Section */}
+        <div className="section">
+          <div className="section-header">
+            <h2 className="section-title">Foundation</h2>
+            <span className="section-mastery">
+              {[
+                masteredSections["Foundation 1"],
+                masteredSections["Numbers"],
+                masteredSections["Time 1"],
+                masteredSections["Greetings 1"]
+              ].filter(Boolean).length} / 4 mastered
+            </span>
           </div>
+          
+          <div className="blocks-grid">
+            <div 
+              className={`block-card ${
+                selectedDecks.includes("Foundation 1") ? "selected" : ""
+              }`}
+              onClick={() => handleDeckToggle("Foundation 1")}
+            >
+              <span className="block-name">Foundation 1</span>
+              {masteredSections["Foundation 1"] && <span className="block-mastery">✅</span>}
+            </div>
+            
+            <div 
+              className={`block-card ${
+                selectedDecks.includes("Numbers") ? "selected" : ""
+              }`}
+              onClick={() => handleDeckToggle("Numbers")}
+            >
+              <span className="block-name">Numbers</span>
+              {masteredSections["Numbers"] && <span className="block-mastery">✅</span>}
+            </div>
+            
+            <div 
+              className={`block-card ${
+                selectedDecks.includes("Time 1") ? "selected" : ""
+              }`}
+              onClick={() => handleDeckToggle("Time 1")}
+            >
+              <span className="block-name">Time 1</span>
+              {masteredSections["Time 1"] && <span className="block-mastery">✅</span>}
+            </div>
+            
+            <div 
+              className={`block-card ${
+                selectedDecks.includes("Greetings 1") ? "selected" : ""
+              }`}
+              onClick={() => handleDeckToggle("Greetings 1")}
+            >
+              <span className="block-name">Greetings 1</span>
+              {masteredSections["Greetings 1"] && <span className="block-mastery">✅</span>}
+            </div>
+          </div>
+          
+          <button 
+            className="speedrun-button"
+            disabled={
+              ![
+                masteredSections["Foundation 1"],
+                masteredSections["Numbers"],
+                masteredSections["Time 1"],
+                masteredSections["Greetings 1"]
+              ].every(Boolean)
+            }
+          >
+            🏃 Speedrun
+          </button>
         </div>
 
+        {/* Legacy Level Selection */}
         <div className="level-selection">
           <div className="level-checkboxes">
             <label className="level-checkbox">
@@ -158,13 +209,15 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <button 
-          className="start-button"
-          onClick={handleStart}
-          disabled={selectedLevels.length === 0 && selectedDecks.length === 0}
-        >
-          Start
-        </button>
+        <div className="start-button-footer">
+          <button 
+            className="start-button"
+            onClick={handleStart}
+            disabled={selectedLevels.length === 0 && selectedDecks.length === 0}
+          >
+            Start
+          </button>
+        </div>
       </div>
     </div>
   );
