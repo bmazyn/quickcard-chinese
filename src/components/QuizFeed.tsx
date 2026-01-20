@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import QuizCard from "./QuizCard";
-import type { QuizCard as QuizCardType, ChoiceKey, AnswerState, HSKLevel } from "../types";
+import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
 // Single source of truth for all quiz content - DO NOT modify or supplement
 import quizCardsData from "../data/quizCards.json";
 import "./QuizFeed.css";
@@ -18,10 +18,6 @@ function shuffleArray<T>(array: T[]): T[] {
 
 export default function QuizFeed() {
   const navigate = useNavigate();
-  const [selectedLevels] = useState<HSKLevel[]>(() => {
-    const saved = localStorage.getItem("selectedLevels");
-    return saved ? JSON.parse(saved) : ["HSK1"];
-  });
   const [selectedDecks] = useState<string[]>(() => {
     const saved = localStorage.getItem("selectedDecks");
     return saved ? JSON.parse(saved) : [];
@@ -49,7 +45,7 @@ export default function QuizFeed() {
   const [pendingLoopRestart, setPendingLoopRestart] = useState(false);
   const [isReshuffling, setIsReshuffling] = useState(false);
   const [showMasteryComplete, setShowMasteryComplete] = useState(false);
-  const currentSectionId = selectedDecks.length > 0 ? selectedDecks.join(',') : selectedLevels.join(',');
+  const currentSectionId = selectedDecks.join(',');
 
   // Track ongoing audio to prevent race conditions
   const audioPlayingRef = useRef(false);
@@ -63,29 +59,18 @@ export default function QuizFeed() {
   // Initialize shuffled deck on mount
   useEffect(() => {
     const allCards = quizCardsData as QuizCardType[];
-    // Add runtime validation: default missing level to HSK1 for backward compatibility
-    const cardsWithLevel = allCards.map(card => ({
-      ...card,
-      level: card.level || "HSK1"
-    }));
     
-    const filtered = cardsWithLevel.filter(card => {
+    const filtered = allCards.filter(card => {
       const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
-      
-      // If decks are selected, filter by deck only
-      if (selectedDecks.length > 0) {
-        return isValidKind && card.deck && selectedDecks.includes(card.deck);
-      }
-      
-      // Otherwise, filter by level
-      return isValidKind && selectedLevels.includes(card.level as HSKLevel);
+      // Filter by deck only
+      return isValidKind && card.deck && selectedDecks.includes(card.deck);
     });
     
     setFilteredCards(filtered);
     setShuffledDeck(shuffleArray(filtered));
     setLoopIndex(0);
     setLoopMissed(false);
-  }, [selectedLevels, selectedDecks]);
+  }, [selectedDecks]);
 
   // Centralized audio playback: play current card's Chinese audio whenever visible card changes
   useEffect(() => {

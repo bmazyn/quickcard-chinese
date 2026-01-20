@@ -19,8 +19,12 @@
       "C": "Thank you is 谢谢 (xiè xie)",
       "D": "Good morning is 早上好 (zǎo shang hǎo)"
     },
-    "tags": ["greeting", "basic"],
-    "difficulty": 1
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-002",
@@ -42,8 +46,12 @@
       "C": "Sorry is 对不起 (duì bu qǐ)",
       "D": "Please is 请 (qǐng)"
     },
-    "tags": ["greeting", "basic"],
-    "difficulty": 1
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-003",
@@ -65,8 +73,12 @@
       "C": "Correct! 谢谢 (xiè xie) means 'thank you'",
       "D": "Excuse me is 不好意思 (bù hǎo yì si)"
     },
-    "tags": ["courtesy", "basic"],
-    "difficulty": 1
+    "tags": [
+      "courtesy",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-004",
@@ -88,8 +100,12 @@
       "C": "Correct! 我 (wǒ) means 'I' or 'me'",
       "D": "We is 我们 (wǒ men)"
     },
-    "tags": ["pronoun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-005",
@@ -111,8 +127,12 @@
       "C": "He is 他 (tā)",
       "D": "She is 她 (tā)"
     },
-    "tags": ["pronoun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-006",
@@ -134,8 +154,12 @@
       "C": "Correct! 他 (tā) means 'he' or 'him'",
       "D": "It is 它 (tā)"
     },
-    "tags": ["pronoun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-007",
@@ -157,8 +181,12 @@
       "C": "To go is 去 (qù)",
       "D": "To come is 来 (lái)"
     },
-    "tags": ["verb", "basic"],
-    "difficulty": 1
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-008",
@@ -180,8 +208,12 @@
       "C": "To want is 要 (yào)",
       "D": "To know is 知道 (zhī dào)"
     },
-    "tags": ["verb", "basic"],
-    "difficulty": 1
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-009",
@@ -203,8 +235,12 @@
       "C": "Also is 也 (yě)",
       "D": "Very is 很 (hěn)"
     },
-    "tags": ["adverb", "basic"],
-    "difficulty": 1
+    "tags": [
+      "adverb",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-010",
@@ -226,8 +262,12 @@
       "C": "Questions use 吗 (ma)",
       "D": "Location uses 在 (zài)"
     },
-    "tags": ["particle", "grammar"],
-    "difficulty": 1
+    "tags": [
+      "particle",
+      "grammar"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-011",
@@ -249,8 +289,12 @@
       "C": "Comparative uses 更 (gèng)",
       "D": "Possessive uses 的 (de)"
     },
-    "tags": ["particle", "grammar"],
-    "difficulty": 1
+    "tags": [
+      "particle",
+      "grammar"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-012",
@@ -272,8 +316,12 @@
       "C": "Also is 也 (yě)",
       "D": "Too is 太 (tài)"
     },
-    "tags": ["adverb", "basic"],
-    "difficulty": 1
+    "tags": [
+      "adverb",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-013",
@@ -295,8 +343,12 @@
       "C": "Correct! 也 (yě) means 'also' or 'too'",
       "D": "Still is 还 (hái)"
     },
-    "tags": ["adverb", "basic"],
-    "difficulty": 1
+    "tags": [
+      "adverb",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-014",
@@ -318,30 +370,12 @@
       "C": "Family is 家 (jiā)",
       "D": "Friend is 朋友 (péng you)"
     },
-    "tags": ["noun", "basic"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-015",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "zhōng guó — 中国",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "America",
-      "B": "China",
-      "C": "Japan",
-      "D": "Korea"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "America is 美国 (měi guó)",
-      "B": "Correct! 中国 (zhōng guó) means 'China' (literally 'middle country')",
-      "C": "Japan is 日本 (rì běn)",
-      "D": "Korea is 韩国 (hán guó)"
-    },
-    "tags": ["country", "noun"],
-    "difficulty": 1
+    "tags": [
+      "noun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-016",
@@ -363,8 +397,12 @@
       "C": "Address is 地址 (dì zhǐ)",
       "D": "Phone is 电话 (diàn huà)"
     },
-    "tags": ["noun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "noun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-017",
@@ -386,8 +424,12 @@
       "C": "Correct! 什么 (shén me) means 'what'",
       "D": "Where is 哪里 (nǎ lǐ)"
     },
-    "tags": ["question", "pronoun"],
-    "difficulty": 1
+    "tags": [
+      "question",
+      "pronoun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-018",
@@ -409,8 +451,12 @@
       "C": "How is 怎么 (zěn me)",
       "D": "Why is 为什么 (wèi shén me)"
     },
-    "tags": ["question", "pronoun"],
-    "difficulty": 1
+    "tags": [
+      "question",
+      "pronoun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-019",
@@ -432,8 +478,12 @@
       "C": "Correct! 哪 (nǎ) means 'which' (used in questions)",
       "D": "Every is 每 (měi)"
     },
-    "tags": ["question", "pronoun"],
-    "difficulty": 1
+    "tags": [
+      "question",
+      "pronoun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-020",
@@ -455,8 +505,12 @@
       "C": "Which is 哪 (nǎ)",
       "D": "Those is 那些 (nà xiē)"
     },
-    "tags": ["pronoun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-021",
@@ -478,8 +532,12 @@
       "C": "Correct! 那 (nà) means 'that'",
       "D": "These is 这些 (zhè xiē)"
     },
-    "tags": ["pronoun", "basic"],
-    "difficulty": 1
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-022",
@@ -501,8 +559,12 @@
       "C": "Ten is 十 (shí)",
       "D": "Zero is 零 (líng)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-023",
@@ -524,8 +586,12 @@
       "C": "Three is 三 (sān)",
       "D": "Four is 四 (sì)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-024",
@@ -547,8 +613,12 @@
       "C": "Four is 四 (sì)",
       "D": "Five is 五 (wǔ)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-025",
@@ -570,8 +640,12 @@
       "C": "Five is 五 (wǔ)",
       "D": "Six is 六 (liù)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-026",
@@ -593,8 +667,12 @@
       "C": "Six is 六 (liù)",
       "D": "Seven is 七 (qī)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-027",
@@ -616,8 +694,12 @@
       "C": "Seven is 七 (qī)",
       "D": "Eight is 八 (bā)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-028",
@@ -639,8 +721,12 @@
       "C": "Eight is 八 (bā)",
       "D": "Nine is 九 (jiǔ)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-029",
@@ -662,8 +748,12 @@
       "C": "Nine is 九 (jiǔ)",
       "D": "Ten is 十 (shí)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-030",
@@ -685,8 +775,12 @@
       "C": "Ten is 十 (shí)",
       "D": "Eleven is 十一 (shí yī)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-031",
@@ -708,74 +802,12 @@
       "C": "Eleven is 十一 (shí yī)",
       "D": "Twenty is 二十 (èr shí)"
     },
-    "tags": ["number", "basic"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-032",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "ài — 爱",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To hate",
-      "B": "To like",
-      "C": "To love",
-      "D": "To want"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To hate is 恨 (hèn)",
-      "B": "To like is 喜欢 (xǐ huan)",
-      "C": "Correct! 爱 (ài) means 'to love'",
-      "D": "To want is 要 (yào)"
-    },
-    "tags": ["verb", "emotion"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-033",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "chī — 吃",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To drink",
-      "B": "To eat",
-      "C": "To cook",
-      "D": "To sleep"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To drink is 喝 (hē)",
-      "B": "Correct! 吃 (chī) means 'to eat'",
-      "C": "To cook is 做饭 (zuò fàn)",
-      "D": "To sleep is 睡觉 (shuì jiào)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-034",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "hē — 喝",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To eat",
-      "B": "To drink",
-      "C": "To breathe",
-      "D": "To swallow"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To eat is 吃 (chī)",
-      "B": "Correct! 喝 (hē) means 'to drink'",
-      "C": "To breathe is 呼吸 (hū xī)",
-      "D": "To swallow is 吞 (tūn)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-035",
@@ -797,8 +829,12 @@
       "C": "Excuse me is 不好意思 (bù hǎo yì si)",
       "D": "Never mind is 没关系 (méi guān xi)"
     },
-    "tags": ["courtesy", "phrase"],
-    "difficulty": 1
+    "tags": [
+      "courtesy",
+      "phrase"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-036",
@@ -820,8 +856,12 @@
       "C": "Thank you is 谢谢 (xiè xie)",
       "D": "You're right is 对 (duì)"
     },
-    "tags": ["courtesy", "phrase"],
-    "difficulty": 1
+    "tags": [
+      "courtesy",
+      "phrase"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-037",
@@ -843,228 +883,12 @@
       "C": "I miss you is 我想你 (wǒ xiǎng nǐ)",
       "D": "I need you is 我需要你 (wǒ xū yào nǐ)"
     },
-    "tags": ["sentence", "emotion"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-038",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "lái — 来",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To go",
-      "B": "To come",
-      "C": "To leave",
-      "D": "To return"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To go is 去 (qù)",
-      "B": "Correct! 来 (lái) means 'to come'",
-      "C": "To leave is 离开 (lí kāi)",
-      "D": "To return is 回 (huí)"
-    },
-    "tags": ["verb", "movement"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-039",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "qù — 去",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To come",
-      "B": "To go",
-      "C": "To arrive",
-      "D": "To stay"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To come is 来 (lái)",
-      "B": "Correct! 去 (qù) means 'to go'",
-      "C": "To arrive is 到 (dào)",
-      "D": "To stay is 留 (liú)"
-    },
-    "tags": ["verb", "movement"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-040",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "lái vs qù — 来 vs 去",
-    "question": "What's the key difference?",
-    "choices": {
-      "A": "来 = to go, 去 = to come",
-      "B": "来 = to come, 去 = to go",
-      "C": "Both mean to walk",
-      "D": "Both mean to run"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "That's reversed! 来 means 'to come' and 去 means 'to go'",
-      "B": "Correct! 来 (lái) = to come (toward speaker), 去 (qù) = to go (away from speaker)",
-      "C": "To walk is 走 (zǒu)",
-      "D": "To run is 跑 (pǎo)"
-    },
-    "tags": ["contrast", "movement"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-041",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "dà — 大",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Small",
-      "B": "Big",
-      "C": "Tall",
-      "D": "Wide"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Small is 小 (xiǎo)",
-      "B": "Correct! 大 (dà) means 'big' or 'large'",
-      "C": "Tall is 高 (gāo)",
-      "D": "Wide is 宽 (kuān)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-042",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "xiǎo — 小",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Big",
-      "B": "Small",
-      "C": "Short",
-      "D": "Thin"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Big is 大 (dà)",
-      "B": "Correct! 小 (xiǎo) means 'small' or 'little'",
-      "C": "Short is 短 (duǎn)",
-      "D": "Thin is 瘦 (shòu)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-043",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "dà vs xiǎo — 大 vs 小",
-    "question": "What's the relationship?",
-    "choices": {
-      "A": "Both mean large",
-      "B": "大 = big, 小 = small (opposites)",
-      "C": "Both mean medium",
-      "D": "大 = tall, 小 = short"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "No, they are opposites",
-      "B": "Correct! 大 (dà) = big and 小 (xiǎo) = small are opposite size adjectives",
-      "C": "Medium is 中 (zhōng)",
-      "D": "Tall is 高 (gāo), short is 矮 (ǎi)"
-    },
-    "tags": ["contrast", "size"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-044",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "hǎo — 好",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Bad",
-      "B": "Good",
-      "C": "Okay",
-      "D": "Beautiful"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Bad is 坏 (huài)",
-      "B": "Correct! 好 (hǎo) means 'good' or 'well'",
-      "C": "Okay is 可以 (kě yǐ)",
-      "D": "Beautiful is 漂亮 (piào liang)"
-    },
-    "tags": ["adjective", "quality"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-045",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "duō — 多",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Few",
-      "B": "Many/Much",
-      "C": "Some",
-      "D": "None"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Few is 少 (shǎo)",
-      "B": "Correct! 多 (duō) means 'many' or 'much'",
-      "C": "Some is 一些 (yī xiē)",
-      "D": "None is 没有 (méi yǒu)"
-    },
-    "tags": ["adjective", "quantity"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-046",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shǎo — 少",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Many",
-      "B": "Few/Little",
-      "C": "All",
-      "D": "Half"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Many is 多 (duō)",
-      "B": "Correct! 少 (shǎo) means 'few' or 'little' (small quantity)",
-      "C": "All is 都 (dōu)",
-      "D": "Half is 一半 (yī bàn)"
-    },
-    "tags": ["adjective", "quantity"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-047",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "duō vs shǎo — 多 vs 少",
-    "question": "What's the relationship?",
-    "choices": {
-      "A": "Both mean abundant",
-      "B": "多 = many, 少 = few (opposites)",
-      "C": "Both mean moderate",
-      "D": "多 = long, 少 = short"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "No, they are opposites",
-      "B": "Correct! 多 (duō) = many/much and 少 (shǎo) = few/little are opposite quantities",
-      "C": "Moderate is 适中 (shì zhōng)",
-      "D": "Long is 长 (cháng), short is 短 (duǎn)"
-    },
-    "tags": ["contrast", "quantity"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "emotion"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-048",
@@ -1086,8 +910,12 @@
       "C": "What's your name is 你叫什么名字 (nǐ jiào shén me míng zi)",
       "D": "Where are you is 你在哪里 (nǐ zài nǎ lǐ)"
     },
-    "tags": ["sentence", "greeting"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "greeting"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-049",
@@ -1109,8 +937,12 @@
       "C": "Best is 最好 (zuì hǎo)",
       "D": "Beautiful is 漂亮 (piào liang)"
     },
-    "tags": ["sentence", "response"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "response"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-050",
@@ -1132,734 +964,12 @@
       "C": "Sorry is 对不起 (duì bu qǐ)",
       "D": "Goodbye is 再见 (zài jiàn)"
     },
-    "tags": ["courtesy", "phrase"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-051",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "kàn — 看",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To listen",
-      "B": "To look/watch",
-      "C": "To speak",
-      "D": "To write"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To listen is 听 (tīng)",
-      "B": "Correct! 看 (kàn) means 'to look' or 'to watch'",
-      "C": "To speak is 说 (shuō)",
-      "D": "To write is 写 (xiě)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-052",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "tīng — 听",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To see",
-      "B": "To hear",
-      "C": "To listen",
-      "D": "To speak"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To see is 看见 (kàn jiàn)",
-      "B": "To hear is 听到 (tīng dào)",
-      "C": "Correct! 听 (tīng) means 'to listen'",
-      "D": "To speak is 说 (shuō)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-053",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shuō — 说",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To write",
-      "B": "To read",
-      "C": "To speak",
-      "D": "To think"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To write is 写 (xiě)",
-      "B": "To read is 读 (dú)",
-      "C": "Correct! 说 (shuō) means 'to speak' or 'to say'",
-      "D": "To think is 想 (xiǎng)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-054",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "xiě — 写",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To draw",
-      "B": "To type",
-      "C": "To write",
-      "D": "To erase"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To draw is 画 (huà)",
-      "B": "To type is 打字 (dǎ zì)",
-      "C": "Correct! 写 (xiě) means 'to write'",
-      "D": "To erase is 擦 (cā)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-055",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "dú — 读",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To write",
-      "B": "To read",
-      "C": "To study",
-      "D": "To learn"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To write is 写 (xiě)",
-      "B": "Correct! 读 (dú) means 'to read'",
-      "C": "To study is 学习 (xué xí)",
-      "D": "To learn is 学 (xué)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-056",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "zuò — 坐",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To stand",
-      "B": "To sit",
-      "C": "To lie down",
-      "D": "To jump"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To stand is 站 (zhàn)",
-      "B": "Correct! 坐 (zuò) means 'to sit'",
-      "C": "To lie down is 躺 (tǎng)",
-      "D": "To jump is 跳 (tiào)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-057",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "zhàn — 站",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To walk",
-      "B": "To run",
-      "C": "To stand",
-      "D": "To sit"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To walk is 走 (zǒu)",
-      "B": "To run is 跑 (pǎo)",
-      "C": "Correct! 站 (zhàn) means 'to stand'",
-      "D": "To sit is 坐 (zuò)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-058",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "zuò vs zhàn — 坐 vs 站",
-    "question": "What's the key difference?",
-    "choices": {
-      "A": "坐 = to sit, 站 = to stand",
-      "B": "Both mean to rest",
-      "C": "坐 = to stand, 站 = to sit",
-      "D": "Both mean to move"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 坐 (zuò) = to sit and 站 (zhàn) = to stand are opposite positions",
-      "B": "They describe different body positions, not just rest",
-      "C": "That's reversed! 坐 = sit, 站 = stand",
-      "D": "To move is 动 (dòng)"
-    },
-    "tags": ["contrast", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-059",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "rèn shi — 认识",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To know (facts)",
-      "B": "To know (people)",
-      "C": "To understand",
-      "D": "To remember"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To know facts is 知道 (zhī dào)",
-      "B": "Correct! 认识 (rèn shi) means 'to know' or 'to be acquainted with' (people)",
-      "C": "To understand is 明白 (míng bái)",
-      "D": "To remember is 记得 (jì de)"
-    },
-    "tags": ["verb", "social"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-060",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "zhī dào — 知道",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To know (people)",
-      "B": "To know (facts)",
-      "C": "To guess",
-      "D": "To forget"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To know people is 认识 (rèn shi)",
-      "B": "Correct! 知道 (zhī dào) means 'to know' (facts/information)",
-      "C": "To guess is 猜 (cāi)",
-      "D": "To forget is 忘记 (wàng jì)"
-    },
-    "tags": ["verb", "mental"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-061",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "zhī dào vs rèn shi — 知道 vs 认识",
-    "question": "What's the key difference?",
-    "choices": {
-      "A": "Both mean the same thing",
-      "B": "知道 = know facts, 认识 = know people",
-      "C": "知道 = know people, 认识 = know facts",
-      "D": "Both mean to forget"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "No, they have different uses",
-      "B": "Correct! 知道 (zhī dào) = know facts/info, 认识 (rèn shi) = know/meet people",
-      "C": "That's reversed!",
-      "D": "To forget is 忘记 (wàng jì)"
-    },
-    "tags": ["contrast", "mental"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-062",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "huì — 会",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To want",
-      "B": "To can/know how to",
-      "C": "To must",
-      "D": "To should"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To want is 要 (yào) or 想 (xiǎng)",
-      "B": "Correct! 会 (huì) means 'can' or 'know how to' (learned ability)",
-      "C": "Must is 必须 (bì xū)",
-      "D": "Should is 应该 (yīng gāi)"
-    },
-    "tags": ["verb", "ability"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-063",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "néng — 能",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To be able to/can",
-      "B": "To want",
-      "C": "To need",
-      "D": "To like"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 能 (néng) means 'can' or 'to be able to' (physical ability)",
-      "B": "To want is 要 (yào) or 想 (xiǎng)",
-      "C": "To need is 需要 (xū yào)",
-      "D": "To like is 喜欢 (xǐ huan)"
-    },
-    "tags": ["verb", "ability"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-064",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "xiǎng — 想",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To think/want",
-      "B": "To know",
-      "C": "To forget",
-      "D": "To remember"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 想 (xiǎng) means 'to think' or 'to want/would like'",
-      "B": "To know is 知道 (zhī dào)",
-      "C": "To forget is 忘记 (wàng jì)",
-      "D": "To remember is 记得 (jì de)"
-    },
-    "tags": ["verb", "mental"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-065",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "mǎi — 买",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To sell",
-      "B": "To buy",
-      "C": "To borrow",
-      "D": "To lend"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To sell is 卖 (mài)",
-      "B": "Correct! 买 (mǎi) means 'to buy'",
-      "C": "To borrow is 借 (jiè)",
-      "D": "To lend is also 借 (jiè)"
-    },
-    "tags": ["verb", "transaction"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-066",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "mài — 卖",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To buy",
-      "B": "To sell",
-      "C": "To exchange",
-      "D": "To return"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To buy is 买 (mǎi)",
-      "B": "Correct! 卖 (mài) means 'to sell'",
-      "C": "To exchange is 换 (huàn)",
-      "D": "To return is 还 (huán)"
-    },
-    "tags": ["verb", "transaction"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-067",
-    "kind": "contrast",
-    "level": "HSK1",
-    "promptLine": "mǎi vs mài — 买 vs 卖",
-    "question": "What's the key difference?",
-    "choices": {
-      "A": "Both mean to trade",
-      "B": "买 = to buy, 卖 = to sell",
-      "C": "买 = to sell, 卖 = to buy",
-      "D": "Both mean to borrow"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "They are opposite actions in a transaction",
-      "B": "Correct! 买 (mǎi) = to buy and 卖 (mài) = to sell (opposite actions)",
-      "C": "That's reversed!",
-      "D": "To borrow is 借 (jiè)"
-    },
-    "tags": ["contrast", "transaction"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-068",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "kāi — 开",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To close",
-      "B": "To open",
-      "C": "To lock",
-      "D": "To enter"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To close is 关 (guān)",
-      "B": "Correct! 开 (kāi) means 'to open' or 'to start'",
-      "C": "To lock is 锁 (suǒ)",
-      "D": "To enter is 进 (jìn)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-069",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "guān — 关",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "To open",
-      "B": "To start",
-      "C": "To close",
-      "D": "To break"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To open is 开 (kāi)",
-      "B": "To start is 开始 (kāi shǐ)",
-      "C": "Correct! 关 (guān) means 'to close' or 'to turn off'",
-      "D": "To break is 打破 (dǎ pò)"
-    },
-    "tags": ["verb", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-070",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "xuésheng — 学生",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Teacher",
-      "B": "Student",
-      "C": "Doctor",
-      "D": "Worker"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Teacher is 老师 (lǎo shī)",
-      "B": "Correct! 学生 (xuésheng) means 'student'",
-      "C": "Doctor is 医生 (yī shēng)",
-      "D": "Worker is 工人 (gōng rén)"
-    },
-    "tags": ["noun", "occupation"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-071",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "lǎo shī — 老师",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Student",
-      "B": "Teacher",
-      "C": "Professor",
-      "D": "Principal"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Student is 学生 (xuésheng)",
-      "B": "Correct! 老师 (lǎo shī) means 'teacher'",
-      "C": "Professor is 教授 (jiào shòu)",
-      "D": "Principal is 校长 (xiào zhǎng)"
-    },
-    "tags": ["noun", "occupation"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-072",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "yī shēng — 医生",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Nurse",
-      "B": "Patient",
-      "C": "Doctor",
-      "D": "Hospital"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Nurse is 护士 (hù shi)",
-      "B": "Patient is 病人 (bìng rén)",
-      "C": "Correct! 医生 (yī shēng) means 'doctor'",
-      "D": "Hospital is 医院 (yī yuàn)"
-    },
-    "tags": ["noun", "occupation"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-073",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "péng you — 朋友",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Family",
-      "B": "Friend",
-      "C": "Stranger",
-      "D": "Colleague"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Family is 家人 (jiā rén)",
-      "B": "Correct! 朋友 (péng you) means 'friend'",
-      "C": "Stranger is 陌生人 (mò shēng rén)",
-      "D": "Colleague is 同事 (tóng shì)"
-    },
-    "tags": ["noun", "social"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-074",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "jiā — 家",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "School",
-      "B": "Office",
-      "C": "Home/Family",
-      "D": "Store"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "School is 学校 (xué xiào)",
-      "B": "Office is 办公室 (bàn gōng shì)",
-      "C": "Correct! 家 (jiā) means 'home' or 'family'",
-      "D": "Store is 商店 (shāng diàn)"
-    },
-    "tags": ["noun", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-075",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "xué xiào — 学校",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Library",
-      "B": "School",
-      "C": "Classroom",
-      "D": "Office"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Library is 图书馆 (tú shū guǎn)",
-      "B": "Correct! 学校 (xué xiào) means 'school'",
-      "C": "Classroom is 教室 (jiào shì)",
-      "D": "Office is 办公室 (bàn gōng shì)"
-    },
-    "tags": ["noun", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-076",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shāng diàn — 商店",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Restaurant",
-      "B": "Store/Shop",
-      "C": "Market",
-      "D": "Mall"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Restaurant is 饭店 (fàn diàn)",
-      "B": "Correct! 商店 (shāng diàn) means 'store' or 'shop'",
-      "C": "Market is 市场 (shì chǎng)",
-      "D": "Mall is 购物中心 (gòu wù zhōng xīn)"
-    },
-    "tags": ["noun", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-077",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "fàn diàn — 饭店",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Hotel",
-      "B": "Store",
-      "C": "Restaurant",
-      "D": "Kitchen"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Hotel is 酒店 (jiǔ diàn)",
-      "B": "Store is 商店 (shāng diàn)",
-      "C": "Correct! 饭店 (fàn diàn) means 'restaurant'",
-      "D": "Kitchen is 厨房 (chú fáng)"
-    },
-    "tags": ["noun", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-078",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shuǐ — 水",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Tea",
-      "B": "Water",
-      "C": "Juice",
-      "D": "Milk"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Tea is 茶 (chá)",
-      "B": "Correct! 水 (shuǐ) means 'water'",
-      "C": "Juice is 果汁 (guǒ zhī)",
-      "D": "Milk is 牛奶 (niú nǎi)"
-    },
-    "tags": ["noun", "drink"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-079",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "chá — 茶",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Coffee",
-      "B": "Water",
-      "C": "Tea",
-      "D": "Soda"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Coffee is 咖啡 (kā fēi)",
-      "B": "Water is 水 (shuǐ)",
-      "C": "Correct! 茶 (chá) means 'tea'",
-      "D": "Soda is 汽水 (qì shuǐ)"
-    },
-    "tags": ["noun", "drink"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-080",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "mǐ fàn — 米饭",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Noodles",
-      "B": "Rice",
-      "C": "Bread",
-      "D": "Soup"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Noodles is 面条 (miàn tiáo)",
-      "B": "Correct! 米饭 (mǐ fàn) means 'rice' (cooked rice)",
-      "C": "Bread is 面包 (miàn bāo)",
-      "D": "Soup is 汤 (tāng)"
-    },
-    "tags": ["noun", "food"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-081",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "miàn tiáo — 面条",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Rice",
-      "B": "Noodles",
-      "C": "Dumplings",
-      "D": "Bread"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Rice is 米饭 (mǐ fàn)",
-      "B": "Correct! 面条 (miàn tiáo) means 'noodles'",
-      "C": "Dumplings is 饺子 (jiǎo zi)",
-      "D": "Bread is 面包 (miàn bāo)"
-    },
-    "tags": ["noun", "food"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-082",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "cài — 菜",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Meat",
-      "B": "Fruit",
-      "C": "Dish/Vegetable",
-      "D": "Dessert"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Meat is 肉 (ròu)",
-      "B": "Fruit is 水果 (shuǐ guǒ)",
-      "C": "Correct! 菜 (cài) means 'dish' or 'vegetable'",
-      "D": "Dessert is 甜点 (tián diǎn)"
-    },
-    "tags": ["noun", "food"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-083",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "píng guǒ — 苹果",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Orange",
-      "B": "Apple",
-      "C": "Banana",
-      "D": "Grape"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Orange is 橙子 (chéng zi)",
-      "B": "Correct! 苹果 (píng guǒ) means 'apple'",
-      "C": "Banana is 香蕉 (xiāng jiāo)",
-      "D": "Grape is 葡萄 (pú táo)"
-    },
-    "tags": ["noun", "fruit"],
-    "difficulty": 1
+    "tags": [
+      "courtesy",
+      "phrase"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-084",
@@ -1881,8 +991,12 @@
       "C": "Tomorrow is 明天 (míng tiān)",
       "D": "Now is 现在 (xiàn zài)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-085",
@@ -1904,8 +1018,12 @@
       "C": "Correct! 明天 (míng tiān) means 'tomorrow'",
       "D": "Next week is 下周 (xià zhōu)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-086",
@@ -1927,8 +1045,12 @@
       "C": "Correct! 昨天 (zuó tiān) means 'yesterday'",
       "D": "Last week is 上周 (shàng zhōu)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-087",
@@ -1950,8 +1072,12 @@
       "C": "Correct! 现在 (xiàn zài) means 'now' or 'currently'",
       "D": "Soon is 马上 (mǎ shàng)"
     },
-    "tags": ["time", "adverb"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "adverb"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-088",
@@ -1973,8 +1099,12 @@
       "C": "Correct! 年 (nián) means 'year'",
       "D": "Day is 天 (tiān)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-089",
@@ -1996,8 +1126,12 @@
       "C": "Week is 星期 (xīng qī)",
       "D": "Day is 天 (tiān)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-090",
@@ -2019,8 +1153,12 @@
       "C": "Night is 晚上 (wǎn shang)",
       "D": "Cloud is 云 (yún)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-091",
@@ -2042,8 +1180,12 @@
       "C": "Weekend is 周末 (zhōu mò)",
       "D": "Holiday is 假日 (jià rì)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-092",
@@ -2065,8 +1207,12 @@
       "C": "Evening is 晚上 (wǎn shang)",
       "D": "Night is 夜里 (yè lǐ)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-093",
@@ -2088,8 +1234,12 @@
       "C": "Evening is 晚上 (wǎn shang)",
       "D": "Noon is 中午 (zhōng wǔ)"
     },
-    "tags": ["time", "noun"],
-    "difficulty": 1
+    "tags": [
+      "time",
+      "noun"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-094",
@@ -2111,8 +1261,12 @@
       "C": "Evening is 晚上 (wǎn shang)",
       "D": "Both are daytime periods"
     },
-    "tags": ["contrast", "time"],
-    "difficulty": 1
+    "tags": [
+      "contrast",
+      "time"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-095",
@@ -2134,1218 +1288,12 @@
       "C": "Do you like food is 你喜欢吃饭吗 (nǐ xǐ huan chī fàn ma)",
       "D": "What did you eat is 你吃了什么 (nǐ chī le shén me)"
     },
-    "tags": ["sentence", "greeting"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-096",
-    "kind": "sentence",
-    "level": "HSK1",
-    "promptLine": "wǒ qù xuéxiào — 我去学校",
-    "question": "What does this sentence mean?",
-    "choices": {
-      "A": "I'm at school",
-      "B": "I go to school",
-      "C": "I like school",
-      "D": "I study at school"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "I'm at school is 我在学校 (wǒ zài xuéxiào)",
-      "B": "Correct! 我去学校 (wǒ qù xuéxiào) means 'I go to school' or 'I'm going to school'",
-      "C": "I like school is 我喜欢学校 (wǒ xǐ huan xuéxiào)",
-      "D": "I study at school is 我在学校学习 (wǒ zài xuéxiào xué xí)"
-    },
-    "tags": ["sentence", "action"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-097",
-    "kind": "sentence",
-    "level": "HSK1",
-    "promptLine": "tā shì xuésheng — 她是学生",
-    "question": "What does this sentence mean?",
-    "choices": {
-      "A": "He is a student",
-      "B": "She is a student",
-      "C": "They are students",
-      "D": "I am a student"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "He is a student is 他是学生 (tā shì xuésheng)",
-      "B": "Correct! 她是学生 (tā shì xuésheng) means 'She is a student'",
-      "C": "They are students is 他们是学生 (tā men shì xuésheng)",
-      "D": "I am a student is 我是学生 (wǒ shì xuésheng)"
-    },
-    "tags": ["sentence", "identity"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-098",
-    "kind": "phrase",
-    "level": "HSK1",
-    "promptLine": "duō shao qián — 多少钱",
-    "question": "What does this phrase mean?",
-    "choices": {
-      "A": "Too expensive",
-      "B": "How much money?",
-      "C": "No money",
-      "D": "A lot of money"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Too expensive is 太贵了 (tài guì le)",
-      "B": "Correct! 多少钱 (duō shao qián) means 'How much money?' or 'What's the price?'",
-      "C": "No money is 没钱 (méi qián)",
-      "D": "A lot of money is 很多钱 (hěn duō qián)"
-    },
-    "tags": ["phrase", "shopping"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-099",
-    "kind": "phrase",
-    "level": "HSK1",
-    "promptLine": "zài nǎr — 在哪儿",
-    "question": "What does this phrase mean?",
-    "choices": {
-      "A": "What is it?",
-      "B": "When is it?",
-      "C": "Where is it?",
-      "D": "Who is it?"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "What is it is 是什么 (shì shén me)",
-      "B": "When is it is 什么时候 (shén me shí hou)",
-      "C": "Correct! 在哪儿 (zài nǎr) means 'Where is it?' or 'Where (at)?'",
-      "D": "Who is it is 是谁 (shì shuí)"
-    },
-    "tags": ["phrase", "question"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-100",
-    "kind": "sentence",
-    "level": "HSK1",
-    "promptLine": "wǒ bù zhī dào — 我不知道",
-    "question": "What does this sentence mean?",
-    "choices": {
-      "A": "I know",
-      "B": "I don't know",
-      "C": "I understand",
-      "D": "I remember"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "I know is 我知道 (wǒ zhī dào)",
-      "B": "Correct! 我不知道 (wǒ bù zhī dào) means 'I don't know'",
-      "C": "I understand is 我明白 (wǒ míng bái)",
-      "D": "I remember is 我记得 (wǒ jì de)"
-    },
-    "tags": ["sentence", "response"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-101",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "běn — 本",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Book",
-      "B": "Table",
-      "C": "Measure word for books",
-      "D": "Page"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Book is 书 (shū)",
-      "B": "Table is 桌子 (zhuō zi)",
-      "C": "Correct! 本 (běn) is the measure word for books",
-      "D": "Page is 页 (yè)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-102",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "bēi — 杯",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Bottle",
-      "B": "Cup",
-      "C": "Bowl",
-      "D": "Plate"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Bottle is 瓶子 (píng zi)",
-      "B": "Correct! 杯 (bēi) means 'cup' or 'glass'",
-      "C": "Bowl is 碗 (wǎn)",
-      "D": "Plate is 盘子 (pán zi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-103",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "cài — 菜",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Dish/Vegetable",
-      "B": "Meat",
-      "C": "Fruit",
-      "D": "Soup"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 菜 (cài) means 'dish' or 'vegetable'",
-      "B": "Meat is 肉 (ròu)",
-      "C": "Fruit is 水果 (shuǐ guǒ)",
-      "D": "Soup is 汤 (tāng)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-104",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "diǎn — 点",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Hour",
-      "B": "Minute",
-      "C": "O'clock",
-      "D": "Second"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Hour is 小时 (xiǎo shí)",
-      "B": "Minute is 分钟 (fēn zhōng)",
-      "C": "Correct! 点 (diǎn) means 'o'clock' when telling time",
-      "D": "Second is 秒 (miǎo)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-105",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "diàn nǎo — 电脑",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Television",
-      "B": "Computer",
-      "C": "Phone",
-      "D": "Radio"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Television is 电视 (diàn shì)",
-      "B": "Correct! 电脑 (diàn nǎo) means 'computer'",
-      "C": "Phone is 电话 (diàn huà)",
-      "D": "Radio is 收音机 (shōu yīn jī)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-106",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "diàn shì — 电视",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Computer",
-      "B": "Television",
-      "C": "Movie",
-      "D": "Screen"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Computer is 电脑 (diàn nǎo)",
-      "B": "Correct! 电视 (diàn shì) means 'television'",
-      "C": "Movie is 电影 (diàn yǐng)",
-      "D": "Screen is 屏幕 (píng mù)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-107",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "diàn yǐng — 电影",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Television",
-      "B": "Theater",
-      "C": "Movie",
-      "D": "Show"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Television is 电视 (diàn shì)",
-      "B": "Theater is 剧院 (jù yuàn)",
-      "C": "Correct! 电影 (diàn yǐng) means 'movie' or 'film'",
-      "D": "Show is 表演 (biǎo yǎn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-108",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "dōng xi — 东西",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Direction",
-      "B": "Thing/Stuff",
-      "C": "Place",
-      "D": "Time"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Direction is 方向 (fāng xiàng)",
-      "B": "Correct! 东西 (dōng xi) means 'thing' or 'stuff'",
-      "C": "Place is 地方 (dì fang)",
-      "D": "Time is 时间 (shí jiān)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-109",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "duì — 对",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Wrong",
-      "B": "Right/Correct",
-      "C": "Maybe",
-      "D": "Possible"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Wrong is 错 (cuò)",
-      "B": "Correct! 对 (duì) means 'right' or 'correct'",
-      "C": "Maybe is 可能 (kě néng)",
-      "D": "Possible is 可能 (kě néng)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-110",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "duō — 多",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Little",
-      "B": "Many/Much",
-      "C": "Some",
-      "D": "Few"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Little is 少 (shǎo)",
-      "B": "Correct! 多 (duō) means 'many' or 'much'",
-      "C": "Some is 一些 (yì xiē)",
-      "D": "Few is 几个 (jǐ gè)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-111",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "ér zi — 儿子",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Daughter",
-      "B": "Son",
-      "C": "Father",
-      "D": "Brother"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Daughter is 女儿 (nǚ ér)",
-      "B": "Correct! 儿子 (ér zi) means 'son'",
-      "C": "Father is 爸爸 (bà ba)",
-      "D": "Brother is 兄弟 (xiōng dì)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-112",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "fàn guǎn — 饭馆",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Kitchen",
-      "B": "Restaurant",
-      "C": "Hotel",
-      "D": "Cafe"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Kitchen is 厨房 (chú fáng)",
-      "B": "Correct! 饭馆 (fàn guǎn) means 'restaurant'",
-      "C": "Hotel is 酒店 (jiǔ diàn)",
-      "D": "Cafe is 咖啡馆 (kā fēi guǎn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-113",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "gāo xìng — 高兴",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Sad",
-      "B": "Angry",
-      "C": "Happy",
-      "D": "Tired"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Sad is 难过 (nán guò)",
-      "B": "Angry is 生气 (shēng qì)",
-      "C": "Correct! 高兴 (gāo xìng) means 'happy' or 'glad'",
-      "D": "Tired is 累 (lèi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-114",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "gè — 个",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Number",
-      "B": "General measure word",
-      "C": "Thing",
-      "D": "Person"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Number is 数字 (shù zì)",
-      "B": "Correct! 个 (gè) is the most common measure word",
-      "C": "Thing is 东西 (dōng xi)",
-      "D": "Person is 人 (rén)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-115",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "gōng zuò — 工作",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Study",
-      "B": "Work/Job",
-      "C": "Play",
-      "D": "Rest"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Study is 学习 (xué xí)",
-      "B": "Correct! 工作 (gōng zuò) means 'work' or 'job'",
-      "C": "Play is 玩 (wán)",
-      "D": "Rest is 休息 (xiū xi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-116",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "guì — 贵",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Cheap",
-      "B": "Expensive",
-      "C": "Free",
-      "D": "Price"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Cheap is 便宜 (pián yi)",
-      "B": "Correct! 贵 (guì) means 'expensive'",
-      "C": "Free is 免费 (miǎn fèi)",
-      "D": "Price is 价格 (jià gé)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-117",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "guó jiā — 国家",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "City",
-      "B": "Country/Nation",
-      "C": "Home",
-      "D": "World"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "City is 城市 (chéng shì)",
-      "B": "Correct! 国家 (guó jiā) means 'country' or 'nation'",
-      "C": "Home is 家 (jiā)",
-      "D": "World is 世界 (shì jiè)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-118",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "hàn yǔ — 汉语",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "English",
-      "B": "Chinese language",
-      "C": "Character",
-      "D": "Word"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "English is 英语 (yīng yǔ)",
-      "B": "Correct! 汉语 (hàn yǔ) means 'Chinese language'",
-      "C": "Character is 字 (zì)",
-      "D": "Word is 词 (cí)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-119",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "hòu miàn — 后面",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Front",
-      "B": "Behind/Back",
-      "C": "Side",
-      "D": "Inside"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Front is 前面 (qián miàn)",
-      "B": "Correct! 后面 (hòu miàn) means 'behind' or 'back'",
-      "C": "Side is 旁边 (páng biān)",
-      "D": "Inside is 里面 (lǐ miàn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-120",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "huí — 回",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Go",
-      "B": "Return",
-      "C": "Come",
-      "D": "Leave"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Go is 去 (qù)",
-      "B": "Correct! 回 (huí) means 'return' or 'go back'",
-      "C": "Come is 来 (lái)",
-      "D": "Leave is 离开 (lí kāi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-121",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "jǐ — 几",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Many",
-      "B": "How many",
-      "C": "Some",
-      "D": "None"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Many is 多 (duō)",
-      "B": "Correct! 几 (jǐ) means 'how many' (for small numbers)",
-      "C": "Some is 一些 (yì xiē)",
-      "D": "None is 没有 (méi yǒu)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-122",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "jiā — 家",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "House",
-      "B": "Home/Family",
-      "C": "Room",
-      "D": "Building"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "House is 房子 (fáng zi)",
-      "B": "Correct! 家 (jiā) means 'home' or 'family'",
-      "C": "Room is 房间 (fáng jiān)",
-      "D": "Building is 楼 (lóu)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-123",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "jiào — 叫",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Say",
-      "B": "Call/Be called",
-      "C": "Speak",
-      "D": "Tell"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Say is 说 (shuō)",
-      "B": "Correct! 叫 (jiào) means 'call' or 'be called'",
-      "C": "Speak is 讲 (jiǎng)",
-      "D": "Tell is 告诉 (gào su)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-124",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "jīn tiān — 今天",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Yesterday",
-      "B": "Today",
-      "C": "Tomorrow",
-      "D": "Now"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Yesterday is 昨天 (zuó tiān)",
-      "B": "Correct! 今天 (jīn tiān) means 'today'",
-      "C": "Tomorrow is 明天 (míng tiān)",
-      "D": "Now is 现在 (xiàn zài)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-125",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "kāi — 开",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Close",
-      "B": "Open",
-      "C": "Lock",
-      "D": "Enter"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Close is 关 (guān)",
-      "B": "Correct! 开 (kāi) means 'open' or 'turn on'",
-      "C": "Lock is 锁 (suǒ)",
-      "D": "Enter is 进 (jìn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-126",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "kàn jiàn — 看见",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Look at",
-      "B": "See/Catch sight of",
-      "C": "Watch",
-      "D": "Observe"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Look at is 看 (kàn)",
-      "B": "Correct! 看见 (kàn jiàn) means 'see' or 'catch sight of'",
-      "C": "Watch is 观看 (guān kàn)",
-      "D": "Observe is 观察 (guān chá)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-127",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "kuài — 块",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Cent",
-      "B": "Yuan (informal)",
-      "C": "Dollar",
-      "D": "Money"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Cent is 分 (fēn)",
-      "B": "Correct! 块 (kuài) is informal for 'yuan' (Chinese currency)",
-      "C": "Dollar is 美元 (měi yuán)",
-      "D": "Money is 钱 (qián)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-128",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "lěng — 冷",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Hot",
-      "B": "Cold",
-      "C": "Warm",
-      "D": "Cool"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Hot is 热 (rè)",
-      "B": "Correct! 冷 (lěng) means 'cold'",
-      "C": "Warm is 暖和 (nuǎn huo)",
-      "D": "Cool is 凉快 (liáng kuai)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-129",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "lǐ miàn — 里面",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Outside",
-      "B": "Inside",
-      "C": "Beside",
-      "D": "Between"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Outside is 外面 (wài miàn)",
-      "B": "Correct! 里面 (lǐ miàn) means 'inside'",
-      "C": "Beside is 旁边 (páng biān)",
-      "D": "Between is 之间 (zhī jiān)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-130",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "liǎng — 两",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "One",
-      "B": "Two (with measure words)",
-      "C": "Three",
-      "D": "Pair"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "One is 一 (yī)",
-      "B": "Correct! 两 (liǎng) means 'two' when used with measure words",
-      "C": "Three is 三 (sān)",
-      "D": "Pair is 对 (duì)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-131",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "máng — 忙",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Free",
-      "B": "Busy",
-      "C": "Tired",
-      "D": "Slow"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Free is 有空 (yǒu kòng)",
-      "B": "Correct! 忙 (máng) means 'busy'",
-      "C": "Tired is 累 (lèi)",
-      "D": "Slow is 慢 (màn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-132",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "māo — 猫",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Dog",
-      "B": "Cat",
-      "C": "Bird",
-      "D": "Fish"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Dog is 狗 (gǒu)",
-      "B": "Correct! 猫 (māo) means 'cat'",
-      "C": "Bird is 鸟 (niǎo)",
-      "D": "Fish is 鱼 (yú)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-133",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "méi — 没",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Have",
-      "B": "Not/Don't have",
-      "C": "Yes",
-      "D": "Want"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Have is 有 (yǒu)",
-      "B": "Correct! 没 (méi) is a negation word meaning 'not' or 'don't have'",
-      "C": "Yes is 是 (shì)",
-      "D": "Want is 要 (yào)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-134",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "mèi mei — 妹妹",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Older sister",
-      "B": "Younger sister",
-      "C": "Brother",
-      "D": "Mother"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Older sister is 姐姐 (jiě jie)",
-      "B": "Correct! 妹妹 (mèi mei) means 'younger sister'",
-      "C": "Brother is 兄弟 (xiōng dì)",
-      "D": "Mother is 妈妈 (mā ma)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-135",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "nán — 男",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Female",
-      "B": "Male",
-      "C": "Person",
-      "D": "Child"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Female is 女 (nǚ)",
-      "B": "Correct! 男 (nán) means 'male'",
-      "C": "Person is 人 (rén)",
-      "D": "Child is 孩子 (hái zi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-136",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "ne — 呢",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Question word",
-      "B": "Question particle",
-      "C": "No",
-      "D": "Yes"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Question word is like 什么 (shén me)",
-      "B": "Correct! 呢 (ne) is a particle for questions or follow-up",
-      "C": "No is 不 (bù)",
-      "D": "Yes is 是 (shì)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-137",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "nián — 年",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Month",
-      "B": "Year",
-      "C": "Day",
-      "D": "Week"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Month is 月 (yuè)",
-      "B": "Correct! 年 (nián) means 'year'",
-      "C": "Day is 天 (tiān)",
-      "D": "Week is 星期 (xīng qī)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-138",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "nǚ ér — 女儿",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Son",
-      "B": "Daughter",
-      "C": "Girl",
-      "D": "Woman"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Son is 儿子 (ér zi)",
-      "B": "Correct! 女儿 (nǚ ér) means 'daughter'",
-      "C": "Girl is 女孩 (nǚ hái)",
-      "D": "Woman is 女人 (nǚ rén)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-139",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "piào liang — 漂亮",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Ugly",
-      "B": "Beautiful/Pretty",
-      "C": "Big",
-      "D": "Small"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Ugly is 难看 (nán kàn)",
-      "B": "Correct! 漂亮 (piào liang) means 'beautiful' or 'pretty'",
-      "C": "Big is 大 (dà)",
-      "D": "Small is 小 (xiǎo)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-140",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "píng guǒ — 苹果",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Orange",
-      "B": "Apple",
-      "C": "Banana",
-      "D": "Grape"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Orange is 橙子 (chéng zi)",
-      "B": "Correct! 苹果 (píng guǒ) means 'apple'",
-      "C": "Banana is 香蕉 (xiāng jiāo)",
-      "D": "Grape is 葡萄 (pú tao)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-141",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "qǐng — 请",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Thank you",
-      "B": "Please",
-      "C": "Sorry",
-      "D": "Welcome"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Thank you is 谢谢 (xiè xie)",
-      "B": "Correct! 请 (qǐng) means 'please' or 'to invite'",
-      "C": "Sorry is 对不起 (duì bu qǐ)",
-      "D": "Welcome is 欢迎 (huān yíng)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-142",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "qián miàn — 前面",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Behind",
-      "B": "Front",
-      "C": "Side",
-      "D": "Bottom"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Behind is 后面 (hòu miàn)",
-      "B": "Correct! 前面 (qián miàn) means 'front' or 'ahead'",
-      "C": "Side is 旁边 (páng biān)",
-      "D": "Bottom is 下面 (xià miàn)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-143",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "qián — 钱",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Price",
-      "B": "Money",
-      "C": "Cost",
-      "D": "Value"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Price is 价格 (jià gé)",
-      "B": "Correct! 钱 (qián) means 'money'",
-      "C": "Cost is 成本 (chéng běn)",
-      "D": "Value is 价值 (jià zhí)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-144",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "rè — 热",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Cold",
-      "B": "Hot",
-      "C": "Warm",
-      "D": "Cool"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Cold is 冷 (lěng)",
-      "B": "Correct! 热 (rè) means 'hot'",
-      "C": "Warm is 暖和 (nuǎn huo)",
-      "D": "Cool is 凉快 (liáng kuai)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-145",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "rì — 日",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Month",
-      "B": "Day/Sun",
-      "C": "Year",
-      "D": "Week"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Month is 月 (yuè)",
-      "B": "Correct! 日 (rì) means 'day' or 'sun'",
-      "C": "Year is 年 (nián)",
-      "D": "Week is 星期 (xīng qī)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-146",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shàng miàn — 上面",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Below",
-      "B": "Above/On top",
-      "C": "Inside",
-      "D": "Beside"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Below is 下面 (xià miàn)",
-      "B": "Correct! 上面 (shàng miàn) means 'above' or 'on top'",
-      "C": "Inside is 里面 (lǐ miàn)",
-      "D": "Beside is 旁边 (páng biān)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-147",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shēng rì — 生日",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Holiday",
-      "B": "Birthday",
-      "C": "Anniversary",
-      "D": "Party"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Holiday is 假日 (jià rì)",
-      "B": "Correct! 生日 (shēng rì) means 'birthday'",
-      "C": "Anniversary is 周年 (zhōu nián)",
-      "D": "Party is 派对 (pài duì)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-148",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shí hou — 时候",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Place",
-      "B": "Time/Moment",
-      "C": "Person",
-      "D": "Thing"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Place is 地方 (dì fang)",
-      "B": "Correct! 时候 (shí hou) means 'time' or 'moment'",
-      "C": "Person is 人 (rén)",
-      "D": "Thing is 东西 (dōng xi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-149",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shū — 书",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Notebook",
-      "B": "Book",
-      "C": "Magazine",
-      "D": "Paper"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Notebook is 笔记本 (bǐ jì běn)",
-      "B": "Correct! 书 (shū) means 'book'",
-      "C": "Magazine is 杂志 (zá zhì)",
-      "D": "Paper is 纸 (zhǐ)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-150",
-    "kind": "vocab",
-    "level": "HSK1",
-    "promptLine": "shuǐ — 水",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Tea",
-      "B": "Water",
-      "C": "Juice",
-      "D": "Milk"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Tea is 茶 (chá)",
-      "B": "Correct! 水 (shuǐ) means 'water'",
-      "C": "Juice is 果汁 (guǒ zhī)",
-      "D": "Milk is 牛奶 (niú nǎi)"
-    },
-    "tags": ["hsk1", "vocab"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "greeting"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-151",
@@ -3367,8 +1315,13 @@
       "C": "Where are you from is 你是哪里人 (nǐ shì nǎ lǐ rén)",
       "D": "What do you do is 你做什么工作 (nǐ zuò shén me gōng zuò)"
     },
-    "tags": ["phrase", "greeting", "introduction"],
-    "difficulty": 1
+    "tags": [
+      "phrase",
+      "greeting",
+      "introduction"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-152",
@@ -3390,8 +1343,12 @@
       "C": "I like is 我喜欢 (wǒ xǐ huan)",
       "D": "I want is 我想 (wǒ xiǎng) or 我要 (wǒ yào)"
     },
-    "tags": ["sentence", "introduction"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "introduction"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-153",
@@ -3413,8 +1370,13 @@
       "C": "When is 什么时候 (shén me shí hou)",
       "D": "Who is 谁 (shéi/shuí)"
     },
-    "tags": ["phrase", "question", "location"],
-    "difficulty": 1
+    "tags": [
+      "phrase",
+      "question",
+      "location"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-154",
@@ -3436,8 +1398,12 @@
       "C": "Correct! 我要... (wǒ yào...) means 'I want...'",
       "D": "I can is 我会 (wǒ huì) or 我能 (wǒ néng)"
     },
-    "tags": ["sentence", "request"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "request"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-155",
@@ -3459,8 +1425,12 @@
       "C": "I don't like is 我不喜欢 (wǒ bù xǐ huan)",
       "D": "I don't know is 我不知道 (wǒ bù zhī dào)"
     },
-    "tags": ["sentence", "negation"],
-    "difficulty": 1
+    "tags": [
+      "sentence",
+      "negation"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-156",
@@ -3482,30 +1452,12 @@
       "C": "Where is this is 这是哪里 (zhè shì nǎ lǐ)",
       "D": "How is this is 这怎么样 (zhè zěn me yàng)"
     },
-    "tags": ["phrase", "question"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-157",
-    "kind": "sentence",
-    "level": "HSK1",
-    "promptLine": "duō shao qián — 多少钱",
-    "question": "What does this phrase mean?",
-    "choices": {
-      "A": "Too expensive",
-      "B": "How much money?",
-      "C": "I have money",
-      "D": "No money"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Too expensive is 太贵了 (tài guì le)",
-      "B": "Correct! 多少钱 (duō shao qián) means 'How much money?' or 'How much does it cost?'",
-      "C": "I have money is 我有钱 (wǒ yǒu qián)",
-      "D": "No money is 没钱 (méi qián)"
-    },
-    "tags": ["phrase", "shopping", "money"],
-    "difficulty": 1
+    "tags": [
+      "phrase",
+      "question"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-158",
@@ -3527,30 +1479,13 @@
       "C": "See you later is 一会儿见 (yí huì r jiàn) or 回头见 (huí tóu jiàn)",
       "D": "Thank you very much is 非常感谢 (fēi cháng gǎn xiè)"
     },
-    "tags": ["phrase", "greeting", "courtesy"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1-159",
-    "kind": "sentence",
-    "level": "HSK1",
-    "promptLine": "wǒ bù zhī dào — 我不知道",
-    "question": "What does this sentence mean?",
-    "choices": {
-      "A": "I don't understand",
-      "B": "I don't know",
-      "C": "I don't want",
-      "D": "I don't have"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "I don't understand is 我不懂 (wǒ bù dǒng) or 我听不懂 (wǒ tīng bu dǒng)",
-      "B": "Correct! 我不知道 (wǒ bù zhī dào) means 'I don't know'",
-      "C": "I don't want is 我不要 (wǒ bú yào)",
-      "D": "I don't have is 我没有 (wǒ méi yǒu)"
-    },
-    "tags": ["sentence", "negation"],
-    "difficulty": 1
+    "tags": [
+      "phrase",
+      "greeting",
+      "courtesy"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   },
   {
     "id": "hsk1-160",
@@ -3572,2940 +1507,12 @@
       "C": "Please come in is 请进 (qǐng jìn)",
       "D": "You're welcome is 不客气 (bú kè qi)"
     },
-    "tags": ["phrase", "courtesy", "question"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk2-001",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bān — 班",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "class",
-      "B": "lesson",
-      "C": "homework",
-      "D": "exam"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 班 (bān) means 'class' or 'team'",
-      "B": "Lesson is 课 (kè)",
-      "C": "Homework is 作业 (zuò yè)",
-      "D": "Exam is 考试 (kǎo shì)"
-    },
-    "tags": ["hsk2", "vocab", "school"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-002",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bāng zhù — 帮助",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to borrow",
-      "B": "to help",
-      "C": "to teach",
-      "D": "to ask"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To borrow is 借 (jiè)",
-      "B": "Correct! 帮助 (bāng zhù) means 'to help'",
-      "C": "To teach is 教 (jiāo)",
-      "D": "To ask is 问 (wèn)"
-    },
-    "tags": ["hsk2", "vocab", "verb"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-003",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bào zhǐ — 报纸",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "magazine",
-      "B": "book",
-      "C": "newspaper",
-      "D": "letter"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Magazine is 杂志 (zá zhì)",
-      "B": "Book is 书 (shū)",
-      "C": "Correct! 报纸 (bào zhǐ) means 'newspaper'",
-      "D": "Letter is 信 (xìn)"
-    },
-    "tags": ["hsk2", "vocab", "reading"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-004",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bǐ — 比",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "than/to compare",
-      "B": "more",
-      "C": "same",
-      "D": "different"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 比 (bǐ) means 'than' or 'to compare'",
-      "B": "More is 更 (gèng) or 更多 (gèng duō)",
-      "C": "Same is 一样 (yí yàng)",
-      "D": "Different is 不同 (bù tóng)"
-    },
-    "tags": ["hsk2", "vocab", "comparison"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-005",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bié — 别",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "must",
-      "B": "don't",
-      "C": "should",
-      "D": "can"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Must is 必须 (bì xū)",
-      "B": "Correct! 别 (bié) means 'don't' (imperative)",
-      "C": "Should is 应该 (yīng gāi)",
-      "D": "Can is 能 (néng) or 可以 (kě yǐ)"
-    },
-    "tags": ["hsk2", "vocab", "grammar"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-006",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "cháng — 长",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "short",
-      "B": "long",
-      "C": "wide",
-      "D": "tall"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Short is 短 (duǎn)",
-      "B": "Correct! 长 (cháng) means 'long'",
-      "C": "Wide is 宽 (kuān)",
-      "D": "Tall is 高 (gāo)"
-    },
-    "tags": ["hsk2", "vocab", "adjective"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-007",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "chàng gē — 唱歌",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to dance",
-      "B": "to sing",
-      "C": "to play music",
-      "D": "to listen to music"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To dance is 跳舞 (tiào wǔ)",
-      "B": "Correct! 唱歌 (chàng gē) means 'to sing'",
-      "C": "To play music is 弹 (tán) or 演奏 (yǎn zòu)",
-      "D": "To listen to music is 听音乐 (tīng yīn yuè)"
-    },
-    "tags": ["hsk2", "vocab", "activity"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-008",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "chuān — 穿",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to buy",
-      "B": "to wash",
-      "C": "to wear",
-      "D": "to take off"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To buy is 买 (mǎi)",
-      "B": "To wash is 洗 (xǐ)",
-      "C": "Correct! 穿 (chuān) means 'to wear' (clothing)",
-      "D": "To take off is 脱 (tuō)"
-    },
-    "tags": ["hsk2", "vocab", "clothing"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-009",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "cì — 次",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "time/occasion",
-      "B": "hour",
-      "C": "day",
-      "D": "moment"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 次 (cì) is a measure word for 'time/occasion'",
-      "B": "Hour is 小时 (xiǎo shí)",
-      "C": "Day is 天 (tiān)",
-      "D": "Moment is 时刻 (shí kè)"
-    },
-    "tags": ["hsk2", "vocab", "time"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-010",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "cōng míng — 聪明",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "hardworking",
-      "B": "smart/clever",
-      "C": "kind",
-      "D": "careful"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Hardworking is 努力 (nǔ lì)",
-      "B": "Correct! 聪明 (cōng míng) means 'smart/clever'",
-      "C": "Kind is 善良 (shàn liáng)",
-      "D": "Careful is 小心 (xiǎo xīn)"
-    },
-    "tags": ["hsk2", "vocab", "personality"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-011",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "dān xīn — 担心",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to hope",
-      "B": "to worry",
-      "C": "to remember",
-      "D": "to forget"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To hope is 希望 (xī wàng)",
-      "B": "Correct! 担心 (dān xīn) means 'to worry'",
-      "C": "To remember is 记得 (jì de)",
-      "D": "To forget is 忘记 (wàng jì)"
-    },
-    "tags": ["hsk2", "vocab", "emotion"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-012",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "dào — 到",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to leave",
-      "B": "to arrive",
-      "C": "to pass",
-      "D": "to return"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To leave is 离开 (lí kāi)",
-      "B": "Correct! 到 (dào) means 'to arrive/reach'",
-      "C": "To pass is 过 (guò)",
-      "D": "To return is 回 (huí)"
-    },
-    "tags": ["hsk2", "vocab", "movement"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-013",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "dì tiě — 地铁",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "bus",
-      "B": "train",
-      "C": "subway",
-      "D": "taxi"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Bus is 公共汽车 (gōng gòng qì chē)",
-      "B": "Train is 火车 (huǒ chē)",
-      "C": "Correct! 地铁 (dì tiě) means 'subway/metro'",
-      "D": "Taxi is 出租车 (chū zū chē)"
-    },
-    "tags": ["hsk2", "vocab", "transport"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-014",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "dǒng — 懂",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to teach",
-      "B": "to learn",
-      "C": "to understand",
-      "D": "to explain"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To teach is 教 (jiāo)",
-      "B": "To learn is 学 (xué)",
-      "C": "Correct! 懂 (dǒng) means 'to understand'",
-      "D": "To explain is 解释 (jiě shì)"
-    },
-    "tags": ["hsk2", "vocab", "cognition"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-015",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "duàn liàn — 锻炼",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to rest",
-      "B": "to exercise",
-      "C": "to compete",
-      "D": "to run"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To rest is 休息 (xiū xi)",
-      "B": "Correct! 锻炼 (duàn liàn) means 'to exercise'",
-      "C": "To compete is 比赛 (bǐ sài)",
-      "D": "To run is 跑步 (pǎo bù)"
-    },
-    "tags": ["hsk2", "vocab", "health"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-016",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "fā xiàn — 发现",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to hide",
-      "B": "to discover",
-      "C": "to search",
-      "D": "to lose"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To hide is 藏 (cáng)",
-      "B": "Correct! 发现 (fā xiàn) means 'to discover/find out'",
-      "C": "To search is 找 (zhǎo) or 搜索 (sōu suǒ)",
-      "D": "To lose is 丢 (diū)"
-    },
-    "tags": ["hsk2", "vocab", "discovery"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-017",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "gǎn jué — 感觉",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "thought",
-      "B": "feeling",
-      "C": "opinion",
-      "D": "reason"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Thought is 想法 (xiǎng fǎ)",
-      "B": "Correct! 感觉 (gǎn jué) means 'feeling/to feel'",
-      "C": "Opinion is 意见 (yì jiàn)",
-      "D": "Reason is 原因 (yuán yīn)"
-    },
-    "tags": ["hsk2", "vocab", "emotion"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-018",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "gāng cái — 刚才",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "later",
-      "B": "just now",
-      "C": "always",
-      "D": "soon"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Later is 以后 (yǐ hòu)",
-      "B": "Correct! 刚才 (gāng cái) means 'just now/a moment ago'",
-      "C": "Always is 总是 (zǒng shì)",
-      "D": "Soon is 马上 (mǎ shàng)"
-    },
-    "tags": ["hsk2", "vocab", "time"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-019",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "gào sù — 告诉",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to ask",
-      "B": "to tell",
-      "C": "to hear",
-      "D": "to answer"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To ask is 问 (wèn)",
-      "B": "Correct! 告诉 (gào sù) means 'to tell/inform'",
-      "C": "To hear is 听 (tīng)",
-      "D": "To answer is 回答 (huí dá)"
-    },
-    "tags": ["hsk2", "vocab", "communication"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-020",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "gēn — 跟",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "from",
-      "B": "with",
-      "C": "for",
-      "D": "by"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "From is 从 (cóng)",
-      "B": "Correct! 跟 (gēn) means 'with' or 'to follow'",
-      "C": "For is 为 (wèi) or 给 (gěi)",
-      "D": "By is 被 (bèi)"
-    },
-    "tags": ["hsk2", "vocab", "preposition"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-021",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "guò — 过",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to pass/to cross",
-      "B": "to stop",
-      "C": "to turn",
-      "D": "to enter"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 过 (guò) means 'to pass/cross' or aspect marker for experience",
-      "B": "To stop is 停 (tíng)",
-      "C": "To turn is 转 (zhuǎn)",
-      "D": "To enter is 进 (jìn)"
-    },
-    "tags": ["hsk2", "vocab", "movement"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-022",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "hái shì — 还是",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "and",
-      "B": "or",
-      "C": "but",
-      "D": "if"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "And is 和 (hé)",
-      "B": "Correct! 还是 (hái shì) means 'or' (in questions)",
-      "C": "But is 但是 (dàn shì)",
-      "D": "If is 如果 (rú guǒ)"
-    },
-    "tags": ["hsk2", "vocab", "conjunction"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-023",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "hēi — 黑",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "white",
-      "B": "black",
-      "C": "red",
-      "D": "blue"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "White is 白 (bái)",
-      "B": "Correct! 黑 (hēi) means 'black'",
-      "C": "Red is 红 (hóng)",
-      "D": "Blue is 蓝 (lán)"
-    },
-    "tags": ["hsk2", "vocab", "color"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-024",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "huā — 花",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "tree",
-      "B": "grass",
-      "C": "flower",
-      "D": "leaf"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Tree is 树 (shù)",
-      "B": "Grass is 草 (cǎo)",
-      "C": "Correct! 花 (huā) means 'flower'",
-      "D": "Leaf is 叶子 (yè zi)"
-    },
-    "tags": ["hsk2", "vocab", "nature"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-025",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "huà — 画",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to write",
-      "B": "to draw",
-      "C": "to read",
-      "D": "to paint walls"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To write is 写 (xiě)",
-      "B": "Correct! 画 (huà) means 'to draw/paint' or 'picture'",
-      "C": "To read is 读 (dú)",
-      "D": "To paint walls is 刷 (shuā)"
-    },
-    "tags": ["hsk2", "vocab", "art"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-026",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "yīn wèi — 因为",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "therefore",
-      "B": "because",
-      "C": "but",
-      "D": "if"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Therefore is 所以 (suǒ yǐ)",
-      "B": "Correct! 因为 (yīn wèi) means 'because'",
-      "C": "But is 但是 (dàn shì) or 可是 (kě shì)",
-      "D": "If is 如果 (rú guǒ) or 要是 (yào shi)"
-    },
-    "tags": ["hsk2", "vocab", "conjunction"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-027",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "suǒ yǐ — 所以",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "because",
-      "B": "although",
-      "C": "so / therefore",
-      "D": "however"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Because is 因为 (yīn wèi)",
-      "B": "Although is 虽然 (suī rán)",
-      "C": "Correct! 所以 (suǒ yǐ) means 'so' or 'therefore'",
-      "D": "However is 但是 (dàn shì) or 可是 (kě shì)"
-    },
-    "tags": ["hsk2", "vocab", "conjunction"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-028",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "jué de — 觉得",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to know",
-      "B": "to understand",
-      "C": "to feel / think",
-      "D": "to believe"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To know is 知道 (zhī dào)",
-      "B": "To understand is 懂 (dǒng) or 明白 (míng bai)",
-      "C": "Correct! 觉得 (jué de) means 'to feel' or 'to think' (opinion)",
-      "D": "To believe is 相信 (xiāng xìn)"
-    },
-    "tags": ["hsk2", "vocab", "opinion"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-029",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "kāi shǐ — 开始",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to finish",
-      "B": "to start",
-      "C": "to continue",
-      "D": "to stop"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To finish is 结束 (jié shù) or 完成 (wán chéng)",
-      "B": "Correct! 开始 (kāi shǐ) means 'to start' or 'to begin'",
-      "C": "To continue is 继续 (jì xù)",
-      "D": "To stop is 停 (tíng)"
-    },
-    "tags": ["hsk2", "vocab", "action"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-030",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "jié shù — 结束",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to start",
-      "B": "to pause",
-      "C": "to finish",
-      "D": "to rest"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "To start is 开始 (kāi shǐ)",
-      "B": "To pause is 暂停 (zàn tíng)",
-      "C": "Correct! 结束 (jié shù) means 'to finish' or 'to end'",
-      "D": "To rest is 休息 (xiū xi)"
-    },
-    "tags": ["hsk2", "vocab", "action"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-031",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bāng zhù — 帮助",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "to teach",
-      "B": "to help",
-      "C": "to ask",
-      "D": "to give"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "To teach is 教 (jiāo)",
-      "B": "Correct! 帮助 (bāng zhù) means 'to help'",
-      "C": "To ask is 问 (wèn)",
-      "D": "To give is 给 (gěi)"
-    },
-    "tags": ["hsk2", "vocab", "action"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-032",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "yì qǐ — 一起",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "alone",
-      "B": "together",
-      "C": "separate",
-      "D": "nearby"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Alone is 一个人 (yí gè rén)",
-      "B": "Correct! 一起 (yì qǐ) means 'together'",
-      "C": "Separate is 分开 (fēn kāi)",
-      "D": "Nearby is 附近 (fù jìn)"
-    },
-    "tags": ["hsk2", "vocab", "adverb"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-033",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "yǐ jīng — 已经",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "not yet",
-      "B": "still",
-      "C": "already",
-      "D": "soon"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Not yet is 还没 (hái méi)",
-      "B": "Still is 还 (hái)",
-      "C": "Correct! 已经 (yǐ jīng) means 'already'",
-      "D": "Soon is 快 (kuài) or 马上 (mǎ shàng)"
-    },
-    "tags": ["hsk2", "vocab", "time"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-034",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "zhèng zài — 正在",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "will do",
-      "B": "just did",
-      "C": "in the process of",
-      "D": "finished doing"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Will do is 会 (huì) or 要 (yào)",
-      "B": "Just did is 刚 (gāng) + verb",
-      "C": "Correct! 正在 (zhèng zài) means 'in the process of' (ongoing action)",
-      "D": "Finished doing is verb + 完了 (wán le)"
-    },
-    "tags": ["hsk2", "vocab", "aspect"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk2-035",
-    "kind": "vocab",
-    "level": "HSK2",
-    "promptLine": "bǐ jiào — 比较",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "very",
-      "B": "too",
-      "C": "comparatively / rather",
-      "D": "extremely"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Very is 很 (hěn)",
-      "B": "Too is 太 (tài)",
-      "C": "Correct! 比较 (bǐ jiào) means 'comparatively' or 'rather' (moderately)",
-      "D": "Extremely is 非常 (fēi cháng)"
-    },
-    "tags": ["hsk2", "vocab", "adverb"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1b-days-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī yī — 星期一",
-    "question": "",
-    "choices": {
-      "A": "Monday",
-      "B": "Tuesday",
-      "C": "Wednesday",
-      "D": "Thursday"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 星期一 means Monday",
-      "B": "Tuesday is 星期二",
-      "C": "Wednesday is 星期三",
-      "D": "Thursday is 星期四"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī èr — 星期二",
-    "question": "",
-    "choices": {
-      "A": "Monday",
-      "B": "Tuesday",
-      "C": "Friday",
-      "D": "Saturday"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Monday is 星期一",
-      "B": "Correct! 星期二 means Tuesday",
-      "C": "Friday is 星期五",
-      "D": "Saturday is 星期六"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī sān — 星期三",
-    "question": "",
-    "choices": {
-      "A": "Tuesday",
-      "B": "Wednesday",
-      "C": "Thursday",
-      "D": "Friday"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Tuesday is 星期二",
-      "B": "Correct! 星期三 means Wednesday",
-      "C": "Thursday is 星期四",
-      "D": "Friday is 星期五"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī sì — 星期四",
-    "question": "",
-    "choices": {
-      "A": "Wednesday",
-      "B": "Thursday",
-      "C": "Friday",
-      "D": "Saturday"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Wednesday is 星期三",
-      "B": "Correct! 星期四 means Thursday",
-      "C": "Friday is 星期五",
-      "D": "Saturday is 星期六"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī wǔ — 星期五",
-    "question": "",
-    "choices": {
-      "A": "Thursday",
-      "B": "Friday",
-      "C": "Saturday",
-      "D": "Sunday"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Thursday is 星期四",
-      "B": "Correct! 星期五 means Friday",
-      "C": "Saturday is 星期六",
-      "D": "Sunday is 星期日"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī liù — 星期六",
-    "question": "",
-    "choices": {
-      "A": "Thursday",
-      "B": "Friday",
-      "C": "Saturday",
-      "D": "Sunday"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Thursday is 星期四",
-      "B": "Friday is 星期五",
-      "C": "Correct! 星期六 means Saturday",
-      "D": "Sunday is 星期日"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-days-007",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "days",
-    "promptLine": "xīng qī rì — 星期日",
-    "question": "",
-    "choices": {
-      "A": "Friday",
-      "B": "Saturday",
-      "C": "Sunday",
-      "D": "Monday"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Friday is 星期五",
-      "B": "Saturday is 星期六",
-      "C": "Correct! 星期日 means Sunday",
-      "D": "Monday is 星期一"
-    },
-    "tags": ["hsk1b", "days", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "yī yuè — 一月",
-    "question": "",
-    "choices": {
-      "A": "January",
-      "B": "February",
-      "C": "March",
-      "D": "April"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 一月 means January",
-      "B": "February is 二月",
-      "C": "March is 三月",
-      "D": "April is 四月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "èr yuè — 二月",
-    "question": "",
-    "choices": {
-      "A": "January",
-      "B": "February",
-      "C": "March",
-      "D": "May"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "January is 一月",
-      "B": "Correct! 二月 means February",
-      "C": "March is 三月",
-      "D": "May is 五月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "sān yuè — 三月",
-    "question": "",
-    "choices": {
-      "A": "February",
-      "B": "March",
-      "C": "April",
-      "D": "June"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "February is 二月",
-      "B": "Correct! 三月 means March",
-      "C": "April is 四月",
-      "D": "June is 六月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "sì yuè — 四月",
-    "question": "",
-    "choices": {
-      "A": "March",
-      "B": "April",
-      "C": "May",
-      "D": "July"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "March is 三月",
-      "B": "Correct! 四月 means April",
-      "C": "May is 五月",
-      "D": "July is 七月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "wǔ yuè — 五月",
-    "question": "",
-    "choices": {
-      "A": "April",
-      "B": "May",
-      "C": "June",
-      "D": "August"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "April is 四月",
-      "B": "Correct! 五月 means May",
-      "C": "June is 六月",
-      "D": "August is 八月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "liù yuè — 六月",
-    "question": "",
-    "choices": {
-      "A": "May",
-      "B": "June",
-      "C": "July",
-      "D": "September"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "May is 五月",
-      "B": "Correct! 六月 means June",
-      "C": "July is 七月",
-      "D": "September is 九月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-007",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "qī yuè — 七月",
-    "question": "",
-    "choices": {
-      "A": "June",
-      "B": "July",
-      "C": "August",
-      "D": "October"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "June is 六月",
-      "B": "Correct! 七月 means July",
-      "C": "August is 八月",
-      "D": "October is 十月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-008",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "bā yuè — 八月",
-    "question": "",
-    "choices": {
-      "A": "July",
-      "B": "August",
-      "C": "September",
-      "D": "November"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "July is 七月",
-      "B": "Correct! 八月 means August",
-      "C": "September is 九月",
-      "D": "November is 十一月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-009",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "jiǔ yuè — 九月",
-    "question": "",
-    "choices": {
-      "A": "August",
-      "B": "September",
-      "C": "October",
-      "D": "December"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "August is 八月",
-      "B": "Correct! 九月 means September",
-      "C": "October is 十月",
-      "D": "December is 十二月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-010",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "shí yuè — 十月",
-    "question": "",
-    "choices": {
-      "A": "September",
-      "B": "October",
-      "C": "November",
-      "D": "January"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "September is 九月",
-      "B": "Correct! 十月 means October",
-      "C": "November is 十一月",
-      "D": "January is 一月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-011",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "shí yī yuè — 十一月",
-    "question": "",
-    "choices": {
-      "A": "October",
-      "B": "November",
-      "C": "December",
-      "D": "February"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "October is 十月",
-      "B": "Correct! 十一月 means November",
-      "C": "December is 十二月",
-      "D": "February is 二月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-months-012",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "months",
-    "promptLine": "shí èr yuè — 十二月",
-    "question": "",
-    "choices": {
-      "A": "October",
-      "B": "November",
-      "C": "December",
-      "D": "March"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "October is 十月",
-      "B": "November is 十一月",
-      "C": "Correct! 十二月 means December",
-      "D": "March is 三月"
-    },
-    "tags": ["hsk1b", "months", "time"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "zhōng guó — 中国",
-    "question": "",
-    "choices": {
-      "A": "China",
-      "B": "Japan",
-      "C": "Korea",
-      "D": "France"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 中国 means China",
-      "B": "Japan is 日本",
-      "C": "Korea is 韩国",
-      "D": "France is 法国"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "měi guó — 美国",
-    "question": "",
-    "choices": {
-      "A": "China",
-      "B": "United States",
-      "C": "United Kingdom",
-      "D": "Canada"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "China is 中国",
-      "B": "Correct! 美国 means United States",
-      "C": "United Kingdom is 英国",
-      "D": "Canada is 加拿大"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "rì běn — 日本",
-    "question": "",
-    "choices": {
-      "A": "China",
-      "B": "Japan",
-      "C": "Korea",
-      "D": "Germany"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "China is 中国",
-      "B": "Correct! 日本 means Japan",
-      "C": "Korea is 韩国",
-      "D": "Germany is 德国"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "hán guó — 韩国",
-    "question": "",
-    "choices": {
-      "A": "Japan",
-      "B": "China",
-      "C": "South Korea",
-      "D": "Spain"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Japan is 日本",
-      "B": "China is 中国",
-      "C": "Correct! 韩国 means South Korea",
-      "D": "Spain is 西班牙"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "yīng guó — 英国",
-    "question": "",
-    "choices": {
-      "A": "United States",
-      "B": "United Kingdom",
-      "C": "France",
-      "D": "Australia"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "United States is 美国",
-      "B": "Correct! 英国 means United Kingdom",
-      "C": "France is 法国",
-      "D": "Australia is 澳大利亚"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "fǎ guó — 法国",
-    "question": "",
-    "choices": {
-      "A": "United Kingdom",
-      "B": "France",
-      "C": "Germany",
-      "D": "Spain"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "United Kingdom is 英国",
-      "B": "Correct! 法国 means France",
-      "C": "Germany is 德国",
-      "D": "Spain is 西班牙"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-007",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "dé guó — 德国",
-    "question": "",
-    "choices": {
-      "A": "France",
-      "B": "Germany",
-      "C": "United Kingdom",
-      "D": "Canada"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "France is 法国",
-      "B": "Correct! 德国 means Germany",
-      "C": "United Kingdom is 英国",
-      "D": "Canada is 加拿大"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-008",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "jiā ná dà — 加拿大",
-    "question": "",
-    "choices": {
-      "A": "United States",
-      "B": "Canada",
-      "C": "Australia",
-      "D": "United Kingdom"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "United States is 美国",
-      "B": "Correct! 加拿大 means Canada",
-      "C": "Australia is 澳大利亚",
-      "D": "United Kingdom is 英国"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-009",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "ào dà lì yà — 澳大利亚",
-    "question": "",
-    "choices": {
-      "A": "Canada",
-      "B": "Australia",
-      "C": "United Kingdom",
-      "D": "Germany"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Canada is 加拿大",
-      "B": "Correct! 澳大利亚 means Australia",
-      "C": "United Kingdom is 英国",
-      "D": "Germany is 德国"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-countries-010",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "countries",
-    "promptLine": "xī bān yá — 西班牙",
-    "question": "",
-    "choices": {
-      "A": "France",
-      "B": "Spain",
-      "C": "Germany",
-      "D": "Japan"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "France is 法国",
-      "B": "Correct! 西班牙 means Spain",
-      "C": "Germany is 德国",
-      "D": "Japan is 日本"
-    },
-    "tags": ["hsk1b", "countries", "geo"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "hóng — 红",
-    "question": "",
-    "choices": {
-      "A": "red",
-      "B": "blue",
-      "C": "yellow",
-      "D": "green"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 红 means red",
-      "B": "Blue is 蓝",
-      "C": "Yellow is 黄",
-      "D": "Green is 绿"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "lán — 蓝",
-    "question": "",
-    "choices": {
-      "A": "red",
-      "B": "blue",
-      "C": "green",
-      "D": "black"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Red is 红",
-      "B": "Correct! 蓝 means blue",
-      "C": "Green is 绿",
-      "D": "Black is 黑"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "bái — 白",
-    "question": "",
-    "choices": {
-      "A": "white",
-      "B": "black",
-      "C": "gray",
-      "D": "pink"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 白 means white",
-      "B": "Black is 黑",
-      "C": "Gray is 灰",
-      "D": "Pink is 粉红"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "hēi — 黑",
-    "question": "",
-    "choices": {
-      "A": "white",
-      "B": "black",
-      "C": "gray",
-      "D": "blue"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "White is 白",
-      "B": "Correct! 黑 means black",
-      "C": "Gray is 灰",
-      "D": "Blue is 蓝"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "lǜ — 绿",
-    "question": "",
-    "choices": {
-      "A": "blue",
-      "B": "green",
-      "C": "yellow",
-      "D": "red"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Blue is 蓝",
-      "B": "Correct! 绿 means green",
-      "C": "Yellow is 黄",
-      "D": "Red is 红"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "huáng — 黄",
-    "question": "",
-    "choices": {
-      "A": "red",
-      "B": "green",
-      "C": "yellow",
-      "D": "pink"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Red is 红",
-      "B": "Green is 绿",
-      "C": "Correct! 黄 means yellow",
-      "D": "Pink is 粉红"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-007",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "huī — 灰",
-    "question": "",
-    "choices": {
-      "A": "white",
-      "B": "black",
-      "C": "gray",
-      "D": "blue"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "White is 白",
-      "B": "Black is 黑",
-      "C": "Correct! 灰 means gray",
-      "D": "Blue is 蓝"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-colors-008",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "colors",
-    "promptLine": "fěn hóng — 粉红",
-    "question": "",
-    "choices": {
-      "A": "red",
-      "B": "pink",
-      "C": "white",
-      "D": "yellow"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Red is 红",
-      "B": "Correct! 粉红 means pink",
-      "C": "White is 白",
-      "D": "Yellow is 黄"
-    },
-    "tags": ["hsk1b", "colors", "color"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "gē ge — 哥哥",
-    "question": "",
-    "choices": {
-      "A": "older brother",
-      "B": "younger brother",
-      "C": "older sister",
-      "D": "father"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 哥哥 means older brother",
-      "B": "Younger brother is 弟弟",
-      "C": "Older sister is 姐姐",
-      "D": "Father is 爸爸"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "jiě jie — 姐姐",
-    "question": "",
-    "choices": {
-      "A": "younger sister",
-      "B": "older sister",
-      "C": "mother",
-      "D": "grandmother"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Younger sister is 妹妹",
-      "B": "Correct! 姐姐 means older sister",
-      "C": "Mother is 妈妈",
-      "D": "Grandmother is 奶奶"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "dì di — 弟弟",
-    "question": "",
-    "choices": {
-      "A": "older brother",
-      "B": "younger brother",
-      "C": "son",
-      "D": "grandfather"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Older brother is 哥哥",
-      "B": "Correct! 弟弟 means younger brother",
-      "C": "Son is 儿子",
-      "D": "Grandfather is 爷爷"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "mèi mei — 妹妹",
-    "question": "",
-    "choices": {
-      "A": "older sister",
-      "B": "younger sister",
-      "C": "daughter",
-      "D": "mother"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Older sister is 姐姐",
-      "B": "Correct! 妹妹 means younger sister",
-      "C": "Daughter is 女儿",
-      "D": "Mother is 妈妈"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "yé ye — 爷爷",
-    "question": "",
-    "choices": {
-      "A": "father",
-      "B": "grandfather",
-      "C": "uncle",
-      "D": "older brother"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Father is 爸爸",
-      "B": "Correct! 爷爷 means grandfather (paternal)",
-      "C": "Uncle is 叔叔 or 伯伯",
-      "D": "Older brother is 哥哥"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-family-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "family",
-    "promptLine": "nǎi nai — 奶奶",
-    "question": "",
-    "choices": {
-      "A": "mother",
-      "B": "grandmother",
-      "C": "aunt",
-      "D": "older sister"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Mother is 妈妈",
-      "B": "Correct! 奶奶 means grandmother (paternal)",
-      "C": "Aunt is 阿姨 or 姑姑",
-      "D": "Older sister is 姐姐"
-    },
-    "tags": ["hsk1b", "family", "family"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-001",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "yín háng — 银行",
-    "question": "",
-    "choices": {
-      "A": "bank",
-      "B": "hospital",
-      "C": "company",
-      "D": "supermarket"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 银行 means bank",
-      "B": "Hospital is 医院",
-      "C": "Company is 公司",
-      "D": "Supermarket is 超市"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-002",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "gōng sī — 公司",
-    "question": "",
-    "choices": {
-      "A": "bank",
-      "B": "company",
-      "C": "library",
-      "D": "station"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Bank is 银行",
-      "B": "Correct! 公司 means company",
-      "C": "Library is 图书馆",
-      "D": "Station is 车站"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-003",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "chāo shì — 超市",
-    "question": "",
-    "choices": {
-      "A": "market",
-      "B": "supermarket",
-      "C": "store",
-      "D": "airport"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Market is 市场",
-      "B": "Correct! 超市 means supermarket",
-      "C": "Store is 商店",
-      "D": "Airport is 机场"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-004",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "jī chǎng — 机场",
-    "question": "",
-    "choices": {
-      "A": "station",
-      "B": "airport",
-      "C": "hospital",
-      "D": "library"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Station is 车站",
-      "B": "Correct! 机场 means airport",
-      "C": "Hospital is 医院",
-      "D": "Library is 图书馆"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-005",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "yī yuàn — 医院",
-    "question": "",
-    "choices": {
-      "A": "hospital",
-      "B": "bank",
-      "C": "company",
-      "D": "movie theater"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 医院 means hospital",
-      "B": "Bank is 银行",
-      "C": "Company is 公司",
-      "D": "Movie theater is 电影院"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-006",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "chē zhàn — 车站",
-    "question": "",
-    "choices": {
-      "A": "airport",
-      "B": "station",
-      "C": "supermarket",
-      "D": "library"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Airport is 机场",
-      "B": "Correct! 车站 means station",
-      "C": "Supermarket is 超市",
-      "D": "Library is 图书馆"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-007",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "diàn yǐng yuàn — 电影院",
-    "question": "",
-    "choices": {
-      "A": "library",
-      "B": "movie theater",
-      "C": "hospital",
-      "D": "bank"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Library is 图书馆",
-      "B": "Correct! 电影院 means movie theater",
-      "C": "Hospital is 医院",
-      "D": "Bank is 银行"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1b-places-008",
-    "kind": "vocab",
-    "level": "HSK1b",
-    "unit": "places",
-    "promptLine": "tú shū guǎn — 图书馆",
-    "question": "",
-    "choices": {
-      "A": "movie theater",
-      "B": "library",
-      "C": "company",
-      "D": "station"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Movie theater is 电影院",
-      "B": "Correct! 图书馆 means library",
-      "C": "Company is 公司",
-      "D": "Station is 车站"
-    },
-    "tags": ["hsk1b", "places", "place"],
-    "difficulty": 1
-  },
-  {
-    "id": "hsk1p-001",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "nǐ jiào shén me míng zi — 你叫什么名字",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "What's your name?",
-      "B": "How old are you?",
-      "C": "Where are you from?",
-      "D": "How are you?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 你叫什么名字 means 'What's your name?'",
-      "B": "How old are you is 你几岁 or 你多大",
-      "C": "Where are you from is 你是哪里人",
-      "D": "How are you is 你好吗"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-002",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ bù míng bai — 我不明白",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I don't know",
-      "B": "I don't understand",
-      "C": "I don't want",
-      "D": "I don't remember"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "I don't know is 我不知道",
-      "B": "Correct! 我不明白 means 'I don't understand'",
-      "C": "I don't want is 我不要",
-      "D": "I don't remember is 我不记得"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-003",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "qǐng zài shuō yí biàn — 请再说一遍",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Please say it again",
-      "B": "I don't understand",
-      "C": "What did you say?",
-      "D": "Can't understand"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 请再说一遍 means 'Please say it again'",
-      "B": "I don't understand is 我不明白",
-      "C": "What did you say is 你说什么",
-      "D": "Can't understand is 听不懂"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-004",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "duō shao qián — 多少钱",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "How much is it?",
-      "B": "What time is it?",
-      "C": "How many people?",
-      "D": "What day is it?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 多少钱 means 'How much is it?' or 'How much money?'",
-      "B": "What time is 几点 or 现在几点",
-      "C": "How many people is 多少人",
-      "D": "What day is 星期几 or 今天几号"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-005",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "méi wèn tí — 没问题",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "No problem",
-      "B": "It doesn't matter",
-      "C": "You're welcome",
-      "D": "Excuse me"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 没问题 means 'No problem'",
-      "B": "It doesn't matter is 没关系",
-      "C": "You're welcome is 不客气",
-      "D": "Excuse me is 不好意思"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-006",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "zài nǎ lǐ — 在哪里",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Where is it?",
-      "B": "What is it?",
-      "C": "When is it?",
-      "D": "Who is it?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 在哪里 means 'Where is it?' or 'Where?'",
-      "B": "What is it is 是什么",
-      "C": "When is 什么时候",
-      "D": "Who is 谁"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-007",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ yào zhè ge — 我要这个",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I want this one",
-      "B": "I like this one",
-      "C": "I have this one",
-      "D": "I need that one"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 我要这个 means 'I want this one'",
-      "B": "I like this one is 我喜欢这个",
-      "C": "I have this one is 我有这个",
-      "D": "I need that one is 我需要那个"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-008",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "qǐng wèn — 请问",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Excuse me / May I ask",
-      "B": "Sorry / I apologize",
-      "C": "Excuse me (casual)",
-      "D": "Thank you"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 请问 means 'Excuse me' or 'May I ask' (polite way to start a question)",
-      "B": "Sorry is 对不起",
-      "C": "Excuse me (casual) is 不好意思",
-      "D": "Thank you is 谢谢"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-009",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "nǐ hǎo ma — 你好吗",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "How are you?",
-      "B": "What's your name?",
-      "C": "Where are you?",
-      "D": "Are you okay?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 你好吗 means 'How are you?'",
-      "B": "What's your name is 你叫什么名字",
-      "C": "Where are you is 你在哪里",
-      "D": "Are you okay is 你还好吗 or 你没事吧"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-010",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ méi yǒu qián — 我没有钱",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I don't have money",
-      "B": "I don't want money",
-      "C": "I have money",
-      "D": "I don't know"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 我没有钱 means 'I don't have money'",
-      "B": "I don't want money is 我不要钱",
-      "C": "I have money is 我有钱",
-      "D": "I don't know is 我不知道"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-011",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "zhè shì shén me — 这是什么",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "What is this?",
-      "B": "Who is this?",
-      "C": "Where is this?",
-      "D": "Why is this?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 这是什么 means 'What is this?'",
-      "B": "Who is this is 这是谁",
-      "C": "Where is this is 这是哪里",
-      "D": "Why is 为什么"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-012",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "rèn shi nǐ hěn gāo xìng — 认识你很高兴",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Nice to meet you",
-      "B": "How are you?",
-      "C": "Thank you",
-      "D": "Goodbye"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 认识你很高兴 means 'Nice to meet you' (literally 'very happy to know you')",
-      "B": "How are you is 你好吗",
-      "C": "Thank you is 谢谢你",
-      "D": "Goodbye is 再见"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-013",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ hěn hǎo — 我很好",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I'm very well",
-      "B": "I'm very busy",
-      "C": "I'm very tired",
-      "D": "I'm very happy"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 我很好 means 'I'm very well' or 'I'm fine'",
-      "B": "I'm very busy is 我很忙",
-      "C": "I'm very tired is 我很累",
-      "D": "I'm very happy is 我很高兴 or 我很开心"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-014",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "nǐ huì shuō zhōng wén ma — 你会说中文吗",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Can you speak Chinese?",
-      "B": "Are you Chinese?",
-      "C": "Do you like Chinese?",
-      "D": "Do you study Chinese?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 你会说中文吗 means 'Can you speak Chinese?'",
-      "B": "Are you Chinese is 你是中国人吗",
-      "C": "Do you like Chinese is 你喜欢中文吗",
-      "D": "Do you study Chinese is 你学中文吗"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-015",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "bù hǎo yì si — 不好意思",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Excuse me / Sorry",
-      "B": "You're welcome",
-      "C": "No problem",
-      "D": "Never mind"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 不好意思 means 'Excuse me' or 'Sorry' (less formal than 对不起)",
-      "B": "You're welcome is 不客气",
-      "C": "No problem is 没问题",
-      "D": "Never mind is 没关系"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-016",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ xiǎng hē shuǐ — 我想喝水",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I want to drink water",
-      "B": "I want to eat food",
-      "C": "I want to go home",
-      "D": "I want to sleep"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 我想喝水 means 'I want to drink water'",
-      "B": "I want to eat food is 我想吃饭",
-      "C": "I want to go home is 我想回家",
-      "D": "I want to sleep is 我想睡觉"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-017",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "nǐ shì nǎ lǐ rén — 你是哪里人",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Where are you from?",
-      "B": "What's your name?",
-      "C": "Where are you?",
-      "D": "Where are you going?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 你是哪里人 means 'Where are you from?' (literally 'You are where person?')",
-      "B": "What's your name is 你叫什么名字",
-      "C": "Where are you is 你在哪里",
-      "D": "Where are you going is 你去哪里"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-018",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "tài guì le — 太贵了",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Too expensive",
-      "B": "Too cheap",
-      "C": "Too many",
-      "D": "Too big"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 太贵了 means 'Too expensive'",
-      "B": "Too cheap is 太便宜了",
-      "C": "Too many is 太多了",
-      "D": "Too big is 太大了"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-019",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "wǒ huí jiā — 我回家",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "I'm going home",
-      "B": "I'm at home",
-      "C": "I have a home",
-      "D": "I'm going to school"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 我回家 means 'I'm going home' or 'I go home'",
-      "B": "I'm at home is 我在家",
-      "C": "I have a home is 我有家",
-      "D": "I'm going to school is 我去学校"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1p-020",
-    "kind": "phrase",
-    "level": "HSK1-PHRASE",
-    "promptLine": "nǐ chī le ma — 你吃了吗",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Have you eaten?",
-      "B": "Are you hungry?",
-      "C": "Do you like eating?",
-      "D": "What did you eat?"
-    },
-    "correct": "A",
-    "explanations": {
-      "A": "Correct! 你吃了吗 means 'Have you eaten?' (common greeting in Chinese culture)",
-      "B": "Are you hungry is 你饿吗",
-      "C": "Do you like eating is 你喜欢吃吗",
-      "D": "What did you eat is 你吃什么了"
-    },
-    "tags": ["hsk1", "phrase"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-001",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "lěng — 冷",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Hot",
-      "B": "Cold",
-      "C": "Warm",
-      "D": "Cool"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Hot is 热 (rè)",
-      "B": "Correct! 冷 (lěng) means 'cold'",
-      "C": "Warm is 暖和 (nuǎn huo)",
-      "D": "Cool is 凉快 (liáng kuai)"
-    },
-    "tags": ["adjective", "temperature"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-002",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "rè — 热",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Cold",
-      "B": "Warm",
-      "C": "Hot",
-      "D": "Freezing"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Cold is 冷 (lěng)",
-      "B": "Warm is 暖和 (nuǎn huo)",
-      "C": "Correct! 热 (rè) means 'hot'",
-      "D": "Freezing is 很冷 (hěn lěng)"
-    },
-    "tags": ["adjective", "temperature"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-003",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "lèi — 累",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Sleepy",
-      "B": "Hungry",
-      "C": "Tired",
-      "D": "Busy"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Sleepy is 困 (kùn)",
-      "B": "Hungry is 饿 (è)",
-      "C": "Correct! 累 (lèi) means 'tired'",
-      "D": "Busy is 忙 (máng)"
-    },
-    "tags": ["adjective", "state"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-004",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "è — 饿",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Thirsty",
-      "B": "Hungry",
-      "C": "Full",
-      "D": "Tired"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Thirsty is 渴 (kě)",
-      "B": "Correct! 饿 (è) means 'hungry'",
-      "C": "Full is 饱 (bǎo)",
-      "D": "Tired is 累 (lèi)"
-    },
-    "tags": ["adjective", "state"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-005",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "kě — 渴",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Hungry",
-      "B": "Thirsty",
-      "C": "Tired",
-      "D": "Sick"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Hungry is 饿 (è)",
-      "B": "Correct! 渴 (kě) means 'thirsty'",
-      "C": "Tired is 累 (lèi)",
-      "D": "Sick is 病 (bìng)"
-    },
-    "tags": ["adjective", "state"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-006",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "máng — 忙",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Free",
-      "B": "Tired",
-      "C": "Busy",
-      "D": "Fast"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Free is 有空 (yǒu kòng)",
-      "B": "Tired is 累 (lèi)",
-      "C": "Correct! 忙 (máng) means 'busy'",
-      "D": "Fast is 快 (kuài)"
-    },
-    "tags": ["adjective", "state"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-007",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "guì — 贵",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Cheap",
-      "B": "Free",
-      "C": "Expensive",
-      "D": "Valuable"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Cheap is 便宜 (pián yi)",
-      "B": "Free is 免费 (miǎn fèi)",
-      "C": "Correct! 贵 (guì) means 'expensive'",
-      "D": "Valuable is 有价值 (yǒu jià zhí)"
-    },
-    "tags": ["adjective", "price"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-008",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "pián yi — 便宜",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Expensive",
-      "B": "Free",
-      "C": "Cheap",
-      "D": "Discount"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Expensive is 贵 (guì)",
-      "B": "Free is 免费 (miǎn fèi)",
-      "C": "Correct! 便宜 (pián yi) means 'cheap' or 'inexpensive'",
-      "D": "Discount is 打折 (dǎ zhé)"
-    },
-    "tags": ["adjective", "price"],
-    "difficulty": 3
-  },
-  {
-    "id": "hsk1c-009",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "gāo — 高",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Short",
-      "B": "Tall",
-      "C": "Long",
-      "D": "Big"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Short is 矮 (ǎi)",
-      "B": "Correct! 高 (gāo) means 'tall' or 'high'",
-      "C": "Long is 长 (cháng)",
-      "D": "Big is 大 (dà)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-010",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "ǎi — 矮",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Tall",
-      "B": "Short",
-      "C": "Small",
-      "D": "Low"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Tall is 高 (gāo)",
-      "B": "Correct! 矮 (ǎi) means 'short' (for height)",
-      "C": "Small is 小 (xiǎo)",
-      "D": "Low is 低 (dī)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-011",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "cháng — 长",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Short",
-      "B": "Tall",
-      "C": "Long",
-      "D": "Wide"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Short is 短 (duǎn)",
-      "B": "Tall is 高 (gāo)",
-      "C": "Correct! 长 (cháng) means 'long'",
-      "D": "Wide is 宽 (kuān)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-012",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "duǎn — 短",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Long",
-      "B": "Tall",
-      "C": "Short",
-      "D": "Small"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Long is 长 (cháng)",
-      "B": "Tall is 高 (gāo)",
-      "C": "Correct! 短 (duǎn) means 'short' (for length)",
-      "D": "Small is 小 (xiǎo)"
-    },
-    "tags": ["adjective", "size"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-013",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "kuài — 快",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Slow",
-      "B": "Fast",
-      "C": "Quick",
-      "D": "Soon"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Slow is 慢 (màn)",
-      "B": "Correct! 快 (kuài) means 'fast' or 'quick'",
-      "C": "Quick is also 快 (kuài) - same word",
-      "D": "Soon is 快要 (kuài yào)"
-    },
-    "tags": ["adjective", "speed"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-014",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "màn — 慢",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Fast",
-      "B": "Slow",
-      "C": "Late",
-      "D": "Lazy"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Fast is 快 (kuài)",
-      "B": "Correct! 慢 (màn) means 'slow'",
-      "C": "Late is 晚 (wǎn)",
-      "D": "Lazy is 懒 (lǎn)"
-    },
-    "tags": ["adjective", "speed"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-015",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "xīn — 新",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Old",
-      "B": "Used",
-      "C": "New",
-      "D": "Modern"
-    },
-    "correct": "C",
-    "explanations": {
-      "A": "Old is 旧 (jiù)",
-      "B": "Used is 二手 (èr shǒu)",
-      "C": "Correct! 新 (xīn) means 'new'",
-      "D": "Modern is 现代 (xiàn dài)"
-    },
-    "tags": ["adjective", "condition"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-016",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "jiù — 旧",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "New",
-      "B": "Old",
-      "C": "Ancient",
-      "D": "Used"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "New is 新 (xīn)",
-      "B": "Correct! 旧 (jiù) means 'old' or 'used'",
-      "C": "Ancient is 古代 (gǔ dài)",
-      "D": "Used is 二手 (èr shǒu) or 旧 can also mean used"
-    },
-    "tags": ["adjective", "condition"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-017",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "duō — 多",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Few",
-      "B": "Many",
-      "C": "Some",
-      "D": "All"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Few is 少 (shǎo)",
-      "B": "Correct! 多 (duō) means 'many' or 'much'",
-      "C": "Some is 一些 (yī xiē)",
-      "D": "All is 都 (dōu)"
-    },
-    "tags": ["adjective", "quantity"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-018",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "shǎo — 少",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Many",
-      "B": "Few",
-      "C": "Some",
-      "D": "None"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Many is 多 (duō)",
-      "B": "Correct! 少 (shǎo) means 'few' or 'little'",
-      "C": "Some is 一些 (yī xiē)",
-      "D": "None is 没有 (méi yǒu)"
-    },
-    "tags": ["adjective", "quantity"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-019",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "pàng — 胖",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Thin",
-      "B": "Fat",
-      "C": "Strong",
-      "D": "Heavy"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Thin is 瘦 (shòu)",
-      "B": "Correct! 胖 (pàng) means 'fat' or 'chubby'",
-      "C": "Strong is 强壮 (qiáng zhuàng)",
-      "D": "Heavy is 重 (zhòng)"
-    },
-    "tags": ["adjective", "body"],
-    "difficulty": 3
-  },
-  {
-    "id": "hsk1c-020",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "shòu — 瘦",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Fat",
-      "B": "Thin",
-      "C": "Weak",
-      "D": "Light"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Fat is 胖 (pàng)",
-      "B": "Correct! 瘦 (shòu) means 'thin' or 'skinny'",
-      "C": "Weak is 弱 (ruò)",
-      "D": "Light is 轻 (qīng)"
-    },
-    "tags": ["adjective", "body"],
-    "difficulty": 3
-  },
-  {
-    "id": "hsk1c-021",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "yuǎn — 远",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Near",
-      "B": "Far",
-      "C": "Away",
-      "D": "Distance"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Near is 近 (jìn)",
-      "B": "Correct! 远 (yuǎn) means 'far' or 'distant'",
-      "C": "Away is 离开 (lí kāi)",
-      "D": "Distance is 距离 (jù lí)"
-    },
-    "tags": ["adjective", "distance"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-022",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "jìn — 近",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Far",
-      "B": "Near",
-      "C": "Close",
-      "D": "Next to"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Far is 远 (yuǎn)",
-      "B": "Correct! 近 (jìn) means 'near' or 'close'",
-      "C": "Close is also 近 (jìn) - same word",
-      "D": "Next to is 旁边 (páng biān)"
-    },
-    "tags": ["adjective", "distance"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-023",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "zǎo — 早",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Late",
-      "B": "Early",
-      "C": "Morning",
-      "D": "Soon"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Late is 晚 (wǎn)",
-      "B": "Correct! 早 (zǎo) means 'early'",
-      "C": "Morning is 早上 (zǎo shang)",
-      "D": "Soon is 快 (kuài) or 很快 (hěn kuài)"
-    },
-    "tags": ["adjective", "time"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-024",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "wǎn — 晚",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Early",
-      "B": "Late",
-      "C": "Evening",
-      "D": "Night"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Early is 早 (zǎo)",
-      "B": "Correct! 晚 (wǎn) means 'late'",
-      "C": "Evening is 晚上 (wǎn shang)",
-      "D": "Night is 夜晚 (yè wǎn)"
-    },
-    "tags": ["adjective", "time"],
-    "difficulty": 2
-  },
-  {
-    "id": "hsk1c-025",
-    "kind": "phrase",
-    "level": "HSK1c",
-    "promptLine": "nán — 难",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Easy",
-      "B": "Difficult",
-      "C": "Hard",
-      "D": "Complex"
-    },
-    "correct": "B",
-    "explanations": {
-      "A": "Easy is 容易 (róng yì)",
-      "B": "Correct! 难 (nán) means 'difficult' or 'hard'",
-      "C": "Hard is also 难 (nán) - same meaning",
-      "D": "Complex is 复杂 (fù zá)"
-    },
-    "tags": ["adjective", "difficulty"],
-    "difficulty": 3
+    "tags": [
+      "phrase",
+      "courtesy",
+      "question"
+    ],
+    "difficulty": 1,
+    "section": "Foundation"
   }
 ]
