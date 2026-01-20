@@ -30,6 +30,22 @@ export default function LandingPage() {
   return saved ? JSON.parse(saved) : {};
 });
 
+  const [isFoundationCollapsed, setIsFoundationCollapsed] = useState(false);
+  const [isUnsortedCollapsed, setIsUnsortedCollapsed] = useState(true);
+
+  // Format time as m:ss or mm:ss
+  const formatTime = (seconds: number): string => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  // Get speedrun best time from localStorage
+  const getSpeedrunTime = (section: string): string => {
+    const saved = localStorage.getItem(`speedrun_best_time:${section}`);
+    return saved ? formatTime(parseInt(saved, 10)) : "--:--";
+  };
+
   useEffect(() => {
     localStorage.setItem("selectedLevels", JSON.stringify(selectedLevels));
   }, [selectedLevels]);
@@ -94,8 +110,12 @@ export default function LandingPage() {
 
         {/* Foundation Section */}
         <div className="section">
-          <div className="section-header">
-            <h2 className="section-title">Foundation</h2>
+          <div className="section-header" onClick={() => setIsFoundationCollapsed(!isFoundationCollapsed)}>
+            <div className="section-header-left">
+              <span className="section-chevron">{isFoundationCollapsed ? '▶' : '▼'}</span>
+              <h2 className="section-title">Foundation</h2>
+            </div>
+            <span className="section-time">{getSpeedrunTime('Foundation')}</span>
             <span className="section-mastery">
               {[
                 masteredSections["Foundation 1"],
@@ -106,7 +126,9 @@ export default function LandingPage() {
             </span>
           </div>
           
-          <div className="blocks-grid">
+          {!isFoundationCollapsed && (
+            <>
+              <div className="blocks-grid">
             <div 
               className={`block-card ${
                 selectedDecks.includes("Foundation 1") ? "selected" : ""
@@ -162,10 +184,21 @@ export default function LandingPage() {
           >
             🏃 Speedrun
           </button>
+            </>
+          )}
         </div>
 
-        {/* Legacy Level Selection */}
-        <div className="level-selection">
+        {/* Unsorted Section (Legacy Levels) */}
+        <div className="section">
+          <div className="section-header" onClick={() => setIsUnsortedCollapsed(!isUnsortedCollapsed)}>
+            <div className="section-header-left">
+              <span className="section-chevron">{isUnsortedCollapsed ? '▶' : '▼'}</span>
+              <h2 className="section-title">Unsorted</h2>
+            </div>
+          </div>
+          
+          {!isUnsortedCollapsed && (
+            <div className="level-selection">
           <div className="level-checkboxes">
             <label className="level-checkbox">
               <input
@@ -208,6 +241,8 @@ export default function LandingPage() {
               <span>HSK2 {masteredSections["HSK2"] && "✅"}</span>
             </label>
           </div>
+            </div>
+          )}
         </div>
 
         <div className="start-button-footer">

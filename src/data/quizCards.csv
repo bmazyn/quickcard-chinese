@@ -1,292 +1,292 @@
-﻿id,level,unit,kind,promptLine,correct,correctText
-hsk1-001,HSK1,,vocab,nǐ hǎo — 你好,A,Hello
-hsk1-002,HSK1,,vocab,zài jiàn — 再见,B,Goodbye
-hsk1-003,HSK1,,vocab,xiè xie — 谢谢,C,Thank you
-hsk1-004,HSK1,,vocab,wǒ — 我,C,I/Me
-hsk1-005,HSK1,,vocab,nǐ — 你,B,You
-hsk1-006,HSK1,,vocab,tā — 他,C,He/Him
-hsk1-007,HSK1,,vocab,shì — 是,A,To be
-hsk1-008,HSK1,,vocab,yǒu — 有,B,To have
-hsk1-009,HSK1,,vocab,bù — 不,B,Not/No
-hsk1-010,HSK1,,vocab,de — 的,A,Marks possession
-hsk1-011,HSK1,,vocab,men — 们,B,Makes pronouns plural
-hsk1-012,HSK1,,vocab,hěn — 很,B,Very
-hsk1-013,HSK1,,vocab,yě — 也,C,Also/Too
-hsk1-014,HSK1,,vocab,rén — 人,A,Person
-hsk1-015,HSK1,,vocab,zhōng guó — 中国,B,China
-hsk1-016,HSK1,,vocab,míng zi — 名字,B,Name
-hsk1-017,HSK1,,vocab,shén me — 什么,C,What
-hsk1-018,HSK1,,vocab,shuí — 谁,B,Who
-hsk1-019,HSK1,,vocab,nǎ — 哪,C,Which
-hsk1-020,HSK1,,vocab,zhè — 这,B,This
-hsk1-021,HSK1,,vocab,nà — 那,C,That
-hsk1-022,HSK1,,vocab,yī — 一,A,One
-hsk1-023,HSK1,,vocab,èr — 二,B,Two
-hsk1-024,HSK1,,vocab,sān — 三,B,Three
-hsk1-025,HSK1,,vocab,sì — 四,B,Four
-hsk1-026,HSK1,,vocab,wǔ — 五,B,Five
-hsk1-027,HSK1,,vocab,liù — 六,B,Six
-hsk1-028,HSK1,,vocab,qī — 七,B,Seven
-hsk1-029,HSK1,,vocab,bā — 八,B,Eight
-hsk1-030,HSK1,,vocab,jiǔ — 九,B,Nine
-hsk1-031,HSK1,,vocab,shí — 十,B,Ten
-hsk1-032,HSK1,,vocab,ài — 爱,C,To love
-hsk1-033,HSK1,,vocab,chī — 吃,B,To eat
-hsk1-034,HSK1,,vocab,hē — 喝,B,To drink
-hsk1-035,HSK1,,phrase,duì bu qǐ — 对不起,B,Sorry
-hsk1-036,HSK1,,phrase,méi guān xi — 没关系,B,It doesn't matter
-hsk1-037,HSK1,,sentence,wǒ ài nǐ — 我爱你,B,I love you
-hsk1-038,HSK1,,vocab,lái — 来,B,To come
-hsk1-039,HSK1,,vocab,qù — 去,B,To go
-hsk1-040,HSK1,,contrast,lái vs qù — 来 vs 去,B,"来 = to come, 去 = to go"
-hsk1-041,HSK1,,vocab,dà — 大,B,Big
-hsk1-042,HSK1,,vocab,xiǎo — 小,B,Small
-hsk1-043,HSK1,,contrast,dà vs xiǎo — 大 vs 小,B,"大 = big, 小 = small (opposites)"
-hsk1-044,HSK1,,vocab,hǎo — 好,B,Good
-hsk1-045,HSK1,,vocab,duō — 多,B,Many/Much
-hsk1-046,HSK1,,vocab,shǎo — 少,B,Few/Little
-hsk1-047,HSK1,,contrast,duō vs shǎo — 多 vs 少,B,"多 = many, 少 = few (opposites)"
-hsk1-048,HSK1,,sentence,nǐ hǎo ma — 你好吗,B,How are you?
-hsk1-049,HSK1,,sentence,wǒ hěn hǎo — 我很好,B,I'm very good/well
-hsk1-050,HSK1,,phrase,bú kè qi — 不客气,B,You're welcome
-hsk1-051,HSK1,,vocab,kàn — 看,B,To look/watch
-hsk1-052,HSK1,,vocab,tīng — 听,C,To listen
-hsk1-053,HSK1,,vocab,shuō — 说,C,To speak
-hsk1-054,HSK1,,vocab,xiě — 写,C,To write
-hsk1-055,HSK1,,vocab,dú — 读,B,To read
-hsk1-056,HSK1,,vocab,zuò — 坐,B,To sit
-hsk1-057,HSK1,,vocab,zhàn — 站,C,To stand
-hsk1-058,HSK1,,contrast,zuò vs zhàn — 坐 vs 站,A,"坐 = to sit, 站 = to stand"
-hsk1-059,HSK1,,vocab,rèn shi — 认识,B,To know (people)
-hsk1-060,HSK1,,vocab,zhī dào — 知道,B,To know (facts)
-hsk1-061,HSK1,,contrast,zhī dào vs rèn shi — 知道 vs 认识,B,"知道 = know facts, 认识 = know people"
-hsk1-062,HSK1,,vocab,huì — 会,B,To can/know how to
-hsk1-063,HSK1,,vocab,néng — 能,A,To be able to/can
-hsk1-064,HSK1,,vocab,xiǎng — 想,A,To think/want
-hsk1-065,HSK1,,vocab,mǎi — 买,B,To buy
-hsk1-066,HSK1,,vocab,mài — 卖,B,To sell
-hsk1-067,HSK1,,contrast,mǎi vs mài — 买 vs 卖,B,"买 = to buy, 卖 = to sell"
-hsk1-068,HSK1,,vocab,kāi — 开,B,To open
-hsk1-069,HSK1,,vocab,guān — 关,C,To close
-hsk1-070,HSK1,,vocab,xuésheng — 学生,B,Student
-hsk1-071,HSK1,,vocab,lǎo shī — 老师,B,Teacher
-hsk1-072,HSK1,,vocab,yī shēng — 医生,C,Doctor
-hsk1-073,HSK1,,vocab,péng you — 朋友,B,Friend
-hsk1-074,HSK1,,vocab,jiā — 家,C,Home/Family
-hsk1-075,HSK1,,vocab,xué xiào — 学校,B,School
-hsk1-076,HSK1,,vocab,shāng diàn — 商店,B,Store/Shop
-hsk1-077,HSK1,,vocab,fàn diàn — 饭店,C,Restaurant
-hsk1-078,HSK1,,vocab,shuǐ — 水,B,Water
-hsk1-079,HSK1,,vocab,chá — 茶,C,Tea
-hsk1-080,HSK1,,vocab,mǐ fàn — 米饭,B,Rice
-hsk1-081,HSK1,,vocab,miàn tiáo — 面条,B,Noodles
-hsk1-082,HSK1,,vocab,cài — 菜,C,Dish/Vegetable
-hsk1-083,HSK1,,vocab,píng guǒ — 苹果,B,Apple
-hsk1-084,HSK1,,vocab,jīn tiān — 今天,B,Today
-hsk1-085,HSK1,,vocab,míng tiān — 明天,C,Tomorrow
-hsk1-086,HSK1,,vocab,zuó tiān — 昨天,C,Yesterday
-hsk1-087,HSK1,,vocab,xiàn zài — 现在,C,Now
-hsk1-088,HSK1,,vocab,nián — 年,C,Year
-hsk1-089,HSK1,,vocab,yuè — 月,B,Month/Moon
-hsk1-090,HSK1,,vocab,tiān — 天,B,Sky/Day
-hsk1-091,HSK1,,vocab,xīng qī — 星期,B,Week
-hsk1-092,HSK1,,vocab,shàng wǔ — 上午,B,Morning
-hsk1-093,HSK1,,vocab,xià wǔ — 下午,B,Afternoon
-hsk1-094,HSK1,,contrast,shàng wǔ vs xià wǔ — 上午 vs 下午,B,"上午 = morning, 下午 = afternoon"
-hsk1-095,HSK1,,sentence,nǐ chī fàn le ma — 你吃饭了吗,B,Have you eaten?
-hsk1-096,HSK1,,sentence,wǒ qù xuéxiào — 我去学校,B,I go to school
-hsk1-097,HSK1,,sentence,tā shì xuésheng — 她是学生,B,She is a student
-hsk1-098,HSK1,,phrase,duō shao qián — 多少钱,B,How much money?
-hsk1-099,HSK1,,phrase,zài nǎr — 在哪儿,C,Where is it?
-hsk1-100,HSK1,,sentence,wǒ bù zhī dào — 我不知道,B,I don't know
-hsk1-101,HSK1,,vocab,běn — 本,C,Measure word for books
-hsk1-102,HSK1,,vocab,bēi — 杯,B,Cup
-hsk1-103,HSK1,,vocab,cài — 菜,A,Dish/Vegetable
-hsk1-104,HSK1,,vocab,diǎn — 点,C,O'clock
-hsk1-105,HSK1,,vocab,diàn nǎo — 电脑,B,Computer
-hsk1-106,HSK1,,vocab,diàn shì — 电视,B,Television
-hsk1-107,HSK1,,vocab,diàn yǐng — 电影,C,Movie
-hsk1-108,HSK1,,vocab,dōng xi — 东西,B,Thing/Stuff
-hsk1-109,HSK1,,vocab,duì — 对,B,Right/Correct
-hsk1-110,HSK1,,vocab,duō — 多,B,Many/Much
-hsk1-111,HSK1,,vocab,ér zi — 儿子,B,Son
-hsk1-112,HSK1,,vocab,fàn guǎn — 饭馆,B,Restaurant
-hsk1-113,HSK1,,vocab,gāo xìng — 高兴,C,Happy
-hsk1-114,HSK1,,vocab,gè — 个,B,General measure word
-hsk1-115,HSK1,,vocab,gōng zuò — 工作,B,Work/Job
-hsk1-116,HSK1,,vocab,guì — 贵,B,Expensive
-hsk1-117,HSK1,,vocab,guó jiā — 国家,B,Country/Nation
-hsk1-118,HSK1,,vocab,hàn yǔ — 汉语,B,Chinese language
-hsk1-119,HSK1,,vocab,hòu miàn — 后面,B,Behind/Back
-hsk1-120,HSK1,,vocab,huí — 回,B,Return
-hsk1-121,HSK1,,vocab,jǐ — 几,B,How many
-hsk1-122,HSK1,,vocab,jiā — 家,B,Home/Family
-hsk1-123,HSK1,,vocab,jiào — 叫,B,Call/Be called
-hsk1-124,HSK1,,vocab,jīn tiān — 今天,B,Today
-hsk1-125,HSK1,,vocab,kāi — 开,B,Open
-hsk1-126,HSK1,,vocab,kàn jiàn — 看见,B,See/Catch sight of
-hsk1-127,HSK1,,vocab,kuài — 块,B,Yuan (informal)
-hsk1-128,HSK1,,vocab,lěng — 冷,B,Cold
-hsk1-129,HSK1,,vocab,lǐ miàn — 里面,B,Inside
-hsk1-130,HSK1,,vocab,liǎng — 两,B,Two (with measure words)
-hsk1-131,HSK1,,vocab,máng — 忙,B,Busy
-hsk1-132,HSK1,,vocab,māo — 猫,B,Cat
-hsk1-133,HSK1,,vocab,méi — 没,B,Not/Don't have
-hsk1-134,HSK1,,vocab,mèi mei — 妹妹,B,Younger sister
-hsk1-135,HSK1,,vocab,nán — 男,B,Male
-hsk1-136,HSK1,,vocab,ne — 呢,B,Question particle
-hsk1-137,HSK1,,vocab,nián — 年,B,Year
-hsk1-138,HSK1,,vocab,nǚ ér — 女儿,B,Daughter
-hsk1-139,HSK1,,vocab,piào liang — 漂亮,B,Beautiful/Pretty
-hsk1-140,HSK1,,vocab,píng guǒ — 苹果,B,Apple
-hsk1-141,HSK1,,vocab,qǐng — 请,B,Please
-hsk1-142,HSK1,,vocab,qián miàn — 前面,B,Front
-hsk1-143,HSK1,,vocab,qián — 钱,B,Money
-hsk1-144,HSK1,,vocab,rè — 热,B,Hot
-hsk1-145,HSK1,,vocab,rì — 日,B,Day/Sun
-hsk1-146,HSK1,,vocab,shàng miàn — 上面,B,Above/On top
-hsk1-147,HSK1,,vocab,shēng rì — 生日,B,Birthday
-hsk1-148,HSK1,,vocab,shí hou — 时候,B,Time/Moment
-hsk1-149,HSK1,,vocab,shū — 书,B,Book
-hsk1-150,HSK1,,vocab,shuǐ — 水,B,Water
-hsk1-151,HSK1,,phrase,nǐ jiào shén me míng zi — 你叫什么名字,A,What's your name?
-hsk1-152,HSK1,,sentence,wǒ jiào... — 我叫...,B,My name is...
-hsk1-153,HSK1,,phrase,zài nǎ lǐ — 在哪里,B,Where?
-hsk1-154,HSK1,,sentence,wǒ yào... — 我要...,C,I want...
-hsk1-155,HSK1,,sentence,wǒ méi yǒu... — 我没有...,A,I don't have...
-hsk1-156,HSK1,,phrase,zhè shì shén me — 这是什么,A,What is this?
-hsk1-157,HSK1,,sentence,duō shao qián — 多少钱,B,How much money?
-hsk1-158,HSK1,,phrase,rèn shi nǐ hěn gāo xìng — 认识你很高兴,B,Nice to meet you
-hsk1-159,HSK1,,sentence,wǒ bù zhī dào — 我不知道,B,I don't know
-hsk1-160,HSK1,,phrase,qǐng wèn — 请问,B,Excuse me / May I ask
-hsk2-001,HSK2,,vocab,bān — 班,A,class
-hsk2-002,HSK2,,vocab,bāng zhù — 帮助,B,to help
-hsk2-003,HSK2,,vocab,bào zhǐ — 报纸,C,newspaper
-hsk2-004,HSK2,,vocab,bǐ — 比,A,than/to compare
-hsk2-005,HSK2,,vocab,bié — 别,B,don't
-hsk2-006,HSK2,,vocab,cháng — 长,B,long
-hsk2-007,HSK2,,vocab,chàng gē — 唱歌,B,to sing
-hsk2-008,HSK2,,vocab,chuān — 穿,C,to wear
-hsk2-009,HSK2,,vocab,cì — 次,A,time/occasion
-hsk2-010,HSK2,,vocab,cōng míng — 聪明,B,smart/clever
-hsk2-011,HSK2,,vocab,dān xīn — 担心,B,to worry
-hsk2-012,HSK2,,vocab,dào — 到,B,to arrive
-hsk2-013,HSK2,,vocab,dì tiě — 地铁,C,subway
-hsk2-014,HSK2,,vocab,dǒng — 懂,C,to understand
-hsk2-015,HSK2,,vocab,duàn liàn — 锻炼,B,to exercise
-hsk2-016,HSK2,,vocab,fā xiàn — 发现,B,to discover
-hsk2-017,HSK2,,vocab,gǎn jué — 感觉,B,feeling
-hsk2-018,HSK2,,vocab,gāng cái — 刚才,B,just now
-hsk2-019,HSK2,,vocab,gào sù — 告诉,B,to tell
-hsk2-020,HSK2,,vocab,gēn — 跟,B,with
-hsk2-021,HSK2,,vocab,guò — 过,A,to pass/to cross
-hsk2-022,HSK2,,vocab,hái shì — 还是,B,or
-hsk2-023,HSK2,,vocab,hēi — 黑,B,black
-hsk2-024,HSK2,,vocab,huā — 花,C,flower
-hsk2-025,HSK2,,vocab,huà — 画,B,to draw
-hsk2-026,HSK2,,vocab,yīn wèi — 因为,B,because
-hsk2-027,HSK2,,vocab,suǒ yǐ — 所以,C,so / therefore
-hsk2-028,HSK2,,vocab,jué de — 觉得,C,to feel / think
-hsk2-029,HSK2,,vocab,kāi shǐ — 开始,B,to start
-hsk2-030,HSK2,,vocab,jié shù — 结束,C,to finish
-hsk2-031,HSK2,,vocab,bāng zhù — 帮助,B,to help
-hsk2-032,HSK2,,vocab,yì qǐ — 一起,B,together
-hsk2-033,HSK2,,vocab,yǐ jīng — 已经,C,already
-hsk2-034,HSK2,,vocab,zhèng zài — 正在,C,in the process of
-hsk2-035,HSK2,,vocab,bǐ jiào — 比较,C,comparatively / rather
-hsk1b-days-001,HSK1b,days,vocab,xīng qī yī — 星期一,A,Monday
-hsk1b-days-002,HSK1b,days,vocab,xīng qī èr — 星期二,B,Tuesday
-hsk1b-days-003,HSK1b,days,vocab,xīng qī sān — 星期三,B,Wednesday
-hsk1b-days-004,HSK1b,days,vocab,xīng qī sì — 星期四,B,Thursday
-hsk1b-days-005,HSK1b,days,vocab,xīng qī wǔ — 星期五,B,Friday
-hsk1b-days-006,HSK1b,days,vocab,xīng qī liù — 星期六,C,Saturday
-hsk1b-days-007,HSK1b,days,vocab,xīng qī rì — 星期日,C,Sunday
-hsk1b-months-001,HSK1b,months,vocab,yī yuè — 一月,A,January
-hsk1b-months-002,HSK1b,months,vocab,èr yuè — 二月,B,February
-hsk1b-months-003,HSK1b,months,vocab,sān yuè — 三月,B,March
-hsk1b-months-004,HSK1b,months,vocab,sì yuè — 四月,B,April
-hsk1b-months-005,HSK1b,months,vocab,wǔ yuè — 五月,B,May
-hsk1b-months-006,HSK1b,months,vocab,liù yuè — 六月,B,June
-hsk1b-months-007,HSK1b,months,vocab,qī yuè — 七月,B,July
-hsk1b-months-008,HSK1b,months,vocab,bā yuè — 八月,B,August
-hsk1b-months-009,HSK1b,months,vocab,jiǔ yuè — 九月,B,September
-hsk1b-months-010,HSK1b,months,vocab,shí yuè — 十月,B,October
-hsk1b-months-011,HSK1b,months,vocab,shí yī yuè — 十一月,B,November
-hsk1b-months-012,HSK1b,months,vocab,shí èr yuè — 十二月,C,December
-hsk1b-countries-001,HSK1b,countries,vocab,zhōng guó — 中国,A,China
-hsk1b-countries-002,HSK1b,countries,vocab,měi guó — 美国,B,United States
-hsk1b-countries-003,HSK1b,countries,vocab,rì běn — 日本,B,Japan
-hsk1b-countries-004,HSK1b,countries,vocab,hán guó — 韩国,C,South Korea
-hsk1b-countries-005,HSK1b,countries,vocab,yīng guó — 英国,B,United Kingdom
-hsk1b-countries-006,HSK1b,countries,vocab,fǎ guó — 法国,B,France
-hsk1b-countries-007,HSK1b,countries,vocab,dé guó — 德国,B,Germany
-hsk1b-countries-008,HSK1b,countries,vocab,jiā ná dà — 加拿大,B,Canada
-hsk1b-countries-009,HSK1b,countries,vocab,ào dà lì yà — 澳大利亚,B,Australia
-hsk1b-countries-010,HSK1b,countries,vocab,xī bān yá — 西班牙,B,Spain
-hsk1b-colors-001,HSK1b,colors,vocab,hóng — 红,A,red
-hsk1b-colors-002,HSK1b,colors,vocab,lán — 蓝,B,blue
-hsk1b-colors-003,HSK1b,colors,vocab,bái — 白,A,white
-hsk1b-colors-004,HSK1b,colors,vocab,hēi — 黑,B,black
-hsk1b-colors-005,HSK1b,colors,vocab,lǜ — 绿,B,green
-hsk1b-colors-006,HSK1b,colors,vocab,huáng — 黄,C,yellow
-hsk1b-colors-007,HSK1b,colors,vocab,huī — 灰,C,gray
-hsk1b-colors-008,HSK1b,colors,vocab,fěn hóng — 粉红,B,pink
-hsk1b-family-001,HSK1b,family,vocab,gē ge — 哥哥,A,older brother
-hsk1b-family-002,HSK1b,family,vocab,jiě jie — 姐姐,B,older sister
-hsk1b-family-003,HSK1b,family,vocab,dì di — 弟弟,B,younger brother
-hsk1b-family-004,HSK1b,family,vocab,mèi mei — 妹妹,B,younger sister
-hsk1b-family-005,HSK1b,family,vocab,yé ye — 爷爷,B,grandfather
-hsk1b-family-006,HSK1b,family,vocab,nǎi nai — 奶奶,B,grandmother
-hsk1b-places-001,HSK1b,places,vocab,yín háng — 银行,A,bank
-hsk1b-places-002,HSK1b,places,vocab,gōng sī — 公司,B,company
-hsk1b-places-003,HSK1b,places,vocab,chāo shì — 超市,B,supermarket
-hsk1b-places-004,HSK1b,places,vocab,jī chǎng — 机场,B,airport
-hsk1b-places-005,HSK1b,places,vocab,yī yuàn — 医院,A,hospital
-hsk1b-places-006,HSK1b,places,vocab,chē zhàn — 车站,B,station
-hsk1b-places-007,HSK1b,places,vocab,diàn yǐng yuàn — 电影院,B,movie theater
-hsk1b-places-008,HSK1b,places,vocab,tú shū guǎn — 图书馆,B,library
-hsk1p-001,HSK1-PHRASE,,phrase,nǐ jiào shén me míng zi — 你叫什么名字,A,What's your name?
-hsk1p-002,HSK1-PHRASE,,phrase,wǒ bù míng bai — 我不明白,B,I don't understand
-hsk1p-003,HSK1-PHRASE,,phrase,qǐng zài shuō yí biàn — 请再说一遍,A,Please say it again
-hsk1p-004,HSK1-PHRASE,,phrase,duō shao qián — 多少钱,A,How much is it?
-hsk1p-005,HSK1-PHRASE,,phrase,méi wèn tí — 没问题,A,No problem
-hsk1p-006,HSK1-PHRASE,,phrase,zài nǎ lǐ — 在哪里,A,Where is it?
-hsk1p-007,HSK1-PHRASE,,phrase,wǒ yào zhè ge — 我要这个,A,I want this one
-hsk1p-008,HSK1-PHRASE,,phrase,qǐng wèn — 请问,A,Excuse me / May I ask
-hsk1p-009,HSK1-PHRASE,,phrase,nǐ hǎo ma — 你好吗,A,How are you?
-hsk1p-010,HSK1-PHRASE,,phrase,wǒ méi yǒu qián — 我没有钱,A,I don't have money
-hsk1p-011,HSK1-PHRASE,,phrase,zhè shì shén me — 这是什么,A,What is this?
-hsk1p-012,HSK1-PHRASE,,phrase,rèn shi nǐ hěn gāo xìng — 认识你很高兴,A,Nice to meet you
-hsk1p-013,HSK1-PHRASE,,phrase,wǒ hěn hǎo — 我很好,A,I'm very well
-hsk1p-014,HSK1-PHRASE,,phrase,nǐ huì shuō zhōng wén ma — 你会说中文吗,A,Can you speak Chinese?
-hsk1p-015,HSK1-PHRASE,,phrase,bù hǎo yì si — 不好意思,A,Excuse me / Sorry
-hsk1p-016,HSK1-PHRASE,,phrase,wǒ xiǎng hē shuǐ — 我想喝水,A,I want to drink water
-hsk1p-017,HSK1-PHRASE,,phrase,nǐ shì nǎ lǐ rén — 你是哪里人,A,Where are you from?
-hsk1p-018,HSK1-PHRASE,,phrase,tài guì le — 太贵了,A,Too expensive
-hsk1p-019,HSK1-PHRASE,,phrase,wǒ huí jiā — 我回家,A,I'm going home
-hsk1p-020,HSK1-PHRASE,,phrase,nǐ chī le ma — 你吃了吗,A,Have you eaten?
-hsk1c-001,HSK1c,,phrase,lěng — 冷,B,Cold
-hsk1c-002,HSK1c,,phrase,rè — 热,C,Hot
-hsk1c-003,HSK1c,,phrase,lèi — 累,C,Tired
-hsk1c-004,HSK1c,,phrase,è — 饿,B,Hungry
-hsk1c-005,HSK1c,,phrase,kě — 渴,B,Thirsty
-hsk1c-006,HSK1c,,phrase,máng — 忙,C,Busy
-hsk1c-007,HSK1c,,phrase,guì — 贵,C,Expensive
-hsk1c-008,HSK1c,,phrase,pián yi — 便宜,C,Cheap
-hsk1c-009,HSK1c,,phrase,gāo — 高,B,Tall
-hsk1c-010,HSK1c,,phrase,ǎi — 矮,B,Short
-hsk1c-011,HSK1c,,phrase,cháng — 长,C,Long
-hsk1c-012,HSK1c,,phrase,duǎn — 短,C,Short
-hsk1c-013,HSK1c,,phrase,kuài — 快,B,Fast
-hsk1c-014,HSK1c,,phrase,màn — 慢,B,Slow
-hsk1c-015,HSK1c,,phrase,xīn — 新,C,New
-hsk1c-016,HSK1c,,phrase,jiù — 旧,B,Old
-hsk1c-017,HSK1c,,phrase,duō — 多,B,Many
-hsk1c-018,HSK1c,,phrase,shǎo — 少,B,Few
-hsk1c-019,HSK1c,,phrase,pàng — 胖,B,Fat
-hsk1c-020,HSK1c,,phrase,shòu — 瘦,B,Thin
-hsk1c-021,HSK1c,,phrase,yuǎn — 远,B,Far
-hsk1c-022,HSK1c,,phrase,jìn — 近,B,Near
-hsk1c-023,HSK1c,,phrase,zǎo — 早,B,Early
-hsk1c-024,HSK1c,,phrase,wǎn — 晚,B,Late
-hsk1c-025,HSK1c,,phrase,nán — 难,B,Difficult
+"id","kind","level","deck","promptLine","pinyin","hanzi","question","correct","tags","difficulty"
+"hsk1-001","vocab","HSK1","Foundation 1","nǐ hǎo — 你好","nǐ hǎo","你好","What does this mean?","A","greeting;basic","1"
+"hsk1-002","vocab","HSK1","Foundation 1","zài jiàn — 再见","zài jiàn","再见","What does this mean?","B","greeting;basic","1"
+"hsk1-003","vocab","HSK1","Foundation 1","xiè xie — 谢谢","xiè xie","谢谢","What does this mean?","C","courtesy;basic","1"
+"hsk1-004","vocab","HSK1","Foundation 1","wǒ — 我","wǒ","我","What does this mean?","C","pronoun;basic","1"
+"hsk1-005","vocab","HSK1","Foundation 1","nǐ — 你","nǐ","你","What does this mean?","B","pronoun;basic","1"
+"hsk1-006","vocab","HSK1","Foundation 1","tā — 他","tā","他","What does this mean?","C","pronoun;basic","1"
+"hsk1-007","vocab","HSK1","Foundation 1","shì — 是","shì","是","What does this mean?","A","verb;basic","1"
+"hsk1-008","vocab","HSK1","Foundation 1","yǒu — 有","yǒu","有","What does this mean?","B","verb;basic","1"
+"hsk1-009","vocab","HSK1","Foundation 1","bù — 不","bù","不","What does this mean?","B","adverb;basic","1"
+"hsk1-010","vocab","HSK1","Foundation 1","de — 的","de","的","What does this particle do?","A","particle;grammar","1"
+"hsk1-011","vocab","HSK1","Foundation 1","men — 们","men","们","What does this character do?","B","particle;grammar","1"
+"hsk1-012","vocab","HSK1","Foundation 1","hěn — 很","hěn","很","What does this mean?","B","adverb;basic","1"
+"hsk1-013","vocab","HSK1","Foundation 1","yě — 也","yě","也","What does this mean?","C","adverb;basic","1"
+"hsk1-014","vocab","HSK1","Foundation 1","rén — 人","rén","人","What does this mean?","A","noun;basic","1"
+"hsk1-015","vocab","HSK1","","zhōng guó — 中国","zhōng guó","中国","What does this mean?","B","country;noun","1"
+"hsk1-016","vocab","HSK1","Foundation 1","míng zi — 名字","míng zi","名字","What does this mean?","B","noun;basic","1"
+"hsk1-017","vocab","HSK1","Foundation 1","shén me — 什么","shén me","什么","What does this mean?","C","question;pronoun","1"
+"hsk1-018","vocab","HSK1","Foundation 1","shuí — 谁","shuí","谁","What does this mean?","B","question;pronoun","1"
+"hsk1-019","vocab","HSK1","Foundation 1","nǎ — 哪","nǎ","哪","What does this mean?","C","question;pronoun","1"
+"hsk1-020","vocab","HSK1","Foundation 1","zhè — 这","zhè","这","What does this mean?","B","pronoun;basic","1"
+"hsk1-021","vocab","HSK1","Foundation 1","nà — 那","nà","那","What does this mean?","C","pronoun;basic","1"
+"hsk1-022","vocab","HSK1","Numbers","yī — 一","yī","一","What number is this?","A","number;basic","1"
+"hsk1-023","vocab","HSK1","Numbers","èr — 二","èr","二","What number is this?","B","number;basic","1"
+"hsk1-024","vocab","HSK1","Numbers","sān — 三","sān","三","What number is this?","B","number;basic","1"
+"hsk1-025","vocab","HSK1","Numbers","sì — 四","sì","四","What number is this?","B","number;basic","1"
+"hsk1-026","vocab","HSK1","Numbers","wǔ — 五","wǔ","五","What number is this?","B","number;basic","1"
+"hsk1-027","vocab","HSK1","Numbers","liù — 六","liù","六","What number is this?","B","number;basic","1"
+"hsk1-028","vocab","HSK1","Numbers","qī — 七","qī","七","What number is this?","B","number;basic","1"
+"hsk1-029","vocab","HSK1","Numbers","bā — 八","bā","八","What number is this?","B","number;basic","1"
+"hsk1-030","vocab","HSK1","Numbers","jiǔ — 九","jiǔ","九","What number is this?","B","number;basic","1"
+"hsk1-031","vocab","HSK1","Numbers","shí — 十","shí","十","What number is this?","B","number;basic","1"
+"hsk1-032","vocab","HSK1","","ài — 爱","ài","爱","What does this mean?","C","verb;emotion","1"
+"hsk1-033","vocab","HSK1","","chī — 吃","chī","吃","What does this mean?","B","verb;action","1"
+"hsk1-034","vocab","HSK1","","hē — 喝","hē","喝","What does this mean?","B","verb;action","1"
+"hsk1-035","phrase","HSK1","Greetings 1","duì bu qǐ — 对不起","duì bu qǐ","对不起","What does this phrase mean?","B","courtesy;phrase","1"
+"hsk1-036","phrase","HSK1","Greetings 1","méi guān xi — 没关系","méi guān xi","没关系","What does this phrase mean?","B","courtesy;phrase","1"
+"hsk1-037","sentence","HSK1","Greetings 1","wǒ ài nǐ — 我爱你","wǒ ài nǐ","我爱你","What does this sentence mean?","B","sentence;emotion","1"
+"hsk1-038","vocab","HSK1","","lái — 来","lái","来","What does this mean?","B","verb;movement","1"
+"hsk1-039","vocab","HSK1","","qù — 去","qù","去","What does this mean?","B","verb;movement","1"
+"hsk1-040","contrast","HSK1","","lái vs qù — 来 vs 去","lái vs qù","来 vs 去","What's the key difference?","B","contrast;movement","1"
+"hsk1-041","vocab","HSK1","","dà — 大","dà","大","What does this mean?","B","adjective;size","1"
+"hsk1-042","vocab","HSK1","","xiǎo — 小","xiǎo","小","What does this mean?","B","adjective;size","1"
+"hsk1-043","contrast","HSK1","","dà vs xiǎo — 大 vs 小","dà vs xiǎo","大 vs 小","What's the relationship?","B","contrast;size","1"
+"hsk1-044","vocab","HSK1","","hǎo — 好","hǎo","好","What does this mean?","B","adjective;quality","1"
+"hsk1-045","vocab","HSK1","","duō — 多","duō","多","What does this mean?","B","adjective;quantity","1"
+"hsk1-046","vocab","HSK1","","shǎo — 少","shǎo","少","What does this mean?","B","adjective;quantity","1"
+"hsk1-047","contrast","HSK1","","duō vs shǎo — 多 vs 少","duō vs shǎo","多 vs 少","What's the relationship?","B","contrast;quantity","1"
+"hsk1-048","sentence","HSK1","Greetings 1","nǐ hǎo ma — 你好吗","nǐ hǎo ma","你好吗","What does this sentence mean?","B","sentence;greeting","1"
+"hsk1-049","sentence","HSK1","Greetings 1","wǒ hěn hǎo — 我很好","wǒ hěn hǎo","我很好","What does this sentence mean?","B","sentence;response","1"
+"hsk1-050","phrase","HSK1","Greetings 1","bú kè qi — 不客气","bú kè qi","不客气","What does this phrase mean?","B","courtesy;phrase","1"
+"hsk1-051","vocab","HSK1","","kàn — 看","kàn","看","What does this mean?","B","verb;action","1"
+"hsk1-052","vocab","HSK1","","tīng — 听","tīng","听","What does this mean?","C","verb;action","1"
+"hsk1-053","vocab","HSK1","","shuō — 说","shuō","说","What does this mean?","C","verb;action","1"
+"hsk1-054","vocab","HSK1","","xiě — 写","xiě","写","What does this mean?","C","verb;action","1"
+"hsk1-055","vocab","HSK1","","dú — 读","dú","读","What does this mean?","B","verb;action","1"
+"hsk1-056","vocab","HSK1","","zuò — 坐","zuò","坐","What does this mean?","B","verb;action","1"
+"hsk1-057","vocab","HSK1","","zhàn — 站","zhàn","站","What does this mean?","C","verb;action","1"
+"hsk1-058","contrast","HSK1","","zuò vs zhàn — 坐 vs 站","zuò vs zhàn","坐 vs 站","What's the key difference?","A","contrast;action","1"
+"hsk1-059","vocab","HSK1","","rèn shi — 认识","rèn shi","认识","What does this mean?","B","verb;social","1"
+"hsk1-060","vocab","HSK1","","zhī dào — 知道","zhī dào","知道","What does this mean?","B","verb;mental","1"
+"hsk1-061","contrast","HSK1","","zhī dào vs rèn shi — 知道 vs 认识","zhī dào vs rèn shi","知道 vs 认识","What's the key difference?","B","contrast;mental","1"
+"hsk1-062","vocab","HSK1","","huì — 会","huì","会","What does this mean?","B","verb;ability","1"
+"hsk1-063","vocab","HSK1","","néng — 能","néng","能","What does this mean?","A","verb;ability","1"
+"hsk1-064","vocab","HSK1","","xiǎng — 想","xiǎng","想","What does this mean?","A","verb;mental","1"
+"hsk1-065","vocab","HSK1","","mǎi — 买","mǎi","买","What does this mean?","B","verb;transaction","1"
+"hsk1-066","vocab","HSK1","","mài — 卖","mài","卖","What does this mean?","B","verb;transaction","1"
+"hsk1-067","contrast","HSK1","","mǎi vs mài — 买 vs 卖","mǎi vs mài","买 vs 卖","What's the key difference?","B","contrast;transaction","1"
+"hsk1-068","vocab","HSK1","","kāi — 开","kāi","开","What does this mean?","B","verb;action","1"
+"hsk1-069","vocab","HSK1","","guān — 关","guān","关","What does this mean?","C","verb;action","1"
+"hsk1-070","vocab","HSK1","","xuésheng — 学生","xuésheng","学生","What does this mean?","B","noun;occupation","1"
+"hsk1-071","vocab","HSK1","","lǎo shī — 老师","lǎo shī","老师","What does this mean?","B","noun;occupation","1"
+"hsk1-072","vocab","HSK1","","yī shēng — 医生","yī shēng","医生","What does this mean?","C","noun;occupation","1"
+"hsk1-073","vocab","HSK1","","péng you — 朋友","péng you","朋友","What does this mean?","B","noun;social","1"
+"hsk1-074","vocab","HSK1","","jiā — 家","jiā","家","What does this mean?","C","noun;place","1"
+"hsk1-075","vocab","HSK1","","xué xiào — 学校","xué xiào","学校","What does this mean?","B","noun;place","1"
+"hsk1-076","vocab","HSK1","","shāng diàn — 商店","shāng diàn","商店","What does this mean?","B","noun;place","1"
+"hsk1-077","vocab","HSK1","","fàn diàn — 饭店","fàn diàn","饭店","What does this mean?","C","noun;place","1"
+"hsk1-078","vocab","HSK1","","shuǐ — 水","shuǐ","水","What does this mean?","B","noun;drink","1"
+"hsk1-079","vocab","HSK1","","chá — 茶","chá","茶","What does this mean?","C","noun;drink","1"
+"hsk1-080","vocab","HSK1","","mǐ fàn — 米饭","mǐ fàn","米饭","What does this mean?","B","noun;food","1"
+"hsk1-081","vocab","HSK1","","miàn tiáo — 面条","miàn tiáo","面条","What does this mean?","B","noun;food","1"
+"hsk1-082","vocab","HSK1","","cài — 菜","cài","菜","What does this mean?","C","noun;food","1"
+"hsk1-083","vocab","HSK1","","píng guǒ — 苹果","píng guǒ","苹果","What does this mean?","B","noun;fruit","1"
+"hsk1-084","vocab","HSK1","Time 1","jīn tiān — 今天","jīn tiān","今天","What does this mean?","B","time;noun","1"
+"hsk1-085","vocab","HSK1","Time 1","míng tiān — 明天","míng tiān","明天","What does this mean?","C","time;noun","1"
+"hsk1-086","vocab","HSK1","Time 1","zuó tiān — 昨天","zuó tiān","昨天","What does this mean?","C","time;noun","1"
+"hsk1-087","vocab","HSK1","Time 1","xiàn zài — 现在","xiàn zài","现在","What does this mean?","C","time;adverb","1"
+"hsk1-088","vocab","HSK1","Time 1","nián — 年","nián","年","What does this mean?","C","time;noun","1"
+"hsk1-089","vocab","HSK1","Time 1","yuè — 月","yuè","月","What does this mean?","B","time;noun","1"
+"hsk1-090","vocab","HSK1","Time 1","tiān — 天","tiān","天","What does this mean?","B","time;noun","1"
+"hsk1-091","vocab","HSK1","Time 1","xīng qī — 星期","xīng qī","星期","What does this mean?","B","time;noun","1"
+"hsk1-092","vocab","HSK1","Time 1","shàng wǔ — 上午","shàng wǔ","上午","What does this mean?","B","time;noun","1"
+"hsk1-093","vocab","HSK1","Time 1","xià wǔ — 下午","xià wǔ","下午","What does this mean?","B","time;noun","1"
+"hsk1-094","contrast","HSK1","Time 1","shàng wǔ vs xià wǔ — 上午 vs 下午","shàng wǔ vs xià wǔ","上午 vs 下午","What's the relationship?","B","contrast;time","1"
+"hsk1-095","sentence","HSK1","Time 1","nǐ chī fàn le ma — 你吃饭了吗","nǐ chī fàn le ma","你吃饭了吗","What does this sentence mean?","B","sentence;greeting","1"
+"hsk1-096","sentence","HSK1","","wǒ qù xuéxiào — 我去学校","wǒ qù xuéxiào","我去学校","What does this sentence mean?","B","sentence;action","1"
+"hsk1-097","sentence","HSK1","","tā shì xuésheng — 她是学生","tā shì xuésheng","她是学生","What does this sentence mean?","B","sentence;identity","1"
+"hsk1-098","phrase","HSK1","","duō shao qián — 多少钱","duō shao qián","多少钱","What does this phrase mean?","B","phrase;shopping","1"
+"hsk1-099","phrase","HSK1","","zài nǎr — 在哪儿","zài nǎr","在哪儿","What does this phrase mean?","C","phrase;question","1"
+"hsk1-100","sentence","HSK1","","wǒ bù zhī dào — 我不知道","wǒ bù zhī dào","我不知道","What does this sentence mean?","B","sentence;response","1"
+"hsk1-101","vocab","HSK1","","běn — 本","běn","本","What does this mean?","C","hsk1;vocab","1"
+"hsk1-102","vocab","HSK1","","bēi — 杯","bēi","杯","What does this mean?","B","hsk1;vocab","1"
+"hsk1-103","vocab","HSK1","","cài — 菜","cài","菜","What does this mean?","A","hsk1;vocab","1"
+"hsk1-104","vocab","HSK1","","diǎn — 点","diǎn","点","What does this mean?","C","hsk1;vocab","1"
+"hsk1-105","vocab","HSK1","","diàn nǎo — 电脑","diàn nǎo","电脑","What does this mean?","B","hsk1;vocab","1"
+"hsk1-106","vocab","HSK1","","diàn shì — 电视","diàn shì","电视","What does this mean?","B","hsk1;vocab","1"
+"hsk1-107","vocab","HSK1","","diàn yǐng — 电影","diàn yǐng","电影","What does this mean?","C","hsk1;vocab","1"
+"hsk1-108","vocab","HSK1","","dōng xi — 东西","dōng xi","东西","What does this mean?","B","hsk1;vocab","1"
+"hsk1-109","vocab","HSK1","","duì — 对","duì","对","What does this mean?","B","hsk1;vocab","1"
+"hsk1-110","vocab","HSK1","","duō — 多","duō","多","What does this mean?","B","hsk1;vocab","1"
+"hsk1-111","vocab","HSK1","","ér zi — 儿子","ér zi","儿子","What does this mean?","B","hsk1;vocab","1"
+"hsk1-112","vocab","HSK1","","fàn guǎn — 饭馆","fàn guǎn","饭馆","What does this mean?","B","hsk1;vocab","1"
+"hsk1-113","vocab","HSK1","","gāo xìng — 高兴","gāo xìng","高兴","What does this mean?","C","hsk1;vocab","1"
+"hsk1-114","vocab","HSK1","","gè — 个","gè","个","What does this mean?","B","hsk1;vocab","1"
+"hsk1-115","vocab","HSK1","","gōng zuò — 工作","gōng zuò","工作","What does this mean?","B","hsk1;vocab","1"
+"hsk1-116","vocab","HSK1","","guì — 贵","guì","贵","What does this mean?","B","hsk1;vocab","1"
+"hsk1-117","vocab","HSK1","","guó jiā — 国家","guó jiā","国家","What does this mean?","B","hsk1;vocab","1"
+"hsk1-118","vocab","HSK1","","hàn yǔ — 汉语","hàn yǔ","汉语","What does this mean?","B","hsk1;vocab","1"
+"hsk1-119","vocab","HSK1","","hòu miàn — 后面","hòu miàn","后面","What does this mean?","B","hsk1;vocab","1"
+"hsk1-120","vocab","HSK1","","huí — 回","huí","回","What does this mean?","B","hsk1;vocab","1"
+"hsk1-121","vocab","HSK1","","jǐ — 几","jǐ","几","What does this mean?","B","hsk1;vocab","1"
+"hsk1-122","vocab","HSK1","","jiā — 家","jiā","家","What does this mean?","B","hsk1;vocab","1"
+"hsk1-123","vocab","HSK1","","jiào — 叫","jiào","叫","What does this mean?","B","hsk1;vocab","1"
+"hsk1-124","vocab","HSK1","","jīn tiān — 今天","jīn tiān","今天","What does this mean?","B","hsk1;vocab","1"
+"hsk1-125","vocab","HSK1","","kāi — 开","kāi","开","What does this mean?","B","hsk1;vocab","1"
+"hsk1-126","vocab","HSK1","","kàn jiàn — 看见","kàn jiàn","看见","What does this mean?","B","hsk1;vocab","1"
+"hsk1-127","vocab","HSK1","","kuài — 块","kuài","块","What does this mean?","B","hsk1;vocab","1"
+"hsk1-128","vocab","HSK1","","lěng — 冷","lěng","冷","What does this mean?","B","hsk1;vocab","1"
+"hsk1-129","vocab","HSK1","","lǐ miàn — 里面","lǐ miàn","里面","What does this mean?","B","hsk1;vocab","1"
+"hsk1-130","vocab","HSK1","","liǎng — 两","liǎng","两","What does this mean?","B","hsk1;vocab","1"
+"hsk1-131","vocab","HSK1","","máng — 忙","máng","忙","What does this mean?","B","hsk1;vocab","1"
+"hsk1-132","vocab","HSK1","","māo — 猫","māo","猫","What does this mean?","B","hsk1;vocab","1"
+"hsk1-133","vocab","HSK1","","méi — 没","méi","没","What does this mean?","B","hsk1;vocab","1"
+"hsk1-134","vocab","HSK1","","mèi mei — 妹妹","mèi mei","妹妹","What does this mean?","B","hsk1;vocab","1"
+"hsk1-135","vocab","HSK1","","nán — 男","nán","男","What does this mean?","B","hsk1;vocab","1"
+"hsk1-136","vocab","HSK1","","ne — 呢","ne","呢","What does this mean?","B","hsk1;vocab","1"
+"hsk1-137","vocab","HSK1","","nián — 年","nián","年","What does this mean?","B","hsk1;vocab","1"
+"hsk1-138","vocab","HSK1","","nǚ ér — 女儿","nǚ ér","女儿","What does this mean?","B","hsk1;vocab","1"
+"hsk1-139","vocab","HSK1","","piào liang — 漂亮","piào liang","漂亮","What does this mean?","B","hsk1;vocab","1"
+"hsk1-140","vocab","HSK1","","píng guǒ — 苹果","píng guǒ","苹果","What does this mean?","B","hsk1;vocab","1"
+"hsk1-141","vocab","HSK1","","qǐng — 请","qǐng","请","What does this mean?","B","hsk1;vocab","1"
+"hsk1-142","vocab","HSK1","","qián miàn — 前面","qián miàn","前面","What does this mean?","B","hsk1;vocab","1"
+"hsk1-143","vocab","HSK1","","qián — 钱","qián","钱","What does this mean?","B","hsk1;vocab","1"
+"hsk1-144","vocab","HSK1","","rè — 热","rè","热","What does this mean?","B","hsk1;vocab","1"
+"hsk1-145","vocab","HSK1","","rì — 日","rì","日","What does this mean?","B","hsk1;vocab","1"
+"hsk1-146","vocab","HSK1","","shàng miàn — 上面","shàng miàn","上面","What does this mean?","B","hsk1;vocab","1"
+"hsk1-147","vocab","HSK1","","shēng rì — 生日","shēng rì","生日","What does this mean?","B","hsk1;vocab","1"
+"hsk1-148","vocab","HSK1","","shí hou — 时候","shí hou","时候","What does this mean?","B","hsk1;vocab","1"
+"hsk1-149","vocab","HSK1","","shū — 书","shū","书","What does this mean?","B","hsk1;vocab","1"
+"hsk1-150","vocab","HSK1","","shuǐ — 水","shuǐ","水","What does this mean?","B","hsk1;vocab","1"
+"hsk1-151","phrase","HSK1","Greetings 1","nǐ jiào shén me míng zi — 你叫什么名字","nǐ jiào shén me míng zi","你叫什么名字","What does this phrase mean?","A","phrase;greeting;introduction","1"
+"hsk1-152","sentence","HSK1","Greetings 1","wǒ jiào... — 我叫...","wǒ jiào...","我叫...","What does this sentence pattern mean?","B","sentence;introduction","1"
+"hsk1-153","phrase","HSK1","Greetings 1","zài nǎ lǐ — 在哪里","zài nǎ lǐ","在哪里","What does this phrase mean?","B","phrase;question;location","1"
+"hsk1-154","sentence","HSK1","Greetings 1","wǒ yào... — 我要...","wǒ yào...","我要...","What does this sentence pattern mean?","C","sentence;request","1"
+"hsk1-155","sentence","HSK1","Greetings 1","wǒ méi yǒu... — 我没有...","wǒ méi yǒu...","我没有...","What does this sentence pattern mean?","A","sentence;negation","1"
+"hsk1-156","phrase","HSK1","Greetings 1","zhè shì shén me — 这是什么","zhè shì shén me","这是什么","What does this phrase mean?","A","phrase;question","1"
+"hsk1-157","sentence","HSK1","","duō shao qián — 多少钱","duō shao qián","多少钱","What does this phrase mean?","B","phrase;shopping;money","1"
+"hsk1-158","phrase","HSK1","Greetings 1","rèn shi nǐ hěn gāo xìng — 认识你很高兴","rèn shi nǐ hěn gāo xìng","认识你很高兴","What does this phrase mean?","B","phrase;greeting;courtesy","1"
+"hsk1-159","sentence","HSK1","","wǒ bù zhī dào — 我不知道","wǒ bù zhī dào","我不知道","What does this sentence mean?","B","sentence;negation","1"
+"hsk1-160","phrase","HSK1","Greetings 1","qǐng wèn — 请问","qǐng wèn","请问","What does this phrase mean?","B","phrase;courtesy;question","1"
+"hsk2-001","vocab","HSK2","","bān — 班","bān","班","What does this mean?","A","hsk2;vocab;school","2"
+"hsk2-002","vocab","HSK2","","bāng zhù — 帮助","bāng zhù","帮助","What does this mean?","B","hsk2;vocab;verb","2"
+"hsk2-003","vocab","HSK2","","bào zhǐ — 报纸","bào zhǐ","报纸","What does this mean?","C","hsk2;vocab;reading","2"
+"hsk2-004","vocab","HSK2","","bǐ — 比","bǐ","比","What does this mean?","A","hsk2;vocab;comparison","2"
+"hsk2-005","vocab","HSK2","","bié — 别","bié","别","What does this mean?","B","hsk2;vocab;grammar","2"
+"hsk2-006","vocab","HSK2","","cháng — 长","cháng","长","What does this mean?","B","hsk2;vocab;adjective","2"
+"hsk2-007","vocab","HSK2","","chàng gē — 唱歌","chàng gē","唱歌","What does this mean?","B","hsk2;vocab;activity","2"
+"hsk2-008","vocab","HSK2","","chuān — 穿","chuān","穿","What does this mean?","C","hsk2;vocab;clothing","2"
+"hsk2-009","vocab","HSK2","","cì — 次","cì","次","What does this mean?","A","hsk2;vocab;time","2"
+"hsk2-010","vocab","HSK2","","cōng míng — 聪明","cōng míng","聪明","What does this mean?","B","hsk2;vocab;personality","2"
+"hsk2-011","vocab","HSK2","","dān xīn — 担心","dān xīn","担心","What does this mean?","B","hsk2;vocab;emotion","2"
+"hsk2-012","vocab","HSK2","","dào — 到","dào","到","What does this mean?","B","hsk2;vocab;movement","2"
+"hsk2-013","vocab","HSK2","","dì tiě — 地铁","dì tiě","地铁","What does this mean?","C","hsk2;vocab;transport","2"
+"hsk2-014","vocab","HSK2","","dǒng — 懂","dǒng","懂","What does this mean?","C","hsk2;vocab;cognition","2"
+"hsk2-015","vocab","HSK2","","duàn liàn — 锻炼","duàn liàn","锻炼","What does this mean?","B","hsk2;vocab;health","2"
+"hsk2-016","vocab","HSK2","","fā xiàn — 发现","fā xiàn","发现","What does this mean?","B","hsk2;vocab;discovery","2"
+"hsk2-017","vocab","HSK2","","gǎn jué — 感觉","gǎn jué","感觉","What does this mean?","B","hsk2;vocab;emotion","2"
+"hsk2-018","vocab","HSK2","","gāng cái — 刚才","gāng cái","刚才","What does this mean?","B","hsk2;vocab;time","2"
+"hsk2-019","vocab","HSK2","","gào sù — 告诉","gào sù","告诉","What does this mean?","B","hsk2;vocab;communication","2"
+"hsk2-020","vocab","HSK2","","gēn — 跟","gēn","跟","What does this mean?","B","hsk2;vocab;preposition","2"
+"hsk2-021","vocab","HSK2","","guò — 过","guò","过","What does this mean?","A","hsk2;vocab;movement","2"
+"hsk2-022","vocab","HSK2","","hái shì — 还是","hái shì","还是","What does this mean?","B","hsk2;vocab;conjunction","2"
+"hsk2-023","vocab","HSK2","","hēi — 黑","hēi","黑","What does this mean?","B","hsk2;vocab;color","2"
+"hsk2-024","vocab","HSK2","","huā — 花","huā","花","What does this mean?","C","hsk2;vocab;nature","2"
+"hsk2-025","vocab","HSK2","","huà — 画","huà","画","What does this mean?","B","hsk2;vocab;art","2"
+"hsk2-026","vocab","HSK2","","yīn wèi — 因为","yīn wèi","因为","What does this mean?","B","hsk2;vocab;conjunction","2"
+"hsk2-027","vocab","HSK2","","suǒ yǐ — 所以","suǒ yǐ","所以","What does this mean?","C","hsk2;vocab;conjunction","2"
+"hsk2-028","vocab","HSK2","","jué de — 觉得","jué de","觉得","What does this mean?","C","hsk2;vocab;opinion","2"
+"hsk2-029","vocab","HSK2","","kāi shǐ — 开始","kāi shǐ","开始","What does this mean?","B","hsk2;vocab;action","2"
+"hsk2-030","vocab","HSK2","","jié shù — 结束","jié shù","结束","What does this mean?","C","hsk2;vocab;action","2"
+"hsk2-031","vocab","HSK2","","bāng zhù — 帮助","bāng zhù","帮助","What does this mean?","B","hsk2;vocab;action","2"
+"hsk2-032","vocab","HSK2","","yì qǐ — 一起","yì qǐ","一起","What does this mean?","B","hsk2;vocab;adverb","2"
+"hsk2-033","vocab","HSK2","","yǐ jīng — 已经","yǐ jīng","已经","What does this mean?","C","hsk2;vocab;time","2"
+"hsk2-034","vocab","HSK2","","zhèng zài — 正在","zhèng zài","正在","What does this mean?","C","hsk2;vocab;aspect","2"
+"hsk2-035","vocab","HSK2","","bǐ jiào — 比较","bǐ jiào","比较","What does this mean?","C","hsk2;vocab;adverb","2"
+"hsk1b-days-001","vocab","HSK1b","","xīng qī yī — 星期一","xīng qī yī","星期一","","A","hsk1b;days;time","1"
+"hsk1b-days-002","vocab","HSK1b","","xīng qī èr — 星期二","xīng qī èr","星期二","","B","hsk1b;days;time","1"
+"hsk1b-days-003","vocab","HSK1b","","xīng qī sān — 星期三","xīng qī sān","星期三","","B","hsk1b;days;time","1"
+"hsk1b-days-004","vocab","HSK1b","","xīng qī sì — 星期四","xīng qī sì","星期四","","B","hsk1b;days;time","1"
+"hsk1b-days-005","vocab","HSK1b","","xīng qī wǔ — 星期五","xīng qī wǔ","星期五","","B","hsk1b;days;time","1"
+"hsk1b-days-006","vocab","HSK1b","","xīng qī liù — 星期六","xīng qī liù","星期六","","C","hsk1b;days;time","1"
+"hsk1b-days-007","vocab","HSK1b","","xīng qī rì — 星期日","xīng qī rì","星期日","","C","hsk1b;days;time","1"
+"hsk1b-months-001","vocab","HSK1b","","yī yuè — 一月","yī yuè","一月","","A","hsk1b;months;time","1"
+"hsk1b-months-002","vocab","HSK1b","","èr yuè — 二月","èr yuè","二月","","B","hsk1b;months;time","1"
+"hsk1b-months-003","vocab","HSK1b","","sān yuè — 三月","sān yuè","三月","","B","hsk1b;months;time","1"
+"hsk1b-months-004","vocab","HSK1b","","sì yuè — 四月","sì yuè","四月","","B","hsk1b;months;time","1"
+"hsk1b-months-005","vocab","HSK1b","","wǔ yuè — 五月","wǔ yuè","五月","","B","hsk1b;months;time","1"
+"hsk1b-months-006","vocab","HSK1b","","liù yuè — 六月","liù yuè","六月","","B","hsk1b;months;time","1"
+"hsk1b-months-007","vocab","HSK1b","","qī yuè — 七月","qī yuè","七月","","B","hsk1b;months;time","1"
+"hsk1b-months-008","vocab","HSK1b","","bā yuè — 八月","bā yuè","八月","","B","hsk1b;months;time","1"
+"hsk1b-months-009","vocab","HSK1b","","jiǔ yuè — 九月","jiǔ yuè","九月","","B","hsk1b;months;time","1"
+"hsk1b-months-010","vocab","HSK1b","","shí yuè — 十月","shí yuè","十月","","B","hsk1b;months;time","1"
+"hsk1b-months-011","vocab","HSK1b","","shí yī yuè — 十一月","shí yī yuè","十一月","","B","hsk1b;months;time","1"
+"hsk1b-months-012","vocab","HSK1b","","shí èr yuè — 十二月","shí èr yuè","十二月","","C","hsk1b;months;time","1"
+"hsk1b-countries-001","vocab","HSK1b","","zhōng guó — 中国","zhōng guó","中国","","A","hsk1b;countries;geo","1"
+"hsk1b-countries-002","vocab","HSK1b","","měi guó — 美国","měi guó","美国","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-003","vocab","HSK1b","","rì běn — 日本","rì běn","日本","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-004","vocab","HSK1b","","hán guó — 韩国","hán guó","韩国","","C","hsk1b;countries;geo","1"
+"hsk1b-countries-005","vocab","HSK1b","","yīng guó — 英国","yīng guó","英国","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-006","vocab","HSK1b","","fǎ guó — 法国","fǎ guó","法国","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-007","vocab","HSK1b","","dé guó — 德国","dé guó","德国","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-008","vocab","HSK1b","","jiā ná dà — 加拿大","jiā ná dà","加拿大","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-009","vocab","HSK1b","","ào dà lì yà — 澳大利亚","ào dà lì yà","澳大利亚","","B","hsk1b;countries;geo","1"
+"hsk1b-countries-010","vocab","HSK1b","","xī bān yá — 西班牙","xī bān yá","西班牙","","B","hsk1b;countries;geo","1"
+"hsk1b-colors-001","vocab","HSK1b","","hóng — 红","hóng","红","","A","hsk1b;colors;color","1"
+"hsk1b-colors-002","vocab","HSK1b","","lán — 蓝","lán","蓝","","B","hsk1b;colors;color","1"
+"hsk1b-colors-003","vocab","HSK1b","","bái — 白","bái","白","","A","hsk1b;colors;color","1"
+"hsk1b-colors-004","vocab","HSK1b","","hēi — 黑","hēi","黑","","B","hsk1b;colors;color","1"
+"hsk1b-colors-005","vocab","HSK1b","","lǜ — 绿","lǜ","绿","","B","hsk1b;colors;color","1"
+"hsk1b-colors-006","vocab","HSK1b","","huáng — 黄","huáng","黄","","C","hsk1b;colors;color","1"
+"hsk1b-colors-007","vocab","HSK1b","","huī — 灰","huī","灰","","C","hsk1b;colors;color","1"
+"hsk1b-colors-008","vocab","HSK1b","","fěn hóng — 粉红","fěn hóng","粉红","","B","hsk1b;colors;color","1"
+"hsk1b-family-001","vocab","HSK1b","","gē ge — 哥哥","gē ge","哥哥","","A","hsk1b;family;family","1"
+"hsk1b-family-002","vocab","HSK1b","","jiě jie — 姐姐","jiě jie","姐姐","","B","hsk1b;family;family","1"
+"hsk1b-family-003","vocab","HSK1b","","dì di — 弟弟","dì di","弟弟","","B","hsk1b;family;family","1"
+"hsk1b-family-004","vocab","HSK1b","","mèi mei — 妹妹","mèi mei","妹妹","","B","hsk1b;family;family","1"
+"hsk1b-family-005","vocab","HSK1b","","yé ye — 爷爷","yé ye","爷爷","","B","hsk1b;family;family","1"
+"hsk1b-family-006","vocab","HSK1b","","nǎi nai — 奶奶","nǎi nai","奶奶","","B","hsk1b;family;family","1"
+"hsk1b-places-001","vocab","HSK1b","","yín háng — 银行","yín háng","银行","","A","hsk1b;places;place","1"
+"hsk1b-places-002","vocab","HSK1b","","gōng sī — 公司","gōng sī","公司","","B","hsk1b;places;place","1"
+"hsk1b-places-003","vocab","HSK1b","","chāo shì — 超市","chāo shì","超市","","B","hsk1b;places;place","1"
+"hsk1b-places-004","vocab","HSK1b","","jī chǎng — 机场","jī chǎng","机场","","B","hsk1b;places;place","1"
+"hsk1b-places-005","vocab","HSK1b","","yī yuàn — 医院","yī yuàn","医院","","A","hsk1b;places;place","1"
+"hsk1b-places-006","vocab","HSK1b","","chē zhàn — 车站","chē zhàn","车站","","B","hsk1b;places;place","1"
+"hsk1b-places-007","vocab","HSK1b","","diàn yǐng yuàn — 电影院","diàn yǐng yuàn","电影院","","B","hsk1b;places;place","1"
+"hsk1b-places-008","vocab","HSK1b","","tú shū guǎn — 图书馆","tú shū guǎn","图书馆","","B","hsk1b;places;place","1"
+"hsk1p-001","phrase","HSK1-PHRASE","","nǐ jiào shén me míng zi — 你叫什么名字","nǐ jiào shén me míng zi","你叫什么名字","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-002","phrase","HSK1-PHRASE","","wǒ bù míng bai — 我不明白","wǒ bù míng bai","我不明白","What does this mean?","B","hsk1;phrase","2"
+"hsk1p-003","phrase","HSK1-PHRASE","","qǐng zài shuō yí biàn — 请再说一遍","qǐng zài shuō yí biàn","请再说一遍","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-004","phrase","HSK1-PHRASE","","duō shao qián — 多少钱","duō shao qián","多少钱","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-005","phrase","HSK1-PHRASE","","méi wèn tí — 没问题","méi wèn tí","没问题","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-006","phrase","HSK1-PHRASE","","zài nǎ lǐ — 在哪里","zài nǎ lǐ","在哪里","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-007","phrase","HSK1-PHRASE","","wǒ yào zhè ge — 我要这个","wǒ yào zhè ge","我要这个","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-008","phrase","HSK1-PHRASE","","qǐng wèn — 请问","qǐng wèn","请问","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-009","phrase","HSK1-PHRASE","","nǐ hǎo ma — 你好吗","nǐ hǎo ma","你好吗","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-010","phrase","HSK1-PHRASE","","wǒ méi yǒu qián — 我没有钱","wǒ méi yǒu qián","我没有钱","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-011","phrase","HSK1-PHRASE","","zhè shì shén me — 这是什么","zhè shì shén me","这是什么","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-012","phrase","HSK1-PHRASE","","rèn shi nǐ hěn gāo xìng — 认识你很高兴","rèn shi nǐ hěn gāo xìng","认识你很高兴","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-013","phrase","HSK1-PHRASE","","wǒ hěn hǎo — 我很好","wǒ hěn hǎo","我很好","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-014","phrase","HSK1-PHRASE","","nǐ huì shuō zhōng wén ma — 你会说中文吗","nǐ huì shuō zhōng wén ma","你会说中文吗","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-015","phrase","HSK1-PHRASE","","bù hǎo yì si — 不好意思","bù hǎo yì si","不好意思","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-016","phrase","HSK1-PHRASE","","wǒ xiǎng hē shuǐ — 我想喝水","wǒ xiǎng hē shuǐ","我想喝水","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-017","phrase","HSK1-PHRASE","","nǐ shì nǎ lǐ rén — 你是哪里人","nǐ shì nǎ lǐ rén","你是哪里人","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-018","phrase","HSK1-PHRASE","","tài guì le — 太贵了","tài guì le","太贵了","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-019","phrase","HSK1-PHRASE","","wǒ huí jiā — 我回家","wǒ huí jiā","我回家","What does this mean?","A","hsk1;phrase","2"
+"hsk1p-020","phrase","HSK1-PHRASE","","nǐ chī le ma — 你吃了吗","nǐ chī le ma","你吃了吗","What does this mean?","A","hsk1;phrase","2"
+"hsk1c-001","phrase","HSK1c","","lěng — 冷","lěng","冷","What does this mean?","B","adjective;temperature","2"
+"hsk1c-002","phrase","HSK1c","","rè — 热","rè","热","What does this mean?","C","adjective;temperature","2"
+"hsk1c-003","phrase","HSK1c","","lèi — 累","lèi","累","What does this mean?","C","adjective;state","2"
+"hsk1c-004","phrase","HSK1c","","è — 饿","è","饿","What does this mean?","B","adjective;state","2"
+"hsk1c-005","phrase","HSK1c","","kě — 渴","kě","渴","What does this mean?","B","adjective;state","2"
+"hsk1c-006","phrase","HSK1c","","máng — 忙","máng","忙","What does this mean?","C","adjective;state","2"
+"hsk1c-007","phrase","HSK1c","","guì — 贵","guì","贵","What does this mean?","C","adjective;price","2"
+"hsk1c-008","phrase","HSK1c","","pián yi — 便宜","pián yi","便宜","What does this mean?","C","adjective;price","3"
+"hsk1c-009","phrase","HSK1c","","gāo — 高","gāo","高","What does this mean?","B","adjective;size","2"
+"hsk1c-010","phrase","HSK1c","","ǎi — 矮","ǎi","矮","What does this mean?","B","adjective;size","2"
+"hsk1c-011","phrase","HSK1c","","cháng — 长","cháng","长","What does this mean?","C","adjective;size","2"
+"hsk1c-012","phrase","HSK1c","","duǎn — 短","duǎn","短","What does this mean?","C","adjective;size","2"
+"hsk1c-013","phrase","HSK1c","","kuài — 快","kuài","快","What does this mean?","B","adjective;speed","2"
+"hsk1c-014","phrase","HSK1c","","màn — 慢","màn","慢","What does this mean?","B","adjective;speed","2"
+"hsk1c-015","phrase","HSK1c","","xīn — 新","xīn","新","What does this mean?","C","adjective;condition","2"
+"hsk1c-016","phrase","HSK1c","","jiù — 旧","jiù","旧","What does this mean?","B","adjective;condition","2"
+"hsk1c-017","phrase","HSK1c","","duō — 多","duō","多","What does this mean?","B","adjective;quantity","2"
+"hsk1c-018","phrase","HSK1c","","shǎo — 少","shǎo","少","What does this mean?","B","adjective;quantity","2"
+"hsk1c-019","phrase","HSK1c","","pàng — 胖","pàng","胖","What does this mean?","B","adjective;body","3"
+"hsk1c-020","phrase","HSK1c","","shòu — 瘦","shòu","瘦","What does this mean?","B","adjective;body","3"
+"hsk1c-021","phrase","HSK1c","","yuǎn — 远","yuǎn","远","What does this mean?","B","adjective;distance","2"
+"hsk1c-022","phrase","HSK1c","","jìn — 近","jìn","近","What does this mean?","B","adjective;distance","2"
+"hsk1c-023","phrase","HSK1c","","zǎo — 早","zǎo","早","What does this mean?","B","adjective;time","2"
+"hsk1c-024","phrase","HSK1c","","wǎn — 晚","wǎn","晚","What does this mean?","B","adjective;time","2"
+"hsk1c-025","phrase","HSK1c","","nán — 难","nán","难","What does this mean?","B","adjective;difficulty","3"

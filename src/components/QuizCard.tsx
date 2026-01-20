@@ -8,6 +8,7 @@ interface QuizCardProps {
   onAnswer: (choice: ChoiceKey) => void;
   onNext: () => void;
   isDisabled?: boolean;
+  nextButtonText?: string;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -23,7 +24,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →" }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -103,7 +104,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
               : "✕ Wrong"}
           </div>
           <button className="next-button" onClick={onNext} disabled={isDisabled}>
-            Next →
+            {nextButtonText}
           </button>
         </div>
       )}

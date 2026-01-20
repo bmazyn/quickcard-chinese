@@ -31,6 +31,7 @@ export default function Speedrun() {
     selectedChoice: null,
     isCorrect: null,
   });
+  const [penaltyCountdown, setPenaltyCountdown] = useState(0);
 
   // Load cards for the section
   useEffect(() => {
@@ -96,8 +97,19 @@ export default function Speedrun() {
       isCorrect,
     });
 
-    // TODO: Reinsertion logic - if wrong, reinsert card later in the deck
-    // Placeholder for future implementation
+    // Miss penalty: start 3-second countdown on wrong answer
+    if (!isCorrect) {
+      setPenaltyCountdown(3);
+      
+      // Reinsertion logic: reinsert card at the middle of remaining cards
+      const remainingCards = shuffledDeck.length - currentIndex - 1;
+      if (remainingCards > 0) {
+        const insertPosition = currentIndex + 1 + Math.floor(remainingCards / 2);
+        const newDeck = [...shuffledDeck];
+        newDeck.splice(insertPosition, 0, currentCard);
+        setShuffledDeck(newDeck);
+      }
+    }
   };
 
   const handleNext = () => {
@@ -113,6 +125,7 @@ export default function Speedrun() {
         selectedChoice: null,
         isCorrect: null,
       });
+      setPenaltyCountdown(0); // Clear penalty countdown on next
     }
 
     // TODO: Timer tracking - track time from start to finish
@@ -125,8 +138,25 @@ export default function Speedrun() {
 
   const handleBackToHome = () => {
     window.speechSynthesis?.cancel();
+    setPenaltyCountdown(0); // Clear penalty countdown
     navigate("/");
   };
+
+  // Countdown timer effect - ticks down every second
+  useEffect(() => {
+    if (penaltyCountdown <= 0) return;
+
+    const timer = setInterval(() => {
+      setPenaltyCountdown((prev) => {
+        if (prev <= 1) {
+          return 0; // Stop at 0
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [penaltyCountdown]);
 
   if (cards.length === 0) {
     return (
@@ -219,6 +249,8 @@ export default function Speedrun() {
   }
 
   const currentCard = shuffledDeck[currentIndex];
+  const isPenaltyActive = penaltyCountdown > 0;
+  const nextButtonText = isPenaltyActive ? `Next (${penaltyCountdown})` : "Next →";
 
   return (
     <div className={`speedrun ${theme}`}>
@@ -243,7 +275,8 @@ export default function Speedrun() {
         answerState={answerState}
         onAnswer={handleAnswer}
         onNext={handleNext}
-        isDisabled={false}
+        isDisabled={isPenaltyActive}
+        nextButtonText={nextButtonText}
       />
     </div>
   );
