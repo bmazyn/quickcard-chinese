@@ -144,11 +144,8 @@ export default function Speedrun() {
       isCorrect,
     });
 
-    // Miss penalty: only apply in speedrun mode
+    // Track missed cards in speedrun mode
     if (!isCorrect && mode === "speedrun") {
-      setPenaltyCountdown(3);
-      
-      // Track missed cards
       setMissedCards((prev) => {
         // Add only if not already in the missed cards array
         const isAlreadyMissed = prev.some((card) => card.id === currentCard.id);
@@ -157,6 +154,20 @@ export default function Speedrun() {
         }
         return prev;
       });
+    }
+
+    // Automatic progression in speedrun mode
+    if (mode === "speedrun") {
+      // 300ms feedback delay
+      setTimeout(() => {
+        if (isCorrect) {
+          // Correct: advance immediately
+          handleNext();
+        } else {
+          // Wrong: start 3-second countdown
+          setPenaltyCountdown(3);
+        }
+      }, 300);
     }
   };
 
@@ -174,6 +185,14 @@ export default function Speedrun() {
         // Update displayed best time if this was a new best
         const currentBest = getBestTime(sectionParam);
         setBestTime(currentBest);
+        
+        // Save missed count from this speedrun
+        try {
+          const missedKey = `qc_speedrun_last_misses:${sectionParam}`;
+          localStorage.setItem(missedKey, missedCards.length.toString());
+        } catch {
+          // Fail silently if localStorage is unavailable
+        }
       }
     } else {
       setCurrentIndex(nextIndex);
@@ -250,21 +269,23 @@ export default function Speedrun() {
     window.speechSynthesis.speak(chineseUtterance);
   };
 
-  // Countdown timer effect - ticks down every second
+  // Countdown timer effect - ticks down every second and advances after 1
   useEffect(() => {
-    if (penaltyCountdown <= 0) return;
+    if (penaltyCountdown <= 0 || mode !== "speedrun") return;
 
-    const timer = setInterval(() => {
-      setPenaltyCountdown((prev) => {
-        if (prev <= 1) {
-          return 0; // Stop at 0
-        }
-        return prev - 1;
-      });
+    const timer = setTimeout(() => {
+      if (penaltyCountdown === 1) {
+        // After showing 1, advance to next card
+        setPenaltyCountdown(0);
+        handleNext();
+      } else {
+        // Continue countdown
+        setPenaltyCountdown(penaltyCountdown - 1);
+      }
     }, 1000);
 
-    return () => clearInterval(timer);
-  }, [penaltyCountdown]);
+    return () => clearTimeout(timer);
+  }, [penaltyCountdown, mode]);
 
   if (cards.length === 0) {
     return (
@@ -425,6 +446,8 @@ export default function Speedrun() {
         onNext={handleNext}
         isDisabled={isPenaltyActive}
         nextButtonText={nextButtonText}
+        isSpeedrunMode={mode === "speedrun"}
+        countdownNumber={penaltyCountdown > 0 ? penaltyCountdown : null}
       />
     </div>
   );

@@ -9,6 +9,8 @@ interface QuizCardProps {
   onNext: () => void;
   isDisabled?: boolean;
   nextButtonText?: string;
+  isSpeedrunMode?: boolean;
+  countdownNumber?: number | null;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -24,7 +26,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →" }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, countdownNumber = null }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -103,9 +105,16 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
               ? "✓ Correct" 
               : "✕ Wrong"}
           </div>
-          <button className="next-button" onClick={onNext} disabled={isDisabled}>
-            {nextButtonText}
-          </button>
+          {!isSpeedrunMode && (
+            <button className="next-button" onClick={onNext} disabled={isDisabled}>
+              {nextButtonText}
+            </button>
+          )}
+          {isSpeedrunMode && countdownNumber !== null && (
+            <div className="countdown-display">
+              {countdownNumber}
+            </div>
+          )}
         </div>
       )}
     </div>

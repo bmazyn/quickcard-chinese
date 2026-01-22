@@ -44,7 +44,13 @@ export default function LandingPage() {
     try {
       const key = `qc_speedrun_best_seconds:${section}`;
       const saved = localStorage.getItem(key);
-      return saved ? formatTime(parseInt(saved, 10)) : "—:—";
+      if (!saved) return "—:—";
+      
+      const missedKey = `qc_speedrun_last_misses:${section}`;
+      const missedSaved = localStorage.getItem(missedKey);
+      const missedCount = missedSaved ? parseInt(missedSaved, 10) : 0;
+      
+      return `${formatTime(parseInt(saved, 10))} / ${missedCount}`;
     } catch {
       return "—:—";
     }
@@ -139,7 +145,7 @@ export default function LandingPage() {
                         onClick={() => handleDeckToggle(deck)}
                       >
                         <span className="block-name">{deck}</span>
-                        {masteredSections[deck] && <span className="block-mastery">✅</span>}
+                        {masteredSections[deck] && <span className="block-mastery">💯</span>}
                       </div>
                     ))}
                   </div>
