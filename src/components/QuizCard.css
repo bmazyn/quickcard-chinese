@@ -78,21 +78,22 @@
   outline: none;
 }
 
+.choice-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .choice-button:focus-visible {
   outline: 2px solid var(--accent-color);
   outline-offset: 2px;
 }
 
 .choice-button:not(:disabled):hover {
-  border-color: var(--border-hover);
   background: var(--bg-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .choice-button:not(:disabled):active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: var(--bg-hover);
 }
 
 .choice-button:disabled {

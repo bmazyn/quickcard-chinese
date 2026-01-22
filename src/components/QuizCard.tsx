@@ -52,11 +52,13 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
     return "choice-button dimmed";
   };
 
-  const handleAnswerClick = (choice: ChoiceKey) => {
+  const handleAnswerClick = (choice: ChoiceKey, event: React.MouseEvent<HTMLButtonElement>) => {
     if (!isAnswered) {
       const isCorrect = choice === card.correct;
       triggerHaptic(isCorrect);
       onAnswer(choice);
+      // Blur the button to remove focus outline after click
+      event.currentTarget.blur();
     }
   };
 
@@ -89,7 +91,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
           <button
             key={choice}
             className={getChoiceClassName(choice)}
-            onClick={() => handleAnswerClick(choice)}
+            onClick={(e) => handleAnswerClick(choice, e)}
             disabled={isAnswered || isDisabled}
           >
             {/* Answer text comes directly from card.choices - no modifications */}
