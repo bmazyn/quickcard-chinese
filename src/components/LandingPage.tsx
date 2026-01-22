@@ -32,17 +32,22 @@ export default function LandingPage() {
 
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({});
 
-  // Format time as m:ss or mm:ss
+  // Format time as mm:ss
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
   // Get speedrun best time from localStorage
   const getSpeedrunTime = (section: string): string => {
-    const saved = localStorage.getItem(`speedrun_best_time:${section}`);
-    return saved ? formatTime(parseInt(saved, 10)) : "--:--";
+    try {
+      const key = `qc_speedrun_best_seconds:${section}`;
+      const saved = localStorage.getItem(key);
+      return saved ? formatTime(parseInt(saved, 10)) : "—:—";
+    } catch {
+      return "—:—";
+    }
   };
 
   useEffect(() => {

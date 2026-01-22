@@ -16,6 +16,33 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+// Get best time for a section from localStorage
+function getBestTime(sectionName: string): number | null {
+  try {
+    const key = `qc_speedrun_best_seconds:${sectionName}`;
+    const stored = localStorage.getItem(key);
+    return stored ? parseInt(stored, 10) : null;
+  } catch {
+    // Fail silently if localStorage is unavailable
+    return null;
+  }
+}
+
+// Save best time for a section to localStorage (only if better)
+function saveBestTime(sectionName: string, seconds: number): void {
+  try {
+    const key = `qc_speedrun_best_seconds:${sectionName}`;
+    const existing = getBestTime(sectionName);
+    
+    // Only save if no previous time or if this time is better
+    if (existing === null || seconds < existing) {
+      localStorage.setItem(key, seconds.toString());
+    }
+  } catch {
+    // Fail silently if localStorage is unavailable
+  }
+}
+
 export default function Speedrun() {
   const { theme } = useTheme();
   const navigate = useNavigate();
@@ -36,6 +63,7 @@ export default function Speedrun() {
   const [missedCards, setMissedCards] = useState<QuizCardType[]>([]);
   const [mode, setMode] = useState<"speedrun" | "review">("speedrun");
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
+  const [bestTime, setBestTime] = useState<number | null>(null);
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -55,6 +83,9 @@ export default function Speedrun() {
     }) as QuizCardType[];
     
     setCards(sectionCards);
+    
+    // Load best time for this section
+    setBestTime(getBestTime(sectionParam));
   }, [sectionParam]);
 
   // Auto-play Chinese audio on card change (sound on next)
@@ -136,6 +167,14 @@ export default function Speedrun() {
       // End of speedrun or review
       setIsComplete(true);
       setIsStarted(false);
+      
+      // Save best time only in speedrun mode, not in review mode
+      if (mode === "speedrun") {
+        saveBestTime(sectionParam, elapsedSeconds);
+        // Update displayed best time if this was a new best
+        const currentBest = getBestTime(sectionParam);
+        setBestTime(currentBest);
+      }
     } else {
       setCurrentIndex(nextIndex);
       setAnswerState({
@@ -299,6 +338,12 @@ export default function Speedrun() {
             <div className="complete-icon">✅</div>
             <h3 className="complete-title">{mode === "review" ? 'Review Complete!' : 'Section Cleared!'}</h3>
             {mode === "speedrun" && <p className="complete-time">Time: {formatTime(elapsedSeconds)}</p>}
+            {mode === "speedrun" && bestTime !== null && (
+              <p className="complete-best">Best: {formatTime(bestTime)}</p>
+            )}
+            {mode === "speedrun" && bestTime === null && (
+              <p className="complete-best">Best: --:--</p>
+            )}
             {mode === "speedrun" && missedCards.length > 0 && (
               <p className="missed-count">Missed: {missedCards.length} card{missedCards.length !== 1 ? 's' : ''}</p>
             )}
