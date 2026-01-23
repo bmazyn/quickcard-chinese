@@ -6,6 +6,9 @@ import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types"
 import quizCardsData from "../data/quizCards.json";
 import "./Speedrun.css";
 
+// Maximum allowed misses before speedrun is marked as failed
+const MAX_SPEEDRUN_MISSES = 10;
+
 // Fisher-Yates shuffle
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -64,6 +67,7 @@ export default function Speedrun() {
   const [mode, setMode] = useState<"speedrun" | "review">("speedrun");
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const [bestTime, setBestTime] = useState<number | null>(null);
+  const [speedrunFailed, setSpeedrunFailed] = useState(false);
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -111,14 +115,14 @@ export default function Speedrun() {
 
   // Timer: Increment elapsed seconds while speedrun is active (not in review mode)
   useEffect(() => {
-    if (!isStarted || isComplete || mode === "review") return;
+    if (!isStarted || isComplete || mode === "review" || speedrunFailed) return;
 
     const interval = setInterval(() => {
       setElapsedSeconds((prev) => prev + 1);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isStarted, isComplete, mode]);
+  }, [isStarted, isComplete, mode, speedrunFailed]);
 
   const handleStart = () => {
     const shuffled = shuffleArray(cards);
@@ -129,6 +133,7 @@ export default function Speedrun() {
     setElapsedSeconds(0); // Reset timer
     setMissedCards([]); // Reset missed cards
     setMode("speedrun"); // Set to speedrun mode
+    setSpeedrunFailed(false); // Reset failed state
     setAnswerState({
       selectedChoice: null,
       isCorrect: null,
@@ -136,6 +141,9 @@ export default function Speedrun() {
   };
 
   const handleAnswer = (choice: ChoiceKey) => {
+    // Prevent answering if speedrun has failed
+    if (speedrunFailed) return;
+    
     const currentCard = shuffledDeck[currentIndex];
     const isCorrect = choice === currentCard.correct;
 
@@ -150,7 +158,17 @@ export default function Speedrun() {
         // Add only if not already in the missed cards array
         const isAlreadyMissed = prev.some((card) => card.id === currentCard.id);
         if (!isAlreadyMissed) {
-          return [...prev, currentCard];
+          const newMissedCards = [...prev, currentCard];
+          
+          // Check if misses exceed the limit - HARD FAIL
+          if (newMissedCards.length > MAX_SPEEDRUN_MISSES) {
+            setSpeedrunFailed(true);
+            setIsComplete(true);
+            setIsStarted(false);
+            setPenaltyCountdown(0);
+          }
+          
+          return newMissedCards;
         }
         return prev;
       });
@@ -172,6 +190,9 @@ export default function Speedrun() {
   };
 
   const handleNext = () => {
+    // Don't advance if speedrun has failed
+    if (speedrunFailed) return;
+    
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= shuffledDeck.length) {
@@ -179,8 +200,8 @@ export default function Speedrun() {
       setIsComplete(true);
       setIsStarted(false);
       
-      // Save best time only in speedrun mode, not in review mode
-      if (mode === "speedrun") {
+      // Save best time only in speedrun mode if not failed
+      if (mode === "speedrun" && !speedrunFailed) {
         saveBestTime(sectionParam, elapsedSeconds);
         // Update displayed best time if this was a new best
         const currentBest = getBestTime(sectionParam);
@@ -356,25 +377,35 @@ export default function Speedrun() {
           </div>
 
           <div className="speedrun-complete">
-            <div className="complete-icon">✅</div>
-            <h3 className="complete-title">{mode === "review" ? 'Review Complete!' : 'Section Cleared!'}</h3>
-            {mode === "speedrun" && <p className="complete-time">Time: {formatTime(elapsedSeconds)}</p>}
-            {mode === "speedrun" && bestTime !== null && (
+            <div className="complete-icon">{mode === "speedrun" && speedrunFailed ? '⚠️' : '✅'}</div>
+            <h3 className="complete-title">
+              {mode === "review" ? 'Review Complete!' : speedrunFailed ? 'Speedrun Failed' : 'Section Cleared!'}
+            </h3>
+            {mode === "speedrun" && speedrunFailed && (
+              <p className="failed-message">Too many misses (limit: {MAX_SPEEDRUN_MISSES})</p>
+            )}
+            {mode === "speedrun" && !speedrunFailed && <p className="complete-time">Time: {formatTime(elapsedSeconds)}</p>}
+            {mode === "speedrun" && !speedrunFailed && bestTime !== null && (
               <p className="complete-best">Best: {formatTime(bestTime)}</p>
             )}
-            {mode === "speedrun" && bestTime === null && (
+            {mode === "speedrun" && !speedrunFailed && bestTime === null && (
               <p className="complete-best">Best: --:--</p>
             )}
-            {mode === "speedrun" && missedCards.length > 0 && (
+            {mode === "speedrun" && !speedrunFailed && missedCards.length > 0 && (
               <p className="missed-count">Missed: {missedCards.length} card{missedCards.length !== 1 ? 's' : ''}</p>
             )}
             <div className="complete-buttons">
-              {mode === "speedrun" && missedCards.length > 0 && (
+              {mode === "speedrun" && speedrunFailed && (
+                <button className="run-again-button" onClick={handleRunAgain}>
+                  🔄 Restart Speedrun
+                </button>
+              )}
+              {mode === "speedrun" && !speedrunFailed && missedCards.length > 0 && (
                 <button className="review-missed-button" onClick={handleReviewMissed}>
                   📝 Review Missed
                 </button>
               )}
-              {mode === "speedrun" && (
+              {mode === "speedrun" && !speedrunFailed && (
                 <button className="run-again-button" onClick={handleRunAgain}>
                   🔄 Run Again
                 </button>

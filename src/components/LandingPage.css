@@ -21,6 +21,14 @@
   max-width: 400px;
 }
 
+.landing-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+}
+
 .landing-title {
   font-size: 3rem;
   font-weight: 700;
@@ -29,12 +37,9 @@
   text-align: center;
 }
 
-.theme-toggle-section {
-  display: flex;
-  justify-content: center;
-}
-
 .theme-toggle-button {
+  position: absolute;
+  left: 0;
   width: 43.2px;
   height: 43.2px;
   border-radius: 50%;
@@ -218,11 +223,14 @@
 
 .block-mastery {
   position: absolute;
-  top: 2px;
-  right: 2px;
-  font-size: 1.35rem;
-  line-height: 1;
+  top: 50%;
+  right: 8px;
+  width: 8px;
+  height: 8px;
+  background: var(--success-border);
+  border-radius: 50%;
   pointer-events: none;
+  transform: translateY(-50%);
 }
 
 /* Speedrun button removed - time display now serves as entry point */

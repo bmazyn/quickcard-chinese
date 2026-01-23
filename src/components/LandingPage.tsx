@@ -110,9 +110,7 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
       <div className="landing-scrollable">
-        <h1 className="landing-title">QuickCard</h1>
-        
-        <div className="theme-toggle-section">
+        <div className="landing-header">
           <button 
             className="theme-toggle-button"
             onClick={toggleTheme}
@@ -120,6 +118,7 @@ export default function LandingPage() {
           >
             {theme === "dark" ? "☀️" : "🌙"}
           </button>
+          <h1 className="landing-title">QuickCard</h1>
         </div>
 
         {/* Dynamic Sections */}
@@ -160,7 +159,7 @@ export default function LandingPage() {
                       onClick={() => handleDeckToggle(deck)}
                     >
                       <span className="block-name">{deck}</span>
-                      {masteredSections[deck] && <span className="block-mastery">💯</span>}
+                      {masteredSections[deck] && <span className="block-mastery"></span>}
                     </div>
                   ))}
                 </div>
