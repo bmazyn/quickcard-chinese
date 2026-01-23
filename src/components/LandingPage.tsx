@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { useTheme } from "../hooks/useTheme";
 import quizCards from "../data/quizCards.json";
 import "./LandingPage.css";
 
@@ -14,7 +13,6 @@ sections.forEach(section => {
 });
 
 export default function LandingPage() {
-  const { theme, toggleTheme } = useTheme();
   const navigate = useNavigate();
   
   // Audio element for iOS Safari autoplay unlock
@@ -189,16 +187,6 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
       <div className="landing-scrollable">
-        <div className="landing-header">
-          <button 
-            className="theme-toggle-button"
-            onClick={toggleTheme}
-            aria-label="Toggle theme"
-          >
-            {theme === "dark" ? "☀️" : "🌙"}
-          </button>
-          <h1 className="landing-title">QuickCard</h1>
-        </div>
         
         <div className="header-actions">
           <button 
