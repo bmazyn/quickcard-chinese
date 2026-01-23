@@ -4775,5 +4775,1649 @@
       "object"
     ],
     "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-001",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "wǒ huí jiā — 我回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I leave home",
+      "B": "I go home",
+      "C": "I arrive home",
+      "D": "You go home"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To leave home is 我离开家 (wǒ lí kāi jiā)",
+      "B": "Correct! 我回家 (wǒ huí jiā) means 'I go home'",
+      "C": "To arrive home is 我到家 (wǒ dào jiā)",
+      "D": "You go home is 你回家 (nǐ huí jiā)"
+    },
+    "tags": [
+      "sentence",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-002",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "nǐ shàng bān — 你上班",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I go to work",
+      "B": "You finish work",
+      "C": "You go to work",
+      "D": "He goes to work"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "I go to work is 我上班 (wǒ shàng bān)",
+      "B": "You finish work is 你下班 (nǐ xià bān)",
+      "C": "Correct! 你上班 (nǐ shàng bān) means 'You go to work'",
+      "D": "He goes to work is 他上班 (tā shàng bān)"
+    },
+    "tags": [
+      "sentence",
+      "work"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-003",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā chī zǎo fàn — 他吃早饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She cooks breakfast",
+      "B": "He/She eats breakfast",
+      "C": "He/She eats lunch",
+      "D": "I eat breakfast"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "He/She cooks breakfast is 他/她做早饭 (tā zuò zǎo fàn)",
+      "B": "Correct! 他吃早饭 (tā chī zǎo fàn) means 'He/She eats breakfast'",
+      "C": "He/She eats lunch is 他/她吃午饭 (tā chī wǔ fàn)",
+      "D": "I eat breakfast is 我吃早饭 (wǒ chī zǎo fàn)"
+    },
+    "tags": [
+      "sentence",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-004",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā hē shuǐ — 她喝水",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You drink water",
+      "B": "He/She needs water",
+      "C": "He/She drinks water",
+      "D": "I drink water"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "You drink water is 你喝水 (nǐ hē shuǐ)",
+      "B": "He/She needs water is 他/她需要水 (tā xū yào shuǐ)",
+      "C": "Correct! 她喝水 (tā hē shuǐ) means 'He/She drinks water'. In speech, 他 and 她 are both pronounced tā.",
+      "D": "I drink water is 我喝水 (wǒ hē shuǐ)"
+    },
+    "tags": [
+      "sentence",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-005",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "wǒ zuò gōng jiāo chē — 我坐公交车",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I drive the bus",
+      "B": "I wait for the bus",
+      "C": "You take the bus",
+      "D": "I take the bus"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "To drive the bus is 我开公交车 (wǒ kāi gōng jiāo chē)",
+      "B": "I wait for the bus is 我等公交车 (wǒ děng gōng jiāo chē)",
+      "C": "You take the bus is 你坐公交车 (nǐ zuò gōng jiāo chē)",
+      "D": "Correct! 我坐公交车 (wǒ zuò gōng jiāo chē) means 'I take the bus'"
+    },
+    "tags": [
+      "sentence",
+      "transport"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-006",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "nǐ xué Zhōng wén — 你学中文",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You teach Chinese",
+      "B": "You study Chinese",
+      "C": "I study Chinese",
+      "D": "You speak Chinese"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "You teach Chinese is 你教中文 (nǐ jiāo Zhōng wén)",
+      "B": "Correct! 你学中文 (nǐ xué Zhōng wén) means 'You study Chinese'",
+      "C": "I study Chinese is 我学中文 (wǒ xué Zhōng wén)",
+      "D": "You speak Chinese is 你说中文 (nǐ shuō Zhōng wén)"
+    },
+    "tags": [
+      "sentence",
+      "education"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-007",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā jīn tiān gōng zuò — 他今天工作",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She works today",
+      "B": "He/She worked today",
+      "C": "He/She will work today",
+      "D": "I work today"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他今天工作 (tā jīn tiān gōng zuò) means 'He/She works today'",
+      "B": "Past tense would need different structure",
+      "C": "Future marker 会 or 要 would be needed",
+      "D": "I work today is 我今天工作 (wǒ jīn tiān gōng zuò)"
+    },
+    "tags": [
+      "sentence",
+      "work",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-008",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā zài jiā xiū xi — 她在家休息",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She goes home to rest",
+      "B": "He/She rests at home",
+      "C": "I rest at home",
+      "D": "He/She sleeps at home"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "To go home to rest would be 他/她回家休息 (tā huí jiā xiū xi)",
+      "B": "Correct! 她在家休息 (tā zài jiā xiū xi) means 'He/She rests at home'. In speech, 他 and 她 are both pronounced tā.",
+      "C": "I rest at home is 我在家休息 (wǒ zài jiā xiū xi)",
+      "D": "He/She sleeps at home is 他/她在家睡觉 (tā zài jiā shuì jiào)"
+    },
+    "tags": [
+      "sentence",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-009",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "wǒ kàn shū — 我看书",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I read a book",
+      "B": "I buy a book",
+      "C": "I write a book",
+      "D": "You read a book"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我看书 (wǒ kàn shū) means 'I read a book'",
+      "B": "I buy a book is 我买书 (wǒ mǎi shū)",
+      "C": "I write a book is 我写书 (wǒ xiě shū)",
+      "D": "You read a book is 你看书 (nǐ kàn shū)"
+    },
+    "tags": [
+      "sentence",
+      "education"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-010",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā kàn diàn shì — 他看电视",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She listens to music",
+      "B": "I watch TV",
+      "C": "He/She watches TV",
+      "D": "He/She buys a TV"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She listens to music is 他/她听音乐 (tā tīng yīn yuè)",
+      "B": "I watch TV is 我看电视 (wǒ kàn diàn shì)",
+      "C": "Correct! 他看电视 (tā kàn diàn shì) means 'He/She watches TV'",
+      "D": "He/She buys a TV is 他/她买电视 (tā mǎi diàn shì)"
+    },
+    "tags": [
+      "sentence",
+      "entertainment"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-011",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "nǐ chī wǎn fàn — 你吃晚饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You eat breakfast",
+      "B": "You cook dinner",
+      "C": "You eat dinner",
+      "D": "I eat dinner"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "You eat breakfast is 你吃早饭 (nǐ chī zǎo fàn)",
+      "B": "You cook dinner is 你做晚饭 (nǐ zuò wǎn fàn)",
+      "C": "Correct! 你吃晚饭 (nǐ chī wǎn fàn) means 'You eat dinner'",
+      "D": "I eat dinner is 我吃晚饭 (wǒ chī wǎn fàn)"
+    },
+    "tags": [
+      "sentence",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-012",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "wǒ qù xuéxiào — 我去学校",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I am at school",
+      "B": "I go to school",
+      "C": "You go to school",
+      "D": "I leave school"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I am at school is 我在学校 (wǒ zài xuéxiào)",
+      "B": "Correct! 我去学校 (wǒ qù xuéxiào) means 'I go to school'",
+      "C": "You go to school is 你去学校 (nǐ qù xuéxiào)",
+      "D": "I leave school is 我离开学校 (wǒ lí kāi xuéxiào)"
+    },
+    "tags": [
+      "sentence",
+      "education"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-013",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā mǎi dōng xi — 她买东西",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She sells things",
+      "B": "I buy things",
+      "C": "He/She buys things",
+      "D": "He/She has things"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She sells things is 他/她卖东西 (tā mài dōng xi)",
+      "B": "I buy things is 我买东西 (wǒ mǎi dōng xi)",
+      "C": "Correct! 她买东西 (tā mǎi dōng xi) means 'He/She buys things'. In speech, 他 and 她 are both pronounced tā.",
+      "D": "He/She has things is 他/她有东西 (tā yǒu dōng xi)"
+    },
+    "tags": [
+      "sentence",
+      "shopping"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-014",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "wǒ zuò fàn — 我做饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I eat",
+      "B": "I order food",
+      "C": "You cook",
+      "D": "I cook"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "I eat is 我吃 (wǒ chī) or 我吃饭 (wǒ chī fàn)",
+      "B": "I order food is 我点菜 (wǒ diǎn cài)",
+      "C": "You cook is 你做饭 (nǐ zuò fàn)",
+      "D": "Correct! 我做饭 (wǒ zuò fàn) means 'I cook'"
+    },
+    "tags": [
+      "sentence",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences1-015",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Daily Actions",
+    "level": "HSK1",
+    "promptLine": "tā shuì jiào — 他睡觉",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She wakes up",
+      "B": "I sleep",
+      "C": "He/She sleeps",
+      "D": "He/She is tired"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She wakes up is 他/她起床 (tā qǐ chuáng)",
+      "B": "I sleep is 我睡觉 (wǒ shuì jiào)",
+      "C": "Correct! 他睡觉 (tā shuì jiào) means 'He/She sleeps'",
+      "D": "He/She is tired is 他/她累 (tā lèi)"
+    },
+    "tags": [
+      "sentence",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-001",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "jīn tiān wǒ gōng zuò — 今天我工作",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Yesterday I worked",
+      "B": "Today I work",
+      "C": "Today I rest",
+      "D": "Tomorrow I work"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Yesterday is 昨天 (zuó tiān)",
+      "B": "Correct! 今天我工作 (jīn tiān wǒ gōng zuò) means 'Today I work'",
+      "C": "Today I rest is 今天我休息 (jīn tiān wǒ xiū xi)",
+      "D": "Tomorrow is 明天 (míng tiān)"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "work"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-002",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "xiàn zài nǐ huí jiā — 现在你回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Later you go home",
+      "B": "Now you go home",
+      "C": "Now I go home",
+      "D": "Now you are home"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Later is 以后 (yǐ hòu) or 待会儿 (dāi huì er)",
+      "B": "Correct! 现在你回家 (xiàn zài nǐ huí jiā) means 'Now you go home'",
+      "C": "Now I go home is 现在我回家 (xiàn zài wǒ huí jiā)",
+      "D": "Now you are home is 现在你在家 (xiàn zài nǐ zài jiā)"
+    },
+    "tags": [
+      "sentence",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-003",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "zǎo shang tā chī zǎo fàn — 早上他吃早饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "In the evening he/she eats breakfast",
+      "B": "In the morning he/she eats lunch",
+      "C": "In the morning he/she eats breakfast",
+      "D": "In the morning I eat breakfast"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "In the evening is 晚上 (wǎn shang)",
+      "B": "He/She eats lunch is 他/她吃午饭 (tā chī wǔ fàn)",
+      "C": "Correct! 早上他吃早饭 (zǎo shang tā chī zǎo fàn) means 'In the morning he/she eats breakfast'",
+      "D": "In the morning I eat breakfast is 早上我吃早饭"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-004",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "wǎn shang tā shuì jiào — 晚上她睡觉",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "At night he/she works",
+      "B": "At night I sleep",
+      "C": "In the morning he/she sleeps",
+      "D": "At night he/she sleeps"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "At night he/she works is 晚上他/她工作 (wǎn shang tā gōng zuò)",
+      "B": "At night I sleep is 晚上我睡觉 (wǎn shang wǒ shuì jiào)",
+      "C": "In the morning is 早上 (zǎo shang)",
+      "D": "Correct! 晚上她睡觉 (wǎn shang tā shuì jiào) means 'At night he/she sleeps'. In speech, 他 and 她 are both pronounced tā."
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-005",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "yǐ hòu wǒ xué xí — 以后我学习",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Before I study",
+      "B": "Now I study",
+      "C": "Later I study",
+      "D": "Later you study"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Before is 以前 (yǐ qián)",
+      "B": "Now is 现在 (xiàn zài)",
+      "C": "Correct! 以后我学习 (yǐ hòu wǒ xué xí) means 'Later I study'",
+      "D": "Later you study is 以后你学习 (yǐ hòu nǐ xué xí)"
+    },
+    "tags": [
+      "sentence",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-006",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "míng tiān tā shàng bān — 明天他上班",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Today he/she goes to work",
+      "B": "Tomorrow he/she goes to work",
+      "C": "Tomorrow he/she finishes work",
+      "D": "Tomorrow I go to work"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Today is 今天 (jīn tiān)",
+      "B": "Correct! 明天他上班 (míng tiān tā shàng bān) means 'Tomorrow he/she goes to work'",
+      "C": "Tomorrow he/she finishes work is 明天他/她下班 (míng tiān tā xià bān)",
+      "D": "Tomorrow I go to work is 明天我上班"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "work"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-007",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "zuó tiān wǒ xiū xi — 昨天我休息",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Tomorrow I rest",
+      "B": "Today I rest",
+      "C": "Yesterday I rested",
+      "D": "Yesterday I worked"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Tomorrow is 明天 (míng tiān)",
+      "B": "Today is 今天 (jīn tiān)",
+      "C": "Correct! 昨天我休息 (zuó tiān wǒ xiū xi) means 'Yesterday I rested'",
+      "D": "Yesterday I worked is 昨天我工作 (zuó tiān wǒ gōng zuò)"
+    },
+    "tags": [
+      "sentence",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-008",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "xiàn zài wǒ chī fàn — 现在我吃饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Later I eat",
+      "B": "Now you eat",
+      "C": "Now I cook",
+      "D": "Now I eat"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "Later is 以后 (yǐ hòu)",
+      "B": "Now you eat is 现在你吃饭 (xiàn zài nǐ chī fàn)",
+      "C": "Now I cook is 现在我做饭 (xiàn zài wǒ zuò fàn)",
+      "D": "Correct! 现在我吃饭 (xiàn zài wǒ chī fàn) means 'Now I eat'"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-009",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "jīn tiān nǐ máng ma — 今天你忙吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Today you are busy",
+      "B": "Are you busy today?",
+      "C": "Today I am busy",
+      "D": "Are you free today?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Statement form would be 今天你忙 (jīn tiān nǐ máng)",
+      "B": "Correct! 今天你忙吗 (jīn tiān nǐ máng ma) means 'Are you busy today?'",
+      "C": "Today I am busy is 今天我忙 (jīn tiān wǒ máng)",
+      "D": "Are you free today? is 今天你有空吗 (jīn tiān nǐ yǒu kòng ma)"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-010",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "zhōng wǔ tā chī wǔ fàn — 中午她吃午饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "At noon he/she eats lunch",
+      "B": "At noon I eat lunch",
+      "C": "At noon he/she eats dinner",
+      "D": "In the evening he/she eats lunch"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 中午她吃午饭 (zhōng wǔ tā chī wǔ fàn) means 'At noon he/she eats lunch'. In speech, 他 and 她 are both pronounced tā.",
+      "B": "At noon I eat lunch is 中午我吃午饭",
+      "C": "At noon he/she eats dinner is 中午他/她吃晚饭",
+      "D": "In the evening is 晚上 (wǎn shang)"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "food"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-011",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "míng tiān wǒ qù — 明天我去",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Today I go",
+      "B": "Tomorrow I come",
+      "C": "Tomorrow I go",
+      "D": "Tomorrow you go"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "Today I go is 今天我去 (jīn tiān wǒ qù)",
+      "B": "Tomorrow I come is 明天我来 (míng tiān wǒ lái)",
+      "C": "Correct! 明天我去 (míng tiān wǒ qù) means 'Tomorrow I go'",
+      "D": "Tomorrow you go is 明天你去 (míng tiān nǐ qù)"
+    },
+    "tags": [
+      "sentence",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-012",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "xiàn zài tā zài jiā — 现在他在家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Now he/she goes home",
+      "B": "Now he/she is at home",
+      "C": "Later he/she is at home",
+      "D": "Now I am at home"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Now he/she goes home is 现在他/她回家 (xiàn zài tā huí jiā)",
+      "B": "Correct! 现在他在家 (xiàn zài tā zài jiā) means 'Now he/she is at home'",
+      "C": "Later is 以后 (yǐ hòu)",
+      "D": "Now I am at home is 现在我在家"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "location"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-013",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "wǎn shang wǒ kàn diàn shì — 晚上我看电视",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "In the morning I watch TV",
+      "B": "At night I listen to music",
+      "C": "At night I watch TV",
+      "D": "At night you watch TV"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "In the morning is 早上 (zǎo shang)",
+      "B": "At night I listen to music is 晚上我听音乐",
+      "C": "Correct! 晚上我看电视 (wǎn shang wǒ kàn diàn shì) means 'At night I watch TV'",
+      "D": "At night you watch TV is 晚上你看电视"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "entertainment"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-014",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "jīn tiān tā bù qù — 今天她不去",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Today he/she goes",
+      "B": "Today he/she doesn't go",
+      "C": "Today I don't go",
+      "D": "Tomorrow he/she doesn't go"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Today he/she goes is 今天他/她去 (jīn tiān tā qù)",
+      "B": "Correct! 今天她不去 (jīn tiān tā bù qù) means 'Today he/she doesn't go'. In speech, 他 and 她 are both pronounced tā.",
+      "C": "Today I don't go is 今天我不去",
+      "D": "Tomorrow is 明天 (míng tiān)"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences2-015",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Time + Action",
+    "level": "HSK1",
+    "promptLine": "zǎo shang nǐ qǐ chuáng — 早上你起床",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "In the morning you sleep",
+      "B": "In the evening you wake up",
+      "C": "In the morning I wake up",
+      "D": "In the morning you wake up"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "In the morning you sleep is 早上你睡觉",
+      "B": "In the evening is 晚上 (wǎn shang)",
+      "C": "In the morning I wake up is 早上我起床",
+      "D": "Correct! 早上你起床 (zǎo shang nǐ qǐ chuáng) means 'In the morning you wake up'"
+    },
+    "tags": [
+      "sentence",
+      "time",
+      "daily life"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-001",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "wǒ xū yào bāng zhù — 我需要帮助",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I need help",
+      "B": "I can help",
+      "C": "You need help",
+      "D": "I want help"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我需要帮助 (wǒ xū yào bāng zhù) means 'I need help'",
+      "B": "I can help is 我可以帮忙 (wǒ kě yǐ bāng máng)",
+      "C": "You need help is 你需要帮助 (nǐ xū yào bāng zhù)",
+      "D": "I want help is 我想要帮助 (wǒ xiǎng yào bāng zhù)"
+    },
+    "tags": [
+      "sentence",
+      "need"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-002",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "nǐ yào shuǐ — 你要水",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You have water",
+      "B": "You drink water",
+      "C": "I want water",
+      "D": "You want water"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "You have water is 你有水 (nǐ yǒu shuǐ)",
+      "B": "You drink water is 你喝水 (nǐ hē shuǐ)",
+      "C": "I want water is 我要水 (wǒ yào shuǐ)",
+      "D": "Correct! 你要水 (nǐ yào shuǐ) means 'You want water'"
+    },
+    "tags": [
+      "sentence",
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-003",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā xǐ huān zhè ge — 他喜欢这个",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She wants this",
+      "B": "He/She likes this",
+      "C": "I like this",
+      "D": "He/She has this"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "He/She wants this is 他/她要这个 (tā yào zhè ge)",
+      "B": "Correct! 他喜欢这个 (tā xǐ huān zhè ge) means 'He/She likes this'",
+      "C": "I like this is 我喜欢这个 (wǒ xǐ huān zhè ge)",
+      "D": "He/She has this is 他/她有这个 (tā yǒu zhè ge)"
+    },
+    "tags": [
+      "sentence",
+      "preference"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-004",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā bù xǐ huān zhè ge — 她不喜欢这个",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She likes this",
+      "B": "He/She doesn't want this",
+      "C": "He/She doesn't like this",
+      "D": "I don't like this"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She likes this is 他/她喜欢这个 (tā xǐ huān zhè ge)",
+      "B": "He/She doesn't want this is 他/她不要这个 (tā bù yào zhè ge)",
+      "C": "Correct! 她不喜欢这个 (tā bù xǐ huān zhè ge) means 'He/She doesn't like this'. In speech, 他 and 她 are both pronounced tā.",
+      "D": "I don't like this is 我不喜欢这个"
+    },
+    "tags": [
+      "sentence",
+      "preference",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-005",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "wǒ bù dǒng — 我不懂",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I understand",
+      "B": "I don't know",
+      "C": "I don't understand",
+      "D": "You don't understand"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "I understand is 我懂 (wǒ dǒng)",
+      "B": "I don't know is 我不知道 (wǒ bù zhī dào)",
+      "C": "Correct! 我不懂 (wǒ bù dǒng) means 'I don't understand'",
+      "D": "You don't understand is 你不懂 (nǐ bù dǒng)"
+    },
+    "tags": [
+      "sentence",
+      "understanding",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-006",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "nǐ néng bāng wǒ — 你能帮我",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I can help you",
+      "B": "You help me",
+      "C": "Can you help me?",
+      "D": "You can help me"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "I can help you is 我能帮你 (wǒ néng bāng nǐ)",
+      "B": "You help me is 你帮我 (nǐ bāng wǒ)",
+      "C": "Can you help me? is 你能帮我吗 (nǐ néng bāng wǒ ma)",
+      "D": "Correct! 你能帮我 (nǐ néng bāng wǒ) means 'You can help me'"
+    },
+    "tags": [
+      "sentence",
+      "ability"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-007",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā xiǎng huí jiā — 他想回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She goes home",
+      "B": "He/She wants to go home",
+      "C": "I want to go home",
+      "D": "He/She thinks of home"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "He/She goes home is 他/她回家 (tā huí jiā)",
+      "B": "Correct! 他想回家 (tā xiǎng huí jiā) means 'He/She wants to go home'",
+      "C": "I want to go home is 我想回家 (wǒ xiǎng huí jiā)",
+      "D": "想 here means 'want to', not just 'think'"
+    },
+    "tags": [
+      "sentence",
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-008",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "wǒ huì shuō Zhōng wén — 我会说中文",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I speak Chinese",
+      "B": "I can speak Chinese",
+      "C": "I study Chinese",
+      "D": "You can speak Chinese"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I speak Chinese is 我说中文 (wǒ shuō Zhōng wén)",
+      "B": "Correct! 我会说中文 (wǒ huì shuō Zhōng wén) means 'I can speak Chinese'",
+      "C": "I study Chinese is 我学中文 (wǒ xué Zhōng wén)",
+      "D": "You can speak Chinese is 你会说中文"
+    },
+    "tags": [
+      "sentence",
+      "ability"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-009",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā yǒu qián — 她有钱",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She needs money",
+      "B": "I have money",
+      "C": "He/She has money",
+      "D": "He/She wants money"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She needs money is 他/她需要钱 (tā xū yào qián)",
+      "B": "I have money is 我有钱 (wǒ yǒu qián)",
+      "C": "Correct! 她有钱 (tā yǒu qián) means 'He/She has money'. In speech, 他 and 她 are both pronounced tā.",
+      "D": "He/She wants money is 他/她要钱 (tā yào qián)"
+    },
+    "tags": [
+      "sentence",
+      "possession"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-010",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "wǒ bù yào — 我不要",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want",
+      "B": "I don't want",
+      "C": "I don't have",
+      "D": "You don't want"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "I want is 我要 (wǒ yào)",
+      "B": "Correct! 我不要 (wǒ bù yào) means 'I don't want'",
+      "C": "I don't have is 我没有 (wǒ méi yǒu)",
+      "D": "You don't want is 你不要 (nǐ bù yào)"
+    },
+    "tags": [
+      "sentence",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-011",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "nǐ xǐ huān chī shén me — 你喜欢吃什么",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "What do you like to eat?",
+      "B": "What do you want to eat?",
+      "C": "What are you eating?",
+      "D": "Do you like eating?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你喜欢吃什么 (nǐ xǐ huān chī shén me) means 'What do you like to eat?'",
+      "B": "What do you want to eat? is 你想吃什么 (nǐ xiǎng chī shén me)",
+      "C": "What are you eating? is 你在吃什么 (nǐ zài chī shén me)",
+      "D": "Do you like eating? is 你喜欢吃吗 (nǐ xǐ huān chī ma)"
+    },
+    "tags": [
+      "sentence",
+      "preference",
+      "question"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "simplesentences3-012",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā xiǎng mǎi shū — 他想买书",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She buys a book",
+      "B": "He/She reads a book",
+      "C": "He/She wants to buy a book",
+      "D": "I want to buy a book"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She buys a book is 他/她买书 (tā mǎi shū)",
+      "B": "He/She reads a book is 他/她看书 (tā kàn shū)",
+      "C": "Correct! 他想买书 (tā xiǎng mǎi shū) means 'He/She wants to buy a book'",
+      "D": "I want to buy a book is 我想买书"
+    },
+    "tags": [
+      "sentence",
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-013",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "wǒ kě yǐ qù — 我可以去",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I go",
+      "B": "I want to go",
+      "C": "I can go",
+      "D": "Can I go?"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "I go is 我去 (wǒ qù)",
+      "B": "I want to go is 我想去 (wǒ xiǎng qù)",
+      "C": "Correct! 我可以去 (wǒ kě yǐ qù) means 'I can go'",
+      "D": "Can I go? is 我可以去吗 (wǒ kě yǐ qù ma)"
+    },
+    "tags": [
+      "sentence",
+      "permission"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-014",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "tā bù néng lái — 她不能来",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She can come",
+      "B": "He/She can't come",
+      "C": "I can't come",
+      "D": "He/She doesn't come"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "He/She can come is 他/她能来 (tā néng lái)",
+      "B": "Correct! 她不能来 (tā bù néng lái) means 'He/She can't come'. In speech, 他 and 她 are both pronounced tā.",
+      "C": "I can't come is 我不能来 (wǒ bù néng lái)",
+      "D": "He/She doesn't come is 他/她不来 (tā bù lái)"
+    },
+    "tags": [
+      "sentence",
+      "ability",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences3-015",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Needs & Preferences",
+    "level": "HSK1",
+    "promptLine": "nǐ yǒu shí jiān ma — 你有时间吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You have time",
+      "B": "What time is it?",
+      "C": "Do you have time?",
+      "D": "I have time"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "You have time is 你有时间 (nǐ yǒu shí jiān)",
+      "B": "What time is it? is 几点 (jǐ diǎn)",
+      "C": "Correct! 你有时间吗 (nǐ yǒu shí jiān ma) means 'Do you have time?'",
+      "D": "I have time is 我有时间 (wǒ yǒu shí jiān)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "time"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-001",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ hǎo ma — 你好吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Hello",
+      "B": "Are you okay?",
+      "C": "You are good",
+      "D": "Goodbye"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Hello is 你好 (nǐ hǎo)",
+      "B": "Correct! 你好吗 (nǐ hǎo ma) means 'Are you okay?' or 'How are you?'",
+      "C": "You are good is 你很好 (nǐ hěn hǎo)",
+      "D": "Goodbye is 再见 (zài jiàn)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "greeting"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-002",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ néng bāng wǒ ma — 你能帮我吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You can help me",
+      "B": "I can help you",
+      "C": "Can you help me?",
+      "D": "Can I help you?"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "You can help me is 你能帮我 (nǐ néng bāng wǒ)",
+      "B": "I can help you is 我能帮你 (wǒ néng bāng nǐ)",
+      "C": "Correct! 你能帮我吗 (nǐ néng bāng wǒ ma) means 'Can you help me?'",
+      "D": "Can I help you? is 我能帮你吗 (wǒ néng bāng nǐ ma)"
+    },
+    "tags": [
+      "sentence",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-003",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ dǒng ma — 你懂吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You understand",
+      "B": "Do you understand?",
+      "C": "I understand",
+      "D": "Do you know?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "You understand is 你懂 (nǐ dǒng)",
+      "B": "Correct! 你懂吗 (nǐ dǒng ma) means 'Do you understand?'",
+      "C": "I understand is 我懂 (wǒ dǒng)",
+      "D": "Do you know? is 你知道吗 (nǐ zhī dào ma)"
+    },
+    "tags": [
+      "sentence",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-004",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "gōng jiāo chē zài nǎ lǐ — 公交车在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "The bus is here",
+      "B": "Where is the bus?",
+      "C": "Is this the bus?",
+      "D": "Where is the car?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "The bus is here is 公交车在这里 (gōng jiāo chē zài zhè lǐ)",
+      "B": "Correct! 公交车在哪里 (gōng jiāo chē zài nǎ lǐ) means 'Where is the bus?'",
+      "C": "Is this the bus? is 这是公交车吗 (zhè shì gōng jiāo chē ma)",
+      "D": "Where is the car? is 车在哪里 (chē zài nǎ lǐ)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "location"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-005",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "tā hěn máng — 她很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She is free",
+      "B": "I am busy",
+      "C": "He/She is busy",
+      "D": "Is he/she busy?"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "He/She is free is 他/她有空 (tā yǒu kòng)",
+      "B": "I am busy is 我很忙 (wǒ hěn máng)",
+      "C": "Correct! 她很忙 (tā hěn máng) means 'He/She is busy'. In speech, 他 and 她 are both pronounced tā.",
+      "D": "Is he/she busy? is 他/她忙吗 (tā máng ma)"
+    },
+    "tags": [
+      "sentence",
+      "statement"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-006",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "tā yǒu kòng — 他有空",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She is busy",
+      "B": "I am free",
+      "C": "He/She has time",
+      "D": "He/She is free"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "He/She is busy is 他/她很忙 (tā hěn máng)",
+      "B": "I am free is 我有空 (wǒ yǒu kòng)",
+      "C": "He/She has time is 他/她有时间 (tā yǒu shí jiān)",
+      "D": "Correct! 他有空 (tā yǒu kòng) means 'He/She is free'"
+    },
+    "tags": [
+      "sentence",
+      "statement"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-007",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ lèi ma — 你累吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "You are tired",
+      "B": "I am tired",
+      "C": "Are you tired?",
+      "D": "Are you busy?"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "You are tired is 你累 (nǐ lèi)",
+      "B": "I am tired is 我累 (wǒ lèi)",
+      "C": "Correct! 你累吗 (nǐ lèi ma) means 'Are you tired?'",
+      "D": "Are you busy? is 你忙吗 (nǐ máng ma)"
+    },
+    "tags": [
+      "sentence",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-008",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "xiàn zài hái shì yǐ hòu — 现在还是以后",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Now and later",
+      "B": "Now or later?",
+      "C": "Not now but later",
+      "D": "Now, not later"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "Now and later would use 和 (hé) not 还是 (hái shì)",
+      "B": "Correct! 现在还是以后 (xiàn zài hái shì yǐ hòu) means 'Now or later?'",
+      "C": "Not now but later would be different structure",
+      "D": "Now, not later would be 现在，不是以后"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "time"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "simplesentences4-009",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "zhè shì shén me — 这是什么",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is it",
+      "B": "What is this?",
+      "C": "Where is this?",
+      "D": "Is this it?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This is it would be 这是 (zhè shì) or 就是这个",
+      "B": "Correct! 这是什么 (zhè shì shén me) means 'What is this?'",
+      "C": "Where is this? is 这在哪里 (zhè zài nǎ lǐ)",
+      "D": "Is this it? is 是这个吗 (shì zhè ge ma)"
+    },
+    "tags": [
+      "sentence",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-010",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "wǒ hěn hǎo — 我很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I am good/fine",
+      "B": "You are good",
+      "C": "I am okay",
+      "D": "Am I good?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我很好 (wǒ hěn hǎo) means 'I am good/fine'",
+      "B": "You are good is 你很好 (nǐ hěn hǎo)",
+      "C": "I am okay is 我还行 (wǒ hái xíng) or 我可以 (wǒ kě yǐ)",
+      "D": "Am I good? is 我好吗 (wǒ hǎo ma)"
+    },
+    "tags": [
+      "sentence",
+      "statement"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-011",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ shì shuí — 你是谁",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Who are you?",
+      "B": "Where are you?",
+      "C": "What are you?",
+      "D": "Are you here?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你是谁 (nǐ shì shuí) means 'Who are you?'",
+      "B": "Where are you? is 你在哪里 (nǐ zài nǎ lǐ)",
+      "C": "What are you? is 你是什么 (nǐ shì shén me)",
+      "D": "Are you here? is 你在这里吗 (nǐ zài zhè lǐ ma)"
+    },
+    "tags": [
+      "sentence",
+      "question"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-012",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "tā zài nǎ lǐ — 他在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He/She is here",
+      "B": "Where is he/she?",
+      "C": "Where am I?",
+      "D": "Is he/she there?"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "He/She is here is 他/她在这里 (tā zài zhè lǐ)",
+      "B": "Correct! 他在哪里 (tā zài nǎ lǐ) means 'Where is he/she?'",
+      "C": "Where am I? is 我在哪里 (wǒ zài nǎ lǐ)",
+      "D": "Is he/she there? is 他/她在那里吗 (tā zài nà lǐ ma)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "location"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-013",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "nǐ qù nǎ lǐ — 你去哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where do you go?",
+      "B": "Where are you?",
+      "C": "You go there",
+      "D": "Where is it?"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 你去哪里 (nǐ qù nǎ lǐ) means 'Where do you go?' or 'Where are you going?'",
+      "B": "Where are you? is 你在哪里 (nǐ zài nǎ lǐ)",
+      "C": "You go there is 你去那里 (nǐ qù nà lǐ)",
+      "D": "Where is it? is 它在哪里 (tā zài nǎ lǐ)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "location"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-014",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "wǒ bù zhī dào — 我不知道",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I know",
+      "B": "I don't understand",
+      "C": "You don't know",
+      "D": "I don't know"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "I know is 我知道 (wǒ zhī dào)",
+      "B": "I don't understand is 我不懂 (wǒ bù dǒng)",
+      "C": "You don't know is 你不知道 (nǐ bù zhī dào)",
+      "D": "Correct! 我不知道 (wǒ bù zhī dào) means 'I don't know'"
+    },
+    "tags": [
+      "sentence",
+      "statement",
+      "negation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "simplesentences4-015",
+    "kind": "vocab",
+    "section": "Simple Sentences",
+    "deck": "Statements & Questions",
+    "level": "HSK1",
+    "promptLine": "zhè ge duō shǎo qián — 这个多少钱",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is expensive",
+      "B": "How much is this?",
+      "C": "Do you have money?",
+      "D": "This costs money"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This is expensive is 这个很贵 (zhè ge hěn guì)",
+      "B": "Correct! 这个多少钱 (zhè ge duō shǎo qián) means 'How much is this?'",
+      "C": "Do you have money? is 你有钱吗 (nǐ yǒu qián ma)",
+      "D": "This costs money is 这个要钱 (zhè ge yào qián)"
+    },
+    "tags": [
+      "sentence",
+      "question",
+      "shopping"
+    ],
+    "difficulty": 1
   }
 ]
