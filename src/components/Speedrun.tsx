@@ -113,6 +113,16 @@ export default function Speedrun() {
     };
   }, [isStarted, shuffledDeck, currentIndex, answerState.selectedChoice]);
 
+  // Clear focus on card change to prevent stale :focus/:active styles
+  useEffect(() => {
+    if (!isStarted || shuffledDeck.length === 0 || currentIndex >= shuffledDeck.length) return;
+    
+    // Remove focus from any active element to prevent style carryover
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+  }, [isStarted, shuffledDeck, currentIndex]);
+
   // Timer: Increment elapsed seconds while speedrun is active (not in review mode)
   useEffect(() => {
     if (!isStarted || isComplete || mode === "review" || speedrunFailed) return;
