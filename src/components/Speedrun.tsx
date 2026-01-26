@@ -45,29 +45,6 @@ function saveDeckBestTime(deckName: string, seconds: number): void {
   }
 }
 
-// Get all deck times for a section and calculate rollup
-function getSectionRollupTime(sectionName: string, decks: string[]): number | null {
-  try {
-    let total = 0;
-    let hasAnyTime = false;
-    
-    for (const deck of decks) {
-      const deckTime = getDeckBestTime(deck);
-      if (deckTime !== null) {
-        total += deckTime;
-        hasAnyTime = true;
-      } else {
-        // If any deck has no time, section time is incomplete
-        return null;
-      }
-    }
-    
-    return hasAnyTime ? total : null;
-  } catch {
-    return null;
-  }
-}
-
 export default function Speedrun() {
   const { theme } = useTheme();
   const navigate = useNavigate();
