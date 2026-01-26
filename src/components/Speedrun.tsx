@@ -207,35 +207,20 @@ export default function Speedrun() {
           pendingAdvanceRef.current = true;
           
           const advanceToNext = () => {
-            if (!pendingAdvanceRef.current) return; // Already handled
-            
             if (advanceCleanupRef.current) {
               advanceCleanupRef.current();
               advanceCleanupRef.current = null;
             }
             pendingAdvanceRef.current = false;
-            
-            // Blur active element to clear any focus/active state
-            if (document.activeElement instanceof HTMLElement) {
-              document.activeElement.blur();
-            }
-            
-            // Advance on next frame to ensure state is cleared
-            requestAnimationFrame(() => {
-              handleNext();
-            });
+            handleNext();
           };
           
           const handlePointerUp = () => advanceToNext();
-          const handlePointerCancel = () => advanceToNext();
           const handleTouchEnd = () => advanceToNext();
-          const handleTouchCancel = () => advanceToNext();
           
-          // Attach listeners to window to catch all release events
-          window.addEventListener('pointerup', handlePointerUp, { once: true });
-          window.addEventListener('pointercancel', handlePointerCancel, { once: true });
-          window.addEventListener('touchend', handleTouchEnd, { once: true });
-          window.addEventListener('touchcancel', handleTouchCancel, { once: true });
+          // Attach listeners to wait for touch release
+          document.addEventListener('pointerup', handlePointerUp, { once: true });
+          document.addEventListener('touchend', handleTouchEnd, { once: true });
           
           // Safety fallback: advance after 600ms even if events don't fire
           const safetyTimeout = setTimeout(() => {
@@ -244,10 +229,8 @@ export default function Speedrun() {
           
           // Store cleanup function
           advanceCleanupRef.current = () => {
-            window.removeEventListener('pointerup', handlePointerUp);
-            window.removeEventListener('pointercancel', handlePointerCancel);
-            window.removeEventListener('touchend', handleTouchEnd);
-            window.removeEventListener('touchcancel', handleTouchCancel);
+            document.removeEventListener('pointerup', handlePointerUp);
+            document.removeEventListener('touchend', handleTouchEnd);
             clearTimeout(safetyTimeout);
           };
         } else {
