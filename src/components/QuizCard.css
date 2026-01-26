@@ -75,7 +75,6 @@
   flex-shrink: 0;
   color: var(--text-primary);
   -webkit-tap-highlight-color: transparent;
-  touch-action: manipulation;
   outline: none;
 }
 
@@ -94,7 +93,7 @@
 }
 
 .choice-button:not(:disabled):active {
-  transform: scale(0.98);
+  background: var(--bg-hover);
 }
 
 .choice-button:disabled {
