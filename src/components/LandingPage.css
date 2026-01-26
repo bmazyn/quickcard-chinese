@@ -193,25 +193,7 @@
   text-align: center;
   padding: 4px 8px;
   border-radius: 6px;
-  transition: background 0.2s, transform 0.2s;
-}
-
-.section-time.unlocked {
-  cursor: pointer;
-}
-
-.section-time.unlocked:hover {
-  background: var(--bg-hover);
-  transform: scale(1.05);
-}
-
-.section-time.unlocked:active {
-  transform: scale(0.98);
-}
-
-.section-time.locked {
-  opacity: 0.5;
-  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .section-mastery {
@@ -232,17 +214,18 @@
 .block-card {
   position: relative;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px;
   background: var(--bg-card);
   border: 2px solid transparent;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s;
   user-select: none;
-  min-height: 44px;
+  min-height: 60px;
+  gap: 8px;
 }
 
 .block-card:hover {
@@ -254,23 +237,54 @@
   background: var(--bg-hover);
 }
 
+.block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .block-name {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-primary);
-  text-align: center;
+  text-align: left;
+  flex: 1;
 }
 
 .block-mastery {
-  position: absolute;
-  top: 50%;
-  right: 8px;
-  width: 8px;
-  height: 8px;
-  background: var(--success-border);
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translateY(-50%);
+  font-size: 0.875rem;
+  color: var(--success-border);
+  font-weight: 600;
+}
+
+.block-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.block-speedrun-time {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--bg-surface);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.block-speedrun-time.has-time {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.block-speedrun-time:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: scale(1.05);
 }
 
 /* Speedrun button removed - time display now serves as entry point */

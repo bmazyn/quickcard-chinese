@@ -6,8 +6,8 @@ import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types"
 import quizCardsData from "../data/quizCards.json";
 import "./Speedrun.css";
 
-// Maximum allowed misses before speedrun is marked as failed
-const MAX_SPEEDRUN_MISSES = 10;
+// Penalty for wrong answers in speedrun
+const PENALTY_SECONDS = 3;
 
 // Fisher-Yates shuffle
 function shuffleArray<T>(array: T[]): T[] {
@@ -19,30 +19,52 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-// Get best time for a section from localStorage
-function getBestTime(sectionName: string): number | null {
+// Get best time for a deck from localStorage
+function getDeckBestTime(deckName: string): number | null {
   try {
-    const key = `qc_speedrun_best_seconds:${sectionName}`;
+    const key = `qc_deck_speedrun_best:${deckName}`;
     const stored = localStorage.getItem(key);
     return stored ? parseInt(stored, 10) : null;
   } catch {
-    // Fail silently if localStorage is unavailable
     return null;
   }
 }
 
-// Save best time for a section to localStorage (only if better)
-function saveBestTime(sectionName: string, seconds: number): void {
+// Save best time for a deck to localStorage (only if better)
+function saveDeckBestTime(deckName: string, seconds: number): void {
   try {
-    const key = `qc_speedrun_best_seconds:${sectionName}`;
-    const existing = getBestTime(sectionName);
+    const key = `qc_deck_speedrun_best:${deckName}`;
+    const existing = getDeckBestTime(deckName);
     
     // Only save if no previous time or if this time is better
     if (existing === null || seconds < existing) {
       localStorage.setItem(key, seconds.toString());
     }
   } catch {
-    // Fail silently if localStorage is unavailable
+    // Fail silently
+  }
+}
+
+// Get all deck times for a section and calculate rollup
+function getSectionRollupTime(sectionName: string, decks: string[]): number | null {
+  try {
+    let total = 0;
+    let hasAnyTime = false;
+    
+    for (const deck of decks) {
+      const deckTime = getDeckBestTime(deck);
+      if (deckTime !== null) {
+        total += deckTime;
+        hasAnyTime = true;
+      } else {
+        // If any deck has no time, section time is incomplete
+        return null;
+      }
+    }
+    
+    return hasAnyTime ? total : null;
+  } catch {
+    return null;
   }
 }
 
@@ -50,7 +72,7 @@ export default function Speedrun() {
   const { theme } = useTheme();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const sectionParam = searchParams.get("section") || "";
+  const deckParam = searchParams.get("deck") || "";
 
   const [cards, setCards] = useState<QuizCardType[]>([]);
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
@@ -63,11 +85,11 @@ export default function Speedrun() {
   });
   const [penaltyCountdown, setPenaltyCountdown] = useState(0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [totalPenalties, setTotalPenalties] = useState(0);
   const [missedCards, setMissedCards] = useState<QuizCardType[]>([]);
   const [mode, setMode] = useState<"speedrun" | "review">("speedrun");
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const [bestTime, setBestTime] = useState<number | null>(null);
-  const [speedrunFailed, setSpeedrunFailed] = useState(false);
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -76,21 +98,21 @@ export default function Speedrun() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Load cards for the section
+  // Load cards for the deck
   useEffect(() => {
-    let sectionCards: QuizCardType[] = [];
+    let deckCards: QuizCardType[] = [];
     
-    // Filter cards by section field
-    sectionCards = quizCardsData.filter((card) => {
+    // Filter cards by deck field
+    deckCards = quizCardsData.filter((card) => {
       const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
-      return isValidKind && card.section === sectionParam;
+      return isValidKind && card.deck === deckParam;
     }) as QuizCardType[];
     
-    setCards(sectionCards);
+    setCards(deckCards);
     
-    // Load best time for this section
-    setBestTime(getBestTime(sectionParam));
-  }, [sectionParam]);
+    // Load best time for this deck
+    setBestTime(getDeckBestTime(deckParam));
+  }, [deckParam]);
 
   // Auto-play Chinese audio on card change (sound on next)
   useEffect(() => {
@@ -115,14 +137,14 @@ export default function Speedrun() {
 
   // Timer: Increment elapsed seconds while speedrun is active (not in review mode)
   useEffect(() => {
-    if (!isStarted || isComplete || mode === "review" || speedrunFailed) return;
+    if (!isStarted || isComplete || mode === "review") return;
 
     const interval = setInterval(() => {
       setElapsedSeconds((prev) => prev + 1);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isStarted, isComplete, mode, speedrunFailed]);
+  }, [isStarted, isComplete, mode]);
 
   const handleStart = () => {
     const shuffled = shuffleArray(cards);
@@ -130,10 +152,10 @@ export default function Speedrun() {
     setCurrentIndex(0);
     setIsStarted(true);
     setIsComplete(false);
-    setElapsedSeconds(0); // Reset timer
-    setMissedCards([]); // Reset missed cards
-    setMode("speedrun"); // Set to speedrun mode
-    setSpeedrunFailed(false); // Reset failed state
+    setElapsedSeconds(0);
+    setTotalPenalties(0);
+    setMissedCards([]);
+    setMode("speedrun");
     setAnswerState({
       selectedChoice: null,
       isCorrect: null,
@@ -141,9 +163,6 @@ export default function Speedrun() {
   };
 
   const handleAnswer = (choice: ChoiceKey) => {
-    // Prevent answering if speedrun has failed
-    if (speedrunFailed) return;
-    
     const currentCard = shuffledDeck[currentIndex];
     const isCorrect = choice === currentCard.correct;
 
@@ -155,20 +174,9 @@ export default function Speedrun() {
     // Track missed cards in speedrun mode
     if (!isCorrect && mode === "speedrun") {
       setMissedCards((prev) => {
-        // Add only if not already in the missed cards array
         const isAlreadyMissed = prev.some((card) => card.id === currentCard.id);
         if (!isAlreadyMissed) {
-          const newMissedCards = [...prev, currentCard];
-          
-          // Check if misses exceed the limit - HARD FAIL
-          if (newMissedCards.length > MAX_SPEEDRUN_MISSES) {
-            setSpeedrunFailed(true);
-            setIsComplete(true);
-            setIsStarted(false);
-            setPenaltyCountdown(0);
-          }
-          
-          return newMissedCards;
+          return [...prev, currentCard];
         }
         return prev;
       });
@@ -182,17 +190,15 @@ export default function Speedrun() {
           // Correct: advance immediately
           handleNext();
         } else {
-          // Wrong: start 3-second countdown
-          setPenaltyCountdown(3);
+          // Wrong: add penalty and start countdown
+          setTotalPenalties((prev) => prev + PENALTY_SECONDS);
+          setPenaltyCountdown(PENALTY_SECONDS);
         }
       }, 300);
     }
   };
 
   const handleNext = () => {
-    // Don't advance if speedrun has failed
-    if (speedrunFailed) return;
-    
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= shuffledDeck.length) {
@@ -200,20 +206,13 @@ export default function Speedrun() {
       setIsComplete(true);
       setIsStarted(false);
       
-      // Save best time only in speedrun mode if not failed
-      if (mode === "speedrun" && !speedrunFailed) {
-        saveBestTime(sectionParam, elapsedSeconds);
+      // Save best time only in speedrun mode (elapsed + penalties)
+      if (mode === "speedrun") {
+        const finalTime = elapsedSeconds + totalPenalties;
+        saveDeckBestTime(deckParam, finalTime);
         // Update displayed best time if this was a new best
-        const currentBest = getBestTime(sectionParam);
+        const currentBest = getDeckBestTime(deckParam);
         setBestTime(currentBest);
-        
-        // Save missed count from this speedrun
-        try {
-          const missedKey = `qc_speedrun_last_misses:${sectionParam}`;
-          localStorage.setItem(missedKey, missedCards.length.toString());
-        } catch {
-          // Fail silently if localStorage is unavailable
-        }
       }
     } else {
       setCurrentIndex(nextIndex);
@@ -221,7 +220,7 @@ export default function Speedrun() {
         selectedChoice: null,
         isCorrect: null,
       });
-      setPenaltyCountdown(0); // Clear penalty countdown on next
+      setPenaltyCountdown(0);
     }
   };
 
@@ -255,7 +254,7 @@ export default function Speedrun() {
       const missedIds = missedCards.map(card => card.id);
       localStorage.setItem('qc_practice_cards', JSON.stringify(missedIds));
       localStorage.setItem('qc_practice_source', 'speedrun');
-      localStorage.setItem('qc_practice_section', sectionParam);
+      localStorage.setItem('qc_practice_deck', deckParam);
     } catch {
       // Fail silently
     }
@@ -304,18 +303,17 @@ export default function Speedrun() {
     window.speechSynthesis.speak(chineseUtterance);
   };
 
-  // Countdown timer effect - ticks down every second and advances after 1
+  // Countdown timer effect - ticks down every second and advances after reaching 0
   useEffect(() => {
     if (penaltyCountdown <= 0 || mode !== "speedrun") return;
 
     const timer = setTimeout(() => {
-      if (penaltyCountdown === 1) {
-        // After showing 1, advance to next card
-        setPenaltyCountdown(0);
+      const newCountdown = penaltyCountdown - 1;
+      setPenaltyCountdown(newCountdown);
+      
+      if (newCountdown === 0) {
+        // After countdown finishes, advance to next card
         handleNext();
-      } else {
-        // Continue countdown
-        setPenaltyCountdown(penaltyCountdown - 1);
       }
     }, 1000);
 
@@ -333,9 +331,9 @@ export default function Speedrun() {
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
               </svg>
             </button>
-            <h2 className="speedrun-title">Speedrun — {sectionParam}</h2>
+            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
           </div>
-          <p className="no-cards">No cards found for this section</p>
+          <p className="no-cards">No cards found for this deck</p>
         </div>
       </div>
     );
@@ -353,7 +351,7 @@ export default function Speedrun() {
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
               </svg>
             </button>
-            <h2 className="speedrun-title">Speedrun — {sectionParam}</h2>
+            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
           </div>
 
           <div className="speedrun-prerun">
@@ -361,13 +359,16 @@ export default function Speedrun() {
               <div className="info-card">
                 <div className="info-icon">🏃</div>
                 <div className="info-text">
-                  <h3>Ready to Speedrun?</h3>
-                  <p>{cards.length} cards in this section</p>
+                  <h3>Ready for Deck Run?</h3>
+                  <p>{cards.length} cards • One pass only</p>
+                  <p style={{ fontSize: '0.9rem', marginTop: '8px', color: 'var(--text-secondary)' }}>
+                    Wrong answer = +3s penalty
+                  </p>
                 </div>
               </div>
             </div>
             <button className="start-speedrun-button" onClick={handleStart} disabled={cards.length === 0}>
-              Start Speedrun
+              Start Deck Run
             </button>
           </div>
         </div>
@@ -377,6 +378,8 @@ export default function Speedrun() {
 
   // End screen
   if (isComplete) {
+    const finalTime = elapsedSeconds + totalPenalties;
+    
     return (
       <div className={`speedrun ${theme}`}>
         <div className="speedrun-content">
@@ -387,44 +390,47 @@ export default function Speedrun() {
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
               </svg>
             </button>
-            <h2 className="speedrun-title">Speedrun — {sectionParam}</h2>
+            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
           </div>
 
           <div className="speedrun-complete">
-            <div className="complete-icon">{mode === "speedrun" && speedrunFailed ? '⚠️' : '✅'}</div>
+            <div className="complete-icon">{mode === "review" ? '📝' : '✅'}</div>
             <h3 className="complete-title">
-              {mode === "review" ? 'Review Complete!' : speedrunFailed ? 'Speedrun Failed' : 'Section Cleared!'}
+              {mode === "review" ? 'Review Complete!' : 'Deck Cleared!'}
             </h3>
-            {mode === "speedrun" && speedrunFailed && (
-              <p className="failed-message">Too many misses (limit: {MAX_SPEEDRUN_MISSES})</p>
-            )}
-            {mode === "speedrun" && !speedrunFailed && <p className="complete-time">Time: {formatTime(elapsedSeconds)}</p>}
-            {mode === "speedrun" && !speedrunFailed && bestTime !== null && (
-              <p className="complete-best">Best: {formatTime(bestTime)}</p>
-            )}
-            {mode === "speedrun" && !speedrunFailed && bestTime === null && (
-              <p className="complete-best">Best: --:--</p>
-            )}
-            {mode === "speedrun" && !speedrunFailed && missedCards.length > 0 && (
-              <p className="missed-count">Missed: {missedCards.length} card{missedCards.length !== 1 ? 's' : ''}</p>
+            {mode === "speedrun" && (
+              <>
+                <p className="complete-time">
+                  Time: {formatTime(finalTime)}
+                  {totalPenalties > 0 && (
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginLeft: '8px' }}>
+                      ({formatTime(elapsedSeconds)} + {totalPenalties}s)
+                    </span>
+                  )}
+                </p>
+                {bestTime !== null && (
+                  <p className="complete-best">Best: {formatTime(bestTime)}</p>
+                )}
+                {bestTime === null && (
+                  <p className="complete-best">Best: --:--</p>
+                )}
+                {missedCards.length > 0 && (
+                  <p className="missed-count">Missed: {missedCards.length} card{missedCards.length !== 1 ? 's' : ''}</p>
+                )}
+              </>
             )}
             <div className="complete-buttons">
-              {mode === "speedrun" && speedrunFailed && (
-                <>
-                  <button className="review-missed-button" onClick={handlePracticeMisses}>
-                    🎯 Practice Misses
-                  </button>
-                  <button className="run-again-button" onClick={handleRunAgain}>
-                    🔄 Restart Speedrun
-                  </button>
-                </>
-              )}
-              {mode === "speedrun" && !speedrunFailed && missedCards.length > 0 && (
+              {mode === "speedrun" && missedCards.length > 0 && (
                 <button className="review-missed-button" onClick={handleReviewMissed}>
                   📝 Review Missed
                 </button>
               )}
-              {mode === "speedrun" && !speedrunFailed && (
+              {mode === "speedrun" && missedCards.length > 0 && (
+                <button className="review-missed-button" onClick={handlePracticeMisses}>
+                  🎯 Practice Misses
+                </button>
+              )}
+              {mode === "speedrun" && (
                 <button className="run-again-button" onClick={handleRunAgain}>
                   🔄 Run Again
                 </button>

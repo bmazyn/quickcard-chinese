@@ -3,6 +3,40 @@ import { useNavigate } from "react-router-dom";
 import quizCards from "../data/quizCards.json";
 import "./LandingPage.css";
 
+// Get best time for a deck from localStorage
+function getDeckBestTime(deckName: string): number | null {
+  try {
+    const key = `qc_deck_speedrun_best:${deckName}`;
+    const stored = localStorage.getItem(key);
+    return stored ? parseInt(stored, 10) : null;
+  } catch {
+    return null;
+  }
+}
+
+// Get section rollup time (sum of all deck best times)
+function getSectionRollupTime(decks: string[]): number | null {
+  try {
+    let total = 0;
+    let hasAnyTime = false;
+    
+    for (const deck of decks) {
+      const deckTime = getDeckBestTime(deck);
+      if (deckTime !== null) {
+        total += deckTime;
+        hasAnyTime = true;
+      } else {
+        // If any deck has no time, section time is incomplete
+        return null;
+      }
+    }
+    
+    return hasAnyTime ? total : null;
+  } catch {
+    return null;
+  }
+}
+
 // Compute sections and decks from quizCards.json
 const sections = Array.from(new Set(quizCards.map(card => card.section)));
 const decksPerSection: Record<string, string[]> = {};
@@ -40,23 +74,16 @@ export default function LandingPage() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Get speedrun best time from localStorage
-  const getSpeedrunTime = (section: string, isLocked: boolean): string => {
-    if (isLocked) return "—:—";
-    
-    try {
-      const key = `qc_speedrun_best_seconds:${section}`;
-      const saved = localStorage.getItem(key);
-      if (!saved) return "—:—";
-      
-      const missedKey = `qc_speedrun_last_misses:${section}`;
-      const missedSaved = localStorage.getItem(missedKey);
-      const missedCount = missedSaved ? parseInt(missedSaved, 10) : 0;
-      
-      return `${formatTime(parseInt(saved, 10))} / ${missedCount}`;
-    } catch {
-      return "—:—";
-    }
+  // Get deck speedrun best time
+  const getDeckSpeedrunTime = (deck: string): string => {
+    const time = getDeckBestTime(deck);
+    return time !== null ? formatTime(time) : "--:--";
+  };
+
+  // Get section rollup time
+  const getSectionTime = (decks: string[]): string => {
+    const time = getSectionRollupTime(decks);
+    return time !== null ? formatTime(time) : "--:--";
   };
 
   useEffect(() => {
@@ -177,11 +204,9 @@ export default function LandingPage() {
     }));
   };
 
-  const handleSpeedrunClick = (section: string, isLocked: boolean, e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent section collapse toggle
-    if (!isLocked) {
-      navigate(`/speedrun?section=${encodeURIComponent(section)}`);
-    }
+  const handleDeckSpeedrunClick = (deck: string, e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent deck card click
+    navigate(`/speedrun?deck=${encodeURIComponent(deck)}`);
   };
 
   const handleBackToStart = () => {
@@ -239,9 +264,7 @@ export default function LandingPage() {
         {sections.map(section => {
           const decks = decksPerSection[section];
           const masteredCount = decks.filter(deck => masteredSections[deck]).length;
-          const allMastered = decks.length > 0 && masteredCount === decks.length;
           const isCollapsed = collapsedSections[section] || false;
-          const speedrunLocked = !allMastered;
 
           return (
             <div className="section" key={section}>
@@ -250,12 +273,8 @@ export default function LandingPage() {
                   <span className="section-chevron">{isCollapsed ? '▶' : '▼'}</span>
                   <h2 className="section-title">{section}</h2>
                 </div>
-                <span 
-                  className={`section-time ${speedrunLocked ? 'locked' : 'unlocked'}`}
-                  onClick={(e) => handleSpeedrunClick(section, speedrunLocked, e)}
-                  title={speedrunLocked ? "Speedrun unlocks after mastering all decks" : "Start speedrun"}
-                >
-                  {getSpeedrunTime(section, speedrunLocked)}
+                <span className="section-time">
+                  {getSectionTime(decks)}
                 </span>
                 <span className="section-mastery">
                   {masteredCount} / {decks.length} mastered
@@ -272,8 +291,19 @@ export default function LandingPage() {
                       }`}
                       onClick={() => handleDeckClick(deck)}
                     >
-                      <span className="block-name">{deck}</span>
-                      {masteredSections[deck] && <span className="block-mastery"></span>}
+                      <div className="block-header">
+                        <span className="block-name">{deck}</span>
+                        {masteredSections[deck] && <span className="block-mastery">✓</span>}
+                      </div>
+                      <div className="block-footer">
+                        <span 
+                          className={`block-speedrun-time ${getDeckBestTime(deck) !== null ? 'has-time' : ''}`}
+                          onClick={(e) => handleDeckSpeedrunClick(deck, e)}
+                          title="Start deck speedrun"
+                        >
+                          ⏱️ {getDeckSpeedrunTime(deck)}
+                        </span>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -294,6 +324,12 @@ export default function LandingPage() {
               </button>
               <button className="modal-button" onClick={handleModalQuiz}>
                 ▶️ Quiz
+              </button>
+              <button className="modal-button" onClick={() => {
+                setShowDeckModal(false);
+                navigate(`/speedrun?deck=${encodeURIComponent(modalDeck)}`);
+              }}>
+                ⏱️ Deck Run
               </button>
             </div>
             <button className="modal-cancel" onClick={() => setShowDeckModal(false)}>

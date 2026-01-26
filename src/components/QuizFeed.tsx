@@ -354,11 +354,11 @@ export default function QuizFeed() {
               <>
                 <button
                   onClick={() => {
-                    const section = localStorage.getItem('qc_practice_section') || '';
+                    const deck = localStorage.getItem('qc_practice_deck') || '';
                     localStorage.removeItem('qc_practice_cards');
                     localStorage.removeItem('qc_practice_source');
-                    localStorage.removeItem('qc_practice_section');
-                    navigate(`/speedrun?section=${encodeURIComponent(section)}`);
+                    localStorage.removeItem('qc_practice_deck');
+                    navigate(`/speedrun?deck=${encodeURIComponent(deck)}`);
                   }}
                   style={{
                     flex: 1,
