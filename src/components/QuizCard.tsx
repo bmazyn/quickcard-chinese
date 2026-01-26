@@ -1,4 +1,4 @@
-import { useMemo, useLayoutEffect } from "react";
+import { useMemo } from "react";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
 import "./QuizCard.css";
 
@@ -28,17 +28,6 @@ function triggerHaptic(isCorrect: boolean) {
 
 export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, countdownNumber = null }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
-  
-  // Clear focus before paint in Speedrun mode to prevent iOS shaded carryover
-  useLayoutEffect(() => {
-    if (isSpeedrunMode) {
-      if (document.activeElement instanceof HTMLElement) {
-        document.activeElement.blur();
-      }
-      // Force reflow to ensure state is cleared
-      void document.body.offsetHeight;
-    }
-  }, [card.id, isSpeedrunMode]);
   
   // Shuffle choices once per card to prevent position memorization
   const shuffledChoices = useMemo(() => {
