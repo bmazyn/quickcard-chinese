@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 import QuizCard from "./QuizCard";
@@ -68,6 +68,10 @@ export default function Speedrun() {
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const [bestTime, setBestTime] = useState<number | null>(null);
   const [speedrunFailed, setSpeedrunFailed] = useState(false);
+  
+  // Track pending advance (waiting for touch release)
+  const pendingAdvanceRef = useRef(false);
+  const advanceCleanupRef = useRef<(() => void) | null>(null);
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -144,6 +148,11 @@ export default function Speedrun() {
     setMissedCards([]); // Reset missed cards
     setMode("speedrun"); // Set to speedrun mode
     setSpeedrunFailed(false); // Reset failed state
+    pendingAdvanceRef.current = false; // Reset pending advance
+    if (advanceCleanupRef.current) {
+      advanceCleanupRef.current();
+      advanceCleanupRef.current = null;
+    }
     setAnswerState({
       selectedChoice: null,
       isCorrect: null,
@@ -151,8 +160,8 @@ export default function Speedrun() {
   };
 
   const handleAnswer = (choice: ChoiceKey) => {
-    // Prevent answering if speedrun has failed
-    if (speedrunFailed) return;
+    // Prevent answering if speedrun has failed or if pending advance
+    if (speedrunFailed || pendingAdvanceRef.current) return;
     
     // Immediately blur to clear iOS active state
     if (document.activeElement instanceof HTMLElement) {
@@ -194,10 +203,36 @@ export default function Speedrun() {
       // 300ms feedback delay
       setTimeout(() => {
         if (isCorrect) {
-          // Correct: delay advance by one frame to ensure iOS clears active state
-          requestAnimationFrame(() => {
+          // Correct: wait for touch release before advancing
+          pendingAdvanceRef.current = true;
+          
+          const advanceToNext = () => {
+            if (advanceCleanupRef.current) {
+              advanceCleanupRef.current();
+              advanceCleanupRef.current = null;
+            }
+            pendingAdvanceRef.current = false;
             handleNext();
-          });
+          };
+          
+          const handlePointerUp = () => advanceToNext();
+          const handleTouchEnd = () => advanceToNext();
+          
+          // Attach listeners to wait for touch release
+          document.addEventListener('pointerup', handlePointerUp, { once: true });
+          document.addEventListener('touchend', handleTouchEnd, { once: true });
+          
+          // Safety fallback: advance after 600ms even if events don't fire
+          const safetyTimeout = setTimeout(() => {
+            advanceToNext();
+          }, 600);
+          
+          // Store cleanup function
+          advanceCleanupRef.current = () => {
+            document.removeEventListener('pointerup', handlePointerUp);
+            document.removeEventListener('touchend', handleTouchEnd);
+            clearTimeout(safetyTimeout);
+          };
         } else {
           // Wrong: start 3-second countdown
           setPenaltyCountdown(3);
