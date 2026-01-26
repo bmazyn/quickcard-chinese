@@ -204,15 +204,6 @@ export default function LandingPage() {
     }));
   };
 
-  const handleDeckSpeedrunClick = (deck: string, e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent deck card click
-    
-    // Only allow speedrun if deck is mastered
-    if (masteredSections[deck]) {
-      navigate(`/speedrun?deck=${encodeURIComponent(deck)}`);
-    }
-  };
-
   const handleBackToStart = () => {
     // Clear the visited flag so user can return to Start Page
     localStorage.removeItem("qc_has_visited");
