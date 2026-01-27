@@ -4,12 +4,18 @@ export type HSKLevel = "HSK1" | "HSK1b" | "HSK1-PHRASE" | "HSK1c" | "HSK2";
 
 export type ChoiceKey = "A" | "B" | "C" | "D";
 
+export interface Deck {
+  chapter: number;
+  section: string;
+  deckName: string;
+  order: number;
+}
+
 export interface QuizCard {
   id: string;
   kind: CardKind;
   level: HSKLevel;
-  deck: string;
-  section: string;
+  deckId: string;
   promptLine: string;
   question: string;
   choices: {

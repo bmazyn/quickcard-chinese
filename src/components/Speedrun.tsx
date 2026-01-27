@@ -4,6 +4,7 @@ import { useTheme } from "../hooks/useTheme";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
 import quizCardsData from "../data/quizCards.json";
+import { getDeckIdByName } from "../utils/decks";
 import "./Speedrun.css";
 
 // Penalty for wrong answers in speedrun
@@ -81,11 +82,14 @@ export default function Speedrun() {
   useEffect(() => {
     let deckCards: QuizCardType[] = [];
     
-    // Filter cards by deck field
-    deckCards = quizCardsData.filter((card) => {
-      const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
-      return isValidKind && card.deck === deckParam;
-    }) as QuizCardType[];
+    // Filter cards by deckId (deckParam contains deck name)
+    const deckId = getDeckIdByName(deckParam);
+    if (deckId) {
+      deckCards = quizCardsData.filter((card) => {
+        const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
+        return isValidKind && card.deckId === deckId;
+      }) as QuizCardType[];
+    }
     
     setCards(deckCards);
     

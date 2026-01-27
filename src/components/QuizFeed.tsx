@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
+import { getDeckIdByName } from "../utils/decks";
 // Single source of truth for all quiz content - DO NOT modify or supplement
 import quizCardsData from "../data/quizCards.json";
 import "./QuizFeed.css";
@@ -71,11 +72,15 @@ export default function QuizFeed() {
       const ids = JSON.parse(practiceCardIds) as string[];
       filtered = allCards.filter(card => ids.includes(card.id));
     } else {
-      // Normal mode: filter by selected decks
+      // Normal mode: filter by selected decks (selectedDecks contains deck names)
+      const selectedDeckIds = selectedDecks
+        .map(deckName => getDeckIdByName(deckName))
+        .filter((id): id is string => id !== undefined);
+      
       filtered = allCards.filter(card => {
         const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
-        // Filter by deck only
-        return isValidKind && card.deck && selectedDecks.includes(card.deck);
+        // Filter by deckId
+        return isValidKind && selectedDeckIds.includes(card.deckId);
       });
     }
     

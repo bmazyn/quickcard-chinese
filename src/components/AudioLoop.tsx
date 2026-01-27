@@ -3,6 +3,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 import type { QuizCard } from "../types";
 import quizCardsData from "../data/quizCards.json";
+import { getDeckIdByName } from "../utils/decks";
 import "./AudioLoop.css";
 
 export default function AudioLoop() {
@@ -28,12 +29,16 @@ export default function AudioLoop() {
     let title = "Audio Loop";
     
     if (decksParam) {
-      // Load selected decks
-      const selectedDecks = decksParam.split(',');
+      // Load selected decks (decksParam contains deck names)
+      const selectedDeckNames = decksParam.split(',');
+      const selectedDeckIds = selectedDeckNames
+        .map(name => getDeckIdByName(name))
+        .filter((id): id is string => id !== undefined);
+      
       sectionCards = quizCardsData.filter((card) => 
-        card.deck && selectedDecks.includes(card.deck)
+        selectedDeckIds.includes(card.deckId)
       ) as QuizCard[];
-      title = selectedDecks.length === 1 ? selectedDecks[0] : `${selectedDecks.length} Decks`;
+      title = selectedDeckNames.length === 1 ? selectedDeckNames[0] : `${selectedDeckNames.length} Decks`;
     } else if (levelsParam) {
       // Load selected levels
       const selectedLevels = levelsParam.split(',');
@@ -43,9 +48,13 @@ export default function AudioLoop() {
       title = selectedLevels.length === 1 ? selectedLevels[0] : `${selectedLevels.length} Levels`;
     } else if (sectionParam === "Foundation") {
       // Legacy support: Load all Foundation decks
-      const foundationDecks = ["Foundation 1", "Numbers", "Time 1", "Greetings 1"];
+      const foundationDeckNames = ["Foundation 1", "Numbers", "Time 1", "Greetings 1"];
+      const foundationDeckIds = foundationDeckNames
+        .map(name => getDeckIdByName(name))
+        .filter((id): id is string => id !== undefined);
+      
       sectionCards = quizCardsData.filter((card) => 
-        foundationDecks.includes(card.deck || "")
+        foundationDeckIds.includes(card.deckId)
       ) as QuizCard[];
       title = "Foundation";
     }

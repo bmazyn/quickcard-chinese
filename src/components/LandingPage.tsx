@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import quizCards from "../data/quizCards.json";
+import { getSections, getDecksForSection } from "../utils/decks";
 import "./LandingPage.css";
 
 // Get best time for a deck from localStorage
@@ -37,13 +37,11 @@ function getSectionRollupTime(decks: string[]): number | null {
   }
 }
 
-// Compute sections and decks from quizCards.json
-const sections = Array.from(new Set(quizCards.map(card => card.section)));
+// Compute sections and decks from decks.json
+const sections = getSections();
 const decksPerSection: Record<string, string[]> = {};
 sections.forEach(section => {
-  decksPerSection[section] = Array.from(
-    new Set(quizCards.filter(card => card.section === section).map(card => card.deck))
-  );
+  decksPerSection[section] = getDecksForSection(section);
 });
 
 export default function LandingPage() {

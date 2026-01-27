@@ -2,8 +2,7 @@
   {
     "id": "foundation1-001",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "nǐ hǎo — 你好",
     "question": "What does this mean?",
@@ -29,8 +28,7 @@
   {
     "id": "foundation1-002",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "zài jiàn — 再见",
     "question": "What does this mean?",
@@ -56,8 +54,7 @@
   {
     "id": "foundation1-003",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "xiè xie — 谢谢",
     "question": "What does this mean?",
@@ -83,8 +80,7 @@
   {
     "id": "foundation1-004",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "wǒ — 我",
     "question": "What does this mean?",
@@ -110,8 +106,7 @@
   {
     "id": "foundation1-005",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "nǐ — 你",
     "question": "What does this mean?",
@@ -137,8 +132,7 @@
   {
     "id": "foundation1-006",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "tā — 他",
     "question": "What does this mean?",
@@ -164,8 +158,7 @@
   {
     "id": "foundation1-007",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "shì — 是",
     "question": "What does this mean?",
@@ -191,8 +184,7 @@
   {
     "id": "foundation1-008",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "yǒu — 有",
     "question": "What does this mean?",
@@ -218,8 +210,7 @@
   {
     "id": "foundation1-009",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "bù — 不",
     "question": "What does this mean?",
@@ -245,8 +236,7 @@
   {
     "id": "foundation1-010",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "de — 的",
     "question": "What does this particle do?",
@@ -272,8 +262,7 @@
   {
     "id": "foundation1-011",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "men — 们",
     "question": "What does this character do?",
@@ -299,8 +288,7 @@
   {
     "id": "foundation1-012",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "hěn — 很",
     "question": "What does this mean?",
@@ -326,8 +314,7 @@
   {
     "id": "foundation1-013",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "yě — 也",
     "question": "What does this mean?",
@@ -353,8 +340,7 @@
   {
     "id": "foundation1-014",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "rén — 人",
     "question": "What does this mean?",
@@ -380,8 +366,7 @@
   {
     "id": "foundation1-015",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "míng zi — 名字",
     "question": "What does this mean?",
@@ -407,8 +392,7 @@
   {
     "id": "foundation1-016",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "shén me — 什么",
     "question": "What does this mean?",
@@ -434,8 +418,7 @@
   {
     "id": "foundation1-017",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "shuí — 谁",
     "question": "What does this mean?",
@@ -461,8 +444,7 @@
   {
     "id": "foundation1-018",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "nǎ — 哪",
     "question": "What does this mean?",
@@ -488,8 +470,7 @@
   {
     "id": "foundation1-019",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "zhè — 这",
     "question": "What does this mean?",
@@ -515,8 +496,7 @@
   {
     "id": "foundation1-020",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Foundation 1",
+    "deckId": "foundation1",
     "level": "HSK1",
     "promptLine": "nà — 那",
     "question": "What does this mean?",
@@ -542,8 +522,7 @@
   {
     "id": "numbers-001",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "yī — 一",
     "question": "What number is this?",
@@ -569,8 +548,7 @@
   {
     "id": "numbers-002",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "èr — 二",
     "question": "What number is this?",
@@ -596,8 +574,7 @@
   {
     "id": "numbers-003",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "sān — 三",
     "question": "What number is this?",
@@ -623,8 +600,7 @@
   {
     "id": "numbers-004",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "sì — 四",
     "question": "What number is this?",
@@ -650,8 +626,7 @@
   {
     "id": "numbers-005",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "wǔ — 五",
     "question": "What number is this?",
@@ -677,8 +652,7 @@
   {
     "id": "numbers-006",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "liù — 六",
     "question": "What number is this?",
@@ -704,8 +678,7 @@
   {
     "id": "numbers-007",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "qī — 七",
     "question": "What number is this?",
@@ -731,8 +704,7 @@
   {
     "id": "numbers-008",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "bā — 八",
     "question": "What number is this?",
@@ -758,8 +730,7 @@
   {
     "id": "numbers-009",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "jiǔ — 九",
     "question": "What number is this?",
@@ -785,8 +756,7 @@
   {
     "id": "numbers-010",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Numbers",
+    "deckId": "numbers",
     "level": "HSK1",
     "promptLine": "shí — 十",
     "question": "What number is this?",
@@ -812,8 +782,7 @@
   {
     "id": "greetings1-001",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "duì bu qǐ — 对不起",
     "question": "What does this phrase mean?",
@@ -839,8 +808,7 @@
   {
     "id": "greetings1-002",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "méi guān xi — 没关系",
     "question": "What does this phrase mean?",
@@ -866,8 +834,7 @@
   {
     "id": "greetings1-003",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "wǒ ài nǐ — 我爱你",
     "question": "What does this sentence mean?",
@@ -893,8 +860,7 @@
   {
     "id": "greetings1-004",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "nǐ hǎo ma — 你好吗",
     "question": "What does this sentence mean?",
@@ -920,8 +886,7 @@
   {
     "id": "greetings1-005",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo — 我很好",
     "question": "What does this sentence mean?",
@@ -947,8 +912,7 @@
   {
     "id": "greetings1-006",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "bú kè qi — 不客气",
     "question": "What does this phrase mean?",
@@ -974,8 +938,7 @@
   {
     "id": "time1-001",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "jīn tiān — 今天",
     "question": "What does this mean?",
@@ -1001,8 +964,7 @@
   {
     "id": "time1-002",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "míng tiān — 明天",
     "question": "What does this mean?",
@@ -1028,8 +990,7 @@
   {
     "id": "time1-003",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "zuó tiān — 昨天",
     "question": "What does this mean?",
@@ -1055,8 +1016,7 @@
   {
     "id": "time1-004",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "xiàn zài — 现在",
     "question": "What does this mean?",
@@ -1082,8 +1042,7 @@
   {
     "id": "time1-005",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "nián — 年",
     "question": "What does this mean?",
@@ -1109,8 +1068,7 @@
   {
     "id": "time1-006",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "yuè — 月",
     "question": "What does this mean?",
@@ -1136,8 +1094,7 @@
   {
     "id": "time1-007",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "tiān — 天",
     "question": "What does this mean?",
@@ -1163,8 +1120,7 @@
   {
     "id": "time1-008",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "xīng qī — 星期",
     "question": "What does this mean?",
@@ -1190,8 +1146,7 @@
   {
     "id": "time1-009",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "shàng wǔ — 上午",
     "question": "What does this mean?",
@@ -1217,8 +1172,7 @@
   {
     "id": "time1-010",
     "kind": "vocab",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "xià wǔ — 下午",
     "question": "What does this mean?",
@@ -1244,8 +1198,7 @@
   {
     "id": "time1-011",
     "kind": "contrast",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "shàng wǔ vs xià wǔ — 上午 vs 下午",
     "question": "What's the relationship?",
@@ -1271,8 +1224,7 @@
   {
     "id": "time1-012",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Time 1",
+    "deckId": "time1",
     "level": "HSK1",
     "promptLine": "nǐ chī fàn le ma — 你吃饭了吗",
     "question": "What does this sentence mean?",
@@ -1298,8 +1250,7 @@
   {
     "id": "greetings1-007",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "nǐ jiào shén me míng zi — 你叫什么名字",
     "question": "What does this phrase mean?",
@@ -1326,8 +1277,7 @@
   {
     "id": "greetings1-008",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "wǒ jiào... — 我叫...",
     "question": "What does this sentence pattern mean?",
@@ -1353,8 +1303,7 @@
   {
     "id": "greetings1-009",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "zài nǎ lǐ — 在哪里",
     "question": "What does this phrase mean?",
@@ -1381,8 +1330,7 @@
   {
     "id": "greetings1-010",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "wǒ yào... — 我要...",
     "question": "What does this sentence pattern mean?",
@@ -1408,8 +1356,7 @@
   {
     "id": "greetings1-011",
     "kind": "sentence",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "wǒ méi yǒu... — 我没有...",
     "question": "What does this sentence pattern mean?",
@@ -1435,8 +1382,7 @@
   {
     "id": "greetings1-012",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "zhè shì shén me — 这是什么",
     "question": "What does this phrase mean?",
@@ -1462,8 +1408,7 @@
   {
     "id": "greetings1-013",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "rèn shi nǐ hěn gāo xìng — 认识你很高兴",
     "question": "What does this phrase mean?",
@@ -1490,8 +1435,7 @@
   {
     "id": "greetings1-014",
     "kind": "phrase",
-    "section": "Foundation",
-    "deck": "Greetings 1",
+    "deckId": "greetings1",
     "level": "HSK1",
     "promptLine": "qǐng wèn — 请问",
     "question": "What does this phrase mean?",
@@ -1518,8 +1462,7 @@
   {
     "id": "foundation2-family-001",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "jiā rén — 家人",
     "question": "What does this mean?",
@@ -1545,8 +1488,7 @@
   {
     "id": "foundation2-family-002",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "bà ba — 爸爸",
     "question": "What does this mean?",
@@ -1572,8 +1514,7 @@
   {
     "id": "foundation2-family-003",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "mā ma — 妈妈",
     "question": "What does this mean?",
@@ -1599,8 +1540,7 @@
   {
     "id": "foundation2-family-004",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "ér zi — 儿子",
     "question": "What does this mean?",
@@ -1626,8 +1566,7 @@
   {
     "id": "foundation2-family-005",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "nǚ ér — 女儿",
     "question": "What does this mean?",
@@ -1653,8 +1592,7 @@
   {
     "id": "foundation2-family-006",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "gē ge — 哥哥",
     "question": "What does this mean?",
@@ -1680,8 +1618,7 @@
   {
     "id": "foundation2-family-007",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "dì di — 弟弟",
     "question": "What does this mean?",
@@ -1707,8 +1644,7 @@
   {
     "id": "foundation2-family-008",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "jiě jie — 姐姐",
     "question": "What does this mean?",
@@ -1734,8 +1670,7 @@
   {
     "id": "foundation2-family-009",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "mèi mei — 妹妹",
     "question": "What does this mean?",
@@ -1761,8 +1696,7 @@
   {
     "id": "foundation2-family-010",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "lǎo pó — 老婆",
     "question": "What does this mean?",
@@ -1788,8 +1722,7 @@
   {
     "id": "foundation2-family-011",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "lǎo gōng — 老公",
     "question": "What does this mean?",
@@ -1815,8 +1748,7 @@
   {
     "id": "foundation2-family-012",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "hái zi — 孩子",
     "question": "What does this mean?",
@@ -1842,8 +1774,7 @@
   {
     "id": "foundation2-family-013",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "yé ye — 爷爷",
     "question": "What does this mean?",
@@ -1869,8 +1800,7 @@
   {
     "id": "foundation2-family-014",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "nǎi nai — 奶奶",
     "question": "What does this mean?",
@@ -1896,8 +1826,7 @@
   {
     "id": "foundation2-family-015",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Family",
+    "deckId": "foundation2-family",
     "level": "HSK1",
     "promptLine": "jiā tíng — 家庭",
     "question": "What does this mean?",
@@ -1923,8 +1852,7 @@
   {
     "id": "foundation2-places-001",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "jiā — 家",
     "question": "What does this mean?",
@@ -1950,8 +1878,7 @@
   {
     "id": "foundation2-places-002",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "xué xiào — 学校",
     "question": "What does this mean?",
@@ -1977,8 +1904,7 @@
   {
     "id": "foundation2-places-003",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "gōng sī — 公司",
     "question": "What does this mean?",
@@ -2004,8 +1930,7 @@
   {
     "id": "foundation2-places-004",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "yín háng — 银行",
     "question": "What does this mean?",
@@ -2031,8 +1956,7 @@
   {
     "id": "foundation2-places-005",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "yī yuàn — 医院",
     "question": "What does this mean?",
@@ -2058,8 +1982,7 @@
   {
     "id": "foundation2-places-006",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "shāng diàn — 商店",
     "question": "What does this mean?",
@@ -2085,8 +2008,7 @@
   {
     "id": "foundation2-places-007",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "cān tīng — 餐厅",
     "question": "What does this mean?",
@@ -2112,8 +2034,7 @@
   {
     "id": "foundation2-places-008",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "chāo shì — 超市",
     "question": "What does this mean?",
@@ -2139,8 +2060,7 @@
   {
     "id": "foundation2-places-009",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "jiǔ diàn — 酒店",
     "question": "What does this mean?",
@@ -2166,8 +2086,7 @@
   {
     "id": "foundation2-places-010",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "jī chǎng — 机场",
     "question": "What does this mean?",
@@ -2193,8 +2112,7 @@
   {
     "id": "foundation2-places-011",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "chē zhàn — 车站",
     "question": "What does this mean?",
@@ -2220,8 +2138,7 @@
   {
     "id": "foundation2-places-012",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "tú shū guǎn — 图书馆",
     "question": "What does this mean?",
@@ -2247,8 +2164,7 @@
   {
     "id": "foundation2-places-013",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "gōng yuán — 公园",
     "question": "What does this mean?",
@@ -2274,8 +2190,7 @@
   {
     "id": "foundation2-places-014",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "bàn gōng shì — 办公室",
     "question": "What does this mean?",
@@ -2301,8 +2216,7 @@
   {
     "id": "foundation2-places-015",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Places",
+    "deckId": "foundation2-places",
     "level": "HSK1",
     "promptLine": "xǐ shǒu jiān — 洗手间",
     "question": "What does this mean?",
@@ -2328,8 +2242,7 @@
   {
     "id": "foundation2-countries-001",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Zhōng guó — 中国",
     "question": "What country is this?",
@@ -2355,8 +2268,7 @@
   {
     "id": "foundation2-countries-002",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Měi guó — 美国",
     "question": "What country is this?",
@@ -2382,8 +2294,7 @@
   {
     "id": "foundation2-countries-003",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Yīng guó — 英国",
     "question": "What country is this?",
@@ -2409,8 +2320,7 @@
   {
     "id": "foundation2-countries-004",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Jiā ná dà — 加拿大",
     "question": "What country is this?",
@@ -2436,8 +2346,7 @@
   {
     "id": "foundation2-countries-005",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Ào dà lì yà — 澳大利亚",
     "question": "What country is this?",
@@ -2463,8 +2372,7 @@
   {
     "id": "foundation2-countries-006",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Rì běn — 日本",
     "question": "What country is this?",
@@ -2490,8 +2398,7 @@
   {
     "id": "foundation2-countries-007",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Hán guó — 韩国",
     "question": "What country is this?",
@@ -2517,8 +2424,7 @@
   {
     "id": "foundation2-countries-008",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Dé guó — 德国",
     "question": "What country is this?",
@@ -2544,8 +2450,7 @@
   {
     "id": "foundation2-countries-009",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Fǎ guó — 法国",
     "question": "What country is this?",
@@ -2571,8 +2476,7 @@
   {
     "id": "foundation2-countries-010",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Xī bān yá — 西班牙",
     "question": "What country is this?",
@@ -2598,8 +2502,7 @@
   {
     "id": "foundation2-countries-011",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Yì dà lì — 意大利",
     "question": "What country is this?",
@@ -2625,8 +2528,7 @@
   {
     "id": "foundation2-countries-012",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "É luó sī — 俄罗斯",
     "question": "What country is this?",
@@ -2652,8 +2554,7 @@
   {
     "id": "foundation2-countries-013",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Bā xī — 巴西",
     "question": "What country is this?",
@@ -2679,8 +2580,7 @@
   {
     "id": "foundation2-countries-014",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Mò xī gē — 墨西哥",
     "question": "What country is this?",
@@ -2706,8 +2606,7 @@
   {
     "id": "foundation2-countries-015",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Countries",
+    "deckId": "foundation2-countries",
     "level": "HSK1",
     "promptLine": "Yìn dù — 印度",
     "question": "What country is this?",
@@ -2733,8 +2632,7 @@
   {
     "id": "foundation2-dates-001",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "xīng qī yī — 星期一",
     "question": "What day is this?",
@@ -2761,8 +2659,7 @@
   {
     "id": "foundation2-dates-002",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "xīng qī wǔ — 星期五",
     "question": "What day is this?",
@@ -2789,8 +2686,7 @@
   {
     "id": "foundation2-dates-003",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "xīng qī tiān — 星期天",
     "question": "What day is this?",
@@ -2817,8 +2713,7 @@
   {
     "id": "foundation2-dates-004",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "yī jiǔ jiǔ wǔ nián — 一九九五年",
     "question": "What year is this?",
@@ -2845,8 +2740,7 @@
   {
     "id": "foundation2-dates-005",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "èr líng yī èr nián — 二零一二年",
     "question": "What year is this?",
@@ -2873,8 +2767,7 @@
   {
     "id": "foundation2-dates-006",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "sān yuè — 三月",
     "question": "What month is this?",
@@ -2901,8 +2794,7 @@
   {
     "id": "foundation2-dates-007",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "qī yuè — 七月",
     "question": "What month is this?",
@@ -2929,8 +2821,7 @@
   {
     "id": "foundation2-dates-008",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "shí yī yuè — 十一月",
     "question": "What month is this?",
@@ -2957,8 +2848,7 @@
   {
     "id": "foundation2-dates-009",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "èr líng yī èr nián qī yuè shí wǔ hào — 二零一二年七月十五号",
     "question": "What date is this?",
@@ -2985,8 +2875,7 @@
   {
     "id": "foundation2-dates-010",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "yī jiǔ jiǔ wǔ nián shí yī yuè sān hào — 一九九五年十一月三号",
     "question": "What date is this?",
@@ -3013,8 +2902,7 @@
   {
     "id": "foundation2-dates-011",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "nián — 年",
     "question": "What does this mean?",
@@ -3041,8 +2929,7 @@
   {
     "id": "foundation2-dates-012",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "yuè — 月",
     "question": "What does this mean?",
@@ -3069,8 +2956,7 @@
   {
     "id": "foundation2-dates-013",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "hào — 号",
     "question": "What does this mean in dates?",
@@ -3097,8 +2983,7 @@
   {
     "id": "foundation2-dates-014",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "jīn tiān — 今天",
     "question": "What does this mean?",
@@ -3125,8 +3010,7 @@
   {
     "id": "foundation2-dates-015",
     "kind": "vocab",
-    "section": "Foundation 2",
-    "deck": "Dates",
+    "deckId": "foundation2-dates",
     "level": "HSK1",
     "promptLine": "míng tiān — 明天",
     "question": "What does this mean?",
@@ -3153,8 +3037,7 @@
   {
     "id": "dailyactions1-001",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "qù — 去",
     "question": "What does this mean?",
@@ -3180,8 +3063,7 @@
   {
     "id": "dailyactions1-002",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "lái — 来",
     "question": "What does this mean?",
@@ -3207,8 +3089,7 @@
   {
     "id": "dailyactions1-003",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "chī — 吃",
     "question": "What does this mean?",
@@ -3234,8 +3115,7 @@
   {
     "id": "dailyactions1-004",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "hē — 喝",
     "question": "What does this mean?",
@@ -3261,8 +3141,7 @@
   {
     "id": "dailyactions1-005",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "kàn — 看",
     "question": "What does this mean?",
@@ -3288,8 +3167,7 @@
   {
     "id": "dailyactions1-006",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "xiǎng — 想",
     "question": "What does this mean?",
@@ -3315,8 +3193,7 @@
   {
     "id": "dailyactions1-007",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "xǐ huān — 喜欢",
     "question": "What does this mean?",
@@ -3342,8 +3219,7 @@
   {
     "id": "dailyactions1-008",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "yǒu — 有",
     "question": "What does this mean?",
@@ -3369,8 +3245,7 @@
   {
     "id": "dailyactions1-009",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "zuò — 做",
     "question": "What does this mean?",
@@ -3396,8 +3271,7 @@
   {
     "id": "dailyactions1-010",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "mǎi — 买",
     "question": "What does this mean?",
@@ -3423,8 +3297,7 @@
   {
     "id": "dailyactions1-011",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "yòng — 用",
     "question": "What does this mean?",
@@ -3450,8 +3323,7 @@
   {
     "id": "dailyactions1-012",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "gōng zuò — 工作",
     "question": "What does this mean?",
@@ -3477,8 +3349,7 @@
   {
     "id": "dailyactions1-013",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "xué xí — 学习",
     "question": "What does this mean?",
@@ -3504,8 +3375,7 @@
   {
     "id": "dailyactions1-014",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "shuì jiào — 睡觉",
     "question": "What does this mean?",
@@ -3531,8 +3401,7 @@
   {
     "id": "dailyactions1-015",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Common Verbs",
+    "deckId": "dailyactions1",
     "level": "HSK1",
     "promptLine": "zuò — 坐",
     "question": "What does this mean?",
@@ -3558,8 +3427,7 @@
   {
     "id": "dailyactions2-001",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "qǐ chuáng — 起床",
     "question": "What does this mean?",
@@ -3585,8 +3453,7 @@
   {
     "id": "dailyactions2-002",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "shàng bān — 上班",
     "question": "What does this mean?",
@@ -3612,8 +3479,7 @@
   {
     "id": "dailyactions2-003",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "huí jiā — 回家",
     "question": "What does this mean?",
@@ -3639,8 +3505,7 @@
   {
     "id": "dailyactions2-004",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "chī zǎo fàn — 吃早饭",
     "question": "What does this mean?",
@@ -3667,8 +3532,7 @@
   {
     "id": "dailyactions2-005",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "chī wǎn fàn — 吃晚饭",
     "question": "What does this mean?",
@@ -3695,8 +3559,7 @@
   {
     "id": "dailyactions2-006",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "kàn diàn shì — 看电视",
     "question": "What does this mean?",
@@ -3722,8 +3585,7 @@
   {
     "id": "dailyactions2-007",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "xiū xi — 休息",
     "question": "What does this mean?",
@@ -3749,8 +3611,7 @@
   {
     "id": "dailyactions2-008",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "yùn dòng — 运动",
     "question": "What does this mean?",
@@ -3776,8 +3637,7 @@
   {
     "id": "dailyactions2-009",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "xǐ zǎo — 洗澡",
     "question": "What does this mean?",
@@ -3803,8 +3663,7 @@
   {
     "id": "dailyactions2-010",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "dú shū — 读书",
     "question": "What does this mean?",
@@ -3830,8 +3689,7 @@
   {
     "id": "dailyactions2-011",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "zuò fàn — 做饭",
     "question": "What does this mean?",
@@ -3857,8 +3715,7 @@
   {
     "id": "dailyactions2-012",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "xià bān — 下班",
     "question": "What does this mean?",
@@ -3884,8 +3741,7 @@
   {
     "id": "dailyactions2-013",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "chū qù — 出去",
     "question": "What does this mean?",
@@ -3911,8 +3767,7 @@
   {
     "id": "dailyactions2-014",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "dào — 到",
     "question": "What does this mean?",
@@ -3938,8 +3793,7 @@
   {
     "id": "dailyactions2-015",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Daily Routines",
+    "deckId": "dailyactions2",
     "level": "HSK1",
     "promptLine": "chī wǔ fàn — 吃午饭",
     "question": "What does this mean?",
@@ -3966,8 +3820,7 @@
   {
     "id": "dailyactions3-001",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "xū yào — 需要",
     "question": "What does this mean?",
@@ -3993,8 +3846,7 @@
   {
     "id": "dailyactions3-002",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "yào — 要",
     "question": "What does this mean?",
@@ -4020,8 +3872,7 @@
   {
     "id": "dailyactions3-003",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "néng — 能",
     "question": "What does this mean?",
@@ -4047,8 +3898,7 @@
   {
     "id": "dailyactions3-004",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "kě yǐ — 可以",
     "question": "What does this mean?",
@@ -4074,8 +3924,7 @@
   {
     "id": "dailyactions3-005",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "huì — 会",
     "question": "What does this mean?",
@@ -4101,8 +3950,7 @@
   {
     "id": "dailyactions3-006",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "bù yào — 不要",
     "question": "What does this mean?",
@@ -4128,8 +3976,7 @@
   {
     "id": "dailyactions3-007",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "bù xǐ huān — 不喜欢",
     "question": "What does this mean?",
@@ -4156,8 +4003,7 @@
   {
     "id": "dailyactions3-008",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "bāng zhù — 帮助",
     "question": "What does this mean?",
@@ -4183,8 +4029,7 @@
   {
     "id": "dailyactions3-009",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "dǒng — 懂",
     "question": "What does this mean?",
@@ -4210,8 +4055,7 @@
   {
     "id": "dailyactions3-010",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "bù dǒng — 不懂",
     "question": "What does this mean?",
@@ -4238,8 +4082,7 @@
   {
     "id": "dailyactions3-011",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "zhī dào — 知道",
     "question": "What does this mean?",
@@ -4265,8 +4108,7 @@
   {
     "id": "dailyactions3-012",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "yǒu shí jiān — 有时间",
     "question": "What does this mean?",
@@ -4292,8 +4134,7 @@
   {
     "id": "dailyactions3-013",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "méi shí jiān — 没时间",
     "question": "What does this mean?",
@@ -4320,8 +4161,7 @@
   {
     "id": "dailyactions3-014",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "hǎo — 好",
     "question": "What does this mean?",
@@ -4347,8 +4187,7 @@
   {
     "id": "dailyactions3-015",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Needs & Wants",
+    "deckId": "dailyactions3",
     "level": "HSK1",
     "promptLine": "xiǎng yào — 想要",
     "question": "What does this mean?",
@@ -4374,8 +4213,7 @@
   {
     "id": "dailyactions4-001",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "shuǐ — 水",
     "question": "What does this mean?",
@@ -4401,8 +4239,7 @@
   {
     "id": "dailyactions4-002",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "fàn — 饭",
     "question": "What does this mean?",
@@ -4428,8 +4265,7 @@
   {
     "id": "dailyactions4-003",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "shǒu jī — 手机",
     "question": "What does this mean?",
@@ -4455,8 +4291,7 @@
   {
     "id": "dailyactions4-004",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "qián — 钱",
     "question": "What does this mean?",
@@ -4482,8 +4317,7 @@
   {
     "id": "dailyactions4-005",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "chē — 车",
     "question": "What does this mean?",
@@ -4509,8 +4343,7 @@
   {
     "id": "dailyactions4-006",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "gōng jiāo chē — 公交车",
     "question": "What does this mean?",
@@ -4536,8 +4369,7 @@
   {
     "id": "dailyactions4-007",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "diàn nǎo — 电脑",
     "question": "What does this mean?",
@@ -4563,8 +4395,7 @@
   {
     "id": "dailyactions4-008",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "shū — 书",
     "question": "What does this mean?",
@@ -4590,8 +4421,7 @@
   {
     "id": "dailyactions4-009",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "zhuō zi — 桌子",
     "question": "What does this mean?",
@@ -4617,8 +4447,7 @@
   {
     "id": "dailyactions4-010",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "yǐ zi — 椅子",
     "question": "What does this mean?",
@@ -4644,8 +4473,7 @@
   {
     "id": "dailyactions4-011",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "chuáng — 床",
     "question": "What does this mean?",
@@ -4671,8 +4499,7 @@
   {
     "id": "dailyactions4-012",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "mén — 门",
     "question": "What does this mean?",
@@ -4698,8 +4525,7 @@
   {
     "id": "dailyactions4-013",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "diàn shì — 电视",
     "question": "What does this mean?",
@@ -4725,8 +4551,7 @@
   {
     "id": "dailyactions4-014",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "bāo — 包",
     "question": "What does this mean?",
@@ -4752,8 +4577,7 @@
   {
     "id": "dailyactions4-015",
     "kind": "vocab",
-    "section": "Daily Actions",
-    "deck": "Simple Objects",
+    "deckId": "dailyactions4",
     "level": "HSK1",
     "promptLine": "yào shi — 钥匙",
     "question": "What does this mean?",
@@ -4779,8 +4603,7 @@
   {
     "id": "simplesentences1-001",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "wǒ huí jiā — 我回家",
     "question": "What does this mean?",
@@ -4806,8 +4629,7 @@
   {
     "id": "simplesentences1-002",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "nǐ shàng bān — 你上班",
     "question": "What does this mean?",
@@ -4833,8 +4655,7 @@
   {
     "id": "simplesentences1-003",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā chī zǎo fàn — 他吃早饭",
     "question": "What does this mean?",
@@ -4860,8 +4681,7 @@
   {
     "id": "simplesentences1-004",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā hē shuǐ — 她喝水",
     "question": "What does this mean?",
@@ -4887,8 +4707,7 @@
   {
     "id": "simplesentences1-005",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "wǒ zuò gōng jiāo chē — 我坐公交车",
     "question": "What does this mean?",
@@ -4914,8 +4733,7 @@
   {
     "id": "simplesentences1-006",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "nǐ xué Zhōng wén — 你学中文",
     "question": "What does this mean?",
@@ -4941,8 +4759,7 @@
   {
     "id": "simplesentences1-007",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā jīn tiān gōng zuò — 他今天工作",
     "question": "What does this mean?",
@@ -4969,8 +4786,7 @@
   {
     "id": "simplesentences1-008",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā zài jiā xiū xi — 她在家休息",
     "question": "What does this mean?",
@@ -4996,8 +4812,7 @@
   {
     "id": "simplesentences1-009",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "wǒ kàn shū — 我看书",
     "question": "What does this mean?",
@@ -5023,8 +4838,7 @@
   {
     "id": "simplesentences1-010",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā kàn diàn shì — 他看电视",
     "question": "What does this mean?",
@@ -5050,8 +4864,7 @@
   {
     "id": "simplesentences1-011",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "nǐ chī wǎn fàn — 你吃晚饭",
     "question": "What does this mean?",
@@ -5077,8 +4890,7 @@
   {
     "id": "simplesentences1-012",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "wǒ qù xuéxiào — 我去学校",
     "question": "What does this mean?",
@@ -5104,8 +4916,7 @@
   {
     "id": "simplesentences1-013",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā mǎi dōng xi — 她买东西",
     "question": "What does this mean?",
@@ -5131,8 +4942,7 @@
   {
     "id": "simplesentences1-014",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "wǒ zuò fàn — 我做饭",
     "question": "What does this mean?",
@@ -5158,8 +4968,7 @@
   {
     "id": "simplesentences1-015",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Daily Actions",
+    "deckId": "simplesentences1",
     "level": "HSK1",
     "promptLine": "tā shuì jiào — 他睡觉",
     "question": "What does this mean?",
@@ -5185,8 +4994,7 @@
   {
     "id": "simplesentences2-001",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "jīn tiān wǒ gōng zuò — 今天我工作",
     "question": "What does this mean?",
@@ -5213,8 +5021,7 @@
   {
     "id": "simplesentences2-002",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "xiàn zài nǐ huí jiā — 现在你回家",
     "question": "What does this mean?",
@@ -5240,8 +5047,7 @@
   {
     "id": "simplesentences2-003",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "zǎo shang tā chī zǎo fàn — 早上他吃早饭",
     "question": "What does this mean?",
@@ -5268,8 +5074,7 @@
   {
     "id": "simplesentences2-004",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "wǎn shang tā shuì jiào — 晚上她睡觉",
     "question": "What does this mean?",
@@ -5296,8 +5101,7 @@
   {
     "id": "simplesentences2-005",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "yǐ hòu wǒ xué xí — 以后我学习",
     "question": "What does this mean?",
@@ -5323,8 +5127,7 @@
   {
     "id": "simplesentences2-006",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "míng tiān tā shàng bān — 明天他上班",
     "question": "What does this mean?",
@@ -5351,8 +5154,7 @@
   {
     "id": "simplesentences2-007",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "zuó tiān wǒ xiū xi — 昨天我休息",
     "question": "What does this mean?",
@@ -5378,8 +5180,7 @@
   {
     "id": "simplesentences2-008",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "xiàn zài wǒ chī fàn — 现在我吃饭",
     "question": "What does this mean?",
@@ -5406,8 +5207,7 @@
   {
     "id": "simplesentences2-009",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "jīn tiān nǐ máng ma — 今天你忙吗",
     "question": "What does this mean?",
@@ -5434,8 +5234,7 @@
   {
     "id": "simplesentences2-010",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "zhōng wǔ tā chī wǔ fàn — 中午她吃午饭",
     "question": "What does this mean?",
@@ -5462,8 +5261,7 @@
   {
     "id": "simplesentences2-011",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "míng tiān wǒ qù — 明天我去",
     "question": "What does this mean?",
@@ -5489,8 +5287,7 @@
   {
     "id": "simplesentences2-012",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "xiàn zài tā zài jiā — 现在他在家",
     "question": "What does this mean?",
@@ -5517,8 +5314,7 @@
   {
     "id": "simplesentences2-013",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "wǎn shang wǒ kàn diàn shì — 晚上我看电视",
     "question": "What does this mean?",
@@ -5545,8 +5341,7 @@
   {
     "id": "simplesentences2-014",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "jīn tiān tā bù qù — 今天她不去",
     "question": "What does this mean?",
@@ -5573,8 +5368,7 @@
   {
     "id": "simplesentences2-015",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Time + Action",
+    "deckId": "simplesentences2",
     "level": "HSK1",
     "promptLine": "zǎo shang nǐ qǐ chuáng — 早上你起床",
     "question": "What does this mean?",
@@ -5601,8 +5395,7 @@
   {
     "id": "simplesentences3-001",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "wǒ xū yào bāng zhù — 我需要帮助",
     "question": "What does this mean?",
@@ -5628,8 +5421,7 @@
   {
     "id": "simplesentences3-002",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "nǐ yào shuǐ — 你要水",
     "question": "What does this mean?",
@@ -5655,8 +5447,7 @@
   {
     "id": "simplesentences3-003",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā xǐ huān zhè ge — 他喜欢这个",
     "question": "What does this mean?",
@@ -5682,8 +5473,7 @@
   {
     "id": "simplesentences3-004",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā bù xǐ huān zhè ge — 她不喜欢这个",
     "question": "What does this mean?",
@@ -5710,8 +5500,7 @@
   {
     "id": "simplesentences3-005",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "wǒ bù dǒng — 我不懂",
     "question": "What does this mean?",
@@ -5738,8 +5527,7 @@
   {
     "id": "simplesentences3-006",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "nǐ néng bāng wǒ — 你能帮我",
     "question": "What does this mean?",
@@ -5765,8 +5553,7 @@
   {
     "id": "simplesentences3-007",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā xiǎng huí jiā — 他想回家",
     "question": "What does this mean?",
@@ -5792,8 +5579,7 @@
   {
     "id": "simplesentences3-008",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "wǒ huì shuō Zhōng wén — 我会说中文",
     "question": "What does this mean?",
@@ -5819,8 +5605,7 @@
   {
     "id": "simplesentences3-009",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā yǒu qián — 她有钱",
     "question": "What does this mean?",
@@ -5846,8 +5631,7 @@
   {
     "id": "simplesentences3-010",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "wǒ bù yào — 我不要",
     "question": "What does this mean?",
@@ -5873,8 +5657,7 @@
   {
     "id": "simplesentences3-011",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "nǐ xǐ huān chī shén me — 你喜欢吃什么",
     "question": "What does this mean?",
@@ -5901,8 +5684,7 @@
   {
     "id": "simplesentences3-012",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā xiǎng mǎi shū — 他想买书",
     "question": "What does this mean?",
@@ -5928,8 +5710,7 @@
   {
     "id": "simplesentences3-013",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "wǒ kě yǐ qù — 我可以去",
     "question": "What does this mean?",
@@ -5955,8 +5736,7 @@
   {
     "id": "simplesentences3-014",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "tā bù néng lái — 她不能来",
     "question": "What does this mean?",
@@ -5983,8 +5763,7 @@
   {
     "id": "simplesentences3-015",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Needs & Preferences",
+    "deckId": "simplesentences3",
     "level": "HSK1",
     "promptLine": "nǐ yǒu shí jiān ma — 你有时间吗",
     "question": "What does this mean?",
@@ -6011,8 +5790,7 @@
   {
     "id": "simplesentences4-001",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ hǎo ma — 你好吗",
     "question": "What does this mean?",
@@ -6039,8 +5817,7 @@
   {
     "id": "simplesentences4-002",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ néng bāng wǒ ma — 你能帮我吗",
     "question": "What does this mean?",
@@ -6066,8 +5843,7 @@
   {
     "id": "simplesentences4-003",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ dǒng ma — 你懂吗",
     "question": "What does this mean?",
@@ -6093,8 +5869,7 @@
   {
     "id": "simplesentences4-004",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "gōng jiāo chē zài nǎ lǐ — 公交车在哪里",
     "question": "What does this mean?",
@@ -6121,8 +5896,7 @@
   {
     "id": "simplesentences4-005",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "tā hěn máng — 她很忙",
     "question": "What does this mean?",
@@ -6148,8 +5922,7 @@
   {
     "id": "simplesentences4-006",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "tā yǒu kòng — 他有空",
     "question": "What does this mean?",
@@ -6175,8 +5948,7 @@
   {
     "id": "simplesentences4-007",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ lèi ma — 你累吗",
     "question": "What does this mean?",
@@ -6202,8 +5974,7 @@
   {
     "id": "simplesentences4-008",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "xiàn zài hái shì yǐ hòu — 现在还是以后",
     "question": "What does this mean?",
@@ -6230,8 +6001,7 @@
   {
     "id": "simplesentences4-009",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "zhè shì shén me — 这是什么",
     "question": "What does this mean?",
@@ -6257,8 +6027,7 @@
   {
     "id": "simplesentences4-010",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo — 我很好",
     "question": "What does this mean?",
@@ -6284,8 +6053,7 @@
   {
     "id": "simplesentences4-011",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ shì shuí — 你是谁",
     "question": "What does this mean?",
@@ -6311,8 +6079,7 @@
   {
     "id": "simplesentences4-012",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "tā zài nǎ lǐ — 他在哪里",
     "question": "What does this mean?",
@@ -6339,8 +6106,7 @@
   {
     "id": "simplesentences4-013",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "nǐ qù nǎ lǐ — 你去哪里",
     "question": "What does this mean?",
@@ -6367,8 +6133,7 @@
   {
     "id": "simplesentences4-014",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "wǒ bù zhī dào — 我不知道",
     "question": "What does this mean?",
@@ -6395,8 +6160,7 @@
   {
     "id": "simplesentences4-015",
     "kind": "vocab",
-    "section": "Simple Sentences",
-    "deck": "Statements & Questions",
+    "deckId": "simplesentences4",
     "level": "HSK1",
     "promptLine": "zhè ge duō shǎo qián — 这个多少钱",
     "question": "What does this mean?",

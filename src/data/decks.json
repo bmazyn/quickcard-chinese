@@ -1,0 +1,98 @@
+{
+  "foundation1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Foundation 1",
+    "order": 1
+  },
+  "numbers": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Numbers",
+    "order": 2
+  },
+  "greetings1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Greetings 1",
+    "order": 3
+  },
+  "time1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Time 1",
+    "order": 4
+  },
+  "foundation2-family": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Family",
+    "order": 1
+  },
+  "foundation2-places": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Places",
+    "order": 2
+  },
+  "foundation2-countries": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Countries",
+    "order": 3
+  },
+  "foundation2-dates": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Dates",
+    "order": 4
+  },
+  "dailyactions1": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Common Verbs",
+    "order": 1
+  },
+  "dailyactions2": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Daily Routines",
+    "order": 2
+  },
+  "dailyactions3": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Needs & Wants",
+    "order": 3
+  },
+  "dailyactions4": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Simple Objects",
+    "order": 4
+  },
+  "simplesentences1": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Daily Actions",
+    "order": 1
+  },
+  "simplesentences2": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Time + Action",
+    "order": 2
+  },
+  "simplesentences3": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Needs & Preferences",
+    "order": 3
+  },
+  "simplesentences4": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Statements & Questions",
+    "order": 4
+  }
+}
