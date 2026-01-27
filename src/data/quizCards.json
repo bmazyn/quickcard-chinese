@@ -6543,5 +6543,1085 @@
     },
     "tags": ["noun", "time"],
     "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-001",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "xué — 学",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to teach",
+      "B": "to study",
+      "C": "to read",
+      "D": "to write"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to teach is 教 (jiāo)",
+      "B": "Correct! 学 (xué) means 'to study'",
+      "C": "to read is 读 (dú)",
+      "D": "to write is 写 (xiě)"
+    },
+    "tags": ["verb", "learning"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-002",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "zuò — 做",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to sit",
+      "B": "to do / make",
+      "C": "to take",
+      "D": "to give"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to sit is 坐 (zuò)",
+      "B": "Correct! 做 (zuò) means 'to do / make'",
+      "C": "to take is 拿 (ná)",
+      "D": "to give is 给 (gěi)"
+    },
+    "tags": ["verb", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-003",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "xiǎng — 想",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to know",
+      "B": "to believe",
+      "C": "to want / think",
+      "D": "to hope"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to know is 知道 (zhīdào)",
+      "B": "to believe is 相信 (xiāngxìn)",
+      "C": "Correct! 想 (xiǎng) means 'to want / think'",
+      "D": "to hope is 希望 (xīwàng)"
+    },
+    "tags": ["verb", "mental"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-004",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "tīng — 听",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to see",
+      "B": "to listen",
+      "C": "to feel",
+      "D": "to smell"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to see is 看 (kàn)",
+      "B": "Correct! 听 (tīng) means 'to listen'",
+      "C": "to feel is 感觉 (gǎnjué)",
+      "D": "to smell is 闻 (wén)"
+    },
+    "tags": ["verb", "perception"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-005",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "shuō — 说",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to write",
+      "B": "to read",
+      "C": "to speak",
+      "D": "to ask"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to write is 写 (xiě)",
+      "B": "to read is 读 (dú)",
+      "C": "Correct! 说 (shuō) means 'to speak'",
+      "D": "to ask is 问 (wèn)"
+    },
+    "tags": ["verb", "communication"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-006",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "huí — 回",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to leave",
+      "B": "to return",
+      "C": "to arrive",
+      "D": "to depart"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to leave is 离开 (líkāi)",
+      "B": "Correct! 回 (huí) means 'to return'",
+      "C": "to arrive is 到 (dào)",
+      "D": "to depart is 出发 (chūfā)"
+    },
+    "tags": ["verb", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-007",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "zhù — 住",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to visit",
+      "B": "to move",
+      "C": "to live / stay",
+      "D": "to rent"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to visit is 参观 (cānguān)",
+      "B": "to move is 搬 (bān)",
+      "C": "Correct! 住 (zhù) means 'to live / stay'",
+      "D": "to rent is 租 (zū)"
+    },
+    "tags": ["verb", "living"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-008",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "děng — 等",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to hurry",
+      "B": "to delay",
+      "C": "to wait",
+      "D": "to stop"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to hurry is 赶 (gǎn)",
+      "B": "to delay is 延迟 (yánchí)",
+      "C": "Correct! 等 (děng) means 'to wait'",
+      "D": "to stop is 停 (tíng)"
+    },
+    "tags": ["verb", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-009",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "zhǎo — 找",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to hide",
+      "B": "to lose",
+      "C": "to look for",
+      "D": "to find"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to hide is 藏 (cáng)",
+      "B": "to lose is 丢 (diū)",
+      "C": "Correct! 找 (zhǎo) means 'to look for'",
+      "D": "to find is 找到 (zhǎodào)"
+    },
+    "tags": ["verb", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-010",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "wán — 玩",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to work",
+      "B": "to study",
+      "C": "to play",
+      "D": "to exercise"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to work is 工作 (gōngzuò)",
+      "B": "to study is 学习 (xuéxí)",
+      "C": "Correct! 玩 (wán) means 'to play'",
+      "D": "to exercise is 锻炼 (duànliàn)"
+    },
+    "tags": ["verb", "leisure"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-011",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "xiūxi — 休息",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to work",
+      "B": "to rest",
+      "C": "to sleep",
+      "D": "to relax"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to work is 工作 (gōngzuò)",
+      "B": "Correct! 休息 (xiūxi) means 'to rest'",
+      "C": "to sleep is 睡觉 (shuìjiào)",
+      "D": "to relax is 放松 (fàngsōng)"
+    },
+    "tags": ["verb", "leisure"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-012",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "kāishǐ — 开始",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to finish",
+      "B": "to start",
+      "C": "to continue",
+      "D": "to end"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to finish is 完成 (wánchéng)",
+      "B": "Correct! 开始 (kāishǐ) means 'to start'",
+      "C": "to continue is 继续 (jìxù)",
+      "D": "to end is 结束 (jiéshù)"
+    },
+    "tags": ["verb", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-013",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "shàngbān — 上班",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to go home",
+      "B": "to go to school",
+      "C": "to go to work",
+      "D": "to leave work"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to go home is 回家 (huíjiā)",
+      "B": "to go to school is 上学 (shàngxué)",
+      "C": "Correct! 上班 (shàngbān) means 'to go to work'",
+      "D": "to leave work is 下班 (xiàbān)"
+    },
+    "tags": ["verb", "work"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-014",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "xiàbān — 下班",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to go to work",
+      "B": "to get off work",
+      "C": "to take a break",
+      "D": "to work overtime"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to go to work is 上班 (shàngbān)",
+      "B": "Correct! 下班 (xiàbān) means 'to get off work'",
+      "C": "to take a break is 休息 (xiūxi)",
+      "D": "to work overtime is 加班 (jiābān)"
+    },
+    "tags": ["verb", "work"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbs-015",
+    "kind": "vocab",
+    "deckId": "corevocab-verbs",
+    "deck": "Core Verbs",
+    "level": "HSK1",
+    "promptLine": "xuéxí — 学习",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to teach",
+      "B": "to practice",
+      "C": "to learn",
+      "D": "to review"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "to teach is 教 (jiāo)",
+      "B": "to practice is 练习 (liànxí)",
+      "C": "Correct! 学习 (xuéxí) means 'to learn'",
+      "D": "to review is 复习 (fùxí)"
+    },
+    "tags": ["verb", "learning"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-001",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "zài xuéxiào — 在学校",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "to school",
+      "B": "at school",
+      "C": "from school",
+      "D": "near school"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "to school is 去学校 (qù xuéxiào)",
+      "B": "Correct! 在学校 (zài xuéxiào) means 'at school'",
+      "C": "from school is 从学校 (cóng xuéxiào)",
+      "D": "near school is 学校附近 (xuéxiào fùjìn)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-002",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "zài fángjiān — 在房间",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "in the room",
+      "B": "outside the room",
+      "C": "near the room",
+      "D": "to the room"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在房间 (zài fángjiān) means 'in the room'",
+      "B": "outside the room is 房间外面 (fángjiān wàimiàn)",
+      "C": "near the room is 房间附近 (fángjiān fùjìn)",
+      "D": "to the room is 去房间 (qù fángjiān)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-003",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "gěi péngyǒu — 给朋友",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "with a friend",
+      "B": "from a friend",
+      "C": "for a friend",
+      "D": "to be friends"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "with a friend is 跟朋友 (gēn péngyǒu)",
+      "B": "from a friend is 从朋友 (cóng péngyǒu)",
+      "C": "Correct! 给朋友 (gěi péngyǒu) means 'for a friend'",
+      "D": "to be friends is 做朋友 (zuò péngyǒu)"
+    },
+    "tags": ["phrase", "person"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-004",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "yí gè dìfāng — 一个地方",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "every place",
+      "B": "some places",
+      "C": "a place",
+      "D": "that place"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "every place is 每个地方 (měi gè dìfāng)",
+      "B": "some places is 一些地方 (yìxiē dìfāng)",
+      "C": "Correct! 一个地方 (yí gè dìfāng) means 'a place'",
+      "D": "that place is 那个地方 (nàge dìfāng)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-005",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "zuótiān de shíhou — 昨天的时候",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "today",
+      "B": "yesterday, when…",
+      "C": "tomorrow",
+      "D": "last time"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "today is 今天 (jīntiān)",
+      "B": "Correct! 昨天的时候 (zuótiān de shíhou) means 'yesterday, when…'",
+      "C": "tomorrow is 明天 (míngtiān)",
+      "D": "last time is 上次 (shàngcì)"
+    },
+    "tags": ["phrase", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-006",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "míngtiān de shíhou — 明天的时候",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "yesterday",
+      "B": "today",
+      "C": "tomorrow, when…",
+      "D": "next time"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "yesterday is 昨天 (zuótiān)",
+      "B": "today is 今天 (jīntiān)",
+      "C": "Correct! 明天的时候 (míngtiān de shíhou) means 'tomorrow, when…'",
+      "D": "next time is 下次 (xiàcì)"
+    },
+    "tags": ["phrase", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-007",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "shǒujī lǐ — 手机里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "on the phone",
+      "B": "phone call",
+      "C": "mobile phone",
+      "D": "phone number"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 手机里 (shǒujī lǐ) means 'on the phone'",
+      "B": "phone call is 电话 (diànhuà)",
+      "C": "mobile phone is 手机 (shǒujī)",
+      "D": "phone number is 手机号 (shǒujī hào)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-008",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "diàn lǐ — 店里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "outside the shop",
+      "B": "in the shop",
+      "C": "near the shop",
+      "D": "to the shop"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "outside the shop is 店外面 (diàn wàimiàn)",
+      "B": "Correct! 店里 (diàn lǐ) means 'in the shop'",
+      "C": "near the shop is 店附近 (diàn fùjìn)",
+      "D": "to the shop is 去店 (qù diàn)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-009",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "lù shàng — 路上",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "at home",
+      "B": "at the office",
+      "C": "on the way",
+      "D": "at the destination"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "at home is 在家 (zàijiā)",
+      "B": "at the office is 在办公室 (zài bàngōngshì)",
+      "C": "Correct! 路上 (lù shàng) means 'on the way'",
+      "D": "at the destination is 到了 (dàole)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-010",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "shíjiān hěn shǎo — 时间很少",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "much time",
+      "B": "no time",
+      "C": "little time",
+      "D": "enough time"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "much time is 时间很多 (shíjiān hěn duō)",
+      "B": "no time is 没有时间 (méiyǒu shíjiān)",
+      "C": "Correct! 时间很少 (shíjiān hěn shǎo) means 'little time'",
+      "D": "enough time is 时间够 (shíjiān gòu)"
+    },
+    "tags": ["phrase", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-011",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "péngyǒu zài — 朋友在",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "make friends",
+      "B": "friend is at…",
+      "C": "have friends",
+      "D": "with friends"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "make friends is 交朋友 (jiāo péngyǒu)",
+      "B": "Correct! 朋友在 (péngyǒu zài) means 'friend is at…'",
+      "C": "have friends is 有朋友 (yǒu péngyǒu)",
+      "D": "with friends is 跟朋友 (gēn péngyǒu)"
+    },
+    "tags": ["phrase", "person"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-012",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "zài shíhou — 在时候",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "before",
+      "B": "after",
+      "C": "at the time",
+      "D": "during"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "before is 以前 (yǐqián)",
+      "B": "after is 以后 (yǐhòu)",
+      "C": "Correct! 在时候 (zài shíhou) means 'at the time'",
+      "D": "during is 期间 (qījiān)"
+    },
+    "tags": ["phrase", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-013",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "yí jiàn shìqíng — 一件事情",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "many things",
+      "B": "one thing",
+      "C": "something",
+      "D": "everything"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "many things is 很多事情 (hěn duō shìqíng)",
+      "B": "Correct! 一件事情 (yí jiàn shìqíng) means 'one thing'",
+      "C": "something is 什么事情 (shénme shìqíng)",
+      "D": "everything is 所有事情 (suǒyǒu shìqíng)"
+    },
+    "tags": ["phrase", "abstract"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-014",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "shíjiān de shíhou — 时间的时候",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "all the time",
+      "B": "when there's time",
+      "C": "no time",
+      "D": "right now"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "all the time is 一直 (yìzhí)",
+      "B": "Correct! 时间的时候 (shíjiān de shíhou) means 'when there's time'",
+      "C": "no time is 没时间 (méi shíjiān)",
+      "D": "right now is 现在 (xiànzài)"
+    },
+    "tags": ["phrase", "time"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-nounphrases-015",
+    "kind": "phrase",
+    "deckId": "corevocab-nounphrases",
+    "deck": "Noun Phrases",
+    "level": "HSK1",
+    "promptLine": "dìfāng lǐ — 地方里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "outside",
+      "B": "nearby",
+      "C": "in a place",
+      "D": "everywhere"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "outside is 外面 (wàimiàn)",
+      "B": "nearby is 附近 (fùjìn)",
+      "C": "Correct! 地方里 (dìfāng lǐ) means 'in a place'",
+      "D": "everywhere is 到处 (dàochù)"
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-001",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "kāishǐ xuéxí — 开始学习",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "finish studying",
+      "B": "start studying",
+      "C": "stop studying",
+      "D": "continue studying"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "finish studying is 完成学习 (wánchéng xuéxí)",
+      "B": "Correct! 开始学习 (kāishǐ xuéxí) means 'start studying'",
+      "C": "stop studying is 停止学习 (tíngzhǐ xuéxí)",
+      "D": "continue studying is 继续学习 (jìxù xuéxí)"
+    },
+    "tags": ["phrase", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-002",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "xiūxi yíxià — 休息一下",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "work hard",
+      "B": "rest a bit",
+      "C": "sleep now",
+      "D": "take a break later"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "work hard is 努力工作 (nǔlì gōngzuò)",
+      "B": "Correct! 休息一下 (xiūxi yíxià) means 'rest a bit'",
+      "C": "sleep now is 现在睡觉 (xiànzài shuìjiào)",
+      "D": "take a break later is 一会儿休息 (yíhuìr xiūxi)"
+    },
+    "tags": ["phrase", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-003",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "zài xuéxí — 在学习",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "will study",
+      "B": "studied",
+      "C": "studying",
+      "D": "want to study"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "will study is 要学习 (yào xuéxí)",
+      "B": "studied is 学习了 (xuéxíle)",
+      "C": "Correct! 在学习 (zài xuéxí) means 'studying'",
+      "D": "want to study is 想学习 (xiǎng xuéxí)"
+    },
+    "tags": ["phrase", "continuous"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-004",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "zhǎo péngyǒu — 找朋友",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "make friends",
+      "B": "look for a friend",
+      "C": "meet friends",
+      "D": "call a friend"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "make friends is 交朋友 (jiāo péngyǒu)",
+      "B": "Correct! 找朋友 (zhǎo péngyǒu) means 'look for a friend'",
+      "C": "meet friends is 见朋友 (jiàn péngyǒu)",
+      "D": "call a friend is 给朋友打电话 (gěi péngyǒu dǎ diànhuà)"
+    },
+    "tags": ["phrase", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-005",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "děng yíxià — 等一下",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hurry up",
+      "B": "wait a moment",
+      "C": "come here",
+      "D": "go now"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "hurry up is 快点 (kuài diǎn)",
+      "B": "Correct! 等一下 (děng yíxià) means 'wait a moment'",
+      "C": "come here is 过来 (guòlái)",
+      "D": "go now is 现在去 (xiànzài qù)"
+    },
+    "tags": ["phrase", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-006",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "huí fángjiān — 回房间",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "leave the room",
+      "B": "go back to the room",
+      "C": "clean the room",
+      "D": "find the room"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "leave the room is 离开房间 (líkāi fángjiān)",
+      "B": "Correct! 回房间 (huí fángjiān) means 'go back to the room'",
+      "C": "clean the room is 打扫房间 (dǎsǎo fángjiān)",
+      "D": "find the room is 找房间 (zhǎo fángjiān)"
+    },
+    "tags": ["phrase", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-007",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "qù diàn — 去店",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "open a shop",
+      "B": "go to a shop",
+      "C": "close the shop",
+      "D": "work at a shop"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "open a shop is 开店 (kāi diàn)",
+      "B": "Correct! 去店 (qù diàn) means 'go to a shop'",
+      "C": "close the shop is 关店 (guān diàn)",
+      "D": "work at a shop is 在店工作 (zài diàn gōngzuò)"
+    },
+    "tags": ["phrase", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-008",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "shuō Zhōngwén — 说中文",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "learn Chinese",
+      "B": "read Chinese",
+      "C": "speak Chinese",
+      "D": "write Chinese"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "learn Chinese is 学中文 (xué Zhōngwén)",
+      "B": "read Chinese is 读中文 (dú Zhōngwén)",
+      "C": "Correct! 说中文 (shuō Zhōngwén) means 'speak Chinese'",
+      "D": "write Chinese is 写中文 (xiě Zhōngwén)"
+    },
+    "tags": ["phrase", "communication"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-009",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "tīng diànyǐng — 听电影",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "watch a movie",
+      "B": "listen to a movie",
+      "C": "make a movie",
+      "D": "talk about a movie"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "watch a movie is 看电影 (kàn diànyǐng)",
+      "B": "Correct! 听电影 (tīng diànyǐng) means 'listen to a movie'",
+      "C": "make a movie is 拍电影 (pāi diànyǐng)",
+      "D": "talk about a movie is 谈电影 (tán diànyǐng)"
+    },
+    "tags": ["phrase", "entertainment"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-010",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "wán shǒujī — 玩手机",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "call someone",
+      "B": "buy a phone",
+      "C": "use/play on phone",
+      "D": "charge phone"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "call someone is 打电话 (dǎ diànhuà)",
+      "B": "buy a phone is 买手机 (mǎi shǒujī)",
+      "C": "Correct! 玩手机 (wán shǒujī) means 'use/play on phone'",
+      "D": "charge phone is 充电 (chōngdiàn)"
+    },
+    "tags": ["phrase", "technology"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-011",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "zuò shìqíng — 做事情",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "think about things",
+      "B": "do things",
+      "C": "say things",
+      "D": "forget things"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "think about things is 想事情 (xiǎng shìqíng)",
+      "B": "Correct! 做事情 (zuò shìqíng) means 'do things'",
+      "C": "say things is 说事情 (shuō shìqíng)",
+      "D": "forget things is 忘记事情 (wàngjì shìqíng)"
+    },
+    "tags": ["phrase", "action"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-012",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "xiǎng xiūxi — 想休息",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "need to rest",
+      "B": "want to rest",
+      "C": "must rest",
+      "D": "finished resting"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "need to rest is 需要休息 (xūyào xiūxi)",
+      "B": "Correct! 想休息 (xiǎng xiūxi) means 'want to rest'",
+      "C": "must rest is 必须休息 (bìxū xiūxi)",
+      "D": "finished resting is 休息完了 (xiūxi wánle)"
+    },
+    "tags": ["phrase", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-013",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "huí lái — 回来",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "go away",
+      "B": "come back",
+      "C": "stay here",
+      "D": "leave now"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "go away is 走开 (zǒukāi)",
+      "B": "Correct! 回来 (huí lái) means 'come back'",
+      "C": "stay here is 留在这里 (liú zài zhèlǐ)",
+      "D": "leave now is 现在离开 (xiànzài líkāi)"
+    },
+    "tags": ["phrase", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-014",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "shàngbān kāishǐ — 上班开始",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "work ends",
+      "B": "work starts",
+      "C": "going to work",
+      "D": "at work"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "work ends is 下班 (xiàbān)",
+      "B": "Correct! 上班开始 (shàngbān kāishǐ) means 'work starts'",
+      "C": "going to work is 去上班 (qù shàngbān)",
+      "D": "at work is 在上班 (zài shàngbān)"
+    },
+    "tags": ["phrase", "work"],
+    "difficulty": 1
+  },
+  {
+    "id": "corevocab-verbphrases-015",
+    "kind": "phrase",
+    "deckId": "corevocab-verbphrases",
+    "deck": "Verb Phrases",
+    "level": "HSK1",
+    "promptLine": "xiàbān huí jiā — 下班回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "leave home for work",
+      "B": "work at home",
+      "C": "go home after work",
+      "D": "stay at work"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "leave home for work is 出门上班 (chūmén shàngbān)",
+      "B": "work at home is 在家工作 (zàijiā gōngzuò)",
+      "C": "Correct! 下班回家 (xiàbān huí jiā) means 'go home after work'",
+      "D": "stay at work is 留在公司 (liú zài gōngsī)"
+    },
+    "tags": ["phrase", "work"],
+    "difficulty": 1
   }
 ]
