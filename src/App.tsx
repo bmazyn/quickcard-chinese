@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import StartPage from './components/StartPage'
+import Chapters from './components/Chapters'
+import ChapterDetail from './components/ChapterDetail'
 import LandingPage from './components/LandingPage'
 import QuizFeed from './components/QuizFeed'
 import AudioLoop from './components/AudioLoop'
@@ -11,6 +13,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<StartPage />} />
+        <Route path="/chapters" element={<Chapters />} />
+        <Route path="/chapter/:chapterId" element={<ChapterDetail />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizFeed />} />
         <Route path="/audio-loop" element={<AudioLoop />} />

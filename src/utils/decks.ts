@@ -83,3 +83,22 @@ export function getChapterStructure(): Record<number, string[]> {
   
   return result;
 }
+
+/**
+ * Get all chapter numbers
+ */
+export function getChapters(): number[] {
+  const chapters = new Set<number>();
+  Object.values(decks).forEach(deck => chapters.add(deck.chapter));
+  return Array.from(chapters).sort((a, b) => a - b);
+}
+
+/**
+ * Get all deck names for a chapter
+ */
+export function getDecksForChapter(chapter: number): string[] {
+  return Object.values(decks)
+    .filter(deck => deck.chapter === chapter)
+    .sort((a, b) => a.order - b.order)
+    .map(deck => deck.deckName);
+}

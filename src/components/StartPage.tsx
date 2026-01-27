@@ -12,16 +12,16 @@ export default function StartPage() {
     // Check if the user has already visited
     const hasVisited = localStorage.getItem("qc_has_visited");
     if (hasVisited === "true") {
-      // Skip start page and go directly to landing
-      navigate("/landing", { replace: true });
+      // Skip start page and go directly to chapters
+      navigate("/chapters", { replace: true });
     }
   }, [navigate]);
 
   const handleEnter = () => {
     // Mark as visited
     localStorage.setItem("qc_has_visited", "true");
-    // Navigate to landing page
-    navigate("/landing");
+    // Navigate to chapters page
+    navigate("/chapters");
   };
 
   return (
