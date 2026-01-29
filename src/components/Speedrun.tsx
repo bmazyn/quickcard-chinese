@@ -307,7 +307,7 @@ export default function Speedrun() {
 
   if (cards.length === 0) {
     return (
-      <div className={`speedrun ${theme}`}>
+      <div className="speedrun">
         <div className="speedrun-content">
           <div className="speedrun-header">
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go to home">
@@ -327,7 +327,7 @@ export default function Speedrun() {
   // Pre-run screen
   if (!isStarted && !isComplete) {
     return (
-      <div className={`speedrun ${theme}`}>
+      <div className="speedrun">
         <div className="speedrun-content">
           <div className="speedrun-header">
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go to home">
@@ -366,7 +366,7 @@ export default function Speedrun() {
     const finalTime = Math.ceil(elapsedSeconds) + totalPenalties;
     
     return (
-      <div className={`speedrun ${theme}`}>
+      <div className="speedrun">
         <div className="speedrun-content">
           <div className="speedrun-header">
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go to home">
@@ -440,7 +440,7 @@ export default function Speedrun() {
   const nextButtonText = isPenaltyActive ? `Next (${penaltyCountdown})` : "Next →";
 
   return (
-    <div className={`speedrun ${theme}`}>
+    <div className="speedrun">
       <div className="speedrun-header">
         <button className="home-icon" onClick={handleBackToHome} aria-label="Go to home">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

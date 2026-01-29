@@ -207,7 +207,7 @@ export default function AudioLoop() {
 
   if (cards.length === 0) {
     return (
-      <div className={`audio-loop ${theme}`}>
+      <div className="audio-loop">
         <div className="audio-loop-content">
           <div className="audio-loop-header">
             <button className="home-icon" onClick={() => navigate("/")} aria-label="Go to home">
@@ -228,7 +228,7 @@ export default function AudioLoop() {
   const { pinyin, hanzi, meaning } = parseCard(currentCard);
 
   return (
-    <div className={`audio-loop ${theme}`}>
+    <div className="audio-loop">
       <div className="audio-loop-content">
         <div className="audio-loop-header">
           <button className="home-icon" onClick={() => {
