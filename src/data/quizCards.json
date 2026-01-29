@@ -7623,5 +7623,1445 @@
     },
     "tags": ["phrase", "work"],
     "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-001",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "shūfu — 舒服",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "uncomfortable",
+      "B": "comfortable",
+      "C": "tired",
+      "D": "excited"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "uncomfortable is 不舒服 (bù shūfu)",
+      "B": "Correct! 舒服 (shūfu) means 'comfortable'",
+      "C": "tired is 累 (lèi)",
+      "D": "excited is 兴奋 (xīngfèn)"
+    },
+    "tags": ["descriptor", "feeling"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-002",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "lèi — 累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "energetic",
+      "B": "sleepy",
+      "C": "tired",
+      "D": "hungry"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "energetic is 精力充沛 (jīnglì chōngpèi)",
+      "B": "sleepy is 困 (kùn)",
+      "C": "Correct! 累 (lèi) means 'tired'",
+      "D": "hungry is 饿 (è)"
+    },
+    "tags": ["descriptor", "feeling"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-003",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "kuài — 快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "slow",
+      "B": "fast",
+      "C": "steady",
+      "D": "stopped"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "slow is 慢 (màn)",
+      "B": "Correct! 快 (kuài) means 'fast'",
+      "C": "steady is 稳定 (wěndìng)",
+      "D": "stopped is 停止 (tíngzhǐ)"
+    },
+    "tags": ["descriptor", "speed"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-004",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "màn — 慢",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "fast",
+      "B": "quick",
+      "C": "slow",
+      "D": "hurried"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "fast is 快 (kuài)",
+      "B": "quick is 迅速 (xùnsù)",
+      "C": "Correct! 慢 (màn) means 'slow'",
+      "D": "hurried is 匆忙 (cōngmáng)"
+    },
+    "tags": ["descriptor", "speed"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-005",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "jǐnzhāng — 紧张",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "relaxed",
+      "B": "calm",
+      "C": "nervous",
+      "D": "happy"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "relaxed is 放松 (fàngsōng)",
+      "B": "calm is 冷静 (lěngjìng)",
+      "C": "Correct! 紧张 (jǐnzhāng) means 'nervous'",
+      "D": "happy is 高兴 (gāoxìng)"
+    },
+    "tags": ["descriptor", "feeling"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-006",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "tài — 太",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "not enough",
+      "B": "too / extremely",
+      "C": "somewhat",
+      "D": "barely"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "not enough is 不够 (bú gòu)",
+      "B": "Correct! 太 (tài) means 'too / extremely'",
+      "C": "somewhat is 有点 (yǒudiǎn)",
+      "D": "barely is 勉强 (miǎnqiǎng)"
+    },
+    "tags": ["descriptor", "intensity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-007",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "yǒudiǎn — 有点",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "very",
+      "B": "extremely",
+      "C": "a little",
+      "D": "not at all"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "very is 很 (hěn)",
+      "B": "extremely is 太 (tài)",
+      "C": "Correct! 有点 (yǒudiǎn) means 'a little'",
+      "D": "not at all is 一点也不 (yìdiǎn yě bù)"
+    },
+    "tags": ["descriptor", "intensity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-008",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "zhēn — 真",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "false",
+      "B": "really",
+      "C": "maybe",
+      "D": "hardly"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "false is 假 (jiǎ)",
+      "B": "Correct! 真 (zhēn) means 'really'",
+      "C": "maybe is 可能 (kěnéng)",
+      "D": "hardly is 几乎不 (jīhū bù)"
+    },
+    "tags": ["descriptor", "intensity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-009",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "chángcháng — 常常",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "never",
+      "B": "rarely",
+      "C": "often",
+      "D": "always"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "never is 从不 (cóng bù)",
+      "B": "rarely is 很少 (hěn shǎo)",
+      "C": "Correct! 常常 (chángcháng) means 'often'",
+      "D": "always is 一直 (yìzhí)"
+    },
+    "tags": ["descriptor", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-010",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "ǒu'ěr — 偶尔",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "always",
+      "B": "often",
+      "C": "sometimes",
+      "D": "never"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "always is 总是 (zǒngshì)",
+      "B": "often is 常常 (chángcháng)",
+      "C": "Correct! 偶尔 (ǒu'ěr) means 'sometimes'",
+      "D": "never is 从不 (cóng bù)"
+    },
+    "tags": ["descriptor", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-011",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "yìzhí — 一直",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "sometimes",
+      "B": "never",
+      "C": "rarely",
+      "D": "always"
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "sometimes is 有时 (yǒushí)",
+      "B": "never is 从不 (cóng bù)",
+      "C": "rarely is 很少 (hěn shǎo)",
+      "D": "Correct! 一直 (yìzhí) means 'always'"
+    },
+    "tags": ["descriptor", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-012",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "fāngbiàn — 方便",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "difficult",
+      "B": "convenient",
+      "C": "complicated",
+      "D": "impossible"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "difficult is 困难 (kùnnan)",
+      "B": "Correct! 方便 (fāngbiàn) means 'convenient'",
+      "C": "complicated is 复杂 (fùzá)",
+      "D": "impossible is 不可能 (bù kěnéng)"
+    },
+    "tags": ["descriptor", "quality"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-013",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "hái — 还",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "already",
+      "B": "not anymore",
+      "C": "still",
+      "D": "never"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "already is 已经 (yǐjīng)",
+      "B": "not anymore is 不再 (búzài)",
+      "C": "Correct! 还 (hái) means 'still'",
+      "D": "never is 从不 (cóng bù)"
+    },
+    "tags": ["descriptor", "state"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-014",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "zhǐ — 只",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "many",
+      "B": "all",
+      "C": "only",
+      "D": "some"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "many is 很多 (hěn duō)",
+      "B": "all is 都 (dōu)",
+      "C": "Correct! 只 (zhǐ) means 'only'",
+      "D": "some is 一些 (yìxiē)"
+    },
+    "tags": ["descriptor", "quantity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptors-015",
+    "kind": "vocab",
+    "deckId": "meaningstructure-descriptors",
+    "deck": "Descriptors",
+    "level": "HSK1",
+    "promptLine": "gèng — 更",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "less",
+      "B": "more",
+      "C": "same",
+      "D": "none"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "less is 更少 (gèng shǎo)",
+      "B": "Correct! 更 (gèng) means 'more'",
+      "C": "same is 一样 (yíyàng)",
+      "D": "none is 没有 (méiyǒu)"
+    },
+    "tags": ["descriptor", "comparison"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-001",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "juéde — 觉得",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "know",
+      "B": "feel / think",
+      "C": "forget",
+      "D": "remember"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "know is 知道 (zhīdào)",
+      "B": "Correct! 觉得 (juéde) means 'feel / think'",
+      "C": "forget is 忘记 (wàngjì)",
+      "D": "remember is 记得 (jìde)"
+    },
+    "tags": ["preference", "feeling"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-002",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "kěyǐ — 可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "must",
+      "B": "cannot",
+      "C": "can / may",
+      "D": "should"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "must is 必须 (bìxū)",
+      "B": "cannot is 不能 (bù néng)",
+      "C": "Correct! 可以 (kěyǐ) means 'can / may'",
+      "D": "should is 应该 (yīnggāi)"
+    },
+    "tags": ["ability", "permission"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-003",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "bú yào — 不要",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "want",
+      "B": "must",
+      "C": "don't want",
+      "D": "need"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "want is 要 (yào)",
+      "B": "must is 必须 (bìxū)",
+      "C": "Correct! 不要 (bú yào) means 'don't want'",
+      "D": "need is 需要 (xūyào)"
+    },
+    "tags": ["preference", "negation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-004",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "huì — 会",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "cannot",
+      "B": "never",
+      "C": "will / know how",
+      "D": "might not"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "cannot is 不会 (bú huì)",
+      "B": "never is 从不 (cóng bù)",
+      "C": "Correct! 会 (huì) means 'will / know how'",
+      "D": "might not is 可能不 (kěnéng bù)"
+    },
+    "tags": ["ability", "future"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-005",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "néng — 能",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "unable",
+      "B": "able to",
+      "C": "never",
+      "D": "forbidden"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "unable is 不能 (bù néng)",
+      "B": "Correct! 能 (néng) means 'able to'",
+      "C": "never is 从不 (cóng bù)",
+      "D": "forbidden is 禁止 (jìnzhǐ)"
+    },
+    "tags": ["ability", "capability"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-006",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "xūyào — 需要",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "want",
+      "B": "have",
+      "C": "need",
+      "D": "refuse"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "want is 想 (xiǎng)",
+      "B": "have is 有 (yǒu)",
+      "C": "Correct! 需要 (xūyào) means 'need'",
+      "D": "refuse is 拒绝 (jùjué)"
+    },
+    "tags": ["preference", "necessity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-007",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "pà — 怕",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "brave",
+      "B": "confident",
+      "C": "afraid",
+      "D": "excited"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "brave is 勇敢 (yǒnggǎn)",
+      "B": "confident is 自信 (zìxìn)",
+      "C": "Correct! 怕 (pà) means 'afraid'",
+      "D": "excited is 兴奋 (xīngfèn)"
+    },
+    "tags": ["preference", "emotion"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-008",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "xīwàng — 希望",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "despair",
+      "B": "hope",
+      "C": "regret",
+      "D": "doubt"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "despair is 绝望 (juéwàng)",
+      "B": "Correct! 希望 (xīwàng) means 'hope'",
+      "C": "regret is 后悔 (hòuhuǐ)",
+      "D": "doubt is 怀疑 (huáiyí)"
+    },
+    "tags": ["preference", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-009",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "dǎsuàn — 打算",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "cancel",
+      "B": "plan",
+      "C": "forget",
+      "D": "refuse"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "cancel is 取消 (qǔxiāo)",
+      "B": "Correct! 打算 (dǎsuàn) means 'plan'",
+      "C": "forget is 忘记 (wàngjì)",
+      "D": "refuse is 拒绝 (jùjué)"
+    },
+    "tags": ["preference", "intention"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-010",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "juédìng — 决定",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hesitate",
+      "B": "consider",
+      "C": "decide",
+      "D": "wonder"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "hesitate is 犹豫 (yóuyù)",
+      "B": "consider is 考虑 (kǎolǜ)",
+      "C": "Correct! 决定 (juédìng) means 'decide'",
+      "D": "wonder is 想知道 (xiǎng zhīdào)"
+    },
+    "tags": ["preference", "decision"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-011",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "rènwéi — 认为",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "doubt",
+      "B": "guess",
+      "C": "think / believe",
+      "D": "deny"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "doubt is 怀疑 (huáiyí)",
+      "B": "guess is 猜 (cāi)",
+      "C": "Correct! 认为 (rènwéi) means 'think / believe'",
+      "D": "deny is 否认 (fǒurèn)"
+    },
+    "tags": ["preference", "opinion"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-012",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "xiǎng yào — 想要",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "reject",
+      "B": "have",
+      "C": "want",
+      "D": "give"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "reject is 拒绝 (jùjué)",
+      "B": "have is 有 (yǒu)",
+      "C": "Correct! 想要 (xiǎng yào) means 'want'",
+      "D": "give is 给 (gěi)"
+    },
+    "tags": ["preference", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-013",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "juéde hǎo — 觉得好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "feel bad",
+      "B": "feel it's good",
+      "C": "feel nothing",
+      "D": "feel worried"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "feel bad is 觉得不好 (juéde bù hǎo)",
+      "B": "Correct! 觉得好 (juéde hǎo) means 'feel it's good'",
+      "C": "feel nothing is 没感觉 (méi gǎnjué)",
+      "D": "feel worried is 觉得担心 (juéde dānxīn)"
+    },
+    "tags": ["preference", "evaluation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-014",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "kǎolǜ — 考虑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "ignore",
+      "B": "consider",
+      "C": "decide",
+      "D": "forget"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "ignore is 忽视 (hūshì)",
+      "B": "Correct! 考虑 (kǎolǜ) means 'consider'",
+      "C": "decide is 决定 (juédìng)",
+      "D": "forget is 忘记 (wàngjì)"
+    },
+    "tags": ["preference", "thinking"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferencesability-015",
+    "kind": "vocab",
+    "deckId": "meaningstructure-preferencesability",
+    "deck": "Preferences & Ability",
+    "level": "HSK1",
+    "promptLine": "juéde kěyǐ — 觉得可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "feel impossible",
+      "B": "feel uncertain",
+      "C": "feel it's okay",
+      "D": "feel against it"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "feel impossible is 觉得不行 (juéde bù xíng)",
+      "B": "feel uncertain is 觉得不确定 (juéde bù quèdìng)",
+      "C": "Correct! 觉得可以 (juéde kěyǐ) means 'feel it's okay'",
+      "D": "feel against it is 觉得不好 (juéde bù hǎo)"
+    },
+    "tags": ["preference", "evaluation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-001",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "yǒudiǎn lèi — 有点累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "very tired",
+      "B": "not tired",
+      "C": "a little tired",
+      "D": "extremely tired"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "very tired is 很累 (hěn lèi)",
+      "B": "not tired is 不累 (bú lèi)",
+      "C": "Correct! 有点累 (yǒudiǎn lèi) means 'a little tired'",
+      "D": "extremely tired is 非常累 (fēicháng lèi)"
+    },
+    "tags": ["descriptor phrase", "degree"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-002",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "zhēn shūfu — 真舒服",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "uncomfortable",
+      "B": "really comfortable",
+      "C": "not comfortable",
+      "D": "somewhat comfortable"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "uncomfortable is 不舒服 (bù shūfu)",
+      "B": "Correct! 真舒服 (zhēn shūfu) means 'really comfortable'",
+      "C": "not comfortable is 不舒服 (bù shūfu)",
+      "D": "somewhat comfortable is 有点舒服 (yǒudiǎn shūfu)"
+    },
+    "tags": ["descriptor phrase", "intensity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-003",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "tài kuài — 太快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "a bit fast",
+      "B": "too slow",
+      "C": "too fast",
+      "D": "very slow"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "a bit fast is 有点快 (yǒudiǎn kuài)",
+      "B": "too slow is 太慢 (tài màn)",
+      "C": "Correct! 太快 (tài kuài) means 'too fast'",
+      "D": "very slow is 很慢 (hěn màn)"
+    },
+    "tags": ["descriptor phrase", "excessive"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-004",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "màn yìdiǎn — 慢一点",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "very fast",
+      "B": "a bit slow",
+      "C": "too slow",
+      "D": "not slow"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "very fast is 很快 (hěn kuài)",
+      "B": "Correct! 慢一点 (màn yìdiǎn) means 'a bit slow'",
+      "C": "too slow is 太慢 (tài màn)",
+      "D": "not slow is 不慢 (bú màn)"
+    },
+    "tags": ["descriptor phrase", "degree"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-005",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "hái shūfu — 还舒服",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "not comfortable",
+      "B": "very uncomfortable",
+      "C": "still comfortable",
+      "D": "never comfortable"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "not comfortable is 不舒服 (bù shūfu)",
+      "B": "very uncomfortable is 很不舒服 (hěn bù shūfu)",
+      "C": "Correct! 还舒服 (hái shūfu) means 'still comfortable'",
+      "D": "never comfortable is 从不舒服 (cóng bù shūfu)"
+    },
+    "tags": ["descriptor phrase", "continuation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-006",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "gèng fāngbiàn — 更方便",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "less convenient",
+      "B": "not convenient",
+      "C": "more convenient",
+      "D": "never convenient"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "less convenient is 没那么方便 (méi nàme fāngbiàn)",
+      "B": "not convenient is 不方便 (bù fāngbiàn)",
+      "C": "Correct! 更方便 (gèng fāngbiàn) means 'more convenient'",
+      "D": "never convenient is 从不方便 (cóng bù fāngbiàn)"
+    },
+    "tags": ["descriptor phrase", "comparison"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-007",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "zhǐ yìdiǎn — 只一点",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "a lot",
+      "B": "only a little",
+      "C": "nothing",
+      "D": "everything"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "a lot is 很多 (hěn duō)",
+      "B": "Correct! 只一点 (zhǐ yìdiǎn) means 'only a little'",
+      "C": "nothing is 什么都没有 (shénme dōu méiyǒu)",
+      "D": "everything is 所有 (suǒyǒu)"
+    },
+    "tags": ["descriptor phrase", "quantity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-008",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "yìzhí kuài — 一直快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "sometimes fast",
+      "B": "never fast",
+      "C": "always fast",
+      "D": "rarely fast"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "sometimes fast is 有时快 (yǒushí kuài)",
+      "B": "never fast is 从不快 (cóng bù kuài)",
+      "C": "Correct! 一直快 (yìzhí kuài) means 'always fast'",
+      "D": "rarely fast is 很少快 (hěn shǎo kuài)"
+    },
+    "tags": ["descriptor phrase", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-009",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "ǒu'ěr màn — 偶尔慢",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "always slow",
+      "B": "never slow",
+      "C": "sometimes slow",
+      "D": "often slow"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "always slow is 一直慢 (yìzhí màn)",
+      "B": "never slow is 从不慢 (cóng bù màn)",
+      "C": "Correct! 偶尔慢 (ǒu'ěr màn) means 'sometimes slow'",
+      "D": "often slow is 常常慢 (chángcháng màn)"
+    },
+    "tags": ["descriptor phrase", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-010",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "chángcháng lèi — 常常累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "never tired",
+      "B": "rarely tired",
+      "C": "often tired",
+      "D": "sometimes tired"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "never tired is 从不累 (cóng bù lèi)",
+      "B": "rarely tired is 很少累 (hěn shǎo lèi)",
+      "C": "Correct! 常常累 (chángcháng lèi) means 'often tired'",
+      "D": "sometimes tired is 有时累 (yǒushí lèi)"
+    },
+    "tags": ["descriptor phrase", "frequency"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-011",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "yǒudiǎn jǐnzhāng — 有点紧张",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "very relaxed",
+      "B": "a little nervous",
+      "C": "not nervous",
+      "D": "extremely nervous"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "very relaxed is 很放松 (hěn fàngsōng)",
+      "B": "Correct! 有点紧张 (yǒudiǎn jǐnzhāng) means 'a little nervous'",
+      "C": "not nervous is 不紧张 (bù jǐnzhāng)",
+      "D": "extremely nervous is 非常紧张 (fēicháng jǐnzhāng)"
+    },
+    "tags": ["descriptor phrase", "degree"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-012",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "zhēn fāngbiàn — 真方便",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "not convenient",
+      "B": "really convenient",
+      "C": "somewhat convenient",
+      "D": "inconvenient"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "not convenient is 不方便 (bù fāngbiàn)",
+      "B": "Correct! 真方便 (zhēn fāngbiàn) means 'really convenient'",
+      "C": "somewhat convenient is 有点方便 (yǒudiǎn fāngbiàn)",
+      "D": "inconvenient is 不方便 (bù fāngbiàn)"
+    },
+    "tags": ["descriptor phrase", "intensity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-013",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "tài màn — 太慢",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "a bit slow",
+      "B": "too fast",
+      "C": "too slow",
+      "D": "very fast"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "a bit slow is 有点慢 (yǒudiǎn màn)",
+      "B": "too fast is 太快 (tài kuài)",
+      "C": "Correct! 太慢 (tài màn) means 'too slow'",
+      "D": "very fast is 很快 (hěn kuài)"
+    },
+    "tags": ["descriptor phrase", "excessive"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-014",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "hái kuài — 还快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "not fast",
+      "B": "very slow",
+      "C": "still fast",
+      "D": "never fast"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "not fast is 不快 (bú kuài)",
+      "B": "very slow is 很慢 (hěn màn)",
+      "C": "Correct! 还快 (hái kuài) means 'still fast'",
+      "D": "never fast is 从不快 (cóng bù kuài)"
+    },
+    "tags": ["descriptor phrase", "continuation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-descriptorphrases-015",
+    "kind": "phrase",
+    "deckId": "meaningstructure-descriptorphrases",
+    "deck": "Descriptor Phrases",
+    "level": "HSK1",
+    "promptLine": "gèng shūfu — 更舒服",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "less comfortable",
+      "B": "not comfortable",
+      "C": "more comfortable",
+      "D": "uncomfortable"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "less comfortable is 没那么舒服 (méi nàme shūfu)",
+      "B": "not comfortable is 不舒服 (bù shūfu)",
+      "C": "Correct! 更舒服 (gèng shūfu) means 'more comfortable'",
+      "D": "uncomfortable is 不舒服 (bù shūfu)"
+    },
+    "tags": ["descriptor phrase", "comparison"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-001",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "juéde kěyǐ — 觉得可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "feel impossible",
+      "B": "feel it's okay",
+      "C": "feel worried",
+      "D": "feel against it"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "feel impossible is 觉得不行 (juéde bù xíng)",
+      "B": "Correct! 觉得可以 (juéde kěyǐ) means 'feel it's okay'",
+      "C": "feel worried is 觉得担心 (juéde dānxīn)",
+      "D": "feel against it is 觉得不好 (juéde bù hǎo)"
+    },
+    "tags": ["ability phrase", "evaluation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-002",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "xīwàng kěyǐ — 希望可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hope cannot",
+      "B": "hope can",
+      "C": "hope will not",
+      "D": "hope never"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "hope cannot is 希望不能 (xīwàng bù néng)",
+      "B": "Correct! 希望可以 (xīwàng kěyǐ) means 'hope can'",
+      "C": "hope will not is 希望不会 (xīwàng bú huì)",
+      "D": "hope never is 希望永不 (xīwàng yǒng bù)"
+    },
+    "tags": ["ability phrase", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-003",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "xūyào kǎolǜ — 需要考虑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "want to ignore",
+      "B": "need to decide",
+      "C": "need to consider",
+      "D": "able to forget"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "want to ignore is 想忽视 (xiǎng hūshì)",
+      "B": "need to decide is 需要决定 (xūyào juédìng)",
+      "C": "Correct! 需要考虑 (xūyào kǎolǜ) means 'need to consider'",
+      "D": "able to forget is 能忘记 (néng wàngjì)"
+    },
+    "tags": ["ability phrase", "necessity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-004",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "dǎsuàn juédìng — 打算决定",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "plan to decide",
+      "B": "plan to forget",
+      "C": "decide to cancel",
+      "D": "refuse to plan"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 打算决定 (dǎsuàn juédìng) means 'plan to decide'",
+      "B": "plan to forget is 打算忘记 (dǎsuàn wàngjì)",
+      "C": "decide to cancel is 决定取消 (juédìng qǔxiāo)",
+      "D": "refuse to plan is 拒绝计划 (jùjué jìhuà)"
+    },
+    "tags": ["ability phrase", "intention"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-005",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "rènwéi kěyǐ — 认为可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "think impossible",
+      "B": "think it's okay",
+      "C": "think not allowed",
+      "D": "think forbidden"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "think impossible is 认为不行 (rènwéi bù xíng)",
+      "B": "Correct! 认为可以 (rènwéi kěyǐ) means 'think it's okay'",
+      "C": "think not allowed is 认为不可以 (rènwéi bù kěyǐ)",
+      "D": "think forbidden is 认为禁止 (rènwéi jìnzhǐ)"
+    },
+    "tags": ["ability phrase", "opinion"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-006",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "huì juédìng — 会决定",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "will hesitate",
+      "B": "will forget",
+      "C": "will decide",
+      "D": "will cancel"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "will hesitate is 会犹豫 (huì yóuyù)",
+      "B": "will forget is 会忘记 (huì wàngjì)",
+      "C": "Correct! 会决定 (huì juédìng) means 'will decide'",
+      "D": "will cancel is 会取消 (huì qǔxiāo)"
+    },
+    "tags": ["ability phrase", "future"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-007",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "néng kǎolǜ — 能考虑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "unable to consider",
+      "B": "able to consider",
+      "C": "refuse to consider",
+      "D": "forget to consider"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "unable to consider is 不能考虑 (bù néng kǎolǜ)",
+      "B": "Correct! 能考虑 (néng kǎolǜ) means 'able to consider'",
+      "C": "refuse to consider is 拒绝考虑 (jùjué kǎolǜ)",
+      "D": "forget to consider is 忘记考虑 (wàngjì kǎolǜ)"
+    },
+    "tags": ["ability phrase", "capability"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-008",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "juéde hǎo — 觉得好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "feel bad",
+      "B": "feel it's good",
+      "C": "feel uncertain",
+      "D": "feel worried"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "feel bad is 觉得不好 (juéde bù hǎo)",
+      "B": "Correct! 觉得好 (juéde hǎo) means 'feel it's good'",
+      "C": "feel uncertain is 觉得不确定 (juéde bù quèdìng)",
+      "D": "feel worried is 觉得担心 (juéde dānxīn)"
+    },
+    "tags": ["ability phrase", "evaluation"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-009",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "xīwàng juéde hǎo — 希望觉得好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hope feels bad",
+      "B": "hope it feels good",
+      "C": "hope feels worried",
+      "D": "hope feels uncertain"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "hope feels bad is 希望觉得不好 (xīwàng juéde bù hǎo)",
+      "B": "Correct! 希望觉得好 (xīwàng juéde hǎo) means 'hope it feels good'",
+      "C": "hope feels worried is 希望觉得担心 (xīwàng juéde dānxīn)",
+      "D": "hope feels uncertain is 希望觉得不确定 (xīwàng juéde bù quèdìng)"
+    },
+    "tags": ["ability phrase", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-010",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "xūyào juédìng — 需要决定",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "need to hesitate",
+      "B": "need to forget",
+      "C": "need to decide",
+      "D": "need to cancel"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "need to hesitate is 需要犹豫 (xūyào yóuyù)",
+      "B": "need to forget is 需要忘记 (xūyào wàngjì)",
+      "C": "Correct! 需要决定 (xūyào juédìng) means 'need to decide'",
+      "D": "need to cancel is 需要取消 (xūyào qǔxiāo)"
+    },
+    "tags": ["ability phrase", "necessity"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-011",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "dǎsuàn kǎolǜ — 打算考虑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "plan to ignore",
+      "B": "plan to consider",
+      "C": "plan to refuse",
+      "D": "plan to forget"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "plan to ignore is 打算忽视 (dǎsuàn hūshì)",
+      "B": "Correct! 打算考虑 (dǎsuàn kǎolǜ) means 'plan to consider'",
+      "C": "plan to refuse is 打算拒绝 (dǎsuàn jùjué)",
+      "D": "plan to forget is 打算忘记 (dǎsuàn wàngjì)"
+    },
+    "tags": ["ability phrase", "intention"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-012",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "rènwéi hǎo — 认为好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "think it's bad",
+      "B": "think it's good",
+      "C": "think uncertain",
+      "D": "think impossible"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "think it's bad is 认为不好 (rènwéi bù hǎo)",
+      "B": "Correct! 认为好 (rènwéi hǎo) means 'think it's good'",
+      "C": "think uncertain is 认为不确定 (rènwéi bù quèdìng)",
+      "D": "think impossible is 认为不行 (rènwéi bù xíng)"
+    },
+    "tags": ["ability phrase", "opinion"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-013",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "huì kěyǐ — 会可以",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "will be unable",
+      "B": "will be forbidden",
+      "C": "will be able to",
+      "D": "will be impossible"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "will be unable is 会不能 (huì bù néng)",
+      "B": "will be forbidden is 会被禁止 (huì bèi jìnzhǐ)",
+      "C": "Correct! 会可以 (huì kěyǐ) means 'will be able to'",
+      "D": "will be impossible is 会不行 (huì bù xíng)"
+    },
+    "tags": ["ability phrase", "future"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-014",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "xīwàng néng — 希望能",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "hope cannot",
+      "B": "hope to be able to",
+      "C": "hope never",
+      "D": "hope impossible"
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "hope cannot is 希望不能 (xīwàng bù néng)",
+      "B": "Correct! 希望能 (xīwàng néng) means 'hope to be able to'",
+      "C": "hope never is 希望永不 (xīwàng yǒng bù)",
+      "D": "hope impossible is 希望不可能 (xīwàng bù kěnéng)"
+    },
+    "tags": ["ability phrase", "desire"],
+    "difficulty": 1
+  },
+  {
+    "id": "meaningstructure-preferenceabilityphrases-015",
+    "kind": "phrase",
+    "deckId": "meaningstructure-preferenceabilityphrases",
+    "deck": "Ability Phrases",
+    "level": "HSK1",
+    "promptLine": "bú yào juédìng — 不要决定",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "must decide",
+      "B": "should decide",
+      "C": "don't decide",
+      "D": "want to decide"
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "must decide is 必须决定 (bìxū juédìng)",
+      "B": "should decide is 应该决定 (yīnggāi juédìng)",
+      "C": "Correct! 不要决定 (bú yào juédìng) means 'don't decide'",
+      "D": "want to decide is 想决定 (xiǎng juédìng)"
+    },
+    "tags": ["ability phrase", "negation"],
+    "difficulty": 1
   }
 ]

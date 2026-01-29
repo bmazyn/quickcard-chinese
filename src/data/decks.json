@@ -95,6 +95,30 @@
     "deckName": "Verb Phrases",
     "order": 4
   },
+  "meaningstructure-descriptors": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Descriptors",
+    "order": 1
+  },
+  "meaningstructure-preferencesability": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Preferences & Ability",
+    "order": 2
+  },
+  "meaningstructure-descriptorphrases": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Descriptor Phrases",
+    "order": 3
+  },
+  "meaningstructure-preferenceabilityphrases": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Ability Phrases",
+    "order": 4
+  },
   "simplesentences1": {
     "chapter": 2,
     "section": "Simple Sentences",
