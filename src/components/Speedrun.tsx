@@ -5,6 +5,7 @@ import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types"
 import quizCardsData from "../data/quizCards.json";
 import { getDeckIdByName } from "../utils/decks";
 import "./Speedrun.css";
+// comment for speedrun review issue
 
 // Penalty for wrong answers in speedrun
 const PENALTY_SECONDS = 3;
