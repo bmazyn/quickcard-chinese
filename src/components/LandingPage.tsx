@@ -140,8 +140,10 @@ export default function LandingPage() {
     if (!modalDeck) return;
     setShowDeckModal(false);
     
+    const decksToSelect = [modalDeck];
+    
     // Set selected deck and navigate
-    localStorage.setItem("selectedDecks", JSON.stringify([modalDeck]));
+    localStorage.setItem("selectedDecks", JSON.stringify(decksToSelect));
     
     // iOS Safari audio unlock
     if (!audioUnlockRef.current) {
@@ -156,7 +158,8 @@ export default function LandingPage() {
       audio.currentTime = 0;
     });
     
-    navigate("/quiz");
+    // Pass selectedDecks through navigation state as primary source
+    navigate("/quiz", { state: { selectedDecks: decksToSelect } });
   };
 
   const handleMultiSelectAudioLoop = () => {
@@ -194,7 +197,8 @@ export default function LandingPage() {
       audio.currentTime = 0;
     });
     
-    navigate("/quiz");
+    // Pass selectedDecks through navigation state as primary source
+    navigate("/quiz", { state: { selectedDecks: selectedDecks } });
   };
 
   const toggleChapterCollapse = (chapter: number) => {

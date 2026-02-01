@@ -139,8 +139,10 @@ export default function ChapterDetail() {
     if (!modalDeck) return;
     setShowDeckModal(false);
     
-    // Set selected deck and navigate
-    localStorage.setItem("selectedDecks", JSON.stringify([modalDeck]));
+    const decksToSelect = [modalDeck];
+    
+    // Set selected deck in localStorage
+    localStorage.setItem("selectedDecks", JSON.stringify(decksToSelect));
     
     // iOS Safari audio unlock
     if (!audioUnlockRef.current) {
@@ -155,7 +157,8 @@ export default function ChapterDetail() {
       audio.currentTime = 0;
     });
     
-    navigate("/quiz", { state: { chapterId: chapter } });
+    // Pass selectedDecks through navigation state as primary source
+    navigate("/quiz", { state: { chapterId: chapter, selectedDecks: decksToSelect } });
   };
 
   const handleMultiSelectAudioLoop = () => {
@@ -193,7 +196,8 @@ export default function ChapterDetail() {
       audio.currentTime = 0;
     });
     
-    navigate("/quiz", { state: { chapterId: chapter } });
+    // Pass selectedDecks through navigation state as primary source
+    navigate("/quiz", { state: { chapterId: chapter, selectedDecks: selectedDecks } });
   };
 
   const handleBackToChapters = () => {

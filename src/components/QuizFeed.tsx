@@ -21,6 +21,10 @@ export default function QuizFeed() {
   const navigate = useNavigate();
   const location = useLocation();
   const [selectedDecks] = useState<string[]>(() => {
+    // Prioritize navigation state over localStorage for mobile Safari compatibility
+    if (location.state?.selectedDecks) {
+      return location.state.selectedDecks;
+    }
     const saved = localStorage.getItem("selectedDecks");
     return saved ? JSON.parse(saved) : [];
   });
