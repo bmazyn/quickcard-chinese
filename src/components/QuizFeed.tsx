@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
@@ -20,14 +20,17 @@ function shuffleArray<T>(array: T[]): T[] {
 export default function QuizFeed() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [selectedDecks] = useState<string[]>(() => {
-    // Prioritize navigation state over localStorage for mobile Safari compatibility
+  
+  // Derive selectedDecks from location state (primary) or localStorage (fallback)
+  // This recomputes on every render, ensuring it updates when location changes
+  const selectedDecks = useMemo(() => {
     if (location.state?.selectedDecks) {
       return location.state.selectedDecks;
     }
     const saved = localStorage.getItem("selectedDecks");
     return saved ? JSON.parse(saved) : [];
-  });
+  }, [location.state?.selectedDecks]);
+  
   const [filteredCards, setFilteredCards] = useState<QuizCardType[]>([]);
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -80,8 +83,8 @@ export default function QuizFeed() {
     } else {
       // Normal mode: filter by selected decks (selectedDecks contains deck names)
       const selectedDeckIds = selectedDecks
-        .map(deckName => getDeckIdByName(deckName))
-        .filter((id): id is string => id !== undefined);
+        .map((deckName: string) => getDeckIdByName(deckName))
+        .filter((id: string | undefined): id is string => id !== undefined);
       
       filtered = allCards.filter(card => {
         const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
