@@ -142,5 +142,29 @@
     "section": "Simple Sentences",
     "deckName": "Say + Ask",
     "order": 4
+  },
+  "locationexistence1": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Places & Positions",
+    "order": 1
+  },
+  "locationexistence2": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Existence & Placement",
+    "order": 2
+  },
+  "locationexistence3": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Location Phrases",
+    "order": 3
+  },
+  "locationexistence4": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Location Sentences",
+    "order": 4
   }
 }

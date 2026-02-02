@@ -9063,5 +9063,1088 @@
     },
     "tags": ["ability phrase", "negation"],
     "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-001",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "shàngbiān — 上边",
+    "question": "What does this mean?",
+    "choices": { "A": "Above", "B": "Below", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 上边 (shàngbiān) means 'above'.",
+      "B": "Below is 下边 (xiàbiān).",
+      "C": "Inside is 里边 (lǐbiān).",
+      "D": "Outside is 外边 (wàibiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-002",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "xiàbiān — 下边",
+    "question": "What does this mean?",
+    "choices": { "A": "Below", "B": "Above", "C": "Behind", "D": "In front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 下边 (xiàbiān) means 'below'.",
+      "B": "Above is 上边 (shàngbiān).",
+      "C": "Behind is 后边 (hòubiān).",
+      "D": "In front is 前边 (qiánbiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-003",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "lǐbiān — 里边",
+    "question": "What does this mean?",
+    "choices": { "A": "Inside", "B": "Outside", "C": "Left side", "D": "Right side" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 里边 (lǐbiān) means 'inside'.",
+      "B": "Outside is 外边 (wàibiān).",
+      "C": "Left side is 左边 (zuǒbiān).",
+      "D": "Right side is 右边 (yòubiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-004",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "wàibiān — 外边",
+    "question": "What does this mean?",
+    "choices": { "A": "Outside", "B": "Inside", "C": "Above", "D": "Below" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 外边 (wàibiān) means 'outside'.",
+      "B": "Inside is 里边 (lǐbiān).",
+      "C": "Above is 上边 (shàngbiān).",
+      "D": "Below is 下边 (xiàbiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-005",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "qiánbiān — 前边",
+    "question": "What does this mean?",
+    "choices": { "A": "In front", "B": "Behind", "C": "Left side", "D": "Right side" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 前边 (qiánbiān) means 'in front'.",
+      "B": "Behind is 后边 (hòubiān).",
+      "C": "Left side is 左边 (zuǒbiān).",
+      "D": "Right side is 右边 (yòubiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-006",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "hòubiān — 后边",
+    "question": "What does this mean?",
+    "choices": { "A": "Behind", "B": "In front", "C": "Above", "D": "Inside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 后边 (hòubiān) means 'behind'.",
+      "B": "In front is 前边 (qiánbiān).",
+      "C": "Above is 上边 (shàngbiān).",
+      "D": "Inside is 里边 (lǐbiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-007",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "zuǒbiān — 左边",
+    "question": "What does this mean?",
+    "choices": { "A": "Left side", "B": "Right side", "C": "Behind", "D": "In front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 左边 (zuǒbiān) means 'left side'.",
+      "B": "Right side is 右边 (yòubiān).",
+      "C": "Behind is 后边 (hòubiān).",
+      "D": "In front is 前边 (qiánbiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-008",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "yòubiān — 右边",
+    "question": "What does this mean?",
+    "choices": { "A": "Right side", "B": "Left side", "C": "Outside", "D": "Inside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 右边 (yòubiān) means 'right side'.",
+      "B": "Left side is 左边 (zuǒbiān).",
+      "C": "Outside is 外边 (wàibiān).",
+      "D": "Inside is 里边 (lǐbiān)."
+    },
+    "tags": ["location", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-009",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "fángzi — 房子",
+    "question": "What does this mean?",
+    "choices": { "A": "House", "B": "Room", "C": "Door", "D": "Window" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 房子 (fángzi) means 'house'.",
+      "B": "Room is 房间 (fángjiān).",
+      "C": "Door is 门 (mén).",
+      "D": "Window is 窗 (chuāng)."
+    },
+    "tags": ["place", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-010",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "ménkǒu — 门口",
+    "question": "What does this mean?",
+    "choices": { "A": "Doorway", "B": "Door", "C": "Table", "D": "Bed" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 门口 (ménkǒu) means 'doorway / entrance'.",
+      "B": "Door is 门 (mén).",
+      "C": "Table is 桌子 (zhuōzi).",
+      "D": "Bed is 床 (chuáng)."
+    },
+    "tags": ["place", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-011",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "zhuōzi — 桌子",
+    "question": "What does this mean?",
+    "choices": { "A": "Table", "B": "Room", "C": "Doorway", "D": "House" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 桌子 (zhuōzi) means 'table'.",
+      "B": "Room is 房间 (fángjiān).",
+      "C": "Doorway is 门口 (ménkǒu).",
+      "D": "House is 房子 (fángzi)."
+    },
+    "tags": ["home", "object"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-012",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "fángjiān — 房间",
+    "question": "What does this mean?",
+    "choices": { "A": "Room", "B": "House", "C": "Door", "D": "Window" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 房间 (fángjiān) means 'room'.",
+      "B": "House is 房子 (fángzi).",
+      "C": "Door is 门 (mén).",
+      "D": "Window is 窗 (chuāng)."
+    },
+    "tags": ["place", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-013",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "chuáng — 床",
+    "question": "What does this mean?",
+    "choices": { "A": "Bed", "B": "Table", "C": "Door", "D": "Room" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 床 (chuáng) means 'bed'.",
+      "B": "Table is 桌子 (zhuōzi).",
+      "C": "Door is 门 (mén).",
+      "D": "Room is 房间 (fángjiān)."
+    },
+    "tags": ["home", "object"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-014",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "mén — 门",
+    "question": "What does this mean?",
+    "choices": { "A": "Door", "B": "Doorway", "C": "Window", "D": "Room" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 门 (mén) means 'door'.",
+      "B": "Doorway is 门口 (ménkǒu).",
+      "C": "Window is 窗 (chuāng).",
+      "D": "Room is 房间 (fángjiān)."
+    },
+    "tags": ["home", "object"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence1-015",
+    "kind": "vocab",
+    "deckId": "locationexistence1",
+    "level": "HSK1",
+    "promptLine": "chuāng — 窗",
+    "question": "What does this mean?",
+    "choices": { "A": "Window", "B": "Door", "C": "Bed", "D": "House" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 窗 (chuāng) means 'window'.",
+      "B": "Door is 门 (mén).",
+      "C": "Bed is 床 (chuáng).",
+      "D": "House is 房子 (fángzi)."
+    },
+    "tags": ["home", "object"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "locationexistence2-001",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "fàng — 放",
+    "question": "What does this mean?",
+    "choices": { "A": "Put", "B": "Take", "C": "Open", "D": "Close" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 放 (fàng) means 'put'.",
+      "B": "Take/hold is 拿 (ná).",
+      "C": "Open/turn on is 开 (kāi).",
+      "D": "Close/turn off is 关 (guān)."
+    },
+    "tags": ["action", "placement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-002",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "ná — 拿",
+    "question": "What does this mean?",
+    "choices": { "A": "Take / hold", "B": "Put", "C": "Enter", "D": "Exit" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 拿 (ná) means 'take / hold'.",
+      "B": "Put is 放 (fàng).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Exit is 出 (chū)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-003",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "dài — 带",
+    "question": "What does this mean?",
+    "choices": { "A": "Bring", "B": "Listen", "C": "Stand", "D": "Go up" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 带 (dài) means 'bring'.",
+      "B": "Listen is 听 (tīng).",
+      "C": "Stand is 站 (zhàn).",
+      "D": "Go up is 上 (shàng)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-004",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "zhàn — 站",
+    "question": "What does this mean?",
+    "choices": { "A": "Stand", "B": "Leave / walk", "C": "Enter", "D": "Close" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 站 (zhàn) means 'stand'.",
+      "B": "Leave/walk is 走 (zǒu).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Close/turn off is 关 (guān)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-005",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "zǒu — 走",
+    "question": "What does this mean?",
+    "choices": { "A": "Leave / walk", "B": "Stand", "C": "Exit", "D": "Put" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 走 (zǒu) means 'leave / walk'.",
+      "B": "Stand is 站 (zhàn).",
+      "C": "Exit is 出 (chū).",
+      "D": "Put is 放 (fàng)."
+    },
+    "tags": ["action", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-006",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "kàn — 看",
+    "question": "What does this mean?",
+    "choices": { "A": "Look / watch", "B": "Listen", "C": "Open", "D": "Close" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 看 (kàn) means 'look / watch'.",
+      "B": "Listen is 听 (tīng).",
+      "C": "Open/turn on is 开 (kāi).",
+      "D": "Close/turn off is 关 (guān)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-007",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "tīng — 听",
+    "question": "What does this mean?",
+    "choices": { "A": "Listen", "B": "Look / watch", "C": "Enter", "D": "Exit" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 听 (tīng) means 'listen'.",
+      "B": "Look/watch is 看 (kàn).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Exit is 出 (chū)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-008",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "kāi — 开",
+    "question": "What does this mean?",
+    "choices": { "A": "Open / turn on", "B": "Close / turn off", "C": "Put", "D": "Bring" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 开 (kāi) means 'open / turn on'.",
+      "B": "Close/turn off is 关 (guān).",
+      "C": "Put is 放 (fàng).",
+      "D": "Bring is 带 (dài)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-009",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "guān — 关",
+    "question": "What does this mean?",
+    "choices": { "A": "Close / turn off", "B": "Open / turn on", "C": "Enter", "D": "Go down" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 关 (guān) means 'close / turn off'.",
+      "B": "Open/turn on is 开 (kāi).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Go down is 下 (xià)."
+    },
+    "tags": ["action"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-010",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "jìn — 进",
+    "question": "What does this mean?",
+    "choices": { "A": "Enter", "B": "Exit", "C": "Above", "D": "Below" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 进 (jìn) means 'enter'.",
+      "B": "Exit is 出 (chū).",
+      "C": "Above is 上边 (shàngbiān).",
+      "D": "Below is 下边 (xiàbiān)."
+    },
+    "tags": ["action", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-011",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "chū — 出",
+    "question": "What does this mean?",
+    "choices": { "A": "Exit", "B": "Enter", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 出 (chū) means 'exit'.",
+      "B": "Enter is 进 (jìn).",
+      "C": "Inside is 里边 (lǐbiān).",
+      "D": "Outside is 外边 (wàibiān)."
+    },
+    "tags": ["action", "movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-012",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "shàng — 上",
+    "question": "What does this mean?",
+    "choices": { "A": "Go up", "B": "Go down", "C": "Above", "D": "Behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 上 (shàng) means 'go up'.",
+      "B": "Go down is 下 (xià).",
+      "C": "Above is 上边 (shàngbiān).",
+      "D": "Behind is 后边 (hòubiān)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-013",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "xià — 下",
+    "question": "What does this mean?",
+    "choices": { "A": "Go down", "B": "Go up", "C": "Below", "D": "In front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 下 (xià) means 'go down'.",
+      "B": "Go up is 上 (shàng).",
+      "C": "Below is 下边 (xiàbiān).",
+      "D": "In front is 前边 (qiánbiān)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-014",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "zài nǎlǐ — 在哪里",
+    "question": "What does this mean?",
+    "choices": { "A": "Where is (it)?", "B": "It is here", "C": "It is there", "D": "In the room" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在哪里 (zài nǎlǐ) means 'where is (it)?'.",
+      "B": "It is here is 在这里 (zài zhèlǐ).",
+      "C": "It is there is 在那里 (zài nàlǐ).",
+      "D": "In the room is 在房间 (zài fángjiān)."
+    },
+    "tags": ["question", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence2-015",
+    "kind": "vocab",
+    "deckId": "locationexistence2",
+    "level": "HSK1",
+    "promptLine": "zài zhèlǐ — 在这里",
+    "question": "What does this mean?",
+    "choices": { "A": "It is here", "B": "Where is (it)?", "C": "It is there", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在这里 (zài zhèlǐ) means 'it is here'.",
+      "B": "Where is (it)? is 在哪里 (zài nǎlǐ).",
+      "C": "It is there is 在那里 (zài nàlǐ).",
+      "D": "Outside is 外边 (wàibiān)."
+    },
+    "tags": ["location"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "locationexistence3-001",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài shàngbiān — 在上边",
+    "question": "What does this mean?",
+    "choices": { "A": "On top", "B": "Below", "C": "Inside", "D": "Behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在上边 (zài shàngbiān) means 'on top'.",
+      "B": "Below is 在下边 (zài xiàbiān).",
+      "C": "Inside is 在里边 (zài lǐbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-002",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài xiàbiān — 在下边",
+    "question": "What does this mean?",
+    "choices": { "A": "Below", "B": "On top", "C": "Outside", "D": "In front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在下边 (zài xiàbiān) means 'below'.",
+      "B": "On top is 在上边 (zài shàngbiān).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "In front is 在前边 (zài qiánbiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-003",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài lǐbiān — 在里边",
+    "question": "What does this mean?",
+    "choices": { "A": "Inside", "B": "Outside", "C": "Left side", "D": "Right side" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在里边 (zài lǐbiān) means 'inside'.",
+      "B": "Outside is 在外边 (zài wàibiān).",
+      "C": "On the left is 在左边 (zài zuǒbiān).",
+      "D": "On the right is 在右边 (zài yòubiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-004",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài wàibiān — 在外边",
+    "question": "What does this mean?",
+    "choices": { "A": "Outside", "B": "Inside", "C": "On top", "D": "Behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在外边 (zài wàibiān) means 'outside'.",
+      "B": "Inside is 在里边 (zài lǐbiān).",
+      "C": "On top is 在上边 (zài shàngbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-005",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài qiánbiān — 在前边",
+    "question": "What does this mean?",
+    "choices": { "A": "In front", "B": "Behind", "C": "Below", "D": "Inside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在前边 (zài qiánbiān) means 'in front'.",
+      "B": "Behind is 在后边 (zài hòubiān).",
+      "C": "Below is 在下边 (zài xiàbiān).",
+      "D": "Inside is 在里边 (zài lǐbiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-006",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài hòubiān — 在后边",
+    "question": "What does this mean?",
+    "choices": { "A": "Behind", "B": "In front", "C": "Outside", "D": "On top" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在后边 (zài hòubiān) means 'behind'.",
+      "B": "In front is 在前边 (zài qiánbiān).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "On top is 在上边 (zài shàngbiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-007",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài zuǒbiān — 在左边",
+    "question": "What does this mean?",
+    "choices": { "A": "On the left", "B": "On the right", "C": "In front", "D": "Behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在左边 (zài zuǒbiān) means 'on the left'.",
+      "B": "On the right is 在右边 (zài yòubiān).",
+      "C": "In front is 在前边 (zài qiánbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-008",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài yòubiān — 在右边",
+    "question": "What does this mean?",
+    "choices": { "A": "On the right", "B": "On the left", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在右边 (zài yòubiān) means 'on the right'.",
+      "B": "On the left is 在左边 (zài zuǒbiān).",
+      "C": "Inside is 在里边 (zài lǐbiān).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-009",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài fángjiān — 在房间",
+    "question": "What does this mean?",
+    "choices": { "A": "In the room", "B": "At the door", "C": "On the table", "D": "In the house" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在房间 (zài fángjiān) means 'in the room'.",
+      "B": "At the door is 在门口 (zài ménkǒu).",
+      "C": "On the table is 在桌子上 (zài zhuōzi shàng).",
+      "D": "In the house is 在房子 (zài fángzi)."
+    },
+    "tags": ["phrase", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-010",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài fángzi — 在房子",
+    "question": "What does this mean?",
+    "choices": { "A": "At home / in the house", "B": "In the room", "C": "Outside", "D": "Where is (it)?" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在房子 (zài fángzi) means 'at home / in the house'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "Where is (it)? is 在哪里 (zài nǎlǐ)."
+    },
+    "tags": ["phrase", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-011",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài ménkǒu — 在门口",
+    "question": "What does this mean?",
+    "choices": { "A": "At the door", "B": "In the room", "C": "On top", "D": "Behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在门口 (zài ménkǒu) means 'at the door'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "On top is 在上边 (zài shàngbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["phrase", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-012",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài zhuōzi shàng — 在桌子上",
+    "question": "What does this mean?",
+    "choices": { "A": "On the table", "B": "Under the table", "C": "On the bed", "D": "In the room" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在桌子上 (zài zhuōzi shàng) means 'on the table'.",
+      "B": "Under the table would be 在桌子下边 (not in this deck).",
+      "C": "On the bed is 在床上 (zài chuáng shàng).",
+      "D": "In the room is 在房间 (zài fángjiān)."
+    },
+    "tags": ["phrase", "home"],
+    "difficulty": 2
+  },
+  {
+    "id": "locationexistence3-013",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài chuáng shàng — 在床上",
+    "question": "What does this mean?",
+    "choices": { "A": "On the bed", "B": "On the table", "C": "At the door", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在床上 (zài chuáng shàng) means 'on the bed'.",
+      "B": "On the table is 在桌子上 (zài zhuōzi shàng).",
+      "C": "At the door is 在门口 (zài ménkǒu).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["phrase", "home"],
+    "difficulty": 2
+  },
+  {
+    "id": "locationexistence3-014",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài zhèlǐ — 在这里",
+    "question": "What does this mean?",
+    "choices": { "A": "Here", "B": "There", "C": "Where is (it)?", "D": "Inside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在这里 (zài zhèlǐ) means 'here'.",
+      "B": "There is 在那里 (zài nàlǐ).",
+      "C": "Where is (it)? is 在哪里 (zài nǎlǐ).",
+      "D": "Inside is 在里边 (zài lǐbiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence3-015",
+    "kind": "vocab",
+    "deckId": "locationexistence3",
+    "level": "HSK1",
+    "promptLine": "zài nàlǐ — 在那里",
+    "question": "What does this mean?",
+    "choices": { "A": "There", "B": "Here", "C": "Outside", "D": "In front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 在那里 (zài nàlǐ) means 'there'.",
+      "B": "Here is 在这里 (zài zhèlǐ).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "In front is 在前边 (zài qiánbiān)."
+    },
+    "tags": ["phrase", "location"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "locationexistence4-001",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "wǒ zài zhèlǐ — 我在这里",
+    "question": "What does this mean?",
+    "choices": { "A": "I am here", "B": "He is here", "C": "I am there", "D": "Where am I?" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在这里 (wǒ zài zhèlǐ) means 'I am here'.",
+      "B": "He is here would be 他在这里 (tā zài zhèlǐ).",
+      "C": "I am there would be 我在那里 (wǒ zài nàlǐ).",
+      "D": "Where am I? would use 在哪里 (zài nǎlǐ)."
+    },
+    "tags": ["sentence", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-002",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài nàlǐ — 他在那里",
+    "question": "What does this mean?",
+    "choices": { "A": "He is there", "B": "He is here", "C": "I am there", "D": "Where is he?" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在那里 (tā zài nàlǐ) means 'he is there'.",
+      "B": "He is here is 他在这里 (tā zài zhèlǐ).",
+      "C": "I am there is 我在那里 (wǒ zài nàlǐ).",
+      "D": "Where is he? uses 在哪里 (zài nǎlǐ)."
+    },
+    "tags": ["sentence", "location"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-003",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "rén zài fángjiān — 人在房间",
+    "question": "What does this mean?",
+    "choices": { "A": "The person is in the room", "B": "The person is at the door", "C": "The person is outside", "D": "The person is on the bed" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 人在房间 (rén zài fángjiān) means 'the person is in the room'.",
+      "B": "At the door is 在门口 (zài ménkǒu).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "On the bed is 在床上 (zài chuáng shàng)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-004",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "dōngxi zài zhuōzi shàng — 东西在桌子上",
+    "question": "What does this mean?",
+    "choices": { "A": "The thing is on the table", "B": "The thing is in the room", "C": "The thing is at the door", "D": "The thing is outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 东西在桌子上 (dōngxi zài zhuōzi shàng) means 'the thing is on the table'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "At the door is 在门口 (zài ménkǒu).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 2
+  },
+  {
+    "id": "locationexistence4-005",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài ménkǒu — 他在门口",
+    "question": "What does this mean?",
+    "choices": { "A": "He is at the door", "B": "He is in the room", "C": "He is on the table", "D": "He is outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在门口 (tā zài ménkǒu) means 'he is at the door'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "On the table is 在桌子上 (zài zhuōzi shàng).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-006",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "wǒ zài fángzi — 我在房子",
+    "question": "What does this mean?",
+    "choices": { "A": "I am at home / in the house", "B": "I am in the room", "C": "I am at the door", "D": "I am outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在房子 (wǒ zài fángzi) means 'I am at home / in the house'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "At the door is 在门口 (zài ménkǒu).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-007",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài shàngbiān — 他在上边",
+    "question": "What does this mean?",
+    "choices": { "A": "He is above", "B": "He is below", "C": "He is in front", "D": "He is behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在上边 (tā zài shàngbiān) means 'he is above'.",
+      "B": "Below is 在下边 (zài xiàbiān).",
+      "C": "In front is 在前边 (zài qiánbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-008",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài xiàbiān — 他在下边",
+    "question": "What does this mean?",
+    "choices": { "A": "He is below", "B": "He is above", "C": "He is outside", "D": "He is inside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在下边 (tā zài xiàbiān) means 'he is below'.",
+      "B": "Above is 在上边 (zài shàngbiān).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "Inside is 在里边 (zài lǐbiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-009",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "wǒ zài lǐbiān — 我在里边",
+    "question": "What does this mean?",
+    "choices": { "A": "I am inside", "B": "I am outside", "C": "I am above", "D": "I am behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在里边 (wǒ zài lǐbiān) means 'I am inside'.",
+      "B": "Outside is 在外边 (zài wàibiān).",
+      "C": "Above is 在上边 (zài shàngbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-010",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài wàibiān — 他在外边",
+    "question": "What does this mean?",
+    "choices": { "A": "He is outside", "B": "He is inside", "C": "He is on the left", "D": "He is on the right" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在外边 (tā zài wàibiān) means 'he is outside'.",
+      "B": "Inside is 在里边 (zài lǐbiān).",
+      "C": "On the left is 在左边 (zài zuǒbiān).",
+      "D": "On the right is 在右边 (zài yòubiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-011",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "rén zài zuǒbiān — 人在左边",
+    "question": "What does this mean?",
+    "choices": { "A": "The person is on the left", "B": "The person is on the right", "C": "The person is in front", "D": "The person is behind" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 人在左边 (rén zài zuǒbiān) means 'the person is on the left'.",
+      "B": "On the right is 在右边 (zài yòubiān).",
+      "C": "In front is 在前边 (zài qiánbiān).",
+      "D": "Behind is 在后边 (zài hòubiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-012",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "rén zài yòubiān — 人在右边",
+    "question": "What does this mean?",
+    "choices": { "A": "The person is on the right", "B": "The person is on the left", "C": "The person is inside", "D": "The person is outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 人在右边 (rén zài yòubiān) means 'the person is on the right'.",
+      "B": "On the left is 在左边 (zài zuǒbiān).",
+      "C": "Inside is 在里边 (zài lǐbiān).",
+      "D": "Outside is 在外边 (zài wàibiān)."
+    },
+    "tags": ["sentence", "position"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-013",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "wǒ zài fángjiān — 我在房间",
+    "question": "What does this mean?",
+    "choices": { "A": "I am in the room", "B": "I am at the door", "C": "I am outside", "D": "I am on the bed" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在房间 (wǒ zài fángjiān) means 'I am in the room'.",
+      "B": "At the door is 在门口 (zài ménkǒu).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "On the bed is 在床上 (zài chuáng shàng)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 1
+  },
+  {
+    "id": "locationexistence4-014",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "tā zài chuáng shàng — 他在床上",
+    "question": "What does this mean?",
+    "choices": { "A": "He is on the bed", "B": "He is on the table", "C": "He is at the door", "D": "He is in the room" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他在床上 (tā zài chuáng shàng) means 'he is on the bed'.",
+      "B": "On the table is 在桌子上 (zài zhuōzi shàng).",
+      "C": "At the door is 在门口 (zài ménkǒu).",
+      "D": "In the room is 在房间 (zài fángjiān)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 2
+  },
+  {
+    "id": "locationexistence4-015",
+    "kind": "vocab",
+    "deckId": "locationexistence4",
+    "level": "HSK1",
+    "promptLine": "wǒ zài ménkǒu — 我在门口",
+    "question": "What does this mean?",
+    "choices": { "A": "I am at the door", "B": "I am in the room", "C": "I am outside", "D": "I am on the table" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在门口 (wǒ zài ménkǒu) means 'I am at the door'.",
+      "B": "In the room is 在房间 (zài fángjiān).",
+      "C": "Outside is 在外边 (zài wàibiān).",
+      "D": "On the table is 在桌子上 (zài zhuōzi shàng)."
+    },
+    "tags": ["sentence", "home"],
+    "difficulty": 1
   }
 ]
