@@ -10146,5 +10146,545 @@
     },
     "tags": ["sentence", "home"],
     "difficulty": 1
+  },
+  {
+    "id": "movementdir1-001",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "zǒu — 走",
+    "question": "What does this mean?",
+    "choices": { "A": "Walk / leave", "B": "Run", "C": "Stop", "D": "Return" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 走 (zǒu) means 'walk' or 'leave'.",
+      "B": "Run is 跑 (pǎo).",
+      "C": "Stop is 停 (tíng).",
+      "D": "Return is 回 (huí)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-002",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "jìn — 进",
+    "question": "What does this mean?",
+    "choices": { "A": "Enter", "B": "Exit", "C": "Arrive", "D": "Go up" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 进 (jìn) means 'enter'.",
+      "B": "Exit is 出 (chū).",
+      "C": "Arrive is 到 (dào).",
+      "D": "Go up is 上 (shàng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-003",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "chū — 出",
+    "question": "What does this mean?",
+    "choices": { "A": "Exit", "B": "Enter", "C": "Return", "D": "Stop" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 出 (chū) means 'exit'.",
+      "B": "Enter is 进 (jìn).",
+      "C": "Return is 回 (huí).",
+      "D": "Stop is 停 (tíng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-004",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "shàng — 上",
+    "question": "What does this mean?",
+    "choices": { "A": "Go up", "B": "Go down", "C": "Enter", "D": "Pass" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 上 (shàng) means 'go up'.",
+      "B": "Go down is 下 (xià).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Pass is 过 (guò)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-005",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "xià — 下",
+    "question": "What does this mean?",
+    "choices": { "A": "Go down", "B": "Go up", "C": "Stop", "D": "Arrive" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 下 (xià) means 'go down'.",
+      "B": "Go up is 上 (shàng).",
+      "C": "Stop is 停 (tíng).",
+      "D": "Arrive is 到 (dào)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-006",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "huí — 回",
+    "question": "What does this mean?",
+    "choices": { "A": "Return", "B": "Leave", "C": "Arrive", "D": "Follow" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 回 (huí) means 'return'.",
+      "B": "Leave a place is 离开 (líkāi).",
+      "C": "Arrive is 到 (dào).",
+      "D": "Follow is 跟 (gēn)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-007",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "dào — 到",
+    "question": "What does this mean?",
+    "choices": { "A": "Arrive", "B": "Return", "C": "Enter", "D": "Stop" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 到 (dào) means 'arrive'.",
+      "B": "Return is 回 (huí).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Stop is 停 (tíng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-008",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "líkāi — 离开",
+    "question": "What does this mean?",
+    "choices": { "A": "Leave (a place)", "B": "Arrive", "C": "Return", "D": "Stop" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 离开 (líkāi) means 'leave a place'.",
+      "B": "Arrive is 到 (dào).",
+      "C": "Return is 回 (huí).",
+      "D": "Stop is 停 (tíng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-009",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "pǎo — 跑",
+    "question": "What does this mean?",
+    "choices": { "A": "Run", "B": "Walk", "C": "Stop", "D": "Follow" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 跑 (pǎo) means 'run'.",
+      "B": "Walk is 走 (zǒu).",
+      "C": "Stop is 停 (tíng).",
+      "D": "Follow is 跟 (gēn)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-010",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "tíng — 停",
+    "question": "What does this mean?",
+    "choices": { "A": "Stop", "B": "Go", "C": "Run", "D": "Return" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 停 (tíng) means 'stop'.",
+      "B": "Go is 去 (qù).",
+      "C": "Run is 跑 (pǎo).",
+      "D": "Return is 回 (huí)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-011",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "gēn — 跟",
+    "question": "What does this mean?",
+    "choices": { "A": "Follow", "B": "Stop", "C": "Leave", "D": "Return" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 跟 (gēn) means 'follow'.",
+      "B": "Stop is 停 (tíng).",
+      "C": "Leave is 离开 (líkāi).",
+      "D": "Return is 回 (huí)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-012",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "dài — 带",
+    "question": "What does this mean?",
+    "choices": { "A": "Bring", "B": "Send", "C": "Follow", "D": "Pass" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 带 (dài) means 'bring' or 'take along'.",
+      "B": "Send is 送 (sòng).",
+      "C": "Follow is 跟 (gēn).",
+      "D": "Pass is 过 (guò)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-013",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "sòng — 送",
+    "question": "What does this mean?",
+    "choices": { "A": "Send / escort", "B": "Bring", "C": "Follow", "D": "Stop" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 送 (sòng) means 'send' or 'escort'.",
+      "B": "Bring is 带 (dài).",
+      "C": "Follow is 跟 (gēn).",
+      "D": "Stop is 停 (tíng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-014",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "guò — 过",
+    "question": "What does this mean?",
+    "choices": { "A": "Pass / cross", "B": "Stop", "C": "Enter", "D": "Return" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 过 (guò) means 'pass' or 'cross'.",
+      "B": "Stop is 停 (tíng).",
+      "C": "Enter is 进 (jìn).",
+      "D": "Return is 回 (huí)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir1-015",
+    "kind": "vocab",
+    "deckId": "movementdir1",
+    "level": "HSK1",
+    "promptLine": "jìnqù — 进去",
+    "question": "What does this mean?",
+    "choices": { "A": "Go in", "B": "Go out", "C": "Return", "D": "Stop" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 进去 (jìnqù) means 'go in'.",
+      "B": "Go out is 出去 (chūqù).",
+      "C": "Return is 回 (huí).",
+      "D": "Stop is 停 (tíng)."
+    },
+    "tags": ["movement"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-001",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "zhè — 这",
+    "question": "What does this mean?",
+    "choices": { "A": "This", "B": "That", "C": "Here", "D": "There" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 这 (zhè) means 'this'.",
+      "B": "That is 那 (nà).",
+      "C": "Here is 这里 (zhèlǐ).",
+      "D": "There is 那里 (nàlǐ)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-002",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "nà — 那",
+    "question": "What does this mean?",
+    "choices": { "A": "That", "B": "This", "C": "Here", "D": "Front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 那 (nà) means 'that'.",
+      "B": "This is 这 (zhè).",
+      "C": "Here is 这里 (zhèlǐ).",
+      "D": "Front is 前 (qián)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-003",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "zhèlǐ — 这里",
+    "question": "What does this mean?",
+    "choices": { "A": "Here", "B": "There", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 这里 (zhèlǐ) means 'here'.",
+      "B": "There is 那里 (nàlǐ).",
+      "C": "Inside is 里 (lǐ).",
+      "D": "Outside is 外 (wài)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-004",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "nàlǐ — 那里",
+    "question": "What does this mean?",
+    "choices": { "A": "There", "B": "Here", "C": "Back", "D": "Front" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 那里 (nàlǐ) means 'there'.",
+      "B": "Here is 这里 (zhèlǐ).",
+      "C": "Back is 后 (hòu).",
+      "D": "Front is 前 (qián)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-005",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "qián — 前",
+    "question": "What does this mean?",
+    "choices": { "A": "Front", "B": "Back", "C": "Left", "D": "Right" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 前 (qián) means 'front'.",
+      "B": "Back is 后 (hòu).",
+      "C": "Left is 左 (zuǒ).",
+      "D": "Right is 右 (yòu)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-006",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "hòu — 后",
+    "question": "What does this mean?",
+    "choices": { "A": "Back", "B": "Front", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 后 (hòu) means 'back'.",
+      "B": "Front is 前 (qián).",
+      "C": "Inside is 里 (lǐ).",
+      "D": "Outside is 外 (wài)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-007",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "zuǒ — 左",
+    "question": "What does this mean?",
+    "choices": { "A": "Left", "B": "Right", "C": "Front", "D": "Back" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 左 (zuǒ) means 'left'.",
+      "B": "Right is 右 (yòu).",
+      "C": "Front is 前 (qián).",
+      "D": "Back is 后 (hòu)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-008",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "yòu — 右",
+    "question": "What does this mean?",
+    "choices": { "A": "Right", "B": "Left", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 右 (yòu) means 'right'.",
+      "B": "Left is 左 (zuǒ).",
+      "C": "Inside is 里 (lǐ).",
+      "D": "Outside is 外 (wài)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-009",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "shàng — 上",
+    "question": "What does this mean?",
+    "choices": { "A": "Up", "B": "Down", "C": "Front", "D": "Back" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 上 (shàng) means 'up'.",
+      "B": "Down is 下 (xià).",
+      "C": "Front is 前 (qián).",
+      "D": "Back is 后 (hòu)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-010",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "xià — 下",
+    "question": "What does this mean?",
+    "choices": { "A": "Down", "B": "Up", "C": "Inside", "D": "Outside" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 下 (xià) means 'down'.",
+      "B": "Up is 上 (shàng).",
+      "C": "Inside is 里 (lǐ).",
+      "D": "Outside is 外 (wài)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-011",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "lǐ — 里",
+    "question": "What does this mean?",
+    "choices": { "A": "Inside", "B": "Outside", "C": "Front", "D": "Back" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 里 (lǐ) means 'inside'.",
+      "B": "Outside is 外 (wài).",
+      "C": "Front is 前 (qián).",
+      "D": "Back is 后 (hòu)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-012",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "wài — 外",
+    "question": "What does this mean?",
+    "choices": { "A": "Outside", "B": "Inside", "C": "Here", "D": "There" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 外 (wài) means 'outside'.",
+      "B": "Inside is 里 (lǐ).",
+      "C": "Here is 这里 (zhèlǐ).",
+      "D": "There is 那里 (nàlǐ)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-013",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "dōng — 东",
+    "question": "What does this mean?",
+    "choices": { "A": "East", "B": "West", "C": "South", "D": "North" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 东 (dōng) means 'east'.",
+      "B": "West is 西 (xī).",
+      "C": "South is 南 (nán).",
+      "D": "North is 北 (běi)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-014",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "xī — 西",
+    "question": "What does this mean?",
+    "choices": { "A": "West", "B": "East", "C": "South", "D": "North" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 西 (xī) means 'west'.",
+      "B": "East is 东 (dōng).",
+      "C": "South is 南 (nán).",
+      "D": "North is 北 (běi)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
+  },
+  {
+    "id": "movementdir2-015",
+    "kind": "vocab",
+    "deckId": "movementdir2",
+    "level": "HSK1",
+    "promptLine": "nán — 南",
+    "question": "What does this mean?",
+    "choices": { "A": "South", "B": "North", "C": "East", "D": "West" },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 南 (nán) means 'south'.",
+      "B": "North is 北 (běi).",
+      "C": "East is 东 (dōng).",
+      "D": "West is 西 (xī)."
+    },
+    "tags": ["direction"],
+    "difficulty": 1
   }
 ]

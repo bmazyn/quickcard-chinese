@@ -166,5 +166,53 @@
     "section": "Location & Existence",
     "deckName": "Location Sentences",
     "order": 4
-  }
+  },
+  "movementdir1": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Movement Verbs",
+  "order": 1
+},
+"movementdir2": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Directions",
+  "order": 2
+},
+"movementdir3": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Go / Come",
+  "order": 3
+},
+"movementdir4": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Move Sentences",
+  "order": 4
+},
+"stateexp1": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Feelings",
+  "order": 1
+},
+"stateexp2": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Change & Stay",
+  "order": 2
+},
+"stateexp3": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "State Phrases",
+  "order": 3
+},
+"stateexp4": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Experience Snt",
+  "order": 4
+}
 }
