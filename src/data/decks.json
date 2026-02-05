@@ -233,6 +233,12 @@
   "deckName": "Dining Words",
   "order": 3
 },
+"travel4-food4": {
+  "chapter": 4,
+  "section": "Food & Ordering",
+  "deckName": "Food Phrases",
+  "order": 4
+},
 
 "travel4-daily1": {
   "chapter": 4,
@@ -252,7 +258,12 @@
   "deckName": "Help Words",
   "order": 3
 },
-
+"travel4-daily4": {
+  "chapter": 4,
+  "section": "Daily Needs",
+  "deckName": "Daily Phrases",
+  "order": 4
+},
 "travel4-move1": {
   "chapter": 4,
   "section": "Getting Around",
@@ -270,5 +281,11 @@
   "section": "Getting Around",
   "deckName": "Directions",
   "order": 3
+},
+"travel4-move4": {
+  "chapter": 4,
+  "section": "Getting Around",
+  "deckName": "Travel Phrases",
+  "order": 4
 }
 }

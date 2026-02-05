@@ -11852,6 +11852,222 @@
     "difficulty": 1
   },
   {
+    "id": "travel4-food4-001",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào diǎn cài — 我要点菜",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want to order food.",
+      "B": "I want this dish.",
+      "C": "I want rice.",
+      "D": "I want noodles."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要点菜 means 'I want to order food.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-002",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào zhè ge cài — 我要这个菜",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want this dish.",
+      "B": "I want to order food.",
+      "C": "This dish is good.",
+      "D": "I want chicken."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要这个菜 means 'I want this dish.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-003",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào miàn — 我要面",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want noodles.",
+      "B": "I want rice.",
+      "C": "I want beef.",
+      "D": "I want water."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要面 means 'I want noodles.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-004",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào fàn — 我要饭",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want rice.",
+      "B": "I want noodles.",
+      "C": "I want food.",
+      "D": "I want chicken."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要饭 means 'I want rice.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-005",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào jī — 我要鸡",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want chicken.",
+      "B": "I want beef.",
+      "C": "I want food.",
+      "D": "I want this dish."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要鸡 means 'I want chicken.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-006",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào niú — 我要牛",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want beef.",
+      "B": "I want chicken.",
+      "C": "I want noodles.",
+      "D": "I want rice."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要牛 means 'I want beef.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-007",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào chá — 我要茶",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want tea.",
+      "B": "I want coffee.",
+      "C": "I want water.",
+      "D": "I want rice."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要茶 means 'I want tea.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-008",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào kāfēi — 我要咖啡",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want coffee.",
+      "B": "I want tea.",
+      "C": "I want water.",
+      "D": "I want food."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要咖啡 means 'I want coffee.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-009",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào shuǐ — 我要水",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want water.",
+      "B": "I want tea.",
+      "C": "I want rice.",
+      "D": "I want noodles."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要水 means 'I want water.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-010",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "zhè tài là le — 这太辣了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is too spicy.",
+      "B": "This is very good.",
+      "C": "This is cheap.",
+      "D": "This is wrong."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这太辣了 means 'This is too spicy.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-011",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "zhè hěn hǎo — 这很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is good.",
+      "B": "This is too spicy.",
+      "C": "This is cheap.",
+      "D": "This is wrong."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这很好 means 'This is good.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-food4-012",
+    "kind": "phrase",
+    "deckId": "travel4-food4",
+    "level": "HSK1",
+    "promptLine": "qǐng gěi wǒ zhàngdān — 请给我账单",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "The bill, please.",
+      "B": "I want to pay.",
+      "C": "This is expensive.",
+      "D": "I want food."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 请给我账单 means 'The bill, please.'" },
+    "tags": ["travel", "food", "phrase"],
+    "difficulty": 1
+  },
+  {
     "id": "travel4-daily1-001",
     "kind": "vocab",
     "deckId": "travel4-daily1",
@@ -12596,6 +12812,222 @@
     "correct": "A",
     "explanations": { "A": "Correct! Wrong is cuò — 错." },
     "tags": ["travel", "help", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-001",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "cèsuǒ zài nǎlǐ — 厕所在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the bathroom?",
+      "B": "Where is the store?",
+      "C": "Where is the hotel?",
+      "D": "Where is the bank?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 厕所在哪里 means 'Where is the bathroom?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-002",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "shāngdiàn zài nǎlǐ — 商店在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the store?",
+      "B": "Where is the hotel?",
+      "C": "Where is the bank?",
+      "D": "Where is the bathroom?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 商店在哪里 means 'Where is the store?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-003",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "jiǔdiàn zài nǎlǐ — 酒店在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the hotel?",
+      "B": "Where is the store?",
+      "C": "Where is the airport?",
+      "D": "Where is the bank?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 酒店在哪里 means 'Where is the hotel?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-004",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "yínháng zài nǎlǐ — 银行在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the bank?",
+      "B": "Where is the hotel?",
+      "C": "Where is the store?",
+      "D": "Where is the bathroom?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 银行在哪里 means 'Where is the bank?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-005",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "zhè tài guì le — 这太贵了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is too expensive.",
+      "B": "This is cheap.",
+      "C": "This is wrong.",
+      "D": "This is good."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这太贵了 means 'This is too expensive.'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-006",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "zhè hěn piányi — 这很便宜",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is cheap.",
+      "B": "This is expensive.",
+      "C": "This is good.",
+      "D": "This is wrong."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这很便宜 means 'This is cheap.'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-007",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "zhè duōshao qián — 这多少钱",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "How much is this?",
+      "B": "This is expensive.",
+      "C": "I want to pay.",
+      "D": "This is cheap."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这多少钱 means 'How much is this?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-008",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào fù — 我要付",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want to pay.",
+      "B": "I want to buy.",
+      "C": "I want to leave.",
+      "D": "I want help."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要付 means 'I want to pay.'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-009",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "kěyǐ yòng kǎ ma — 可以用卡吗",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Can I use a card?",
+      "B": "Can I pay cash?",
+      "C": "Is this expensive?",
+      "D": "Do you have change?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 可以用卡吗 means 'Can I use a card?'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-010",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "wǒ xūyào bāngmáng — 我需要帮忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I need help.",
+      "B": "I am lost.",
+      "C": "This is wrong.",
+      "D": "I want to ask."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我需要帮忙 means 'I need help.'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-011",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "wǒ mí le — 我迷了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I’m lost.",
+      "B": "I need help.",
+      "C": "I am wrong.",
+      "D": "I don’t know."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我迷了 means 'I’m lost.'" },
+    "tags": ["travel", "daily", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-daily4-012",
+    "kind": "phrase",
+    "deckId": "travel4-daily4",
+    "level": "HSK1",
+    "promptLine": "zhè shì cuò de — 这是错的",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is wrong.",
+      "B": "This is expensive.",
+      "C": "This is cheap.",
+      "D": "This is good."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 这是错的 means 'This is wrong.'" },
+    "tags": ["travel", "daily", "phrase"],
     "difficulty": 1
   },
   {
@@ -13344,6 +13776,221 @@
     "explanations": { "A": "Correct! Pull over / next to is kào — 靠." },
     "tags": ["travel", "directions", "reverse"],
     "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-001",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "chēzhàn zài nǎlǐ — 车站在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the station?",
+      "B": "Where is the airport?",
+      "C": "Where is the subway?",
+      "D": "Where is the entrance?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 车站在哪里 means 'Where is the station?'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-002",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "jīchǎng zài nǎlǐ — 机场在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the airport?",
+      "B": "Where is the station?",
+      "C": "Where is the hotel?",
+      "D": "Where is the exit?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 机场在哪里 means 'Where is the airport?'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-003",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "dìtiě zài nǎlǐ — 地铁在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the subway?",
+      "B": "Where is the station?",
+      "C": "Where is the entrance?",
+      "D": "Where is the exit?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 地铁在哪里 means 'Where is the subway?'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-004",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "rùkǒu zài nǎlǐ — 入口在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the entrance?",
+      "B": "Where is the exit?",
+      "C": "Where is the station?",
+      "D": "Where is the intersection?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 入口在哪里 means 'Where is the entrance?'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-005",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "chūkǒu zài nǎlǐ — 出口在哪里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where is the exit?",
+      "B": "Where is the entrance?",
+      "C": "Where is the subway?",
+      "D": "Where is the station?"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 出口在哪里 means 'Where is the exit?'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-006",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "wǒ qù jīchǎng — 我去机场",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I’m going to the airport.",
+      "B": "I arrived at the airport.",
+      "C": "Where is the airport?",
+      "D": "I want the airport."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我去机场 means 'I’m going to the airport.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-007",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "wǒ yào qù zhèlǐ — 我要去这里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want to go here.",
+      "B": "I arrive here.",
+      "C": "I am here.",
+      "D": "I stop here."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我要去这里 means 'I want to go here.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-008",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "wǒ dào zhèlǐ — 我到这里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I arrive here.",
+      "B": "I go here.",
+      "C": "I stop here.",
+      "D": "I am lost here."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 我到这里 means 'I arrive here.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-009",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "zài zhèlǐ huàn — 在这里换",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Transfer here.",
+      "B": "Stop here.",
+      "C": "Arrive here.",
+      "D": "Exit here."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 在这里换 means 'Transfer here.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-010",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "qǐng zài zhèlǐ tíng — 请在这里停",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Stop here, please.",
+      "B": "Get off here.",
+      "C": "Wait here, please.",
+      "D": "Park here."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 请在这里停 means 'Stop here, please.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-011",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "zài zhèlǐ xià chē — 在这里下车",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Get off here.",
+      "B": "Stop here.",
+      "C": "Transfer here.",
+      "D": "Arrive here."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 在这里下车 means 'Get off here.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move4-012",
+    "kind": "phrase",
+    "deckId": "travel4-move4",
+    "level": "HSK1",
+    "promptLine": "guò zhè ge lùkǒu — 过这个路口",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Pass this intersection.",
+      "B": "Stop at this intersection.",
+      "C": "Turn at this intersection.",
+      "D": "Arrive at this intersection."
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! 过这个路口 means 'Pass this intersection.'" },
+    "tags": ["travel", "move", "phrase"],
+    "difficulty": 1
   }
-
 ]
