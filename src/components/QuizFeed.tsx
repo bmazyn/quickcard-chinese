@@ -63,6 +63,7 @@ export default function QuizFeed() {
   // Reinforcement audio state
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const reinforcementTimeoutRef = useRef<number | null>(null);
+  const autoReinforcementDelayRef = useRef<number | null>(null);
 
   // const autoAdvanceTimerRef = useRef<number | null>(null);
 
@@ -188,6 +189,14 @@ export default function QuizFeed() {
       setStreak(0);
       // Wrong answer: set flag to restart loop on Next press
       setPendingLoopRestart(true);
+      
+      // Auto-play reinforcement audio for incorrect answers in normal quiz mode
+      const practiceSource = localStorage.getItem('qc_practice_source');
+      if (practiceSource !== 'speedrun') {
+        autoReinforcementDelayRef.current = window.setTimeout(() => {
+          playReinforcementForCard(currentCard);
+        }, 400);
+      }
     }
 
     // Auto-advance after 1 second
@@ -202,6 +211,12 @@ export default function QuizFeed() {
     //   clearTimeout(autoAdvanceTimerRef.current);
     //   autoAdvanceTimerRef.current = null;
     // }
+    
+    // Cancel pending automatic reinforcement audio if user advances early
+    if (autoReinforcementDelayRef.current !== null) {
+      clearTimeout(autoReinforcementDelayRef.current);
+      autoReinforcementDelayRef.current = null;
+    }
 
     // If pending loop restart from wrong answer, reshuffle and restart
     if (pendingLoopRestart) {
@@ -271,10 +286,10 @@ export default function QuizFeed() {
     return match ? match[0] : '';
   };
 
-  const handleReinforcementAudio = () => {
+  // Core reinforcement audio playback logic
+  const playReinforcementForCard = (card: QuizCardType) => {
     if (!('speechSynthesis' in window)) return;
     if (isPlayingReinforcement) return;
-    if (answerState.selectedChoice === null) return; // Only play if answered
     
     if (reinforcementTimeoutRef.current !== null) {
       clearTimeout(reinforcementTimeoutRef.current);
@@ -283,19 +298,18 @@ export default function QuizFeed() {
     window.speechSynthesis.cancel();
     setIsPlayingReinforcement(true);
     
-    const currentCard = shuffledDeck[currentIndex];
-    const isReverse = currentCard.tags?.includes('reverse') || !hasChinese(currentCard.promptLine);
+    const isReverse = card.tags?.includes('reverse') || !hasChinese(card.promptLine);
     
     if (isReverse) {
       // Reverse card: speak English first, then Chinese hanzi only
-      const englishText = currentCard.promptLine;
+      const englishText = card.promptLine;
       const englishUtterance = new SpeechSynthesisUtterance(englishText);
       englishUtterance.lang = 'en-US';
       englishUtterance.rate = 0.9;
       
       englishUtterance.onend = () => {
         reinforcementTimeoutRef.current = window.setTimeout(() => {
-          const choiceText = currentCard.choices[currentCard.correct];
+          const choiceText = card.choices[card.correct];
           const hanzi = extractHanziFromChoice(choiceText);
           
           if (hanzi) {
@@ -326,7 +340,7 @@ export default function QuizFeed() {
       window.speechSynthesis.speak(englishUtterance);
     } else {
       // Normal card: speak Chinese first, then English
-      const hanzi = currentCard.promptLine.split(' — ')[1];
+      const hanzi = card.promptLine.split(' — ')[1];
       
       const chineseUtterance = new SpeechSynthesisUtterance(hanzi);
       chineseUtterance.lang = 'zh-CN';
@@ -334,7 +348,7 @@ export default function QuizFeed() {
       
       chineseUtterance.onend = () => {
         reinforcementTimeoutRef.current = window.setTimeout(() => {
-          const englishText = currentCard.choices[currentCard.correct];
+          const englishText = card.choices[card.correct];
           const englishUtterance = new SpeechSynthesisUtterance(englishText);
           englishUtterance.lang = 'en-US';
           englishUtterance.rate = 0.9;
@@ -357,6 +371,12 @@ export default function QuizFeed() {
       
       window.speechSynthesis.speak(chineseUtterance);
     }
+  };
+
+  const handleReinforcementAudio = () => {
+    if (answerState.selectedChoice === null) return; // Only play if answered
+    const currentCard = shuffledDeck[currentIndex];
+    playReinforcementForCard(currentCard);
   };
 
   if (shuffledDeck.length === 0) {
