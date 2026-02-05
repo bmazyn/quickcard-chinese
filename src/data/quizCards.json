@@ -12597,5 +12597,753 @@
     "explanations": { "A": "Correct! Wrong is cuò — 错." },
     "tags": ["travel", "help", "reverse"],
     "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-001",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "chē — 车",
+    "question": "What does this mean?",
+    "choices": { "A": "Vehicle", "B": "Taxi", "C": "Bus", "D": "Train" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 车 means vehicle." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-002",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "chūzūchē — 出租车",
+    "question": "What does this mean?",
+    "choices": { "A": "Taxi", "B": "Bus", "C": "Train", "D": "Vehicle" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 出租车 means taxi." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-003",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "gōnggòng qìchē — 公共汽车",
+    "question": "What does this mean?",
+    "choices": { "A": "Bus", "B": "Subway", "C": "Train", "D": "Shuttle" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 公共汽车 means bus." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-004",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "dìtiě — 地铁",
+    "question": "What does this mean?",
+    "choices": { "A": "Subway", "B": "Bus", "C": "Train", "D": "Taxi" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 地铁 means subway." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-005",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "huǒchē — 火车",
+    "question": "What does this mean?",
+    "choices": { "A": "Train", "B": "Subway", "C": "Bus", "D": "Vehicle" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 火车 means train." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-006",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "fēijī — 飞机",
+    "question": "What does this mean?",
+    "choices": { "A": "Airplane", "B": "Train", "C": "Bus", "D": "Shuttle" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 飞机 means airplane." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-007",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "zìxíngchē — 自行车",
+    "question": "What does this mean?",
+    "choices": { "A": "Bicycle", "B": "Motorcycle", "C": "Vehicle", "D": "Shuttle" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 自行车 means bicycle." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-008",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "bānchē — 班车",
+    "question": "What does this mean?",
+    "choices": { "A": "Shuttle", "B": "Bus", "C": "Taxi", "D": "Train" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 班车 means shuttle." },
+    "tags": ["travel", "transport"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "travel4-move1-009",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Vehicle",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chē — 车",
+      "B": "huǒchē — 火车",
+      "C": "chūzūchē — 出租车",
+      "D": "gōnggòng qìchē — 公共汽车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Vehicle is chē — 车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-010",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Taxi",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chūzūchē — 出租车",
+      "B": "bānchē — 班车",
+      "C": "gōnggòng qìchē — 公共汽车",
+      "D": "chē — 车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Taxi is chūzūchē — 出租车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-011",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Bus",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "gōnggòng qìchē — 公共汽车",
+      "B": "dìtiě — 地铁",
+      "C": "bānchē — 班车",
+      "D": "huǒchē — 火车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Bus is gōnggòng qìchē — 公共汽车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-012",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Subway",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "dìtiě — 地铁",
+      "B": "huǒchē — 火车",
+      "C": "gōnggòng qìchē — 公共汽车",
+      "D": "bānchē — 班车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Subway is dìtiě — 地铁." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-013",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Train",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "huǒchē — 火车",
+      "B": "dìtiě — 地铁",
+      "C": "bānchē — 班车",
+      "D": "chē — 车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Train is huǒchē — 火车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-014",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Airplane",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "fēijī — 飞机",
+      "B": "huǒchē — 火车",
+      "C": "dìtiě — 地铁",
+      "D": "bānchē — 班车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Airplane is fēijī — 飞机." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-015",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Bicycle",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "zìxíngchē — 自行车",
+      "B": "chē — 车",
+      "C": "bānchē — 班车",
+      "D": "gōnggòng qìchē — 公共汽车"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Bicycle is zìxíngchē — 自行车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move1-016",
+    "kind": "vocab",
+    "deckId": "travel4-move1",
+    "level": "HSK1",
+    "promptLine": "Shuttle",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "bānchē — 班车",
+      "B": "gōnggòng qìchē — 公共汽车",
+      "C": "chūzūchē — 出租车",
+      "D": "dìtiě — 地铁"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Shuttle is bānchē — 班车." },
+    "tags": ["travel", "transport", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-001",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "chēzhàn — 车站",
+    "question": "What does this mean?",
+    "choices": { "A": "Station", "B": "Airport", "C": "Platform", "D": "Intersection" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 车站 means station." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-002",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "jīchǎng — 机场",
+    "question": "What does this mean?",
+    "choices": { "A": "Airport", "B": "Station", "C": "Hotel", "D": "Location" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 机场 means airport." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-003",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "zhàn tái — 站台",
+    "question": "What does this mean?",
+    "choices": { "A": "Platform", "B": "Station", "C": "Exit", "D": "Entrance" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 站台 means platform." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-004",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "chūkǒu — 出口",
+    "question": "What does this mean?",
+    "choices": { "A": "Exit", "B": "Entrance", "C": "Intersection", "D": "Location" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 出口 means exit." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-005",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "rùkǒu — 入口",
+    "question": "What does this mean?",
+    "choices": { "A": "Entrance", "B": "Exit", "C": "Station", "D": "Platform" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 入口 means entrance." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-006",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "lùkǒu — 路口",
+    "question": "What does this mean?",
+    "choices": { "A": "Intersection", "B": "Location", "C": "Station", "D": "Exit" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 路口 means intersection." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-007",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "zhōngzhuǎn zhàn — 中转站",
+    "question": "What does this mean?",
+    "choices": { "A": "Transfer station", "B": "Platform", "C": "Station", "D": "Airport" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 中转站 means transfer station." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-008",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "dìdiǎn — 地点",
+    "question": "What does this mean?",
+    "choices": { "A": "Location", "B": "Place", "C": "Station", "D": "Intersection" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 地点 means location." },
+    "tags": ["travel", "places"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "travel4-move2-009",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Station",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chēzhàn — 车站",
+      "B": "zhàn tái — 站台",
+      "C": "zhōngzhuǎn zhàn — 中转站",
+      "D": "jīchǎng — 机场"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Station is chēzhàn — 车站." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-010",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Airport",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "jīchǎng — 机场",
+      "B": "chēzhàn — 车站",
+      "C": "zhōngzhuǎn zhàn — 中转站",
+      "D": "dìdiǎn — 地点"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Airport is jīchǎng — 机场." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-011",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Platform",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "zhàn tái — 站台",
+      "B": "chēzhàn — 车站",
+      "C": "chūkǒu — 出口",
+      "D": "rùkǒu — 入口"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Platform is zhàn tái — 站台." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-012",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Exit",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chūkǒu — 出口",
+      "B": "rùkǒu — 入口",
+      "C": "lùkǒu — 路口",
+      "D": "dìdiǎn — 地点"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Exit is chūkǒu — 出口." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-013",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Entrance",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "rùkǒu — 入口",
+      "B": "chūkǒu — 出口",
+      "C": "zhàn tái — 站台",
+      "D": "chēzhàn — 车站"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Entrance is rùkǒu — 入口." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-014",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Intersection",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "lùkǒu — 路口",
+      "B": "dìdiǎn — 地点",
+      "C": "zhōngzhuǎn zhàn — 中转站",
+      "D": "chēzhàn — 车站"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Intersection is lùkǒu — 路口." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-015",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Transfer station",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "zhōngzhuǎn zhàn — 中转站",
+      "B": "chēzhàn — 车站",
+      "C": "jīchǎng — 机场",
+      "D": "zhàn tái — 站台"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Transfer station is zhōngzhuǎn zhàn — 中转站." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move2-016",
+    "kind": "vocab",
+    "deckId": "travel4-move2",
+    "level": "HSK1",
+    "promptLine": "Location",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "dìdiǎn — 地点",
+      "B": "lùkǒu — 路口",
+      "C": "chēzhàn — 车站",
+      "D": "zhàn tái — 站台"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Location is dìdiǎn — 地点." },
+    "tags": ["travel", "places", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-001",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "dào — 到",
+    "question": "What does this mean?",
+    "choices": { "A": "Arrive", "B": "Depart", "C": "Enter", "D": "Stop" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 到 means arrive." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-002",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "chūfā — 出发",
+    "question": "What does this mean?",
+    "choices": { "A": "Depart", "B": "Arrive", "C": "Stop", "D": "Transfer" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 出发 means depart." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-003",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "huàn — 换",
+    "question": "What does this mean?",
+    "choices": { "A": "Transfer", "B": "Change seats", "C": "Stop", "D": "Enter" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 换 means transfer." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-004",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "guò — 过",
+    "question": "What does this mean?",
+    "choices": { "A": "Pass / cross", "B": "Stop", "C": "Enter", "D": "Arrive" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 过 means pass or cross." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-005",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "jìn — 进",
+    "question": "What does this mean?",
+    "choices": { "A": "Enter", "B": "Exit", "C": "Arrive", "D": "Stop" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 进 means enter." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-006",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "chū — 出",
+    "question": "What does this mean?",
+    "choices": { "A": "Exit", "B": "Enter", "C": "Stop", "D": "Pass" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 出 means exit." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-007",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "tíng — 停",
+    "question": "What does this mean?",
+    "choices": { "A": "Stop", "B": "Park", "C": "Arrive", "D": "Exit" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 停 means stop." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-008",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "kào — 靠",
+    "question": "What does this mean?",
+    "choices": { "A": "Pull over / next to", "B": "Stop", "C": "Enter", "D": "Pass" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 靠 means pull over or be next to." },
+    "tags": ["travel", "directions"],
+    "difficulty": 1
+  },
+
+  {
+    "id": "travel4-move3-009",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Arrive",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "dào — 到",
+      "B": "chūfā — 出发",
+      "C": "tíng — 停",
+      "D": "guò — 过"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Arrive is dào — 到." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-010",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Depart",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chūfā — 出发",
+      "B": "dào — 到",
+      "C": "huàn — 换",
+      "D": "tíng — 停"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Depart is chūfā — 出发." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-011",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Transfer",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "huàn — 换",
+      "B": "guò — 过",
+      "C": "kào — 靠",
+      "D": "chū — 出"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Transfer is huàn — 换." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-012",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Pass / cross",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "guò — 过",
+      "B": "jìn — 进",
+      "C": "chū — 出",
+      "D": "tíng — 停"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Pass / cross is guò — 过." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-013",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Enter",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "jìn — 进",
+      "B": "chū — 出",
+      "C": "dào — 到",
+      "D": "kào — 靠"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Enter is jìn — 进." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-014",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Exit",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "chū — 出",
+      "B": "jìn — 进",
+      "C": "guò — 过",
+      "D": "tíng — 停"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Exit is chū — 出." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-015",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Stop",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "tíng — 停",
+      "B": "kào — 靠",
+      "C": "huàn — 换",
+      "D": "dào — 到"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Stop is tíng — 停." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "travel4-move3-016",
+    "kind": "vocab",
+    "deckId": "travel4-move3",
+    "level": "HSK1",
+    "promptLine": "Pull over / next to",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "kào — 靠",
+      "B": "tíng — 停",
+      "C": "guò — 过",
+      "D": "jìn — 进"
+    },
+    "correct": "A",
+    "explanations": { "A": "Correct! Pull over / next to is kào — 靠." },
+    "tags": ["travel", "directions", "reverse"],
+    "difficulty": 1
   }
+
 ]
