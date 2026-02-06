@@ -1,4 +1,82 @@
 {
+  "beginner1": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 1",
+    "order": 1
+  },
+  "beginner2": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 2",
+    "order": 2
+  },
+  "beginner3": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 3",
+    "order": 3
+  },
+  "beginnerPhrases": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner Phrases",
+    "order": 4
+  },
+
+  "fundamentals1": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 1",
+    "order": 1
+  },
+  "fundamentals2": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 2",
+    "order": 2
+  },
+  "fundamentals3": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 3",
+    "order": 3
+  },
+  "family": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Family",
+    "order": 4
+  },
+
+  "core1": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 1",
+    "order": 1
+  },
+  "core2": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 2",
+    "order": 2
+  },
+  "core3": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 3",
+    "order": 3
+  },
+  "corePhrases": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core Phrases",
+    "order": 4
+  },
+
+
+
+
   "foundation1": {
     "chapter": 1,
     "section": "Foundation",
