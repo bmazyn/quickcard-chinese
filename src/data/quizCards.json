@@ -308,7 +308,7 @@
   "level": "HSK1",
   "promptLine": "tā — 它",
   "question": "What does this mean?",
-  "choices": { "A": "it", "B": "he", "C": "she", "D": "they" },
+  "choices": { "A": "it (objects / animals)", "B": "he", "C": "she", "D": "they" },
   "correct": "A",
   "explanations": { "A": "Correct! 它 (tā) means it." },
   "tags": ["beginner"],
@@ -321,9 +321,9 @@
   "level": "HSK1",
   "promptLine": "shì — 是",
   "question": "What does this mean?",
-  "choices": { "A": "yes", "B": "is", "C": "have", "D": "do" },
+  "choices": { "A": "is / are / am", "B": "is", "C": "have", "D": "do" },
   "correct": "A",
-  "explanations": { "A": "Correct! 是 (shì) can mean yes." },
+  "explanations": { "A": "Correct! 是 (shì) can mean is / are / am." },
   "tags": ["beginner"],
   "difficulty": 1
 },
@@ -519,7 +519,7 @@
   "promptLine": "shì — 是",
   "question": "What does this mean?",
   "choices": {
-    "A": "be / is / are / am",
+    "A": "is / are / am",
     "B": "have",
     "C": "do",
     "D": "go"
@@ -724,24 +724,6 @@
   "difficulty": 1
 },
 {
-  "id": "beginnerPhrases-005",
-  "kind": "phrase",
-  "deckId": "beginnerPhrases",
-  "level": "HSK1",
-  "promptLine": "shì de, qǐng — 是的，请",
-  "question": "What does this mean?",
-  "choices": {
-    "A": "Yes please",
-    "B": "No thank you",
-    "C": "Yes, I know",
-    "D": "Please wait"
-  },
-  "correct": "A",
-  "explanations": { "A": "Correct! 是的，请 means yes please." },
-  "tags": ["beginner", "phrase"],
-  "difficulty": 1
-},
-{
   "id": "beginnerPhrases-006",
   "kind": "phrase",
   "deckId": "beginnerPhrases",
@@ -867,7 +849,60 @@
   "tags": ["beginner", "phrase"],
   "difficulty": 1
 },
-
+{
+  "id": "beginnerPhrases-013",
+  "kind": "phrase",
+  "deckId": "beginnerPhrases",
+  "level": "HSK1",
+  "promptLine": "hǎo de, xièxie — 好的，谢谢",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Okay, thank you",
+    "B": "Yes, please",
+    "C": "No problem",
+    "D": "You're welcome"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 好的，谢谢 means okay, thank you." },
+  "tags": ["beginner", "phrase"],
+  "difficulty": 1
+},
+{
+  "id": "beginnerPhrases-014",
+  "kind": "phrase",
+  "deckId": "beginnerPhrases",
+  "level": "HSK1",
+  "promptLine": "bú yòng, xièxie — 不用，谢谢",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "No need, thank you",
+    "B": "Yes, thank you",
+    "C": "Please help me",
+    "D": "Wait a moment"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 不用，谢谢 means no need, thank you." },
+  "tags": ["beginner", "phrase"],
+  "difficulty": 1
+},
+{
+  "id": "beginnerPhrases-015",
+  "kind": "phrase",
+  "deckId": "beginnerPhrases",
+  "level": "HSK1",
+  "promptLine": "kě yǐ ma? — 可以吗？",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Is it okay?",
+    "B": "Why not?",
+    "C": "I want it",
+    "D": "That's good"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 可以吗？ means is it okay? or may I?" },
+  "tags": ["beginner", "phrase"],
+  "difficulty": 1
+},
 
   {
     "id": "foundation1-001",
