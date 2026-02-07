@@ -1037,7 +1037,7 @@
   "choices": {
     "A": "tā — 他 / 她",
     "B": "tāmen — 他们",
-    "C": "tā — 它",
+    "C": "wǒ — 我",
     "D": "rén — 人"
   },
   "correct": "A",
@@ -1066,35 +1066,27 @@
   "level": "HSK1",
   "promptLine": "tā de — 他的 / 她的",
   "question": "What does this mean?",
-  "choices": {
-    "A": "his / her",
-    "B": "their",
-    "C": "he / she",
-    "D": "someone’s"
-  },
+  "choices": { "A": "his / her", "B": "their", "C": "he / she", "D": "someone’s" },
   "correct": "A",
-  "explanations": {
-    "A": "Correct! tā de (他的 / 她的) means his or her. The sound is the same."
-  },
+  "explanations": { "A": "Correct! tā de means his or her." },
   "tags": ["beginner"],
   "difficulty": 1
-}, 
-
+},
 {
-  "id": "fundamentals2-004",
+  "id": "fundamentals2-003",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
   "promptLine": "tāmen — 他们",
   "question": "What does this mean?",
-  "choices": { "A": "they", "B": "we", "C": "people", "D": "someone" },
+  "choices": { "A": "they", "B": "we", "C": "people", "D": "them" },
   "correct": "A",
   "explanations": { "A": "Correct! 他们 (tāmen) means they." },
   "tags": ["beginner"],
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-005",
+  "id": "fundamentals2-004",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1107,20 +1099,20 @@
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-006",
+  "id": "fundamentals2-005",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
   "promptLine": "tāmen de — 他们的",
   "question": "What does this mean?",
-  "choices": { "A": "their", "B": "they", "C": "his", "D": "her" },
+  "choices": { "A": "their", "B": "they", "C": "his / her", "D": "our" },
   "correct": "A",
   "explanations": { "A": "Correct! 他们的 means their." },
   "tags": ["beginner"],
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-007",
+  "id": "fundamentals2-006",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1133,7 +1125,7 @@
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-008",
+  "id": "fundamentals2-007",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1145,8 +1137,10 @@
   "tags": ["beginner"],
   "difficulty": 1
 },
+
+
 {
-  "id": "fundamentals2-009",
+  "id": "fundamentals2-008",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1159,41 +1153,33 @@
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-010",
+  "id": "fundamentals2-009",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
   "promptLine": "his / her",
   "question": "Which is correct?",
-  "choices": {
-    "A": "tā de — 他的 / 她的",
-    "B": "tāmen de — 他们的",
-    "C": "wǒ de — 我的",
-    "D": "tā — 他 / 她"
-  },
+  "choices": { "A": "tā de — 他的 / 她的", "B": "tāmen de — 他们的", "C": "wǒmen de — 我们的", "D": "tā — 他 / 她" },
   "correct": "A",
-  "explanations": {
-    "A": "Correct! His / her is tā de — 他的 / 她的. They sound the same in Chinese."
-  },
-  "tags": ["beginner", "reverse"],
+  "explanations": { "A": "Correct! His / her is tā de." },
+  "tags": ["beginner","reverse"],
   "difficulty": 1
 },
-
 {
-  "id": "fundamentals2-012",
+  "id": "fundamentals2-010",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
   "promptLine": "they",
   "question": "Which is correct?",
-  "choices": { "A": "tāmen — 他们", "B": "wǒmen — 我们", "C": "tā — 他", "D": "rén — 人" },
+  "choices": { "A": "tāmen — 他们", "B": "wǒmen — 我们", "C": "tā — 他 / 她", "D": "rén — 人" },
   "correct": "A",
   "explanations": { "A": "Correct! They is 他们." },
   "tags": ["beginner","reverse"],
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-013",
+  "id": "fundamentals2-011",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1206,20 +1192,20 @@
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-014",
+  "id": "fundamentals2-012",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
   "promptLine": "their",
   "question": "Which is correct?",
-  "choices": { "A": "tāmen de — 他们的", "B": "tā de — 他的", "C": "tā de — 她的", "D": "wǒmen de — 我们的" },
+  "choices": { "A": "tāmen de — 他们的", "B": "tā de — 他的 / 她的", "C": "wǒmen de — 我们的", "D": "tā — 他 / 她" },
   "correct": "A",
   "explanations": { "A": "Correct! Their is 他们的." },
   "tags": ["beginner","reverse"],
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-015",
+  "id": "fundamentals2-013",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1232,7 +1218,7 @@
   "difficulty": 1
 },
 {
-  "id": "fundamentals2-016",
+  "id": "fundamentals2-014",
   "kind": "vocab",
   "deckId": "fundamentals2",
   "level": "HSK1",
@@ -1244,6 +1230,8 @@
   "tags": ["beginner","reverse"],
   "difficulty": 1
 },
+
+
 {
   "id": "fundamentals3-001",
   "kind": "vocab",
