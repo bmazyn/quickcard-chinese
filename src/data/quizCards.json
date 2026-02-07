@@ -420,19 +420,6 @@
   "difficulty": 1
 },
 {
-  "id": "beginner2-014",
-  "kind": "vocab",
-  "deckId": "beginner2",
-  "level": "HSK1",
-  "promptLine": "yes",
-  "question": "Which is correct?",
-  "choices": { "A": "shì — 是", "B": "bù — 不", "C": "qǐng — 请", "D": "xiǎng — 想" },
-  "correct": "A",
-  "explanations": { "A": "Correct! Yes can be 是 (shì)." },
-  "tags": ["beginner","reverse"],
-  "difficulty": 1
-},
-{
   "id": "beginner2-015",
   "kind": "vocab",
   "deckId": "beginner2",
@@ -723,6 +710,26 @@
   "tags": ["beginner", "phrase"],
   "difficulty": 1
 },
+
+{
+  "id": "beginnerPhrases-005",
+  "kind": "phrase",
+  "deckId": "beginnerPhrases",
+  "level": "HSK1",
+  "promptLine": "wǒ hěn hǎo — 我很好",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I’m very well / I’m fine",
+    "B": "I like it",
+    "C": "I’m sorry",
+    "D": "I know"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 我很好 means I’m very well or I’m fine." },
+  "tags": ["beginner", "phrase"],
+  "difficulty": 1
+},
+
 {
   "id": "beginnerPhrases-006",
   "kind": "phrase",
@@ -867,42 +874,7 @@
   "tags": ["beginner", "phrase"],
   "difficulty": 1
 },
-{
-  "id": "beginnerPhrases-014",
-  "kind": "phrase",
-  "deckId": "beginnerPhrases",
-  "level": "HSK1",
-  "promptLine": "bú yòng, xièxie — 不用，谢谢",
-  "question": "What does this mean?",
-  "choices": {
-    "A": "No need, thank you",
-    "B": "Yes, thank you",
-    "C": "Please help me",
-    "D": "Wait a moment"
-  },
-  "correct": "A",
-  "explanations": { "A": "Correct! 不用，谢谢 means no need, thank you." },
-  "tags": ["beginner", "phrase"],
-  "difficulty": 1
-},
-{
-  "id": "beginnerPhrases-015",
-  "kind": "phrase",
-  "deckId": "beginnerPhrases",
-  "level": "HSK1",
-  "promptLine": "kě yǐ ma? — 可以吗？",
-  "question": "What does this mean?",
-  "choices": {
-    "A": "Is it okay?",
-    "B": "Why not?",
-    "C": "I want it",
-    "D": "That's good"
-  },
-  "correct": "A",
-  "explanations": { "A": "Correct! 可以吗？ means is it okay? or may I?" },
-  "tags": ["beginner", "phrase"],
-  "difficulty": 1
-},
+
 
   {
     "id": "foundation1-001",

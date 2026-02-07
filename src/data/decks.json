@@ -110,7 +110,7 @@
   "foundation2-places": {
     "chapter": 1,
     "section": "Foundation 2",
-    "deckName": "Places",
+    "deckName": "Places B",
     "order": 2
   },
   "foundation2-countries": {
@@ -254,7 +254,7 @@
 "movementdir2": {
   "chapter": 3,
   "section": "Movement & Dir",
-  "deckName": "Directions",
+  "deckName": "Directions B",
   "order": 2
 },
 "movementdir3": {
