@@ -1676,6 +1676,256 @@
   "difficulty": 1
 },
 
+{
+  "id": "core1-001",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "qù — 去",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "go", 
+    "B": "come", 
+    "C": "see / look", 
+    "D": "use / make" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 去 (qù) means go." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-002",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "lái — 来",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "come", 
+    "B": "go", 
+    "C": "need / want", 
+    "D": "say / speak" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 来 (lái) means come." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-003",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "kàn — 看",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "see / look", 
+    "B": "think / want", 
+    "C": "say / speak", 
+    "D": "use / make" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 看 (kàn) means see or look." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-004",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "xūyào — 需要",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "need", 
+    "B": "want", 
+    "C": "use / make", 
+    "D": "help / assist" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 需要 (xūyào) means need." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-005",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "zuò — 做",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "do / make", 
+    "B": "work / job", 
+    "C": "use / apply", 
+    "D": "give / hand" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 做 (zuò) means do or make." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-006",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "yòng — 用",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "use", 
+    "B": "make / do", 
+    "C": "take / hold", 
+    "D": "give / pass" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 用 (yòng) means use." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-007",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "shuō — 说",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "say / speak", 
+    "B": "think / plan", 
+    "C": "ask / question", 
+    "D": "tell / explain" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 说 (shuō) means say or speak." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core1-008",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "xiǎng — 想",
+  "question": "What does this mean?",
+  "choices": { 
+    "A": "think / want", 
+    "B": "know / understand", 
+    "C": "need / require", 
+    "D": "see / look" 
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 想 (xiǎng) means think or want." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+
+{
+  "id": "core1-009",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "go",
+  "question": "Which is correct?",
+  "choices": { "A": "qù — 去", "B": "lái — 来", "C": "kàn — 看", "D": "zuò — 做" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Go is 去." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-010",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "come",
+  "question": "Which is correct?",
+  "choices": { "A": "lái — 来", "B": "qù — 去", "C": "shuō — 说", "D": "yòng — 用" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Come is 来." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-011",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "see / look",
+  "question": "Which is correct?",
+  "choices": { "A": "kàn — 看", "B": "xiǎng — 想", "C": "shuō — 说", "D": "yòng — 用" },
+  "correct": "A",
+  "explanations": { "A": "Correct! See / look is 看." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-012",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "need",
+  "question": "Which is correct?",
+  "choices": { "A": "xūyào — 需要", "B": "xiǎng — 想", "C": "yòng — 用", "D": "bāngmáng — 帮忙" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Need is 需要." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-013",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "do / make",
+  "question": "Which is correct?",
+  "choices": { "A": "zuò — 做", "B": "gōngzuò — 工作", "C": "yòng — 用", "D": "gěi — 给" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Do / make is 做." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-014",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "use",
+  "question": "Which is correct?",
+  "choices": { "A": "yòng — 用", "B": "ná — 拿", "C": "zuò — 做", "D": "gěi — 给" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Use is 用." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-015",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "say / speak",
+  "question": "Which is correct?",
+  "choices": { "A": "shuō — 说", "B": "xiǎng — 想", "C": "wèn — 问", "D": "kàn — 看" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Say / speak is 说." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core1-016",
+  "kind": "vocab",
+  "deckId": "core1",
+  "level": "HSK1",
+  "promptLine": "think / want",
+  "question": "Which is correct?",
+  "choices": { "A": "xiǎng — 想", "B": "zhīdào — 知道", "C": "xūyào — 需要", "D": "kàn — 看" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Think / want is 想." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+
 
   {
     "id": "foundation1-001",
