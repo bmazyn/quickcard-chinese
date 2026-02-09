@@ -1925,6 +1925,506 @@
   "tags": ["beginner","reverse"],
   "difficulty": 1
 },
+{
+  "id": "core2-001",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "shénme shíhou — 什么时候",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "when",
+    "B": "why",
+    "C": "how many / how much",
+    "D": "which one"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 什么时候 means when." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-002",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "wèishénme — 为什么",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "why",
+    "B": "when",
+    "C": "how / why not",
+    "D": "which one"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 为什么 means why." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-003",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "nǎge — 哪个",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "which",
+    "B": "where",
+    "C": "which one / that one",
+    "D": "how many"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 哪个 means which." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-004",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "duōshǎo — 多少",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "how many / how much",
+    "B": "how long / how often",
+    "C": "which one / how many",
+    "D": "when / already"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 多少 means how many or how much." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-005",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "hái — 还",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "also / still",
+    "B": "again / already",
+    "C": "only / just",
+    "D": "now / later"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 还 means also or still." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-006",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "zhǐ — 只",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "only",
+    "B": "still / also",
+    "C": "just / only one",
+    "D": "again / once more"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 只 means only." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-007",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "zài — 再",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "again",
+    "B": "already",
+    "C": "again / still",
+    "D": "now / then"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 再 means again." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-008",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "yǐjīng — 已经",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "already",
+    "B": "again",
+    "C": "still / already",
+    "D": "before / after"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 已经 means already." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core2-009",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "when",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "shénme shíhou — 什么时候",
+    "B": "wèishénme — 为什么",
+    "C": "duōshǎo — 多少",
+    "D": "nǎge — 哪个"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! When is 什么时候." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-010",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "why",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "wèishénme — 为什么",
+    "B": "shénme shíhou — 什么时候",
+    "C": "nǎge — 哪个",
+    "D": "zài — 再"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Why is 为什么." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-011",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "which",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "nǎge — 哪个",
+    "B": "duōshǎo — 多少",
+    "C": "shénme shíhou — 什么时候",
+    "D": "hái — 还"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Which is 哪个." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-012",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "how many / how much",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "duōshǎo — 多少",
+    "B": "nǎge — 哪个",
+    "C": "yǐjīng — 已经",
+    "D": "zài — 再"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! How many / how much is 多少." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-013",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "also / still",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "hái — 还",
+    "B": "zài — 再",
+    "C": "yǐjīng — 已经",
+    "D": "zhǐ — 只"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Also / still is 还." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-014",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "only",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "zhǐ — 只",
+    "B": "hái — 还",
+    "C": "zài — 再",
+    "D": "yǐjīng — 已经"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Only is 只." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-015",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "again",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "zài — 再",
+    "B": "hái — 还",
+    "C": "yǐjīng — 已经",
+    "D": "zhǐ — 只"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Again is 再." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core2-016",
+  "kind": "vocab",
+  "deckId": "core2",
+  "level": "HSK1",
+  "promptLine": "already",
+  "question": "Which is correct?",
+  "choices": {
+    "A": "yǐjīng — 已经",
+    "B": "zài — 再",
+    "C": "hái — 还",
+    "D": "zhǐ — 只"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Already is 已经." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+
+{
+  "id": "core3-001",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "shì — 是",
+  "question": "What does this mean?",
+  "choices": { "A": "be / is / are / am", "B": "have / there is", "C": "do / make", "D": "find / look for" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 是 (shì) means be / is / are / am." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-002",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "yǒu — 有",
+  "question": "What does this mean?",
+  "choices": { "A": "have / there is", "B": "be / is / are / am", "C": "live / stay", "D": "take / hold" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 有 (yǒu) means have / there is." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-003",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "zuò — 做",
+  "question": "What does this mean?",
+  "choices": { "A": "do / make", "B": "use / make", "C": "give / to", "D": "say / speak" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 做 (zuò) means do / make." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-004",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "gěi — 给",
+  "question": "What does this mean?",
+  "choices": { "A": "give / to", "B": "take / hold", "C": "find / look for", "D": "help / help out" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 给 (gěi) means give / to." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-005",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "ná — 拿",
+  "question": "What does this mean?",
+  "choices": { "A": "take / hold", "B": "give / to", "C": "go / come", "D": "do / make" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 拿 (ná) means take / hold." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-006",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "zhù — 住",
+  "question": "What does this mean?",
+  "choices": { "A": "live / stay", "B": "go / come", "C": "have / there is", "D": "find / look for" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 住 (zhù) means live / stay." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-007",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "bāngmáng — 帮忙",
+  "question": "What does this mean?",
+  "choices": { "A": "help / help out", "B": "say / speak", "C": "give / to", "D": "see / look" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 帮忙 (bāngmáng) means help / help out." },
+  "tags": ["beginner"],
+  "difficulty": 1
+},
+{
+  "id": "core3-008",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "zhǎo — 找",
+  "question": "What does this mean?",
+  "choices": { "A": "find / look for", "B": "see / look", "C": "take / hold", "D": "live / stay" },
+  "correct": "A",
+  "explanations": { "A": "Correct! 找 (zhǎo) means find / look for." },
+  "tags": ["beginner"],
+  "difficulty": 1
+}
+,
+{
+  "id": "core3-009",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "be / is / are / am",
+  "question": "Which is correct?",
+  "choices": { "A": "shì — 是", "B": "yǒu — 有", "C": "zhù — 住", "D": "zhǎo — 找" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Be / is / are / am is 是 (shì)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-010",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "have / there is",
+  "question": "Which is correct?",
+  "choices": { "A": "yǒu — 有", "B": "shì — 是", "C": "gěi — 给", "D": "ná — 拿" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Have / there is is 有 (yǒu)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-011",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "do / make",
+  "question": "Which is correct?",
+  "choices": { "A": "zuò — 做", "B": "gěi — 给", "C": "bāngmáng — 帮忙", "D": "zhǎo — 找" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Do / make is 做 (zuò)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-012",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "give / to",
+  "question": "Which is correct?",
+  "choices": { "A": "gěi — 给", "B": "ná — 拿", "C": "yǒu — 有", "D": "zhù — 住" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Give / to is 给 (gěi)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-013",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "take / hold",
+  "question": "Which is correct?",
+  "choices": { "A": "ná — 拿", "B": "gěi — 给", "C": "zuò — 做", "D": "zhǎo — 找" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Take / hold is 拿 (ná)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-014",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "live / stay",
+  "question": "Which is correct?",
+  "choices": { "A": "zhù — 住", "B": "yǒu — 有", "C": "shì — 是", "D": "bāngmáng — 帮忙" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Live / stay is 住 (zhù)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-015",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "help / help out",
+  "question": "Which is correct?",
+  "choices": { "A": "bāngmáng — 帮忙", "B": "zhǎo — 找", "C": "gěi — 给", "D": "yòng — 用" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Help / help out is 帮忙 (bāngmáng)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+},
+{
+  "id": "core3-016",
+  "kind": "vocab",
+  "deckId": "core3",
+  "level": "HSK1",
+  "promptLine": "find / look for",
+  "question": "Which is correct?",
+  "choices": { "A": "zhǎo — 找", "B": "kàn — 看", "C": "ná — 拿", "D": "zhù — 住" },
+  "correct": "A",
+  "explanations": { "A": "Correct! Find / look for is 找 (zhǎo)." },
+  "tags": ["beginner","reverse"],
+  "difficulty": 1
+}
+,
+
 
 
   {
