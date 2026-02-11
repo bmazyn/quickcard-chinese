@@ -1,0 +1,369 @@
+{
+  "beginner1": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 1",
+    "order": 1
+  },
+  "beginner2": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 2",
+    "order": 2
+  },
+  "beginner3": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner 3",
+    "order": 3
+  },
+  "beginnerPhrases": {
+    "chapter": 0,
+    "section": "Beginner",
+    "deckName": "Beginner Phrases",
+    "order": 4
+  },
+
+  "fundamentals1": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 1",
+    "order": 1
+  },
+  "fundamentals2": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 2",
+    "order": 2
+  },
+  "fundamentals3": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Fundamentals 3",
+    "order": 3
+  },
+  "family": {
+    "chapter": 0,
+    "section": "Fundamentals",
+    "deckName": "Family",
+    "order": 4
+  },
+
+  "core1": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 1",
+    "order": 1
+  },
+  "core2": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 2",
+    "order": 2
+  },
+  "core3": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core 3",
+    "order": 3
+  },
+  "corePhrases": {
+    "chapter": 0,
+    "section": "Core",
+    "deckName": "Core Phrases",
+    "order": 4
+  },
+
+
+
+
+  "foundation1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Foundation 1",
+    "order": 1
+  },
+  "numbers": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Numbers",
+    "order": 2
+  },
+  "greetings1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Greetings 1",
+    "order": 3
+  },
+  "time1": {
+    "chapter": 1,
+    "section": "Foundation",
+    "deckName": "Time 1",
+    "order": 4
+  },
+  "foundation2-family": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Family",
+    "order": 1
+  },
+  "foundation2-places": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Places B",
+    "order": 2
+  },
+  "foundation2-countries": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Countries",
+    "order": 3
+  },
+  "foundation2-dates": {
+    "chapter": 1,
+    "section": "Foundation 2",
+    "deckName": "Dates",
+    "order": 4
+  },
+  "dailyactions1": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Common Verbs",
+    "order": 1
+  },
+  "dailyactions2": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Daily Routines",
+    "order": 2
+  },
+  "dailyactions3": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Needs & Wants",
+    "order": 3
+  },
+  "dailyactions4": {
+    "chapter": 1,
+    "section": "Daily Actions",
+    "deckName": "Simple Objects",
+    "order": 4
+  },
+  "corevocab-nouns": {
+    "chapter": 2,
+    "section": "Core Vocab",
+    "deckName": "Core Nouns",
+    "order": 1
+  },
+  "corevocab-verbs": {
+    "chapter": 2,
+    "section": "Core Vocab",
+    "deckName": "Core Verbs",
+    "order": 2
+  },
+  "corevocab-nounphrases": {
+    "chapter": 2,
+    "section": "Core Vocab",
+    "deckName": "Noun Phrases",
+    "order": 3
+  },
+  "corevocab-verbphrases": {
+    "chapter": 2,
+    "section": "Core Vocab",
+    "deckName": "Verb Phrases",
+    "order": 4
+  },
+  "meaningstructure-descriptors": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Descriptors",
+    "order": 1
+  },
+  "meaningstructure-preferencesability": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Preferences & Ability",
+    "order": 2
+  },
+  "meaningstructure-descriptorphrases": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Descriptor Phrases",
+    "order": 3
+  },
+  "meaningstructure-preferenceabilityphrases": {
+    "chapter": 2,
+    "section": "Meaning & Structure",
+    "deckName": "Ability Phrases",
+    "order": 4
+  },
+  "simplesentences1": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Daily Actions",
+    "order": 1
+  },
+  "simplesentences2": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Time + Action",
+    "order": 2
+  },
+  "simplesentences3": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Needs + Wants",
+    "order": 3
+  },
+  "simplesentences4": {
+    "chapter": 2,
+    "section": "Simple Sentences",
+    "deckName": "Say + Ask",
+    "order": 4
+  },
+  "locationexistence1": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Places & Positions",
+    "order": 1
+  },
+  "locationexistence2": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Existence & Placement",
+    "order": 2
+  },
+  "locationexistence3": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Location Phrases",
+    "order": 3
+  },
+  "locationexistence4": {
+    "chapter": 3,
+    "section": "Location & Existence",
+    "deckName": "Location Sentences",
+    "order": 4
+  },
+  "movementdir1": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Movement Verbs",
+  "order": 1
+},
+"movementdir2": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Directions B",
+  "order": 2
+},
+"movementdir3": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Go / Come",
+  "order": 3
+},
+"movementdir4": {
+  "chapter": 3,
+  "section": "Movement & Dir",
+  "deckName": "Move Sentences",
+  "order": 4
+},
+"stateexp1": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Feelings",
+  "order": 1
+},
+"stateexp2": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Change & Stay",
+  "order": 2
+},
+"stateexp3": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "State Phrases",
+  "order": 3
+},
+"stateexp4": {
+  "chapter": 3,
+  "section": "State & Experience",
+  "deckName": "Experience Snt",
+  "order": 4
+},
+"travel4-food1": {
+  "chapter": 4,
+  "section": "Food & Ordering",
+  "deckName": "Food",
+  "order": 1
+},
+"travel4-food2": {
+  "chapter": 4,
+  "section": "Food & Ordering",
+  "deckName": "Ordering",
+  "order": 2
+},
+"travel4-food3": {
+  "chapter": 4,
+  "section": "Food & Ordering",
+  "deckName": "Dining Words",
+  "order": 3
+},
+"travel4-food4": {
+  "chapter": 4,
+  "section": "Food & Ordering",
+  "deckName": "Food Phrases",
+  "order": 4
+},
+
+"travel4-daily1": {
+  "chapter": 4,
+  "section": "Daily Needs",
+  "deckName": "Services",
+  "order": 1
+},
+"travel4-daily2": {
+  "chapter": 4,
+  "section": "Daily Needs",
+  "deckName": "Money",
+  "order": 2
+},
+"travel4-daily3": {
+  "chapter": 4,
+  "section": "Daily Needs",
+  "deckName": "Help Words",
+  "order": 3
+},
+"travel4-daily4": {
+  "chapter": 4,
+  "section": "Daily Needs",
+  "deckName": "Daily Phrases",
+  "order": 4
+},
+"travel4-move1": {
+  "chapter": 4,
+  "section": "Getting Around",
+  "deckName": "Transport",
+  "order": 1
+},
+"travel4-move2": {
+  "chapter": 4,
+  "section": "Getting Around",
+  "deckName": "Places",
+  "order": 2
+},
+"travel4-move3": {
+  "chapter": 4,
+  "section": "Getting Around",
+  "deckName": "Directions",
+  "order": 3
+},
+"travel4-move4": {
+  "chapter": 4,
+  "section": "Getting Around",
+  "deckName": "Travel Phrases",
+  "order": 4
+}
+}
