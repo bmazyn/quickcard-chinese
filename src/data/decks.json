@@ -15,8 +15,8 @@
   "corePhrases": { "chapter": 1, "section": "Core", "deckName": "Core Phrases", "order": 4 },
 
 
-  "ch2-desc1": { "chapter": 2, "section": "Description", "deckName": "Describe 1", "order": 1 },
-  "ch2-desc2": { "chapter": 2, "section": "Description", "deckName": "Describe 2", "order": 2 },
+  "ch2-core8": { "chapter": 2, "section": "Description", "deckName": "Core 8", "order": 1 },
+  "ch2-phrases-core8": { "chapter": 2, "section": "Description", "deckName": "Core 8 phrase", "order": 2 },
   "ch2-desc3": { "chapter": 2, "section": "Description", "deckName": "Describe 3", "order": 3 },
   "ch2-descp": { "chapter": 2, "section": "Description", "deckName": "Describe Phrases", "order": 4 },
 
