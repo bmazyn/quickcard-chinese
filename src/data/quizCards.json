@@ -2584,9 +2584,9 @@
 ,
 
   {
-    "id": "ch2-core8-001",
+    "id": "ch2-core4-001",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "hé — 和",
     "question": "What does this mean?",
@@ -2597,9 +2597,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-002",
+    "id": "ch2-core4-002",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "dànshì — 但是",
     "question": "What does this mean?",
@@ -2610,9 +2610,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-003",
+    "id": "ch2-core4-003",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "yīnwèi — 因为",
     "question": "What does this mean?",
@@ -2623,9 +2623,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-004",
+    "id": "ch2-core4-004",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "suǒyǐ — 所以",
     "question": "What does this mean?",
@@ -2636,9 +2636,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-005",
+    "id": "ch2-core4-005",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "hěn — 很",
     "question": "What does this mean?",
@@ -2649,9 +2649,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-006",
+    "id": "ch2-core4-006",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "tài — 太",
     "question": "What does this mean?",
@@ -2662,9 +2662,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-007",
+    "id": "ch2-core4-007",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "gèng — 更",
     "question": "What does this mean?",
@@ -2675,9 +2675,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-008",
+    "id": "ch2-core4-008",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "fēicháng — 非常",
     "question": "What does this mean?",
@@ -2689,9 +2689,9 @@
   },
 
   {
-    "id": "ch2-core8-009",
+    "id": "ch2-core4-009",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "and",
     "question": "Which is correct?",
@@ -2707,9 +2707,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-010",
+    "id": "ch2-core4-010",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "but",
     "question": "Which is correct?",
@@ -2725,9 +2725,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-011",
+    "id": "ch2-core4-011",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "because",
     "question": "Which is correct?",
@@ -2743,9 +2743,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-012",
+    "id": "ch2-core4-012",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "so",
     "question": "Which is correct?",
@@ -2761,9 +2761,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-013",
+    "id": "ch2-core4-013",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "very",
     "question": "Which is correct?",
@@ -2779,9 +2779,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-014",
+    "id": "ch2-core4-014",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "too",
     "question": "Which is correct?",
@@ -2797,9 +2797,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-015",
+    "id": "ch2-core4-015",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "more",
     "question": "Which is correct?",
@@ -2815,9 +2815,9 @@
     "difficulty": 1
   },
   {
-    "id": "ch2-core8-016",
+    "id": "ch2-core4-016",
     "kind": "vocab",
-    "deckId": "ch2-core8",
+    "deckId": "ch2-core4",
     "level": "HSK1",
     "promptLine": "extremely",
     "question": "Which is correct?",
@@ -2835,9 +2835,9 @@
 
 
   {
-    "id": "ch2-phrases-core8-001",
+    "id": "ch2-phrases-core4-001",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo — 我很好",
     "question": "What does this mean?",
@@ -2848,9 +2848,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-002",
+    "id": "ch2-phrases-core4-002",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "tā hěn máng — 他很忙",
     "question": "What does this mean?",
@@ -2861,9 +2861,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-003",
+    "id": "ch2-phrases-core4-003",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ fēicháng hǎo — 这里非常好",
     "question": "What does this mean?",
@@ -2874,9 +2874,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-004",
+    "id": "ch2-phrases-core4-004",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège hěn hǎo — 这个很好",
     "question": "What does this mean?",
@@ -2887,9 +2887,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-005",
+    "id": "ch2-phrases-core4-005",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège tài guì — 这个太贵",
     "question": "What does this mean?",
@@ -2900,9 +2900,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-006",
+    "id": "ch2-phrases-core4-006",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "wǒ tài lèi — 我太累",
     "question": "What does this mean?",
@@ -2913,9 +2913,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-007",
+    "id": "ch2-phrases-core4-007",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège gèng hǎo — 这个更好",
     "question": "What does this mean?",
@@ -2926,9 +2926,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-008",
+    "id": "ch2-phrases-core4-008",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ gèng hǎo — 这里更好",
     "question": "What does this mean?",
@@ -2940,9 +2940,9 @@
   },
 
   {
-    "id": "ch2-phrases-core8-009",
+    "id": "ch2-phrases-core4-009",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo, yě hěn máng — 我很好，也很忙",
     "question": "What does this mean?",
@@ -2953,9 +2953,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-010",
+    "id": "ch2-phrases-core4-010",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn lèi, dànshì wǒ hěn gāoxìng — 我很累，但是我很高兴",
     "question": "What does this mean?",
@@ -2966,9 +2966,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-011",
+    "id": "ch2-phrases-core4-011",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn máng, suǒyǐ wǒ zǒu le — 我很忙，所以我走了",
     "question": "What does this mean?",
@@ -2979,9 +2979,9 @@
     "difficulty": 2
   },
   {
-    "id": "ch2-phrases-core8-012",
+    "id": "ch2-phrases-core4-012",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "yīnwèi zhège tài guì, suǒyǐ wǒ bù mǎi — 因为这个太贵，所以我不买",
     "question": "What does this mean?",
@@ -2992,9 +2992,9 @@
     "difficulty": 3
   },
   {
-    "id": "ch2-phrases-core8-013",
+    "id": "ch2-phrases-core4-013",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "yīnwèi wǒ hěn lèi, suǒyǐ wǒ bù qù — 因为我很累，所以我不去",
     "question": "What does this mean?",
@@ -3005,9 +3005,9 @@
     "difficulty": 3
   },
   {
-    "id": "ch2-phrases-core8-014",
+    "id": "ch2-phrases-core4-014",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ fēicháng hǎo, dànshì tài guì — 这里非常好，但是太贵",
     "question": "What does this mean?",
@@ -3018,9 +3018,9 @@
     "difficulty": 3
   },
   {
-    "id": "ch2-phrases-core8-015",
+    "id": "ch2-phrases-core4-015",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn xǐhuān zhèlǐ, yīnwèi zhèlǐ hěn hǎo — 我很喜欢这里，因为这里很好",
     "question": "What does this mean?",
@@ -3031,9 +3031,9 @@
     "difficulty": 3
   },
   {
-    "id": "ch2-phrases-core8-016",
+    "id": "ch2-phrases-core4-016",
     "kind": "vocab",
-    "deckId": "ch2-phrases-core8",
+    "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "zhège gèng hǎo, suǒyǐ wǒ yào zhège — 这个更好，所以我要这个",
     "question": "What does this mean?",
@@ -3044,6 +3044,150 @@
     "difficulty": 3
   }
 ,
+  {
+    "id": "ch2-bonus_phrase1-001",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "wǒ hěn xǐhuān zhèlǐ — 我很喜欢这里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I like it here very much.",
+      "B": "I am here too much.",
+      "C": "I go here because I like it.",
+      "D": "I don’t like it here."
+    },
+    "correct": "A",
+    "explanation": "很 = very.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-bonus_phrase1-002",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "zhège fàndiàn fēicháng hǎo — 这个饭店非常好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This restaurant is extremely good.",
+      "B": "This restaurant is too good.",
+      "C": "This restaurant is more good.",
+      "D": "This restaurant is not good."
+    },
+    "correct": "A",
+    "explanation": "非常 = extremely.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-bonus_phrase1-003",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "xuéxiào tài dà — 学校太大",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "The school is very big.",
+      "B": "The school is too big.",
+      "C": "The school is more big.",
+      "D": "The school is extremely big."
+    },
+    "correct": "B",
+    "explanation": "太 = too.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-bonus_phrase1-004",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "zhèlǐ hěn máng, dànshì hěn hǎo — 这里很忙，但是很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "It is very busy here, but it is very good.",
+      "B": "It is too busy here, so it is good.",
+      "C": "It is more busy here, because it is good.",
+      "D": "It is extremely busy here and very bad."
+    },
+    "correct": "A",
+    "explanation": "但是 = but.",
+    "tags": ["phrases"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch2-bonus_phrase1-005",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "yīnwèi zhèlǐ hěn guì, suǒyǐ wǒ bù qù — 因为这里很贵，所以我不去",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Because it is very expensive here, I am not going.",
+      "B": "It is very expensive here, but I am going.",
+      "C": "It is too expensive here, and I am going.",
+      "D": "It is more expensive here, so I like it."
+    },
+    "correct": "A",
+    "explanation": "因为…所以 = because…so.",
+    "tags": ["phrases"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch2-bonus_phrase1-006",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "zhège gōngyuán gèng hǎo — 这个公园更好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This park is very good.",
+      "B": "This park is too good.",
+      "C": "This park is better.",
+      "D": "This park is extremely good."
+    },
+    "correct": "C",
+    "explanation": "更 = more (better).",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-bonus_phrase1-007",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "zhège diàn hěn guì, dànshì hěn hǎo — 这个店很贵，但是很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This shop is very expensive, but very good.",
+      "B": "This shop is too expensive, so very good.",
+      "C": "This shop is better and very expensive.",
+      "D": "This shop is extremely cheap and very good."
+    },
+    "correct": "A",
+    "explanation": "但是 = but.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-bonus_phrase1-008",
+    "kind": "vocab",
+    "deckId": "ch2-bonus_phrase1",
+    "level": "HSK1",
+    "promptLine": "yīnwèi xuéxiào hěn dà, suǒyǐ hěn máng — 因为学校很大，所以很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Because the school is very big, it is very busy.",
+      "B": "The school is very big, but it is busy.",
+      "C": "The school is too big, so it is better.",
+      "D": "The school is extremely big and very quiet."
+    },
+    "correct": "A",
+    "explanation": "因为…所以 = because…so.",
+    "tags": ["phrases"],
+    "difficulty": 3
+  }  ,
 
 
 
