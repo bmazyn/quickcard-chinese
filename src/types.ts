@@ -39,3 +39,27 @@ export interface AnswerState {
   selectedChoice: ChoiceKey | null;
   isCorrect: boolean | null;
 }
+
+export interface Question {
+  id: string;
+  app: string;
+  chapter: number;
+  deckId: string;
+  difficulty: number;
+  promptLine: string;
+  choices: {
+    A: string;
+    B: string;
+    C: string;
+    D: string;
+  };
+  answer: ChoiceKey;
+  whyCorrect: string;
+  whyWrong: {
+    A?: string;
+    B?: string;
+    C?: string;
+    D?: string;
+  };
+  conceptTags: string[];
+}

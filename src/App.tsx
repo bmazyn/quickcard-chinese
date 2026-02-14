@@ -4,8 +4,6 @@ import Chapters from './components/Chapters'
 import ChapterDetail from './components/ChapterDetail'
 import LandingPage from './components/LandingPage'
 import QuizFeed from './components/QuizFeed'
-import AudioLoop from './components/AudioLoop'
-import Speedrun from './components/Speedrun'
 import StudyList from './components/StudyList'
 import './App.css'
 
@@ -18,8 +16,7 @@ function App() {
         <Route path="/chapter/:chapterId" element={<ChapterDetail />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizFeed />} />
-        <Route path="/audio-loop" element={<AudioLoop />} />
-        <Route path="/speedrun" element={<Speedrun />} />
+        <Route path="/quiz/:deckId" element={<QuizFeed />} />
         <Route path="/study-list" element={<StudyList />} />
       </Routes>
     </BrowserRouter>

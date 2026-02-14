@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
-import type { QuizCard } from "../types";
-import quizCardsData from "../data/quizCards.json";
+import type { Question } from "../types";
+import questionsData from "../data/questions.json";
 import { getDeckIdByName } from "../utils/decks";
 import "./StudyList.css";
 
@@ -12,62 +12,33 @@ export default function StudyList() {
   const deckParam = searchParams.get("deck") || "";
   const chapterId = location.state?.chapterId;
 
-  const [cards, setCards] = useState<QuizCard[]>([]);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [displayTitle, setDisplayTitle] = useState("");
 
-  // Load cards for the selected deck
+  // Load questions for the selected deck
   useEffect(() => {
     if (!deckParam) {
-      setCards([]);
+      setQuestions([]);
       setDisplayTitle("Study List");
       return;
     }
 
     const deckId = getDeckIdByName(deckParam);
     if (!deckId) {
-      setCards([]);
+      setQuestions([]);
       setDisplayTitle("Study List");
       return;
     }
 
-    const deckCards = quizCardsData.filter((card) => 
-      card.deckId === deckId
-    ) as QuizCard[];
+    // Ensure questionsData is an array
+    const allQuestions = Array.isArray(questionsData) ? questionsData : [questionsData];
+    const filteredQuestions = allQuestions.filter((q: any) => 
+      q.deckId === deckId
+    ) as Question[];
 
-    // Filter cards that have both hanzi and pinyin
-    const validCards = deckCards.filter((card) => {
-      const parts = card.promptLine.split(" — ");
-      const pinyin = parts[0]?.trim() || "";
-      const hanzi = parts[1]?.trim() || "";
-      return pinyin && hanzi && /[\u4e00-\u9fff]/.test(hanzi);
-    });
-
-    setCards(validCards);
+    setQuestions(filteredQuestions);
     setDisplayTitle(deckParam);
   }, [deckParam]);
-
-  // Parse pinyin and hanzi from promptLine (format: "pinyin — hanzi")
-  const parseCard = (card: QuizCard) => {
-    const parts = card.promptLine.split(" — ");
-    return {
-      pinyin: parts[0]?.trim() || "",
-      hanzi: parts[1]?.trim() || "",
-      meaning: card.choices[card.correct],
-    };
-  };
-
-  // Play audio for a card
-  const playAudio = (card: QuizCard) => {
-    const { hanzi } = parseCard(card);
-    
-    if ('speechSynthesis' in window) {
-      speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(hanzi);
-      utterance.lang = 'zh-CN';
-      utterance.rate = 0.9;
-      speechSynthesis.speak(utterance);
-    }
-  };
 
   const handleBackClick = () => {
     if (chapterId) {
@@ -90,32 +61,24 @@ export default function StudyList() {
       </div>
 
       <div className="study-list-content">
-        {cards.length === 0 ? (
+        {questions.length === 0 ? (
           <div className="no-cards">
-            {deckParam ? "No cards found in this deck." : "Select a deck to view cards."}
+            {deckParam ? "No questions found in this deck." : "Select a deck to view questions."}
           </div>
         ) : (
           <div className="cards-list">
-            {cards.map((card) => {
-              const { pinyin, hanzi, meaning } = parseCard(card);
+            {questions.map((question) => {
               return (
-                <div key={card.id} className="card-row">
+                <div key={question.id} className="card-row">
                   <div className="card-row-top">
-                    <span 
-                      className="card-pinyin" 
-                      onClick={() => playAudio(card)}
-                    >
-                      {pinyin}
-                    </span>
-                    <span 
-                      className="card-hanzi" 
-                      onClick={() => playAudio(card)}
-                    >
-                      {hanzi}
+                    <span className="card-question">
+                      {question.promptLine}
                     </span>
                   </div>
                   <div className="card-row-bottom">
-                    <span className="card-meaning">{meaning}</span>
+                    <span className="card-answer">
+                      <strong>Answer: {question.answer}</strong> - {question.choices[question.answer]}
+                    </span>
                   </div>
                 </div>
               );

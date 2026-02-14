@@ -1,17 +1,14 @@
 import { useMemo } from "react";
-import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
-import { extractToneNumbers } from "../utils/tones";
+import type { Question, ChoiceKey, AnswerState } from "../types";
 import "./QuizCard.css";
 
 interface QuizCardProps {
-  card: QuizCardType;
+  card: Question;
   answerState: AnswerState;
   onAnswer: (choice: ChoiceKey) => void;
   onNext: () => void;
   isDisabled?: boolean;
   nextButtonText?: string;
-  isSpeedrunMode?: boolean;
-  countdownNumber?: number | null;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -27,7 +24,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, countdownNumber = null }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →" }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -46,7 +43,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
     if (!isAnswered) return "choice-button";
     
     const isSelected = choice === answerState.selectedChoice;
-    const isCorrect = choice === card.correct;
+    const isCorrect = choice === card.answer;
     
     if (isCorrect) return "choice-button correct";
     if (isSelected && !isCorrect) return "choice-button incorrect";
@@ -55,7 +52,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
 
   const handleAnswerClick = (choice: ChoiceKey, event: React.MouseEvent<HTMLButtonElement>) => {
     if (!isAnswered) {
-      const isCorrect = choice === card.correct;
+      const isCorrect = choice === card.answer;
       triggerHaptic(isCorrect);
       onAnswer(choice);
       // Blur the button to remove focus outline after click
@@ -63,46 +60,10 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
     }
   };
 
-  const handlePronunciation = () => {
-    // Use browser Text-to-Speech for hanzi pronunciation
-    if ('speechSynthesis' in window) {
-      // Stop any currently playing audio
-      window.speechSynthesis.cancel();
-      
-      const utterance = new SpeechSynthesisUtterance(hanzi);
-      utterance.lang = 'zh-CN';
-      utterance.rate = 0.9; // Slightly slower for learning
-      window.speechSynthesis.speak(utterance);
-    }
-    // Fail silently if not supported
-  };
-
-  // Split promptLine from dataset - format: "pinyin — hanzi"
-  const [pinyin, hanzi] = card.promptLine.split(' — ');
-  
-  // Split pinyin into syllables and extract tone for each
-  const syllables = pinyin.trim().split(/\s+/);
-  const syllableTones = syllables.map(syllable => ({
-    syllable,
-    tone: extractToneNumbers(syllable)
-  }));
-
-  // Check if promptLine contains Han characters (Chinese)
-  const hasHanCharacters = /[\u4e00-\u9fff]/.test(card.promptLine);
-  const cardClassName = hasHanCharacters ? "quiz-card" : "quiz-card englishPrompt";
-
   return (
-    <div className={cardClassName}>
+    <div className="quiz-card">
       <div className="prompt-section">
-        <div className="pinyin-container">
-          {syllableTones.map((item, index) => (
-            <div key={index} className="syllable-column">
-              <div className="pinyin">{item.syllable}</div>
-              <div className="tone-number">{item.tone}</div>
-            </div>
-          ))}
-        </div>
-        <div className="hanzi" onClick={handlePronunciation}>{hanzi}</div>
+        <div className="question-text">{card.promptLine}</div>
       </div>
 
       <div className="choices">
@@ -126,18 +87,22 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
               ? "✓ Correct" 
               : "✕ Wrong"}
           </div>
-          {!isSpeedrunMode && (
-            <button className="next-button" onClick={onNext} disabled={isDisabled}>
-              {nextButtonText}
-            </button>
-          )}
-          {isSpeedrunMode && countdownNumber !== null && (
-            <div className="countdown-display">
-              {countdownNumber}
-            </div>
-          )}
+          <div className="explanation">
+            <strong>Correct Answer: {card.answer}</strong>
+            <p>{card.whyCorrect}</p>
+            {!answerState.isCorrect && answerState.selectedChoice && card.whyWrong[answerState.selectedChoice] && (
+              <div className="why-wrong">
+                <strong>Why {answerState.selectedChoice} is wrong:</strong>
+                <p>{card.whyWrong[answerState.selectedChoice]}</p>
+              </div>
+            )}
+          </div>
+          <button className="next-button" onClick={onNext} disabled={isDisabled}>
+            {nextButtonText}
+          </button>
         </div>
       )}
     </div>
   );
 }
+          

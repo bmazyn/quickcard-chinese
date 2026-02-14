@@ -1,0 +1,203 @@
+[
+
+  {
+    "id": "dbx-001",
+    "app": "DE",
+    "chapter": 1,
+    "deckId": "dbx.delta.opt",
+    "difficulty": 2,
+    "promptLine": "A Delta table becomes slow after many small batch inserts. What is the best action to improve read performance?",
+    "choices": { "A": "VACUUM my_table", "B": "OPTIMIZE my_table", "C": "REFRESH TABLE my_table", "D": "CACHE TABLE my_table" },
+    "answer": "B",
+    "whyCorrect": "OPTIMIZE compacts many small files into fewer larger files, reducing file scan overhead and improving query performance.",
+    "whyWrong": {
+      "A": "VACUUM removes old files for storage cleanup but does not address the small-file problem.",
+      "C": "REFRESH TABLE only updates metadata and does not change physical file layout.",
+      "D": "CACHE TABLE may speed repeated reads temporarily but does not fix the underlying file fragmentation."
+    },
+    "conceptTags": ["delta", "small-files", "performance"]
+  },
+
+{
+"id":"dbx-002",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"After running OPTIMIZE on a large Delta table, what additional step improves selective query performance on a high-cardinality column?",
+"choices":{
+"A":"VACUUM",
+"B":"ZORDER BY (column_name)",
+"C":"CACHE TABLE",
+"D":"REFRESH TABLE"
+},
+"answer":"B",
+"whyCorrect":"ZORDER BY colocates related values in the same files, improving data skipping for selective filters.",
+"whyWrong":{
+"A":"VACUUM only removes old files and does not change data layout.",
+"C":"CACHE speeds repeated reads but does not improve file pruning.",
+"D":"REFRESH updates metadata only."
+},
+"conceptTags":["delta","zorder","performance"]
+},
+{
+"id":"dbx-003",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"Why do many small files reduce Delta table read performance?",
+"choices":{
+"A":"Spark cannot read small files",
+"B":"Each file requires metadata and task overhead",
+"C":"Delta blocks small files",
+"D":"They prevent caching"
+},
+"answer":"B",
+"whyCorrect":"Each file requires scheduling and metadata handling, increasing overhead and reducing scan efficiency.",
+"whyWrong":{
+"A":"Spark can read small files but with overhead.",
+"C":"Delta does not block small files automatically.",
+"D":"Caching is unrelated to file count."
+},
+"conceptTags":["delta","small-files","spark-internals"]
+},
+{
+"id":"dbx-004",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"Which scenario most likely creates a small-file problem in Delta?",
+"choices":{
+"A":"Large batch overwrite",
+"B":"Frequent small streaming or micro-batch writes",
+"C":"Running OPTIMIZE daily",
+"D":"Using partition pruning"
+},
+"answer":"B",
+"whyCorrect":"Frequent small writes create many tiny files over time.",
+"whyWrong":{
+"A":"Large overwrites usually create fewer larger files.",
+"C":"OPTIMIZE reduces small files.",
+"D":"Partition pruning does not create files."
+},
+"conceptTags":["delta","ingestion","streaming"]
+},
+{
+"id":"dbx-005",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"What is the primary purpose of VACUUM in Delta Lake?",
+"choices":{
+"A":"Improve query performance",
+"B":"Compact small files",
+"C":"Remove old data files no longer referenced",
+"D":"Repartition the table"
+},
+"answer":"C",
+"whyCorrect":"VACUUM removes obsolete files after retention period to reclaim storage.",
+"whyWrong":{
+"A":"VACUUM does not improve read layout.",
+"B":"OPTIMIZE handles compaction.",
+"D":"VACUUM does not repartition."
+},
+"conceptTags":["delta","vacuum","maintenance"]
+},
+{
+"id":"dbx-006",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"When should OPTIMIZE typically be run?",
+"choices":{
+"A":"After frequent small writes accumulate",
+"B":"Before every SELECT query",
+"C":"Only once after table creation",
+"D":"Before VACUUM"
+},
+"answer":"A",
+"whyCorrect":"OPTIMIZE is used periodically when small files accumulate.",
+"whyWrong":{
+"B":"Running before every query is unnecessary.",
+"C":"File fragmentation happens over time.",
+"D":"Order is not the primary concern."
+},
+"conceptTags":["delta","maintenance"]
+},
+{
+"id":"dbx-007",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"What problem does ZORDER primarily address?",
+"choices":{
+"A":"Small file count",
+"B":"Data skipping efficiency for filtered queries",
+"C":"Storage cleanup",
+"D":"Metadata corruption"
+},
+"answer":"B",
+"whyCorrect":"ZORDER improves data locality for frequently filtered columns.",
+"whyWrong":{
+"A":"OPTIMIZE handles file compaction.",
+"C":"VACUUM handles cleanup.",
+"D":"Unrelated."
+},
+"conceptTags":["delta","zorder"]
+},
+{
+"id":"dbx-008",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"Why might caching a Delta table not solve the small-file problem long term?",
+"choices":{
+"A":"Cache disables OPTIMIZE",
+"B":"Cache only helps repeated queries temporarily",
+"C":"Cache merges files automatically",
+"D":"Cache removes partitions"
+},
+"answer":"B",
+"whyCorrect":"Caching improves repeated access but does not change physical file layout.",
+"whyWrong":{
+"A":"Caching does not disable OPTIMIZE.",
+"C":"Cache does not merge files.",
+"D":"Cache does not alter partitions."
+},
+"conceptTags":["delta","cache","performance"]
+},
+{
+"id":"dbx-009",
+"deckId":"dbx.delta.opt1",
+"difficulty":2,
+"promptLine":"Which combination best addresses both file compaction and selective filtering?",
+"choices":{
+"A":"VACUUM + CACHE",
+"B":"OPTIMIZE + ZORDER",
+"C":"REFRESH + VACUUM",
+"D":"CACHE + REFRESH"
+},
+"answer":"B",
+"whyCorrect":"OPTIMIZE compacts files; ZORDER improves data skipping.",
+"whyWrong":{
+"A":"VACUUM does not compact; cache does not fix layout.",
+"C":"Neither affects file organization.",
+"D":"Neither affects physical layout."
+},
+"conceptTags":["delta","optimization","zorder"]
+},
+{
+"id":"dbx-010",
+"deckId":"dbx.delta.opt1",
+"difficulty":3,
+"promptLine":"A Delta table partitioned by date still has slow queries filtering by user_id. Why?",
+"choices":{
+"A":"Partitioning always solves filtering",
+"B":"user_id is not part of partitioning or ZORDER",
+"C":"VACUUM was not run",
+"D":"REFRESH TABLE missing"
+},
+"answer":"B",
+"whyCorrect":"Filtering on a non-partitioned column without ZORDER limits data skipping efficiency.",
+"whyWrong":{
+"A":"Partitioning helps only on partition columns.",
+"C":"VACUUM is unrelated to filter pruning.",
+"D":"REFRESH does not change layout."
+},
+"conceptTags":["delta","partitioning","zorder","performance"]
+}
+
+
+]
