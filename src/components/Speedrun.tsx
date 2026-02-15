@@ -7,9 +7,6 @@ import { getDeckIdByName } from "../utils/decks";
 import "./Speedrun.css";
 // comment for speedrun review issue
 
-// Penalty for wrong answers in speedrun
-const PENALTY_SECONDS = 3;
-
 // Fisher-Yates shuffle
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -37,7 +34,7 @@ function saveDeckBestTime(deckName: string, seconds: number): void {
     const key = `qc_deck_speedrun_best:${deckName}`;
     const existing = getDeckBestTime(deckName);
     
-    // Only save if no previous time or if this time is better
+    // Only save if no previous time or if this time is better (time is in seconds)
     if (existing === null || seconds < existing) {
       localStorage.setItem(key, seconds.toString());
     }
@@ -60,10 +57,8 @@ export default function Speedrun() {
     selectedChoice: null,
     isCorrect: null,
   });
-  const [penaltyCountdown, setPenaltyCountdown] = useState(0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [startTime, setStartTime] = useState<number | null>(null);
-  const [totalPenalties, setTotalPenalties] = useState(0);
   const [missedCards, setMissedCards] = useState<QuizCardType[]>([]);
   const [mode, setMode] = useState<"speedrun" | "review">("speedrun");
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
@@ -139,7 +134,6 @@ export default function Speedrun() {
     setIsComplete(false);
     setElapsedSeconds(0);
     setStartTime(Date.now());
-    setTotalPenalties(0);
     setMissedCards([]);
     setMode("speedrun");
     setAnswerState({
@@ -170,17 +164,35 @@ export default function Speedrun() {
 
     // Automatic progression in speedrun mode
     if (mode === "speedrun") {
-      // 300ms feedback delay
-      setTimeout(() => {
-        if (isCorrect) {
-          // Correct: advance immediately
+      if (isCorrect) {
+        // Correct: advance after brief feedback (300ms)
+        setTimeout(() => {
           handleNext();
-        } else {
-          // Wrong: add penalty and start countdown
-          setTotalPenalties((prev) => prev + PENALTY_SECONDS);
-          setPenaltyCountdown(PENALTY_SECONDS);
-        }
-      }, 300);
+        }, 300);
+      } else {
+        // Wrong: Show correct answer for 2 seconds, then reinsert card
+        setTimeout(() => {
+          // Reinsert the missed card at a random position in the second half of remaining deck
+          const remaining = shuffledDeck.slice(currentIndex + 1);
+          if (remaining.length > 0) {
+            // Calculate second half range
+            const secondHalfStart = Math.ceil(remaining.length / 2);
+            const insertIndex = secondHalfStart + Math.floor(Math.random() * (remaining.length - secondHalfStart));
+            
+            // Insert card at random position in second half
+            const newDeck = [
+              ...shuffledDeck.slice(0, currentIndex + 1),
+              ...remaining.slice(0, insertIndex),
+              currentCard,
+              ...remaining.slice(insertIndex)
+            ];
+            setShuffledDeck(newDeck);
+          }
+          
+          // Advance to next card
+          handleNext();
+        }, 2000);
+      }
     }
   };
 
@@ -192,9 +204,9 @@ export default function Speedrun() {
       setIsComplete(true);
       setIsStarted(false);
       
-      // Save best time only in speedrun mode (elapsed + penalties, always round up)
+      // Save best time only in speedrun mode (elapsed time, always round up)
       if (mode === "speedrun") {
-        const finalTime = Math.ceil(elapsedSeconds) + totalPenalties;
+        const finalTime = Math.ceil(elapsedSeconds);
         saveDeckBestTime(deckParam, finalTime);
         // Update displayed best time if this was a new best
         const currentBest = getDeckBestTime(deckParam);
@@ -216,7 +228,6 @@ export default function Speedrun() {
 
   const handleBackToHome = () => {
     window.speechSynthesis?.cancel();
-    setPenaltyCountdown(0); // Clear penalty countdown
     navigate(-1);
   };
 
@@ -227,7 +238,6 @@ export default function Speedrun() {
     setIsStarted(true);
     setIsComplete(false);
     setMode("review");
-    setPenaltyCountdown(0); // Clear any penalties
     setAnswerState({
       selectedChoice: null,
       isCorrect: null,
@@ -289,23 +299,6 @@ export default function Speedrun() {
     window.speechSynthesis.speak(chineseUtterance);
   };
 
-  // Countdown timer effect - ticks down every second and advances after reaching 0
-  useEffect(() => {
-    if (penaltyCountdown <= 0 || mode !== "speedrun") return;
-
-    const timer = setTimeout(() => {
-      const newCountdown = penaltyCountdown - 1;
-      setPenaltyCountdown(newCountdown);
-      
-      if (newCountdown === 0) {
-        // After countdown finishes, advance to next card
-        handleNext();
-      }
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, [penaltyCountdown, mode]);
-
   if (cards.length === 0) {
     return (
       <div className="speedrun">
@@ -340,9 +333,9 @@ export default function Speedrun() {
                 <div className="info-icon">🏃</div>
                 <div className="info-text">
                   <h3>Ready for Deck Run?</h3>
-                  <p>{cards.length} cards • One pass only</p>
+                  <p>{cards.length} cards • Clear all to finish</p>
                   <p style={{ fontSize: '0.9rem', marginTop: '8px', color: 'var(--text-secondary)' }}>
-                    Wrong answer = +3s penalty
+                    Missed cards return to the queue
                   </p>
                 </div>
               </div>
@@ -358,7 +351,7 @@ export default function Speedrun() {
 
   // End screen
   if (isComplete) {
-    const finalTime = Math.ceil(elapsedSeconds) + totalPenalties;
+    const finalTime = Math.ceil(elapsedSeconds);
     
     return (
       <div className="speedrun">
@@ -379,11 +372,6 @@ export default function Speedrun() {
               <>
                 <p className="complete-time">
                   Time: {formatTime(finalTime)}
-                  {totalPenalties > 0 && (
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginLeft: '8px' }}>
-                      ({formatTime(Math.ceil(elapsedSeconds))} + {totalPenalties}s)
-                    </span>
-                  )}
                 </p>
                 {bestTime !== null && (
                   <p className="complete-best">Best: {formatTime(bestTime)}</p>
@@ -428,8 +416,6 @@ export default function Speedrun() {
   }
 
   const currentCard = shuffledDeck[currentIndex];
-  const isPenaltyActive = mode === "speedrun" && penaltyCountdown > 0;
-  const nextButtonText = isPenaltyActive ? `Next (${penaltyCountdown})` : "Next →";
 
   return (
     <div className="speedrun">
@@ -475,10 +461,10 @@ export default function Speedrun() {
         answerState={answerState}
         onAnswer={handleAnswer}
         onNext={handleNext}
-        isDisabled={isPenaltyActive}
-        nextButtonText={nextButtonText}
+        isDisabled={false}
+        nextButtonText="Next →"
         isSpeedrunMode={mode === "speedrun"}
-        countdownNumber={penaltyCountdown > 0 ? penaltyCountdown : null}
+        countdownNumber={null}
       />
     </div>
   );

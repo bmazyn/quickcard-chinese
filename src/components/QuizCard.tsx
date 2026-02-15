@@ -131,11 +131,6 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
               {nextButtonText}
             </button>
           )}
-          {isSpeedrunMode && countdownNumber !== null && (
-            <div className="countdown-display">
-              {countdownNumber}
-            </div>
-          )}
         </div>
       )}
     </div>

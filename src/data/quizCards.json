@@ -3030,20 +3030,7 @@
     "tags": ["phrases", "connect", "describe"],
     "difficulty": 3
   },
-  {
-    "id": "ch2-phrases-core4-016",
-    "kind": "vocab",
-    "deckId": "ch2-sent-core4",
-    "level": "HSK1",
-    "promptLine": "zhège gèng hǎo, suǒyǐ wǒ yào zhège — 这个更好，所以我要这个",
-    "question": "What does this mean?",
-    "choices": { "A": "This one is better, so I want this one.", "B": "This one is very good, but I want this one.", "C": "This one is too good, because I want this one.", "D": "This one is extremely good, and I won’t buy it." },
-    "correct": "A",
-    "explanation": "更 = more (better), 所以 = so.",
-    "tags": ["phrases", "connect", "describe"],
-    "difficulty": 3
-  }
-,
+
   {
     "id": "ch2-bonus_phrase1-001",
     "kind": "vocab",
@@ -3170,24 +3157,7 @@
     "tags": ["phrases"],
     "difficulty": 2
   },
-  {
-    "id": "ch2-bonus_phrase1-008",
-    "kind": "vocab",
-    "deckId": "ch2-bonus_phrase1",
-    "level": "HSK1",
-    "promptLine": "yīnwèi xuéxiào hěn dà, suǒyǐ hěn máng — 因为学校很大，所以很忙",
-    "question": "What does this mean?",
-    "choices": {
-      "A": "Because the school is very big, it is very busy.",
-      "B": "The school is very big, but it is busy.",
-      "C": "The school is too big, so it is better.",
-      "D": "The school is extremely big and very quiet."
-    },
-    "correct": "A",
-    "explanation": "因为…所以 = because…so.",
-    "tags": ["phrases"],
-    "difficulty": 3
-  }  ,
+
 
   {
     "id": "ch2-core5-001",
