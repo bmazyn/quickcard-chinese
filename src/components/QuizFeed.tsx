@@ -62,6 +62,7 @@ export default function QuizFeed() {
   
   // Reinforcement audio state
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
+  const [audioOnCorrect, setAudioOnCorrect] = useState(false);
   const reinforcementTimeoutRef = useRef<number | null>(null);
   const autoReinforcementDelayRef = useRef<number | null>(null);
 
@@ -189,10 +190,13 @@ export default function QuizFeed() {
       setStreak(0);
       // Wrong answer: set flag to restart loop on Next press
       setPendingLoopRestart(true);
-      
-      // Auto-play reinforcement audio for incorrect answers in normal quiz mode
-      const practiceSource = localStorage.getItem('qc_practice_source');
-      if (practiceSource !== 'speedrun') {
+    }
+    
+    // Auto-play reinforcement audio based on answer correctness and toggle state
+    const practiceSource = localStorage.getItem('qc_practice_source');
+    if (practiceSource !== 'speedrun') {
+      const shouldPlayAudio = !isCorrect || audioOnCorrect;
+      if (shouldPlayAudio) {
         autoReinforcementDelayRef.current = window.setTimeout(() => {
           playReinforcementForCard(currentCard);
         }, 400);
@@ -554,23 +558,31 @@ export default function QuizFeed() {
           ← Back
         </button>
         
-        <div className="stats-bar">
-          <div className="stat">
-            <span className="stat-label">Loop</span>
-            <span className="stat-value">{Math.floor(100 * loopIndex / shuffledDeck.length)}%</span>
-          </div>
+        <div className="progress-display">
+          {currentIndex + 1} / {shuffledDeck.length}
         </div>
         
-        {answerState.selectedChoice !== null && (
-          <button 
-            className="reinforcement-audio-button-header"
-            onClick={handleReinforcementAudio}
-            disabled={isPlayingReinforcement}
-            aria-label="Play reinforcement audio"
-          >
-            🔊
-          </button>
-        )}
+        <div className="audio-controls-group">
+          {answerState.selectedChoice !== null && (
+            <button 
+              className="reinforcement-audio-button-header"
+              onClick={handleReinforcementAudio}
+              disabled={isPlayingReinforcement}
+              aria-label="Play reinforcement audio"
+            >
+              🔊
+            </button>
+          )}
+          <label className="toggle-switch" aria-label="Audio on correct">
+            <input
+              type="checkbox"
+              checked={audioOnCorrect}
+              onChange={(e) => setAudioOnCorrect(e.target.checked)}
+              className="toggle-input"
+            />
+            <span className="toggle-slider"></span>
+          </label>
+        </div>
       </div>
 
       <QuizCard
@@ -581,10 +593,6 @@ export default function QuizFeed() {
         onNext={handleNext}
         isDisabled={isReshuffling || showMasteryComplete}
       />
-
-      <div className="progress-indicator">
-        {currentIndex + 1} / {shuffledDeck.length}
-      </div>
     </div>
   );
 }
