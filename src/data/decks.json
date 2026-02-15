@@ -25,10 +25,10 @@
   "ch2-core6": { "chapter": 2, "section": "Frequency", "deckName": "Core 6", "order": 3 },
   "ch2-core6_phrase": { "chapter": 2, "section": "Frequency", "deckName": "Core 6 Phrases", "order": 4 },
 
-  "ch2-comp1": { "chapter": 2, "section": "Comparison", "deckName": "Compare 1", "order": 1 },
-  "ch2-comp2": { "chapter": 2, "section": "Comparison", "deckName": "Compare 2", "order": 2 },
-  "ch2-comp3": { "chapter": 2, "section": "Comparison", "deckName": "Compare 3", "order": 3 },
-  "ch2-compp": { "chapter": 2, "section": "Comparison", "deckName": "Compare Phrases", "order": 4 },
+  "ch2-core7": { "chapter": 2, "section": "Times", "deckName": "Core 7", "order": 1 },
+  "ch2-core8": { "chapter": 2, "section": "Times", "deckName": "Core 8", "order": 2 },
+  "ch2-core7_phrase": { "chapter": 2, "section": "Times", "deckName": "Core 7 Phrases", "order": 3 },
+  "ch2-core8_phrase": { "chapter": 2, "section": "Times", "deckName": "Core 8 Phrases", "order": 4 },
 
 
   "ch3-time1": { "chapter": 3, "section": "Time", "deckName": "Time 1", "order": 1 },

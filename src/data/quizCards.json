@@ -3555,6 +3555,790 @@
   }
 ,
 
+
+
+
+  {
+    "id": "ch2-core6-001",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "juéde — 觉得",
+    "question": "What does this mean?",
+    "choices": { "A": "feel", "B": "ask", "C": "wait", "D": "bring" },
+    "correct": "A",
+    "explanation": "觉得 means feel.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-002",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "feel",
+    "question": "Which is correct?",
+    "choices": { "A": "juéde — 觉得", "B": "wèn — 问", "C": "děng — 等", "D": "jiàn — 见" },
+    "correct": "A",
+    "explanation": "Feel is 觉得.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-003",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "wèn — 问",
+    "question": "What does this mean?",
+    "choices": { "A": "answer", "B": "ask", "C": "tell", "D": "wait" },
+    "correct": "B",
+    "explanation": "问 means ask.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-004",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "ask",
+    "question": "Which is correct?",
+    "choices": { "A": "huídá — 回答", "B": "gàosu — 告诉", "C": "wèn — 问", "D": "dài — 带" },
+    "correct": "C",
+    "explanation": "Ask is 问.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-005",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "huídá — 回答",
+    "question": "What does this mean?",
+    "choices": { "A": "answer", "B": "bring", "C": "wait", "D": "meet" },
+    "correct": "A",
+    "explanation": "回答 means answer.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-006",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "answer",
+    "question": "Which is correct?",
+    "choices": { "A": "huídá — 回答", "B": "wèn — 问", "C": "sòng — 送", "D": "děng — 等" },
+    "correct": "A",
+    "explanation": "Answer is 回答.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-007",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "gàosu — 告诉",
+    "question": "What does this mean?",
+    "choices": { "A": "tell", "B": "meet", "C": "bring", "D": "stand" },
+    "correct": "A",
+    "explanation": "告诉 means tell.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-008",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "tell",
+    "question": "Which is correct?",
+    "choices": { "A": "gàosu — 告诉", "B": "jiàn — 见", "C": "zǒu — 走", "D": "dài — 带" },
+    "correct": "A",
+    "explanation": "Tell is 告诉.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-009",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "děng — 等",
+    "question": "What does this mean?",
+    "choices": { "A": "wait", "B": "run", "C": "wear", "D": "sit" },
+    "correct": "A",
+    "explanation": "等 means wait.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-010",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "wait",
+    "question": "Which is correct?",
+    "choices": { "A": "sòng — 送", "B": "děng — 等", "C": "dài — 带", "D": "jiàn — 见" },
+    "correct": "B",
+    "explanation": "Wait is 等.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-011",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "dài — 带",
+    "question": "What does this mean?",
+    "choices": { "A": "bring", "B": "answer", "C": "stand", "D": "walk" },
+    "correct": "A",
+    "explanation": "带 means bring.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-012",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "bring",
+    "question": "Which is correct?",
+    "choices": { "A": "dài — 带", "B": "huídá — 回答", "C": "wèn — 问", "D": "sòng — 送" },
+    "correct": "A",
+    "explanation": "Bring is 带.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-013",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "sòng — 送",
+    "question": "What does this mean?",
+    "choices": { "A": "give", "B": "run", "C": "sit", "D": "open" },
+    "correct": "A",
+    "explanation": "送 means give.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-014",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "give",
+    "question": "Which is correct?",
+    "choices": { "A": "sòng — 送", "B": "děng — 等", "C": "dài — 带", "D": "gàosu — 告诉" },
+    "correct": "A",
+    "explanation": "Give is 送.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core6-015",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "jiàn — 见",
+    "question": "What does this mean?",
+    "choices": { "A": "meet", "B": "wear", "C": "close", "D": "walk" },
+    "correct": "A",
+    "explanation": "见 means meet.",
+    "tags": ["core6"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6-016",
+    "kind": "vocab",
+    "deckId": "ch2-core6",
+    "level": "HSK2",
+    "promptLine": "meet",
+    "question": "Which is correct?",
+    "choices": { "A": "jiàn — 见", "B": "děng — 等", "C": "dài — 带", "D": "wèn — 问" },
+    "correct": "A",
+    "explanation": "Meet is 见.",
+    "tags": ["core6"],
+    "difficulty": 2
+  }, 
+
+
+  {
+    "id": "ch2-core6_phrase-001",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ juéde hěn hǎo — 我觉得很好",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I feel it is very good.",
+      "B": "I ask you a question.",
+      "C": "I am waiting here.",
+      "D": "I will meet him."
+    },
+    "correct": "A",
+    "explanation": "觉得 = feel/think.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-002",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ wèn nǐ yí gè wèntí — 我问你一个问题",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I tell you a story.",
+      "B": "I ask you a question.",
+      "C": "I bring you a gift.",
+      "D": "I wait for you."
+    },
+    "correct": "B",
+    "explanation": "问 = ask.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-003",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "qǐng nǐ huídá wǒ — 请你回答我",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Please wait for me.",
+      "B": "Please answer me.",
+      "C": "Please meet me.",
+      "D": "Please bring it."
+    },
+    "correct": "B",
+    "explanation": "回答 = answer.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-004",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "tā gàosu wǒ le — 他告诉我了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He asked me.",
+      "B": "He told me.",
+      "C": "He met me.",
+      "D": "He waited."
+    },
+    "correct": "B",
+    "explanation": "告诉 = tell.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-005",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "děng wǒ yíxià — 等我一下",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Wait for me a moment.",
+      "B": "Answer me now.",
+      "C": "Meet me at home.",
+      "D": "Bring it here."
+    },
+    "correct": "A",
+    "explanation": "等 = wait; 一下 = a moment.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-006",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ dài nǐ qù gōngyuán — 我带你去公园",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I give you the park.",
+      "B": "I bring you to the park.",
+      "C": "I wait at the park.",
+      "D": "I ask about the park."
+    },
+    "correct": "B",
+    "explanation": "带…去 = bring (someone) to (a place).",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core6_phrase-007",
+    "kind": "vocab",
+    "deckId": "ch2-core6_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ míngtiān jiàn tā — 我明天见他",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I will meet him tomorrow.",
+      "B": "I will tell him tomorrow.",
+      "C": "I will answer him tomorrow.",
+      "D": "I will wait tomorrow."
+    },
+    "correct": "A",
+    "explanation": "见 = meet/see (someone).",
+    "tags": ["phrases"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch2-core7-001",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "jīntiān — 今天",
+    "question": "What does this mean?",
+    "choices": { "A": "today", "B": "tomorrow", "C": "yesterday", "D": "now" },
+    "correct": "A",
+    "explanation": "今天 means today.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-002",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "today",
+    "question": "Which is correct?",
+    "choices": { "A": "jīntiān — 今天", "B": "míngtiān — 明天", "C": "zuótiān — 昨天", "D": "xiànzài — 现在" },
+    "correct": "A",
+    "explanation": "Today is 今天.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-003",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "míngtiān — 明天",
+    "question": "What does this mean?",
+    "choices": { "A": "morning", "B": "tomorrow", "C": "before", "D": "weekend" },
+    "correct": "B",
+    "explanation": "明天 means tomorrow.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-004",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "tomorrow",
+    "question": "Which is correct?",
+    "choices": { "A": "zuótiān — 昨天", "B": "míngtiān — 明天", "C": "jīntiān — 今天", "D": "yǐhòu — 以后" },
+    "correct": "B",
+    "explanation": "Tomorrow is 明天.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-005",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "zuótiān — 昨天",
+    "question": "What does this mean?",
+    "choices": { "A": "yesterday", "B": "later", "C": "before", "D": "evening" },
+    "correct": "A",
+    "explanation": "昨天 means yesterday.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-006",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "yesterday",
+    "question": "Which is correct?",
+    "choices": { "A": "jīntiān — 今天", "B": "zuótiān — 昨天", "C": "xiànzài — 现在", "D": "zǎoshang — 早上" },
+    "correct": "B",
+    "explanation": "Yesterday is 昨天.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-007",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "xiànzài — 现在",
+    "question": "What does this mean?",
+    "choices": { "A": "now", "B": "week", "C": "year", "D": "month" },
+    "correct": "A",
+    "explanation": "现在 means now.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-008",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "now",
+    "question": "Which is correct?",
+    "choices": { "A": "xiànzài — 现在", "B": "yǐqián — 以前", "C": "yǐhòu — 以后", "D": "wǎnshang — 晚上" },
+    "correct": "A",
+    "explanation": "Now is 现在.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-009",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "yǐhòu — 以后",
+    "question": "What does this mean?",
+    "choices": { "A": "before", "B": "later", "C": "morning", "D": "minute" },
+    "correct": "B",
+    "explanation": "以后 means later.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-010",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "later",
+    "question": "Which is correct?",
+    "choices": { "A": "yǐqián — 以前", "B": "yǐhòu — 以后", "C": "jīntiān — 今天", "D": "zǎoshang — 早上" },
+    "correct": "B",
+    "explanation": "Later is 以后.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-011",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "yǐqián — 以前",
+    "question": "What does this mean?",
+    "choices": { "A": "before", "B": "later", "C": "week", "D": "hour" },
+    "correct": "A",
+    "explanation": "以前 means before.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-012",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "before",
+    "question": "Which is correct?",
+    "choices": { "A": "yǐhòu — 以后", "B": "yǐqián — 以前", "C": "xiànzài — 现在", "D": "wǎnshang — 晚上" },
+    "correct": "B",
+    "explanation": "Before is 以前.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-013",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "zǎoshang — 早上",
+    "question": "What does this mean?",
+    "choices": { "A": "morning", "B": "evening", "C": "weekend", "D": "minute" },
+    "correct": "A",
+    "explanation": "早上 means morning.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-014",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "morning",
+    "question": "Which is correct?",
+    "choices": { "A": "wǎnshang — 晚上", "B": "zǎoshang — 早上", "C": "zhōumò — 周末", "D": "nián — 年" },
+    "correct": "B",
+    "explanation": "Morning is 早上.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core7-015",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "wǎnshang — 晚上",
+    "question": "What does this mean?",
+    "choices": { "A": "evening", "B": "morning", "C": "year", "D": "week" },
+    "correct": "A",
+    "explanation": "晚上 means evening.",
+    "tags": ["core7"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7-016",
+    "kind": "vocab",
+    "deckId": "ch2-core7",
+    "level": "HSK1",
+    "promptLine": "evening",
+    "question": "Which is correct?",
+    "choices": { "A": "zǎoshang — 早上", "B": "wǎnshang — 晚上", "C": "yuè — 月", "D": "zhōu — 周" },
+    "correct": "B",
+    "explanation": "Evening is 晚上.",
+    "tags": ["core7"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch2-core8-001",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "shíhou — 时候",
+    "question": "What does this mean?",
+    "choices": { "A": "week", "B": "time", "C": "hour", "D": "year" },
+    "correct": "B",
+    "explanation": "时候 means time.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-002",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "time",
+    "question": "Which is correct?",
+    "choices": { "A": "shíhou — 时候", "B": "zhōu — 周", "C": "nián — 年", "D": "yuè — 月" },
+    "correct": "A",
+    "explanation": "Time is 时候.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-003",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "diǎn — 点",
+    "question": "What does this mean?",
+    "choices": { "A": "minute", "B": "hour", "C": "o’clock", "D": "weekend" },
+    "correct": "C",
+    "explanation": "点 means o’clock.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-004",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "o’clock",
+    "question": "Which is correct?",
+    "choices": { "A": "fēn — 分", "B": "diǎn — 点", "C": "xiǎoshí — 小时", "D": "zhōumò — 周末" },
+    "correct": "B",
+    "explanation": "O’clock is 点.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-005",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "fēn — 分",
+    "question": "What does this mean?",
+    "choices": { "A": "minute", "B": "month", "C": "year", "D": "week" },
+    "correct": "A",
+    "explanation": "分 means minute.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-006",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "minute",
+    "question": "Which is correct?",
+    "choices": { "A": "diǎn — 点", "B": "fēn — 分", "C": "nián — 年", "D": "zhōu — 周" },
+    "correct": "B",
+    "explanation": "Minute is 分.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-007",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "xiǎoshí — 小时",
+    "question": "What does this mean?",
+    "choices": { "A": "week", "B": "hour", "C": "month", "D": "time" },
+    "correct": "B",
+    "explanation": "小时 means hour.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-008",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "hour",
+    "question": "Which is correct?",
+    "choices": { "A": "xiǎoshí — 小时", "B": "zhōu — 周", "C": "yuè — 月", "D": "nián — 年" },
+    "correct": "A",
+    "explanation": "Hour is 小时.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-009",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "zhōu — 周",
+    "question": "What does this mean?",
+    "choices": { "A": "week", "B": "year", "C": "month", "D": "minute" },
+    "correct": "A",
+    "explanation": "周 means week.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-010",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "week",
+    "question": "Which is correct?",
+    "choices": { "A": "nián — 年", "B": "zhōu — 周", "C": "yuè — 月", "D": "shíhou — 时候" },
+    "correct": "B",
+    "explanation": "Week is 周.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-011",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "yuè — 月",
+    "question": "What does this mean?",
+    "choices": { "A": "year", "B": "month", "C": "hour", "D": "weekend" },
+    "correct": "B",
+    "explanation": "月 means month.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-012",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "month",
+    "question": "Which is correct?",
+    "choices": { "A": "yuè — 月", "B": "nián — 年", "C": "zhōu — 周", "D": "diǎn — 点" },
+    "correct": "A",
+    "explanation": "Month is 月.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-013",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "nián — 年",
+    "question": "What does this mean?",
+    "choices": { "A": "month", "B": "week", "C": "year", "D": "time" },
+    "correct": "C",
+    "explanation": "年 means year.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-014",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "year",
+    "question": "Which is correct?",
+    "choices": { "A": "yuè — 月", "B": "nián — 年", "C": "zhōumò — 周末", "D": "fēn — 分" },
+    "correct": "B",
+    "explanation": "Year is 年.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch2-core8-015",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "zhōumò — 周末",
+    "question": "What does this mean?",
+    "choices": { "A": "weekend", "B": "week", "C": "morning", "D": "later" },
+    "correct": "A",
+    "explanation": "周末 means weekend.",
+    "tags": ["core8"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8-016",
+    "kind": "vocab",
+    "deckId": "ch2-core8",
+    "level": "HSK2",
+    "promptLine": "weekend",
+    "question": "Which is correct?",
+    "choices": { "A": "zhōu — 周", "B": "zhōumò — 周末", "C": "zǎoshang — 早上", "D": "xiǎoshí — 小时" },
+    "correct": "B",
+    "explanation": "Weekend is 周末.",
+    "tags": ["core8"],
+    "difficulty": 2
+  }
+,
+
+
+
 {
     "id": "travel4-food1-001",
     "kind": "vocab",
