@@ -4337,6 +4337,244 @@
   }
 ,
 
+  {
+    "id": "ch2-core7_phrase-001",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ jīntiān hěn máng — 我今天很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I am very busy today.",
+      "B": "I was busy yesterday.",
+      "C": "I will be busy tomorrow.",
+      "D": "I am busy now."
+    },
+    "correct": "A",
+    "explanation": "今天 = today.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-002",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "míngtiān jiàn — 明天见",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "See you yesterday.",
+      "B": "See you tomorrow.",
+      "C": "See you now.",
+      "D": "See you later."
+    },
+    "correct": "B",
+    "explanation": "明天 = tomorrow.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-003",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "zuótiān hěn lèi — 昨天很累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Yesterday was very tiring.",
+      "B": "Today is very tiring.",
+      "C": "Tomorrow is tiring.",
+      "D": "Now is tiring."
+    },
+    "correct": "A",
+    "explanation": "昨天 = yesterday.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-004",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "nǐ xiànzài zài nǎr — 你现在在哪儿",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Where were you yesterday?",
+      "B": "Where are you now?",
+      "C": "Where will you be tomorrow?",
+      "D": "Where are you later?"
+    },
+    "correct": "B",
+    "explanation": "现在 = now.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-005",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ yǐhòu gàosu nǐ — 我以后告诉你",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I told you before.",
+      "B": "I will tell you later.",
+      "C": "I am telling you now.",
+      "D": "I will ask you tomorrow."
+    },
+    "correct": "B",
+    "explanation": "以后 = later.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-006",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "yǐqián wǒ zhù zhèlǐ — 以前我住这里",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I will live here.",
+      "B": "I lived here before.",
+      "C": "I live here now.",
+      "D": "I live here later."
+    },
+    "correct": "B",
+    "explanation": "以前 = before.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-007",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "wǒ zǎoshang qù gōngsī — 我早上去公司",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I go to work in the morning.",
+      "B": "I go to work at night.",
+      "C": "I went yesterday.",
+      "D": "I will go later."
+    },
+    "correct": "A",
+    "explanation": "早上 = morning.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core7_phrase-008",
+    "kind": "vocab",
+    "deckId": "ch2-core7_phrase",
+    "level": "HSK1",
+    "promptLine": "tā wǎnshang huí jiā — 他晚上回家",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He goes home in the morning.",
+      "B": "He goes home at night.",
+      "C": "He went home yesterday.",
+      "D": "He will go home later."
+    },
+    "correct": "B",
+    "explanation": "晚上 = evening.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch2-core8_phrase-001",
+    "kind": "vocab",
+    "deckId": "ch2-core8_phrase",
+    "level": "HSK2",
+    "promptLine": "nà gè shíhou wǒ hěn máng — 那个时候我很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "At that time I was very busy.",
+      "B": "I am busy now.",
+      "C": "I will be busy later.",
+      "D": "I was busy yesterday."
+    },
+    "correct": "A",
+    "explanation": "时候 = time/moment.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8_phrase-002",
+    "kind": "vocab",
+    "deckId": "ch2-core8_phrase",
+    "level": "HSK2",
+    "promptLine": "zhè gè zhōu wǒ hěn máng — 这个周我很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I was busy last week.",
+      "B": "I am busy this week.",
+      "C": "I will be busy next week.",
+      "D": "I am busy today."
+    },
+    "correct": "B",
+    "explanation": "周 = week.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8_phrase-003",
+    "kind": "vocab",
+    "deckId": "ch2-core8_phrase",
+    "level": "HSK2",
+    "promptLine": "zhège yuè wǒ hěn lèi — 这个月我很累",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I was tired last month.",
+      "B": "I am tired this month.",
+      "C": "I will be tired next month.",
+      "D": "I am tired today."
+    },
+    "correct": "B",
+    "explanation": "月 = month.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8_phrase-004",
+    "kind": "vocab",
+    "deckId": "ch2-core8_phrase",
+    "level": "HSK2",
+    "promptLine": "jīnnián wǒ hěn máng — 今年我很忙",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I was busy last year.",
+      "B": "I am busy this year.",
+      "C": "I will be busy next year.",
+      "D": "I am busy now."
+    },
+    "correct": "B",
+    "explanation": "年 = year.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch2-core8_phrase-005",
+    "kind": "vocab",
+    "deckId": "ch2-core8_phrase",
+    "level": "HSK2",
+    "promptLine": "zhōumò wǒ xiǎng xiūxi — 周末我想休息",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I wanted to rest last weekend.",
+      "B": "I want to rest this weekend.",
+      "C": "I will work this weekend.",
+      "D": "I rest every weekend."
+    },
+    "correct": "B",
+    "explanation": "周末 = weekend.",
+    "tags": ["phrases"],
+    "difficulty": 2
+  }
+,
+
 
 
 {
