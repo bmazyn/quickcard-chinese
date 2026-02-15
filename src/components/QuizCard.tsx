@@ -11,7 +11,6 @@ interface QuizCardProps {
   isDisabled?: boolean;
   nextButtonText?: string;
   isSpeedrunMode?: boolean;
-  countdownNumber?: number | null;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -27,7 +26,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, countdownNumber = null }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization

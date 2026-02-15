@@ -218,7 +218,6 @@ export default function Speedrun() {
         selectedChoice: null,
         isCorrect: null,
       });
-      setPenaltyCountdown(0);
     }
   };
 
@@ -464,7 +463,6 @@ export default function Speedrun() {
         isDisabled={false}
         nextButtonText="Next →"
         isSpeedrunMode={mode === "speedrun"}
-        countdownNumber={null}
       />
     </div>
   );
