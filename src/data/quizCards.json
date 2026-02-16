@@ -4575,6 +4575,1048 @@
   }
 ,
 
+  {
+    "id": "ch3-s1-num1-001",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "líng — 零",
+    "question": "What does this mean?",
+    "choices": { "A": "Zero", "B": "One", "C": "Two", "D": "Ten" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 零 (líng) means zero." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-002",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "yī — 一",
+    "question": "What does this mean?",
+    "choices": { "A": "Three", "B": "One", "C": "Four", "D": "Six" },
+    "correct": "B",
+    "explanations": { "B": "Correct! 一 (yī) means one." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-003",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "èr — 二",
+    "question": "What does this mean?",
+    "choices": { "A": "Two", "B": "Five", "C": "Seven", "D": "Nine" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 二 (èr) means two." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-004",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "sān — 三",
+    "question": "What does this mean?",
+    "choices": { "A": "Eight", "B": "Three", "C": "Two", "D": "Ten" },
+    "correct": "B",
+    "explanations": { "B": "Correct! 三 (sān) means three." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-005",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "sì — 四",
+    "question": "What does this mean?",
+    "choices": { "A": "Four", "B": "Six", "C": "Seven", "D": "Nine" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 四 (sì) means four." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-006",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "wǔ — 五",
+    "question": "What does this mean?",
+    "choices": { "A": "Two", "B": "Five", "C": "Eight", "D": "One" },
+    "correct": "B",
+    "explanations": { "B": "Correct! 五 (wǔ) means five." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-007",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "liù — 六",
+    "question": "What does this mean?",
+    "choices": { "A": "Six", "B": "Four", "C": "Three", "D": "Seven" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 六 (liù) means six." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-008",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "qī — 七",
+    "question": "What does this mean?",
+    "choices": { "A": "Nine", "B": "Eight", "C": "Seven", "D": "Five" },
+    "correct": "C",
+    "explanations": { "C": "Correct! 七 (qī) means seven." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-009",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "bā — 八",
+    "question": "What does this mean?",
+    "choices": { "A": "Six", "B": "Eight", "C": "Ten", "D": "Two" },
+    "correct": "B",
+    "explanations": { "B": "Correct! 八 (bā) means eight." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-010",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "jiǔ — 九",
+    "question": "What does this mean?",
+    "choices": { "A": "Nine", "B": "Three", "C": "Four", "D": "Seven" },
+    "correct": "A",
+    "explanations": { "A": "Correct! 九 (jiǔ) means nine." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  },
+  {
+    "id": "ch3-s1-num1-011",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num1",
+    "level": "HSK1",
+    "promptLine": "shí — 十",
+    "question": "What does this mean?",
+    "choices": { "A": "Eight", "B": "Ten", "C": "Six", "D": "Zero" },
+    "correct": "B",
+    "explanations": { "B": "Correct! 十 (shí) means ten." },
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 1
+  }
+,
+
+  {
+    "id": "ch3-s1-num2-001",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "shíyī — 十一",
+    "question": "What does this mean?",
+    "choices": { "A": "20", "B": "11", "C": "15", "D": "10" },
+    "correct": "B",
+    "explanation": "十一 means eleven.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-002",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "11",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "èrshí — 二十",
+      "B": "shíyī — 十一",
+      "C": "yībǎi — 一百",
+      "D": "sìshíwǔ — 四十五"
+    },
+    "correct": "B",
+    "explanation": "11 is 十一.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-003",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "èrshí — 二十",
+    "question": "What does this mean?",
+    "choices": { "A": "12", "B": "30", "C": "20", "D": "25" },
+    "correct": "C",
+    "explanation": "二十 means twenty.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-004",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "20",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "sìshíwǔ — 四十五",
+      "B": "èrshí — 二十",
+      "C": "yībǎi — 一百",
+      "D": "liǎngbǎi — 两百"
+    },
+    "correct": "B",
+    "explanation": "20 is 二十.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-005",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "sìshíwǔ — 四十五",
+    "question": "What does this mean?",
+    "choices": { "A": "54", "B": "45", "C": "40", "D": "55" },
+    "correct": "B",
+    "explanation": "四十五 means forty-five.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-006",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "45",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "sìshíwǔ — 四十五",
+      "B": "sānshíwǔ — 三十五",
+      "C": "yībǎi — 一百",
+      "D": "jiǔbǎijiǔshíjiǔ — 九百九十九"
+    },
+    "correct": "A",
+    "explanation": "45 is 四十五.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-007",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "yībǎi — 一百",
+    "question": "What does this mean?",
+    "choices": { "A": "100", "B": "110", "C": "200", "D": "999" },
+    "correct": "A",
+    "explanation": "一百 means one hundred.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-008",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "100",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "yībǎishíwǔ — 一百一十五",
+      "B": "liǎngbǎi — 两百",
+      "C": "yībǎi — 一百",
+      "D": "sānbǎi — 三百"
+    },
+    "correct": "C",
+    "explanation": "100 is 一百.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-009",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "yībǎishíwǔ — 一百一十五",
+    "question": "What does this mean?",
+    "choices": { "A": "105", "B": "115", "C": "150", "D": "151" },
+    "correct": "B",
+    "explanation": "一百一十五 means one hundred fifteen.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-010",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "115",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "yībǎishíwǔ — 一百一十五",
+      "B": "liǎngbǎi — 两百",
+      "C": "sānbǎi — 三百",
+      "D": "jiǔbǎijiǔshíjiǔ — 九百九十九"
+    },
+    "correct": "A",
+    "explanation": "115 is 一百一十五.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-011",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "liǎngbǎi — 两百",
+    "question": "What does this mean?",
+    "choices": { "A": "200", "B": "300", "C": "250", "D": "999" },
+    "correct": "A",
+    "explanation": "两百 means two hundred.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-012",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "200",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "yībǎi — 一百",
+      "B": "liǎngbǎi — 两百",
+      "C": "sānbǎi — 三百",
+      "D": "jiǔbǎijiǔshíjiǔ — 九百九十九"
+    },
+    "correct": "B",
+    "explanation": "200 is 两百.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-013",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "sānbǎi — 三百",
+    "question": "What does this mean?",
+    "choices": { "A": "200", "B": "300", "C": "400", "D": "999" },
+    "correct": "B",
+    "explanation": "三百 means three hundred.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-014",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "300",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "liǎngbǎi — 两百",
+      "B": "yībǎishíwǔ — 一百一十五",
+      "C": "sānbǎi — 三百",
+      "D": "yībǎi — 一百"
+    },
+    "correct": "C",
+    "explanation": "300 is 三百.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-num2-015",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "jiǔbǎijiǔshíjiǔ — 九百九十九",
+    "question": "What does this mean?",
+    "choices": { "A": "909", "B": "990", "C": "999", "D": "900" },
+    "correct": "C",
+    "explanation": "九百九十九 means nine hundred ninety-nine.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-num2-016",
+    "kind": "vocab",
+    "deckId": "ch3-s1-num2",
+    "level": "HSK1",
+    "promptLine": "999",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "jiǔbǎijiǔshíjiǔ — 九百九十九",
+      "B": "sānbǎi — 三百",
+      "C": "liǎngbǎi — 两百",
+      "D": "yībǎi — 一百"
+    },
+    "correct": "A",
+    "explanation": "999 is 九百九十九.",
+    "tags": ["numbers", "ch3", "sec1"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch3-s1-day1-001",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "xīngqīyī — 星期一",
+    "question": "What does this mean?",
+    "choices": { "A": "Wednesday", "B": "Monday", "C": "Sunday", "D": "Friday" },
+    "correct": "B",
+    "explanation": "星期一 means Monday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-002",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "xīngqīsān — 星期三",
+    "question": "What does this mean?",
+    "choices": { "A": "Wednesday", "B": "Thursday", "C": "Monday", "D": "Saturday" },
+    "correct": "A",
+    "explanation": "星期三 means Wednesday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-003",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "xīngqīwǔ — 星期五",
+    "question": "What does this mean?",
+    "choices": { "A": "Tuesday", "B": "Friday", "C": "Sunday", "D": "Thursday" },
+    "correct": "B",
+    "explanation": "星期五 means Friday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-004",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "xīngqīrì — 星期日",
+    "question": "What does this mean?",
+    "choices": { "A": "Sunday", "B": "Saturday", "C": "Monday", "D": "Friday" },
+    "correct": "A",
+    "explanation": "星期日 means Sunday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-day1-005",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "yīyuè — 一月",
+    "question": "What does this mean?",
+    "choices": { "A": "April", "B": "January", "C": "August", "D": "December" },
+    "correct": "B",
+    "explanation": "一月 means January.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-006",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "sìyuè — 四月",
+    "question": "What does this mean?",
+    "choices": { "A": "April", "B": "June", "C": "August", "D": "October" },
+    "correct": "A",
+    "explanation": "四月 means April.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-007",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "bāyuè — 八月",
+    "question": "What does this mean?",
+    "choices": { "A": "May", "B": "August", "C": "September", "D": "November" },
+    "correct": "B",
+    "explanation": "八月 means August.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-008",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "shíèryuè — 十二月",
+    "question": "What does this mean?",
+    "choices": { "A": "February", "B": "October", "C": "December", "D": "March" },
+    "correct": "C",
+    "explanation": "十二月 means December.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-day1-009",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "Monday",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "xīngqīwǔ — 星期五",
+      "B": "xīngqīyī — 星期一",
+      "C": "xīngqīrì — 星期日",
+      "D": "xīngqīsān — 星期三"
+    },
+    "correct": "B",
+    "explanation": "Monday is 星期一.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-010",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "Friday",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "xīngqīwǔ — 星期五",
+      "B": "xīngqīsān — 星期三",
+      "C": "xīngqīrì — 星期日",
+      "D": "xīngqīyī — 星期一"
+    },
+    "correct": "A",
+    "explanation": "Friday is 星期五.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-011",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "January",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "sìyuè — 四月",
+      "B": "yīyuè — 一月",
+      "C": "bāyuè — 八月",
+      "D": "shíèryuè — 十二月"
+    },
+    "correct": "B",
+    "explanation": "January is 一月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-012",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "August",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "bāyuè — 八月",
+      "B": "sìyuè — 四月",
+      "C": "yīyuè — 一月",
+      "D": "shíèryuè — 十二月"
+    },
+    "correct": "A",
+    "explanation": "August is 八月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-013",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "Sunday",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "xīngqīsān — 星期三",
+      "B": "xīngqīrì — 星期日",
+      "C": "xīngqīwǔ — 星期五",
+      "D": "xīngqīyī — 星期一"
+    },
+    "correct": "B",
+    "explanation": "Sunday is 星期日.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day1-014",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day1",
+    "level": "HSK1",
+    "promptLine": "December",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "bāyuè — 八月",
+      "B": "yīyuè — 一月",
+      "C": "sìyuè — 四月",
+      "D": "shíèryuè — 十二月"
+    },
+    "correct": "D",
+    "explanation": "December is 十二月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch3-s1-day2-001",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "xīngqīèr — 星期二",
+    "question": "What does this mean?",
+    "choices": { "A": "Tuesday", "B": "Thursday", "C": "Saturday", "D": "Monday" },
+    "correct": "A",
+    "explanation": "星期二 means Tuesday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-002",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "xīngqīsì — 星期四",
+    "question": "What does this mean?",
+    "choices": { "A": "Wednesday", "B": "Thursday", "C": "Friday", "D": "Sunday" },
+    "correct": "B",
+    "explanation": "星期四 means Thursday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-003",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "xīngqīliù — 星期六",
+    "question": "What does this mean?",
+    "choices": { "A": "Saturday", "B": "Sunday", "C": "Tuesday", "D": "Thursday" },
+    "correct": "A",
+    "explanation": "星期六 means Saturday.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-day2-004",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "èryuè — 二月",
+    "question": "What does this mean?",
+    "choices": { "A": "February", "B": "March", "C": "June", "D": "November" },
+    "correct": "A",
+    "explanation": "二月 means February.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-005",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "sānyuè — 三月",
+    "question": "What does this mean?",
+    "choices": { "A": "September", "B": "October", "C": "March", "D": "November" },
+    "correct": "C",
+    "explanation": "三月 means March.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-006",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "liùyuè — 六月",
+    "question": "What does this mean?",
+    "choices": { "A": "June", "B": "July", "C": "April", "D": "August" },
+    "correct": "A",
+    "explanation": "六月 means June.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-007",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "jiǔyuè — 九月",
+    "question": "What does this mean?",
+    "choices": { "A": "November", "B": "September", "C": "December", "D": "February" },
+    "correct": "B",
+    "explanation": "九月 means September.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-008",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "shíyuè — 十月",
+    "question": "What does this mean?",
+    "choices": { "A": "October", "B": "August", "C": "April", "D": "March" },
+    "correct": "A",
+    "explanation": "十月 means October.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-009",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "shíyīyuè — 十一月",
+    "question": "What does this mean?",
+    "choices": { "A": "September", "B": "November", "C": "December", "D": "January" },
+    "correct": "B",
+    "explanation": "十一月 means November.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+
+  {
+    "id": "ch3-s1-day2-010",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "Tuesday",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "xīngqīèr — 星期二",
+      "B": "xīngqīsì — 星期四",
+      "C": "xīngqīliù — 星期六",
+      "D": "xīngqīyī — 星期一"
+    },
+    "correct": "A",
+    "explanation": "Tuesday is 星期二.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-011",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "Saturday",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "xīngqīsān — 星期三",
+      "B": "xīngqīliù — 星期六",
+      "C": "xīngqīrì — 星期日",
+      "D": "xīngqīsì — 星期四"
+    },
+    "correct": "B",
+    "explanation": "Saturday is 星期六.",
+    "tags": ["days", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-012",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "March",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "èryuè — 二月",
+      "B": "sānyuè — 三月",
+      "C": "jiǔyuè — 九月",
+      "D": "shíyīyuè — 十一月"
+    },
+    "correct": "B",
+    "explanation": "March is 三月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-013",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "September",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "jiǔyuè — 九月",
+      "B": "shíyuè — 十月",
+      "C": "shíyīyuè — 十一月",
+      "D": "liùyuè — 六月"
+    },
+    "correct": "A",
+    "explanation": "September is 九月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-s1-day2-014",
+    "kind": "vocab",
+    "deckId": "ch3-s1-day2",
+    "level": "HSK1",
+    "promptLine": "November",
+    "question": "Which is correct?",
+    "choices": {
+      "A": "shíyuè — 十月",
+      "B": "shíyīyuè — 十一月",
+      "C": "jiǔyuè — 九月",
+      "D": "èryuè — 二月"
+    },
+    "correct": "B",
+    "explanation": "November is 十一月.",
+    "tags": ["months", "ch3", "sec1"],
+    "difficulty": 2
+  }
+,
+
+
+  {
+    "id": "ch3-phrase-3-1-1-001",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "wǒ jīntiān qù gōngsī — 我今天去公司",
+    "question": "What does this mean?",
+    "choices": { "A": "I go to work today.", "B": "I went to work yesterday.", "C": "I will go to work tomorrow.", "D": "I go to work on Sunday." },
+    "correct": "A",
+    "explanation": "今天 = today.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-002",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "wǒ míngtiān zǎoshang zǒu — 我明天早上走",
+    "question": "What does this mean?",
+    "choices": { "A": "I leave tomorrow morning.", "B": "I leave tomorrow night.", "C": "I leave this morning.", "D": "I leave later." },
+    "correct": "A",
+    "explanation": "明天早上 = tomorrow morning.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-003",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "zuótiān wǎnshang wǒ hěn lèi — 昨天晚上我很累",
+    "question": "What does this mean?",
+    "choices": { "A": "I was very tired last night.", "B": "I am very tired tonight.", "C": "I will be tired tomorrow night.", "D": "I was tired this morning." },
+    "correct": "A",
+    "explanation": "昨天晚上 = yesterday evening/last night.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-004",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "wǒ xiànzài zài jiā — 我现在在家",
+    "question": "What does this mean?",
+    "choices": { "A": "I am at home now.", "B": "I was at home yesterday.", "C": "I will be home tomorrow.", "D": "I am at home on the weekend." },
+    "correct": "A",
+    "explanation": "现在 = now.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-005",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "xīngqīyī wǒ hěn máng — 星期一我很忙",
+    "question": "What does this mean?",
+    "choices": { "A": "I am very busy on Monday.", "B": "I am very busy on Friday.", "C": "I am busy this month.", "D": "I am busy tomorrow." },
+    "correct": "A",
+    "explanation": "星期一 = Monday.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-006",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "zhōumò wǒ xiǎng xiūxi — 周末我想休息",
+    "question": "What does this mean?",
+    "choices": { "A": "I want to rest on the weekend.", "B": "I want to rest on Monday.", "C": "I want to rest later.", "D": "I want to rest this year." },
+    "correct": "A",
+    "explanation": "周末 = weekend.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-007",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "wǒ yīyuè qù Běijīng — 我一月去北京",
+    "question": "What does this mean?",
+    "choices": { "A": "I go to Beijing in January.", "B": "I go to Beijing in April.", "C": "I go to Beijing on Monday.", "D": "I go to Beijing tomorrow." },
+    "correct": "A",
+    "explanation": "一月 = January.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-1-008",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-1",
+    "level": "HSK1",
+    "promptLine": "jīnnián wǒ hěn máng — 今年我很忙",
+    "question": "What does this mean?",
+    "choices": { "A": "I am very busy this year.", "B": "I am very busy this month.", "C": "I am busy this weekend.", "D": "I was busy last year." },
+    "correct": "A",
+    "explanation": "今年 = this year.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  }
+,
+
+
+  {
+    "id": "ch3-phrase-3-1-2-001",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "wǒ shíyī diǎn shuìjiào — 我十一点睡觉",
+    "question": "What does this mean?",
+    "choices": { "A": "I go to sleep at 11 o’clock.", "B": "I go to sleep at 10 o’clock.", "C": "I go to sleep at 12 o’clock.", "D": "I go to sleep tomorrow." },
+    "correct": "A",
+    "explanation": "十一点 = 11 o’clock.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-phrase-3-1-2-002",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "xiànzài èrshí fēn — 现在二十分",
+    "question": "What does this mean?",
+    "choices": { "A": "It is 20 minutes now.", "B": "It is 45 minutes now.", "C": "It is 11 minutes now.", "D": "It is 20 o’clock now." },
+    "correct": "A",
+    "explanation": "二十分 = 20 minutes.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-phrase-3-1-2-003",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "wǒ děng nǐ sìshíwǔ fēn — 我等你四十五分",
+    "question": "What does this mean?",
+    "choices": { "A": "I wait for you 45 minutes.", "B": "I wait for you 20 minutes.", "C": "I wait for you 45 hours.", "D": "I wait for you tomorrow." },
+    "correct": "A",
+    "explanation": "四十五分 = 45 minutes.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-phrase-3-1-2-004",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "wǒ yǐhòu zài lái — 我以后再来",
+    "question": "What does this mean?",
+    "choices": { "A": "I will come later.", "B": "I came before.", "C": "I come now.", "D": "I come tomorrow morning." },
+    "correct": "A",
+    "explanation": "以后 = later.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-2-005",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "yǐqián wǒ bù zài zhèlǐ — 以前我不在这里",
+    "question": "What does this mean?",
+    "choices": { "A": "Before, I was not here.", "B": "Now I am not here.", "C": "Tomorrow I am not here.", "D": "This weekend I am not here." },
+    "correct": "A",
+    "explanation": "以前 = before.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-2-006",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "zhè gè yuè wǒ hěn máng — 这个月我很忙",
+    "question": "What does this mean?",
+    "choices": { "A": "I am very busy this month.", "B": "I am very busy this week.", "C": "I am very busy this year.", "D": "I am busy today." },
+    "correct": "A",
+    "explanation": "这个月 = this month.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-2-007",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "wǒ zhōumò yào gōngzuò — 我周末要工作",
+    "question": "What does this mean?",
+    "choices": { "A": "I need to work on the weekend.", "B": "I work on Monday.", "C": "I want to rest on the weekend.", "D": "I worked last weekend." },
+    "correct": "A",
+    "explanation": "周末 = weekend.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-phrase-3-1-2-008",
+    "kind": "vocab",
+    "deckId": "ch3-phrase-3-1-2",
+    "level": "HSK1",
+    "promptLine": "nà gè shíhou wǒ hěn lèi — 那个时候我很累",
+    "question": "What does this mean?",
+    "choices": { "A": "At that time I was very tired.", "B": "Now I am very tired.", "C": "Tomorrow I will be tired.", "D": "This month I am tired." },
+    "correct": "A",
+    "explanation": "那个时候 = at that time.",
+    "tags": ["phrases", "ch3", "sec1"],
+    "difficulty": 2
+  }
+,
 
 
 {

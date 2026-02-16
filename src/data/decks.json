@@ -31,15 +31,16 @@
   "ch2-core8_phrase": { "chapter": 2, "section": "Times", "deckName": "Core 8 Phrases", "order": 4 },
 
 
-  "ch3-time1": { "chapter": 3, "section": "Time", "deckName": "Time 1", "order": 1 },
-  "ch3-time2": { "chapter": 3, "section": "Time", "deckName": "Time 2", "order": 2 },
-  "ch3-time3": { "chapter": 3, "section": "Time", "deckName": "Time 3", "order": 3 },
-  "ch3-timep": { "chapter": 3, "section": "Time", "deckName": "Time Phrases", "order": 4 },
+  "ch3-s1-num1": { "chapter": 3, "section": "Numbers", "deckName": "Numbers 1", "order": 1 },
+  "ch3-s1-num2": { "chapter": 3, "section": "Numbers", "deckName": "Numbers 2", "order": 2 },
+  "ch3-s1-day1": { "chapter": 3, "section": "Numbers", "deckName": "Days 1", "order": 3 },
+  "ch3-s1-day2": { "chapter": 3, "section": "Numbers", "deckName": "Days 2", "order": 4 },
 
-  "ch3-num1": { "chapter": 3, "section": "Quantity", "deckName": "Numbers 1", "order": 1 },
-  "ch3-num2": { "chapter": 3, "section": "Quantity", "deckName": "Numbers 2", "order": 2 },
-  "ch3-qty1": { "chapter": 3, "section": "Quantity", "deckName": "Quantity", "order": 3 },
-  "ch3-nump": { "chapter": 3, "section": "Quantity", "deckName": "Numbers Phrases", "order": 4 },
+  "ch3-phrase-3-1-1": { "chapter": 3, "section": "Sec 2", "deckName": "Phrases 3.2.1", "order": 1 },
+  "ch3-phrase-3-1-2": { "chapter": 3, "section": "Sec 2", "deckName": "Phrases 3.2.2", "order": 2 },
+  "ch3-qty1": { "chapter": 3, "section": "Sec 2", "deckName": "Quantity", "order": 3 },
+  "ch3-nump": { "chapter": 3, "section": "Sec 2", "deckName": "Numbers Phrases", "order": 4 },
+
 
   "ch3-exist1": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist 1", "order": 1 },
   "ch3-exist2": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist 2", "order": 2 },

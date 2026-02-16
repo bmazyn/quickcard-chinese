@@ -1,0 +1,563 @@
+﻿id,kind,chapter,section,deck,promptLine,answer,tags,choice_A,choice_B,choice_C,choice_D,difficulty
+beginner1-001,vocab,1,"Beginner","Beginner 1","wǒ — 我","I",beginner,"I","you","my","name",1
+beginner1-002,vocab,1,"Beginner","Beginner 1","nǐ — 你","you",beginner,"you","I","your","sorry",1
+beginner1-003,vocab,1,"Beginner","Beginner 1","wǒ de — 我的","my",beginner,"my","your","name","I",1
+beginner1-004,vocab,1,"Beginner","Beginner 1","nǐ de — 你的","your",beginner,"your","my","you","name",1
+beginner1-005,vocab,1,"Beginner","Beginner 1","míngzi — 名字","name",beginner,"name","sorry","hello","thank you",1
+beginner1-006,vocab,1,"Beginner","Beginner 1","nǐ hǎo — 你好","hello",beginner,"hello","sorry","thank you","goodbye",1
+beginner1-007,vocab,1,"Beginner","Beginner 1","xièxie — 谢谢","thank you",beginner,"thank you","sorry","hello","please",1
+beginner1-008,vocab,1,"Beginner","Beginner 1","duìbuqǐ — 对不起","sorry",beginner,"sorry","thank you","hello","name",1
+beginner1-009,vocab,1,"Beginner","Beginner 1","I","wǒ — 我",beginner|reverse,"wǒ — 我","nǐ — 你","míngzi — 名字","xièxie — 谢谢",1
+beginner1-010,vocab,1,"Beginner","Beginner 1","you","nǐ — 你",beginner|reverse,"nǐ — 你","wǒ — 我","nǐ de — 你的","duìbuqǐ — 对不起",1
+beginner1-011,vocab,1,"Beginner","Beginner 1","my","wǒ de — 我的",beginner|reverse,"wǒ de — 我的","nǐ de — 你的","wǒ — 我","míngzi — 名字",1
+beginner1-012,vocab,1,"Beginner","Beginner 1","your","nǐ de — 你的",beginner|reverse,"nǐ de — 你的","wǒ de — 我的","nǐ — 你","xièxie — 谢谢",1
+beginner1-013,vocab,1,"Beginner","Beginner 1","name","míngzi — 名字",beginner|reverse,"míngzi — 名字","duìbuqǐ — 对不起","nǐ hǎo — 你好","xièxie — 谢谢",1
+beginner1-014,vocab,1,"Beginner","Beginner 1","hello","nǐ hǎo — 你好",beginner|reverse,"nǐ hǎo — 你好","xièxie — 谢谢","duìbuqǐ — 对不起","míngzi — 名字",1
+beginner1-015,vocab,1,"Beginner","Beginner 1","thank you","xièxie — 谢谢",beginner|reverse,"xièxie — 谢谢","nǐ hǎo — 你好","duìbuqǐ — 对不起","nǐ de — 你的",1
+beginner1-016,vocab,1,"Beginner","Beginner 1","sorry","duìbuqǐ — 对不起",beginner|reverse,"duìbuqǐ — 对不起","xièxie — 谢谢","nǐ hǎo — 你好","míngzi — 名字",1
+beginner1-017,vocab,1,"Beginner","Beginner 1","de — 的","possessive particle (’s / of)",beginner,"possessive particle (’s / of)","plural marker","question word","verb marker",1
+beginner1-018,vocab,1,"Beginner","Beginner 1","men — 们","plural marker (people)",beginner,"plural marker (people)","past tense","location word","question marker",1
+beginner2-001,vocab,1,"Beginner","Beginner 2","xiǎng — 想","want",beginner,"want","like","know","need",1
+beginner2-002,vocab,1,"Beginner","Beginner 2","xǐhuan — 喜欢","like",beginner,"like","want","know","use",1
+beginner2-003,vocab,1,"Beginner","Beginner 2","zhīdào — 知道","know",beginner,"know","think","see","say",1
+beginner2-004,vocab,1,"Beginner","Beginner 2","zhè — 这","this",beginner,"this","that","it","here",1
+beginner2-005,vocab,1,"Beginner","Beginner 2","tā — 它","it (objects / animals)",beginner,"it (objects / animals)","he","she","they",1
+beginner2-006,vocab,1,"Beginner","Beginner 2","shì — 是","is / are / am",beginner,"is / are / am","is","have","do",1
+beginner2-007,vocab,1,"Beginner","Beginner 2","bù — 不","not / no",beginner,"not / no","yes","don’t","none",1
+beginner2-008,vocab,1,"Beginner","Beginner 2","qǐng — 请","please",beginner,"please","thanks","sorry","welcome",1
+beginner2-009,vocab,1,"Beginner","Beginner 2","want","xiǎng — 想",beginner|reverse,"xiǎng — 想","xǐhuan — 喜欢","zhīdào — 知道","qǐng — 请",1
+beginner2-010,vocab,1,"Beginner","Beginner 2","like","xǐhuan — 喜欢",beginner|reverse,"xǐhuan — 喜欢","xiǎng — 想","zhè — 这","shì — 是",1
+beginner2-011,vocab,1,"Beginner","Beginner 2","know","zhīdào — 知道",beginner|reverse,"zhīdào — 知道","xǐhuan — 喜欢","bù — 不","tā — 它",1
+beginner2-012,vocab,1,"Beginner","Beginner 2","this","zhè — 这",beginner|reverse,"zhè — 这","tā — 它","shì — 是","bù — 不",1
+beginner2-013,vocab,1,"Beginner","Beginner 2","it","tā — 它",beginner|reverse,"tā — 它","zhè — 这","bù — 不","qǐng — 请",1
+beginner2-015,vocab,1,"Beginner","Beginner 2","no","bù — 不",beginner|reverse,"bù — 不","shì — 是","zhè — 这","xǐhuan — 喜欢",1
+beginner2-016,vocab,1,"Beginner","Beginner 2","please","qǐng — 请",beginner|reverse,"qǐng — 请","xièxie — 谢谢","duìbuqǐ — 对不起","shì — 是",1
+beginner3-001,vocab,1,"Beginner","Beginner 3","shéi — 谁","who",beginner,"who","what","where","how",1
+beginner3-002,vocab,1,"Beginner","Beginner 3","shénme — 什么","what",beginner,"what","who","where","how",1
+beginner3-003,vocab,1,"Beginner","Beginner 3","zài nǎlǐ — 在哪里","where",beginner,"where","who","what","how",1
+beginner3-004,vocab,1,"Beginner","Beginner 3","zěnme — 怎么","how",beginner,"how","why","where","what",1
+beginner3-005,vocab,1,"Beginner","Beginner 3","shì — 是","is / are / am",beginner,"is / are / am","have","do","go",1
+beginner3-008,vocab,1,"Beginner","Beginner 3","bù — 不","not / no",beginner,"not / no","all","yes","none",1
+beginner3-009,vocab,1,"Beginner","Beginner 3","who","shéi — 谁",beginner|reverse,"shéi — 谁","shénme — 什么","zěnme — 怎么","zài nǎlǐ — 在哪里",1
+beginner3-010,vocab,1,"Beginner","Beginner 3","what","shénme — 什么",beginner|reverse,"shénme — 什么","shéi — 谁","zěnme — 怎么","zài nǎlǐ — 在哪里",1
+beginner3-011,vocab,1,"Beginner","Beginner 3","where","zài nǎlǐ — 在哪里",beginner|reverse,"zài nǎlǐ — 在哪里","shéi — 谁","shénme — 什么","zěnme — 怎么",1
+beginner3-012,vocab,1,"Beginner","Beginner 3","how","zěnme — 怎么",beginner|reverse,"zěnme — 怎么","shénme — 什么","shéi — 谁","zài nǎlǐ — 在哪里",1
+beginner3-013,vocab,1,"Beginner","Beginner 3","is","shì — 是",beginner|reverse,"shì — 是","bù — 不","yǒu — 有","zài — 在",1
+beginner3-014,vocab,1,"Beginner","Beginner 3","are","shì — 是",beginner|reverse,"shì — 是","bù — 不","yǒu — 有","zěnme — 怎么",1
+beginner3-015,vocab,1,"Beginner","Beginner 3","am","shì — 是",beginner|reverse,"shì — 是","bù — 不","zài — 在","yào — 要",1
+beginner3-016,vocab,1,"Beginner","Beginner 3","not","bù — 不",beginner|reverse,"bù — 不","shì — 是","méiyǒu — 没有","zài — 在",1
+beginnerPhrases-001,phrase,1,"Beginner","Beginner Phrases","xièxie — 谢谢","Thank you",beginner|phrase,"Thank you","Sorry","Hello","Please",1
+beginnerPhrases-002,phrase,1,"Beginner","Beginner Phrases","wǒ bù zhīdào — 我不知道","I don’t know",beginner|phrase,"I don’t know","I don’t like it","I don’t want this","I’m not here",1
+beginnerPhrases-003,phrase,1,"Beginner","Beginner Phrases","wǒ yào zhège — 我要这个","I want this",beginner|phrase,"I want this","I like this","I need this","I have this",1
+beginnerPhrases-004,phrase,1,"Beginner","Beginner Phrases","wǒ xǐhuan tā — 我喜欢它","I like it",beginner|phrase,"I like it","I want it","I see it","I know it",1
+beginnerPhrases-005,phrase,1,"Beginner","Beginner Phrases","wǒ hěn hǎo — 我很好","I’m very well / I’m fine",beginner|phrase,"I’m very well / I’m fine","I like it","I’m sorry","I know",1
+beginnerPhrases-006,phrase,1,"Beginner","Beginner Phrases","bù, xièxie — 不，谢谢","No thank you",beginner|phrase,"No thank you","Not now","No, I don’t know","Sorry",1
+beginnerPhrases-007,phrase,1,"Beginner","Beginner Phrases","shéi shì zhège — 谁是这个","Who is this",beginner|phrase,"Who is this","What is this","Where is this","Who are you",1
+beginnerPhrases-008,phrase,1,"Beginner","Beginner Phrases","zài nǎlǐ shì tā — 在哪里是它","Where is it",beginner|phrase,"Where is it","Where are you","What is it","How is it",1
+beginnerPhrases-009,phrase,1,"Beginner","Beginner Phrases","duìbuqǐ — 对不起","I’m sorry",beginner|phrase,"I’m sorry","Thank you","Excuse me","Goodbye",1
+beginnerPhrases-010,phrase,1,"Beginner","Beginner Phrases","nǐ hǎo ma — 你好吗","How are you?",beginner|phrase,"How are you?","Who are you?","Where are you?","Are you okay?",1
+beginnerPhrases-011,phrase,1,"Beginner","Beginner Phrases","nǐ de míngzi shì shénme — 你的名字是什么","What is your name?",beginner|phrase,"What is your name?","My name is…","Who are you?","Where is your home?",1
+beginnerPhrases-012,phrase,1,"Beginner","Beginner Phrases","wǒ de míngzi shì ___ — 我的名字是___","My name is ___",beginner|phrase,"My name is ___","Your name is ___","This is my name","I know your name",1
+beginnerPhrases-013,phrase,1,"Beginner","Beginner Phrases","hǎo de, xièxie — 好的，谢谢","Okay, thank you",beginner|phrase,"Okay, thank you","Yes, please","No problem","You're welcome",1
+fundamentals1-001,vocab,1,"Fundamentals","Fundamentals 1","hāi — 嗨","hi",beginner,"hi","hello","welcome","goodbye",1
+fundamentals1-003,vocab,1,"Fundamentals","Fundamentals 1","zàijiàn — 再见","goodbye",beginner,"goodbye","see you","welcome","hi",1
+fundamentals1-004,vocab,1,"Fundamentals","Fundamentals 1","huānyíng — 欢迎","welcome",beginner,"welcome","please","thank you","hello",1
+fundamentals1-005,vocab,1,"Fundamentals","Fundamentals 1","rén — 人","person / people",beginner,"person / people","someone","home","name",1
+fundamentals1-006,vocab,1,"Fundamentals","Fundamentals 1","mǒurén — 某人","someone",beginner,"someone","everyone","people","person",1
+fundamentals1-007,vocab,1,"Fundamentals","Fundamentals 1","tā — 他 / 她","he / she",beginner,"he / she","they","it","someone",1
+fundamentals1-009,vocab,1,"Fundamentals","Fundamentals 1","hi","hāi — 嗨",beginner|reverse,"hāi — 嗨","zàijiàn — 再见","huānyíng — 欢迎","xièxie — 谢谢",1
+fundamentals1-011,vocab,1,"Fundamentals","Fundamentals 1","goodbye","zàijiàn — 再见",beginner|reverse,"zàijiàn — 再见","huānyíng — 欢迎","hāi — 嗨","xièxie — 谢谢",1
+fundamentals1-012,vocab,1,"Fundamentals","Fundamentals 1","welcome","huānyíng — 欢迎",beginner|reverse,"huānyíng — 欢迎","zàijiàn — 再见","hāi — 嗨","qǐng — 请",1
+fundamentals1-013,vocab,1,"Fundamentals","Fundamentals 1","people","rén — 人",beginner|reverse,"rén — 人","mǒurén — 某人","jiā — 家","péngyou — 朋友",1
+fundamentals1-014,vocab,1,"Fundamentals","Fundamentals 1","someone","mǒurén — 某人",beginner|reverse,"mǒurén — 某人","rén — 人","nǐ — 你","tā — 他",1
+fundamentals1-015,vocab,1,"Fundamentals","Fundamentals 1","he / she","tā — 他 / 她",beginner|reverse,"tā — 他 / 她","tāmen — 他们","wǒ — 我","rén — 人",1
+fundamentals2-001,vocab,1,"Fundamentals","Fundamentals 2","wǒmen — 我们","we",beginner,"we","they","our","us",1
+fundamentals2-002,vocab,1,"Fundamentals","Fundamentals 2","tā de — 他的 / 她的","his / her",beginner,"his / her","their","he / she","someone’s",1
+fundamentals2-003,vocab,1,"Fundamentals","Fundamentals 2","tāmen — 他们","they",beginner,"they","we","people","them",1
+fundamentals2-004,vocab,1,"Fundamentals","Fundamentals 2","wǒmen de — 我们的","our",beginner,"our","we","their","us",1
+fundamentals2-005,vocab,1,"Fundamentals","Fundamentals 2","tāmen de — 他们的","their",beginner,"their","they","his / her","our",1
+fundamentals2-006,vocab,1,"Fundamentals","Fundamentals 2","zhè — 这","this",beginner,"this","that","here","it",1
+fundamentals2-007,vocab,1,"Fundamentals","Fundamentals 2","nà — 那","that",beginner,"that","this","there","it",1
+fundamentals2-008,vocab,1,"Fundamentals","Fundamentals 2","we","wǒmen — 我们",beginner|reverse,"wǒmen — 我们","tāmen — 他们","wǒ — 我","rén — 人",1
+fundamentals2-009,vocab,1,"Fundamentals","Fundamentals 2","his / her","tā de — 他的 / 她的",beginner|reverse,"tā de — 他的 / 她的","tāmen de — 他们的","wǒmen de — 我们的","tā — 他 / 她",1
+fundamentals2-010,vocab,1,"Fundamentals","Fundamentals 2","they","tāmen — 他们",beginner|reverse,"tāmen — 他们","wǒmen — 我们","tā — 他 / 她","rén — 人",1
+fundamentals2-011,vocab,1,"Fundamentals","Fundamentals 2","our","wǒmen de — 我们的",beginner|reverse,"wǒmen de — 我们的","tāmen de — 他们的","wǒmen — 我们","wǒ de — 我的",1
+fundamentals2-012,vocab,1,"Fundamentals","Fundamentals 2","their","tāmen de — 他们的",beginner|reverse,"tāmen de — 他们的","tā de — 他的 / 她的","wǒmen de — 我们的","tā — 他 / 她",1
+fundamentals2-013,vocab,1,"Fundamentals","Fundamentals 2","this","zhè — 这",beginner|reverse,"zhè — 这","nà — 那","zài — 在","tā — 它",1
+fundamentals2-014,vocab,1,"Fundamentals","Fundamentals 2","that","nà — 那",beginner|reverse,"nà — 那","zhè — 这","zài — 在","tā — 它",1
+fundamentals3-001,vocab,1,"Fundamentals","Fundamentals 3","rén — 人","person / people",beginner,"person / people","family","place","work",1
+fundamentals3-002,vocab,1,"Fundamentals","Fundamentals 3","dōngxi — 东西","thing / stuff",beginner,"thing / stuff","place","time","school",1
+fundamentals3-003,vocab,1,"Fundamentals","Fundamentals 3","dìfang — 地方","place",beginner,"place","home","school","day",1
+fundamentals3-004,vocab,1,"Fundamentals","Fundamentals 3","shíjiān — 时间","time",beginner,"time","day","work","place",1
+fundamentals3-005,vocab,1,"Fundamentals","Fundamentals 3","tiān — 天","day",beginner,"day","time","place","home",1
+fundamentals3-006,vocab,1,"Fundamentals","Fundamentals 3","jiā — 家","home / family",beginner,"home / family","person","school","work",1
+fundamentals3-007,vocab,1,"Fundamentals","Fundamentals 3","gōngzuò — 工作","work / job",beginner,"work / job","school","time","place",1
+fundamentals3-008,vocab,1,"Fundamentals","Fundamentals 3","xuéxiào — 学校","school",beginner,"school","home","place","work",1
+fundamentals3-009,vocab,1,"Fundamentals","Fundamentals 3","person / people","rén — 人",beginner|reverse,"rén — 人","jiā — 家","dōngxi — 东西","dìfang — 地方",1
+fundamentals3-010,vocab,1,"Fundamentals","Fundamentals 3","thing / stuff","dōngxi — 东西",beginner|reverse,"dōngxi — 东西","shíjiān — 时间","xuéxiào — 学校","gōngzuò — 工作",1
+fundamentals3-011,vocab,1,"Fundamentals","Fundamentals 3","place","dìfang — 地方",beginner|reverse,"dìfang — 地方","jiā — 家","xuéxiào — 学校","tiān — 天",1
+fundamentals3-012,vocab,1,"Fundamentals","Fundamentals 3","time","shíjiān — 时间",beginner|reverse,"shíjiān — 时间","tiān — 天","gōngzuò — 工作","dìfang — 地方",1
+fundamentals3-013,vocab,1,"Fundamentals","Fundamentals 3","day","tiān — 天",beginner|reverse,"tiān — 天","shíjiān — 时间","rén — 人","jiā — 家",1
+fundamentals3-014,vocab,1,"Fundamentals","Fundamentals 3","home / family","jiā — 家",beginner|reverse,"jiā — 家","xuéxiào — 学校","gōngzuò — 工作","dìfang — 地方",1
+fundamentals3-015,vocab,1,"Fundamentals","Fundamentals 3","work / job","gōngzuò — 工作",beginner|reverse,"gōngzuò — 工作","xuéxiào — 学校","rén — 人","tiān — 天",1
+fundamentals3-016,vocab,1,"Fundamentals","Fundamentals 3","school","xuéxiào — 学校",beginner|reverse,"xuéxiào — 学校","jiā — 家","dìfang — 地方","shíjiān — 时间",1
+family-001,vocab,1,"Fundamentals","Family","mā — 妈","mom / mother",beginner,"mom / mother","dad","sister","family",1
+family-002,vocab,1,"Fundamentals","Family","bà — 爸","dad / father",beginner,"dad / father","mom","brother","parent",1
+family-003,vocab,1,"Fundamentals","Family","fùmǔ — 父母","parents",beginner,"parents","family","children","relatives",1
+family-004,vocab,1,"Fundamentals","Family","jiā — 家","family / home",beginner,"family / home","house","parents","children",1
+family-005,vocab,1,"Fundamentals","Family","háizi — 孩子","child / children",beginner,"child / children","son","daughter","family",1
+family-006,vocab,1,"Fundamentals","Family","gēge — 哥哥","older brother",beginner,"older brother","younger brother","older sister","cousin",1
+family-007,vocab,1,"Fundamentals","Family","dìdi — 弟弟","younger brother",beginner,"younger brother","older brother","younger sister","son",1
+family-008,vocab,1,"Fundamentals","Family","jiějie — 姐姐","older sister",beginner,"older sister","younger sister","older brother","aunt",1
+family-009,vocab,1,"Fundamentals","Family","mèimei — 妹妹","younger sister",beginner,"younger sister","older sister","daughter","cousin",1
+family-010,vocab,1,"Fundamentals","Family","mom / mother","mā — 妈",beginner|reverse,"mā — 妈","bà — 爸","jiějie — 姐姐","háizi — 孩子",1
+family-011,vocab,1,"Fundamentals","Family","dad / father","bà — 爸",beginner|reverse,"bà — 爸","mā — 妈","gēge — 哥哥","fùmǔ — 父母",1
+family-012,vocab,1,"Fundamentals","Family","parents","fùmǔ — 父母",beginner|reverse,"fùmǔ — 父母","jiā — 家","háizi — 孩子","gēge — 哥哥",1
+family-013,vocab,1,"Fundamentals","Family","family / home","jiā — 家",beginner|reverse,"jiā — 家","fùmǔ — 父母","xuéxiào — 学校","gōngzuò — 工作",1
+family-014,vocab,1,"Fundamentals","Family","child / children","háizi — 孩子",beginner|reverse,"háizi — 孩子","dìdi — 弟弟","mèimei — 妹妹","fùmǔ — 父母",1
+family-015,vocab,1,"Fundamentals","Family","older brother","gēge — 哥哥",beginner|reverse,"gēge — 哥哥","dìdi — 弟弟","jiějie — 姐姐","bà — 爸",1
+family-016,vocab,1,"Fundamentals","Family","younger brother","dìdi — 弟弟",beginner|reverse,"dìdi — 弟弟","gēge — 哥哥","mèimei — 妹妹","háizi — 孩子",1
+family-017,vocab,1,"Fundamentals","Family","older sister","jiějie — 姐姐",beginner|reverse,"jiějie — 姐姐","mèimei — 妹妹","gēge — 哥哥","mā — 妈",1
+family-018,vocab,1,"Fundamentals","Family","younger sister","mèimei — 妹妹",beginner|reverse,"mèimei — 妹妹","jiějie — 姐姐","dìdi — 弟弟","háizi — 孩子",1
+core1-001,vocab,1,"Core","Core 1","qù — 去","go",beginner,"go","come","see / look","use / make",1
+core1-002,vocab,1,"Core","Core 1","lái — 来","come",beginner,"come","go","need / want","say / speak",1
+core1-003,vocab,1,"Core","Core 1","kàn — 看","see / look",beginner,"see / look","think / want","say / speak","use / make",1
+core1-004,vocab,1,"Core","Core 1","xūyào — 需要","need",beginner,"need","want","use / make","help / assist",1
+core1-005,vocab,1,"Core","Core 1","zuò — 做","do / make",beginner,"do / make","work / job","use / apply","give / hand",1
+core1-006,vocab,1,"Core","Core 1","yòng — 用","use",beginner,"use","make / do","take / hold","give / pass",1
+core1-007,vocab,1,"Core","Core 1","shuō — 说","say / speak",beginner,"say / speak","think / plan","ask / question","tell / explain",1
+core1-008,vocab,1,"Core","Core 1","xiǎng — 想","think / want",beginner,"think / want","know / understand","need / require","see / look",1
+core1-009,vocab,1,"Core","Core 1","go","qù — 去",beginner|reverse,"qù — 去","lái — 来","kàn — 看","zuò — 做",1
+core1-010,vocab,1,"Core","Core 1","come","lái — 来",beginner|reverse,"lái — 来","qù — 去","shuō — 说","yòng — 用",1
+core1-011,vocab,1,"Core","Core 1","see / look","kàn — 看",beginner|reverse,"kàn — 看","xiǎng — 想","shuō — 说","yòng — 用",1
+core1-012,vocab,1,"Core","Core 1","need","xūyào — 需要",beginner|reverse,"xūyào — 需要","xiǎng — 想","yòng — 用","bāngmáng — 帮忙",1
+core1-013,vocab,1,"Core","Core 1","do / make","zuò — 做",beginner|reverse,"zuò — 做","gōngzuò — 工作","yòng — 用","gěi — 给",1
+core1-014,vocab,1,"Core","Core 1","use","yòng — 用",beginner|reverse,"yòng — 用","ná — 拿","zuò — 做","gěi — 给",1
+core1-015,vocab,1,"Core","Core 1","say / speak","shuō — 说",beginner|reverse,"shuō — 说","xiǎng — 想","wèn — 问","kàn — 看",1
+core1-016,vocab,1,"Core","Core 1","think / want","xiǎng — 想",beginner|reverse,"xiǎng — 想","zhīdào — 知道","xūyào — 需要","kàn — 看",1
+core2-001,vocab,1,"Core","Core 2","shénme shíhou — 什么时候","when",beginner,"when","why","how many / how much","which one",1
+core2-002,vocab,1,"Core","Core 2","wèishénme — 为什么","why",beginner,"why","when","how / why not","which one",1
+core2-003,vocab,1,"Core","Core 2","nǎge — 哪个","which",beginner,"which","where","which one / that one","how many",1
+core2-004,vocab,1,"Core","Core 2","duōshǎo — 多少","how many / how much",beginner,"how many / how much","how long / how often","which one / how many","when / already",1
+core2-005,vocab,1,"Core","Core 2","hái — 还","also / still",beginner,"also / still","again / already","only / just","now / later",1
+core2-006,vocab,1,"Core","Core 2","zhǐ — 只","only",beginner,"only","still / also","just / only one","again / once more",1
+core2-007,vocab,1,"Core","Core 2","zài — 再","again",beginner,"again","already","again / still","now / then",1
+core2-008,vocab,1,"Core","Core 2","yǐjīng — 已经","already",beginner,"already","again","still / already","before / after",1
+core2-009,vocab,1,"Core","Core 2","when","shénme shíhou — 什么时候",beginner|reverse,"shénme shíhou — 什么时候","wèishénme — 为什么","duōshǎo — 多少","nǎge — 哪个",1
+core2-010,vocab,1,"Core","Core 2","why","wèishénme — 为什么",beginner|reverse,"wèishénme — 为什么","shénme shíhou — 什么时候","nǎge — 哪个","zài — 再",1
+core2-011,vocab,1,"Core","Core 2","which","nǎge — 哪个",beginner|reverse,"nǎge — 哪个","duōshǎo — 多少","shénme shíhou — 什么时候","hái — 还",1
+core2-012,vocab,1,"Core","Core 2","how many / how much","duōshǎo — 多少",beginner|reverse,"duōshǎo — 多少","nǎge — 哪个","yǐjīng — 已经","zài — 再",1
+core2-013,vocab,1,"Core","Core 2","also / still","hái — 还",beginner|reverse,"hái — 还","zài — 再","yǐjīng — 已经","zhǐ — 只",1
+core2-014,vocab,1,"Core","Core 2","only","zhǐ — 只",beginner|reverse,"zhǐ — 只","hái — 还","zài — 再","yǐjīng — 已经",1
+core2-015,vocab,1,"Core","Core 2","again","zài — 再",beginner|reverse,"zài — 再","hái — 还","yǐjīng — 已经","zhǐ — 只",1
+core2-016,vocab,1,"Core","Core 2","already","yǐjīng — 已经",beginner|reverse,"yǐjīng — 已经","zài — 再","hái — 还","zhǐ — 只",1
+core3-001,vocab,1,"Core","Core 3","shì — 是","be / is / are / am",beginner,"be / is / are / am","have / there is","do / make","find / look for",1
+core3-002,vocab,1,"Core","Core 3","yǒu — 有","have / there is",beginner,"have / there is","be / is / are / am","live / stay","take / hold",1
+core3-003,vocab,1,"Core","Core 3","zuò — 做","do / make",beginner,"do / make","use / make","give / to","say / speak",1
+core3-004,vocab,1,"Core","Core 3","gěi — 给","give / to",beginner,"give / to","take / hold","find / look for","help / help out",1
+core3-005,vocab,1,"Core","Core 3","ná — 拿","take / hold",beginner,"take / hold","give / to","go / come","do / make",1
+core3-006,vocab,1,"Core","Core 3","zhù — 住","live / stay",beginner,"live / stay","go / come","have / there is","find / look for",1
+core3-007,vocab,1,"Core","Core 3","bāngmáng — 帮忙","help / help out",beginner,"help / help out","say / speak","give / to","see / look",1
+core3-008,vocab,1,"Core","Core 3","zhǎo — 找","find / look for",beginner,"find / look for","see / look","take / hold","live / stay",1
+core3-009,vocab,1,"Core","Core 3","be / is / are / am","shì — 是",beginner|reverse,"shì — 是","yǒu — 有","zhù — 住","zhǎo — 找",1
+core3-010,vocab,1,"Core","Core 3","have / there is","yǒu — 有",beginner|reverse,"yǒu — 有","shì — 是","gěi — 给","ná — 拿",1
+core3-011,vocab,1,"Core","Core 3","do / make","zuò — 做",beginner|reverse,"zuò — 做","gěi — 给","bāngmáng — 帮忙","zhǎo — 找",1
+core3-012,vocab,1,"Core","Core 3","give / to","gěi — 给",beginner|reverse,"gěi — 给","ná — 拿","yǒu — 有","zhù — 住",1
+core3-013,vocab,1,"Core","Core 3","take / hold","ná — 拿",beginner|reverse,"ná — 拿","gěi — 给","zuò — 做","zhǎo — 找",1
+core3-014,vocab,1,"Core","Core 3","live / stay","zhù — 住",beginner|reverse,"zhù — 住","yǒu — 有","shì — 是","bāngmáng — 帮忙",1
+core3-015,vocab,1,"Core","Core 3","help / help out","bāngmáng — 帮忙",beginner|reverse,"bāngmáng — 帮忙","zhǎo — 找","gěi — 给","yòng — 用",1
+core3-016,vocab,1,"Core","Core 3","find / look for","zhǎo — 找",beginner|reverse,"zhǎo — 找","kàn — 看","ná — 拿","zhù — 住",1
+corePhrases-001,phrase,1,"Core","Core Phrases","wǒ kàn zhège — 我看这个","I see this",beginner|phrase,"I see this","I like this","I want this","I find this",1
+corePhrases-002,phrase,1,"Core","Core Phrases","wǒ xūyào bāngmáng — 我需要帮忙","I need help",beginner|phrase,"I need help","I give help","I want help","I find help",1
+corePhrases-003,phrase,1,"Core","Core Phrases","wǒ yào qù — 我要去","I want to go",beginner|phrase,"I want to go","I go now","I need to come","I like to go",1
+corePhrases-004,phrase,1,"Core","Core Phrases","wǒ xǐhuan zhège dìfang — 我喜欢这个地方","I like this place",beginner|phrase,"I like this place","I see this place","I find this place","I want this place",1
+corePhrases-005,phrase,1,"Core","Core Phrases","wǒmen qù jiā — 我们去家","We go home",beginner|phrase,"We go home","We live at home","We like home","We come home",1
+corePhrases-006,phrase,1,"Core","Core Phrases","tāmen yǒu háizi — 他们有孩子","They have children",beginner|phrase,"They have children","They like children","They find children","They help children",1
+corePhrases-007,phrase,1,"Core","Core Phrases","wǒ zài jiā gōngzuò — 我在家工作","I work at home",beginner|phrase,"I work at home","I live at work","I go home to work","I like to work",1
+corePhrases-008,phrase,1,"Core","Core Phrases","wǒ zhǎo zhège dìfang — 我找这个地方","I find / look for this place",beginner|phrase,"I find / look for this place","I see this place","I like this place","I go to this place",1
+corePhrases-009,phrase,1,"Core","Core Phrases","yǒurén bāng wǒ — 有人帮我","Someone helps me",beginner|phrase,"Someone helps me","I help someone","People need help","Someone finds me",1
+corePhrases-010,phrase,1,"Core","Core Phrases","wǒmen zài zuò — 我们再做","We do this again",beginner|phrase,"We do this again","We are doing now","We already did it","We want to do",1
+corePhrases-011,phrase,1,"Core","Core Phrases","duōshǎo rén — 多少人","How many people",beginner|phrase,"How many people","Which people","Why people","Some people",1
+corePhrases-012,phrase,1,"Core","Core Phrases","wèishénme tāmen qù — 为什么他们去","Why do they go",beginner|phrase,"Why do they go","When do they go","Where do they go","How do they go",1
+ch2-core4-001,vocab,2,"Description","Core 4","hé — 和","and",connect,"and","but","because","so",1
+ch2-core4-002,vocab,2,"Description","Core 4","dànshì — 但是","but",connect,"and","but","so","because",1
+ch2-core4-003,vocab,2,"Description","Core 4","yīnwèi — 因为","because",connect,"because","so","and","but",1
+ch2-core4-004,vocab,2,"Description","Core 4","suǒyǐ — 所以","so",connect,"because","so","but","and",1
+ch2-core4-005,vocab,2,"Description","Core 4","hěn — 很","very",describe,"very","too","more","extremely",1
+ch2-core4-006,vocab,2,"Description","Core 4","tài — 太","too",describe,"very","too","more","extremely",1
+ch2-core4-007,vocab,2,"Description","Core 4","gèng — 更","more",describe,"very","too","more","extremely",1
+ch2-core4-008,vocab,2,"Description","Core 4","fēicháng — 非常","extremely",describe,"very","too","more","extremely",1
+ch2-core4-009,vocab,2,"Description","Core 4","and","hé — 和",connect,"hé — 和","dànshì — 但是","suǒyǐ — 所以","yīnwèi — 因为",1
+ch2-core4-010,vocab,2,"Description","Core 4","but","dànshì — 但是",connect,"hé — 和","dànshì — 但是","suǒyǐ — 所以","yīnwèi — 因为",1
+ch2-core4-011,vocab,2,"Description","Core 4","because","yīnwèi — 因为",connect,"suǒyǐ — 所以","hé — 和","yīnwèi — 因为","dànshì — 但是",1
+ch2-core4-012,vocab,2,"Description","Core 4","so","suǒyǐ — 所以",connect,"yīnwèi — 因为","suǒyǐ — 所以","hé — 和","dànshì — 但是",1
+ch2-core4-013,vocab,2,"Description","Core 4","very","hěn — 很",describe,"tài — 太","gèng — 更","hěn — 很","fēicháng — 非常",1
+ch2-core4-014,vocab,2,"Description","Core 4","too","tài — 太",describe,"tài — 太","gèng — 更","hěn — 很","fēicháng — 非常",1
+ch2-core4-015,vocab,2,"Description","Core 4","more","gèng — 更",describe,"fēicháng — 非常","gèng — 更","tài — 太","hěn — 很",1
+ch2-core4-016,vocab,2,"Description","Core 4","extremely","fēicháng — 非常",describe,"hěn — 很","tài — 太","gèng — 更","fēicháng — 非常",1
+ch2-phrases-core4-001,vocab,2,"Description","Core 4 phrases","wǒ hěn hǎo — 我很好","I am very good.",phrases|describe,"I am very good.","I am too good.","I am more good.","I am extremely good.",2
+ch2-phrases-core4-002,vocab,2,"Description","Core 4 phrases","tā hěn máng — 他很忙","He is very busy.",phrases|describe,"He is very busy.","He is too busy.","He is more busy.","He is extremely busy.",2
+ch2-phrases-core4-003,vocab,2,"Description","Core 4 phrases","zhèlǐ fēicháng hǎo — 这里非常好","This place is extremely good.",phrases|describe,"This place is too good.","This place is extremely good.","This place is more good.","This place is very good.",2
+ch2-phrases-core4-004,vocab,2,"Description","Core 4 phrases","zhège hěn hǎo — 这个很好","This is very good.",phrases|describe,"This is very good.","This is too good.","This is more good.","This is extremely good.",2
+ch2-phrases-core4-005,vocab,2,"Description","Core 4 phrases","zhège tài guì — 这个太贵","This is too expensive.",phrases|describe,"This is more expensive.","This is too expensive.","This is very expensive.","This is extremely expensive.",2
+ch2-phrases-core4-006,vocab,2,"Description","Core 4 phrases","wǒ tài lèi — 我太累","I am too tired.",phrases|describe,"I am more tired.","I am too tired.","I am very tired.","I am extremely tired.",2
+ch2-phrases-core4-007,vocab,2,"Description","Core 4 phrases","zhège gèng hǎo — 这个更好","This is better.",phrases|describe,"This is too good.","This is extremely good.","This is better.","This is very good.",2
+ch2-phrases-core4-008,vocab,2,"Description","Core 4 phrases","zhèlǐ gèng hǎo — 这里更好","This place is better.",phrases|describe,"This place is better.","This place is too good.","This place is extremely good.","This place is very good.",2
+ch2-phrases-core4-009,vocab,2,"Description","Core 4 Sent","wǒ hěn hǎo, yě hěn máng — 我很好，也很忙","I am very good, and also very busy.",phrases|connect,"I am very good, and also very busy.","I am too good, but very busy.","I am extremely good, so very busy.","I am more good, because very busy.",2
+ch2-phrases-core4-010,vocab,2,"Description","Core 4 Sent","wǒ hěn lèi, dànshì wǒ hěn gāoxìng — 我很累，但是我很高兴","I am very tired, but I am very happy.",phrases|connect,"I am very tired, but I am very happy.","I am too tired, and I am very happy.","I am extremely tired, so I am happy.","I am more tired, because I am happy.",2
+ch2-phrases-core4-011,vocab,2,"Description","Core 4 Sent","wǒ hěn máng, suǒyǐ wǒ zǒu le — 我很忙，所以我走了","I am very busy, so I left.",phrases|connect,"I am very busy, so I left.","I am very busy, but I left.","I am very busy, because I left.","I am too busy, and I left.",2
+ch2-phrases-core4-012,vocab,2,"Description","Core 4 Sent","yīnwèi zhège tài guì, suǒyǐ wǒ bù mǎi — 因为这个太贵，所以我不买","Because this is too expensive, so I won’t buy it.",phrases|connect|describe,"Because this is too expensive, so I won’t buy it.","This is too expensive, but I won’t buy it.","This is extremely expensive, and I will buy it.","This is better, so I won’t buy it.",3
+ch2-phrases-core4-013,vocab,2,"Description","Core 4 Sent","yīnwèi wǒ hěn lèi, suǒyǐ wǒ bù qù — 因为我很累，所以我不去","Because I am very tired, so I’m not going.",phrases|connect,"Because I am very tired, so I’m not going.","Because I am very tired, but I’m going.","I am very tired, and I’m not going.","I am extremely tired, so I’m going.",3
+ch2-phrases-core4-014,vocab,2,"Description","Core 4 Sent","zhèlǐ fēicháng hǎo, dànshì tài guì — 这里非常好，但是太贵","This place is extremely good, but too expensive.",phrases|connect|describe,"This place is extremely good, but too expensive.","This place is very good, so too expensive.","This place is too good, and extremely expensive.","This place is better, but very expensive.",3
+ch2-phrases-core4-015,vocab,2,"Description","Core 4 Sent","wǒ hěn xǐhuān zhèlǐ, yīnwèi zhèlǐ hěn hǎo — 我很喜欢这里，因为这里很好","I like it here a lot, because it’s very good here.",phrases|connect|describe,"I like it here a lot, because it’s very good here.","I like it here a lot, but it’s very good here.","I like it here a lot, so it’s too good here.","I like it here more, because it’s extremely expensive here.",3
+ch2-bonus_phrase1-001,vocab,2,"Description","Bonus Phrases 1","wǒ hěn xǐhuān zhèlǐ — 我很喜欢这里","I like it here very much.",phrases,"I like it here very much.","I am here too much.","I go here because I like it.","I don’t like it here.",2
+ch2-bonus_phrase1-002,vocab,2,"Description","Bonus Phrases 1","zhège fàndiàn fēicháng hǎo — 这个饭店非常好","This restaurant is extremely good.",phrases,"This restaurant is extremely good.","This restaurant is too good.","This restaurant is more good.","This restaurant is not good.",2
+ch2-bonus_phrase1-003,vocab,2,"Description","Bonus Phrases 1","xuéxiào tài dà — 学校太大","The school is too big.",phrases,"The school is very big.","The school is too big.","The school is more big.","The school is extremely big.",2
+ch2-bonus_phrase1-004,vocab,2,"Description","Bonus Phrases 1","zhèlǐ hěn máng, dànshì hěn hǎo — 这里很忙，但是很好","It is very busy here, but it is very good.",phrases,"It is very busy here, but it is very good.","It is too busy here, so it is good.","It is more busy here, because it is good.","It is extremely busy here and very bad.",3
+ch2-bonus_phrase1-005,vocab,2,"Description","Bonus Phrases 1","yīnwèi zhèlǐ hěn guì, suǒyǐ wǒ bù qù — 因为这里很贵，所以我不去","Because it is very expensive here, I am not going.",phrases,"Because it is very expensive here, I am not going.","It is very expensive here, but I am going.","It is too expensive here, and I am going.","It is more expensive here, so I like it.",3
+ch2-bonus_phrase1-006,vocab,2,"Description","Bonus Phrases 1","zhège gōngyuán gèng hǎo — 这个公园更好","This park is better.",phrases,"This park is very good.","This park is too good.","This park is better.","This park is extremely good.",2
+ch2-bonus_phrase1-007,vocab,2,"Description","Bonus Phrases 1","zhège diàn hěn guì, dànshì hěn hǎo — 这个店很贵，但是很好","This shop is very expensive, but very good.",phrases,"This shop is very expensive, but very good.","This shop is too expensive, so very good.","This shop is better and very expensive.","This shop is extremely cheap and very good.",2
+ch2-core5-001,vocab,2,"Frequency","Core 5","duō — 多","many",quantity,"many","few","always","sometimes",1
+ch2-core5-002,vocab,2,"Frequency","Core 5","shǎo — 少","few",quantity,"many","few","every","always",1
+ch2-core5-003,vocab,2,"Frequency","Core 5","yìdiǎn — 一点","a little",quantity,"a little","many","always","never",1
+ch2-core5-004,vocab,2,"Frequency","Core 5","hěn duō — 很多","many",quantity,"few","many","sometimes","every",1
+ch2-core5-005,vocab,2,"Frequency","Core 5","měi — 每","every",frequency,"always","every","few","never",1
+ch2-core5-006,vocab,2,"Frequency","Core 5","cháng — 常","often",frequency,"often","always","few","every",1
+ch2-core5-007,vocab,2,"Frequency","Core 5","yǒushíhou — 有时候","sometimes",frequency,"always","sometimes","many","every",1
+ch2-core5-008,vocab,2,"Frequency","Core 5","zǒngshì — 总是","always",frequency,"sometimes","never","always","few",1
+ch2-core5-009,vocab,2,"Frequency","Core 5","many","duō — 多",quantity,"duō — 多","shǎo — 少","měi — 每","zǒngshì — 总是",1
+ch2-core5-010,vocab,2,"Frequency","Core 5","few","shǎo — 少",quantity,"duō — 多","shǎo — 少","cháng — 常","měi — 每",1
+ch2-core5-011,vocab,2,"Frequency","Core 5","a little","yìdiǎn — 一点",quantity,"hěn duō — 很多","yìdiǎn — 一点","zǒngshì — 总是","yǒushíhou — 有时候",1
+ch2-core5-012,vocab,2,"Frequency","Core 5","every","měi — 每",frequency,"měi — 每","cháng — 常","duō — 多","shǎo — 少",1
+ch2-core5-013,vocab,2,"Frequency","Core 5","often","cháng — 常",frequency,"měi — 每","zǒngshì — 总是","cháng — 常","duō — 多",1
+ch2-core5-014,vocab,2,"Frequency","Core 5","sometimes","yǒushíhou — 有时候",frequency,"yǒushíhou — 有时候","zǒngshì — 总是","měi — 每","duō — 多",1
+ch2-core5-015,vocab,2,"Frequency","Core 5","always","zǒngshì — 总是",frequency,"yǒushíhou — 有时候","zǒngshì — 总是","cháng — 常","shǎo — 少",1
+ch2-core5-016,vocab,2,"Frequency","Core 5","many (a lot)","hěn duō — 很多",quantity,"yìdiǎn — 一点","hěn duō — 很多","shǎo — 少","měi — 每",1
+ch2-core5_phrase-001,vocab,2,"Frequency","Core 5 Phrases","wǒ yǒushíhou qù gōngyuán — 我有时候去公园","I sometimes go to the park.",phrases,"I sometimes go to the park.","I always go to the park.","I never go to the park.","I go to the park every day.",2
+ch2-core5_phrase-002,vocab,2,"Frequency","Core 5 Phrases","tā zǒngshì hěn máng — 他总是很忙","He is always busy.",phrases,"He is sometimes busy.","He is always busy.","He is rarely busy.","He is never busy.",2
+ch2-core5_phrase-003,vocab,2,"Frequency","Core 5 Phrases","wǒ cháng qù xuéxiào — 我常去学校","I often go to school.",phrases,"I never go to school.","I sometimes go to school.","I often go to school.","I always go to school.",2
+ch2-core5_phrase-004,vocab,2,"Frequency","Core 5 Phrases","měi tiān wǒ hěn máng — 每天我很忙","I am busy every day.",phrases,"I am busy every day.","I am busy sometimes.","I am busy never.","I am busy once.",2
+ch2-core5_phrase-005,vocab,2,"Frequency","Core 5 Phrases","wǒ yǒu hěn duō péngyou — 我有很多朋友","I have many friends.",phrases,"I have few friends.","I have many friends.","I have one friend.","I have no friends.",2
+ch2-core5_phrase-006,vocab,2,"Frequency","Core 5 Phrases","wǒ zhǐ yǒu yìdiǎn qián — 我只有一点钱","I have a little money.",phrases,"I have a lot of money.","I have no money.","I have a little money.","I have many friends.",2
+ch2-core5_phrase-007,vocab,2,"Frequency","Core 5 Phrases","tā yǒu shǎo péngyou — 他有少朋友","He has few friends.",phrases,"He has many friends.","He has few friends.","He has no friends.","He has a little money.",2
+ch2-core5_phrase-008,vocab,2,"Frequency","Core 5 Phrases","wǒ yǒushíhou hěn lèi — 我有时候很累","I am sometimes tired.",phrases,"I am always tired.","I am sometimes tired.","I am never tired.","I am very busy.",2
+ch2-core6-001,vocab,2,"Frequency","Core 6","juéde — 觉得","feel",core6,"feel","ask","wait","bring",2
+ch2-core6-002,vocab,2,"Frequency","Core 6","feel","juéde — 觉得",core6,"juéde — 觉得","wèn — 问","děng — 等","jiàn — 见",2
+ch2-core6-003,vocab,2,"Frequency","Core 6","wèn — 问","ask",core6,"answer","ask","tell","wait",2
+ch2-core6-004,vocab,2,"Frequency","Core 6","ask","wèn — 问",core6,"huídá — 回答","gàosu — 告诉","wèn — 问","dài — 带",2
+ch2-core6-005,vocab,2,"Frequency","Core 6","huídá — 回答","answer",core6,"answer","bring","wait","meet",2
+ch2-core6-006,vocab,2,"Frequency","Core 6","answer","huídá — 回答",core6,"huídá — 回答","wèn — 问","sòng — 送","děng — 等",2
+ch2-core6-007,vocab,2,"Frequency","Core 6","gàosu — 告诉","tell",core6,"tell","meet","bring","stand",2
+ch2-core6-008,vocab,2,"Frequency","Core 6","tell","gàosu — 告诉",core6,"gàosu — 告诉","jiàn — 见","zǒu — 走","dài — 带",2
+ch2-core6-009,vocab,2,"Frequency","Core 6","děng — 等","wait",core6,"wait","run","wear","sit",2
+ch2-core6-010,vocab,2,"Frequency","Core 6","wait","děng — 等",core6,"sòng — 送","děng — 等","dài — 带","jiàn — 见",2
+ch2-core6-011,vocab,2,"Frequency","Core 6","dài — 带","bring",core6,"bring","answer","stand","walk",2
+ch2-core6-012,vocab,2,"Frequency","Core 6","bring","dài — 带",core6,"dài — 带","huídá — 回答","wèn — 问","sòng — 送",2
+ch2-core6-013,vocab,2,"Frequency","Core 6","sòng — 送","give",core6,"give","run","sit","open",2
+ch2-core6-014,vocab,2,"Frequency","Core 6","give","sòng — 送",core6,"sòng — 送","děng — 等","dài — 带","gàosu — 告诉",2
+ch2-core6-015,vocab,2,"Frequency","Core 6","jiàn — 见","meet",core6,"meet","wear","close","walk",2
+ch2-core6-016,vocab,2,"Frequency","Core 6","meet","jiàn — 见",core6,"jiàn — 见","děng — 等","dài — 带","wèn — 问",2
+ch2-core6_phrase-001,vocab,2,"Frequency","Core 6 Phrases","wǒ juéde hěn hǎo — 我觉得很好","I feel it is very good.",phrases,"I feel it is very good.","I ask you a question.","I am waiting here.","I will meet him.",2
+ch2-core6_phrase-002,vocab,2,"Frequency","Core 6 Phrases","wǒ wèn nǐ yí gè wèntí — 我问你一个问题","I ask you a question.",phrases,"I tell you a story.","I ask you a question.","I bring you a gift.","I wait for you.",2
+ch2-core6_phrase-003,vocab,2,"Frequency","Core 6 Phrases","qǐng nǐ huídá wǒ — 请你回答我","Please answer me.",phrases,"Please wait for me.","Please answer me.","Please meet me.","Please bring it.",2
+ch2-core6_phrase-004,vocab,2,"Frequency","Core 6 Phrases","tā gàosu wǒ le — 他告诉我了","He told me.",phrases,"He asked me.","He told me.","He met me.","He waited.",2
+ch2-core6_phrase-005,vocab,2,"Frequency","Core 6 Phrases","děng wǒ yíxià — 等我一下","Wait for me a moment.",phrases,"Wait for me a moment.","Answer me now.","Meet me at home.","Bring it here.",2
+ch2-core6_phrase-006,vocab,2,"Frequency","Core 6 Phrases","wǒ dài nǐ qù gōngyuán — 我带你去公园","I bring you to the park.",phrases,"I give you the park.","I bring you to the park.","I wait at the park.","I ask about the park.",2
+ch2-core6_phrase-007,vocab,2,"Frequency","Core 6 Phrases","wǒ míngtiān jiàn tā — 我明天见他","I will meet him tomorrow.",phrases,"I will meet him tomorrow.","I will tell him tomorrow.","I will answer him tomorrow.","I will wait tomorrow.",2
+ch2-core7-001,vocab,2,"Times","Core 7","jīntiān — 今天","today",core7,"today","tomorrow","yesterday","now",2
+ch2-core7-002,vocab,2,"Times","Core 7","today","jīntiān — 今天",core7,"jīntiān — 今天","míngtiān — 明天","zuótiān — 昨天","xiànzài — 现在",2
+ch2-core7-003,vocab,2,"Times","Core 7","míngtiān — 明天","tomorrow",core7,"morning","tomorrow","before","weekend",2
+ch2-core7-004,vocab,2,"Times","Core 7","tomorrow","míngtiān — 明天",core7,"zuótiān — 昨天","míngtiān — 明天","jīntiān — 今天","yǐhòu — 以后",2
+ch2-core7-005,vocab,2,"Times","Core 7","zuótiān — 昨天","yesterday",core7,"yesterday","later","before","evening",2
+ch2-core7-006,vocab,2,"Times","Core 7","yesterday","zuótiān — 昨天",core7,"jīntiān — 今天","zuótiān — 昨天","xiànzài — 现在","zǎoshang — 早上",2
+ch2-core7-007,vocab,2,"Times","Core 7","xiànzài — 现在","now",core7,"now","week","year","month",2
+ch2-core7-008,vocab,2,"Times","Core 7","now","xiànzài — 现在",core7,"xiànzài — 现在","yǐqián — 以前","yǐhòu — 以后","wǎnshang — 晚上",2
+ch2-core7-009,vocab,2,"Times","Core 7","yǐhòu — 以后","later",core7,"before","later","morning","minute",2
+ch2-core7-010,vocab,2,"Times","Core 7","later","yǐhòu — 以后",core7,"yǐqián — 以前","yǐhòu — 以后","jīntiān — 今天","zǎoshang — 早上",2
+ch2-core7-011,vocab,2,"Times","Core 7","yǐqián — 以前","before",core7,"before","later","week","hour",2
+ch2-core7-012,vocab,2,"Times","Core 7","before","yǐqián — 以前",core7,"yǐhòu — 以后","yǐqián — 以前","xiànzài — 现在","wǎnshang — 晚上",2
+ch2-core7-013,vocab,2,"Times","Core 7","zǎoshang — 早上","morning",core7,"morning","evening","weekend","minute",2
+ch2-core7-014,vocab,2,"Times","Core 7","morning","zǎoshang — 早上",core7,"wǎnshang — 晚上","zǎoshang — 早上","zhōumò — 周末","nián — 年",2
+ch2-core7-015,vocab,2,"Times","Core 7","wǎnshang — 晚上","evening",core7,"evening","morning","year","week",2
+ch2-core7-016,vocab,2,"Times","Core 7","evening","wǎnshang — 晚上",core7,"zǎoshang — 早上","wǎnshang — 晚上","yuè — 月","zhōu — 周",2
+ch2-core8-001,vocab,2,"Times","Core 8","shíhou — 时候","time",core8,"week","time","hour","year",2
+ch2-core8-002,vocab,2,"Times","Core 8","time","shíhou — 时候",core8,"shíhou — 时候","zhōu — 周","nián — 年","yuè — 月",2
+ch2-core8-003,vocab,2,"Times","Core 8","diǎn — 点","o’clock",core8,"minute","hour","o’clock","weekend",2
+ch2-core8-004,vocab,2,"Times","Core 8","o’clock","diǎn — 点",core8,"fēn — 分","diǎn — 点","xiǎoshí — 小时","zhōumò — 周末",2
+ch2-core8-005,vocab,2,"Times","Core 8","fēn — 分","minute",core8,"minute","month","year","week",2
+ch2-core8-006,vocab,2,"Times","Core 8","minute","fēn — 分",core8,"diǎn — 点","fēn — 分","nián — 年","zhōu — 周",2
+ch2-core8-007,vocab,2,"Times","Core 8","xiǎoshí — 小时","hour",core8,"week","hour","month","time",2
+ch2-core8-008,vocab,2,"Times","Core 8","hour","xiǎoshí — 小时",core8,"xiǎoshí — 小时","zhōu — 周","yuè — 月","nián — 年",2
+ch2-core8-009,vocab,2,"Times","Core 8","zhōu — 周","week",core8,"week","year","month","minute",2
+ch2-core8-010,vocab,2,"Times","Core 8","week","zhōu — 周",core8,"nián — 年","zhōu — 周","yuè — 月","shíhou — 时候",2
+ch2-core8-011,vocab,2,"Times","Core 8","yuè — 月","month",core8,"year","month","hour","weekend",2
+ch2-core8-012,vocab,2,"Times","Core 8","month","yuè — 月",core8,"yuè — 月","nián — 年","zhōu — 周","diǎn — 点",2
+ch2-core8-013,vocab,2,"Times","Core 8","nián — 年","year",core8,"month","week","year","time",2
+ch2-core8-014,vocab,2,"Times","Core 8","year","nián — 年",core8,"yuè — 月","nián — 年","zhōumò — 周末","fēn — 分",2
+ch2-core8-015,vocab,2,"Times","Core 8","zhōumò — 周末","weekend",core8,"weekend","week","morning","later",2
+ch2-core8-016,vocab,2,"Times","Core 8","weekend","zhōumò — 周末",core8,"zhōu — 周","zhōumò — 周末","zǎoshang — 早上","xiǎoshí — 小时",2
+ch2-core7_phrase-001,vocab,2,"Times","Core 7 Phrases","wǒ jīntiān hěn máng — 我今天很忙","I am very busy today.",phrases,"I am very busy today.","I was busy yesterday.","I will be busy tomorrow.","I am busy now.",2
+ch2-core7_phrase-002,vocab,2,"Times","Core 7 Phrases","míngtiān jiàn — 明天见","See you tomorrow.",phrases,"See you yesterday.","See you tomorrow.","See you now.","See you later.",2
+ch2-core7_phrase-003,vocab,2,"Times","Core 7 Phrases","zuótiān hěn lèi — 昨天很累","Yesterday was very tiring.",phrases,"Yesterday was very tiring.","Today is very tiring.","Tomorrow is tiring.","Now is tiring.",2
+ch2-core7_phrase-004,vocab,2,"Times","Core 7 Phrases","nǐ xiànzài zài nǎr — 你现在在哪儿","Where are you now?",phrases,"Where were you yesterday?","Where are you now?","Where will you be tomorrow?","Where are you later?",2
+ch2-core7_phrase-005,vocab,2,"Times","Core 7 Phrases","wǒ yǐhòu gàosu nǐ — 我以后告诉你","I will tell you later.",phrases,"I told you before.","I will tell you later.","I am telling you now.","I will ask you tomorrow.",2
+ch2-core7_phrase-006,vocab,2,"Times","Core 7 Phrases","yǐqián wǒ zhù zhèlǐ — 以前我住这里","I lived here before.",phrases,"I will live here.","I lived here before.","I live here now.","I live here later.",2
+ch2-core7_phrase-007,vocab,2,"Times","Core 7 Phrases","wǒ zǎoshang qù gōngsī — 我早上去公司","I go to work in the morning.",phrases,"I go to work in the morning.","I go to work at night.","I went yesterday.","I will go later.",2
+ch2-core7_phrase-008,vocab,2,"Times","Core 7 Phrases","tā wǎnshang huí jiā — 他晚上回家","He goes home at night.",phrases,"He goes home in the morning.","He goes home at night.","He went home yesterday.","He will go home later.",2
+ch2-core8_phrase-001,vocab,2,"Times","Core 8 Phrases","nà gè shíhou wǒ hěn máng — 那个时候我很忙","At that time I was very busy.",phrases,"At that time I was very busy.","I am busy now.","I will be busy later.","I was busy yesterday.",2
+ch2-core8_phrase-002,vocab,2,"Times","Core 8 Phrases","zhè gè zhōu wǒ hěn máng — 这个周我很忙","I am busy this week.",phrases,"I was busy last week.","I am busy this week.","I will be busy next week.","I am busy today.",2
+ch2-core8_phrase-003,vocab,2,"Times","Core 8 Phrases","zhège yuè wǒ hěn lèi — 这个月我很累","I am tired this month.",phrases,"I was tired last month.","I am tired this month.","I will be tired next month.","I am tired today.",2
+ch2-core8_phrase-004,vocab,2,"Times","Core 8 Phrases","jīnnián wǒ hěn máng — 今年我很忙","I am busy this year.",phrases,"I was busy last year.","I am busy this year.","I will be busy next year.","I am busy now.",2
+ch2-core8_phrase-005,vocab,2,"Times","Core 8 Phrases","zhōumò wǒ xiǎng xiūxi — 周末我想休息","I want to rest this weekend.",phrases,"I wanted to rest last weekend.","I want to rest this weekend.","I will work this weekend.","I rest every weekend.",2
+ch3-s1-num1-001,vocab,3,"Numbers","Numbers 1","líng — 零","Zero",numbers|ch3|sec1,"Zero","One","Two","Ten",1
+ch3-s1-num1-002,vocab,3,"Numbers","Numbers 1","yī — 一","One",numbers|ch3|sec1,"Three","One","Four","Six",1
+ch3-s1-num1-003,vocab,3,"Numbers","Numbers 1","èr — 二","Two",numbers|ch3|sec1,"Two","Five","Seven","Nine",1
+ch3-s1-num1-004,vocab,3,"Numbers","Numbers 1","sān — 三","Three",numbers|ch3|sec1,"Eight","Three","Two","Ten",1
+ch3-s1-num1-005,vocab,3,"Numbers","Numbers 1","sì — 四","Four",numbers|ch3|sec1,"Four","Six","Seven","Nine",1
+ch3-s1-num1-006,vocab,3,"Numbers","Numbers 1","wǔ — 五","Five",numbers|ch3|sec1,"Two","Five","Eight","One",1
+ch3-s1-num1-007,vocab,3,"Numbers","Numbers 1","liù — 六","Six",numbers|ch3|sec1,"Six","Four","Three","Seven",1
+ch3-s1-num1-008,vocab,3,"Numbers","Numbers 1","qī — 七","Seven",numbers|ch3|sec1,"Nine","Eight","Seven","Five",1
+ch3-s1-num1-009,vocab,3,"Numbers","Numbers 1","bā — 八","Eight",numbers|ch3|sec1,"Six","Eight","Ten","Two",1
+ch3-s1-num1-010,vocab,3,"Numbers","Numbers 1","jiǔ — 九","Nine",numbers|ch3|sec1,"Nine","Three","Four","Seven",1
+ch3-s1-num1-011,vocab,3,"Numbers","Numbers 1","shí — 十","Ten",numbers|ch3|sec1,"Eight","Ten","Six","Zero",1
+ch3-s1-num2-001,vocab,3,"Numbers","Numbers 2","shíyī — 十一","11",numbers|ch3|sec1,"20","11","15","10",2
+ch3-s1-num2-002,vocab,3,"Numbers","Numbers 2","11","shíyī — 十一",numbers|ch3|sec1,"èrshí — 二十","shíyī — 十一","yībǎi — 一百","sìshíwǔ — 四十五",2
+ch3-s1-num2-003,vocab,3,"Numbers","Numbers 2","èrshí — 二十","20",numbers|ch3|sec1,"12","30","20","25",2
+ch3-s1-num2-004,vocab,3,"Numbers","Numbers 2","20","èrshí — 二十",numbers|ch3|sec1,"sìshíwǔ — 四十五","èrshí — 二十","yībǎi — 一百","liǎngbǎi — 两百",2
+ch3-s1-num2-005,vocab,3,"Numbers","Numbers 2","sìshíwǔ — 四十五","45",numbers|ch3|sec1,"54","45","40","55",2
+ch3-s1-num2-006,vocab,3,"Numbers","Numbers 2","45","sìshíwǔ — 四十五",numbers|ch3|sec1,"sìshíwǔ — 四十五","sānshíwǔ — 三十五","yībǎi — 一百","jiǔbǎijiǔshíjiǔ — 九百九十九",2
+ch3-s1-num2-007,vocab,3,"Numbers","Numbers 2","yībǎi — 一百","100",numbers|ch3|sec1,"100","110","200","999",2
+ch3-s1-num2-008,vocab,3,"Numbers","Numbers 2","100","yībǎi — 一百",numbers|ch3|sec1,"yībǎishíwǔ — 一百一十五","liǎngbǎi — 两百","yībǎi — 一百","sānbǎi — 三百",2
+ch3-s1-num2-009,vocab,3,"Numbers","Numbers 2","yībǎishíwǔ — 一百一十五","115",numbers|ch3|sec1,"105","115","150","151",2
+ch3-s1-num2-010,vocab,3,"Numbers","Numbers 2","115","yībǎishíwǔ — 一百一十五",numbers|ch3|sec1,"yībǎishíwǔ — 一百一十五","liǎngbǎi — 两百","sānbǎi — 三百","jiǔbǎijiǔshíjiǔ — 九百九十九",2
+ch3-s1-num2-011,vocab,3,"Numbers","Numbers 2","liǎngbǎi — 两百","200",numbers|ch3|sec1,"200","300","250","999",2
+ch3-s1-num2-012,vocab,3,"Numbers","Numbers 2","200","liǎngbǎi — 两百",numbers|ch3|sec1,"yībǎi — 一百","liǎngbǎi — 两百","sānbǎi — 三百","jiǔbǎijiǔshíjiǔ — 九百九十九",2
+ch3-s1-num2-013,vocab,3,"Numbers","Numbers 2","sānbǎi — 三百","300",numbers|ch3|sec1,"200","300","400","999",2
+ch3-s1-num2-014,vocab,3,"Numbers","Numbers 2","300","sānbǎi — 三百",numbers|ch3|sec1,"liǎngbǎi — 两百","yībǎishíwǔ — 一百一十五","sānbǎi — 三百","yībǎi — 一百",2
+ch3-s1-num2-015,vocab,3,"Numbers","Numbers 2","jiǔbǎijiǔshíjiǔ — 九百九十九","999",numbers|ch3|sec1,"909","990","999","900",2
+ch3-s1-num2-016,vocab,3,"Numbers","Numbers 2","999","jiǔbǎijiǔshíjiǔ — 九百九十九",numbers|ch3|sec1,"jiǔbǎijiǔshíjiǔ — 九百九十九","sānbǎi — 三百","liǎngbǎi — 两百","yībǎi — 一百",2
+ch3-s1-day1-001,vocab,3,"Numbers","Days 1","xīngqīyī — 星期一","Monday",days|ch3|sec1,"Wednesday","Monday","Sunday","Friday",2
+ch3-s1-day1-002,vocab,3,"Numbers","Days 1","xīngqīsān — 星期三","Wednesday",days|ch3|sec1,"Wednesday","Thursday","Monday","Saturday",2
+ch3-s1-day1-003,vocab,3,"Numbers","Days 1","xīngqīwǔ — 星期五","Friday",days|ch3|sec1,"Tuesday","Friday","Sunday","Thursday",2
+ch3-s1-day1-004,vocab,3,"Numbers","Days 1","xīngqīrì — 星期日","Sunday",days|ch3|sec1,"Sunday","Saturday","Monday","Friday",2
+ch3-s1-day1-005,vocab,3,"Numbers","Days 1","yīyuè — 一月","January",months|ch3|sec1,"April","January","August","December",2
+ch3-s1-day1-006,vocab,3,"Numbers","Days 1","sìyuè — 四月","April",months|ch3|sec1,"April","June","August","October",2
+ch3-s1-day1-007,vocab,3,"Numbers","Days 1","bāyuè — 八月","August",months|ch3|sec1,"May","August","September","November",2
+ch3-s1-day1-008,vocab,3,"Numbers","Days 1","shíèryuè — 十二月","December",months|ch3|sec1,"February","October","December","March",2
+ch3-s1-day1-009,vocab,3,"Numbers","Days 1","Monday","xīngqīyī — 星期一",days|ch3|sec1,"xīngqīwǔ — 星期五","xīngqīyī — 星期一","xīngqīrì — 星期日","xīngqīsān — 星期三",2
+ch3-s1-day1-010,vocab,3,"Numbers","Days 1","Friday","xīngqīwǔ — 星期五",days|ch3|sec1,"xīngqīwǔ — 星期五","xīngqīsān — 星期三","xīngqīrì — 星期日","xīngqīyī — 星期一",2
+ch3-s1-day1-011,vocab,3,"Numbers","Days 1","January","yīyuè — 一月",months|ch3|sec1,"sìyuè — 四月","yīyuè — 一月","bāyuè — 八月","shíèryuè — 十二月",2
+ch3-s1-day1-012,vocab,3,"Numbers","Days 1","August","bāyuè — 八月",months|ch3|sec1,"bāyuè — 八月","sìyuè — 四月","yīyuè — 一月","shíèryuè — 十二月",2
+ch3-s1-day1-013,vocab,3,"Numbers","Days 1","Sunday","xīngqīrì — 星期日",days|ch3|sec1,"xīngqīsān — 星期三","xīngqīrì — 星期日","xīngqīwǔ — 星期五","xīngqīyī — 星期一",2
+ch3-s1-day1-014,vocab,3,"Numbers","Days 1","December","shíèryuè — 十二月",months|ch3|sec1,"bāyuè — 八月","yīyuè — 一月","sìyuè — 四月","shíèryuè — 十二月",2
+ch3-s1-day2-001,vocab,3,"Numbers","Days 2","xīngqīèr — 星期二","Tuesday",days|ch3|sec1,"Tuesday","Thursday","Saturday","Monday",2
+ch3-s1-day2-002,vocab,3,"Numbers","Days 2","xīngqīsì — 星期四","Thursday",days|ch3|sec1,"Wednesday","Thursday","Friday","Sunday",2
+ch3-s1-day2-003,vocab,3,"Numbers","Days 2","xīngqīliù — 星期六","Saturday",days|ch3|sec1,"Saturday","Sunday","Tuesday","Thursday",2
+ch3-s1-day2-004,vocab,3,"Numbers","Days 2","èryuè — 二月","February",months|ch3|sec1,"February","March","June","November",2
+ch3-s1-day2-005,vocab,3,"Numbers","Days 2","sānyuè — 三月","March",months|ch3|sec1,"September","October","March","November",2
+ch3-s1-day2-006,vocab,3,"Numbers","Days 2","liùyuè — 六月","June",months|ch3|sec1,"June","July","April","August",2
+ch3-s1-day2-007,vocab,3,"Numbers","Days 2","jiǔyuè — 九月","September",months|ch3|sec1,"November","September","December","February",2
+ch3-s1-day2-008,vocab,3,"Numbers","Days 2","shíyuè — 十月","October",months|ch3|sec1,"October","August","April","March",2
+ch3-s1-day2-009,vocab,3,"Numbers","Days 2","shíyīyuè — 十一月","November",months|ch3|sec1,"September","November","December","January",2
+ch3-s1-day2-010,vocab,3,"Numbers","Days 2","Tuesday","xīngqīèr — 星期二",days|ch3|sec1,"xīngqīèr — 星期二","xīngqīsì — 星期四","xīngqīliù — 星期六","xīngqīyī — 星期一",2
+ch3-s1-day2-011,vocab,3,"Numbers","Days 2","Saturday","xīngqīliù — 星期六",days|ch3|sec1,"xīngqīsān — 星期三","xīngqīliù — 星期六","xīngqīrì — 星期日","xīngqīsì — 星期四",2
+ch3-s1-day2-012,vocab,3,"Numbers","Days 2","March","sānyuè — 三月",months|ch3|sec1,"èryuè — 二月","sānyuè — 三月","jiǔyuè — 九月","shíyīyuè — 十一月",2
+ch3-s1-day2-013,vocab,3,"Numbers","Days 2","September","jiǔyuè — 九月",months|ch3|sec1,"jiǔyuè — 九月","shíyuè — 十月","shíyīyuè — 十一月","liùyuè — 六月",2
+ch3-s1-day2-014,vocab,3,"Numbers","Days 2","November","shíyīyuè — 十一月",months|ch3|sec1,"shíyuè — 十月","shíyīyuè — 十一月","jiǔyuè — 九月","èryuè — 二月",2
+ch3-phrase-3-1-1-001,vocab,3,"Sec 2","Phrases 3.2.1","wǒ jīntiān qù gōngsī — 我今天去公司","I go to work today.",phrases|ch3|sec1,"I go to work today.","I went to work yesterday.","I will go to work tomorrow.","I go to work on Sunday.",2
+ch3-phrase-3-1-1-002,vocab,3,"Sec 2","Phrases 3.2.1","wǒ míngtiān zǎoshang zǒu — 我明天早上走","I leave tomorrow morning.",phrases|ch3|sec1,"I leave tomorrow morning.","I leave tomorrow night.","I leave this morning.","I leave later.",2
+ch3-phrase-3-1-1-003,vocab,3,"Sec 2","Phrases 3.2.1","zuótiān wǎnshang wǒ hěn lèi — 昨天晚上我很累","I was very tired last night.",phrases|ch3|sec1,"I was very tired last night.","I am very tired tonight.","I will be tired tomorrow night.","I was tired this morning.",2
+ch3-phrase-3-1-1-004,vocab,3,"Sec 2","Phrases 3.2.1","wǒ xiànzài zài jiā — 我现在在家","I am at home now.",phrases|ch3|sec1,"I am at home now.","I was at home yesterday.","I will be home tomorrow.","I am at home on the weekend.",2
+ch3-phrase-3-1-1-005,vocab,3,"Sec 2","Phrases 3.2.1","xīngqīyī wǒ hěn máng — 星期一我很忙","I am very busy on Monday.",phrases|ch3|sec1,"I am very busy on Monday.","I am very busy on Friday.","I am busy this month.","I am busy tomorrow.",2
+ch3-phrase-3-1-1-006,vocab,3,"Sec 2","Phrases 3.2.1","zhōumò wǒ xiǎng xiūxi — 周末我想休息","I want to rest on the weekend.",phrases|ch3|sec1,"I want to rest on the weekend.","I want to rest on Monday.","I want to rest later.","I want to rest this year.",2
+ch3-phrase-3-1-1-007,vocab,3,"Sec 2","Phrases 3.2.1","wǒ yīyuè qù Běijīng — 我一月去北京","I go to Beijing in January.",phrases|ch3|sec1,"I go to Beijing in January.","I go to Beijing in April.","I go to Beijing on Monday.","I go to Beijing tomorrow.",2
+ch3-phrase-3-1-1-008,vocab,3,"Sec 2","Phrases 3.2.1","jīnnián wǒ hěn máng — 今年我很忙","I am very busy this year.",phrases|ch3|sec1,"I am very busy this year.","I am very busy this month.","I am busy this weekend.","I was busy last year.",2
+ch3-phrase-3-1-2-001,vocab,3,"Sec 2","Phrases 3.2.2","wǒ shíyī diǎn shuìjiào — 我十一点睡觉","I go to sleep at 11 o’clock.",phrases|ch3|sec1,"I go to sleep at 11 o’clock.","I go to sleep at 10 o’clock.","I go to sleep at 12 o’clock.","I go to sleep tomorrow.",3
+ch3-phrase-3-1-2-002,vocab,3,"Sec 2","Phrases 3.2.2","xiànzài èrshí fēn — 现在二十分","It is 20 minutes now.",phrases|ch3|sec1,"It is 20 minutes now.","It is 45 minutes now.","It is 11 minutes now.","It is 20 o’clock now.",3
+ch3-phrase-3-1-2-003,vocab,3,"Sec 2","Phrases 3.2.2","wǒ děng nǐ sìshíwǔ fēn — 我等你四十五分","I wait for you 45 minutes.",phrases|ch3|sec1,"I wait for you 45 minutes.","I wait for you 20 minutes.","I wait for you 45 hours.","I wait for you tomorrow.",3
+ch3-phrase-3-1-2-004,vocab,3,"Sec 2","Phrases 3.2.2","wǒ yǐhòu zài lái — 我以后再来","I will come later.",phrases|ch3|sec1,"I will come later.","I came before.","I come now.","I come tomorrow morning.",2
+ch3-phrase-3-1-2-005,vocab,3,"Sec 2","Phrases 3.2.2","yǐqián wǒ bù zài zhèlǐ — 以前我不在这里","Before, I was not here.",phrases|ch3|sec1,"Before, I was not here.","Now I am not here.","Tomorrow I am not here.","This weekend I am not here.",2
+ch3-phrase-3-1-2-006,vocab,3,"Sec 2","Phrases 3.2.2","zhè gè yuè wǒ hěn máng — 这个月我很忙","I am very busy this month.",phrases|ch3|sec1,"I am very busy this month.","I am very busy this week.","I am very busy this year.","I am busy today.",2
+ch3-phrase-3-1-2-007,vocab,3,"Sec 2","Phrases 3.2.2","wǒ zhōumò yào gōngzuò — 我周末要工作","I need to work on the weekend.",phrases|ch3|sec1,"I need to work on the weekend.","I work on Monday.","I want to rest on the weekend.","I worked last weekend.",2
+ch3-phrase-3-1-2-008,vocab,3,"Sec 2","Phrases 3.2.2","nà gè shíhou wǒ hěn lèi — 那个时候我很累","At that time I was very tired.",phrases|ch3|sec1,"At that time I was very tired.","Now I am very tired.","Tomorrow I will be tired.","This month I am tired.",2
+travel4-food1-001,vocab,4,"Food & Ordering","Food","fàn — 饭","Rice / meal",travel|food,"Rice / meal","Noodles","Meat","Dish / vegetables",1
+travel4-food1-002,vocab,4,"Food & Ordering","Food","miàn — 面","Noodles",travel|food,"Rice / meal","Noodles","Tea","Coffee",1
+travel4-food1-003,vocab,4,"Food & Ordering","Food","ròu — 肉","Meat",travel|food,"Chicken","Beef","Meat","Dish / vegetables",1
+travel4-food1-004,vocab,4,"Food & Ordering","Food","cài — 菜","Dish / vegetables",travel|food,"Dish / vegetables","Rice / meal","Noodles","Meat",1
+travel4-food1-005,vocab,4,"Food & Ordering","Food","kāfēi — 咖啡","Coffee",travel|food,"Tea","Coffee","Noodles","Rice / meal",1
+travel4-food1-006,vocab,4,"Food & Ordering","Food","chá — 茶","Tea",travel|food,"Coffee","Tea","Water","Beer",1
+travel4-food1-007,vocab,4,"Food & Ordering","Food","jī — 鸡","Chicken",travel|food,"Chicken","Beef","Meat","Fish",1
+travel4-food1-008,vocab,4,"Food & Ordering","Food","niú — 牛","Beef",travel|food,"Chicken","Beef","Meat","Pork",1
+travel4-food1-009,vocab,4,"Food & Ordering","Food","Rice / meal","fàn — 饭",travel|food|reverse,"fàn — 饭","miàn — 面","ròu — 肉","cài — 菜",1
+travel4-food1-010,vocab,4,"Food & Ordering","Food","Noodles","miàn — 面",travel|food|reverse,"cài — 菜","miàn — 面","kāfēi — 咖啡","chá — 茶",1
+travel4-food1-011,vocab,4,"Food & Ordering","Food","Meat","ròu — 肉",travel|food|reverse,"niú — 牛","jī — 鸡","ròu — 肉","fàn — 饭",1
+travel4-food1-012,vocab,4,"Food & Ordering","Food","Dish / vegetables","cài — 菜",travel|food|reverse,"cài — 菜","miàn — 面","chá — 茶","kāfēi — 咖啡",1
+travel4-food1-013,vocab,4,"Food & Ordering","Food","Coffee","kāfēi — 咖啡",travel|food|reverse,"chá — 茶","kāfēi — 咖啡","miàn — 面","fàn — 饭",1
+travel4-food1-014,vocab,4,"Food & Ordering","Food","Tea","chá — 茶",travel|food|reverse,"chá — 茶","kāfēi — 咖啡","ròu — 肉","cài — 菜",1
+travel4-food1-015,vocab,4,"Food & Ordering","Food","Chicken","jī — 鸡",travel|food|reverse,"niú — 牛","jī — 鸡","ròu — 肉","fàn — 饭",1
+travel4-food1-016,vocab,4,"Food & Ordering","Food","Beef","niú — 牛",travel|food|reverse,"jī — 鸡","niú — 牛","cài — 菜","miàn — 面",1
+travel4-food2-001,vocab,4,"Food & Ordering","Ordering","diǎn — 点","Order",travel|ordering,"Order","Buy","Choose","Bring",1
+travel4-food2-002,vocab,4,"Food & Ordering","Ordering","jiào — 叫","Call / order",travel|ordering,"Call / order","Wait","Buy","Choose",1
+travel4-food2-003,vocab,4,"Food & Ordering","Ordering","shì — 试","Try",travel|ordering,"Try","Buy","Take","Wait",1
+travel4-food2-004,vocab,4,"Food & Ordering","Ordering","ná — 拿","Take",travel|ordering,"Take","Bring","Order","Choose",1
+travel4-food2-005,vocab,4,"Food & Ordering","Ordering","děng — 等","Wait",travel|ordering,"Wait","Look","Call","Buy",1
+travel4-food2-006,vocab,4,"Food & Ordering","Ordering","xuǎn — 选","Choose",travel|ordering,"Choose","Order","Try","Buy",1
+travel4-food2-007,vocab,4,"Food & Ordering","Ordering","lái — 来","Bring / have",travel|ordering,"Bring / have","Go","Wait","Take",1
+travel4-food2-008,vocab,4,"Food & Ordering","Ordering","mǎi — 买","Buy",travel|ordering,"Buy","Order","Choose","Pay",1
+travel4-food2-009,vocab,4,"Food & Ordering","Ordering","Order","diǎn — 点",travel|ordering|reverse,"diǎn — 点","xuǎn — 选","mǎi — 买","ná — 拿",1
+travel4-food2-010,vocab,4,"Food & Ordering","Ordering","Order","diǎn — 点",travel|ordering|reverse,"diǎn — 点","mǎi — 买","xuǎn — 选","ná — 拿",1
+travel4-food2-011,vocab,4,"Food & Ordering","Ordering","Call / order","jiào — 叫",travel|ordering|reverse,"jiào — 叫","lái — 来","děng — 等","mǎi — 买",1
+travel4-food2-012,vocab,4,"Food & Ordering","Ordering","Try","shì — 试",travel|ordering|reverse,"shì — 试","xuǎn — 选","ná — 拿","děng — 等",1
+travel4-food2-013,vocab,4,"Food & Ordering","Ordering","Take","ná — 拿",travel|ordering|reverse,"ná — 拿","lái — 来","mǎi — 买","diǎn — 点",1
+travel4-food2-014,vocab,4,"Food & Ordering","Ordering","Wait","děng — 等",travel|ordering|reverse,"děng — 等","jiào — 叫","xuǎn — 选","lái — 来",1
+travel4-food2-015,vocab,4,"Food & Ordering","Ordering","Choose","xuǎn — 选",travel|ordering|reverse,"xuǎn — 选","diǎn — 点","shì — 试","mǎi — 买",1
+travel4-food2-016,vocab,4,"Food & Ordering","Ordering","Bring / have","lái — 来",travel|ordering|reverse,"lái — 来","ná — 拿","jiào — 叫","děng — 等",1
+travel4-food2-017,vocab,4,"Food & Ordering","Ordering","Buy","mǎi — 买",travel|ordering|reverse,"mǎi — 买","diǎn — 点","xuǎn — 选","ná — 拿",1
+travel4-food3-001,vocab,4,"Food & Ordering","Dining Words","càidān — 菜单","Menu",travel|dining,"Menu","Table","Cup","Server",1
+travel4-food3-002,vocab,4,"Food & Ordering","Dining Words","fúwùyuán — 服务员","Server",travel|dining,"Server","Customer","Cook","Manager",1
+travel4-food3-003,vocab,4,"Food & Ordering","Dining Words","kǒuwèi — 口味","Flavor",travel|dining,"Flavor","Taste test","Spicy","Sweet",1
+travel4-food3-004,vocab,4,"Food & Ordering","Dining Words","là — 辣","Spicy",travel|dining,"Spicy","Sweet","Salty","Bitter",1
+travel4-food3-005,vocab,4,"Food & Ordering","Dining Words","tián — 甜","Sweet",travel|dining,"Sweet","Salty","Spicy","Sour",1
+travel4-food3-006,vocab,4,"Food & Ordering","Dining Words","xián — 咸","Salty",travel|dining,"Salty","Sweet","Spicy","Bland",1
+travel4-food3-007,vocab,4,"Food & Ordering","Dining Words","bēizi — 杯子","Cup",travel|dining,"Cup","Plate","Bowl","Glass",1
+travel4-food3-008,vocab,4,"Food & Ordering","Dining Words","zhuōzi — 桌子","Table",travel|dining,"Table","Chair","Menu","Room",1
+travel4-food3-009,vocab,4,"Food & Ordering","Dining Words","Menu","càidān — 菜单",travel|dining|reverse,"càidān — 菜单","zhuōzi — 桌子","bēizi — 杯子","fúwùyuán — 服务员",1
+travel4-food3-010,vocab,4,"Food & Ordering","Dining Words","Server","fúwùyuán — 服务员",travel|dining|reverse,"fúwùyuán — 服务员","càidān — 菜单","zhuōzi — 桌子","bēizi — 杯子",1
+travel4-food3-011,vocab,4,"Food & Ordering","Dining Words","Flavor","kǒuwèi — 口味",travel|dining|reverse,"kǒuwèi — 口味","là — 辣","tián — 甜","xián — 咸",1
+travel4-food3-012,vocab,4,"Food & Ordering","Dining Words","Spicy","là — 辣",travel|dining|reverse,"là — 辣","tián — 甜","xián — 咸","kǒuwèi — 口味",1
+travel4-food3-013,vocab,4,"Food & Ordering","Dining Words","Sweet","tián — 甜",travel|dining|reverse,"tián — 甜","là — 辣","xián — 咸","kǒuwèi — 口味",1
+travel4-food3-014,vocab,4,"Food & Ordering","Dining Words","Salty","xián — 咸",travel|dining|reverse,"xián — 咸","tián — 甜","là — 辣","kǒuwèi — 口味",1
+travel4-food3-015,vocab,4,"Food & Ordering","Dining Words","Cup","bēizi — 杯子",travel|dining|reverse,"bēizi — 杯子","zhuōzi — 桌子","càidān — 菜单","fúwùyuán — 服务员",1
+travel4-food3-016,vocab,4,"Food & Ordering","Dining Words","Table","zhuōzi — 桌子",travel|dining|reverse,"zhuōzi — 桌子","bēizi — 杯子","càidān — 菜单","fúwùyuán — 服务员",1
+travel4-food4-001,phrase,4,"Food & Ordering","Food Phrases","wǒ yào diǎn cài — 我要点菜","I want to order food.",travel|food|phrase,"I want to order food.","I want this dish.","I want rice.","I want noodles.",1
+travel4-food4-002,phrase,4,"Food & Ordering","Food Phrases","wǒ yào zhè ge cài — 我要这个菜","I want this dish.",travel|food|phrase,"I want this dish.","I want to order food.","This dish is good.","I want chicken.",1
+travel4-food4-003,phrase,4,"Food & Ordering","Food Phrases","wǒ yào miàn — 我要面","I want noodles.",travel|food|phrase,"I want noodles.","I want rice.","I want beef.","I want water.",1
+travel4-food4-004,phrase,4,"Food & Ordering","Food Phrases","wǒ yào fàn — 我要饭","I want rice.",travel|food|phrase,"I want rice.","I want noodles.","I want food.","I want chicken.",1
+travel4-food4-005,phrase,4,"Food & Ordering","Food Phrases","wǒ yào jī — 我要鸡","I want chicken.",travel|food|phrase,"I want chicken.","I want beef.","I want food.","I want this dish.",1
+travel4-food4-006,phrase,4,"Food & Ordering","Food Phrases","wǒ yào niú — 我要牛","I want beef.",travel|food|phrase,"I want beef.","I want chicken.","I want noodles.","I want rice.",1
+travel4-food4-007,phrase,4,"Food & Ordering","Food Phrases","wǒ yào chá — 我要茶","I want tea.",travel|food|phrase,"I want tea.","I want coffee.","I want water.","I want rice.",1
+travel4-food4-008,phrase,4,"Food & Ordering","Food Phrases","wǒ yào kāfēi — 我要咖啡","I want coffee.",travel|food|phrase,"I want coffee.","I want tea.","I want water.","I want food.",1
+travel4-food4-009,phrase,4,"Food & Ordering","Food Phrases","wǒ yào shuǐ — 我要水","I want water.",travel|food|phrase,"I want water.","I want tea.","I want rice.","I want noodles.",1
+travel4-food4-010,phrase,4,"Food & Ordering","Food Phrases","zhè tài là le — 这太辣了","This is too spicy.",travel|food|phrase,"This is too spicy.","This is very good.","This is cheap.","This is wrong.",1
+travel4-food4-011,phrase,4,"Food & Ordering","Food Phrases","zhè hěn hǎo — 这很好","This is good.",travel|food|phrase,"This is good.","This is too spicy.","This is cheap.","This is wrong.",1
+travel4-food4-012,phrase,4,"Food & Ordering","Food Phrases","qǐng gěi wǒ zhàngdān — 请给我账单","The bill, please.",travel|food|phrase,"The bill, please.","I want to pay.","This is expensive.","I want food.",1
+travel4-daily1-001,vocab,4,"Daily Needs","Services","shāngdiàn — 商店","Store",travel|services,"Store","Bank","Hotel","Restaurant",1
+travel4-daily1-002,vocab,4,"Daily Needs","Services","yínháng — 银行","Bank",travel|services,"Bank","Hospital","Store","Pharmacy",1
+travel4-daily1-003,vocab,4,"Daily Needs","Services","yīyuàn — 医院","Hospital",travel|services,"Hospital","Hotel","Bank","Bathroom",1
+travel4-daily1-004,vocab,4,"Daily Needs","Services","cèsuǒ — 厕所","Bathroom",travel|services,"Bathroom","Store","Hotel","Hospital",1
+travel4-daily1-005,vocab,4,"Daily Needs","Services","fàndiàn — 饭店","Restaurant",travel|services,"Restaurant","Hotel","Store","Bank",1
+travel4-daily1-006,vocab,4,"Daily Needs","Services","jiǔdiàn — 酒店","Hotel",travel|services,"Hotel","Restaurant","Hospital","Store",1
+travel4-daily1-007,vocab,4,"Daily Needs","Services","chāoshì — 超市","Supermarket",travel|services,"Supermarket","Pharmacy","Store","Restaurant",1
+travel4-daily1-008,vocab,4,"Daily Needs","Services","yàofáng — 药房","Pharmacy",travel|services,"Pharmacy","Hospital","Store","Bank",1
+travel4-daily1-009,vocab,4,"Daily Needs","Services","Store","shāngdiàn — 商店",travel|services|reverse,"shāngdiàn — 商店","yínháng — 银行","fàndiàn — 饭店","chāoshì — 超市",1
+travel4-daily1-010,vocab,4,"Daily Needs","Services","Bank","yínháng — 银行",travel|services|reverse,"yínháng — 银行","yīyuàn — 医院","jiǔdiàn — 酒店","yàofáng — 药房",1
+travel4-daily1-011,vocab,4,"Daily Needs","Services","Hospital","yīyuàn — 医院",travel|services|reverse,"yīyuàn — 医院","cèsuǒ — 厕所","jiǔdiàn — 酒店","yínháng — 银行",1
+travel4-daily1-012,vocab,4,"Daily Needs","Services","Bathroom","cèsuǒ — 厕所",travel|services|reverse,"cèsuǒ — 厕所","yàofáng — 药房","fàndiàn — 饭店","chāoshì — 超市",1
+travel4-daily1-013,vocab,4,"Daily Needs","Services","Restaurant","fàndiàn — 饭店",travel|services|reverse,"fàndiàn — 饭店","jiǔdiàn — 酒店","shāngdiàn — 商店","yínháng — 银行",1
+travel4-daily1-014,vocab,4,"Daily Needs","Services","Hotel","jiǔdiàn — 酒店",travel|services|reverse,"jiǔdiàn — 酒店","yīyuàn — 医院","chāoshì — 超市","yàofáng — 药房",1
+travel4-daily1-015,vocab,4,"Daily Needs","Services","Supermarket","chāoshì — 超市",travel|services|reverse,"chāoshì — 超市","shāngdiàn — 商店","fàndiàn — 饭店","yínháng — 银行",1
+travel4-daily1-016,vocab,4,"Daily Needs","Services","Pharmacy","yàofáng — 药房",travel|services|reverse,"yàofáng — 药房","yīyuàn — 医院","cèsuǒ — 厕所","chāoshì — 超市",1
+travel4-daily2-001,vocab,4,"Daily Needs","Money","qián — 钱","Money",travel|money,"Money","Cash","Price","Card",1
+travel4-daily2-002,vocab,4,"Daily Needs","Money","xiànjīn — 现金","Cash",travel|money,"Cash","Money","Change","Card",1
+travel4-daily2-003,vocab,4,"Daily Needs","Money","kǎ — 卡","Card",travel|money,"Card","Cash","Money","Price",1
+travel4-daily2-004,vocab,4,"Daily Needs","Money","fù — 付","Pay",travel|money,"Pay","Buy","Give","Cost",1
+travel4-daily2-005,vocab,4,"Daily Needs","Money","zhǎo — 找","Give change",travel|money,"Give change","Find","Pay","Cost",1
+travel4-daily2-006,vocab,4,"Daily Needs","Money","guì — 贵","Expensive",travel|money,"Expensive","Cheap","Price","Money",1
+travel4-daily2-007,vocab,4,"Daily Needs","Money","piányi — 便宜","Cheap",travel|money,"Cheap","Expensive","Free","Cost",1
+travel4-daily2-008,vocab,4,"Daily Needs","Money","jiàgé — 价格","Price",travel|money,"Price","Money","Cost","Cash",1
+travel4-daily2-009,vocab,4,"Daily Needs","Money","Money","qián — 钱",travel|money|reverse,"qián — 钱","xiànjīn — 现金","jiàgé — 价格","kǎ — 卡",1
+travel4-daily2-010,vocab,4,"Daily Needs","Money","Cash","xiànjīn — 现金",travel|money|reverse,"xiànjīn — 现金","qián — 钱","zhǎo — 找","kǎ — 卡",1
+travel4-daily2-011,vocab,4,"Daily Needs","Money","Card","kǎ — 卡",travel|money|reverse,"kǎ — 卡","xiànjīn — 现金","qián — 钱","jiàgé — 价格",1
+travel4-daily2-012,vocab,4,"Daily Needs","Money","Pay","fù — 付",travel|money|reverse,"fù — 付","mǎi — 买","zhǎo — 找","jiàgé — 价格",1
+travel4-daily2-013,vocab,4,"Daily Needs","Money","Give change","zhǎo — 找",travel|money|reverse,"zhǎo — 找","fù — 付","qián — 钱","jiàgé — 价格",1
+travel4-daily2-014,vocab,4,"Daily Needs","Money","Expensive","guì — 贵",travel|money|reverse,"guì — 贵","piányi — 便宜","jiàgé — 价格","qián — 钱",1
+travel4-daily2-015,vocab,4,"Daily Needs","Money","Cheap","piányi — 便宜",travel|money|reverse,"piányi — 便宜","guì — 贵","jiàgé — 价格","xiànjīn — 现金",1
+travel4-daily2-016,vocab,4,"Daily Needs","Money","Price","jiàgé — 价格",travel|money|reverse,"jiàgé — 价格","qián — 钱","guì — 贵","kǎ — 卡",1
+travel4-daily3-001,vocab,4,"Daily Needs","Help Words","bāng — 帮","Help",travel|help,"Help","Ask","Know","Find",1
+travel4-daily3-002,vocab,4,"Daily Needs","Help Words","wèn — 问","Ask",travel|help,"Ask","Help","Know","Answer",1
+travel4-daily3-003,vocab,4,"Daily Needs","Help Words","zhīdào — 知道","Know",travel|help,"Know","Ask","Help","Find",1
+travel4-daily3-004,vocab,4,"Daily Needs","Help Words","mí — 迷","Lost",travel|help,"Lost","Wrong","Here","There",1
+travel4-daily3-005,vocab,4,"Daily Needs","Help Words","dōngxi — 东西","Thing",travel|help,"Thing","Place","Money","Help",1
+travel4-daily3-006,vocab,4,"Daily Needs","Help Words","zhèlǐ — 这里","Here",travel|help,"Here","There","Where","Inside",1
+travel4-daily3-007,vocab,4,"Daily Needs","Help Words","nàlǐ — 那里","There",travel|help,"There","Here","Where","Outside",1
+travel4-daily3-008,vocab,4,"Daily Needs","Help Words","cuò — 错","Wrong",travel|help,"Wrong","Lost","Right","Correct",1
+travel4-daily3-009,vocab,4,"Daily Needs","Help Words","Help","bāng — 帮",travel|help|reverse,"bāng — 帮","wèn — 问","zhīdào — 知道","mí — 迷",1
+travel4-daily3-010,vocab,4,"Daily Needs","Help Words","Ask","wèn — 问",travel|help|reverse,"wèn — 问","bāng — 帮","zhīdào — 知道","cuò — 错",1
+travel4-daily3-011,vocab,4,"Daily Needs","Help Words","Know","zhīdào — 知道",travel|help|reverse,"zhīdào — 知道","wèn — 问","bāng — 帮","dōngxi — 东西",1
+travel4-daily3-012,vocab,4,"Daily Needs","Help Words","Lost","mí — 迷",travel|help|reverse,"mí — 迷","cuò — 错","nàlǐ — 那里","zhèlǐ — 这里",1
+travel4-daily3-013,vocab,4,"Daily Needs","Help Words","Thing","dōngxi — 东西",travel|help|reverse,"dōngxi — 东西","bāng — 帮","wèn — 问","zhīdào — 知道",1
+travel4-daily3-014,vocab,4,"Daily Needs","Help Words","Here","zhèlǐ — 这里",travel|help|reverse,"zhèlǐ — 这里","nàlǐ — 那里","mí — 迷","cuò — 错",1
+travel4-daily3-015,vocab,4,"Daily Needs","Help Words","There","nàlǐ — 那里",travel|help|reverse,"nàlǐ — 那里","zhèlǐ — 这里","dōngxi — 东西","mí — 迷",1
+travel4-daily3-016,vocab,4,"Daily Needs","Help Words","Wrong","cuò — 错",travel|help|reverse,"cuò — 错","mí — 迷","wèn — 问","bāng — 帮",1
+travel4-daily4-001,phrase,4,"Daily Needs","Daily Phrases","cèsuǒ zài nǎlǐ — 厕所在哪里","Where is the bathroom?",travel|daily|phrase,"Where is the bathroom?","Where is the store?","Where is the hotel?","Where is the bank?",1
+travel4-daily4-002,phrase,4,"Daily Needs","Daily Phrases","shāngdiàn zài nǎlǐ — 商店在哪里","Where is the store?",travel|daily|phrase,"Where is the store?","Where is the hotel?","Where is the bank?","Where is the bathroom?",1
+travel4-daily4-003,phrase,4,"Daily Needs","Daily Phrases","jiǔdiàn zài nǎlǐ — 酒店在哪里","Where is the hotel?",travel|daily|phrase,"Where is the hotel?","Where is the store?","Where is the airport?","Where is the bank?",1
+travel4-daily4-004,phrase,4,"Daily Needs","Daily Phrases","yínháng zài nǎlǐ — 银行在哪里","Where is the bank?",travel|daily|phrase,"Where is the bank?","Where is the hotel?","Where is the store?","Where is the bathroom?",1
+travel4-daily4-005,phrase,4,"Daily Needs","Daily Phrases","zhè tài guì le — 这太贵了","This is too expensive.",travel|daily|phrase,"This is too expensive.","This is cheap.","This is wrong.","This is good.",1
+travel4-daily4-006,phrase,4,"Daily Needs","Daily Phrases","zhè hěn piányi — 这很便宜","This is cheap.",travel|daily|phrase,"This is cheap.","This is expensive.","This is good.","This is wrong.",1
+travel4-daily4-007,phrase,4,"Daily Needs","Daily Phrases","zhè duōshao qián — 这多少钱","How much is this?",travel|daily|phrase,"How much is this?","This is expensive.","I want to pay.","This is cheap.",1
+travel4-daily4-008,phrase,4,"Daily Needs","Daily Phrases","wǒ yào fù — 我要付","I want to pay.",travel|daily|phrase,"I want to pay.","I want to buy.","I want to leave.","I want help.",1
+travel4-daily4-009,phrase,4,"Daily Needs","Daily Phrases","kěyǐ yòng kǎ ma — 可以用卡吗","Can I use a card?",travel|daily|phrase,"Can I use a card?","Can I pay cash?","Is this expensive?","Do you have change?",1
+travel4-daily4-010,phrase,4,"Daily Needs","Daily Phrases","wǒ xūyào bāngmáng — 我需要帮忙","I need help.",travel|daily|phrase,"I need help.","I am lost.","This is wrong.","I want to ask.",1
+travel4-daily4-011,phrase,4,"Daily Needs","Daily Phrases","wǒ mí le — 我迷了","I’m lost.",travel|daily|phrase,"I’m lost.","I need help.","I am wrong.","I don’t know.",1
+travel4-daily4-012,phrase,4,"Daily Needs","Daily Phrases","zhè shì cuò de — 这是错的","This is wrong.",travel|daily|phrase,"This is wrong.","This is expensive.","This is cheap.","This is good.",1
+travel4-move1-001,vocab,4,"Getting Around","Transport","chē — 车","Vehicle",travel|transport,"Vehicle","Taxi","Bus","Train",1
+travel4-move1-002,vocab,4,"Getting Around","Transport","chūzūchē — 出租车","Taxi",travel|transport,"Taxi","Bus","Train","Vehicle",1
+travel4-move1-003,vocab,4,"Getting Around","Transport","gōnggòng qìchē — 公共汽车","Bus",travel|transport,"Bus","Subway","Train","Shuttle",1
+travel4-move1-004,vocab,4,"Getting Around","Transport","dìtiě — 地铁","Subway",travel|transport,"Subway","Bus","Train","Taxi",1
+travel4-move1-005,vocab,4,"Getting Around","Transport","huǒchē — 火车","Train",travel|transport,"Train","Subway","Bus","Vehicle",1
+travel4-move1-006,vocab,4,"Getting Around","Transport","fēijī — 飞机","Airplane",travel|transport,"Airplane","Train","Bus","Shuttle",1
+travel4-move1-007,vocab,4,"Getting Around","Transport","zìxíngchē — 自行车","Bicycle",travel|transport,"Bicycle","Motorcycle","Vehicle","Shuttle",1
+travel4-move1-008,vocab,4,"Getting Around","Transport","bānchē — 班车","Shuttle",travel|transport,"Shuttle","Bus","Taxi","Train",1
+travel4-move1-009,vocab,4,"Getting Around","Transport","Vehicle","chē — 车",travel|transport|reverse,"chē — 车","huǒchē — 火车","chūzūchē — 出租车","gōnggòng qìchē — 公共汽车",1
+travel4-move1-010,vocab,4,"Getting Around","Transport","Taxi","chūzūchē — 出租车",travel|transport|reverse,"chūzūchē — 出租车","bānchē — 班车","gōnggòng qìchē — 公共汽车","chē — 车",1
+travel4-move1-011,vocab,4,"Getting Around","Transport","Bus","gōnggòng qìchē — 公共汽车",travel|transport|reverse,"gōnggòng qìchē — 公共汽车","dìtiě — 地铁","bānchē — 班车","huǒchē — 火车",1
+travel4-move1-012,vocab,4,"Getting Around","Transport","Subway","dìtiě — 地铁",travel|transport|reverse,"dìtiě — 地铁","huǒchē — 火车","gōnggòng qìchē — 公共汽车","bānchē — 班车",1
+travel4-move1-013,vocab,4,"Getting Around","Transport","Train","huǒchē — 火车",travel|transport|reverse,"huǒchē — 火车","dìtiě — 地铁","bānchē — 班车","chē — 车",1
+travel4-move1-014,vocab,4,"Getting Around","Transport","Airplane","fēijī — 飞机",travel|transport|reverse,"fēijī — 飞机","huǒchē — 火车","dìtiě — 地铁","bānchē — 班车",1
+travel4-move1-015,vocab,4,"Getting Around","Transport","Bicycle","zìxíngchē — 自行车",travel|transport|reverse,"zìxíngchē — 自行车","chē — 车","bānchē — 班车","gōnggòng qìchē — 公共汽车",1
+travel4-move1-016,vocab,4,"Getting Around","Transport","Shuttle","bānchē — 班车",travel|transport|reverse,"bānchē — 班车","gōnggòng qìchē — 公共汽车","chūzūchē — 出租车","dìtiě — 地铁",1
+travel4-move2-001,vocab,4,"Getting Around","Places","chēzhàn — 车站","Station",travel|places,"Station","Airport","Platform","Intersection",1
+travel4-move2-002,vocab,4,"Getting Around","Places","jīchǎng — 机场","Airport",travel|places,"Airport","Station","Hotel","Location",1
+travel4-move2-003,vocab,4,"Getting Around","Places","zhàn tái — 站台","Platform",travel|places,"Platform","Station","Exit","Entrance",1
+travel4-move2-004,vocab,4,"Getting Around","Places","chūkǒu — 出口","Exit",travel|places,"Exit","Entrance","Intersection","Location",1
+travel4-move2-005,vocab,4,"Getting Around","Places","rùkǒu — 入口","Entrance",travel|places,"Entrance","Exit","Station","Platform",1
+travel4-move2-006,vocab,4,"Getting Around","Places","lùkǒu — 路口","Intersection",travel|places,"Intersection","Location","Station","Exit",1
+travel4-move2-007,vocab,4,"Getting Around","Places","zhōngzhuǎn zhàn — 中转站","Transfer station",travel|places,"Transfer station","Platform","Station","Airport",1
+travel4-move2-008,vocab,4,"Getting Around","Places","dìdiǎn — 地点","Location",travel|places,"Location","Place","Station","Intersection",1
+travel4-move2-009,vocab,4,"Getting Around","Places","Station","chēzhàn — 车站",travel|places|reverse,"chēzhàn — 车站","zhàn tái — 站台","zhōngzhuǎn zhàn — 中转站","jīchǎng — 机场",1
+travel4-move2-010,vocab,4,"Getting Around","Places","Airport","jīchǎng — 机场",travel|places|reverse,"jīchǎng — 机场","chēzhàn — 车站","zhōngzhuǎn zhàn — 中转站","dìdiǎn — 地点",1
+travel4-move2-011,vocab,4,"Getting Around","Places","Platform","zhàn tái — 站台",travel|places|reverse,"zhàn tái — 站台","chēzhàn — 车站","chūkǒu — 出口","rùkǒu — 入口",1
+travel4-move2-012,vocab,4,"Getting Around","Places","Exit","chūkǒu — 出口",travel|places|reverse,"chūkǒu — 出口","rùkǒu — 入口","lùkǒu — 路口","dìdiǎn — 地点",1
+travel4-move2-013,vocab,4,"Getting Around","Places","Entrance","rùkǒu — 入口",travel|places|reverse,"rùkǒu — 入口","chūkǒu — 出口","zhàn tái — 站台","chēzhàn — 车站",1
+travel4-move2-014,vocab,4,"Getting Around","Places","Intersection","lùkǒu — 路口",travel|places|reverse,"lùkǒu — 路口","dìdiǎn — 地点","zhōngzhuǎn zhàn — 中转站","chēzhàn — 车站",1
+travel4-move2-015,vocab,4,"Getting Around","Places","Transfer station","zhōngzhuǎn zhàn — 中转站",travel|places|reverse,"zhōngzhuǎn zhàn — 中转站","chēzhàn — 车站","jīchǎng — 机场","zhàn tái — 站台",1
+travel4-move2-016,vocab,4,"Getting Around","Places","Location","dìdiǎn — 地点",travel|places|reverse,"dìdiǎn — 地点","lùkǒu — 路口","chēzhàn — 车站","zhàn tái — 站台",1
+travel4-move3-001,vocab,4,"Getting Around","Directions","dào — 到","Arrive",travel|directions,"Arrive","Depart","Enter","Stop",1
+travel4-move3-002,vocab,4,"Getting Around","Directions","chūfā — 出发","Depart",travel|directions,"Depart","Arrive","Stop","Transfer",1
+travel4-move3-003,vocab,4,"Getting Around","Directions","huàn — 换","Transfer",travel|directions,"Transfer","Change seats","Stop","Enter",1
+travel4-move3-004,vocab,4,"Getting Around","Directions","guò — 过","Pass / cross",travel|directions,"Pass / cross","Stop","Enter","Arrive",1
+travel4-move3-005,vocab,4,"Getting Around","Directions","jìn — 进","Enter",travel|directions,"Enter","Exit","Arrive","Stop",1
+travel4-move3-006,vocab,4,"Getting Around","Directions","chū — 出","Exit",travel|directions,"Exit","Enter","Stop","Pass",1
+travel4-move3-007,vocab,4,"Getting Around","Directions","tíng — 停","Stop",travel|directions,"Stop","Park","Arrive","Exit",1
+travel4-move3-008,vocab,4,"Getting Around","Directions","kào — 靠","Pull over / next to",travel|directions,"Pull over / next to","Stop","Enter","Pass",1
+travel4-move3-009,vocab,4,"Getting Around","Directions","Arrive","dào — 到",travel|directions|reverse,"dào — 到","chūfā — 出发","tíng — 停","guò — 过",1
+travel4-move3-010,vocab,4,"Getting Around","Directions","Depart","chūfā — 出发",travel|directions|reverse,"chūfā — 出发","dào — 到","huàn — 换","tíng — 停",1
+travel4-move3-011,vocab,4,"Getting Around","Directions","Transfer","huàn — 换",travel|directions|reverse,"huàn — 换","guò — 过","kào — 靠","chū — 出",1
+travel4-move3-012,vocab,4,"Getting Around","Directions","Pass / cross","guò — 过",travel|directions|reverse,"guò — 过","jìn — 进","chū — 出","tíng — 停",1
+travel4-move3-013,vocab,4,"Getting Around","Directions","Enter","jìn — 进",travel|directions|reverse,"jìn — 进","chū — 出","dào — 到","kào — 靠",1
+travel4-move3-014,vocab,4,"Getting Around","Directions","Exit","chū — 出",travel|directions|reverse,"chū — 出","jìn — 进","guò — 过","tíng — 停",1
+travel4-move3-015,vocab,4,"Getting Around","Directions","Stop","tíng — 停",travel|directions|reverse,"tíng — 停","kào — 靠","huàn — 换","dào — 到",1
+travel4-move3-016,vocab,4,"Getting Around","Directions","Pull over / next to","kào — 靠",travel|directions|reverse,"kào — 靠","tíng — 停","guò — 过","jìn — 进",1
+travel4-move4-001,phrase,4,"Getting Around","Travel Phrases","chēzhàn zài nǎlǐ — 车站在哪里","Where is the station?",travel|move|phrase,"Where is the station?","Where is the airport?","Where is the subway?","Where is the entrance?",1
+travel4-move4-002,phrase,4,"Getting Around","Travel Phrases","jīchǎng zài nǎlǐ — 机场在哪里","Where is the airport?",travel|move|phrase,"Where is the airport?","Where is the station?","Where is the hotel?","Where is the exit?",1
+travel4-move4-003,phrase,4,"Getting Around","Travel Phrases","dìtiě zài nǎlǐ — 地铁在哪里","Where is the subway?",travel|move|phrase,"Where is the subway?","Where is the station?","Where is the entrance?","Where is the exit?",1
+travel4-move4-004,phrase,4,"Getting Around","Travel Phrases","rùkǒu zài nǎlǐ — 入口在哪里","Where is the entrance?",travel|move|phrase,"Where is the entrance?","Where is the exit?","Where is the station?","Where is the intersection?",1
+travel4-move4-005,phrase,4,"Getting Around","Travel Phrases","chūkǒu zài nǎlǐ — 出口在哪里","Where is the exit?",travel|move|phrase,"Where is the exit?","Where is the entrance?","Where is the subway?","Where is the station?",1
+travel4-move4-006,phrase,4,"Getting Around","Travel Phrases","wǒ qù jīchǎng — 我去机场","I’m going to the airport.",travel|move|phrase,"I’m going to the airport.","I arrived at the airport.","Where is the airport?","I want the airport.",1
+travel4-move4-007,phrase,4,"Getting Around","Travel Phrases","wǒ yào qù zhèlǐ — 我要去这里","I want to go here.",travel|move|phrase,"I want to go here.","I arrive here.","I am here.","I stop here.",1
+travel4-move4-008,phrase,4,"Getting Around","Travel Phrases","wǒ dào zhèlǐ — 我到这里","I arrive here.",travel|move|phrase,"I arrive here.","I go here.","I stop here.","I am lost here.",1
+travel4-move4-009,phrase,4,"Getting Around","Travel Phrases","zài zhèlǐ huàn — 在这里换","Transfer here.",travel|move|phrase,"Transfer here.","Stop here.","Arrive here.","Exit here.",1
+travel4-move4-010,phrase,4,"Getting Around","Travel Phrases","qǐng zài zhèlǐ tíng — 请在这里停","Stop here, please.",travel|move|phrase,"Stop here, please.","Get off here.","Wait here, please.","Park here.",1
+travel4-move4-011,phrase,4,"Getting Around","Travel Phrases","zài zhèlǐ xià chē — 在这里下车","Get off here.",travel|move|phrase,"Get off here.","Stop here.","Transfer here.","Arrive here.",1
+travel4-move4-012,phrase,4,"Getting Around","Travel Phrases","guò zhè ge lùkǒu — 过这个路口","Pass this intersection.",travel|move|phrase,"Pass this intersection.","Stop at this intersection.","Turn at this intersection.","Arrive at this intersection.",1
