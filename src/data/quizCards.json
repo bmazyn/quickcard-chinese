@@ -5618,6 +5618,419 @@
   }
 ,
 
+  { "id": "ch3-vc_2_3-001", "kind": "vocab", "deckId": "ch3-vc_2_3", "level": "HSK1",
+    "promptLine": "gè — 个", "question": "What does this mean?",
+    "choices": { "A": "road", "B": "general measure word", "C": "minute", "D": "method" },
+    "correct": "B", "explanation": "个 means general measure word.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-002", "kind": "vocab", "deckId": "ch3-vc_2_3", "level": "HSK1",
+    "promptLine": "general measure word", "question": "Which is correct?",
+    "choices": { "A": "gè — 个", "B": "lù — 路", "C": "tiān — 天", "D": "fāngfǎ — 方法" },
+    "correct": "A", "explanation": "general measure word is 个.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-003", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "tiān — 天", "question": "What does this mean?",
+    "choices": { "A": "year", "B": "day", "C": "hour", "D": "times" },
+    "correct": "B", "explanation": "天 means day.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-004", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "day", "question": "Which is correct?",
+    "choices": { "A": "tiān — 天", "B": "nián — 年", "C": "xiǎoshí — 小时", "D": "cì — 次" },
+    "correct": "A", "explanation": "day is 天.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-005", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "cì — 次", "question": "What does this mean?",
+    "choices": { "A": "method", "B": "road", "C": "times", "D": "minute" },
+    "correct": "C", "explanation": "次 means times.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-006", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "times", "question": "Which is correct?",
+    "choices": { "A": "cì — 次", "B": "gè — 个", "C": "lù — 路", "D": "nián — 年" },
+    "correct": "A", "explanation": "times is 次.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-007", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "nián — 年", "question": "What does this mean?",
+    "choices": { "A": "year", "B": "day", "C": "hour", "D": "minute" },
+    "correct": "A", "explanation": "年 means year.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-008", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "year", "question": "Which is correct?",
+    "choices": { "A": "fēnzhōng — 分钟", "B": "nián — 年", "C": "tiān — 天", "D": "xiǎoshí — 小时" },
+    "correct": "B", "explanation": "year is 年.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-009", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "fēnzhōng — 分钟", "question": "What does this mean?",
+    "choices": { "A": "hour", "B": "minute", "C": "road", "D": "method" },
+    "correct": "B", "explanation": "分钟 means minute.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-010", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "minute", "question": "Which is correct?",
+    "choices": { "A": "xiǎoshí — 小时", "B": "fēnzhōng — 分钟", "C": "cì — 次", "D": "lù — 路" },
+    "correct": "B", "explanation": "minute is 分钟.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-011", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "xiǎoshí — 小时", "question": "What does this mean?",
+    "choices": { "A": "hour", "B": "year", "C": "method", "D": "road" },
+    "correct": "A", "explanation": "小时 means hour.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-012", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "hour", "question": "Which is correct?",
+    "choices": { "A": "xiǎoshí — 小时", "B": "tiān — 天", "C": "nián — 年", "D": "gè — 个" },
+    "correct": "A", "explanation": "hour is 小时.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-013", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "lù — 路", "question": "What does this mean?",
+    "choices": { "A": "minute", "B": "road", "C": "day", "D": "times" },
+    "correct": "B", "explanation": "路 means road.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-014", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "road", "question": "Which is correct?",
+    "choices": { "A": "lù — 路", "B": "cì — 次", "C": "nián — 年", "D": "fēnzhōng — 分钟" },
+    "correct": "A", "explanation": "road is 路.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-015", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "fāngfǎ — 方法", "question": "What does this mean?",
+    "choices": { "A": "hour", "B": "road", "C": "method", "D": "year" },
+    "correct": "C", "explanation": "方法 means method.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_2_3-016", "kind": "vocab", "deckId": "ch3-vc_2_3",
+    "promptLine": "method", "question": "Which is correct?",
+    "choices": { "A": "gè — 个", "B": "lù — 路", "C": "fāngfǎ — 方法", "D": "tiān — 天" },
+    "correct": "C", "explanation": "method is 方法.",
+    "tags": ["ch3"], "difficulty": 2 }  ,
+
+
+  {
+    "id": "ch3-ph_2_4-001",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "wǒ yǒu yí gè fāngfǎ — 我有一个方法",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I have a method.",
+      "B": "I have a road.",
+      "C": "I have a minute.",
+      "D": "I have a year."
+    },
+    "correct": "A",
+    "explanation": "一个方法 = one method.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_2_4-002",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "wǒ děng nǐ sān fēnzhōng — 我等你三分钟",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I wait for you three minutes.",
+      "B": "I wait for you three hours.",
+      "C": "I wait for you three days.",
+      "D": "I wait for you three times."
+    },
+    "correct": "A",
+    "explanation": "三分钟 = three minutes.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_2_4-003",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "tā lái liǎng cì — 他来两次",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He comes two times.",
+      "B": "He comes two days.",
+      "C": "He comes two hours.",
+      "D": "He comes two years."
+    },
+    "correct": "A",
+    "explanation": "两次 = two times.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_2_4-004",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "wǒ zǒu zhè tiáo lù — 我走这条路",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I take this road.",
+      "B": "I see this road.",
+      "C": "I like this road.",
+      "D": "I close this road."
+    },
+    "correct": "A",
+    "explanation": "这条路 = this road.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_2_4-005",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "wǒ gōngzuò bā xiǎoshí — 我工作八小时",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I work eight hours.",
+      "B": "I work eight days.",
+      "C": "I work eight minutes.",
+      "D": "I work eight times."
+    },
+    "correct": "A",
+    "explanation": "八小时 = eight hours.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_2_4-006",
+    "kind": "vocab",
+    "deckId": "ch3-ph_2_4",
+    "level": "HSK2",
+    "promptLine": "tā zhǔnbèi yì nián — 他准备一年",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He prepares for one year.",
+      "B": "He prepares for one day.",
+      "C": "He prepares one minute.",
+      "D": "He prepares one road."
+    },
+    "correct": "A",
+    "explanation": "一年 = one year.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  } ,
+
+  { "id": "ch3-vc_3_1-001", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "kāi — 开", "question": "What does this mean?",
+    "choices": { "A": "close", "B": "open", "C": "give", "D": "call" },
+    "correct": "B", "explanation": "开 means open.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-002", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "open", "question": "Which is correct?",
+    "choices": { "A": "guān — 关", "B": "kāi — 开", "C": "ràng — 让", "D": "gěi — 给" },
+    "correct": "B", "explanation": "open is 开.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-003", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "guān — 关", "question": "What does this mean?",
+    "choices": { "A": "close", "B": "open", "C": "give", "D": "play" },
+    "correct": "A", "explanation": "关 means close.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-004", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "close", "question": "Which is correct?",
+    "choices": { "A": "kāi — 开", "B": "dǎ — 打", "C": "guān — 关", "D": "jiào — 叫" },
+    "correct": "C", "explanation": "close is 关.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-005", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "dǎ — 打", "question": "What does this mean?",
+    "choices": { "A": "hit", "B": "give", "C": "let", "D": "new" },
+    "correct": "A", "explanation": "打 means hit.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-006", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "hit", "question": "Which is correct?",
+    "choices": { "A": "ràng — 让", "B": "dǎ — 打", "C": "xīn — 新", "D": "jiù — 旧" },
+    "correct": "B", "explanation": "hit is 打.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-007", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "gěi — 给", "question": "What does this mean?",
+    "choices": { "A": "call", "B": "give", "C": "let", "D": "old" },
+    "correct": "B", "explanation": "给 means give.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-008", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "give", "question": "Which is correct?",
+    "choices": { "A": "gěi — 给", "B": "kāi — 开", "C": "jiào — 叫", "D": "màn — 慢" },
+    "correct": "A", "explanation": "give is 给.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-009", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "ràng — 让", "question": "What does this mean?",
+    "choices": { "A": "new", "B": "let", "C": "close", "D": "play" },
+    "correct": "B", "explanation": "让 means let.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-010", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "let", "question": "Which is correct?",
+    "choices": { "A": "jiào — 叫", "B": "ràng — 让", "C": "gāo — 高", "D": "wán — 玩" },
+    "correct": "B", "explanation": "let is 让.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-011", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "jiào — 叫", "question": "What does this mean?",
+    "choices": { "A": "call", "B": "give", "C": "open", "D": "slow" },
+    "correct": "A", "explanation": "叫 means call.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-012", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "call", "question": "Which is correct?",
+    "choices": { "A": "jiào — 叫", "B": "guān — 关", "C": "jiù — 旧", "D": "kuài — 快" },
+    "correct": "A", "explanation": "call is 叫.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-013", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "xīn — 新", "question": "What does this mean?",
+    "choices": { "A": "old", "B": "new", "C": "fast", "D": "short" },
+    "correct": "B", "explanation": "新 means new.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-014", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "new", "question": "Which is correct?",
+    "choices": { "A": "xīn — 新", "B": "jiù — 旧", "C": "gāo — 高", "D": "màn — 慢" },
+    "correct": "A", "explanation": "new is 新.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-015", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "jiù — 旧", "question": "What does this mean?",
+    "choices": { "A": "new", "B": "old", "C": "slow", "D": "prepare" },
+    "correct": "B", "explanation": "旧 means old.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_1-016", "kind": "vocab", "deckId": "ch3-vc_3_1",
+    "promptLine": "old", "question": "Which is correct?",
+    "choices": { "A": "jiù — 旧", "B": "xīn — 新", "C": "ràng — 让", "D": "kāishǐ — 开始" },
+    "correct": "A", "explanation": "old is 旧.",
+    "tags": ["ch3"], "difficulty": 2 }
+,
+
+
+
+
+
+
+  { "id": "ch3-vc_3_3-001", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "wán — 玩", "question": "What does this mean?",
+    "choices": { "A": "play", "B": "fast", "C": "prepare", "D": "tall" },
+    "correct": "A", "explanation": "玩 means play.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-002", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "play", "question": "Which is correct?",
+    "choices": { "A": "kuài — 快", "B": "wán — 玩", "C": "màn — 慢", "D": "gāo — 高" },
+    "correct": "B", "explanation": "play is 玩.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-003", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "kuài — 快", "question": "What does this mean?",
+    "choices": { "A": "slow", "B": "fast", "C": "short", "D": "finish" },
+    "correct": "B", "explanation": "快 means fast.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-004", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "fast", "question": "Which is correct?",
+    "choices": { "A": "màn — 慢", "B": "kuài — 快", "C": "ǎi — 矮", "D": "kāishǐ — 开始" },
+    "correct": "B", "explanation": "fast is 快.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-005", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "màn — 慢", "question": "What does this mean?",
+    "choices": { "A": "fast", "B": "slow", "C": "tall", "D": "prepare" },
+    "correct": "B", "explanation": "慢 means slow.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-006", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "slow", "question": "Which is correct?",
+    "choices": { "A": "màn — 慢", "B": "kuài — 快", "C": "gāo — 高", "D": "jiéshù — 结束" },
+    "correct": "A", "explanation": "slow is 慢.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-007", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "gāo — 高", "question": "What does this mean?",
+    "choices": { "A": "short", "B": "tall", "C": "new", "D": "play" },
+    "correct": "B", "explanation": "高 means tall.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-008", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "tall", "question": "Which is correct?",
+    "choices": { "A": "ǎi — 矮", "B": "gāo — 高", "C": "xīn — 新", "D": "wán — 玩" },
+    "correct": "B", "explanation": "tall is 高.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-009", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "ǎi — 矮", "question": "What does this mean?",
+    "choices": { "A": "fast", "B": "short", "C": "old", "D": "start" },
+    "correct": "B", "explanation": "矮 means short.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-010", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "short", "question": "Which is correct?",
+    "choices": { "A": "gāo — 高", "B": "ǎi — 矮", "C": "màn — 慢", "D": "zhǔnbèi — 准备" },
+    "correct": "B", "explanation": "short is 矮.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-011", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "zhǔnbèi — 准备", "question": "What does this mean?",
+    "choices": { "A": "finish", "B": "prepare", "C": "slow", "D": "give" },
+    "correct": "B", "explanation": "准备 means prepare.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-012", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "prepare", "question": "Which is correct?",
+    "choices": { "A": "jiéshù — 结束", "B": "zhǔnbèi — 准备", "C": "kāishǐ — 开始", "D": "wán — 玩" },
+    "correct": "B", "explanation": "prepare is 准备.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-013", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "kāishǐ — 开始", "question": "What does this mean?",
+    "choices": { "A": "finish", "B": "start", "C": "call", "D": "slow" },
+    "correct": "B", "explanation": "开始 means start.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-014", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "start", "question": "Which is correct?",
+    "choices": { "A": "kāishǐ — 开始", "B": "jiéshù — 结束", "C": "màn — 慢", "D": "ràng — 让" },
+    "correct": "A", "explanation": "start is 开始.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-015", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "jiéshù — 结束", "question": "What does this mean?",
+    "choices": { "A": "prepare", "B": "finish", "C": "fast", "D": "old" },
+    "correct": "B", "explanation": "结束 means finish.",
+    "tags": ["ch3"], "difficulty": 2 },
+
+  { "id": "ch3-vc_3_3-016", "kind": "vocab", "deckId": "ch3-vc_3_3",
+    "promptLine": "finish", "question": "Which is correct?",
+    "choices": { "A": "kāishǐ — 开始", "B": "zhǔnbèi — 准备", "C": "jiéshù — 结束", "D": "kuài — 快" },
+    "correct": "C", "explanation": "finish is 结束.",
+    "tags": ["ch3"], "difficulty": 2 }
+,
+
+
+
+
+
+
+
+
+
 
 {
     "id": "travel4-food1-001",

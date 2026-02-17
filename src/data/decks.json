@@ -38,15 +38,13 @@
 
   "ch3-phrase-3-1-1": { "chapter": 3, "section": "Sec 2", "deckName": "Phrases 3.2.1", "order": 1 },
   "ch3-phrase-3-1-2": { "chapter": 3, "section": "Sec 2", "deckName": "Phrases 3.2.2", "order": 2 },
-  "ch3-qty1": { "chapter": 3, "section": "Sec 2", "deckName": "Quantity", "order": 3 },
-  "ch3-nump": { "chapter": 3, "section": "Sec 2", "deckName": "Numbers Phrases", "order": 4 },
+  "ch3-vc_2_3": { "chapter": 3, "section": "Sec 2", "deckName": "Vocab 3.2.3", "order": 3 },
+  "ch3-ph_2_4": { "chapter": 3, "section": "Sec 2", "deckName": "Phrases 3.2.4", "order": 4 },
 
-
-  "ch3-exist1": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist 1", "order": 1 },
-  "ch3-exist2": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist 2", "order": 2 },
-  "ch3-exist3": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist 3", "order": 3 },
-  "ch3-existp": { "chapter": 3, "section": "Existence & Permission", "deckName": "Exist Phrases", "order": 4 },
-  
+  "ch3-vc_3_1": { "chapter": 3, "section": "Sec 3", "deckName": "Vocab 3.3.1", "order": 1 },
+  "ch3-ph_3_2": { "chapter": 3, "section": "Sec 3", "deckName": "Phrases 3.3.2", "order": 2 },
+  "ch3-vc_3_3": { "chapter": 3, "section": "Sec 3", "deckName": "Vocab 3.3.3", "order": 3 },
+  "ch3-ph_3_4": { "chapter": 3, "section": "Sec 3", "deckName": "Phrases 3.3.4", "order": 4 },
 
 
   "travel4-food1": { "chapter": 4, "section": "Food & Ordering", "deckName": "Food", "order": 1 },
