@@ -43,7 +43,7 @@ export default function AudioLoop() {
       // Load selected levels
       const selectedLevels = levelsParam.split(',');
       sectionCards = quizCardsData.filter((card) => 
-        selectedLevels.includes(card.level)
+        card.level && selectedLevels.includes(card.level)
       ) as QuizCard[];
       title = selectedLevels.length === 1 ? selectedLevels[0] : `${selectedLevels.length} Levels`;
     } else if (sectionParam === "Foundation") {
