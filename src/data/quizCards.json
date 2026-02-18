@@ -5921,8 +5921,285 @@
     "tags": ["ch3"], "difficulty": 2 }
 ,
 
+  {
+    "id": "ch3-ph_3_2-001",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "qǐng kāi mén — 请开门",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Please open the door.",
+      "B": "Please close the door.",
+      "C": "Please call me.",
+      "D": "Please give me the door."
+    },
+    "correct": "A",
+    "explanation": "开门 = open the door.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_2-002",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "guān chuānghu — 关窗户",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Open the window.",
+      "B": "Close the window.",
+      "C": "Call the window.",
+      "D": "Give the window."
+    },
+    "correct": "B",
+    "explanation": "关窗户 = close the window.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_2-003",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "tā jiào Lǐ Míng — 他叫李明",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He calls Li Ming.",
+      "B": "He is called Li Ming.",
+      "C": "He gives Li Ming.",
+      "D": "He lets Li Ming."
+    },
+    "correct": "B",
+    "explanation": "叫 = to be called (name).",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_2-004",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "gěi wǒ nà gè — 给我那个",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Let me have that.",
+      "B": "Give me that one.",
+      "C": "Call me that.",
+      "D": "Open that for me."
+    },
+    "correct": "B",
+    "explanation": "给我 = give me.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  }
+,
+  {
+    "id": "ch3-ph_3_2-005",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "bié ràng tā zǒu — 别让他走",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Let him go.",
+      "B": "Don't let him go.",
+      "C": "Call him.",
+      "D": "Give him that."
+    },
+    "correct": "B",
+    "explanation": "别让 = don't let.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-ph_3_2-006",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "dǎ diànhuà gěi wǒ — 打电话给我",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Give me the phone.",
+      "B": "Call me.",
+      "C": "Open the phone.",
+      "D": "Let me phone."
+    },
+    "correct": "B",
+    "explanation": "打电话 = make a phone call.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-ph_3_2-007",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "kāi diànshì — 开电视",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Close the TV.",
+      "B": "Call the TV.",
+      "C": "Turn on the TV.",
+      "D": "Give the TV."
+    },
+    "correct": "C",
+    "explanation": "开电视 = turn on the TV.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-ph_3_2-008",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_2",
+    "promptLine": "guān diànnǎo — 关电脑",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Turn off the computer.",
+      "B": "Open the computer.",
+      "C": "Give the computer.",
+      "D": "Call the computer."
+    },
+    "correct": "A",
+    "explanation": "关电脑 = turn off the computer.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  }
+,
 
 
+  {
+    "id": "ch3-ph_3_4-001",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "tā hěn gāo — 他很高",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He is very tall.",
+      "B": "He is very short.",
+      "C": "He is very fast.",
+      "D": "He is very slow."
+    },
+    "correct": "A",
+    "explanation": "很高 = very tall.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_4-002",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "zhè gè hěn kuài — 这个很快",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "This is very slow.",
+      "B": "This is very tall.",
+      "C": "This is very fast.",
+      "D": "This is very old."
+    },
+    "correct": "C",
+    "explanation": "很快 = very fast.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_4-003",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "wǒ yào kāishǐ — 我要开始",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I want to finish.",
+      "B": "I want to start.",
+      "C": "I want to prepare.",
+      "D": "I want to play."
+    },
+    "correct": "B",
+    "explanation": "开始 = start.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_4-004",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "yóuxì jiéshù le — 游戏结束了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "The game started.",
+      "B": "The game is slow.",
+      "C": "The game finished.",
+      "D": "The game is tall."
+    },
+    "correct": "C",
+    "explanation": "结束了 = finished.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  }
+,
+
+  {
+    "id": "ch3-ph_3_4-005",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "tā hěn ǎi — 他很矮",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "He is very tall.",
+      "B": "He is very short.",
+      "C": "He is very fast.",
+      "D": "He is very slow."
+    },
+    "correct": "B",
+    "explanation": "很矮 = very short.",
+    "tags": ["ch3"],
+    "difficulty": 2
+  },
+  {
+    "id": "ch3-ph_3_4-006",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "wǒ zhǔnbèi hǎo le — 我准备好了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "I finished.",
+      "B": "I am ready.",
+      "C": "I am slow.",
+      "D": "I am tall."
+    },
+    "correct": "B",
+    "explanation": "准备好了 = prepared / ready.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-ph_3_4-007",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "kuài diǎn — 快点",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Be slower.",
+      "B": "Be taller.",
+      "C": "Hurry up.",
+      "D": "Start now."
+    },
+    "correct": "C",
+    "explanation": "快点 = hurry up.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  },
+  {
+    "id": "ch3-ph_3_4-008",
+    "kind": "vocab",
+    "deckId": "ch3-ph_3_4",
+    "promptLine": "bié wán le — 别玩了",
+    "question": "What does this mean?",
+    "choices": {
+      "A": "Don't start.",
+      "B": "Don't play anymore.",
+      "C": "Don't finish.",
+      "D": "Don't prepare."
+    },
+    "correct": "B",
+    "explanation": "别…了 = stop doing it.",
+    "tags": ["ch3"],
+    "difficulty": 3
+  }
+,
 
 
 
@@ -9004,5 +9281,1048 @@
     "explanations": { "A": "Correct! 过这个路口 means 'Pass this intersection.'" },
     "tags": ["travel", "move", "phrase"],
     "difficulty": 1
-  }
+  } , 
+
+{
+  "id": "ch5-hol1-001",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "zhù nǐ — 祝你",
+  "question": "What does this mean?",
+  "choices": { "A": "birthday", "B": "wish you", "C": "gift", "D": "happy" },
+  "correct": "B",
+  "explanation": "祝你 means wish you.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-002",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "wish you",
+  "question": "Which is correct?",
+  "choices": { "A": "祝你 — zhù nǐ", "B": "生日 — shēngrì", "C": "快乐 — kuàilè", "D": "礼物 — lǐwù" },
+  "correct": "A",
+  "explanation": "wish you is 祝你.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-003",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "shēngrì — 生日",
+  "question": "What does this mean?",
+  "choices": { "A": "party", "B": "happy", "C": "birthday", "D": "photo" },
+  "correct": "C",
+  "explanation": "生日 means birthday.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-004",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "birthday",
+  "question": "Which is correct?",
+  "choices": { "A": "红包 — hóngbāo", "B": "生日 — shēngrì", "C": "派对 — pài duì", "D": "照片 — zhàopiàn" },
+  "correct": "B",
+  "explanation": "birthday is 生日.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-005",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "kuàilè — 快乐",
+  "question": "What does this mean?",
+  "choices": { "A": "happy", "B": "gift", "C": "party", "D": "wish you" },
+  "correct": "A",
+  "explanation": "快乐 means happy.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-006",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "happy",
+  "question": "Which is correct?",
+  "choices": { "A": "礼物 — lǐwù", "B": "快乐 — kuàilè", "C": "红包 — hóngbāo", "D": "派对 — pài duì" },
+  "correct": "B",
+  "explanation": "happy is 快乐.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-007",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "lǐwù — 礼物",
+  "question": "What does this mean?",
+  "choices": { "A": "gift", "B": "party", "C": "photo", "D": "birthday" },
+  "correct": "A",
+  "explanation": "礼物 means gift.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-008",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "gift",
+  "question": "Which is correct?",
+  "choices": { "A": "红包 — hóngbāo", "B": "礼物 — lǐwù", "C": "派对 — pài duì", "D": "照片 — zhàopiàn" },
+  "correct": "B",
+  "explanation": "gift is 礼物.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-009",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "pài duì — 派对",
+  "question": "What does this mean?",
+  "choices": { "A": "gift", "B": "photo", "C": "party", "D": "holiday" },
+  "correct": "C",
+  "explanation": "派对 means party.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-010",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "party",
+  "question": "Which is correct?",
+  "choices": { "A": "派对 — pài duì", "B": "红包 — hóngbāo", "C": "照片 — zhàopiàn", "D": "生日 — shēngrì" },
+  "correct": "A",
+  "explanation": "party is 派对.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-011",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "hóngbāo — 红包",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "gift", "C": "red envelope", "D": "photo" },
+  "correct": "C",
+  "explanation": "红包 means red envelope.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-012",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "red envelope",
+  "question": "Which is correct?",
+  "choices": { "A": "礼物 — lǐwù", "B": "红包 — hóngbāo", "C": "派对 — pài duì", "D": "快乐 — kuàilè" },
+  "correct": "B",
+  "explanation": "red envelope is 红包.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-013",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "dǎ diànhuà — 打电话",
+  "question": "What does this mean?",
+  "choices": { "A": "take a photo", "B": "give a gift", "C": "make a phone call", "D": "open a party" },
+  "correct": "C",
+  "explanation": "打电话 means make a phone call.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-014",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "make a phone call",
+  "question": "Which is correct?",
+  "choices": { "A": "照片 — zhàopiàn", "B": "打电话 — dǎ diànhuà", "C": "派对 — pài duì", "D": "红包 — hóngbāo" },
+  "correct": "B",
+  "explanation": "make a phone call is 打电话.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-015",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "zhàopiàn — 照片",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "birthday", "C": "photo", "D": "happy" },
+  "correct": "C",
+  "explanation": "照片 means photo.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol1-016",
+  "kind": "vocab",
+  "deckId": "ch5-hol1",
+  "promptLine": "photo",
+  "question": "Which is correct?",
+  "choices": { "A": "红包 — hóngbāo", "B": "礼物 — lǐwù", "C": "生日 — shēngrì", "D": "照片 — zhàopiàn" },
+  "correct": "D",
+  "explanation": "photo is 照片.",
+  "tags": ["ch5"],
+  "difficulty": 2
+}
+,
+{
+  "id": "ch5-hol2-001",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "xīnnián — 新年",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "New Year", "C": "Christmas", "D": "vacation" },
+  "correct": "B",
+  "explanation": "新年 means New Year.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-002",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "New Year",
+  "question": "Which is correct?",
+  "choices": { "A": "春节 — Chūnjié", "B": "新年 — xīnnián", "C": "节日 — jiérì", "D": "放假 — fàngjià" },
+  "correct": "B",
+  "explanation": "New Year is 新年.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-003",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Chūnjié — 春节",
+  "question": "What does this mean?",
+  "choices": { "A": "Christmas", "B": "Thanksgiving", "C": "Spring Festival", "D": "holiday" },
+  "correct": "C",
+  "explanation": "春节 means Spring Festival.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-004",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Spring Festival",
+  "question": "Which is correct?",
+  "choices": { "A": "春节 — Chūnjié", "B": "圣诞节 — Shèngdànjié", "C": "感恩节 — Gǎn’ēnjié", "D": "节日 — jiérì" },
+  "correct": "A",
+  "explanation": "Spring Festival is 春节.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-005",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Shèngdànjié — 圣诞节",
+  "question": "What does this mean?",
+  "choices": { "A": "Thanksgiving", "B": "holiday", "C": "Christmas", "D": "New Year" },
+  "correct": "C",
+  "explanation": "圣诞节 means Christmas.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-006",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Christmas",
+  "question": "Which is correct?",
+  "choices": { "A": "新年 — xīnnián", "B": "圣诞节 — Shèngdànjié", "C": "春节 — Chūnjié", "D": "气氛 — qìfēn" },
+  "correct": "B",
+  "explanation": "Christmas is 圣诞节.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-007",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Gǎn’ēnjié — 感恩节",
+  "question": "What does this mean?",
+  "choices": { "A": "Thanksgiving", "B": "vacation", "C": "holiday", "D": "atmosphere" },
+  "correct": "A",
+  "explanation": "感恩节 means Thanksgiving.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-008",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "Thanksgiving",
+  "question": "Which is correct?",
+  "choices": { "A": "节日 — jiérì", "B": "放假 — fàngjià", "C": "感恩节 — Gǎn’ēnjié", "D": "烟花 — yānhuā" },
+  "correct": "C",
+  "explanation": "Thanksgiving is 感恩节.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-009",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "jiérì — 节日",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "vacation", "C": "fireworks", "D": "atmosphere" },
+  "correct": "A",
+  "explanation": "节日 means holiday.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-010",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "holiday",
+  "question": "Which is correct?",
+  "choices": { "A": "气氛 — qìfēn", "B": "节日 — jiérì", "C": "放假 — fàngjià", "D": "烟花 — yānhuā" },
+  "correct": "B",
+  "explanation": "holiday is 节日.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-011",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "fàngjià — 放假",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "atmosphere", "C": "have vacation", "D": "fireworks" },
+  "correct": "C",
+  "explanation": "放假 means have vacation.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-012",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "have vacation",
+  "question": "Which is correct?",
+  "choices": { "A": "放假 — fàngjià", "B": "节日 — jiérì", "C": "气氛 — qìfēn", "D": "烟花 — yānhuā" },
+  "correct": "A",
+  "explanation": "have vacation is 放假.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-013",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "qìfēn — 气氛",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "atmosphere", "C": "vacation", "D": "New Year" },
+  "correct": "B",
+  "explanation": "气氛 means atmosphere.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-014",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "atmosphere",
+  "question": "Which is correct?",
+  "choices": { "A": "烟花 — yānhuā", "B": "气氛 — qìfēn", "C": "放假 — fàngjià", "D": "节日 — jiérì" },
+  "correct": "B",
+  "explanation": "atmosphere is 气氛.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-015",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "yānhuā — 烟花",
+  "question": "What does this mean?",
+  "choices": { "A": "holiday", "B": "fireworks", "C": "vacation", "D": "atmosphere" },
+  "correct": "B",
+  "explanation": "烟花 means fireworks.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-hol2-016",
+  "kind": "vocab",
+  "deckId": "ch5-hol2",
+  "promptLine": "fireworks",
+  "question": "Which is correct?",
+  "choices": { "A": "气氛 — qìfēn", "B": "节日 — jiérì", "C": "烟花 — yānhuā", "D": "放假 — fàngjià" },
+  "correct": "C",
+  "explanation": "fireworks is 烟花.",
+  "tags": ["ch5"],
+  "difficulty": 2
+}
+,
+{
+  "id": "ch5-holp1-001",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "zhù nǐ shēngrì kuàilè — 祝你生日快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Happy New Year.",
+    "B": "Happy birthday.",
+    "C": "Merry Christmas.",
+    "D": "Happy holiday."
+  },
+  "correct": "B",
+  "explanation": "祝你生日快乐 means Happy birthday.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-002",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "zhù nǐ xīnnián kuàilè — 祝你新年快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Happy New Year.",
+    "B": "Happy birthday.",
+    "C": "Have a vacation.",
+    "D": "Happy party."
+  },
+  "correct": "A",
+  "explanation": "祝你新年快乐 means Happy New Year.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-003",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "Shèngdànjié kuàilè — 圣诞节快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Happy Spring Festival.",
+    "B": "Merry Christmas.",
+    "C": "Happy Thanksgiving.",
+    "D": "Happy birthday."
+  },
+  "correct": "B",
+  "explanation": "圣诞节快乐 means Merry Christmas.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-004",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "Chūnjié kuàilè — 春节快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Happy Spring Festival.",
+    "B": "Happy New Year.",
+    "C": "Happy birthday.",
+    "D": "Happy holiday."
+  },
+  "correct": "A",
+  "explanation": "春节快乐 means Happy Spring Festival.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-005",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "Gǎn’ēnjié kuàilè — 感恩节快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Merry Christmas.",
+    "B": "Happy Thanksgiving.",
+    "C": "Happy New Year.",
+    "D": "Happy party."
+  },
+  "correct": "B",
+  "explanation": "感恩节快乐 means Happy Thanksgiving.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-006",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "wǒ gěi nǐ lǐwù — 我给你礼物",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I give you a gift.",
+    "B": "You give me a gift.",
+    "C": "I take your gift.",
+    "D": "You have a gift."
+  },
+  "correct": "A",
+  "explanation": "我给你礼物 means I give you a gift.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp1-007",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "wǒ men kāi pài duì — 我们开派对",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "We close the party.",
+    "B": "We start a party.",
+    "C": "We open a party.",
+    "D": "We have a party."
+  },
+  "correct": "D",
+  "explanation": "我们开派对 means We have a party.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp1-008",
+  "kind": "vocab",
+  "deckId": "ch5-holp1",
+  "promptLine": "wǒ shōu dào hóngbāo — 我收到红包",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I send a red envelope.",
+    "B": "I receive a red envelope.",
+    "C": "I open a red envelope.",
+    "D": "I give a red envelope."
+  },
+  "correct": "B",
+  "explanation": "收到红包 means receive a red envelope.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp2-001",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "jīntiān shì jiérì — 今天是节日",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Today is a holiday.",
+    "B": "Today is a birthday.",
+    "C": "Today is Christmas.",
+    "D": "Today is New Year."
+  },
+  "correct": "A",
+  "explanation": "今天是节日 means Today is a holiday.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp2-002",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "wǒ men fàngjià le — 我们放假了",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "We are having a party.",
+    "B": "We have a holiday.",
+    "C": "We finished the holiday.",
+    "D": "We open the holiday."
+  },
+  "correct": "B",
+  "explanation": "放假了 means have vacation / holiday.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp2-003",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "jiérì qìfēn hěn hǎo — 节日气氛很好",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "The holiday is short.",
+    "B": "The holiday atmosphere is very good.",
+    "C": "The holiday is finished.",
+    "D": "The holiday is slow."
+  },
+  "correct": "B",
+  "explanation": "节日气氛很好 means The holiday atmosphere is very good.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp2-004",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "wǎnshang kàn yānhuā — 晚上看烟花",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Watch fireworks at night.",
+    "B": "Open fireworks at night.",
+    "C": "Give fireworks at night.",
+    "D": "Buy fireworks at night."
+  },
+  "correct": "A",
+  "explanation": "晚上看烟花 means watch fireworks at night.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp2-005",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "tā dǎ diànhuà zhù wǒ kuàilè — 他打电话祝我快乐",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He calls me for a party.",
+    "B": "He calls to wish me happiness.",
+    "C": "He gives me a gift.",
+    "D": "He watches fireworks."
+  },
+  "correct": "B",
+  "explanation": "祝我快乐 means wish me happiness.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp2-006",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "wǒ men pāi zhàopiàn — 我们拍照片",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "We send photos.",
+    "B": "We take photos.",
+    "C": "We buy photos.",
+    "D": "We open photos."
+  },
+  "correct": "B",
+  "explanation": "拍照片 means take photos.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-holp2-007",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "xīnnián kuài dào le — 新年快到了",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "New Year is finished.",
+    "B": "New Year is coming soon.",
+    "C": "New Year is slow.",
+    "D": "New Year is closed."
+  },
+  "correct": "B",
+  "explanation": "快到了 means is coming soon.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-holp2-008",
+  "kind": "vocab",
+  "deckId": "ch5-holp2",
+  "promptLine": "Chūnjié wǒ men huí jiā — 春节我们回家",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "We start Spring Festival.",
+    "B": "We open Spring Festival.",
+    "C": "We go home for Spring Festival.",
+    "D": "We finish Spring Festival."
+  },
+  "correct": "C",
+  "explanation": "春节我们回家 means We go home for Spring Festival.",
+  "tags": ["ch5"],
+  "difficulty": 3
+}
+,
+{
+  "id": "ch5-cty1-001",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Měiguó — 美国",
+  "question": "What does this mean?",
+  "choices": { "A": "United Kingdom", "B": "Canada", "C": "United States", "D": "Australia" },
+  "correct": "C",
+  "explanation": "美国 means United States.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-002",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "United States",
+  "question": "Which is correct?",
+  "choices": { "A": "美国 — Měiguó", "B": "英国 — Yīngguó", "C": "法国 — Fǎguó", "D": "德国 — Déguó" },
+  "correct": "A",
+  "explanation": "United States is 美国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-003",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Zhōngguó — 中国",
+  "question": "What does this mean?",
+  "choices": { "A": "Japan", "B": "China", "C": "Korea", "D": "India" },
+  "correct": "B",
+  "explanation": "中国 means China.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-004",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "China",
+  "question": "Which is correct?",
+  "choices": { "A": "韩国 — Hánguó", "B": "日本 — Rìběn", "C": "中国 — Zhōngguó", "D": "印度 — Yìndù" },
+  "correct": "C",
+  "explanation": "China is 中国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-005",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Yīngguó — 英国",
+  "question": "What does this mean?",
+  "choices": { "A": "United Kingdom", "B": "France", "C": "Germany", "D": "Canada" },
+  "correct": "A",
+  "explanation": "英国 means United Kingdom.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-006",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "United Kingdom",
+  "question": "Which is correct?",
+  "choices": { "A": "加拿大 — Jiānádà", "B": "英国 — Yīngguó", "C": "澳大利亚 — Àodàlìyà", "D": "法国 — Fǎguó" },
+  "correct": "B",
+  "explanation": "United Kingdom is 英国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-007",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Jiānádà — 加拿大",
+  "question": "What does this mean?",
+  "choices": { "A": "Australia", "B": "France", "C": "Canada", "D": "India" },
+  "correct": "C",
+  "explanation": "加拿大 means Canada.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-008",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Canada",
+  "question": "Which is correct?",
+  "choices": { "A": "德国 — Déguó", "B": "加拿大 — Jiānádà", "C": "法国 — Fǎguó", "D": "英国 — Yīngguó" },
+  "correct": "B",
+  "explanation": "Canada is 加拿大.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-009",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Àodàlìyà — 澳大利亚",
+  "question": "What does this mean?",
+  "choices": { "A": "Australia", "B": "Germany", "C": "Japan", "D": "India" },
+  "correct": "A",
+  "explanation": "澳大利亚 means Australia.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-010",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Australia",
+  "question": "Which is correct?",
+  "choices": { "A": "加拿大 — Jiānádà", "B": "澳大利亚 — Àodàlìyà", "C": "英国 — Yīngguó", "D": "印度 — Yìndù" },
+  "correct": "B",
+  "explanation": "Australia is 澳大利亚.",
+  "tags": ["ch5"],
+  "difficulty": 1
+}
+,
+{
+  "id": "ch5-cty1-011",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Rìběn — 日本",
+  "question": "What does this mean?",
+  "choices": { "A": "South Korea", "B": "Japan", "C": "China", "D": "India" },
+  "correct": "B",
+  "explanation": "日本 means Japan.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-012",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Japan",
+  "question": "Which is correct?",
+  "choices": { "A": "日本 — Rìběn", "B": "韩国 — Hánguó", "C": "中国 — Zhōngguó", "D": "印度 — Yìndù" },
+  "correct": "A",
+  "explanation": "Japan is 日本.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-013",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Hánguó — 韩国",
+  "question": "What does this mean?",
+  "choices": { "A": "South Korea", "B": "Japan", "C": "Germany", "D": "France" },
+  "correct": "A",
+  "explanation": "韩国 means South Korea.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-014",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "South Korea",
+  "question": "Which is correct?",
+  "choices": { "A": "日本 — Rìběn", "B": "韩国 — Hánguó", "C": "英国 — Yīngguó", "D": "美国 — Měiguó" },
+  "correct": "B",
+  "explanation": "South Korea is 韩国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-015",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Fǎguó — 法国",
+  "question": "What does this mean?",
+  "choices": { "A": "Germany", "B": "France", "C": "Canada", "D": "United Kingdom" },
+  "correct": "B",
+  "explanation": "法国 means France.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-016",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "France",
+  "question": "Which is correct?",
+  "choices": { "A": "法国 — Fǎguó", "B": "德国 — Déguó", "C": "英国 — Yīngguó", "D": "澳大利亚 — Àodàlìyà" },
+  "correct": "A",
+  "explanation": "France is 法国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-017",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Déguó — 德国",
+  "question": "What does this mean?",
+  "choices": { "A": "France", "B": "Germany", "C": "India", "D": "United States" },
+  "correct": "B",
+  "explanation": "德国 means Germany.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-018",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Germany",
+  "question": "Which is correct?",
+  "choices": { "A": "法国 — Fǎguó", "B": "德国 — Déguó", "C": "日本 — Rìběn", "D": "加拿大 — Jiānádà" },
+  "correct": "B",
+  "explanation": "Germany is 德国.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-019",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "Yìndù — 印度",
+  "question": "What does this mean?",
+  "choices": { "A": "India", "B": "China", "C": "Japan", "D": "Australia" },
+  "correct": "A",
+  "explanation": "印度 means India.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+{
+  "id": "ch5-cty1-020",
+  "kind": "vocab",
+  "deckId": "ch5-cty1",
+  "promptLine": "India",
+  "question": "Which is correct?",
+  "choices": { "A": "印度 — Yìndù", "B": "中国 — Zhōngguó", "C": "韩国 — Hánguó", "D": "英国 — Yīngguó" },
+  "correct": "A",
+  "explanation": "India is 印度.",
+  "tags": ["ch5"],
+  "difficulty": 1
+},
+
+{
+  "id": "ch5-ctyp1-001",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "wǒ lái zì Měiguó — 我来自美国",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I live in the United States.",
+    "B": "I go to the United States.",
+    "C": "I am from the United States.",
+    "D": "I like the United States."
+  },
+  "correct": "C",
+  "explanation": "来自 means to be from.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-ctyp1-002",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "tā shì Zhōngguó rén — 他是中国人",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He likes China.",
+    "B": "He is Chinese.",
+    "C": "He is in China.",
+    "D": "He goes to China."
+  },
+  "correct": "B",
+  "explanation": "中国人 means Chinese person.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-ctyp1-003",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "wǒ xiǎng qù Rìběn — 我想去日本",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I am from Japan.",
+    "B": "I live in Japan.",
+    "C": "I want to go to Japan.",
+    "D": "I like Japan."
+  },
+  "correct": "C",
+  "explanation": "想去 means want to go.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-ctyp1-004",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "tā qùle Fǎguó — 他去了法国",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He is from France.",
+    "B": "He went to France.",
+    "C": "He likes France.",
+    "D": "He lives in France."
+  },
+  "correct": "B",
+  "explanation": "去了 means went to.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-ctyp1-005",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "wǒ zài Jiānádà gōngzuò — 我在加拿大工作",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I go to Canada.",
+    "B": "I work in Canada.",
+    "C": "I am from Canada.",
+    "D": "I like Canada."
+  },
+  "correct": "B",
+  "explanation": "在…工作 means work in.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-ctyp1-006",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "Āodàlìyà hěn dà — 澳大利亚很大",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Australia is very small.",
+    "B": "Australia is very big.",
+    "C": "Australia is very old.",
+    "D": "Australia is very fast."
+  },
+  "correct": "B",
+  "explanation": "很大 means very big.",
+  "tags": ["ch5"],
+  "difficulty": 2
+},
+{
+  "id": "ch5-ctyp1-007",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "Déguó hěn piàoliang — 德国很漂亮",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Germany is very beautiful.",
+    "B": "Germany is very big.",
+    "C": "Germany is very slow.",
+    "D": "Germany is very old."
+  },
+  "correct": "A",
+  "explanation": "很漂亮 means very beautiful.",
+  "tags": ["ch5"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-ctyp1-008",
+  "kind": "vocab",
+  "deckId": "ch5-ctyp1",
+  "promptLine": "Yìndù yǒu hěn duō rén — 印度有很多人",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "India has many people.",
+    "B": "India has few people.",
+    "C": "India is very big.",
+    "D": "India is very small."
+  },
+  "correct": "A",
+  "explanation": "有很多人 means has many people.",
+  "tags": ["ch5"],
+  "difficulty": 3
+}
+
+
+
+
+
 ]
