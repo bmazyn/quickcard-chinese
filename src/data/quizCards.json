@@ -10632,5 +10632,328 @@
 "tags":["ch5","sec5.2","reverse"],
 "difficulty":2
 }
+,
+
+{
+"id":"ch5-v531-001",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"qíshí — 其实",
+"question":"What does this mean?",
+"choices":{"A":"actually","B":"prepare","C":"change","D":"after"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-002",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"yīnggāi — 应该",
+"question":"What does this mean?",
+"choices":{"A":"should","B":"decide","C":"one time","D":"before"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-003",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"juédìng — 决定",
+"question":"What does this mean?",
+"choices":{"A":"decide","B":"actually","C":"prepare","D":"change"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-004",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"yǐhòu — 以后",
+"question":"What does this mean?",
+"choices":{"A":"after","B":"before","C":"should","D":"time"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-005",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"yí cì — 一次",
+"question":"What does this mean?",
+"choices":{"A":"one time","B":"time","C":"after","D":"prepare"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-006",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"cì — 次",
+"question":"What does this mean?",
+"choices":{"A":"time","B":"one time","C":"change","D":"decide"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-007",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"zhǔnbèi — 准备",
+"question":"What does this mean?",
+"choices":{"A":"prepare","B":"actually","C":"after","D":"should"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-008",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"gǎibiàn — 改变",
+"question":"What does this mean?",
+"choices":{"A":"change","B":"decide","C":"time","D":"one time"},
+"correct":"A",
+"tags":["ch5","sec5.3"],
+"difficulty":2
+},
+
+{
+"id":"ch5-v531-009",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"actually",
+"question":"Which is correct?",
+"choices":{"A":"qíshí — 其实","B":"zhǔnbèi — 准备","C":"juédìng — 决定","D":"cì — 次"},
+"correct":"A",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-010",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"should",
+"question":"Which is correct?",
+"choices":{"A":"yí cì — 一次","B":"yīnggāi — 应该","C":"gǎibiàn — 改变","D":"yǐhòu — 以后"},
+"correct":"B",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-011",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"decide",
+"question":"Which is correct?",
+"choices":{"A":"zhǔnbèi — 准备","B":"juédìng — 决定","C":"qíshí — 其实","D":"cì — 次"},
+"correct":"B",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-012",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"after",
+"question":"Which is correct?",
+"choices":{"A":"yǐhòu — 以后","B":"yí cì — 一次","C":"gǎibiàn — 改变","D":"zhǔnbèi — 准备"},
+"correct":"A",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-013",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"one time",
+"question":"Which is correct?",
+"choices":{"A":"cì — 次","B":"yí cì — 一次","C":"yīnggāi — 应该","D":"qíshí — 其实"},
+"correct":"B",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-014",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"time",
+"question":"Which is correct?",
+"choices":{"A":"gǎibiàn — 改变","B":"yí cì — 一次","C":"cì — 次","D":"juédìng — 决定"},
+"correct":"C",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-015",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"prepare",
+"question":"Which is correct?",
+"choices":{"A":"zhǔnbèi — 准备","B":"qíshí — 其实","C":"yǐhòu — 以后","D":"juédìng — 决定"},
+"correct":"A",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+},
+{
+"id":"ch5-v531-016",
+"kind":"vocab",
+"deckId":"ch5-v531",
+"level":"HSK2",
+"promptLine":"change",
+"question":"Which is correct?",
+"choices":{"A":"cì — 次","B":"yīnggāi — 应该","C":"gǎibiàn — 改变","D":"zhǔnbèi — 准备"},
+"correct":"C",
+"tags":["ch5","sec5.3","reverse"],
+"difficulty":2
+}
+,
+{
+  "id": "ch5-pair1-001",
+  "kind": "vocab",
+  "deckId": "ch5-pair1",
+  "level": "HSK1",
+  "promptLine": "zài , zài — 在 , 再",
+  "question": "Choose the correct meaning order.",
+  "choices": {
+    "A": "at , again",
+    "B": "again , at",
+    "C": "also , only",
+    "D": "have , is"
+  },
+  "correct": "A",
+  "tags": ["ch1","pairs","contrast"],
+  "difficulty": 2
+},
+{
+"id":"ch5-pair1-002",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"yòu , zài — 又 , 再",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"again (past) , again (future)","B":"again (future) , again (past)","C":"at , again","D":"have , is"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-003",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"yǒu , shì — 有 , 是",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"have , is","B":"is , have","C":"also , still","D":"at , again"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-004",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"qù , lái — 去 , 来",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"go , come","B":"come , go","C":"have , is","D":"also , only"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-005",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"zhè , nà — 这 , 那",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"this , that","B":"that , this","C":"here , there","D":"there , here"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-006",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"zhèlǐ , nàlǐ — 这里 , 那里",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"here , there","B":"there , here","C":"this , that","D":"that , this"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-007",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"yě , zhǐ — 也 , 只",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"also , only","B":"only , also","C":"still , also","D":"have , is"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-008",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"hái , yě — 还 , 也",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"still , also","B":"also , still","C":"again , at","D":"is , have"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-009",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"nǎr , nàlǐ — 哪儿 , 那里",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"where , there","B":"there , where","C":"which , that","D":"that , which"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch5-pair1-010",
+"kind":"vocab",
+"deckId":"ch5-pair1",
+"level":"HSK1",
+"promptLine":"shéi , shénme — 谁 , 什么",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"who , what","B":"what , who","C":"which , where","D":"where , which"},
+"correct":"A",
+"tags":["ch1","pairs","contrast"],
+"difficulty":2
+}
+
+
 
 ]

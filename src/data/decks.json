@@ -71,6 +71,10 @@
   "ch5-cty1": { "chapter": 5, "section": "Sec 5.2", "deckName": "Countries 1", "order": 1 },
   "ch5-ctyp1": { "chapter": 5, "section": "Sec 5.2", "deckName": "Countries Phrase 1", "order": 2 },
   "ch5-v523": { "chapter": 5,   "section": "Sec 5.2",   "deckName": "Vocab 5.2.3",   "order": 3 },
-  "ch5-v524": { "chapter": 5,   "section": "Sec 5.2",   "deckName": "Vocab 5.2.4",   "order": 4 }
+  "ch5-v524": { "chapter": 5,   "section": "Sec 5.2",   "deckName": "Vocab 5.2.4",   "order": 4 },
+
+  "ch5-v531": { "chapter": 5, "section": "Sec 5.3", "deckName": "Vocab 5.3.1", "order": 1 },
+  "ch5-pair1": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair 1", "order": 2 }
+
 
 }
