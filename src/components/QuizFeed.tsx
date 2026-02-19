@@ -62,7 +62,7 @@ export default function QuizFeed() {
   
   // Reinforcement audio state
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
-  const [audioOnCorrect, setAudioOnCorrect] = useState(false);
+  const [audioOnCorrect, setAudioOnCorrect] = useState(true);
   const reinforcementTimeoutRef = useRef<number | null>(null);
   const autoReinforcementDelayRef = useRef<number | null>(null);
 
