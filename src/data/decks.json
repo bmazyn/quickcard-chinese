@@ -74,7 +74,8 @@
   "ch5-v524": { "chapter": 5,   "section": "Sec 5.2",   "deckName": "Vocab 5.2.4",   "order": 4 },
 
   "ch5-v531": { "chapter": 5, "section": "Sec 5.3", "deckName": "Vocab 5.3.1", "order": 1 },
-  "ch5-pair1": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair 1", "order": 2 }
-
-
+  "ch5-pair1": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair Ch 1-a", "order": 2 },
+  "ch5-pair1b": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair Ch 1-b", "order": 3 },
+  "ch5-pair2a": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair Ch 2-a", "order": 4 },
+  "ch5-pair2b": { "chapter": 5, "section": "Sec 5.3", "deckName": "Pair Ch 2-b", "order": 5 }
 }
