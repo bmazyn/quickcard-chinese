@@ -307,7 +307,6 @@ export default function ChapterDetail() {
 
         {/* ── Bonus activities ── */}
         <div className="bonus-section">
-          <div className="bonus-section-label">Bonus</div>
           <button
             className="bonus-card"
             onClick={() => navigate(`/chapter/${chapterId}/bonus/rolling-match`)}

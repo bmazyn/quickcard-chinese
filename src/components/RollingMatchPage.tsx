@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Fragment } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import type { QuizCard } from "../types";
 import quizCardsData from "../data/quizCards.json";
@@ -6,10 +6,7 @@ import { getAllDecks } from "../utils/decks";
 import "./RollingMatchPage.css";
 
 const POOL_SIZE = 20;
-
-function getDisplayCount(): number {
-  return window.matchMedia("(max-width: 599px)").matches ? 6 : 7;
-}
+const DISPLAY_COUNT = 6;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -45,7 +42,7 @@ interface GameState {
   totalCards: number;
 }
 
-function buildGame(chapter: number, displayCount: number): GameState {
+function buildGame(chapter: number): GameState {
   const allCards = quizCardsData as QuizCard[];
 
   const chapterDeckIds = new Set(
@@ -73,8 +70,8 @@ function buildGame(chapter: number, displayCount: number): GameState {
     english: card.choices[card.correct],
   }));
 
-  const initialActive = items.slice(0, Math.min(displayCount, totalCards));
-  const initialQueue = items.slice(Math.min(displayCount, totalCards));
+  const initialActive = items.slice(0, Math.min(DISPLAY_COUNT, totalCards));
+  const initialQueue = items.slice(Math.min(DISPLAY_COUNT, totalCards));
 
   return {
     activeLeft: initialActive,
@@ -115,7 +112,7 @@ export default function RollingMatchPage() {
 
   // (Re-)initialize game
   useEffect(() => {
-    setGame(buildGame(chapter, getDisplayCount()));
+    setGame(buildGame(chapter));
     setElapsed(0);
     setIsComplete(false);
     setSelectedLeftId(null);
@@ -283,45 +280,42 @@ export default function RollingMatchPage() {
       {/* ── Game board ── */}
       {!hasNoCards && !isComplete && (
         <div className="rm-board">
-          {/* Left column — Chinese prompt */}
-          <div className="rm-col rm-col-left">
-            <div className="rm-col-label">Chinese</div>
-            {game.activeLeft.map((item) => {
-              const isSelected = selectedLeftId === item.id;
-              const isWrong = wrongPair?.leftId === item.id;
-              return (
-                <button
-                  key={item.id}
-                  className={`rm-card${isSelected ? " rm-selected" : ""}${
-                    isWrong ? " rm-wrong" : ""
-                  }`}
-                  onClick={() => handleSelectLeft(item.id)}
-                >
-                  <span className="rm-prompt">{item.promptLine}</span>
-                </button>
-              );
-            })}
-          </div>
+          {/* Column headers occupy row 0 */}
+          <div className="rm-col-label">Chinese</div>
+          <div className="rm-col-label">English</div>
 
-          {/* Right column — English meaning */}
-          <div className="rm-col rm-col-right">
-            <div className="rm-col-label">English</div>
-            {game.activeRight.map((item) => {
-              const isSelected = selectedRightId === item.id;
-              const isWrong = wrongPair?.rightId === item.id;
-              return (
+          {/* Each iteration places one Chinese + one English card in the same grid row */}
+          {game.activeLeft.map((leftItem, i) => {
+            const rightItem = game.activeRight[i];
+            const isLeftSelected = selectedLeftId === leftItem.id;
+            const isLeftWrong = wrongPair?.leftId === leftItem.id;
+            const sepIdx = leftItem.promptLine.indexOf(" — ");
+            const pinyin = sepIdx !== -1 ? leftItem.promptLine.slice(0, sepIdx) : leftItem.promptLine;
+            const hanzi  = sepIdx !== -1 ? leftItem.promptLine.slice(sepIdx + 3) : "";
+            return (
+              <Fragment key={leftItem.id}>
                 <button
-                  key={item.id}
-                  className={`rm-card${isSelected ? " rm-selected" : ""}${
-                    isWrong ? " rm-wrong" : ""
+                  className={`rm-card${isLeftSelected ? " rm-selected" : ""}${
+                    isLeftWrong ? " rm-wrong" : ""
                   }`}
-                  onClick={() => handleSelectRight(item.id)}
+                  onClick={() => handleSelectLeft(leftItem.id)}
                 >
-                  <span className="rm-english">{item.text}</span>
+                  <span className="rm-prompt">{pinyin}</span>
+                  {hanzi && <span className="rm-prompt rm-prompt-hanzi">{hanzi}</span>}
                 </button>
-              );
-            })}
-          </div>
+                {rightItem && (
+                  <button
+                    className={`rm-card${selectedRightId === rightItem.id ? " rm-selected" : ""}${
+                      wrongPair?.rightId === rightItem.id ? " rm-wrong" : ""
+                    }`}
+                    onClick={() => handleSelectRight(rightItem.id)}
+                  >
+                    <span className="rm-english">{rightItem.text}</span>
+                  </button>
+                )}
+              </Fragment>
+            );
+          })}
         </div>
       )}
 

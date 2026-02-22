@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 12px;
+  padding: 8px 12px;
   border-bottom: 1px solid var(--border-color);
   flex-shrink: 0;
 }
@@ -109,11 +109,12 @@
 .rm-board {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  grid-template-rows: auto repeat(6, 1fr);
+  gap: 6px;
   flex: 1;
-  padding: 8px 10px;
+  padding: 6px 10px;
   overflow: hidden;
-  align-items: start;
+  align-items: stretch;
 }
 
 /* ─── Column ──────────────────────────────────────────────────────────────── */
@@ -142,6 +143,7 @@
   gap: 2px;
   padding: 7px 8px;
   min-height: 44px;
+  height: 100%;
   width: 100%;
   background: var(--bg-card);
   border: 1.5px solid var(--border-color);
@@ -195,6 +197,11 @@
   text-overflow: ellipsis;
   max-width: 100%;
   letter-spacing: 0.01em;
+}
+
+/* Hanzi line inherits all rm-prompt styles; only display differs */
+.rm-prompt-hanzi {
+  display: block;
 }
 
 .rm-english {
