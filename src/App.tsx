@@ -7,6 +7,7 @@ import QuizFeed from './components/QuizFeed'
 import AudioLoop from './components/AudioLoop'
 import Speedrun from './components/Speedrun'
 import StudyList from './components/StudyList'
+import RollingMatchPage from './components/RollingMatchPage'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<StartPage />} />
         <Route path="/chapters" element={<Chapters />} />
         <Route path="/chapter/:chapterId" element={<ChapterDetail />} />
+        <Route path="/chapter/:chapterId/bonus/rolling-match" element={<RollingMatchPage />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizFeed />} />
         <Route path="/audio-loop" element={<AudioLoop />} />

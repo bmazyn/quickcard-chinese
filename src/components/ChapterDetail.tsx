@@ -304,6 +304,19 @@ export default function ChapterDetail() {
             </div>
           );
         })}
+
+        {/* ── Bonus activities ── */}
+        <div className="bonus-section">
+          <div className="bonus-section-label">Bonus</div>
+          <button
+            className="bonus-card"
+            onClick={() => navigate(`/chapter/${chapterId}/bonus/rolling-match`)}
+          >
+            <span className="bonus-card-icon">🔀</span>
+            <span className="bonus-card-name">Rolling Match</span>
+            <span className="bonus-card-desc">Match pinyin to English</span>
+          </button>
+        </div>
       </div>
 
       {/* Single-deck selection modal */}
