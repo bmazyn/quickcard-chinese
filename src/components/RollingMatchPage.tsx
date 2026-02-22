@@ -5,8 +5,11 @@ import quizCardsData from "../data/quizCards.json";
 import { getAllDecks } from "../utils/decks";
 import "./RollingMatchPage.css";
 
-const DISPLAY_COUNT = 7;
 const POOL_SIZE = 20;
+
+function getDisplayCount(): number {
+  return window.matchMedia("(max-width: 599px)").matches ? 6 : 7;
+}
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -42,7 +45,7 @@ interface GameState {
   totalCards: number;
 }
 
-function buildGame(chapter: number): GameState {
+function buildGame(chapter: number, displayCount: number): GameState {
   const allCards = quizCardsData as QuizCard[];
 
   const chapterDeckIds = new Set(
@@ -70,8 +73,8 @@ function buildGame(chapter: number): GameState {
     english: card.choices[card.correct],
   }));
 
-  const initialActive = items.slice(0, Math.min(DISPLAY_COUNT, totalCards));
-  const initialQueue = items.slice(Math.min(DISPLAY_COUNT, totalCards));
+  const initialActive = items.slice(0, Math.min(displayCount, totalCards));
+  const initialQueue = items.slice(Math.min(displayCount, totalCards));
 
   return {
     activeLeft: initialActive,
@@ -112,7 +115,7 @@ export default function RollingMatchPage() {
 
   // (Re-)initialize game
   useEffect(() => {
-    setGame(buildGame(chapter));
+    setGame(buildGame(chapter, getDisplayCount()));
     setElapsed(0);
     setIsComplete(false);
     setSelectedLeftId(null);
@@ -224,6 +227,7 @@ export default function RollingMatchPage() {
 
   return (
     <div className="rm-page">
+      <div className="rm-shell">
       {/* ── Header ── */}
       <div className="rm-header">
         <button
@@ -345,6 +349,7 @@ export default function RollingMatchPage() {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }
