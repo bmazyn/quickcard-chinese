@@ -12093,6 +12093,190 @@
 "tags":["hard","pairs","mixed"],
 "difficulty":3
 }
+,
+
+{
+  "id": "ch5-ch1-longs-001",
+  "kind": "phrase",
+  "deckId": "ch5-ch1-longs",
+  "level": "HSK1",
+  "promptLine": "nǐ hǎo, qǐngwèn nǐ de míngzi shì shénme? wǒ de míngzi shì lǐ míng — 你好，请问你的名字是什么？我的名字是李明",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Hello, what is your name? My name is Li Ming.",
+    "B": "Hello, where are you from? His name is Li Ming.",
+    "C": "Hi, what is his name? I am Li Ming.",
+    "D": "Hello, is this your name? I don’t know Li Ming."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Asking someone's name and introducing yourself." },
+  "tags": ["ch1","long"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-ch1-longs-002",
+  "kind": "phrase",
+  "deckId": "ch5-ch1-longs",
+  "level": "HSK1",
+  "promptLine": "zhè shì wǒmen de jiā, wǒmen dōu xǐhuan zhège dìfang — 这是我们的家，我们都喜欢这个地方",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "This is our home, and we all like this place.",
+    "B": "This is their home, and we don’t like this place.",
+    "C": "That is our house, and they all like it.",
+    "D": "This place is our school, and we all work here."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 我们的 = our; 都 = all." },
+  "tags": ["ch1","long"],
+  "difficulty": 3
+},
+{
+  "id": "ch5-ch1-longs-003",
+  "kind": "phrase",
+  "deckId": "ch5-ch1-longs",
+  "level": "HSK1",
+  "promptLine": "tāmen yǐjīng yǒu háizi, dànshì hái zhù zài xuéxiào fùjìn — 他们已经有孩子，但是还住在学校附近",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "They already have children, but still live near the school.",
+    "B": "They do not have children, but they live at the school.",
+    "C": "They already live at school, and they have many children.",
+    "D": "They have children, so they moved away from the school."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 已经 = already; 还 = still." },
+  "tags": ["ch1","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch1-longs-004",
+  "kind": "phrase",
+  "deckId": "ch5-ch1-longs",
+  "level": "HSK1",
+  "promptLine": "nǐ wèishénme bù lái wǒmen jiā? wǒmen xiǎng qǐng nǐ chī dōngxi — 你为什么不来我们家？我们想请你吃东西",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Why don’t you come to our home? We want to invite you to eat.",
+    "B": "Why are you at our home? We don’t want to eat.",
+    "C": "When will you come to school to eat with us?",
+    "D": "Who wants to go home and cook food?"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 为什么 = why; 请你吃 = invite you to eat." },
+  "tags": ["ch1","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch1-longs-005",
+  "kind": "phrase",
+  "deckId": "ch5-ch1-longs",
+  "level": "HSK1",
+  "promptLine": "wǒ bù zhīdào tā zài nǎlǐ, nǐ kěyǐ bāng wǒ zhǎo ma — 我不知道他在哪里，你可以帮我找吗",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I don’t know where he is, can you help me find him?",
+    "B": "I know where he is, can you go with him?",
+    "C": "He doesn’t know where I am, can he help me?",
+    "D": "I don’t know why he left, can you tell me?"
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 不知道 = don’t know; 帮我找 = help me find." },
+  "tags": ["ch1","long"],
+  "difficulty": 4
+}
+
+,
+{
+  "id": "ch5-ch2-longs-001",
+  "kind": "phrase",
+  "deckId": "ch5-ch2-longs",
+  "level": "HSK1",
+  "promptLine": "yīnwèi jīntiān wǒ fēicháng máng, suǒyǐ wǒ bù néng qù gōngyuán, dànshì míngtiān kěyǐ — 因为今天我非常忙，所以我不能去公园，但是明天可以",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Because I am extremely busy today, I can’t go to the park, but tomorrow I can.",
+    "B": "Because I am extremely busy tomorrow, I can’t go to the park today, but I can go now.",
+    "C": "I am extremely busy today, so I went to the park, but tomorrow I cannot go.",
+    "D": "Because I am not busy today, I can go to the park now, but not tomorrow."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! Cause/result and time contrast." },
+  "tags": ["ch2","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch2-longs-002",
+  "kind": "phrase",
+  "deckId": "ch5-ch2-longs",
+  "level": "HSK1",
+  "promptLine": "wǒ juéde zhège dìfang hěn hǎo, érqiě zhèlǐ de rén yě fēicháng hǎo — 我觉得这个地方很好，而且这里的人也非常好",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "I feel this place is very good, and the people here are also extremely nice.",
+    "B": "I feel this place is not good, but the people here are extremely nice.",
+    "C": "The people here think I am very good, and this place is also nice.",
+    "D": "This place is extremely good, so the people here are busy."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 觉得 = feel; 也 = also." },
+  "tags": ["ch2","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch2-longs-003",
+  "kind": "phrase",
+  "deckId": "ch5-ch2-longs",
+  "level": "HSK1",
+  "promptLine": "tā zǒngshì hěn máng, dànshì yǒushíhou yě huì lái xuéxiào jiàn wǒ — 他总是很忙，但是有时候也会来学校见我",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He is always very busy, but sometimes he also comes to school to see me.",
+    "B": "He is sometimes very busy, but he always comes to school to see me.",
+    "C": "He is always very busy, so he never comes to school to see me.",
+    "D": "He often comes to school, but he is never busy."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 总是 = always; 有时候 = sometimes." },
+  "tags": ["ch2","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch2-longs-004",
+  "kind": "phrase",
+  "deckId": "ch5-ch2-longs",
+  "level": "HSK1",
+  "promptLine": "yīnwèi zhège tài guì, suǒyǐ wǒ zhǐ mǎi le yìdiǎn, dànshì wǒ háishì hěn xǐhuan — 因为这个太贵，所以我只买了一点，但是我还是很喜欢",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Because this is too expensive, I only bought a little, but I still like it.",
+    "B": "Because this is very cheap, I bought a lot and still like it.",
+    "C": "This is too expensive, so I bought many and do not like it.",
+    "D": "Because this is too expensive, I did not buy any, but I still like it."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 太 = too; 只 = only; 还是 = still." },
+  "tags": ["ch2","long"],
+  "difficulty": 4
+},
+{
+  "id": "ch5-ch2-longs-005",
+  "kind": "phrase",
+  "deckId": "ch5-ch2-longs",
+  "level": "HSK1",
+  "promptLine": "míngtiān zǎoshang bā diǎn wǒmen jiàn, ránhòu wǒ dài nǐ qù gèng hǎo de dìfang — 明天早上八点我们见，然后我带你去更好的地方",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "Tomorrow at 8am we’ll meet, then I’ll take you to a better place.",
+    "B": "Tomorrow at 8pm we met, and you took me to a better place.",
+    "C": "Yesterday morning we met, then we went home.",
+    "D": "Tomorrow at 8am I will wait, and you will take me home."
+  },
+  "correct": "A",
+  "explanations": { "A": "Correct! 明天早上八点 = tomorrow 8am; 更好 = better." },
+  "tags": ["ch2","long"],
+  "difficulty": 4
+}
 
 
 ]

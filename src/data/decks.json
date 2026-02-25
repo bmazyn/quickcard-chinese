@@ -74,7 +74,8 @@
   "ch5-pair4a":  { "chapter": 5, "section": "Pairs 1 B", "deckName": "Pair Ch 4 A", "order": 3 },
   "ch5-pair4b":  { "chapter": 5, "section": "Pairs 1 B", "deckName": "Pair Ch 4 B", "order": 4 },
 
-  "ch5-hardpairs1":  { "chapter": 5, "section": "Test?", "deckName": "Hard Pair 1", "order": 1 },
+  "ch5-ch1-longs":   { "chapter": 5, "section": "Long Sent 1", "deckName": "Ch 1 Long Sent", "order": 1 },
+  "ch5-ch2-longs":   { "chapter": 5, "section": "Long Sent 1", "deckName": "Ch 2 Long Sent", "order": 2 },
 
   "ch5-hol1":  { "chapter": 6, "section": "Holidays", "deckName": "Holiday 1", "order": 1 },
   "ch5-hol2":  { "chapter": 6, "section": "Holidays", "deckName": "Holiday 2", "order": 2 },
