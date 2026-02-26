@@ -9,6 +9,10 @@ export interface Deck {
   section: string;
   deckName: string;
   order: number;
+  /** Present only on "mode decks" – drives alternate navigation */
+  mode?: "match";
+  /** For mode:"match" decks – the chapter whose card pool is used */
+  sourceChapter?: number;
 }
 
 export interface QuizCard {

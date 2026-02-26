@@ -74,8 +74,10 @@
   "ch5-pair4a":  { "chapter": 5, "section": "Pairs 1 B", "deckName": "Pair Ch 4 A", "order": 3 },
   "ch5-pair4b":  { "chapter": 5, "section": "Pairs 1 B", "deckName": "Pair Ch 4 B", "order": 4 },
 
-  "ch5-ch1-longs":   { "chapter": 5, "section": "Long Sent 1", "deckName": "Ch 1 Long Sent", "order": 1 },
-  "ch5-ch2-longs":   { "chapter": 5, "section": "Long Sent 1", "deckName": "Ch 2 Long Sent", "order": 2 },
+  "ch5-match1": { "chapter": 5, "section": "Match Review 1", "deckName": "Ch1 Match", "order": 1, "mode": "match", "sourceChapter": 1 },
+  "ch5-match2": { "chapter": 5, "section": "Match Review 1", "deckName": "Ch2 Match", "order": 2, "mode": "match", "sourceChapter": 2 },
+  "ch5-match3": { "chapter": 5, "section": "Match Review 1", "deckName": "Ch3 Match", "order": 3, "mode": "match", "sourceChapter": 3 },
+  "ch5-match4": { "chapter": 5, "section": "Match Review 1", "deckName": "Ch4 Match", "order": 4, "mode": "match", "sourceChapter": 4 },
 
   "ch5-hol1":  { "chapter": 6, "section": "Holidays", "deckName": "Holiday 1", "order": 1 },
   "ch5-hol2":  { "chapter": 6, "section": "Holidays", "deckName": "Holiday 2", "order": 2 },

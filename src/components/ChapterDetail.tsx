@@ -1,12 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getDecksForSection, getChapterStructure } from "../utils/decks";
+import { getDeckEntriesForSection, getChapterStructure } from "../utils/decks";
+import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/deckProgress";
+import type { Deck } from "../types";
 import "./ChapterDetail.css";
 
-// Get best time for a deck from localStorage
-function getDeckBestTime(deckName: string): number | null {
+type DeckEntry = Deck & { deckId: string };
+
+// Get best time for a deck entry.
+// Match decks are keyed by deckId; normal decks use the legacy deckName key
+// so existing Speedrun saves are preserved.
+function getDeckEntryBestTime(entry: DeckEntry): number | null {
   try {
-    const key = `qc_deck_speedrun_best:${deckName}`;
+    if (entry.mode === "match") {
+      return getMatchDeckBestTime(entry.deckId);
+    }
+    const key = `qc_deck_speedrun_best:${entry.deckName}`;
     const stored = localStorage.getItem(key);
     return stored ? parseInt(stored, 10) : null;
   } catch {
@@ -14,23 +23,23 @@ function getDeckBestTime(deckName: string): number | null {
   }
 }
 
-// Get section rollup time (sum of all deck best times)
-function getSectionRollupTime(decks: string[]): number | null {
+// Section rollup time: sum of all deck best times (null if any is missing)
+function getSectionRollupTime(entries: DeckEntry[]): number | null {
   try {
     let total = 0;
     let hasAnyTime = false;
-    
-    for (const deck of decks) {
-      const deckTime = getDeckBestTime(deck);
+
+    for (const entry of entries) {
+      const deckTime = getDeckEntryBestTime(entry);
       if (deckTime !== null) {
         total += deckTime;
         hasAnyTime = true;
       } else {
-        // If any deck has no time, section time is incomplete
+        // If any deck has no time, section rollup is incomplete
         return null;
       }
     }
-    
+
     return hasAnyTime ? total : null;
   } catch {
     return null;
@@ -39,9 +48,9 @@ function getSectionRollupTime(decks: string[]): number | null {
 
 // Compute chapter structure from decks.json
 const chapterStructure = getChapterStructure();
-const decksPerSection: Record<string, string[]> = {};
+const deckEntriesPerSection: Record<string, DeckEntry[]> = {};
 Object.values(chapterStructure).flat().forEach(section => {
-  decksPerSection[section] = getDecksForSection(section);
+  deckEntriesPerSection[section] = getDeckEntriesForSection(section);
 });
 
 export default function ChapterDetail() {
@@ -66,15 +75,6 @@ export default function ChapterDetail() {
   const [showDeckModal, setShowDeckModal] = useState(false);
   const [modalDeck, setModalDeck] = useState<string | null>(null);
 
-  const [rollingBestTime] = useState<number | null>(() => {
-    try {
-      const v = localStorage.getItem(`rollingBestTime_ch${chapter}`);
-      return v ? parseInt(v, 10) : null;
-    } catch {
-      return null;
-    }
-  });
-
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
@@ -82,26 +82,47 @@ export default function ChapterDetail() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Get deck speedrun best time
-  const getDeckSpeedrunTime = (deck: string): string => {
-    const time = getDeckBestTime(deck);
+  // Get deck speedrun best time display string
+  const getDeckSpeedrunTime = (entry: DeckEntry): string => {
+    const time = getDeckEntryBestTime(entry);
     return time !== null ? formatTime(time) : "--:--";
   };
 
-  // Get section rollup time
-  const getSectionTime = (decks: string[]): string => {
-    const time = getSectionRollupTime(decks);
+  // Get section rollup time display string
+  const getSectionTime = (entries: DeckEntry[]): string => {
+    const time = getSectionRollupTime(entries);
     return time !== null ? formatTime(time) : "--:--";
+  };
+
+  // Mastery check: match decks use deckId, normal decks use deckName (legacy key)
+  const isMasteredEntry = (entry: DeckEntry): boolean => {
+    if (entry.mode === "match") {
+      return isDeckComplete(entry.deckId);
+    }
+    return !!masteredSections[entry.deckName];
   };
 
   useEffect(() => {
     localStorage.setItem("selectedDecks", JSON.stringify(selectedDecks));
   }, [selectedDecks]);
 
-  const handleDeckClick = (deck: string) => {
+  const handleDeckClick = (entry: DeckEntry) => {
+    if (entry.mode === "match") {
+      // Match deck: go straight to Rolling Match using the source chapter's card pool.
+      // Pass deckId and returnTo so RollingMatchPage can persist results.
+      navigate(`/chapter/${entry.sourceChapter}/bonus/rolling-match`, {
+        state: {
+          deckId: entry.deckId,
+          returnTo: `/chapter/${chapter}`,
+        },
+      });
+      return;
+    }
+    // Normal deck: existing modal / multi-select behaviour
+    const deck = entry.deckName;
     if (isMultiSelectMode) {
       // Multi-select mode: toggle selection
-      setSelectedDecks(prev => 
+      setSelectedDecks(prev =>
         prev.includes(deck)
           ? prev.filter(d => d !== deck)
           : [...prev, deck]
@@ -263,8 +284,8 @@ export default function ChapterDetail() {
 
         {/* Sections for this chapter */}
         {sectionsInChapter.map(section => {
-          const decks = decksPerSection[section];
-          const masteredCount = decks.filter(deck => masteredSections[deck]).length;
+          const entries = deckEntriesPerSection[section];
+          const masteredCount = entries.filter(e => isMasteredEntry(e)).length;
 
           return (
             <div className="section" key={section}>
@@ -274,62 +295,58 @@ export default function ChapterDetail() {
                     <h2 className="section-title">{section}</h2>
                   </div>
                   <span className="section-time">
-                    {getSectionTime(decks)}
+                    {getSectionTime(entries)}
                   </span>
                   <span className="section-mastery">
-                    {masteredCount} / {decks.length} mastered
+                    {masteredCount} / {entries.length} mastered
                   </span>
                 </div>
-                
+
                 <div className="blocks-grid">
-                  {decks.map(deck => (
-                    <div 
-                      key={deck}
-                      className={`block-card ${
-                        selectedDecks.includes(deck) && isMultiSelectMode ? "selected" : ""
-                      }`}
-                      onClick={() => handleDeckClick(deck)}
-                    >
-                      <div className="block-header">
-                        <span className="block-name">{deck}</span>
+                  {entries.map(entry => {
+                    const mastered = isMasteredEntry(entry);
+                    const isMatch = entry.mode === "match";
+                    return (
+                      <div
+                        key={entry.deckId}
+                        className={`block-card ${
+                          selectedDecks.includes(entry.deckName) && isMultiSelectMode && !isMatch
+                            ? "selected"
+                            : ""
+                        }`}
+                        onClick={() => handleDeckClick(entry)}
+                      >
+                        <div className="block-header">
+                          <span className="block-name">{entry.deckName}</span>
+                        </div>
+                        <div className="block-footer">
+                          {mastered && <span className="block-mastery">✓</span>}
+                          <span
+                            className={`block-speedrun-time ${
+                              getDeckEntryBestTime(entry) !== null ? 'has-time' : ''
+                            } ${
+                              !isMatch && !mastered ? 'locked' : ''
+                            }`}
+                            title={
+                              isMatch
+                                ? "Best match time"
+                                : mastered
+                                ? "Best time"
+                                : "Master deck to unlock speedrun"
+                            }
+                          >
+                            ⏱️ {getDeckSpeedrunTime(entry)}
+                          </span>
+                        </div>
                       </div>
-                      <div className="block-footer">
-                        {masteredSections[deck] && <span className="block-mastery">✓</span>}
-                        <span 
-                          className={`block-speedrun-time ${
-                            getDeckBestTime(deck) !== null ? 'has-time' : ''
-                          } ${
-                            !masteredSections[deck] ? 'locked' : ''
-                          }`}
-                          title={masteredSections[deck] ? "Best time" : "Master deck to unlock speedrun"}
-                        >
-                          ⏱️ {getDeckSpeedrunTime(deck)}
-                        </span>
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
           );
         })}
 
-        {/* ── Bonus activities ── */}
-        <div className="bonus-section">
-          <button
-            className="bonus-card"
-            onClick={() => navigate(`/chapter/${chapterId}/bonus/rolling-match`)}
-          >
-            <span className="bonus-card-icon">🔀</span>
-            <span className="bonus-card-body">
-              <span className="bonus-card-name">Rolling Match</span>
-              <span className="bonus-card-desc">Match pinyin to English</span>
-            </span>
-            {rollingBestTime !== null && (
-              <span className="bonus-card-time">⏱️ {formatTime(rollingBestTime)}</span>
-            )}
-          </button>
-        </div>
       </div>
 
       {/* Single-deck selection modal */}

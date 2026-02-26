@@ -49,6 +49,24 @@ export function getDecksForSection(section: string): string[] {
 }
 
 /**
+ * Get full deck entries (including deckId) for a section, sorted by order.
+ * Prefer this over getDecksForSection when you need both the id and metadata.
+ */
+export function getDeckEntriesForSection(section: string): Array<Deck & { deckId: string }> {
+  return Object.entries(decks)
+    .filter(([_, deck]) => deck.section === section)
+    .sort((a, b) => a[1].order - b[1].order)
+    .map(([deckId, deck]) => ({ deckId, ...deck }));
+}
+
+/**
+ * Returns true when the deck identified by deckId uses mode:"match".
+ */
+export function isMatchDeck(deckId: string): boolean {
+  return decks[deckId]?.mode === "match";
+}
+
+/**
  * Get deck name from deckId
  */
 export function getDeckName(deckId: string): string | undefined {

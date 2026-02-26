@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef, Fragment } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
 import type { QuizCard } from "../types";
 import quizCardsData from "../data/quizCards.json";
 import { getAllDecks } from "../utils/decks";
+import { saveBestTime, markDeckComplete } from "../utils/deckProgress";
 import "./RollingMatchPage.css";
 
 const POOL_SIZE = 24;
@@ -79,7 +80,12 @@ function speakHanzi(hanzi: string): void {
 export default function RollingMatchPage() {
   const { chapterId } = useParams<{ chapterId: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
   const chapter = chapterId ? Number(chapterId) : 1;
+
+  // When launched from a match-deck tile these are set via navigate state
+  const deckId: string | undefined = location.state?.deckId;
+  const returnTo: string | undefined = location.state?.returnTo;
 
   const [gameKey, setGameKey] = useState(0);
   const [cards, setCards] = useState<MatchItem[]>([]);
@@ -266,6 +272,8 @@ export default function RollingMatchPage() {
   // ── Save best time on completion ─────────────────────────────────────────
   useEffect(() => {
     if (!isComplete || elapsed === 0) return;
+
+    // Always save the chapter-level rolling best time (for the bonus button display)
     const key = `rollingBestTime_ch${chapterId}`;
     try {
       const prev = localStorage.getItem(key);
@@ -274,7 +282,13 @@ export default function RollingMatchPage() {
         localStorage.setItem(key, String(elapsed));
       }
     } catch { /* ignore */ }
-  }, [isComplete, elapsed, chapterId]);
+
+    // When launched from a match-deck tile, persist per-deck best time and completion
+    if (deckId) {
+      saveBestTime(deckId, elapsed);
+      markDeckComplete(deckId);
+    }
+  }, [isComplete, elapsed, chapterId, deckId]);
 
   const handleRestart = () => setGameKey((k) => k + 1);
 
@@ -301,7 +315,7 @@ export default function RollingMatchPage() {
         <div className="rm-header">
           <button
             className="rm-back-btn"
-            onClick={() => navigate(`/chapter/${chapterId}`)}
+            onClick={() => navigate(returnTo ?? `/chapter/${chapterId}`)}
             aria-label="Back to chapter"
           >
             <svg
@@ -321,7 +335,7 @@ export default function RollingMatchPage() {
 
           <div className="rm-header-center">
             <span className="rm-title">Match</span>
-            <span className="rm-subtitle">Chapter {chapter}</span>
+            <span className="rm-subtitle">{deckId ? `Match · Ch ${chapter}` : `Chapter ${chapter}`}</span>
           </div>
 
           <div className="rm-header-right">
@@ -456,7 +470,7 @@ export default function RollingMatchPage() {
                 </button>
                 <button
                   className="rm-btn-secondary"
-                  onClick={() => navigate(`/chapter/${chapterId}`)}
+                  onClick={() => navigate(returnTo ?? `/chapter/${chapterId}`)}
                 >
                   Back to Chapter
                 </button>
