@@ -66,6 +66,15 @@ export default function ChapterDetail() {
   const [showDeckModal, setShowDeckModal] = useState(false);
   const [modalDeck, setModalDeck] = useState<string | null>(null);
 
+  const [rollingBestTime] = useState<number | null>(() => {
+    try {
+      const v = localStorage.getItem(`rollingBestTime_ch${chapter}`);
+      return v ? parseInt(v, 10) : null;
+    } catch {
+      return null;
+    }
+  });
+
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
@@ -312,8 +321,13 @@ export default function ChapterDetail() {
             onClick={() => navigate(`/chapter/${chapterId}/bonus/rolling-match`)}
           >
             <span className="bonus-card-icon">🔀</span>
-            <span className="bonus-card-name">Rolling Match</span>
-            <span className="bonus-card-desc">Match pinyin to English</span>
+            <span className="bonus-card-body">
+              <span className="bonus-card-name">Rolling Match</span>
+              <span className="bonus-card-desc">Match pinyin to English</span>
+            </span>
+            {rollingBestTime !== null && (
+              <span className="bonus-card-time">⏱️ {formatTime(rollingBestTime)}</span>
+            )}
           </button>
         </div>
       </div>

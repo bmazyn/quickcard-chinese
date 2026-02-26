@@ -5,8 +5,8 @@ import quizCardsData from "../data/quizCards.json";
 import { getAllDecks } from "../utils/decks";
 import "./RollingMatchPage.css";
 
-const POOL_SIZE = 20;
-const PAGE_SIZE = 5;
+const POOL_SIZE = 24;
+const PAGE_SIZE = 6;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -67,17 +67,13 @@ function buildPageSlots(pageCards: MatchItem[]): {
   return { leftSlots, rightSlots };
 }
 
-function speakSequence(hanzi: string, english: string): void {
+function speakHanzi(hanzi: string): void {
   if (!window.speechSynthesis) return;
   window.speechSynthesis.cancel();
-  const u1 = new SpeechSynthesisUtterance(hanzi);
-  u1.lang = "zh-CN";
-  u1.rate = 0.9;
-  const u2 = new SpeechSynthesisUtterance(english);
-  u2.lang = "en-US";
-  u2.rate = 0.95;
-  u1.onend = () => window.speechSynthesis.speak(u2);
-  window.speechSynthesis.speak(u1);
+  const u = new SpeechSynthesisUtterance(hanzi);
+  u.lang = "zh-CN";
+  u.rate = 0.9;
+  window.speechSynthesis.speak(u);
 }
 
 export default function RollingMatchPage() {
@@ -204,7 +200,7 @@ export default function RollingMatchPage() {
         if (card) {
           const sepIdx = card.promptLine.indexOf(" — ");
           const hanzi = sepIdx !== -1 ? card.promptLine.slice(sepIdx + 3) : card.promptLine;
-          speakSequence(hanzi, card.english);
+          speakHanzi(hanzi);
         }
       }
 
@@ -266,6 +262,19 @@ export default function RollingMatchPage() {
       setSelectedRight(i);
     }
   };
+
+  // ── Save best time on completion ─────────────────────────────────────────
+  useEffect(() => {
+    if (!isComplete || elapsed === 0) return;
+    const key = `rollingBestTime_ch${chapterId}`;
+    try {
+      const prev = localStorage.getItem(key);
+      const prevTime = prev ? parseInt(prev, 10) : null;
+      if (prevTime === null || elapsed < prevTime) {
+        localStorage.setItem(key, String(elapsed));
+      }
+    } catch { /* ignore */ }
+  }, [isComplete, elapsed, chapterId]);
 
   const handleRestart = () => setGameKey((k) => k + 1);
 
