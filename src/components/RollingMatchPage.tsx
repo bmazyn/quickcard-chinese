@@ -6,7 +6,7 @@ import { getAllDecks } from "../utils/decks";
 import "./RollingMatchPage.css";
 
 const POOL_SIZE = 20;
-const DISPLAY_COUNT = 6;
+const PAGE_SIZE = 5;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -29,30 +29,19 @@ interface MatchItem {
   english: string;
 }
 
-interface RightItem {
+interface SlotState {
   id: string;
-  text: string;
+  cleared: boolean;
 }
 
-interface GameState {
-  activeLeft: MatchItem[];
-  activeRight: RightItem[];
-  queue: MatchItem[];
-  matchedCount: number;
-  totalCards: number;
-}
-
-function buildGame(chapter: number): GameState {
+function buildCardPool(chapter: number): MatchItem[] {
   const allCards = quizCardsData as QuizCard[];
-
   const chapterDeckIds = new Set(
     getAllDecks()
       .filter((d) => d.chapter === chapter)
       .map((d) => d.deckId)
   );
-
   const EXCLUDED_TAGS = new Set(["phrase", "phrases", "reverse", "pairs"]);
-
   const filtered = allCards.filter(
     (card) =>
       card.kind === "vocab" &&
@@ -60,28 +49,35 @@ function buildGame(chapter: number): GameState {
       chapterDeckIds.has(card.deckId) &&
       !card.tags.some((tag) => EXCLUDED_TAGS.has(tag))
   );
-
-  const pool = shuffleArray(filtered).slice(0, POOL_SIZE);
-  const totalCards = pool.length;
-
-  const items: MatchItem[] = pool.map((card) => ({
+  return shuffleArray(filtered).slice(0, POOL_SIZE).map((card) => ({
     id: card.id,
     promptLine: card.promptLine,
     english: card.choices[card.correct],
   }));
+}
 
-  const initialActive = items.slice(0, Math.min(DISPLAY_COUNT, totalCards));
-  const initialQueue = items.slice(Math.min(DISPLAY_COUNT, totalCards));
+function buildPageSlots(pageCards: MatchItem[]): {
+  leftSlots: SlotState[];
+  rightSlots: SlotState[];
+} {
+  const leftSlots: SlotState[] = pageCards.map((c) => ({ id: c.id, cleared: false }));
+  const rightSlots: SlotState[] = shuffleArray(
+    pageCards.map((c) => ({ id: c.id, cleared: false }))
+  );
+  return { leftSlots, rightSlots };
+}
 
-  return {
-    activeLeft: initialActive,
-    activeRight: shuffleArray(
-      initialActive.map((item) => ({ id: item.id, text: item.english }))
-    ),
-    queue: initialQueue,
-    matchedCount: 0,
-    totalCards,
-  };
+function speakSequence(hanzi: string, english: string): void {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u1 = new SpeechSynthesisUtterance(hanzi);
+  u1.lang = "zh-CN";
+  u1.rate = 0.9;
+  const u2 = new SpeechSynthesisUtterance(english);
+  u2.lang = "en-US";
+  u2.rate = 0.95;
+  u1.onend = () => window.speechSynthesis.speak(u2);
+  window.speechSynthesis.speak(u1);
 }
 
 export default function RollingMatchPage() {
@@ -90,259 +86,376 @@ export default function RollingMatchPage() {
   const chapter = chapterId ? Number(chapterId) : 1;
 
   const [gameKey, setGameKey] = useState(0);
-  const [game, setGame] = useState<GameState>({
-    activeLeft: [],
-    activeRight: [],
-    queue: [],
-    matchedCount: 0,
-    totalCards: 0,
-  });
+  const [cards, setCards] = useState<MatchItem[]>([]);
+  const [pageIndex, setPageIndex] = useState(0);
+  const [leftSlots, setLeftSlots] = useState<SlotState[]>([]);
+  const [rightSlots, setRightSlots] = useState<SlotState[]>([]);
 
-  const [selectedLeftId, setSelectedLeftId] = useState<string | null>(null);
-  const [selectedRightId, setSelectedRightId] = useState<string | null>(null);
-  const [wrongPair, setWrongPair] = useState<{
-    leftId: string;
-    rightId: string;
-  } | null>(null);
+  // Selection (by slot index, not id)
+  const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
+  const [selectedRight, setSelectedRight] = useState<number | null>(null);
+
+  // Flash feedback
+  const [flashLeft, setFlashLeft] = useState<number | null>(null);
+  const [flashRight, setFlashRight] = useState<number | null>(null);
+  const [flashType, setFlashType] = useState<"correct" | "wrong" | null>(null);
+  const [isFlashing, setIsFlashing] = useState(false);
+
+  const [matchedCount, setMatchedCount] = useState(0);
   const [elapsed, setElapsed] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
 
-  const timerRef = useRef<number | null>(null);
-  const wrongTimeoutRef = useRef<number | null>(null);
+  const [soundOn, setSoundOn] = useState<boolean>(() => {
+    try {
+      const v = localStorage.getItem("qc_match_sound");
+      return v === null ? true : v === "true";
+    } catch {
+      return true;
+    }
+  });
 
-  // (Re-)initialize game
+  const timerRef = useRef<number | null>(null);
+  const flashTimeoutRef = useRef<number | null>(null);
+  const pageTransitionRef = useRef<number | null>(null);
+
+  // ── Initialize / restart ──────────────────────────────────────────────────
   useEffect(() => {
-    setGame(buildGame(chapter));
+    const pool = buildCardPool(chapter);
+    setCards(pool);
+    setPageIndex(0);
+    setMatchedCount(0);
     setElapsed(0);
     setIsComplete(false);
-    setSelectedLeftId(null);
-    setSelectedRightId(null);
-    setWrongPair(null);
+    setSelectedLeft(null);
+    setSelectedRight(null);
+    setFlashLeft(null);
+    setFlashRight(null);
+    setFlashType(null);
+    setIsFlashing(false);
+
+    if (pool.length > 0) {
+      const { leftSlots: ls, rightSlots: rs } = buildPageSlots(pool.slice(0, PAGE_SIZE));
+      setLeftSlots(ls);
+      setRightSlots(rs);
+    } else {
+      setLeftSlots([]);
+      setRightSlots([]);
+    }
 
     if (timerRef.current !== null) clearInterval(timerRef.current);
-
     timerRef.current = window.setInterval(() => {
       setElapsed((prev) => prev + 1);
     }, 1000);
 
     return () => {
-      if (timerRef.current !== null) {
-        clearInterval(timerRef.current);
-        timerRef.current = null;
-      }
-      if (wrongTimeoutRef.current !== null) {
-        clearTimeout(wrongTimeoutRef.current);
-        wrongTimeoutRef.current = null;
-      }
+      if (timerRef.current !== null) { clearInterval(timerRef.current); timerRef.current = null; }
+      if (flashTimeoutRef.current !== null) { clearTimeout(flashTimeoutRef.current); flashTimeoutRef.current = null; }
+      if (pageTransitionRef.current !== null) { clearTimeout(pageTransitionRef.current); pageTransitionRef.current = null; }
     };
   }, [chapter, gameKey]);
 
-  // Stop timer when all cards are matched
+  // ── Auto-advance when all slots on current page are cleared ──────────────
   useEffect(() => {
-    if (game.totalCards > 0 && game.matchedCount === game.totalCards) {
+    if (leftSlots.length === 0) return;
+    if (!leftSlots.every((s) => s.cleared)) return;
+    if (pageTransitionRef.current !== null) return;
+
+    const totalPages = Math.ceil(cards.length / PAGE_SIZE);
+    const nextPage = pageIndex + 1;
+
+    if (nextPage >= totalPages) {
       setIsComplete(true);
-      if (timerRef.current !== null) {
-        clearInterval(timerRef.current);
-        timerRef.current = null;
-      }
+      if (timerRef.current !== null) { clearInterval(timerRef.current); timerRef.current = null; }
+    } else {
+      pageTransitionRef.current = window.setTimeout(() => {
+        const start = nextPage * PAGE_SIZE;
+        const pageCards = cards.slice(start, start + PAGE_SIZE);
+        const { leftSlots: ls, rightSlots: rs } = buildPageSlots(pageCards);
+        setLeftSlots(ls);
+        setRightSlots(rs);
+        setPageIndex(nextPage);
+        setSelectedLeft(null);
+        setSelectedRight(null);
+        pageTransitionRef.current = null;
+      }, 200);
     }
-  }, [game.matchedCount, game.totalCards]);
+  }, [leftSlots, pageIndex, cards]);
 
-  const handleMatch = (leftId: string, rightId: string) => {
-    setSelectedLeftId(null);
-    setSelectedRightId(null);
+  // ── Match handling ────────────────────────────────────────────────────────
+  const handleMatch = (li: number, ri: number) => {
+    if (isFlashing) return;
+    const lSlot = leftSlots[li];
+    const rSlot = rightSlots[ri];
+    if (!lSlot || !rSlot || lSlot.cleared || rSlot.cleared) return;
 
-    if (leftId === rightId) {
-      // Correct match
-      setGame((prev) => {
-        const newLeft = prev.activeLeft.filter((item) => item.id !== leftId);
-        const newRight = prev.activeRight.filter((item) => item.id !== rightId);
-        const newMatchedCount = prev.matchedCount + 1;
+    setSelectedLeft(null);
+    setSelectedRight(null);
 
-        if (prev.queue.length > 0) {
-          const [next, ...restQueue] = prev.queue;
-          const insertPos = Math.floor(Math.random() * (newRight.length + 1));
-          const updatedRight = [
-            ...newRight.slice(0, insertPos),
-            { id: next.id, text: next.english },
-            ...newRight.slice(insertPos),
-          ];
-          return {
-            ...prev,
-            activeLeft: [...newLeft, next],
-            activeRight: updatedRight,
-            queue: restQueue,
-            matchedCount: newMatchedCount,
-          };
+    if (lSlot.id === rSlot.id) {
+      // ── Correct ──
+      setIsFlashing(true);
+      setFlashLeft(li);
+      setFlashRight(ri);
+      setFlashType("correct");
+
+      // Speech — called synchronously from click event so iOS permits it
+      if (soundOn) {
+        const card = cards.find((c) => c.id === lSlot.id);
+        if (card) {
+          const sepIdx = card.promptLine.indexOf(" — ");
+          const hanzi = sepIdx !== -1 ? card.promptLine.slice(sepIdx + 3) : card.promptLine;
+          speakSequence(hanzi, card.english);
         }
+      }
 
-        return {
-          ...prev,
-          activeLeft: newLeft,
-          activeRight: newRight,
-          matchedCount: newMatchedCount,
-        };
-      });
+      flashTimeoutRef.current = window.setTimeout(() => {
+        setLeftSlots((prev) => {
+          const next = [...prev];
+          next[li] = { ...next[li], cleared: true };
+          return next;
+        });
+        setRightSlots((prev) => {
+          const next = [...prev];
+          next[ri] = { ...next[ri], cleared: true };
+          return next;
+        });
+        setMatchedCount((prev) => prev + 1);
+        setFlashLeft(null);
+        setFlashRight(null);
+        setFlashType(null);
+        setIsFlashing(false);
+        flashTimeoutRef.current = null;
+      }, 250);
     } else {
-      // Wrong match — flash, then clear
-      setWrongPair({ leftId, rightId });
-      wrongTimeoutRef.current = window.setTimeout(() => {
-        setWrongPair(null);
-        wrongTimeoutRef.current = null;
-      }, 600);
+      // ── Wrong ──
+      setIsFlashing(true);
+      setFlashLeft(li);
+      setFlashRight(ri);
+      setFlashType("wrong");
+
+      flashTimeoutRef.current = window.setTimeout(() => {
+        setFlashLeft(null);
+        setFlashRight(null);
+        setFlashType(null);
+        setIsFlashing(false);
+        flashTimeoutRef.current = null;
+      }, 200);
     }
   };
 
-  const handleSelectLeft = (id: string) => {
-    if (wrongPair) return;
-    if (selectedRightId !== null) {
-      handleMatch(id, selectedRightId);
-    } else if (selectedLeftId === id) {
-      setSelectedLeftId(null);
+  const handleSelectLeft = (i: number) => {
+    if (isFlashing) return;
+    if (leftSlots[i]?.cleared) return;
+    if (selectedRight !== null) {
+      handleMatch(i, selectedRight);
+    } else if (selectedLeft === i) {
+      setSelectedLeft(null);
     } else {
-      setSelectedLeftId(id);
+      setSelectedLeft(i);
     }
   };
 
-  const handleSelectRight = (id: string) => {
-    if (wrongPair) return;
-    if (selectedLeftId !== null) {
-      handleMatch(selectedLeftId, id);
-    } else if (selectedRightId === id) {
-      setSelectedRightId(null);
+  const handleSelectRight = (i: number) => {
+    if (isFlashing) return;
+    if (rightSlots[i]?.cleared) return;
+    if (selectedLeft !== null) {
+      handleMatch(selectedLeft, i);
+    } else if (selectedRight === i) {
+      setSelectedRight(null);
     } else {
-      setSelectedRightId(id);
+      setSelectedRight(i);
     }
   };
 
-  const handleRestart = () => {
-    setGameKey((k) => k + 1);
+  const handleRestart = () => setGameKey((k) => k + 1);
+
+  const toggleSound = () => {
+    setSoundOn((prev) => {
+      const next = !prev;
+      try { localStorage.setItem("qc_match_sound", String(next)); } catch { /* ignore */ }
+      return next;
+    });
   };
 
-  const hasNoCards = game.totalCards === 0;
-  const isLoading = game.totalCards === 0 && gameKey >= 0;
+  const totalCards = cards.length;
+  const totalPages = totalCards > 0 ? Math.ceil(totalCards / PAGE_SIZE) : 0;
+  const hasNoCards = totalCards === 0;
+
+  // Build id→card lookup for render
+  const cardById = new Map(cards.map((c) => [c.id, c]));
 
   return (
     <div className="rm-page">
       <div className="rm-shell">
-      {/* ── Header ── */}
-      <div className="rm-header">
-        <button
-          className="rm-back-btn"
-          onClick={() => navigate(`/chapter/${chapterId}`)}
-          aria-label="Back to chapter"
-        >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <line x1="19" y1="12" x2="5" y2="12" />
-            <polyline points="12 19 5 12 12 5" />
-          </svg>
-        </button>
 
-        <div className="rm-header-center">
-          <span className="rm-title">Rolling Match</span>
-          <span className="rm-subtitle">Chapter {chapter}</span>
-        </div>
-
-        <div className="rm-header-right">
-          <span className="rm-timer">{formatTime(elapsed)}</span>
-          <span className="rm-progress">
-            {game.matchedCount}
-            <span className="rm-progress-sep">/</span>
-            {game.totalCards || "—"}
-          </span>
-        </div>
-      </div>
-
-      {/* ── Empty state ── */}
-      {!isLoading && hasNoCards && (
-        <div className="rm-empty">
-          <p className="rm-empty-msg">
-            No vocab cards found for Chapter {chapter}.
-          </p>
+        {/* ── Header ── */}
+        <div className="rm-header">
           <button
-            className="rm-btn-primary"
+            className="rm-back-btn"
             onClick={() => navigate(`/chapter/${chapterId}`)}
+            aria-label="Back to chapter"
           >
-            Back to Chapter
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+          </button>
+
+          <div className="rm-header-center">
+            <span className="rm-title">Match</span>
+            <span className="rm-subtitle">Chapter {chapter}</span>
+          </div>
+
+          <div className="rm-header-right">
+            <span className="rm-timer">{formatTime(elapsed)}</span>
+            <span className="rm-progress">
+              {matchedCount}
+              <span className="rm-progress-sep">/</span>
+              {totalCards || "—"}
+            </span>
+          </div>
+
+          <button
+            className="rm-sound-btn"
+            onClick={toggleSound}
+            aria-label={soundOn ? "Mute sound" : "Unmute sound"}
+            title={soundOn ? "Sound on" : "Sound off"}
+          >
+            {soundOn ? "🔈" : "🔇"}
           </button>
         </div>
-      )}
 
-      {/* ── Game board ── */}
-      {!hasNoCards && !isComplete && (
-        <div className="rm-board">
-          {/* Column headers occupy row 0 */}
-          <div className="rm-col-label">Chinese</div>
-          <div className="rm-col-label">English</div>
-
-          {/* Each iteration places one Chinese + one English card in the same grid row */}
-          {game.activeLeft.map((leftItem, i) => {
-            const rightItem = game.activeRight[i];
-            const isLeftSelected = selectedLeftId === leftItem.id;
-            const isLeftWrong = wrongPair?.leftId === leftItem.id;
-            const sepIdx = leftItem.promptLine.indexOf(" — ");
-            const pinyin = sepIdx !== -1 ? leftItem.promptLine.slice(0, sepIdx) : leftItem.promptLine;
-            const hanzi  = sepIdx !== -1 ? leftItem.promptLine.slice(sepIdx + 3) : "";
-            return (
-              <Fragment key={leftItem.id}>
-                <button
-                  className={`rm-card${isLeftSelected ? " rm-selected" : ""}${
-                    isLeftWrong ? " rm-wrong" : ""
-                  }`}
-                  onClick={() => handleSelectLeft(leftItem.id)}
-                >
-                  <span className="rm-prompt">{pinyin}</span>
-                  {hanzi && <span className="rm-prompt rm-prompt-hanzi">{hanzi}</span>}
-                </button>
-                {rightItem && (
-                  <button
-                    className={`rm-card${selectedRightId === rightItem.id ? " rm-selected" : ""}${
-                      wrongPair?.rightId === rightItem.id ? " rm-wrong" : ""
-                    }`}
-                    onClick={() => handleSelectRight(rightItem.id)}
-                  >
-                    <span className="rm-english">{rightItem.text}</span>
-                  </button>
-                )}
-              </Fragment>
-            );
-          })}
-        </div>
-      )}
-
-      {/* ── Completion overlay ── */}
-      {isComplete && (
-        <div className="rm-complete-overlay">
-          <div className="rm-complete-card">
-            <div className="rm-complete-emoji">🎉</div>
-            <h2 className="rm-complete-title">Nice work!</h2>
-            <div className="rm-complete-time">{formatTime(elapsed)}</div>
-            <p className="rm-complete-sub">
-              {game.totalCards} cards matched
+        {/* ── Empty state ── */}
+        {hasNoCards && !isComplete && (
+          <div className="rm-empty">
+            <p className="rm-empty-msg">
+              No vocab cards found for Chapter {chapter}.
             </p>
-            <div className="rm-complete-actions">
-              <button className="rm-btn-primary" onClick={handleRestart}>
-                Play Again
-              </button>
-              <button
-                className="rm-btn-secondary"
-                onClick={() => navigate(`/chapter/${chapterId}`)}
-              >
-                Back to Chapter
-              </button>
+            <button
+              className="rm-btn-primary"
+              onClick={() => navigate(`/chapter/${chapterId}`)}
+            >
+              Back to Chapter
+            </button>
+          </div>
+        )}
+
+        {/* ── Page indicator ── */}
+        {!hasNoCards && !isComplete && totalPages > 1 && (
+          <div className="rm-page-indicator">
+            Page {pageIndex + 1} / {totalPages}
+          </div>
+        )}
+
+        {/* ── Game board ── */}
+        {!hasNoCards && !isComplete && (
+          <div className="rm-board">
+            <div className="rm-col-label">Chinese</div>
+            <div className="rm-col-label">English</div>
+
+            {Array.from({ length: PAGE_SIZE }, (_, i) => {
+              const lSlot = leftSlots[i];
+              const rSlot = rightSlots[i];
+              const isLCleared = !lSlot || lSlot.cleared;
+              const isRCleared = !rSlot || rSlot.cleared;
+
+              const isLFlashCorrect = flashLeft === i && flashType === "correct";
+              const isRFlashCorrect = flashRight === i && flashType === "correct";
+              const isLFlashWrong = flashLeft === i && flashType === "wrong";
+              const isRFlashWrong = flashRight === i && flashType === "wrong";
+              const isLSelected = selectedLeft === i && !isLCleared;
+              const isRSelected = selectedRight === i && !isRCleared;
+
+              let lClass = "rm-card";
+              if (isLCleared) lClass += " rm-cleared";
+              else if (isLFlashCorrect) lClass += " rm-correct";
+              else if (isLFlashWrong) lClass += " rm-wrong";
+              else if (isLSelected) lClass += " rm-selected";
+
+              let rClass = "rm-card";
+              if (isRCleared) rClass += " rm-cleared";
+              else if (isRFlashCorrect) rClass += " rm-correct";
+              else if (isRFlashWrong) rClass += " rm-wrong";
+              else if (isRSelected) rClass += " rm-selected";
+
+              const lCard = lSlot && !isLCleared ? cardById.get(lSlot.id) : undefined;
+              const sepIdx = lCard ? lCard.promptLine.indexOf(" — ") : -1;
+              const pinyin = lCard
+                ? sepIdx !== -1 ? lCard.promptLine.slice(0, sepIdx) : lCard.promptLine
+                : "";
+              const hanzi = lCard
+                ? sepIdx !== -1 ? lCard.promptLine.slice(sepIdx + 3) : ""
+                : "";
+
+              const rCard = rSlot && !isRCleared ? cardById.get(rSlot.id) : undefined;
+
+              return (
+                <Fragment key={i}>
+                  <button
+                    className={lClass}
+                    onClick={() => handleSelectLeft(i)}
+                    disabled={isLCleared || isFlashing}
+                    tabIndex={isLCleared ? -1 : 0}
+                  >
+                    {!isLCleared && (
+                      <>
+                        <span className="rm-prompt">{pinyin}</span>
+                        {hanzi && (
+                          <span className="rm-prompt rm-prompt-hanzi">{hanzi}</span>
+                        )}
+                      </>
+                    )}
+                  </button>
+                  <button
+                    className={rClass}
+                    onClick={() => handleSelectRight(i)}
+                    disabled={isRCleared || isFlashing}
+                    tabIndex={isRCleared ? -1 : 0}
+                  >
+                    {!isRCleared && rCard && (
+                      <span className="rm-english">{rCard.english}</span>
+                    )}
+                  </button>
+                </Fragment>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ── Completion overlay ── */}
+        {isComplete && (
+          <div className="rm-complete-overlay">
+            <div className="rm-complete-card">
+              <div className="rm-complete-emoji">🎉</div>
+              <h2 className="rm-complete-title">Nice work!</h2>
+              <div className="rm-complete-time">{formatTime(elapsed)}</div>
+              <p className="rm-complete-sub">
+                {totalCards} cards matched
+              </p>
+              <div className="rm-complete-actions">
+                <button className="rm-btn-primary" onClick={handleRestart}>
+                  Play Again
+                </button>
+                <button
+                  className="rm-btn-secondary"
+                  onClick={() => navigate(`/chapter/${chapterId}`)}
+                >
+                  Back to Chapter
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+
       </div>
     </div>
   );
