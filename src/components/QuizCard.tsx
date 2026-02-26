@@ -90,6 +90,17 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
   const hasHanCharacters = /[\u4e00-\u9fff]/.test(card.promptLine);
   const cardClassName = hasHanCharacters ? "quiz-card" : "quiz-card englishPrompt";
 
+  // Hide tone numbers if card has long-form tags (these override everything)
+  const hideToneNumbers =
+    card.tags?.includes("phrase") ||
+    card.tags?.includes("phrases") ||
+    card.tags?.includes("sentence") ||
+    card.tags?.includes("long");
+  // Show tone numbers only for vocab kind or pairs (unless overridden above)
+  const showToneNumbers =
+    !hideToneNumbers &&
+    (card.kind === "vocab" || card.tags?.includes("pairs"));
+
   return (
     <div className={cardClassName}>
       <div className="prompt-section">
@@ -97,7 +108,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
           {syllableTones.map((item, index) => (
             <div key={index} className="syllable-column">
               <div className="pinyin">{item.syllable}</div>
-              <div className="tone-number">{item.tone}</div>
+              {showToneNumbers && <div className="tone-number">{item.tone}</div>}
             </div>
           ))}
         </div>
