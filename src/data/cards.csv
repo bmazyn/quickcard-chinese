@@ -631,149 +631,221 @@ travel4-move4-009,phrase,4,"Getting Around","Travel Phrases","zài zhèlǐ huàn
 travel4-move4-010,phrase,4,"Getting Around","Travel Phrases","qǐng zài zhèlǐ tíng — 请在这里停","Stop here, please.",travel|move|phrase,"Stop here, please.","Get off here.","Wait here, please.","Park here.",1
 travel4-move4-011,phrase,4,"Getting Around","Travel Phrases","zài zhèlǐ xià chē — 在这里下车","Get off here.",travel|move|phrase,"Get off here.","Stop here.","Transfer here.","Arrive here.",1
 travel4-move4-012,phrase,4,"Getting Around","Travel Phrases","guò zhè ge lùkǒu — 过这个路口","Pass this intersection.",travel|move|phrase,"Pass this intersection.","Stop at this intersection.","Turn at this intersection.","Arrive at this intersection.",1
-ch5-hol1-001,vocab,5,"Holidays","Holiday 1","zhù nǐ — 祝你","wish you",ch5,"birthday","wish you","gift","happy",2
-ch5-hol1-002,vocab,5,"Holidays","Holiday 1","wish you","zhù nǐ — 祝你",ch5,"zhù nǐ — 祝你","shēngrì — 生日","kuàilè — 快乐","lǐwù — 礼物",2
-ch5-hol1-003,vocab,5,"Holidays","Holiday 1","shēngrì — 生日","birthday",ch5,"party","happy","birthday","photo",2
-ch5-hol1-004,vocab,5,"Holidays","Holiday 1","birthday","shēngrì — 生日",ch5,"hóngbāo — 红包","shēngrì — 生日","pài duì — 派对","zhàopiàn — 照片",2
-ch5-hol1-005,vocab,5,"Holidays","Holiday 1","kuàilè — 快乐","happy",ch5,"happy","gift","party","wish you",2
-ch5-hol1-006,vocab,5,"Holidays","Holiday 1","happy","kuàilè — 快乐",ch5,"lǐwù — 礼物","kuàilè — 快乐","hóngbāo — 红包","pài duì — 派对",2
-ch5-hol1-007,vocab,5,"Holidays","Holiday 1","lǐwù — 礼物","gift",ch5,"gift","party","photo","birthday",2
-ch5-hol1-008,vocab,5,"Holidays","Holiday 1","gift","lǐwù — 礼物",ch5,"hóngbāo — 红包","lǐwù — 礼物","pài duì — 派对","zhàopiàn — 照片",2
-ch5-hol1-009,vocab,5,"Holidays","Holiday 1","pài duì — 派对","party",ch5,"gift","photo","party","holiday",2
-ch5-hol1-010,vocab,5,"Holidays","Holiday 1","party","pài duì — 派对",ch5,"pài duì — 派对","hóngbāo — 红包","zhàopiàn — 照片","shēngrì — 生日",2
-ch5-hol1-011,vocab,5,"Holidays","Holiday 1","hóngbāo — 红包","red envelope",ch5,"holiday","gift","red envelope","photo",2
-ch5-hol1-012,vocab,5,"Holidays","Holiday 1","red envelope","hóngbāo — 红包",ch5,"lǐwù — 礼物","hóngbāo — 红包","pài duì — 派对","kuàilè — 快乐",2
-ch5-hol1-013,vocab,5,"Holidays","Holiday 1","dǎ diànhuà — 打电话","make a phone call",ch5,"take a photo","give a gift","make a phone call","open a party",2
-ch5-hol1-014,vocab,5,"Holidays","Holiday 1","make a phone call","dǎ diànhuà — 打电话",ch5,"zhàopiàn — 照片","dǎ diànhuà — 打电话","pài duì — 派对","hóngbāo — 红包",2
-ch5-hol1-015,vocab,5,"Holidays","Holiday 1","zhàopiàn — 照片","photo",ch5,"holiday","birthday","photo","happy",2
-ch5-hol1-016,vocab,5,"Holidays","Holiday 1","photo","zhàopiàn — 照片",ch5,"hóngbāo — 红包","lǐwù — 礼物","shēngrì — 生日","zhàopiàn — 照片",2
-ch5-hol2-001,vocab,5,"Holidays","Holiday 2","xīnnián — 新年","New Year",ch5,"holiday","New Year","Christmas","vacation",2
-ch5-hol2-002,vocab,5,"Holidays","Holiday 2","New Year","xīnnián — 新年",ch5,"Chūnjié — 春节","xīnnián — 新年","jiérì — 节日","fàngjià — 放假",2
-ch5-hol2-003,vocab,5,"Holidays","Holiday 2","Chūnjié — 春节","Spring Festival",ch5,"Christmas","Thanksgiving","Spring Festival","holiday",2
-ch5-hol2-004,vocab,5,"Holidays","Holiday 2","Spring Festival","Chūnjié — 春节",ch5,"Chūnjié — 春节","Shèngdànjié — 圣诞节","Gǎn’ēnjié — 感恩节","jiérì — 节日",2
-ch5-hol2-005,vocab,5,"Holidays","Holiday 2","Shèngdànjié — 圣诞节","Christmas",ch5,"Thanksgiving","holiday","Christmas","New Year",2
-ch5-hol2-006,vocab,5,"Holidays","Holiday 2","Christmas","Shèngdànjié — 圣诞节",ch5,"xīnnián — 新年","Shèngdànjié — 圣诞节","Chūnjié — 春节","qìfēn — 气氛",2
-ch5-hol2-007,vocab,5,"Holidays","Holiday 2","Gǎn’ēnjié — 感恩节","Thanksgiving",ch5,"Thanksgiving","vacation","holiday","atmosphere",2
-ch5-hol2-008,vocab,5,"Holidays","Holiday 2","Thanksgiving","Gǎn’ēnjié — 感恩节",ch5,"jiérì — 节日","fàngjià — 放假","Gǎn’ēnjié — 感恩节","yānhuā — 烟花",2
-ch5-hol2-009,vocab,5,"Holidays","Holiday 2","jiérì — 节日","holiday",ch5,"holiday","vacation","fireworks","atmosphere",2
-ch5-hol2-010,vocab,5,"Holidays","Holiday 2","holiday","jiérì — 节日",ch5,"qìfēn — 气氛","jiérì — 节日","fàngjià — 放假","yānhuā — 烟花",2
-ch5-hol2-011,vocab,5,"Holidays","Holiday 2","fàngjià — 放假","have vacation",ch5,"holiday","atmosphere","have vacation","fireworks",2
-ch5-hol2-012,vocab,5,"Holidays","Holiday 2","have vacation","fàngjià — 放假",ch5,"fàngjià — 放假","jiérì — 节日","qìfēn — 气氛","yānhuā — 烟花",2
-ch5-hol2-013,vocab,5,"Holidays","Holiday 2","qìfēn — 气氛","atmosphere",ch5,"holiday","atmosphere","vacation","New Year",2
-ch5-hol2-014,vocab,5,"Holidays","Holiday 2","atmosphere","qìfēn — 气氛",ch5,"yānhuā — 烟花","qìfēn — 气氛","fàngjià — 放假","jiérì — 节日",2
-ch5-hol2-015,vocab,5,"Holidays","Holiday 2","yānhuā — 烟花","fireworks",ch5,"holiday","fireworks","vacation","atmosphere",2
-ch5-hol2-016,vocab,5,"Holidays","Holiday 2","fireworks","yānhuā — 烟花",ch5,"qìfēn — 气氛","jiérì — 节日","yānhuā — 烟花","fàngjià — 放假",2
-ch5-holp1-001,vocab,5,"Holidays","Holiday Phrase 1","zhù nǐ shēngrì kuàilè — 祝你生日快乐","Happy birthday.",ch5,"Happy New Year.","Happy birthday.","Merry Christmas.","Happy holiday.",2
-ch5-holp1-002,vocab,5,"Holidays","Holiday Phrase 1","zhù nǐ xīnnián kuàilè — 祝你新年快乐","Happy New Year.",ch5,"Happy New Year.","Happy birthday.","Have a vacation.","Happy party.",2
-ch5-holp1-003,vocab,5,"Holidays","Holiday Phrase 1","Shèngdànjié kuàilè — 圣诞节快乐","Merry Christmas.",ch5,"Happy Spring Festival.","Merry Christmas.","Happy Thanksgiving.","Happy birthday.",2
-ch5-holp1-004,vocab,5,"Holidays","Holiday Phrase 1","Chūnjié kuàilè — 春节快乐","Happy Spring Festival.",ch5,"Happy Spring Festival.","Happy New Year.","Happy birthday.","Happy holiday.",2
-ch5-holp1-005,vocab,5,"Holidays","Holiday Phrase 1","Gǎn’ēnjié kuàilè — 感恩节快乐","Happy Thanksgiving.",ch5,"Merry Christmas.","Happy Thanksgiving.","Happy New Year.","Happy party.",2
-ch5-holp1-006,vocab,5,"Holidays","Holiday Phrase 1","wǒ gěi nǐ lǐwù — 我给你礼物","I give you a gift.",ch5,"I give you a gift.","You give me a gift.","I take your gift.","You have a gift.",2
-ch5-holp1-007,vocab,5,"Holidays","Holiday Phrase 1","wǒ men kāi pài duì — 我们开派对","We have a party.",ch5,"We close the party.","We start a party.","We open a party.","We have a party.",3
-ch5-holp1-008,vocab,5,"Holidays","Holiday Phrase 1","wǒ shōu dào hóngbāo — 我收到红包","I receive a red envelope.",ch5,"I send a red envelope.","I receive a red envelope.","I open a red envelope.","I give a red envelope.",3
-ch5-holp2-001,vocab,5,"Holidays","Holiday Phrase 2","jīntiān shì jiérì — 今天是节日","Today is a holiday.",ch5,"Today is a holiday.","Today is a birthday.","Today is Christmas.","Today is New Year.",2
-ch5-holp2-002,vocab,5,"Holidays","Holiday Phrase 2","wǒ men fàngjià le — 我们放假了","We have a holiday.",ch5,"We are having a party.","We have a holiday.","We finished the holiday.","We open the holiday.",2
-ch5-holp2-003,vocab,5,"Holidays","Holiday Phrase 2","jiérì qìfēn hěn hǎo — 节日气氛很好","The holiday atmosphere is very good.",ch5,"The holiday is short.","The holiday atmosphere is very good.","The holiday is finished.","The holiday is slow.",3
-ch5-holp2-004,vocab,5,"Holidays","Holiday Phrase 2","wǎnshang kàn yānhuā — 晚上看烟花","Watch fireworks at night.",ch5,"Watch fireworks at night.","Open fireworks at night.","Give fireworks at night.","Buy fireworks at night.",3
-ch5-holp2-005,vocab,5,"Holidays","Holiday Phrase 2","tā dǎ diànhuà zhù wǒ kuàilè — 他打电话祝我快乐","He calls to wish me happiness.",ch5,"He calls me for a party.","He calls to wish me happiness.","He gives me a gift.","He watches fireworks.",3
-ch5-holp2-006,vocab,5,"Holidays","Holiday Phrase 2","wǒ men pāi zhàopiàn — 我们拍照片","We take photos.",ch5,"We send photos.","We take photos.","We buy photos.","We open photos.",2
-ch5-holp2-007,vocab,5,"Holidays","Holiday Phrase 2","xīnnián kuài dào le — 新年快到了","New Year is coming soon.",ch5,"New Year is finished.","New Year is coming soon.","New Year is slow.","New Year is closed.",3
-ch5-holp2-008,vocab,5,"Holidays","Holiday Phrase 2","Chūnjié wǒ men huí jiā — 春节我们回家","We go home for Spring Festival.",ch5,"We start Spring Festival.","We open Spring Festival.","We go home for Spring Festival.","We finish Spring Festival.",3
-ch5-cty1-001,vocab,5,"Sec 5.2","Countries 1","Měiguó — 美国","United States",ch5,"United Kingdom","Canada","United States","Australia",1
-ch5-cty1-002,vocab,5,"Sec 5.2","Countries 1","United States","Měiguó — 美国",ch5,"Měiguó — 美国","Yīngguó — 英国","Fǎguó — 法国","Déguó — 德国",1
-ch5-cty1-003,vocab,5,"Sec 5.2","Countries 1","Zhōngguó — 中国","China",ch5,"Japan","China","Korea","India",1
-ch5-cty1-004,vocab,5,"Sec 5.2","Countries 1","China","Zhōngguó — 中国",ch5,"Hánguó — 韩国","Rìběn — 日本","Zhōngguó — 中国","Yìndù — 印度",1
-ch5-cty1-005,vocab,5,"Sec 5.2","Countries 1","Yīngguó — 英国","United Kingdom",ch5,"United Kingdom","France","Germany","Canada",1
-ch5-cty1-006,vocab,5,"Sec 5.2","Countries 1","United Kingdom","Yīngguó — 英国",ch5,"Jiānádà — 加拿大","Yīngguó — 英国","Àodàlìyà — 澳大利亚","Fǎguó — 法国",1
-ch5-cty1-007,vocab,5,"Sec 5.2","Countries 1","Jiānádà — 加拿大","Canada",ch5,"Australia","France","Canada","India",1
-ch5-cty1-008,vocab,5,"Sec 5.2","Countries 1","Canada","Jiānádà — 加拿大",ch5,"Déguó — 德国","Jiānádà — 加拿大","Fǎguó — 法国","Yīngguó — 英国",1
-ch5-cty1-009,vocab,5,"Sec 5.2","Countries 1","Àodàlìyà — 澳大利亚","Australia",ch5,"Australia","Germany","Japan","India",1
-ch5-cty1-010,vocab,5,"Sec 5.2","Countries 1","Australia","Àodàlìyà — 澳大利亚",ch5,"Jiānádà — 加拿大","Àodàlìyà — 澳大利亚","Yīngguó — 英国","Yìndù — 印度",1
-ch5-cty1-011,vocab,5,"Sec 5.2","Countries 1","Rìběn — 日本","Japan",ch5,"South Korea","Japan","China","India",1
-ch5-cty1-012,vocab,5,"Sec 5.2","Countries 1","Japan","Rìběn — 日本",ch5,"Rìběn — 日本","Hánguó — 韩国","Zhōngguó — 中国","Yìndù — 印度",1
-ch5-cty1-013,vocab,5,"Sec 5.2","Countries 1","Hánguó — 韩国","South Korea",ch5,"South Korea","Japan","Germany","France",1
-ch5-cty1-014,vocab,5,"Sec 5.2","Countries 1","South Korea","Hánguó — 韩国",ch5,"Rìběn — 日本","Hánguó — 韩国","Yīngguó — 英国","Měiguó — 美国",1
-ch5-cty1-015,vocab,5,"Sec 5.2","Countries 1","Fǎguó — 法国","France",ch5,"Germany","France","Canada","United Kingdom",1
-ch5-cty1-016,vocab,5,"Sec 5.2","Countries 1","France","Fǎguó — 法国",ch5,"Fǎguó — 法国","Déguó — 德国","Yīngguó — 英国","Àodàlìyà — 澳大利亚",1
-ch5-cty1-017,vocab,5,"Sec 5.2","Countries 1","Déguó — 德国","Germany",ch5,"France","Germany","India","United States",1
-ch5-cty1-018,vocab,5,"Sec 5.2","Countries 1","Germany","Déguó — 德国",ch5,"Fǎguó — 法国","Déguó — 德国","Rìběn — 日本","Jiānádà — 加拿大",1
-ch5-cty1-019,vocab,5,"Sec 5.2","Countries 1","Yìndù — 印度","India",ch5,"India","China","Japan","Australia",1
-ch5-cty1-020,vocab,5,"Sec 5.2","Countries 1","India","Yìndù — 印度",ch5,"Yìndù — 印度","Zhōngguó — 中国","Hánguó — 韩国","Yīngguó — 英国",1
-ch5-ctyp1-001,vocab,5,"Sec 5.2","Countries Phrase 1","wǒ lái zì Měiguó — 我来自美国","I am from the United States.",ch5,"I live in the United States.","I go to the United States.","I am from the United States.","I like the United States.",2
-ch5-ctyp1-002,vocab,5,"Sec 5.2","Countries Phrase 1","tā shì Zhōngguó rén — 他是中国人","He is Chinese.",ch5,"He likes China.","He is Chinese.","He is in China.","He goes to China.",2
-ch5-ctyp1-003,vocab,5,"Sec 5.2","Countries Phrase 1","wǒ xiǎng qù Rìběn — 我想去日本","I want to go to Japan.",ch5,"I am from Japan.","I live in Japan.","I want to go to Japan.","I like Japan.",2
-ch5-ctyp1-004,vocab,5,"Sec 5.2","Countries Phrase 1","tā qùle Fǎguó — 他去了法国","He went to France.",ch5,"He is from France.","He went to France.","He likes France.","He lives in France.",3
-ch5-ctyp1-005,vocab,5,"Sec 5.2","Countries Phrase 1","wǒ zài Jiānádà gōngzuò — 我在加拿大工作","I work in Canada.",ch5,"I go to Canada.","I work in Canada.","I am from Canada.","I like Canada.",3
-ch5-ctyp1-006,vocab,5,"Sec 5.2","Countries Phrase 1","Àodàlìyà hěn dà — 澳大利亚很大","Australia is very big.",ch5,"Australia is very small.","Australia is very big.","Australia is very old.","Australia is very fast.",2
-ch5-ctyp1-007,vocab,5,"Sec 5.2","Countries Phrase 1","Déguó hěn piàoliang — 德国很漂亮","Germany is very beautiful.",ch5,"Germany is very beautiful.","Germany is very big.","Germany is very slow.","Germany is very old.",3
-ch5-ctyp1-008,vocab,5,"Sec 5.2","Countries Phrase 1","Yìndù yǒu hěn duō rén — 印度有很多人","India has many people.",ch5,"India has many people.","India has few people.","India is very big.","India is very small.",3
-ch5-v523-001,vocab,5,"Sec 5.2","Vocab 5.2.3","kěnéng — 可能","maybe",ch5|sec5.2,"maybe","already","together","important",2
-ch5-v523-002,vocab,5,"Sec 5.2","Vocab 5.2.3","zhēn de — 真的","really",ch5|sec5.2,"really","different","before","answer",2
-ch5-v523-003,vocab,5,"Sec 5.2","Vocab 5.2.3","yìqǐ — 一起","together",ch5|sec5.2,"together","maybe","problem","this year",2
-ch5-v523-004,vocab,5,"Sec 5.2","Vocab 5.2.3","huídá — 回答","answer",ch5|sec5.2,"answer","help","opportunity","last year",2
-ch5-v523-005,vocab,5,"Sec 5.2","Vocab 5.2.3","bāngzhù — 帮助","help",ch5|sec5.2,"help","agree","finish","just",2
-ch5-v523-006,vocab,5,"Sec 5.2","Vocab 5.2.3","jīnnián — 今年","this year",ch5|sec5.2,"this year","last year","before","together",2
-ch5-v523-007,vocab,5,"Sec 5.2","Vocab 5.2.3","qùnián — 去年","last year",ch5|sec5.2,"last year","this year","maybe","important",2
-ch5-v523-008,vocab,5,"Sec 5.2","Vocab 5.2.3","jīhuì — 机会","opportunity",ch5|sec5.2,"opportunity","problem","really","answer",2
-ch5-v523-009,vocab,5,"Sec 5.2","Vocab 5.2.3","maybe","kěnéng — 可能",ch5|sec5.2|reverse,"kěnéng — 可能","zhēn de — 真的","jīhuì — 机会","yìqǐ — 一起",2
-ch5-v523-010,vocab,5,"Sec 5.2","Vocab 5.2.3","really","zhēn de — 真的",ch5|sec5.2|reverse,"huídá — 回答","zhēn de — 真的","qùnián — 去年","bāngzhù — 帮助",2
-ch5-v523-011,vocab,5,"Sec 5.2","Vocab 5.2.3","together","yìqǐ — 一起",ch5|sec5.2|reverse,"jīnnián — 今年","kěnéng — 可能","yìqǐ — 一起","jīhuì — 机会",2
-ch5-v523-012,vocab,5,"Sec 5.2","Vocab 5.2.3","answer","huídá — 回答",ch5|sec5.2|reverse,"huídá — 回答","bāngzhù — 帮助","zhēn de — 真的","qùnián — 去年",2
-ch5-v523-013,vocab,5,"Sec 5.2","Vocab 5.2.3","help","bāngzhù — 帮助",ch5|sec5.2|reverse,"jīhuì — 机会","bāngzhù — 帮助","kěnéng — 可能","jīnnián — 今年",2
-ch5-v523-014,vocab,5,"Sec 5.2","Vocab 5.2.3","this year","jīnnián — 今年",ch5|sec5.2|reverse,"qùnián — 去年","jīnnián — 今年","yìqǐ — 一起","zhēn de — 真的",2
-ch5-v523-015,vocab,5,"Sec 5.2","Vocab 5.2.3","last year","qùnián — 去年",ch5|sec5.2|reverse,"jīnnián — 今年","jīhuì — 机会","qùnián — 去年","huídá — 回答",2
-ch5-v523-016,vocab,5,"Sec 5.2","Vocab 5.2.3","opportunity","jīhuì — 机会",ch5|sec5.2|reverse,"bāngzhù — 帮助","jīhuì — 机会","kěnéng — 可能","zhēn de — 真的",2
-ch5-v524-001,vocab,5,"Sec 5.2","Vocab 5.2.4","bùtóng — 不同","different",ch5|sec5.2,"different","important","before","agree",2
-ch5-v524-002,vocab,5,"Sec 5.2","Vocab 5.2.4","zhòngyào — 重要","important",ch5|sec5.2,"important","problem","understand","hope",2
-ch5-v524-003,vocab,5,"Sec 5.2","Vocab 5.2.4","wèntí — 问题","problem",ch5|sec5.2,"problem","different","just","before",2
-ch5-v524-004,vocab,5,"Sec 5.2","Vocab 5.2.4","tóngyì — 同意","agree",ch5|sec5.2,"agree","decide","important","answer",2
-ch5-v524-005,vocab,5,"Sec 5.2","Vocab 5.2.4","míngbai — 明白","understand",ch5|sec5.2,"understand","start","different","problem",2
-ch5-v524-006,vocab,5,"Sec 5.2","Vocab 5.2.4","xīwàng — 希望","hope",ch5|sec5.2,"hope","finish","just","before",2
-ch5-v524-007,vocab,5,"Sec 5.2","Vocab 5.2.4","gāng — 刚","just",ch5|sec5.2,"just","after","different","agree",2
-ch5-v524-008,vocab,5,"Sec 5.2","Vocab 5.2.4","yǐqián — 以前","before",ch5|sec5.2,"before","after","important","understand",2
-ch5-v524-009,vocab,5,"Sec 5.2","Vocab 5.2.4","different","bùtóng — 不同",ch5|sec5.2|reverse,"zhòngyào — 重要","bùtóng — 不同","wèntí — 问题","gāng — 刚",2
-ch5-v524-010,vocab,5,"Sec 5.2","Vocab 5.2.4","important","zhòngyào — 重要",ch5|sec5.2|reverse,"tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要","míngbai — 明白",2
-ch5-v524-011,vocab,5,"Sec 5.2","Vocab 5.2.4","problem","wèntí — 问题",ch5|sec5.2|reverse,"wèntí — 问题","xīwàng — 希望","bùtóng — 不同","gāng — 刚",2
-ch5-v524-012,vocab,5,"Sec 5.2","Vocab 5.2.4","agree","tóngyì — 同意",ch5|sec5.2|reverse,"míngbai — 明白","tóngyì — 同意","zhòngyào — 重要","yǐqián — 以前",2
-ch5-v524-013,vocab,5,"Sec 5.2","Vocab 5.2.4","understand","míngbai — 明白",ch5|sec5.2|reverse,"gāng — 刚","wèntí — 问题","míngbai — 明白","bùtóng — 不同",2
-ch5-v524-014,vocab,5,"Sec 5.2","Vocab 5.2.4","hope","xīwàng — 希望",ch5|sec5.2|reverse,"xīwàng — 希望","tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要",2
-ch5-v524-015,vocab,5,"Sec 5.2","Vocab 5.2.4","just","gāng — 刚",ch5|sec5.2|reverse,"yǐqián — 以前","gāng — 刚","bùtóng — 不同","tóngyì — 同意",2
-ch5-v524-016,vocab,5,"Sec 5.2","Vocab 5.2.4","before","yǐqián — 以前",ch5|sec5.2|reverse,"gāng — 刚","zhòngyào — 重要","tóngyì — 同意","yǐqián — 以前",2
-ch5-v531-001,vocab,5,"Sec 5.3","Vocab 5.3.1","qíshí — 其实","actually",ch5|sec5.3,"actually","prepare","change","after",2
-ch5-v531-002,vocab,5,"Sec 5.3","Vocab 5.3.1","yīnggāi — 应该","should",ch5|sec5.3,"should","decide","one time","before",2
-ch5-v531-003,vocab,5,"Sec 5.3","Vocab 5.3.1","juédìng — 决定","decide",ch5|sec5.3,"decide","actually","prepare","change",2
-ch5-v531-004,vocab,5,"Sec 5.3","Vocab 5.3.1","yǐhòu — 以后","after",ch5|sec5.3,"after","before","should","time",2
-ch5-v531-005,vocab,5,"Sec 5.3","Vocab 5.3.1","yí cì — 一次","one time",ch5|sec5.3,"one time","time","after","prepare",2
-ch5-v531-006,vocab,5,"Sec 5.3","Vocab 5.3.1","cì — 次","time",ch5|sec5.3,"time","one time","change","decide",2
-ch5-v531-007,vocab,5,"Sec 5.3","Vocab 5.3.1","zhǔnbèi — 准备","prepare",ch5|sec5.3,"prepare","actually","after","should",2
-ch5-v531-008,vocab,5,"Sec 5.3","Vocab 5.3.1","gǎibiàn — 改变","change",ch5|sec5.3,"change","decide","time","one time",2
-ch5-v531-009,vocab,5,"Sec 5.3","Vocab 5.3.1","actually","qíshí — 其实",ch5|sec5.3|reverse,"qíshí — 其实","zhǔnbèi — 准备","juédìng — 决定","cì — 次",2
-ch5-v531-010,vocab,5,"Sec 5.3","Vocab 5.3.1","should","yīnggāi — 应该",ch5|sec5.3|reverse,"yí cì — 一次","yīnggāi — 应该","gǎibiàn — 改变","yǐhòu — 以后",2
-ch5-v531-011,vocab,5,"Sec 5.3","Vocab 5.3.1","decide","juédìng — 决定",ch5|sec5.3|reverse,"zhǔnbèi — 准备","juédìng — 决定","qíshí — 其实","cì — 次",2
-ch5-v531-012,vocab,5,"Sec 5.3","Vocab 5.3.1","after","yǐhòu — 以后",ch5|sec5.3|reverse,"yǐhòu — 以后","yí cì — 一次","gǎibiàn — 改变","zhǔnbèi — 准备",2
-ch5-v531-013,vocab,5,"Sec 5.3","Vocab 5.3.1","one time","yí cì — 一次",ch5|sec5.3|reverse,"cì — 次","yí cì — 一次","yīnggāi — 应该","qíshí — 其实",2
-ch5-v531-014,vocab,5,"Sec 5.3","Vocab 5.3.1","time","cì — 次",ch5|sec5.3|reverse,"gǎibiàn — 改变","yí cì — 一次","cì — 次","juédìng — 决定",2
-ch5-v531-015,vocab,5,"Sec 5.3","Vocab 5.3.1","prepare","zhǔnbèi — 准备",ch5|sec5.3|reverse,"zhǔnbèi — 准备","qíshí — 其实","yǐhòu — 以后","juédìng — 决定",2
-ch5-v531-016,vocab,5,"Sec 5.3","Vocab 5.3.1","change","gǎibiàn — 改变",ch5|sec5.3|reverse,"cì — 次","yīnggāi — 应该","gǎibiàn — 改变","zhǔnbèi — 准备",2
-ch5-pair1-001,vocab,5,"Sec 5.3","Pair Ch 1-a","zài , zài — 在 , 再","at , again",ch1|pairs|contrast,"at , again","again , at","also , only","have , is",2
-ch5-pair1-002,vocab,5,"Sec 5.3","Pair Ch 1-a","yòu , zài — 又 , 再","again (past) , again (future)",ch1|pairs|contrast,"again (past) , again (future)","again (future) , again (past)","at , again","have , is",2
-ch5-pair1-003,vocab,5,"Sec 5.3","Pair Ch 1-a","yǒu , shì — 有 , 是","have , is",ch1|pairs|contrast,"have , is","is , have","also , still","at , again",2
-ch5-pair1-004,vocab,5,"Sec 5.3","Pair Ch 1-a","qù , lái — 去 , 来","go , come",ch1|pairs|contrast,"go , come","come , go","have , is","also , only",2
-ch5-pair1-005,vocab,5,"Sec 5.3","Pair Ch 1-a","zhè , nà — 这 , 那","this , that",ch1|pairs|contrast,"this , that","that , this","here , there","there , here",2
-ch5-pair1-006,vocab,5,"Sec 5.3","Pair Ch 1-a","zhèlǐ , nàlǐ — 这里 , 那里","here , there",ch1|pairs|contrast,"here , there","there , here","this , that","that , this",2
-ch5-pair1-007,vocab,5,"Sec 5.3","Pair Ch 1-a","yě , zhǐ — 也 , 只","also , only",ch1|pairs|contrast,"also , only","only , also","still , also","have , is",2
-ch5-pair1-008,vocab,5,"Sec 5.3","Pair Ch 1-a","hái , yě — 还 , 也","still , also",ch1|pairs|contrast,"still , also","also , still","again , at","is , have",2
-ch5-pair1-009,vocab,5,"Sec 5.3","Pair Ch 1-a","nǎr , nàlǐ — 哪儿 , 那里","where , there",ch1|pairs|contrast,"where , there","there , where","which , that","that , which",2
-ch5-pair1-010,vocab,5,"Sec 5.3","Pair Ch 1-a","shéi , shénme — 谁 , 什么","who , what",ch1|pairs|contrast,"who , what","what , who","which , where","where , which",2
-ch5-pair1b-001,vocab,5,"Sec 5.3","Pair Ch 1-b","nǐ , nín — 你 , 您","you , polite you",ch1|pairs|contrast,"you , polite you","polite you , you","he , you","we , you",2
-ch5-pair1b-002,vocab,5,"Sec 5.3","Pair Ch 1-b","tā , tāmen — 他 , 他们","he , they",ch1|pairs|contrast,"he , they","they , he","she , they","they , she",2
-ch5-pair1b-003,vocab,5,"Sec 5.3","Pair Ch 1-b","wǒmen , tāmen — 我们 , 他们","we , they",ch1|pairs|contrast,"we , they","they , we","you , we","they , you",2
-ch5-pair1b-004,vocab,5,"Sec 5.3","Pair Ch 1-b","duō , shǎo — 多 , 少","many , few",ch1|pairs|contrast,"many , few","few , many","big , small","small , big",2
-ch5-pair1b-005,vocab,5,"Sec 5.3","Pair Ch 1-b","dà , xiǎo — 大 , 小","big , small",ch1|pairs|contrast,"big , small","small , big","many , few","few , many",2
-ch5-pair1b-006,vocab,5,"Sec 5.3","Pair Ch 1-b","chī , hē — 吃 , 喝","eat , drink",ch1|pairs|contrast,"eat , drink","drink , eat","buy , sell","go , come",2
-ch5-pair1b-007,vocab,5,"Sec 5.3","Pair Ch 1-b","mǎi , mài — 买 , 卖","buy , sell",ch1|pairs|contrast,"buy , sell","sell , buy","eat , drink","go , come",2
-ch5-pair1b-008,vocab,5,"Sec 5.3","Pair Ch 1-b","zǎo , wǎn — 早 , 晚","early , late",ch1|pairs|contrast,"early , late","late , early","morning , night","night , morning",2
-ch5-pair1b-009,vocab,5,"Sec 5.3","Pair Ch 1-b","jīntiān , míngtiān — 今天 , 明天","today , tomorrow",ch1|pairs|contrast,"today , tomorrow","tomorrow , today","yesterday , today","today , yesterday",2
-ch5-pair1b-010,vocab,5,"Sec 5.3","Pair Ch 1-b","zuótiān , míngtiān — 昨天 , 明天","yesterday , tomorrow",ch1|pairs|contrast,"yesterday , tomorrow","tomorrow , yesterday","today , yesterday","tomorrow , today",2
-ch5-pair1b-011,vocab,5,"Sec 5.3","Pair Ch 1-b","zhè , zhèlǐ — 这 , 这里","this , here",ch1|pairs|contrast,"this , here","here , this","that , there","there , that",2
-ch5-pair1b-012,vocab,5,"Sec 5.3","Pair Ch 1-b","nà , nàlǐ — 那 , 那里","that , there",ch1|pairs|contrast,"that , there","there , that","this , here","here , this",2
+ch5-hol1-001,vocab,6,"Holidays","Holiday 1","zhù nǐ — 祝你","wish you",ch5,"birthday","wish you","gift","happy",2
+ch5-hol1-002,vocab,6,"Holidays","Holiday 1","wish you","zhù nǐ — 祝你",ch5,"zhù nǐ — 祝你","shēngrì — 生日","kuàilè — 快乐","lǐwù — 礼物",2
+ch5-hol1-003,vocab,6,"Holidays","Holiday 1","shēngrì — 生日","birthday",ch5,"party","happy","birthday","photo",2
+ch5-hol1-004,vocab,6,"Holidays","Holiday 1","birthday","shēngrì — 生日",ch5,"hóngbāo — 红包","shēngrì — 生日","pài duì — 派对","zhàopiàn — 照片",2
+ch5-hol1-005,vocab,6,"Holidays","Holiday 1","kuàilè — 快乐","happy",ch5,"happy","gift","party","wish you",2
+ch5-hol1-006,vocab,6,"Holidays","Holiday 1","happy","kuàilè — 快乐",ch5,"lǐwù — 礼物","kuàilè — 快乐","hóngbāo — 红包","pài duì — 派对",2
+ch5-hol1-007,vocab,6,"Holidays","Holiday 1","lǐwù — 礼物","gift",ch5,"gift","party","photo","birthday",2
+ch5-hol1-008,vocab,6,"Holidays","Holiday 1","gift","lǐwù — 礼物",ch5,"hóngbāo — 红包","lǐwù — 礼物","pài duì — 派对","zhàopiàn — 照片",2
+ch5-hol1-009,vocab,6,"Holidays","Holiday 1","pài duì — 派对","party",ch5,"gift","photo","party","holiday",2
+ch5-hol1-010,vocab,6,"Holidays","Holiday 1","party","pài duì — 派对",ch5,"pài duì — 派对","hóngbāo — 红包","zhàopiàn — 照片","shēngrì — 生日",2
+ch5-hol1-011,vocab,6,"Holidays","Holiday 1","hóngbāo — 红包","red envelope",ch5,"holiday","gift","red envelope","photo",2
+ch5-hol1-012,vocab,6,"Holidays","Holiday 1","red envelope","hóngbāo — 红包",ch5,"lǐwù — 礼物","hóngbāo — 红包","pài duì — 派对","kuàilè — 快乐",2
+ch5-hol1-013,vocab,6,"Holidays","Holiday 1","dǎ diànhuà — 打电话","make a phone call",ch5,"take a photo","give a gift","make a phone call","open a party",2
+ch5-hol1-014,vocab,6,"Holidays","Holiday 1","make a phone call","dǎ diànhuà — 打电话",ch5,"zhàopiàn — 照片","dǎ diànhuà — 打电话","pài duì — 派对","hóngbāo — 红包",2
+ch5-hol1-015,vocab,6,"Holidays","Holiday 1","zhàopiàn — 照片","photo",ch5,"holiday","birthday","photo","happy",2
+ch5-hol1-016,vocab,6,"Holidays","Holiday 1","photo","zhàopiàn — 照片",ch5,"hóngbāo — 红包","lǐwù — 礼物","shēngrì — 生日","zhàopiàn — 照片",2
+ch5-hol2-001,vocab,6,"Holidays","Holiday 2","xīnnián — 新年","New Year",ch5,"holiday","New Year","Christmas","vacation",2
+ch5-hol2-002,vocab,6,"Holidays","Holiday 2","New Year","xīnnián — 新年",ch5,"Chūnjié — 春节","xīnnián — 新年","jiérì — 节日","fàngjià — 放假",2
+ch5-hol2-003,vocab,6,"Holidays","Holiday 2","Chūnjié — 春节","Spring Festival",ch5,"Christmas","Thanksgiving","Spring Festival","holiday",2
+ch5-hol2-004,vocab,6,"Holidays","Holiday 2","Spring Festival","Chūnjié — 春节",ch5,"Chūnjié — 春节","Shèngdànjié — 圣诞节","Gǎn’ēnjié — 感恩节","jiérì — 节日",2
+ch5-hol2-005,vocab,6,"Holidays","Holiday 2","Shèngdànjié — 圣诞节","Christmas",ch5,"Thanksgiving","holiday","Christmas","New Year",2
+ch5-hol2-006,vocab,6,"Holidays","Holiday 2","Christmas","Shèngdànjié — 圣诞节",ch5,"xīnnián — 新年","Shèngdànjié — 圣诞节","Chūnjié — 春节","qìfēn — 气氛",2
+ch5-hol2-007,vocab,6,"Holidays","Holiday 2","Gǎn’ēnjié — 感恩节","Thanksgiving",ch5,"Thanksgiving","vacation","holiday","atmosphere",2
+ch5-hol2-008,vocab,6,"Holidays","Holiday 2","Thanksgiving","Gǎn’ēnjié — 感恩节",ch5,"jiérì — 节日","fàngjià — 放假","Gǎn’ēnjié — 感恩节","yānhuā — 烟花",2
+ch5-hol2-009,vocab,6,"Holidays","Holiday 2","jiérì — 节日","holiday",ch5,"holiday","vacation","fireworks","atmosphere",2
+ch5-hol2-010,vocab,6,"Holidays","Holiday 2","holiday","jiérì — 节日",ch5,"qìfēn — 气氛","jiérì — 节日","fàngjià — 放假","yānhuā — 烟花",2
+ch5-hol2-011,vocab,6,"Holidays","Holiday 2","fàngjià — 放假","have vacation",ch5,"holiday","atmosphere","have vacation","fireworks",2
+ch5-hol2-012,vocab,6,"Holidays","Holiday 2","have vacation","fàngjià — 放假",ch5,"fàngjià — 放假","jiérì — 节日","qìfēn — 气氛","yānhuā — 烟花",2
+ch5-hol2-013,vocab,6,"Holidays","Holiday 2","qìfēn — 气氛","atmosphere",ch5,"holiday","atmosphere","vacation","New Year",2
+ch5-hol2-014,vocab,6,"Holidays","Holiday 2","atmosphere","qìfēn — 气氛",ch5,"yānhuā — 烟花","qìfēn — 气氛","fàngjià — 放假","jiérì — 节日",2
+ch5-hol2-015,vocab,6,"Holidays","Holiday 2","yānhuā — 烟花","fireworks",ch5,"holiday","fireworks","vacation","atmosphere",2
+ch5-hol2-016,vocab,6,"Holidays","Holiday 2","fireworks","yānhuā — 烟花",ch5,"qìfēn — 气氛","jiérì — 节日","yānhuā — 烟花","fàngjià — 放假",2
+ch5-holp1-001,vocab,6,"Holidays","Holiday Phrase 1","zhù nǐ shēngrì kuàilè — 祝你生日快乐","Happy birthday.",ch5,"Happy New Year.","Happy birthday.","Merry Christmas.","Happy holiday.",2
+ch5-holp1-002,vocab,6,"Holidays","Holiday Phrase 1","zhù nǐ xīnnián kuàilè — 祝你新年快乐","Happy New Year.",ch5,"Happy New Year.","Happy birthday.","Have a vacation.","Happy party.",2
+ch5-holp1-003,vocab,6,"Holidays","Holiday Phrase 1","Shèngdànjié kuàilè — 圣诞节快乐","Merry Christmas.",ch5,"Happy Spring Festival.","Merry Christmas.","Happy Thanksgiving.","Happy birthday.",2
+ch5-holp1-004,vocab,6,"Holidays","Holiday Phrase 1","Chūnjié kuàilè — 春节快乐","Happy Spring Festival.",ch5,"Happy Spring Festival.","Happy New Year.","Happy birthday.","Happy holiday.",2
+ch5-holp1-005,vocab,6,"Holidays","Holiday Phrase 1","Gǎn’ēnjié kuàilè — 感恩节快乐","Happy Thanksgiving.",ch5,"Merry Christmas.","Happy Thanksgiving.","Happy New Year.","Happy party.",2
+ch5-holp1-006,vocab,6,"Holidays","Holiday Phrase 1","wǒ gěi nǐ lǐwù — 我给你礼物","I give you a gift.",ch5,"I give you a gift.","You give me a gift.","I take your gift.","You have a gift.",2
+ch5-holp1-007,vocab,6,"Holidays","Holiday Phrase 1","wǒ men kāi pài duì — 我们开派对","We have a party.",ch5,"We close the party.","We start a party.","We open a party.","We have a party.",3
+ch5-holp1-008,vocab,6,"Holidays","Holiday Phrase 1","wǒ shōu dào hóngbāo — 我收到红包","I receive a red envelope.",ch5,"I send a red envelope.","I receive a red envelope.","I open a red envelope.","I give a red envelope.",3
+ch5-holp2-001,vocab,6,"Holidays","Holiday Phrase 2","jīntiān shì jiérì — 今天是节日","Today is a holiday.",ch5,"Today is a holiday.","Today is a birthday.","Today is Christmas.","Today is New Year.",2
+ch5-holp2-002,vocab,6,"Holidays","Holiday Phrase 2","wǒ men fàngjià le — 我们放假了","We have a holiday.",ch5,"We are having a party.","We have a holiday.","We finished the holiday.","We open the holiday.",2
+ch5-holp2-003,vocab,6,"Holidays","Holiday Phrase 2","jiérì qìfēn hěn hǎo — 节日气氛很好","The holiday atmosphere is very good.",ch5,"The holiday is short.","The holiday atmosphere is very good.","The holiday is finished.","The holiday is slow.",3
+ch5-holp2-004,vocab,6,"Holidays","Holiday Phrase 2","wǎnshang kàn yānhuā — 晚上看烟花","Watch fireworks at night.",ch5,"Watch fireworks at night.","Open fireworks at night.","Give fireworks at night.","Buy fireworks at night.",3
+ch5-holp2-005,vocab,6,"Holidays","Holiday Phrase 2","tā dǎ diànhuà zhù wǒ kuàilè — 他打电话祝我快乐","He calls to wish me happiness.",ch5,"He calls me for a party.","He calls to wish me happiness.","He gives me a gift.","He watches fireworks.",3
+ch5-holp2-006,vocab,6,"Holidays","Holiday Phrase 2","wǒ men pāi zhàopiàn — 我们拍照片","We take photos.",ch5,"We send photos.","We take photos.","We buy photos.","We open photos.",2
+ch5-holp2-007,vocab,6,"Holidays","Holiday Phrase 2","xīnnián kuài dào le — 新年快到了","New Year is coming soon.",ch5,"New Year is finished.","New Year is coming soon.","New Year is slow.","New Year is closed.",3
+ch5-holp2-008,vocab,6,"Holidays","Holiday Phrase 2","Chūnjié wǒ men huí jiā — 春节我们回家","We go home for Spring Festival.",ch5,"We start Spring Festival.","We open Spring Festival.","We go home for Spring Festival.","We finish Spring Festival.",3
+ch5-cty1-001,vocab,6,"Sec 6.2","Countries 1","Měiguó — 美国","United States",ch5,"United Kingdom","Canada","United States","Australia",1
+ch5-cty1-002,vocab,6,"Sec 6.2","Countries 1","United States","Měiguó — 美国",ch5,"Měiguó — 美国","Yīngguó — 英国","Fǎguó — 法国","Déguó — 德国",1
+ch5-cty1-003,vocab,6,"Sec 6.2","Countries 1","Zhōngguó — 中国","China",ch5,"Japan","China","Korea","India",1
+ch5-cty1-004,vocab,6,"Sec 6.2","Countries 1","China","Zhōngguó — 中国",ch5,"Hánguó — 韩国","Rìběn — 日本","Zhōngguó — 中国","Yìndù — 印度",1
+ch5-cty1-005,vocab,6,"Sec 6.2","Countries 1","Yīngguó — 英国","United Kingdom",ch5,"United Kingdom","France","Germany","Canada",1
+ch5-cty1-006,vocab,6,"Sec 6.2","Countries 1","United Kingdom","Yīngguó — 英国",ch5,"Jiānádà — 加拿大","Yīngguó — 英国","Àodàlìyà — 澳大利亚","Fǎguó — 法国",1
+ch5-cty1-007,vocab,6,"Sec 6.2","Countries 1","Jiānádà — 加拿大","Canada",ch5,"Australia","France","Canada","India",1
+ch5-cty1-008,vocab,6,"Sec 6.2","Countries 1","Canada","Jiānádà — 加拿大",ch5,"Déguó — 德国","Jiānádà — 加拿大","Fǎguó — 法国","Yīngguó — 英国",1
+ch5-cty1-009,vocab,6,"Sec 6.2","Countries 1","Àodàlìyà — 澳大利亚","Australia",ch5,"Australia","Germany","Japan","India",1
+ch5-cty1-010,vocab,6,"Sec 6.2","Countries 1","Australia","Àodàlìyà — 澳大利亚",ch5,"Jiānádà — 加拿大","Àodàlìyà — 澳大利亚","Yīngguó — 英国","Yìndù — 印度",1
+ch5-cty1-011,vocab,6,"Sec 6.2","Countries 1","Rìběn — 日本","Japan",ch5,"South Korea","Japan","China","India",1
+ch5-cty1-012,vocab,6,"Sec 6.2","Countries 1","Japan","Rìběn — 日本",ch5,"Rìběn — 日本","Hánguó — 韩国","Zhōngguó — 中国","Yìndù — 印度",1
+ch5-cty1-013,vocab,6,"Sec 6.2","Countries 1","Hánguó — 韩国","South Korea",ch5,"South Korea","Japan","Germany","France",1
+ch5-cty1-014,vocab,6,"Sec 6.2","Countries 1","South Korea","Hánguó — 韩国",ch5,"Rìběn — 日本","Hánguó — 韩国","Yīngguó — 英国","Měiguó — 美国",1
+ch5-cty1-015,vocab,6,"Sec 6.2","Countries 1","Fǎguó — 法国","France",ch5,"Germany","France","Canada","United Kingdom",1
+ch5-cty1-016,vocab,6,"Sec 6.2","Countries 1","France","Fǎguó — 法国",ch5,"Fǎguó — 法国","Déguó — 德国","Yīngguó — 英国","Àodàlìyà — 澳大利亚",1
+ch5-cty1-017,vocab,6,"Sec 6.2","Countries 1","Déguó — 德国","Germany",ch5,"France","Germany","India","United States",1
+ch5-cty1-018,vocab,6,"Sec 6.2","Countries 1","Germany","Déguó — 德国",ch5,"Fǎguó — 法国","Déguó — 德国","Rìběn — 日本","Jiānádà — 加拿大",1
+ch5-cty1-019,vocab,6,"Sec 6.2","Countries 1","Yìndù — 印度","India",ch5,"India","China","Japan","Australia",1
+ch5-cty1-020,vocab,6,"Sec 6.2","Countries 1","India","Yìndù — 印度",ch5,"Yìndù — 印度","Zhōngguó — 中国","Hánguó — 韩国","Yīngguó — 英国",1
+ch5-ctyp1-001,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ lái zì Měiguó — 我来自美国","I am from the United States.",ch5,"I live in the United States.","I go to the United States.","I am from the United States.","I like the United States.",2
+ch5-ctyp1-002,vocab,6,"Sec 6.2","Countries Phrase 1","tā shì Zhōngguó rén — 他是中国人","He is Chinese.",ch5,"He likes China.","He is Chinese.","He is in China.","He goes to China.",2
+ch5-ctyp1-003,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ xiǎng qù Rìběn — 我想去日本","I want to go to Japan.",ch5,"I am from Japan.","I live in Japan.","I want to go to Japan.","I like Japan.",2
+ch5-ctyp1-004,vocab,6,"Sec 6.2","Countries Phrase 1","tā qùle Fǎguó — 他去了法国","He went to France.",ch5,"He is from France.","He went to France.","He likes France.","He lives in France.",3
+ch5-ctyp1-005,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ zài Jiānádà gōngzuò — 我在加拿大工作","I work in Canada.",ch5,"I go to Canada.","I work in Canada.","I am from Canada.","I like Canada.",3
+ch5-ctyp1-006,vocab,6,"Sec 6.2","Countries Phrase 1","Àodàlìyà hěn dà — 澳大利亚很大","Australia is very big.",ch5,"Australia is very small.","Australia is very big.","Australia is very old.","Australia is very fast.",2
+ch5-ctyp1-007,vocab,6,"Sec 6.2","Countries Phrase 1","Déguó hěn piàoliang — 德国很漂亮","Germany is very beautiful.",ch5,"Germany is very beautiful.","Germany is very big.","Germany is very slow.","Germany is very old.",3
+ch5-ctyp1-008,vocab,6,"Sec 6.2","Countries Phrase 1","Yìndù yǒu hěn duō rén — 印度有很多人","India has many people.",ch5,"India has many people.","India has few people.","India is very big.","India is very small.",3
+ch5-v523-001,vocab,6,"Sec 6.2","Vocab 5.2.3","kěnéng — 可能","maybe",ch5|sec5.2,"maybe","already","together","important",2
+ch5-v523-002,vocab,6,"Sec 6.2","Vocab 5.2.3","zhēn de — 真的","really",ch5|sec5.2,"really","different","before","answer",2
+ch5-v523-003,vocab,6,"Sec 6.2","Vocab 5.2.3","yìqǐ — 一起","together",ch5|sec5.2,"together","maybe","problem","this year",2
+ch5-v523-004,vocab,6,"Sec 6.2","Vocab 5.2.3","huídá — 回答","answer",ch5|sec5.2,"answer","help","opportunity","last year",2
+ch5-v523-005,vocab,6,"Sec 6.2","Vocab 5.2.3","bāngzhù — 帮助","help",ch5|sec5.2,"help","agree","finish","just",2
+ch5-v523-006,vocab,6,"Sec 6.2","Vocab 5.2.3","jīnnián — 今年","this year",ch5|sec5.2,"this year","last year","before","together",2
+ch5-v523-007,vocab,6,"Sec 6.2","Vocab 5.2.3","qùnián — 去年","last year",ch5|sec5.2,"last year","this year","maybe","important",2
+ch5-v523-008,vocab,6,"Sec 6.2","Vocab 5.2.3","jīhuì — 机会","opportunity",ch5|sec5.2,"opportunity","problem","really","answer",2
+ch5-v523-009,vocab,6,"Sec 6.2","Vocab 5.2.3","maybe","kěnéng — 可能",ch5|sec5.2|reverse,"kěnéng — 可能","zhēn de — 真的","jīhuì — 机会","yìqǐ — 一起",2
+ch5-v523-010,vocab,6,"Sec 6.2","Vocab 5.2.3","really","zhēn de — 真的",ch5|sec5.2|reverse,"huídá — 回答","zhēn de — 真的","qùnián — 去年","bāngzhù — 帮助",2
+ch5-v523-011,vocab,6,"Sec 6.2","Vocab 5.2.3","together","yìqǐ — 一起",ch5|sec5.2|reverse,"jīnnián — 今年","kěnéng — 可能","yìqǐ — 一起","jīhuì — 机会",2
+ch5-v523-012,vocab,6,"Sec 6.2","Vocab 5.2.3","answer","huídá — 回答",ch5|sec5.2|reverse,"huídá — 回答","bāngzhù — 帮助","zhēn de — 真的","qùnián — 去年",2
+ch5-v523-013,vocab,6,"Sec 6.2","Vocab 5.2.3","help","bāngzhù — 帮助",ch5|sec5.2|reverse,"jīhuì — 机会","bāngzhù — 帮助","kěnéng — 可能","jīnnián — 今年",2
+ch5-v523-014,vocab,6,"Sec 6.2","Vocab 5.2.3","this year","jīnnián — 今年",ch5|sec5.2|reverse,"qùnián — 去年","jīnnián — 今年","yìqǐ — 一起","zhēn de — 真的",2
+ch5-v523-015,vocab,6,"Sec 6.2","Vocab 5.2.3","last year","qùnián — 去年",ch5|sec5.2|reverse,"jīnnián — 今年","jīhuì — 机会","qùnián — 去年","huídá — 回答",2
+ch5-v523-016,vocab,6,"Sec 6.2","Vocab 5.2.3","opportunity","jīhuì — 机会",ch5|sec5.2|reverse,"bāngzhù — 帮助","jīhuì — 机会","kěnéng — 可能","zhēn de — 真的",2
+ch5-v524-001,vocab,6,"Sec 6.2","Vocab 5.2.4","bùtóng — 不同","different",ch5|sec5.2,"different","important","before","agree",2
+ch5-v524-002,vocab,6,"Sec 6.2","Vocab 5.2.4","zhòngyào — 重要","important",ch5|sec5.2,"important","problem","understand","hope",2
+ch5-v524-003,vocab,6,"Sec 6.2","Vocab 5.2.4","wèntí — 问题","problem",ch5|sec5.2,"problem","different","just","before",2
+ch5-v524-004,vocab,6,"Sec 6.2","Vocab 5.2.4","tóngyì — 同意","agree",ch5|sec5.2,"agree","decide","important","answer",2
+ch5-v524-005,vocab,6,"Sec 6.2","Vocab 5.2.4","míngbai — 明白","understand",ch5|sec5.2,"understand","start","different","problem",2
+ch5-v524-006,vocab,6,"Sec 6.2","Vocab 5.2.4","xīwàng — 希望","hope",ch5|sec5.2,"hope","finish","just","before",2
+ch5-v524-007,vocab,6,"Sec 6.2","Vocab 5.2.4","gāng — 刚","just",ch5|sec5.2,"just","after","different","agree",2
+ch5-v524-008,vocab,6,"Sec 6.2","Vocab 5.2.4","yǐqián — 以前","before",ch5|sec5.2,"before","after","important","understand",2
+ch5-v524-009,vocab,6,"Sec 6.2","Vocab 5.2.4","different","bùtóng — 不同",ch5|sec5.2|reverse,"zhòngyào — 重要","bùtóng — 不同","wèntí — 问题","gāng — 刚",2
+ch5-v524-010,vocab,6,"Sec 6.2","Vocab 5.2.4","important","zhòngyào — 重要",ch5|sec5.2|reverse,"tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要","míngbai — 明白",2
+ch5-v524-011,vocab,6,"Sec 6.2","Vocab 5.2.4","problem","wèntí — 问题",ch5|sec5.2|reverse,"wèntí — 问题","xīwàng — 希望","bùtóng — 不同","gāng — 刚",2
+ch5-v524-012,vocab,6,"Sec 6.2","Vocab 5.2.4","agree","tóngyì — 同意",ch5|sec5.2|reverse,"míngbai — 明白","tóngyì — 同意","zhòngyào — 重要","yǐqián — 以前",2
+ch5-v524-013,vocab,6,"Sec 6.2","Vocab 5.2.4","understand","míngbai — 明白",ch5|sec5.2|reverse,"gāng — 刚","wèntí — 问题","míngbai — 明白","bùtóng — 不同",2
+ch5-v524-014,vocab,6,"Sec 6.2","Vocab 5.2.4","hope","xīwàng — 希望",ch5|sec5.2|reverse,"xīwàng — 希望","tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要",2
+ch5-v524-015,vocab,6,"Sec 6.2","Vocab 5.2.4","just","gāng — 刚",ch5|sec5.2|reverse,"yǐqián — 以前","gāng — 刚","bùtóng — 不同","tóngyì — 同意",2
+ch5-v524-016,vocab,6,"Sec 6.2","Vocab 5.2.4","before","yǐqián — 以前",ch5|sec5.2|reverse,"gāng — 刚","zhòngyào — 重要","tóngyì — 同意","yǐqián — 以前",2
+ch5-v531-001,vocab,6,"Sec 6.3","Vocab 5.3.1","qíshí — 其实","actually",ch5|sec5.3,"actually","prepare","change","after",2
+ch5-v531-002,vocab,6,"Sec 6.3","Vocab 5.3.1","yīnggāi — 应该","should",ch5|sec5.3,"should","decide","one time","before",2
+ch5-v531-003,vocab,6,"Sec 6.3","Vocab 5.3.1","juédìng — 决定","decide",ch5|sec5.3,"decide","actually","prepare","change",2
+ch5-v531-004,vocab,6,"Sec 6.3","Vocab 5.3.1","yǐhòu — 以后","after",ch5|sec5.3,"after","before","should","time",2
+ch5-v531-005,vocab,6,"Sec 6.3","Vocab 5.3.1","yí cì — 一次","one time",ch5|sec5.3,"one time","time","after","prepare",2
+ch5-v531-006,vocab,6,"Sec 6.3","Vocab 5.3.1","cì — 次","time",ch5|sec5.3,"time","one time","change","decide",2
+ch5-v531-007,vocab,6,"Sec 6.3","Vocab 5.3.1","zhǔnbèi — 准备","prepare",ch5|sec5.3,"prepare","actually","after","should",2
+ch5-v531-008,vocab,6,"Sec 6.3","Vocab 5.3.1","gǎibiàn — 改变","change",ch5|sec5.3,"change","decide","time","one time",2
+ch5-v531-009,vocab,6,"Sec 6.3","Vocab 5.3.1","actually","qíshí — 其实",ch5|sec5.3|reverse,"qíshí — 其实","zhǔnbèi — 准备","juédìng — 决定","cì — 次",2
+ch5-v531-010,vocab,6,"Sec 6.3","Vocab 5.3.1","should","yīnggāi — 应该",ch5|sec5.3|reverse,"yí cì — 一次","yīnggāi — 应该","gǎibiàn — 改变","yǐhòu — 以后",2
+ch5-v531-011,vocab,6,"Sec 6.3","Vocab 5.3.1","decide","juédìng — 决定",ch5|sec5.3|reverse,"zhǔnbèi — 准备","juédìng — 决定","qíshí — 其实","cì — 次",2
+ch5-v531-012,vocab,6,"Sec 6.3","Vocab 5.3.1","after","yǐhòu — 以后",ch5|sec5.3|reverse,"yǐhòu — 以后","yí cì — 一次","gǎibiàn — 改变","zhǔnbèi — 准备",2
+ch5-v531-013,vocab,6,"Sec 6.3","Vocab 5.3.1","one time","yí cì — 一次",ch5|sec5.3|reverse,"cì — 次","yí cì — 一次","yīnggāi — 应该","qíshí — 其实",2
+ch5-v531-014,vocab,6,"Sec 6.3","Vocab 5.3.1","time","cì — 次",ch5|sec5.3|reverse,"gǎibiàn — 改变","yí cì — 一次","cì — 次","juédìng — 决定",2
+ch5-v531-015,vocab,6,"Sec 6.3","Vocab 5.3.1","prepare","zhǔnbèi — 准备",ch5|sec5.3|reverse,"zhǔnbèi — 准备","qíshí — 其实","yǐhòu — 以后","juédìng — 决定",2
+ch5-v531-016,vocab,6,"Sec 6.3","Vocab 5.3.1","change","gǎibiàn — 改变",ch5|sec5.3|reverse,"cì — 次","yīnggāi — 应该","gǎibiàn — 改变","zhǔnbèi — 准备",2
+ch5-pair1-001,vocab,5,"Pairs 1 A","Pair Ch 1 A","zài , zài — 在 , 再","at , again",ch1|pairs|contrast,"at , again","again , at","also , only","have , is",2
+ch5-pair1-002,vocab,5,"Pairs 1 A","Pair Ch 1 A","yòu , zài — 又 , 再","again (past) , again (future)",ch1|pairs|contrast,"again (past) , again (future)","again (future) , again (past)","at , again","have , is",2
+ch5-pair1-003,vocab,5,"Pairs 1 A","Pair Ch 1 A","yǒu , shì — 有 , 是","have , is",ch1|pairs|contrast,"have , is","is , have","also , still","at , again",2
+ch5-pair1-004,vocab,5,"Pairs 1 A","Pair Ch 1 A","qù , lái — 去 , 来","go , come",ch1|pairs|contrast,"go , come","come , go","have , is","also , only",2
+ch5-pair1-005,vocab,5,"Pairs 1 A","Pair Ch 1 A","zhè , nà — 这 , 那","this , that",ch1|pairs|contrast,"this , that","that , this","here , there","there , here",2
+ch5-pair1-006,vocab,5,"Pairs 1 A","Pair Ch 1 A","zhèlǐ , nàlǐ — 这里 , 那里","here , there",ch1|pairs|contrast,"here , there","there , here","this , that","that , this",2
+ch5-pair1-007,vocab,5,"Pairs 1 A","Pair Ch 1 A","yě , zhǐ — 也 , 只","also , only",ch1|pairs|contrast,"also , only","only , also","still , also","have , is",2
+ch5-pair1-008,vocab,5,"Pairs 1 A","Pair Ch 1 A","hái , yě — 还 , 也","still , also",ch1|pairs|contrast,"still , also","also , still","again , at","is , have",2
+ch5-pair1-009,vocab,5,"Pairs 1 A","Pair Ch 1 A","nǎr , nàlǐ — 哪儿 , 那里","where , there",ch1|pairs|contrast,"where , there","there , where","which , that","that , which",2
+ch5-pair1-010,vocab,5,"Pairs 1 A","Pair Ch 1 A","shéi , shénme — 谁 , 什么","who , what",ch1|pairs|contrast,"who , what","what , who","which , where","where , which",2
+ch5-pair1b-001,vocab,5,"Pairs 1 A","Pair Ch 1 B","nǐ , nín — 你 , 您","you , polite you",ch1|pairs|contrast,"you , polite you","polite you , you","he , you","we , you",2
+ch5-pair1b-002,vocab,5,"Pairs 1 A","Pair Ch 1 B","tā , tāmen — 他 , 他们","he , they",ch1|pairs|contrast,"he , they","they , he","she , they","they , she",2
+ch5-pair1b-003,vocab,5,"Pairs 1 A","Pair Ch 1 B","wǒmen , tāmen — 我们 , 他们","we , they",ch1|pairs|contrast,"we , they","they , we","you , we","they , you",2
+ch5-pair1b-004,vocab,5,"Pairs 1 A","Pair Ch 1 B","duō , shǎo — 多 , 少","many , few",ch1|pairs|contrast,"many , few","few , many","big , small","small , big",2
+ch5-pair1b-005,vocab,5,"Pairs 1 A","Pair Ch 1 B","dà , xiǎo — 大 , 小","big , small",ch1|pairs|contrast,"big , small","small , big","many , few","few , many",2
+ch5-pair1b-006,vocab,5,"Pairs 1 A","Pair Ch 1 B","chī , hē — 吃 , 喝","eat , drink",ch1|pairs|contrast,"eat , drink","drink , eat","buy , sell","go , come",2
+ch5-pair1b-007,vocab,5,"Pairs 1 A","Pair Ch 1 B","mǎi , mài — 买 , 卖","buy , sell",ch1|pairs|contrast,"buy , sell","sell , buy","eat , drink","go , come",2
+ch5-pair1b-008,vocab,5,"Pairs 1 A","Pair Ch 1 B","zǎo , wǎn — 早 , 晚","early , late",ch1|pairs|contrast,"early , late","late , early","morning , night","night , morning",2
+ch5-pair1b-009,vocab,5,"Pairs 1 A","Pair Ch 1 B","jīntiān , míngtiān — 今天 , 明天","today , tomorrow",ch1|pairs|contrast,"today , tomorrow","tomorrow , today","yesterday , today","today , yesterday",2
+ch5-pair1b-010,vocab,5,"Pairs 1 A","Pair Ch 1 B","zuótiān , míngtiān — 昨天 , 明天","yesterday , tomorrow",ch1|pairs|contrast,"yesterday , tomorrow","tomorrow , yesterday","today , yesterday","tomorrow , today",2
+ch5-pair1b-011,vocab,5,"Pairs 1 A","Pair Ch 1 B","zhè , zhèlǐ — 这 , 这里","this , here",ch1|pairs|contrast,"this , here","here , this","that , there","there , that",2
+ch5-pair1b-012,vocab,5,"Pairs 1 A","Pair Ch 1 B","nà , nàlǐ — 那 , 那里","that , there",ch1|pairs|contrast,"that , there","there , that","this , here","here , this",2
+ch5-pair2a-001,vocab,5,"Pairs 1 A","Pair Ch 2 A","hé , dànshì — 和 , 但是","and , but",ch2|pairs|contrast,"and , but","but , and","because , so","so , because",2
+ch5-pair2a-002,vocab,5,"Pairs 1 A","Pair Ch 2 A","yīnwèi , suǒyǐ — 因为 , 所以","because , so",ch2|pairs|contrast,"because , so","so , because","and , but","but , and",2
+ch5-pair2a-003,vocab,5,"Pairs 1 A","Pair Ch 2 A","hěn , tài — 很 , 太","very , too",ch2|pairs|contrast,"very , too","too , very","more , very","extremely , more",2
+ch5-pair2a-004,vocab,5,"Pairs 1 A","Pair Ch 2 A","gèng , fēicháng — 更 , 非常","more , extremely",ch2|pairs|contrast,"more , extremely","extremely , more","very , too","too , very",2
+ch5-pair2a-005,vocab,5,"Pairs 1 A","Pair Ch 2 A","duō , shǎo — 多 , 少","many , few",ch2|pairs|contrast,"many , few","few , many","a little , many","many , a little",2
+ch5-pair2a-006,vocab,5,"Pairs 1 A","Pair Ch 2 A","duō , hěn duō — 多 , 很多","many , many (a lot)",ch2|pairs|contrast,"many , many (a lot)","many (a lot) , many","few , many","many , few",2
+ch5-pair2a-007,vocab,5,"Pairs 1 A","Pair Ch 2 A","měi , zǒngshì — 每 , 总是","every , always",ch2|pairs|contrast,"every , always","always , every","often , sometimes","sometimes , often",2
+ch5-pair2a-008,vocab,5,"Pairs 1 A","Pair Ch 2 A","cháng , yǒushíhou — 常 , 有时候","often , sometimes",ch2|pairs|contrast,"often , sometimes","sometimes , often","always , often","every , always",2
+ch5-pair2a-009,vocab,5,"Pairs 1 A","Pair Ch 2 A","wèn , huídá — 问 , 回答","ask , answer",ch2|pairs|contrast,"ask , answer","answer , ask","tell , wait","wait , tell",2
+ch5-pair2a-010,vocab,5,"Pairs 1 A","Pair Ch 2 A","dài , sòng — 带 , 送","bring , give",ch2|pairs|contrast,"bring , give","give , bring","tell , meet","meet , tell",2
+ch5-pair2a-011,vocab,5,"Pairs 1 A","Pair Ch 2 A","jīntiān , míngtiān — 今天 , 明天","today , tomorrow",ch2|pairs|contrast,"today , tomorrow","tomorrow , today","yesterday , today","today , yesterday",2
+ch5-pair2a-012,vocab,5,"Pairs 1 A","Pair Ch 2 A","yǐqián , yǐhòu — 以前 , 以后","before , later",ch2|pairs|contrast,"before , later","later , before","now , later","later , now",2
+ch5-pair2b-001,vocab,5,"Pairs 1 A","Pair Ch 2 B","tài , fēicháng — 太 , 非常","too , extremely",ch2|pairs|contrast,"too , extremely","extremely , too","very , more","more , very",2
+ch5-pair2b-002,vocab,5,"Pairs 1 A","Pair Ch 2 B","hěn , fēicháng — 很 , 非常","very , extremely",ch2|pairs|contrast,"very , extremely","extremely , very","too , more","more , too",2
+ch5-pair2b-003,vocab,5,"Pairs 1 A","Pair Ch 2 B","shǎo , yìdiǎn — 少 , 一点","few , a little",ch2|pairs|contrast,"few , a little","a little , few","many , few","few , many",2
+ch5-pair2b-004,vocab,5,"Pairs 1 A","Pair Ch 2 B","duō , yìdiǎn — 多 , 一点","many , a little",ch2|pairs|contrast,"many , a little","a little , many","few , many","many , few",2
+ch5-pair2b-005,vocab,5,"Pairs 1 A","Pair Ch 2 B","zǒngshì , yǒushíhou — 总是 , 有时候","always , sometimes",ch2|pairs|contrast,"always , sometimes","sometimes , always","often , always","every , always",2
+ch5-pair2b-006,vocab,5,"Pairs 1 A","Pair Ch 2 B","cháng , zǒngshì — 常 , 总是","often , always",ch2|pairs|contrast,"often , always","always , often","sometimes , often","every , sometimes",2
+ch5-pair2b-007,vocab,5,"Pairs 1 A","Pair Ch 2 B","gàosu , huídá — 告诉 , 回答","tell , answer",ch2|pairs|contrast,"tell , answer","answer , tell","ask , tell","tell , ask",2
+ch5-pair2b-008,vocab,5,"Pairs 1 A","Pair Ch 2 B","děng , dài — 等 , 带","wait , bring",ch2|pairs|contrast,"wait , bring","bring , wait","tell , meet","meet , tell",2
+ch5-pair2b-009,vocab,5,"Pairs 1 A","Pair Ch 2 B","xiànzài , yǐhòu — 现在 , 以后","now , later",ch2|pairs|contrast,"now , later","later , now","before , now","now , before",2
+ch5-pair2b-010,vocab,5,"Pairs 1 A","Pair Ch 2 B","míngtiān , zuótiān — 明天 , 昨天","tomorrow , yesterday",ch2|pairs|contrast,"tomorrow , yesterday","yesterday , tomorrow","today , yesterday","yesterday , today",2
+ch5-pair2b-011,vocab,5,"Pairs 1 A","Pair Ch 2 B","zǎoshang , wǎnshang — 早上 , 晚上","morning , evening",ch2|pairs|contrast,"morning , evening","evening , morning","time , morning","morning , time",2
+ch5-pair2b-012,vocab,5,"Pairs 1 A","Pair Ch 2 B","diǎn , fēn — 点 , 分","o’clock , minute",ch2|pairs|contrast,"o’clock , minute","minute , o’clock","hour , minute","minute , hour",2
+ch5-pair3a-001,vocab,5,"Pairs 1 B","Pair Ch 3 A","líng , yī — 零 , 一","zero , one",ch3|pairs|contrast,"zero , one","one , zero","two , one","one , two",2
+ch5-pair3a-002,vocab,5,"Pairs 1 B","Pair Ch 3 A","èr , sān — 二 , 三","two , three",ch3|pairs|contrast,"two , three","three , two","four , three","three , four",2
+ch5-pair3a-003,vocab,5,"Pairs 1 B","Pair Ch 3 A","jiǔ , shí — 九 , 十","nine , ten",ch3|pairs|contrast,"nine , ten","ten , nine","eight , nine","nine , eight",2
+ch5-pair3a-004,vocab,5,"Pairs 1 B","Pair Ch 3 A","shíyī , èrshí — 十一 , 二十","eleven , twenty",ch3|pairs|contrast,"eleven , twenty","twenty , eleven","ten , twenty","eleven , ten",2
+ch5-pair3a-005,vocab,5,"Pairs 1 B","Pair Ch 3 A","yībǎi , liǎngbǎi — 一百 , 两百","one hundred , two hundred",ch3|pairs|contrast,"one hundred , two hundred","two hundred , one hundred","one hundred , three hundred","three hundred , one hundred",2
+ch5-pair3a-006,vocab,5,"Pairs 1 B","Pair Ch 3 A","jīntiān , zuótiān — 今天 , 昨天","today , yesterday",ch3|pairs|contrast,"today , yesterday","yesterday , today","today , tomorrow","tomorrow , today",2
+ch5-pair3a-007,vocab,5,"Pairs 1 B","Pair Ch 3 A","míngtiān , zuótiān — 明天 , 昨天","tomorrow , yesterday",ch3|pairs|contrast,"tomorrow , yesterday","yesterday , tomorrow","today , yesterday","yesterday , today",2
+ch5-pair3a-008,vocab,5,"Pairs 1 B","Pair Ch 3 A","xīngqīyī , xīngqīwǔ — 星期一 , 星期五","Monday , Friday",ch3|pairs|contrast,"Monday , Friday","Friday , Monday","Tuesday , Friday","Friday , Tuesday",2
+ch5-pair3a-009,vocab,5,"Pairs 1 B","Pair Ch 3 A","xīngqīèr , xīngqīsì — 星期二 , 星期四","Tuesday , Thursday",ch3|pairs|contrast,"Tuesday , Thursday","Thursday , Tuesday","Wednesday , Thursday","Thursday , Wednesday",2
+ch5-pair3a-010,vocab,5,"Pairs 1 B","Pair Ch 3 A","kāi , guān — 开 , 关","open , close",ch3|pairs|contrast,"open , close","close , open","start , finish","finish , start",2
+ch5-pair3a-011,vocab,5,"Pairs 1 B","Pair Ch 3 A","xīn , jiù — 新 , 旧","new , old",ch3|pairs|contrast,"new , old","old , new","fast , slow","slow , fast",2
+ch5-pair3a-012,vocab,5,"Pairs 1 B","Pair Ch 3 A","kuài , màn — 快 , 慢","fast , slow",ch3|pairs|contrast,"fast , slow","slow , fast","tall , short","short , tall",2
+ch5-pair3b-001,vocab,5,"Pairs 1 B","Pair Ch 3 B","gè , cì — 个 , 次","general measure word , times",ch3|pairs|contrast,"general measure word , times","times , general measure word","day , year","year , day",2
+ch5-pair3b-002,vocab,5,"Pairs 1 B","Pair Ch 3 B","tiān , nián — 天 , 年","day , year",ch3|pairs|contrast,"day , year","year , day","month , year","year , month",2
+ch5-pair3b-003,vocab,5,"Pairs 1 B","Pair Ch 3 B","fēnzhōng , xiǎoshí — 分钟 , 小时","minute , hour",ch3|pairs|contrast,"minute , hour","hour , minute","day , hour","hour , day",2
+ch5-pair3b-004,vocab,5,"Pairs 1 B","Pair Ch 3 B","yuè , nián — 月 , 年","month , year",ch3|pairs|contrast,"month , year","year , month","week , month","month , week",2
+ch5-pair3b-005,vocab,5,"Pairs 1 B","Pair Ch 3 B","zhǔnbèi , kāishǐ — 准备 , 开始","prepare , start",ch3|pairs|contrast,"prepare , start","start , prepare","finish , start","start , finish",2
+ch5-pair3b-006,vocab,5,"Pairs 1 B","Pair Ch 3 B","kāishǐ , jiéshù — 开始 , 结束","start , finish",ch3|pairs|contrast,"start , finish","finish , start","open , close","close , open",2
+ch5-pair3b-007,vocab,5,"Pairs 1 B","Pair Ch 3 B","gěi , ràng — 给 , 让","give , let",ch3|pairs|contrast,"give , let","let , give","call , give","give , call",2
+ch5-pair3b-008,vocab,5,"Pairs 1 B","Pair Ch 3 B","jiào , dǎ — 叫 , 打","call , hit",ch3|pairs|contrast,"call , hit","hit , call","open , hit","hit , open",2
+ch5-pair3b-009,vocab,5,"Pairs 1 B","Pair Ch 3 B","lù , fāngfǎ — 路 , 方法","road , method",ch3|pairs|contrast,"road , method","method , road","hour , minute","minute , hour",2
+ch5-pair3b-010,vocab,5,"Pairs 1 B","Pair Ch 3 B","gāo , ǎi — 高 , 矮","tall , short",ch3|pairs|contrast,"tall , short","short , tall","fast , slow","slow , fast",2
+ch5-pair3b-011,vocab,5,"Pairs 1 B","Pair Ch 3 B","wán , jiào — 玩 , 叫","play , call",ch3|pairs|contrast,"play , call","call , play","give , play","play , give",2
+ch5-pair3b-012,vocab,5,"Pairs 1 B","Pair Ch 3 B","èrshí , sìshíwǔ — 二十 , 四十五","twenty , forty-five",ch3|pairs|contrast,"twenty , forty-five","forty-five , twenty","eleven , twenty","twenty , eleven",2
+ch5-pair4a-001,vocab,5,"Pairs 1 B","Pair Ch 4 A","fàn , miàn — 饭 , 面","rice / meal , noodles",ch4|pairs|contrast,"rice / meal , noodles","noodles , rice / meal","meat , dish","dish , meat",2
+ch5-pair4a-002,vocab,5,"Pairs 1 B","Pair Ch 4 A","ròu , cài — 肉 , 菜","meat , dish / vegetables",ch4|pairs|contrast,"meat , dish / vegetables","dish / vegetables , meat","chicken , beef","beef , chicken",2
+ch5-pair4a-003,vocab,5,"Pairs 1 B","Pair Ch 4 A","kāfēi , chá — 咖啡 , 茶","coffee , tea",ch4|pairs|contrast,"coffee , tea","tea , coffee","sweet , salty","salty , sweet",2
+ch5-pair4a-004,vocab,5,"Pairs 1 B","Pair Ch 4 A","jī , niú — 鸡 , 牛","chicken , beef",ch4|pairs|contrast,"chicken , beef","beef , chicken","meat , dish","dish , meat",2
+ch5-pair4a-005,vocab,5,"Pairs 1 B","Pair Ch 4 A","diǎn , jiào — 点 , 叫","order , call / order",ch4|pairs|contrast,"order , call / order","call / order , order","buy , choose","choose , buy",2
+ch5-pair4a-006,vocab,5,"Pairs 1 B","Pair Ch 4 A","shì , ná — 试 , 拿","try , take",ch4|pairs|contrast,"try , take","take , try","wait , choose","choose , wait",2
+ch5-pair4a-007,vocab,5,"Pairs 1 B","Pair Ch 4 A","děng , xuǎn — 等 , 选","wait , choose",ch4|pairs|contrast,"wait , choose","choose , wait","buy , bring","bring , buy",2
+ch5-pair4a-008,vocab,5,"Pairs 1 B","Pair Ch 4 A","mǎi , lái — 买 , 来","buy , bring / come",ch4|pairs|contrast,"buy , bring / come","bring / come , buy","order , try","try , order",2
+ch5-pair4a-009,vocab,5,"Pairs 1 B","Pair Ch 4 A","là , tián — 辣 , 甜","spicy , sweet",ch4|pairs|contrast,"spicy , sweet","sweet , spicy","salty , sweet","sweet , salty",2
+ch5-pair4a-010,vocab,5,"Pairs 1 B","Pair Ch 4 A","tián , xián — 甜 , 咸","sweet , salty",ch4|pairs|contrast,"sweet , salty","salty , sweet","spicy , sweet","sweet , spicy",2
+ch5-pair4a-011,vocab,5,"Pairs 1 B","Pair Ch 4 A","qián , xiànjīn — 钱 , 现金","money , cash",ch4|pairs|contrast,"money , cash","cash , money","card , pay","pay , card",2
+ch5-pair4a-012,vocab,5,"Pairs 1 B","Pair Ch 4 A","guì , piányi — 贵 , 便宜","expensive , cheap",ch4|pairs|contrast,"expensive , cheap","cheap , expensive","price , cheap","cheap , price",2
+ch5-pair4b-001,vocab,5,"Pairs 1 B","Pair Ch 4 B","chē , chūzūchē — 车 , 出租车","vehicle , taxi",ch4|pairs|contrast,"vehicle , taxi","taxi , vehicle","bus , taxi","taxi , bus",2
+ch5-pair4b-002,vocab,5,"Pairs 1 B","Pair Ch 4 B","dìtiě , huǒchē — 地铁 , 火车","subway , train",ch4|pairs|contrast,"subway , train","train , subway","bus , subway","subway , bus",2
+ch5-pair4b-003,vocab,5,"Pairs 1 B","Pair Ch 4 B","fēijī , zìxíngchē — 飞机 , 自行车","airplane , bicycle",ch4|pairs|contrast,"airplane , bicycle","bicycle , airplane","train , airplane","airplane , train",2
+ch5-pair4b-004,vocab,5,"Pairs 1 B","Pair Ch 4 B","chēzhàn , jīchǎng — 车站 , 机场","station , airport",ch4|pairs|contrast,"station , airport","airport , station","platform , airport","airport , platform",2
+ch5-pair4b-005,vocab,5,"Pairs 1 B","Pair Ch 4 B","rùkǒu , chūkǒu — 入口 , 出口","entrance , exit",ch4|pairs|contrast,"entrance , exit","exit , entrance","enter , exit","exit , enter",2
+ch5-pair4b-006,vocab,5,"Pairs 1 B","Pair Ch 4 B","jìn , chū — 进 , 出","enter , exit",ch4|pairs|contrast,"enter , exit","exit , enter","arrive , depart","depart , arrive",2
+ch5-pair4b-007,vocab,5,"Pairs 1 B","Pair Ch 4 B","dào , chūfā — 到 , 出发","arrive , depart",ch4|pairs|contrast,"arrive , depart","depart , arrive","enter , exit","exit , enter",2
+ch5-pair4b-008,vocab,5,"Pairs 1 B","Pair Ch 4 B","huàn , guò — 换 , 过","transfer , pass / cross",ch4|pairs|contrast,"transfer , pass / cross","pass / cross , transfer","arrive , transfer","transfer , arrive",2
+ch5-pair4b-009,vocab,5,"Pairs 1 B","Pair Ch 4 B","tíng , kào — 停 , 靠","stop , pull over / next to",ch4|pairs|contrast,"stop , pull over / next to","pull over / next to , stop","wait , stop","stop , wait",2
+ch5-pair4b-010,vocab,5,"Pairs 1 B","Pair Ch 4 B","zhèlǐ , nàlǐ — 这里 , 那里","here , there",ch4|pairs|contrast,"here , there","there , here","location , here","here , location",2
+ch5-pair4b-011,vocab,5,"Pairs 1 B","Pair Ch 4 B","lùkǒu , zhōngzhuǎn zhàn — 路口 , 中转站","intersection , transfer station",ch4|pairs|contrast,"intersection , transfer station","transfer station , intersection","station , airport","airport , station",2
+ch5-pair4b-012,vocab,5,"Pairs 1 B","Pair Ch 4 B","dìdiǎn , chēzhàn — 地点 , 车站","location , station",ch4|pairs|contrast,"location , station","station , location","platform , location","location , platform",2

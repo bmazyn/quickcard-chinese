@@ -120,3 +120,15 @@ export function getDecksForChapter(chapter: number): string[] {
     .sort((a, b) => a.order - b.order)
     .map(deck => deck.deckName);
 }
+
+/**
+ * Get full deck entries (including deckId) for a chapter, sorted by order.
+ * Prefer this over getDecksForChapter when you need both the id and metadata
+ * (e.g. to distinguish match-mode decks that are keyed by deckId).
+ */
+export function getDeckEntriesForChapter(chapter: number): Array<Deck & { deckId: string }> {
+  return Object.entries(decks)
+    .filter(([_, deck]) => deck.chapter === chapter)
+    .sort((a, b) => a[1].order - b[1].order)
+    .map(([deckId, deck]) => ({ deckId, ...deck }));
+}

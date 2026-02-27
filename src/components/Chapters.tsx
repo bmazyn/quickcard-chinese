@@ -1,12 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { getChapters, getDecksForChapter } from "../utils/decks";
+import { getChapters, getDeckEntriesForChapter } from "../utils/decks";
+import { getBestTime, isDeckComplete } from "../utils/deckProgress";
+import type { Deck } from "../types";
 import "./Chapters.css";
 
-// Get best time for a deck from localStorage
-function getDeckBestTime(deckName: string): number | null {
+type DeckEntry = Deck & { deckId: string };
+
+// Get best time for a deck entry.
+// Match decks are keyed by deckId; normal decks use the legacy deckName key.
+// Mirrors getDeckEntryBestTime in ChapterDetail.tsx.
+function getDeckEntryBestTime(entry: DeckEntry): number | null {
   try {
-    const key = `qc_deck_speedrun_best:${deckName}`;
+    if (entry.mode === "match") {
+      return getBestTime(entry.deckId);
+    }
+    const key = `qc_deck_speedrun_best:${entry.deckName}`;
     const stored = localStorage.getItem(key);
     return stored ? parseInt(stored, 10) : null;
   } catch {
@@ -14,28 +23,72 @@ function getDeckBestTime(deckName: string): number | null {
   }
 }
 
-// Get chapter rollup time (sum of all deck best times in chapter)
-function getChapterRollupTime(decks: string[]): number | null {
+// Chapter rollup time: only meaningful when the ENTIRE chapter is done.
+// Returns null (→ "--:--") if any deck is unmastered OR any best time is missing.
+function getChapterRollupTime(entries: DeckEntry[]): number | null {
   try {
+    const masteredMap: Record<string, boolean> = JSON.parse(
+      localStorage.getItem("quickcard_mastered_sections") ?? "{}"
+    );
     let total = 0;
-    let hasAnyTime = false;
-    
-    for (const deck of decks) {
-      const deckTime = getDeckBestTime(deck);
-      if (deckTime !== null) {
-        total += deckTime;
-        hasAnyTime = true;
-      } else {
-        // If any deck has no time, chapter time is incomplete
-        return null;
-      }
+    for (const entry of entries) {
+      // Every deck must be mastered
+      const mastered =
+        entry.mode === "match"
+          ? isDeckComplete(entry.deckId)
+          : !!masteredMap[entry.deckName];
+      if (!mastered) return null;
+      // Every deck must have a recorded best time
+      const t = getDeckEntryBestTime(entry);
+      if (t === null) return null;
+      total += t;
     }
-    
-    return hasAnyTime ? total : null;
+    return total > 0 ? total : null;
   } catch {
     return null;
   }
 }
+
+// ── Debug helpers (exported so they can be called from the browser console) ──
+
+/** Returns all deck entries configured for a chapter. */
+export function getChapterDecks(chapterId: number): DeckEntry[] {
+  const entries = getDeckEntriesForChapter(chapterId);
+  console.log(`[getChapterDecks] chapter=${chapterId}`, entries);
+  return entries;
+}
+
+/** Returns { mastered, total } for a chapter, counting ALL deck modes. */
+export function getChapterMasteredStats(
+  chapterId: number
+): { mastered: number; total: number } {
+  const entries = getDeckEntriesForChapter(chapterId);
+  const masteredMap: Record<string, boolean> = JSON.parse(
+    localStorage.getItem("quickcard_mastered_sections") ?? "{}"
+  );
+  const mastered = entries.filter(entry =>
+    entry.mode === "match"
+      ? isDeckComplete(entry.deckId)
+      : !!masteredMap[entry.deckName]
+  ).length;
+  const result = { mastered, total: entries.length };
+  console.log(`[getChapterMasteredStats] chapter=${chapterId}`, result);
+  return result;
+}
+
+/** Returns the summed best-time (seconds) for a fully-complete chapter,
+ *  or null if any deck is unmastered or missing a best time. */
+export function getChapterBestTime(chapterId: number): number | null {
+  const entries = getDeckEntriesForChapter(chapterId);
+  const time = getChapterRollupTime(entries);
+  console.log(
+    `[getChapterBestTime] chapter=${chapterId}`,
+    time !== null ? `${time}s` : "incomplete (null)"
+  );
+  return time;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 const chapters = getChapters();
 
@@ -55,10 +108,16 @@ export default function Chapters() {
   };
 
   // Get chapter rollup time display
-  const getChapterTime = (decks: string[]): string => {
-    const time = getChapterRollupTime(decks);
+  const getChapterTime = (entries: DeckEntry[]): string => {
+    const time = getChapterRollupTime(entries);
     return time !== null ? formatTime(time) : "--:--";
   };
+
+  // Log Chapter 5 debug stats once on mount for verification
+  useEffect(() => {
+    getChapterMasteredStats(5);
+    getChapterBestTime(5);
+  }, []);
 
   const handleBackToStart = () => {
     localStorage.removeItem("qc_has_visited");
@@ -83,9 +142,13 @@ export default function Chapters() {
 
         <div className="chapters-list">
           {chapters.map(chapter => {
-            const decks = getDecksForChapter(chapter);
-            const masteredCount = decks.filter(deck => masteredSections[deck]).length;
-            
+            const entries = getDeckEntriesForChapter(chapter);
+            const masteredCount = entries.filter(entry =>
+              entry.mode === "match"
+                ? isDeckComplete(entry.deckId)
+                : !!masteredSections[entry.deckName]
+            ).length;
+
             return (
               <div 
                 key={chapter}
@@ -97,10 +160,10 @@ export default function Chapters() {
                 </div>
                 <div className="chapter-card-footer">
                   <span className="chapter-card-time">
-                    ⏱️ {getChapterTime(decks)}
+                    ⏱️ {getChapterTime(entries)}
                   </span>
                   <span className="chapter-card-mastery">
-                    {masteredCount} / {decks.length} mastered
+                    {masteredCount} / {entries.length} mastered
                   </span>
                 </div>
               </div>
