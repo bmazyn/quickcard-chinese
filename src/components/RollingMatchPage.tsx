@@ -6,8 +6,8 @@ import { getAllDecks } from "../utils/decks";
 import { saveBestTime, markDeckComplete } from "../utils/deckProgress";
 import "./RollingMatchPage.css";
 
-const POOL_SIZE = 24;
-const PAGE_SIZE = 6;
+const POOL_SIZE = 20;
+const PAGE_SIZE = 5;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
