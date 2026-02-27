@@ -107,6 +107,12 @@
 
 /* ─── Board ───────────────────────────────────────────────────────────────── */
 .rm-board {
+  /* ── Single knob: change only this to re-tune mobile card-text size ──── */
+  /* Resets to 1 at ≥500 px so desktop is unaffected.                      */
+  --rm-text-scale:   1.065;
+  --rm-prompt-base:  1.21rem;
+  --rm-english-base: 0.99rem;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto repeat(5, 1fr);
@@ -209,7 +215,9 @@
 
 /* ─── Card text ───────────────────────────────────────────────────────────── */
 .rm-prompt {
-  font-size: 1.155rem;
+  font-size: calc(var(--rm-prompt-base) * var(--rm-text-scale));
+  /* mobile ≈393–430 px: 1.21 × 1.065 ≈ 1.29rem
+     desktop  ≥500 px:   1.21 × 1     = 1.21rem  */
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.3;
@@ -226,7 +234,9 @@
 }
 
 .rm-english {
-  font-size: 1.03rem;
+  font-size: calc(var(--rm-english-base) * var(--rm-text-scale));
+  /* mobile ≈393–430 px: 0.99 × 1.065 ≈ 1.05rem
+     desktop  ≥500 px:   0.99 × 1     = 0.99rem  */
   font-weight: 500;
   color: var(--text-primary);
   line-height: 1.3;
@@ -404,13 +414,8 @@
 
 /* ─── Responsive tweaks ───────────────────────────────────────────────────── */
 @media (min-width: 500px) {
-  .rm-prompt {
-    font-size: 1.21rem;
-  }
-
-  .rm-english {
-    font-size: 0.99rem;
-  }
+  /* Reset mobile text-scale – absolute sizes come from the CSS vars above */
+  .rm-board { --rm-text-scale: 1; }
 }
 
 /* Larger cards once we have more breathing room */
