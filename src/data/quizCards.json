@@ -10828,6 +10828,106 @@
 "difficulty":2
 }
 ,
+
+
+{
+"id":"es1_ph-001",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"wǒ jīnnián hěn máng — 我今年很忙。",
+"question":"What does this mean?",
+"choices":{"A":"I am very busy this year.","B":"I was busy last year.","C":"I am busy every year.","D":"I am not busy this year."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-002",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"qùnián zhēn de hěn nán — 去年真的很难。",
+"question":"What does this mean?",
+"choices":{"A":"Last year was really hard.","B":"This year is really hard.","C":"Last year was really easy.","D":"Maybe last year was hard."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-003",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"wǒ kěnéng huì qù — 我可能会去。",
+"question":"What does this mean?",
+"choices":{"A":"I might go.","B":"I already went.","C":"I must go.","D":"I will not go."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-004",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"xièxie nǐ de bāngzhù — 谢谢你的帮助。",
+"question":"What does this mean?",
+"choices":{"A":"Thanks for your help.","B":"Can you help me?","C":"I need help.","D":"I will help you."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-005",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"wǒ zhēn de bù zhīdào — 我真的不知道。",
+"question":"What does this mean?",
+"choices":{"A":"I really don’t know.","B":"I really know.","C":"I don’t want to know.","D":"I don’t know yet."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-006",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"wǒmen yìqǐ huídá — 我们一起回答。",
+"question":"What does this mean?",
+"choices":{"A":"Let’s answer together.","B":"Let’s go together.","C":"Let’s help together.","D":"Let’s talk together."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-007",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"zhè shì yí gè jīhuì — 这是一个机会。",
+"question":"What does this mean?",
+"choices":{"A":"This is an opportunity.","B":"This is a problem.","C":"This is an answer.","D":"This is important."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+},
+{
+"id":"es1_ph-008",
+"kind":"vocab",
+"deckId":"es1_ph",
+"level":"HSK2",
+"promptLine":"nǐ kěyǐ bāng wǒ ma — 你可以帮我吗？",
+"question":"What does this mean?",
+"choices":{"A":"Can you help me?","B":"Do you want to help?","C":"I can help you.","D":"You can answer me."},
+"correct":"A",
+"tags":["ch5","sec5.2"],
+"difficulty":3
+}
+,
+
 {
   "id": "ch5-pair1-001",
   "kind": "vocab",
