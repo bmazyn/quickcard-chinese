@@ -93,7 +93,21 @@
   "ch5-v524":  { "chapter": 6,  "section": "Essential B", "deckName": "Essential 2",   "order": 1 },
   "es2_ph":    { "chapter": 6,  "section": "Essential B", "deckName": "Essential 2 Phrases",   "order": 2 },
   "ch5-v531":  { "chapter": 6,  "section": "Essential B", "deckName": "Essential 3", "order": 3 },
-  "es3_ph":    { "chapter": 6,  "section": "Essential B", "deckName": "Essential 3 Phrases",   "order": 4 }
+  "es3_ph":    { "chapter": 6,  "section": "Essential B", "deckName": "Essential 3 Phrases",   "order": 4 },
 
+  "ch7-time1":   { "chapter": 7, "section": "Time & Space", "deckName": "Time Expressions", "order": 1 },
+  "ch7-timep1":  { "chapter": 7, "section": "Time & Space", "deckName": "Time Phrases", "order": 2 },
+  "ch7-dir1":    { "chapter": 7, "section": "Time & Space", "deckName": "Direction & Position", "order": 3 },
+  "ch7-dirp1":   { "chapter": 7, "section": "Time & Space", "deckName": "Direction Phrases", "order": 4 },
+
+  "ch7-wth1":    { "chapter": 7, "section": "Weather & Mixe", "deckName": "Weather", "order": 1 },
+  "ch7-wthp1":   { "chapter": 7, "section": "Weather & Mixe", "deckName": "Weather Phrases", "order": 2 },
+  "ch7-wp1":     { "chapter": 7, "section": "Weather & Mixe", "deckName": "Mixed Phrases 1", "order": 3 },
+  "ch7-wp2":     { "chapter": 7, "section": "Weather & Mixe", "deckName": "Mixed Phrases 2", "order": 4 },
+
+  "ch7-es4":    { "chapter": 7, "section": "Essential C", "deckName": "Essential 4", "order": 1 },
+  "ch7-es4p":   { "chapter": 7, "section": "Essential C", "deckName": "Essential 4 Phrases", "order": 2 },
+  "ch7-es5":    { "chapter": 7, "section": "Essential C", "deckName": "Essential 5", "order": 3 },
+  "ch7-es5p":   { "chapter": 7, "section": "Essential C", "deckName": "Essential 5 Phrases", "order": 4 }
 
 }
