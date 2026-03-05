@@ -105,3 +105,9 @@
   font-weight: 500;
   color: var(--text-secondary);
 }
+.chapter-completion-check {
+  margin-left: 6px;
+  font-size: 1.05rem;
+  color: var(--success-border);
+  font-weight: 600;
+}

@@ -100,6 +100,7 @@ export default function BookDetail() {
                 ? isDeckComplete(entry.deckId)
                 : !!masteredSections[entry.deckName]
             ).length;
+            const isChapterComplete = masteredCount === entries.length && entries.length > 0;
 
             return (
               <div 
@@ -108,7 +109,10 @@ export default function BookDetail() {
                 onClick={() => handleChapterClick(chapter)}
               >
                 <div className="book-detail-chapter-card-header">
-                  <h2 className="book-detail-chapter-card-title">Chapter {chapter}</h2>
+                  <h2 className="book-detail-chapter-card-title">
+                    Chapter {chapter}
+                    {isChapterComplete && <span className="chapter-completion-check">✓</span>}
+                  </h2>
                 </div>
                 <div className="book-detail-chapter-card-footer">
                   <span className="book-detail-chapter-card-time">

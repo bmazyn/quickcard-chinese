@@ -148,6 +148,7 @@ export default function Chapters() {
                 ? isDeckComplete(entry.deckId)
                 : !!masteredSections[entry.deckName]
             ).length;
+            const isChapterComplete = masteredCount === entries.length && entries.length > 0;
 
             return (
               <div 
@@ -156,7 +157,10 @@ export default function Chapters() {
                 onClick={() => handleChapterClick(chapter)}
               >
                 <div className="chapter-card-header">
-                  <h2 className="chapter-card-title">Chapter {chapter}</h2>
+                  <h2 className="chapter-card-title">
+                    Chapter {chapter}
+                    {isChapterComplete && <span className="chapter-completion-check">✓</span>}
+                  </h2>
                 </div>
                 <div className="chapter-card-footer">
                   <span className="chapter-card-time">

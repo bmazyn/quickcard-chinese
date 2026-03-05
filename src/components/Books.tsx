@@ -39,6 +39,7 @@ export default function Books() {
             const { chaptersComplete, chaptersTotal } = getBookMasteryStats(bookId);
             const bestTime = getBookBestTime(bookId);
             const timeDisplay = bestTime !== null ? formatTime(bestTime) : "--:--";
+            const isBookComplete = chaptersComplete === chaptersTotal && chaptersTotal > 0;
 
             return (
               <div 
@@ -47,7 +48,10 @@ export default function Books() {
                 onClick={() => handleBookClick(bookId)}
               >
                 <div className="book-card-header">
-                  <h2 className="book-card-title">Book {bookId}</h2>
+                  <h2 className="book-card-title">
+                    Book {bookId}
+                    {isBookComplete && <span className="book-completion-check">✓</span>}
+                  </h2>
                 </div>
                 <div className="book-card-footer">
                   <span className="book-card-time">
