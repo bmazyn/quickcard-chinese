@@ -11,6 +11,7 @@ export default function StudyList() {
   const [searchParams] = useSearchParams();
   const deckParam = searchParams.get("deck") || "";
   const chapterId = location.state?.chapterId;
+  const bookId = location.state?.bookId;
 
   const [cards, setCards] = useState<QuizCard[]>([]);
   const [displayTitle, setDisplayTitle] = useState("");
@@ -71,9 +72,11 @@ export default function StudyList() {
 
   const handleBackClick = () => {
     if (chapterId) {
-      navigate(`/chapter/${chapterId}`);
+      navigate(`/chapters/${chapterId}`);
+    } else if (bookId) {
+      navigate(`/books/${bookId}`);
     } else {
-      navigate("/chapters");
+      navigate("/books");
     }
   };
 

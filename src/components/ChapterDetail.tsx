@@ -363,7 +363,7 @@ export default function ChapterDetail() {
             <div className="modal-buttons">
               <button className="modal-button" onClick={() => {
                 setShowDeckModal(false);
-                navigate(`/study-list?deck=${encodeURIComponent(modalDeck)}`, { state: { chapterId: chapter } });
+                navigate(`/study-list?deck=${encodeURIComponent(modalDeck)}`, { state: { chapterId: chapter, bookId } });
               }}>
                 📋 Study List
               </button>
