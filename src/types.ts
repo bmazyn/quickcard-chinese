@@ -5,6 +5,8 @@ export type HSKLevel = "HSK1" | "HSK1b" | "HSK1-PHRASE" | "HSK1c" | "HSK2";
 export type ChoiceKey = "A" | "B" | "C" | "D";
 
 export interface Deck {
+  /** Which book this deck belongs to (1-based) */
+  book?: number;
   chapter: number;
   section: string;
   deckName: string;

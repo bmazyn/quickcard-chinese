@@ -8,19 +8,14 @@ export default function StartPage() {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    // Check if the user has already visited
-    const hasVisited = localStorage.getItem("qc_has_visited");
-    if (hasVisited === "true") {
-      // Skip start page and go directly to chapters
-      navigate("/chapters", { replace: true });
-    }
-  }, [navigate]);
+    console.log('[StartPage] Mounted on route:', window.location.pathname);
+  }, []);
 
   const handleEnter = () => {
     // Mark as visited
     localStorage.setItem("qc_has_visited", "true");
-    // Navigate to chapters page
-    navigate("/chapters");
+    // Navigate to books page
+    navigate("/books");
   };
 
   const handleExport = () => {

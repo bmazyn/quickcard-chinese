@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
 import { getDeckEntriesForSection, getChapterStructure } from "../utils/decks";
 import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/deckProgress";
 import type { Deck } from "../types";
@@ -55,8 +55,10 @@ Object.values(chapterStructure).flat().forEach(section => {
 
 export default function ChapterDetail() {
   const navigate = useNavigate();
+  const location = useLocation();
   const { chapterId } = useParams<{ chapterId: string }>();
   const chapter = chapterId ? Number(chapterId) : 1;
+  const bookId = location.state?.bookId;
   
   // Audio element for iOS Safari autoplay unlock
   const audioUnlockRef = useRef<HTMLAudioElement | null>(null);
@@ -231,7 +233,11 @@ export default function ChapterDetail() {
   };
 
   const handleBackToChapters = () => {
-    navigate("/chapters");
+    if (bookId) {
+      navigate(`/books/${bookId}`);
+    } else {
+      navigate("/books");
+    }
   };
 
   const sectionsInChapter = chapterStructure[chapter] || [];

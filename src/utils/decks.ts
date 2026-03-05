@@ -1,5 +1,6 @@
 import type { Deck } from "../types";
 import decksData from "../data/decks.json";
+import { isDeckComplete, getBestTime } from "./deckProgress";
 
 // Type the imported decks data
 const decks = decksData as Record<string, Deck>;
@@ -131,4 +132,113 @@ export function getDeckEntriesForChapter(chapter: number): Array<Deck & { deckId
     .filter(([_, deck]) => deck.chapter === chapter)
     .sort((a, b) => a[1].order - b[1].order)
     .map(([deckId, deck]) => ({ deckId, ...deck }));
+}
+
+// ─── Internal helpers used by book stats ────────────────────────────────────
+
+type DeckEntry = Deck & { deckId: string };
+
+/** Best time for a single deck entry (mirrors getDeckEntryBestTime in components). */
+function _getDeckEntryBestTime(entry: DeckEntry): number | null {
+  try {
+    if (entry.mode === "match") return getBestTime(entry.deckId);
+    const stored = localStorage.getItem(`qc_deck_speedrun_best:${entry.deckName}`);
+    return stored !== null ? parseInt(stored, 10) : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Chapter rollup time: null unless every deck in the chapter is mastered
+ * AND every deck has a recorded best time.
+ */
+function _getChapterRollupTime(chapter: number): number | null {
+  const entries = getDeckEntriesForChapter(chapter);
+  try {
+    const masteredMap: Record<string, boolean> = JSON.parse(
+      localStorage.getItem("quickcard_mastered_sections") ?? "{}"
+    );
+    let total = 0;
+    for (const entry of entries) {
+      const mastered =
+        entry.mode === "match"
+          ? isDeckComplete(entry.deckId)
+          : !!masteredMap[entry.deckName];
+      if (!mastered) return null;
+      const t = _getDeckEntryBestTime(entry);
+      if (t === null) return null;
+      total += t;
+    }
+    return total > 0 ? total : null;
+  } catch {
+    return null;
+  }
+}
+
+// ─── Public book helpers ─────────────────────────────────────────────────────
+
+/**
+ * All unique book numbers present in decks config, sorted ascending.
+ */
+export function getBookIds(): number[] {
+  const books = new Set<number>();
+  Object.values(decks).forEach(deck => {
+    if (deck.book !== undefined) books.add(deck.book);
+  });
+  return Array.from(books).sort((a, b) => a - b);
+}
+
+/**
+ * All chapter numbers that belong to a given book, sorted ascending.
+ */
+export function getChaptersForBook(bookId: number): number[] {
+  const chapters = new Set<number>();
+  Object.values(decks).forEach(deck => {
+    if (deck.book === bookId) chapters.add(deck.chapter);
+  });
+  return Array.from(chapters).sort((a, b) => a - b);
+}
+
+/**
+ * How many chapters in the book are fully mastered (all decks mastered)
+ * vs the total chapter count.
+ */
+export function getBookMasteryStats(
+  bookId: number
+): { chaptersComplete: number; chaptersTotal: number } {
+  const chapters = getChaptersForBook(bookId);
+  try {
+    const masteredMap: Record<string, boolean> = JSON.parse(
+      localStorage.getItem("quickcard_mastered_sections") ?? "{}"
+    );
+    let chaptersComplete = 0;
+    for (const chapter of chapters) {
+      const entries = getDeckEntriesForChapter(chapter);
+      const allMastered = entries.every(entry =>
+        entry.mode === "match"
+          ? isDeckComplete(entry.deckId)
+          : !!masteredMap[entry.deckName]
+      );
+      if (allMastered && entries.length > 0) chaptersComplete++;
+    }
+    return { chaptersComplete, chaptersTotal: chapters.length };
+  } catch {
+    return { chaptersComplete: 0, chaptersTotal: chapters.length };
+  }
+}
+
+/**
+ * Sum of all chapter rollup times for the book.
+ * Returns null if any chapter is incomplete or missing a best time.
+ */
+export function getBookBestTime(bookId: number): number | null {
+  const chapters = getChaptersForBook(bookId);
+  let total = 0;
+  for (const chapter of chapters) {
+    const t = _getChapterRollupTime(chapter);
+    if (t === null) return null;
+    total += t;
+  }
+  return total > 0 ? total : null;
 }
