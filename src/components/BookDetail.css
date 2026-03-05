@@ -117,8 +117,8 @@
 }
 
 .chapter-completion-check {
-  margin-left: 6px;
-  font-size: 1.05rem;
+  margin-left: 12px;
+  font-size: 1.155rem;
   color: var(--success-border);
   font-weight: 600;
 }
