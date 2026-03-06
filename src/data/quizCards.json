@@ -12264,6 +12264,8 @@
 "tags":["ch4","pairs","contrast"],
 "difficulty":2
 }
+
+
 ,
 {
   "id": "ch7-time1-001",
@@ -12515,6 +12517,111 @@
 }
 ,
 {
+  "id": "ch7-timep1-001",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒ gāngcái kànjiàn tā — 我刚才看见他",
+  "question": "What does this mean?",
+  "choices": { "A": "I just saw him.", "B": "I will see him later.", "C": "I already know him.", "D": "I am waiting for him." },
+  "correct": "A",
+  "explanation": "我刚才看见他 means I just saw him.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-002",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒ mǎshàng lái — 我马上来",
+  "question": "What does this mean?",
+  "choices": { "A": "I came before.", "B": "I am here now.", "C": "I'll come immediately.", "D": "I want to come later." },
+  "correct": "C",
+  "explanation": "我马上来 means I'll come immediately.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-003",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "tā yǐjīng zǒu le — 他已经走了",
+  "question": "What does this mean?",
+  "choices": { "A": "He already left.", "B": "He is leaving now.", "C": "He will leave later.", "D": "He has not left yet." },
+  "correct": "A",
+  "explanation": "他已经走了 means he already left.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-004",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒ hái méi chī fàn — 我还没吃饭",
+  "question": "What does this mean?",
+  "choices": { "A": "I already ate.", "B": "I haven't eaten yet.", "C": "I am eating now.", "D": "I will eat later." },
+  "correct": "B",
+  "explanation": "我还没吃饭 means I haven't eaten yet.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-005",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒmen yǐhòu zài shuō — 我们以后再说",
+  "question": "What does this mean?",
+  "choices": { "A": "We already said it.", "B": "We are saying it now.", "C": "We'll talk later.", "D": "We talked before." },
+  "correct": "C",
+  "explanation": "我们以后再说 means we'll talk later.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-006",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒ yǐqián zhù zài zhèlǐ — 我以前住在这里",
+  "question": "What does this mean?",
+  "choices": { "A": "I live here now.", "B": "I lived here before.", "C": "I will live here later.", "D": "I am staying here today." },
+  "correct": "B",
+  "explanation": "我以前住在这里 means I lived here before.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-007",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "tā zhèngzài gōngzuò — 他正在工作",
+  "question": "What does this mean?",
+  "choices": { "A": "He already worked.", "B": "He will work later.", "C": "He is currently working.", "D": "He wants to work." },
+  "correct": "C",
+  "explanation": "他正在工作 means he is currently working.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-timep1-008",
+  "kind": "phrase",
+  "deckId": "ch7-timep1",
+  "level": "HSK2",
+  "promptLine": "wǒ yìzhí děng nǐ — 我一直等你",
+  "question": "What does this mean?",
+  "choices": { "A": "I just met you.", "B": "I will find you later.", "C": "I've been waiting for you.", "D": "I already told you." },
+  "correct": "C",
+  "explanation": "我一直等你 means I've been waiting for you.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 3
+}
+,
+{
   "id": "ch7-dir1-001",
   "kind": "vocab",
   "deckId": "ch7-dir1",
@@ -12701,6 +12808,156 @@
   "tags": ["ch7"],
   "difficulty": 2
 }
+,
+{
+  "id": "ch7-dirp1-001",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "tā zài wǒ zuǒbiān — 他在我左边",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He is on my left.",
+    "B": "He is on my right.",
+    "C": "He is behind me.",
+    "D": "He is inside."
+  },
+  "correct": "A",
+  "explanation": "他在我左边 means he is on my left.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+
+{
+"id":"ch7-pair1-001",
+"kind":"vocab",
+"deckId":"ch7-dir1",
+"level":"HSK2",
+"promptLine":"zuǒbiān , yòubiān — 左边 , 右边",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"left side , right side","B":"right side , left side","C":"inside , outside","D":"front , back"},
+"correct":"A",
+"tags":["ch7","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch7-pair1-002",
+"kind":"vocab",
+"deckId":"ch7-dir1",
+"level":"HSK2",
+"promptLine":"qiánmiàn , hòumiàn — 前面 , 后面",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"behind , front","B":"front , behind","C":"left , right","D":"inside , outside"},
+"correct":"B",
+"tags":["ch7","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch7-pair1-003",
+"kind":"vocab",
+"deckId":"ch7-dir1",
+"level":"HSK2",
+"promptLine":"lǐmiàn , wàimiàn — 里面 , 外面",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"inside , outside","B":"outside , inside","C":"front , behind","D":"left , right"},
+"correct":"A",
+"tags":["ch7","pairs","contrast"],
+"difficulty":2
+}
+,
+
+
+{
+  "id": "ch7-dirp1-002",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "tā zài wǒ yòubiān — 他在我右边",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "He is inside the room.",
+    "B": "He is on my right.",
+    "C": "He is behind me.",
+    "D": "He is in front of me."
+  },
+  "correct": "B",
+  "explanation": "他在我右边 means he is on my right.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-dirp1-003",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "wǒ jiā zài qiánmiàn — 我家在前面",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "My home is behind.",
+    "B": "My home is ahead.",
+    "C": "My home is outside.",
+    "D": "My home is inside."
+  },
+  "correct": "B",
+  "explanation": "我家在前面 means my home is ahead.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-dirp1-004",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "chāoshì zài hòumiàn — 超市在后面",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "The supermarket is ahead.",
+    "B": "The supermarket is inside.",
+    "C": "The supermarket is behind.",
+    "D": "The supermarket is outside."
+  },
+  "correct": "C",
+  "explanation": "超市在后面 means the supermarket is behind.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-dirp1-005",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "māo zài hézi lǐmiàn — 猫在盒子里面",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "The cat is behind the box.",
+    "B": "The cat is inside the box.",
+    "C": "The cat is outside the box.",
+    "D": "The cat is in front of the box."
+  },
+  "correct": "B",
+  "explanation": "猫在盒子里面 means the cat is inside the box.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-dirp1-006",
+  "kind": "phrase",
+  "deckId": "ch7-dirp1",
+  "level": "HSK2",
+  "promptLine": "tāmen zài mén wàimiàn — 他们在门外面",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "They are inside the door.",
+    "B": "They are behind the door.",
+    "C": "They are outside the door.",
+    "D": "They are in front of the door."
+  },
+  "correct": "C",
+  "explanation": "他们在门外面 means they are outside the door.",
+  "tags": ["ch7", "phrase"],
+  "difficulty": 2
+}
+
 ,
 {
   "id": "ch7-wth1-001",
@@ -12949,6 +13206,256 @@
   "explanation": "冷 means cold.",
   "tags": ["ch7"],
   "difficulty": 2
+}
+,
+{
+  "id": "ch7-wthp1-001",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān xiàyǔ — 今天下雨",
+  "question": "What does this mean?",
+  "choices": { "A": "It will rain tomorrow.", "B": "It rained before.", "C": "It is raining today.", "D": "It is windy today." },
+  "correct": "C",
+  "explanation": "今天下雨 means it is raining today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-002",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān xiàxuě — 今天下雪",
+  "question": "What does this mean?",
+  "choices": { "A": "It is snowing today.", "B": "It snowed yesterday.", "C": "It will snow later.", "D": "It is cloudy today." },
+  "correct": "A",
+  "explanation": "今天下雪 means it is snowing today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-003",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān guāfēng — 今天刮风",
+  "question": "What does this mean?",
+  "choices": { "A": "It is raining today.", "B": "It is windy today.", "C": "It is hot today.", "D": "It is cold today." },
+  "correct": "B",
+  "explanation": "今天刮风 means it is windy today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-004",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān qíngtiān — 今天晴天",
+  "question": "What does this mean?",
+  "choices": { "A": "It is cloudy today.", "B": "It is sunny today.", "C": "It is raining today.", "D": "It is windy today." },
+  "correct": "B",
+  "explanation": "今天晴天 means it is sunny today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-005",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān yīntiān — 今天阴天",
+  "question": "What does this mean?",
+  "choices": { "A": "It is cloudy today.", "B": "It is sunny today.", "C": "It is cold today.", "D": "It is windy today." },
+  "correct": "A",
+  "explanation": "今天阴天 means it is cloudy today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-006",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān hěn rè — 今天很热",
+  "question": "What does this mean?",
+  "choices": { "A": "It is very windy today.", "B": "It is very hot today.", "C": "It is very cool today.", "D": "It is very cold today." },
+  "correct": "B",
+  "explanation": "今天很热 means it is very hot today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-007",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān hěn lěng — 今天很冷",
+  "question": "What does this mean?",
+  "choices": { "A": "It is very cold today.", "B": "It is very hot today.", "C": "It is very sunny today.", "D": "It is very windy today." },
+  "correct": "A",
+  "explanation": "今天很冷 means it is very cold today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-wthp1-008",
+  "kind": "phrase",
+  "deckId": "ch7-wthp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān hěn liángkuai — 今天很凉快",
+  "question": "What does this mean?",
+  "choices": { "A": "It is very hot today.", "B": "It is pleasantly cool today.", "C": "It is very windy today.", "D": "It is raining today." },
+  "correct": "B",
+  "explanation": "今天很凉快 means it is pleasantly cool today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+
+{
+  "id": "ch7-mxp1-001",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān qiánmiàn xiàyǔ — 今天前面下雨",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It rained before.",
+    "B": "It is raining ahead today.",
+    "C": "It will rain later.",
+    "D": "It is sunny ahead."
+  },
+  "correct": "B",
+  "explanation": "今天前面下雨 means it is raining ahead today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 3
+},
+{
+  "id": "ch7-mxp1-002",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān wàimiàn guāfēng — 今天外面刮风",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is windy outside today.",
+    "B": "It is windy inside today.",
+    "C": "It rained outside today.",
+    "D": "It is cloudy outside today."
+  },
+  "correct": "A",
+  "explanation": "今天外面刮风 means it is windy outside today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-mxp1-003",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān zuǒbiān xiàyǔ — 今天左边下雨",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is raining on the right today.",
+    "B": "It is raining on the left today.",
+    "C": "It rained before on the left.",
+    "D": "It is windy on the left today."
+  },
+  "correct": "B",
+  "explanation": "今天左边下雨 means it is raining on the left today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 3
+},
+{
+  "id": "ch7-mxp1-004",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān hòumiàn yīntiān — 今天后面阴天",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is sunny behind today.",
+    "B": "It is cloudy behind today.",
+    "C": "It is windy behind today.",
+    "D": "It is raining behind today."
+  },
+  "correct": "B",
+  "explanation": "今天后面阴天 means it is cloudy behind today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 3
+},
+{
+  "id": "ch7-mxp1-005",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān xiàyǔ hé guāfēng — 今天下雨和刮风",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is raining or windy today.",
+    "B": "It rained before and was windy.",
+    "C": "It is raining and windy today.",
+    "D": "It is sunny and windy today."
+  },
+  "correct": "C",
+  "explanation": "今天下雨和刮风 means it is raining and windy today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-mxp1-006",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān xiàyǔ huòzhě guāfēng — 今天下雨或者刮风",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is raining and windy today.",
+    "B": "It will rain later.",
+    "C": "It is raining or windy today.",
+    "D": "It rained before and was windy."
+  },
+  "correct": "C",
+  "explanation": "今天下雨或者刮风 means it is raining or windy today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-mxp1-007",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān wàimiàn hěn lěng — 今天外面很冷",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is very cold outside today.",
+    "B": "It is very hot outside today.",
+    "C": "It is very windy outside today.",
+    "D": "It is cloudy outside today."
+  },
+  "correct": "A",
+  "explanation": "今天外面很冷 means it is very cold outside today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 2
+},
+{
+  "id": "ch7-mxp1-008",
+  "kind": "phrase",
+  "deckId": "ch7-mxp1",
+  "level": "HSK2",
+  "promptLine": "jīntiān qiánmiàn hěn rè — 今天前面很热",
+  "question": "What does this mean?",
+  "choices": {
+    "A": "It is very windy ahead today.",
+    "B": "It is very cold ahead today.",
+    "C": "It is very hot ahead today.",
+    "D": "It is raining ahead today."
+  },
+  "correct": "C",
+  "explanation": "今天前面很热 means it is very hot ahead today.",
+  "tags": ["ch7","phrase"],
+  "difficulty": 3
 }
 
 ]
