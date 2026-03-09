@@ -679,82 +679,106 @@ ch5-holp2-005,vocab,6,"Holidays","Holiday Phrase 2","tā dǎ diànhuà zhù wǒ 
 ch5-holp2-006,vocab,6,"Holidays","Holiday Phrase 2","wǒ men pāi zhàopiàn — 我们拍照片","We take photos.",ch5,"We send photos.","We take photos.","We buy photos.","We open photos.",2
 ch5-holp2-007,vocab,6,"Holidays","Holiday Phrase 2","xīnnián kuài dào le — 新年快到了","New Year is coming soon.",ch5,"New Year is finished.","New Year is coming soon.","New Year is slow.","New Year is closed.",3
 ch5-holp2-008,vocab,6,"Holidays","Holiday Phrase 2","Chūnjié wǒ men huí jiā — 春节我们回家","We go home for Spring Festival.",ch5,"We start Spring Festival.","We open Spring Festival.","We go home for Spring Festival.","We finish Spring Festival.",3
-ch5-cty1-001,vocab,6,"Sec 6.2","Countries 1","Měiguó — 美国","United States",ch5,"United Kingdom","Canada","United States","Australia",1
-ch5-cty1-002,vocab,6,"Sec 6.2","Countries 1","United States","Měiguó — 美国",ch5,"Měiguó — 美国","Yīngguó — 英国","Fǎguó — 法国","Déguó — 德国",1
-ch5-cty1-003,vocab,6,"Sec 6.2","Countries 1","Zhōngguó — 中国","China",ch5,"Japan","China","Korea","India",1
-ch5-cty1-004,vocab,6,"Sec 6.2","Countries 1","China","Zhōngguó — 中国",ch5,"Hánguó — 韩国","Rìběn — 日本","Zhōngguó — 中国","Yìndù — 印度",1
-ch5-cty1-005,vocab,6,"Sec 6.2","Countries 1","Yīngguó — 英国","United Kingdom",ch5,"United Kingdom","France","Germany","Canada",1
-ch5-cty1-006,vocab,6,"Sec 6.2","Countries 1","United Kingdom","Yīngguó — 英国",ch5,"Jiānádà — 加拿大","Yīngguó — 英国","Àodàlìyà — 澳大利亚","Fǎguó — 法国",1
-ch5-cty1-007,vocab,6,"Sec 6.2","Countries 1","Jiānádà — 加拿大","Canada",ch5,"Australia","France","Canada","India",1
-ch5-cty1-008,vocab,6,"Sec 6.2","Countries 1","Canada","Jiānádà — 加拿大",ch5,"Déguó — 德国","Jiānádà — 加拿大","Fǎguó — 法国","Yīngguó — 英国",1
-ch5-cty1-009,vocab,6,"Sec 6.2","Countries 1","Àodàlìyà — 澳大利亚","Australia",ch5,"Australia","Germany","Japan","India",1
-ch5-cty1-010,vocab,6,"Sec 6.2","Countries 1","Australia","Àodàlìyà — 澳大利亚",ch5,"Jiānádà — 加拿大","Àodàlìyà — 澳大利亚","Yīngguó — 英国","Yìndù — 印度",1
-ch5-cty1-011,vocab,6,"Sec 6.2","Countries 1","Rìběn — 日本","Japan",ch5,"South Korea","Japan","China","India",1
-ch5-cty1-012,vocab,6,"Sec 6.2","Countries 1","Japan","Rìběn — 日本",ch5,"Rìběn — 日本","Hánguó — 韩国","Zhōngguó — 中国","Yìndù — 印度",1
-ch5-cty1-013,vocab,6,"Sec 6.2","Countries 1","Hánguó — 韩国","South Korea",ch5,"South Korea","Japan","Germany","France",1
-ch5-cty1-014,vocab,6,"Sec 6.2","Countries 1","South Korea","Hánguó — 韩国",ch5,"Rìběn — 日本","Hánguó — 韩国","Yīngguó — 英国","Měiguó — 美国",1
-ch5-cty1-015,vocab,6,"Sec 6.2","Countries 1","Fǎguó — 法国","France",ch5,"Germany","France","Canada","United Kingdom",1
-ch5-cty1-016,vocab,6,"Sec 6.2","Countries 1","France","Fǎguó — 法国",ch5,"Fǎguó — 法国","Déguó — 德国","Yīngguó — 英国","Àodàlìyà — 澳大利亚",1
-ch5-cty1-017,vocab,6,"Sec 6.2","Countries 1","Déguó — 德国","Germany",ch5,"France","Germany","India","United States",1
-ch5-cty1-018,vocab,6,"Sec 6.2","Countries 1","Germany","Déguó — 德国",ch5,"Fǎguó — 法国","Déguó — 德国","Rìběn — 日本","Jiānádà — 加拿大",1
-ch5-cty1-019,vocab,6,"Sec 6.2","Countries 1","Yìndù — 印度","India",ch5,"India","China","Japan","Australia",1
-ch5-cty1-020,vocab,6,"Sec 6.2","Countries 1","India","Yìndù — 印度",ch5,"Yìndù — 印度","Zhōngguó — 中国","Hánguó — 韩国","Yīngguó — 英国",1
-ch5-ctyp1-001,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ lái zì Měiguó — 我来自美国","I am from the United States.",ch5,"I live in the United States.","I go to the United States.","I am from the United States.","I like the United States.",2
-ch5-ctyp1-002,vocab,6,"Sec 6.2","Countries Phrase 1","tā shì Zhōngguó rén — 他是中国人","He is Chinese.",ch5,"He likes China.","He is Chinese.","He is in China.","He goes to China.",2
-ch5-ctyp1-003,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ xiǎng qù Rìběn — 我想去日本","I want to go to Japan.",ch5,"I am from Japan.","I live in Japan.","I want to go to Japan.","I like Japan.",2
-ch5-ctyp1-004,vocab,6,"Sec 6.2","Countries Phrase 1","tā qùle Fǎguó — 他去了法国","He went to France.",ch5,"He is from France.","He went to France.","He likes France.","He lives in France.",3
-ch5-ctyp1-005,vocab,6,"Sec 6.2","Countries Phrase 1","wǒ zài Jiānádà gōngzuò — 我在加拿大工作","I work in Canada.",ch5,"I go to Canada.","I work in Canada.","I am from Canada.","I like Canada.",3
-ch5-ctyp1-006,vocab,6,"Sec 6.2","Countries Phrase 1","Àodàlìyà hěn dà — 澳大利亚很大","Australia is very big.",ch5,"Australia is very small.","Australia is very big.","Australia is very old.","Australia is very fast.",2
-ch5-ctyp1-007,vocab,6,"Sec 6.2","Countries Phrase 1","Déguó hěn piàoliang — 德国很漂亮","Germany is very beautiful.",ch5,"Germany is very beautiful.","Germany is very big.","Germany is very slow.","Germany is very old.",3
-ch5-ctyp1-008,vocab,6,"Sec 6.2","Countries Phrase 1","Yìndù yǒu hěn duō rén — 印度有很多人","India has many people.",ch5,"India has many people.","India has few people.","India is very big.","India is very small.",3
-ch5-v523-001,vocab,6,"Sec 6.2","Vocab 5.2.3","kěnéng — 可能","maybe",ch5|sec5.2,"maybe","already","together","important",2
-ch5-v523-002,vocab,6,"Sec 6.2","Vocab 5.2.3","zhēn de — 真的","really",ch5|sec5.2,"really","different","before","answer",2
-ch5-v523-003,vocab,6,"Sec 6.2","Vocab 5.2.3","yìqǐ — 一起","together",ch5|sec5.2,"together","maybe","problem","this year",2
-ch5-v523-004,vocab,6,"Sec 6.2","Vocab 5.2.3","huídá — 回答","answer",ch5|sec5.2,"answer","help","opportunity","last year",2
-ch5-v523-005,vocab,6,"Sec 6.2","Vocab 5.2.3","bāngzhù — 帮助","help",ch5|sec5.2,"help","agree","finish","just",2
-ch5-v523-006,vocab,6,"Sec 6.2","Vocab 5.2.3","jīnnián — 今年","this year",ch5|sec5.2,"this year","last year","before","together",2
-ch5-v523-007,vocab,6,"Sec 6.2","Vocab 5.2.3","qùnián — 去年","last year",ch5|sec5.2,"last year","this year","maybe","important",2
-ch5-v523-008,vocab,6,"Sec 6.2","Vocab 5.2.3","jīhuì — 机会","opportunity",ch5|sec5.2,"opportunity","problem","really","answer",2
-ch5-v523-009,vocab,6,"Sec 6.2","Vocab 5.2.3","maybe","kěnéng — 可能",ch5|sec5.2|reverse,"kěnéng — 可能","zhēn de — 真的","jīhuì — 机会","yìqǐ — 一起",2
-ch5-v523-010,vocab,6,"Sec 6.2","Vocab 5.2.3","really","zhēn de — 真的",ch5|sec5.2|reverse,"huídá — 回答","zhēn de — 真的","qùnián — 去年","bāngzhù — 帮助",2
-ch5-v523-011,vocab,6,"Sec 6.2","Vocab 5.2.3","together","yìqǐ — 一起",ch5|sec5.2|reverse,"jīnnián — 今年","kěnéng — 可能","yìqǐ — 一起","jīhuì — 机会",2
-ch5-v523-012,vocab,6,"Sec 6.2","Vocab 5.2.3","answer","huídá — 回答",ch5|sec5.2|reverse,"huídá — 回答","bāngzhù — 帮助","zhēn de — 真的","qùnián — 去年",2
-ch5-v523-013,vocab,6,"Sec 6.2","Vocab 5.2.3","help","bāngzhù — 帮助",ch5|sec5.2|reverse,"jīhuì — 机会","bāngzhù — 帮助","kěnéng — 可能","jīnnián — 今年",2
-ch5-v523-014,vocab,6,"Sec 6.2","Vocab 5.2.3","this year","jīnnián — 今年",ch5|sec5.2|reverse,"qùnián — 去年","jīnnián — 今年","yìqǐ — 一起","zhēn de — 真的",2
-ch5-v523-015,vocab,6,"Sec 6.2","Vocab 5.2.3","last year","qùnián — 去年",ch5|sec5.2|reverse,"jīnnián — 今年","jīhuì — 机会","qùnián — 去年","huídá — 回答",2
-ch5-v523-016,vocab,6,"Sec 6.2","Vocab 5.2.3","opportunity","jīhuì — 机会",ch5|sec5.2|reverse,"bāngzhù — 帮助","jīhuì — 机会","kěnéng — 可能","zhēn de — 真的",2
-ch5-v524-001,vocab,6,"Sec 6.2","Vocab 5.2.4","bùtóng — 不同","different",ch5|sec5.2,"different","important","before","agree",2
-ch5-v524-002,vocab,6,"Sec 6.2","Vocab 5.2.4","zhòngyào — 重要","important",ch5|sec5.2,"important","problem","understand","hope",2
-ch5-v524-003,vocab,6,"Sec 6.2","Vocab 5.2.4","wèntí — 问题","problem",ch5|sec5.2,"problem","different","just","before",2
-ch5-v524-004,vocab,6,"Sec 6.2","Vocab 5.2.4","tóngyì — 同意","agree",ch5|sec5.2,"agree","decide","important","answer",2
-ch5-v524-005,vocab,6,"Sec 6.2","Vocab 5.2.4","míngbai — 明白","understand",ch5|sec5.2,"understand","start","different","problem",2
-ch5-v524-006,vocab,6,"Sec 6.2","Vocab 5.2.4","xīwàng — 希望","hope",ch5|sec5.2,"hope","finish","just","before",2
-ch5-v524-007,vocab,6,"Sec 6.2","Vocab 5.2.4","gāng — 刚","just",ch5|sec5.2,"just","after","different","agree",2
-ch5-v524-008,vocab,6,"Sec 6.2","Vocab 5.2.4","yǐqián — 以前","before",ch5|sec5.2,"before","after","important","understand",2
-ch5-v524-009,vocab,6,"Sec 6.2","Vocab 5.2.4","different","bùtóng — 不同",ch5|sec5.2|reverse,"zhòngyào — 重要","bùtóng — 不同","wèntí — 问题","gāng — 刚",2
-ch5-v524-010,vocab,6,"Sec 6.2","Vocab 5.2.4","important","zhòngyào — 重要",ch5|sec5.2|reverse,"tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要","míngbai — 明白",2
-ch5-v524-011,vocab,6,"Sec 6.2","Vocab 5.2.4","problem","wèntí — 问题",ch5|sec5.2|reverse,"wèntí — 问题","xīwàng — 希望","bùtóng — 不同","gāng — 刚",2
-ch5-v524-012,vocab,6,"Sec 6.2","Vocab 5.2.4","agree","tóngyì — 同意",ch5|sec5.2|reverse,"míngbai — 明白","tóngyì — 同意","zhòngyào — 重要","yǐqián — 以前",2
-ch5-v524-013,vocab,6,"Sec 6.2","Vocab 5.2.4","understand","míngbai — 明白",ch5|sec5.2|reverse,"gāng — 刚","wèntí — 问题","míngbai — 明白","bùtóng — 不同",2
-ch5-v524-014,vocab,6,"Sec 6.2","Vocab 5.2.4","hope","xīwàng — 希望",ch5|sec5.2|reverse,"xīwàng — 希望","tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要",2
-ch5-v524-015,vocab,6,"Sec 6.2","Vocab 5.2.4","just","gāng — 刚",ch5|sec5.2|reverse,"yǐqián — 以前","gāng — 刚","bùtóng — 不同","tóngyì — 同意",2
-ch5-v524-016,vocab,6,"Sec 6.2","Vocab 5.2.4","before","yǐqián — 以前",ch5|sec5.2|reverse,"gāng — 刚","zhòngyào — 重要","tóngyì — 同意","yǐqián — 以前",2
-ch5-v531-001,vocab,6,"Sec 6.3","Vocab 5.3.1","qíshí — 其实","actually",ch5|sec5.3,"actually","prepare","change","after",2
-ch5-v531-002,vocab,6,"Sec 6.3","Vocab 5.3.1","yīnggāi — 应该","should",ch5|sec5.3,"should","decide","one time","before",2
-ch5-v531-003,vocab,6,"Sec 6.3","Vocab 5.3.1","juédìng — 决定","decide",ch5|sec5.3,"decide","actually","prepare","change",2
-ch5-v531-004,vocab,6,"Sec 6.3","Vocab 5.3.1","yǐhòu — 以后","after",ch5|sec5.3,"after","before","should","time",2
-ch5-v531-005,vocab,6,"Sec 6.3","Vocab 5.3.1","yí cì — 一次","one time",ch5|sec5.3,"one time","time","after","prepare",2
-ch5-v531-006,vocab,6,"Sec 6.3","Vocab 5.3.1","cì — 次","time",ch5|sec5.3,"time","one time","change","decide",2
-ch5-v531-007,vocab,6,"Sec 6.3","Vocab 5.3.1","zhǔnbèi — 准备","prepare",ch5|sec5.3,"prepare","actually","after","should",2
-ch5-v531-008,vocab,6,"Sec 6.3","Vocab 5.3.1","gǎibiàn — 改变","change",ch5|sec5.3,"change","decide","time","one time",2
-ch5-v531-009,vocab,6,"Sec 6.3","Vocab 5.3.1","actually","qíshí — 其实",ch5|sec5.3|reverse,"qíshí — 其实","zhǔnbèi — 准备","juédìng — 决定","cì — 次",2
-ch5-v531-010,vocab,6,"Sec 6.3","Vocab 5.3.1","should","yīnggāi — 应该",ch5|sec5.3|reverse,"yí cì — 一次","yīnggāi — 应该","gǎibiàn — 改变","yǐhòu — 以后",2
-ch5-v531-011,vocab,6,"Sec 6.3","Vocab 5.3.1","decide","juédìng — 决定",ch5|sec5.3|reverse,"zhǔnbèi — 准备","juédìng — 决定","qíshí — 其实","cì — 次",2
-ch5-v531-012,vocab,6,"Sec 6.3","Vocab 5.3.1","after","yǐhòu — 以后",ch5|sec5.3|reverse,"yǐhòu — 以后","yí cì — 一次","gǎibiàn — 改变","zhǔnbèi — 准备",2
-ch5-v531-013,vocab,6,"Sec 6.3","Vocab 5.3.1","one time","yí cì — 一次",ch5|sec5.3|reverse,"cì — 次","yí cì — 一次","yīnggāi — 应该","qíshí — 其实",2
-ch5-v531-014,vocab,6,"Sec 6.3","Vocab 5.3.1","time","cì — 次",ch5|sec5.3|reverse,"gǎibiàn — 改变","yí cì — 一次","cì — 次","juédìng — 决定",2
-ch5-v531-015,vocab,6,"Sec 6.3","Vocab 5.3.1","prepare","zhǔnbèi — 准备",ch5|sec5.3|reverse,"zhǔnbèi — 准备","qíshí — 其实","yǐhòu — 以后","juédìng — 决定",2
-ch5-v531-016,vocab,6,"Sec 6.3","Vocab 5.3.1","change","gǎibiàn — 改变",ch5|sec5.3|reverse,"cì — 次","yīnggāi — 应该","gǎibiàn — 改变","zhǔnbèi — 准备",2
+ch5-cty1-001,vocab,6,"Essential A","Countries 1","Měiguó — 美国","United States",ch5,"United Kingdom","Canada","United States","Australia",1
+ch5-cty1-002,vocab,6,"Essential A","Countries 1","United States","Měiguó — 美国",ch5,"Měiguó — 美国","Yīngguó — 英国","Fǎguó — 法国","Déguó — 德国",1
+ch5-cty1-003,vocab,6,"Essential A","Countries 1","Zhōngguó — 中国","China",ch5,"Japan","China","Korea","India",1
+ch5-cty1-004,vocab,6,"Essential A","Countries 1","China","Zhōngguó — 中国",ch5,"Hánguó — 韩国","Rìběn — 日本","Zhōngguó — 中国","Yìndù — 印度",1
+ch5-cty1-005,vocab,6,"Essential A","Countries 1","Yīngguó — 英国","United Kingdom",ch5,"United Kingdom","France","Germany","Canada",1
+ch5-cty1-006,vocab,6,"Essential A","Countries 1","United Kingdom","Yīngguó — 英国",ch5,"Jiānádà — 加拿大","Yīngguó — 英国","Àodàlìyà — 澳大利亚","Fǎguó — 法国",1
+ch5-cty1-007,vocab,6,"Essential A","Countries 1","Jiānádà — 加拿大","Canada",ch5,"Australia","France","Canada","India",1
+ch5-cty1-008,vocab,6,"Essential A","Countries 1","Canada","Jiānádà — 加拿大",ch5,"Déguó — 德国","Jiānádà — 加拿大","Fǎguó — 法国","Yīngguó — 英国",1
+ch5-cty1-009,vocab,6,"Essential A","Countries 1","Àodàlìyà — 澳大利亚","Australia",ch5,"Australia","Germany","Japan","India",1
+ch5-cty1-010,vocab,6,"Essential A","Countries 1","Australia","Àodàlìyà — 澳大利亚",ch5,"Jiānádà — 加拿大","Àodàlìyà — 澳大利亚","Yīngguó — 英国","Yìndù — 印度",1
+ch5-cty1-011,vocab,6,"Essential A","Countries 1","Rìběn — 日本","Japan",ch5,"South Korea","Japan","China","India",1
+ch5-cty1-012,vocab,6,"Essential A","Countries 1","Japan","Rìběn — 日本",ch5,"Rìběn — 日本","Hánguó — 韩国","Zhōngguó — 中国","Yìndù — 印度",1
+ch5-cty1-013,vocab,6,"Essential A","Countries 1","Hánguó — 韩国","South Korea",ch5,"South Korea","Japan","Germany","France",1
+ch5-cty1-014,vocab,6,"Essential A","Countries 1","South Korea","Hánguó — 韩国",ch5,"Rìběn — 日本","Hánguó — 韩国","Yīngguó — 英国","Měiguó — 美国",1
+ch5-cty1-015,vocab,6,"Essential A","Countries 1","Fǎguó — 法国","France",ch5,"Germany","France","Canada","United Kingdom",1
+ch5-cty1-016,vocab,6,"Essential A","Countries 1","France","Fǎguó — 法国",ch5,"Fǎguó — 法国","Déguó — 德国","Yīngguó — 英国","Àodàlìyà — 澳大利亚",1
+ch5-cty1-017,vocab,6,"Essential A","Countries 1","Déguó — 德国","Germany",ch5,"France","Germany","India","United States",1
+ch5-cty1-018,vocab,6,"Essential A","Countries 1","Germany","Déguó — 德国",ch5,"Fǎguó — 法国","Déguó — 德国","Rìběn — 日本","Jiānádà — 加拿大",1
+ch5-cty1-019,vocab,6,"Essential A","Countries 1","Yìndù — 印度","India",ch5,"India","China","Japan","Australia",1
+ch5-cty1-020,vocab,6,"Essential A","Countries 1","India","Yìndù — 印度",ch5,"Yìndù — 印度","Zhōngguó — 中国","Hánguó — 韩国","Yīngguó — 英国",1
+ch5-ctyp1-001,vocab,6,"Essential A","Countries Phrase 1","wǒ lái zì Měiguó — 我来自美国","I am from the United States.",ch5,"I live in the United States.","I go to the United States.","I am from the United States.","I like the United States.",2
+ch5-ctyp1-002,vocab,6,"Essential A","Countries Phrase 1","tā shì Zhōngguó rén — 他是中国人","He is Chinese.",ch5,"He likes China.","He is Chinese.","He is in China.","He goes to China.",2
+ch5-ctyp1-003,vocab,6,"Essential A","Countries Phrase 1","wǒ xiǎng qù Rìběn — 我想去日本","I want to go to Japan.",ch5,"I am from Japan.","I live in Japan.","I want to go to Japan.","I like Japan.",2
+ch5-ctyp1-004,vocab,6,"Essential A","Countries Phrase 1","tā qùle Fǎguó — 他去了法国","He went to France.",ch5,"He is from France.","He went to France.","He likes France.","He lives in France.",3
+ch5-ctyp1-005,vocab,6,"Essential A","Countries Phrase 1","wǒ zài Jiānádà gōngzuò — 我在加拿大工作","I work in Canada.",ch5,"I go to Canada.","I work in Canada.","I am from Canada.","I like Canada.",3
+ch5-ctyp1-006,vocab,6,"Essential A","Countries Phrase 1","Àodàlìyà hěn dà — 澳大利亚很大","Australia is very big.",ch5,"Australia is very small.","Australia is very big.","Australia is very old.","Australia is very fast.",2
+ch5-ctyp1-007,vocab,6,"Essential A","Countries Phrase 1","Déguó hěn piàoliang — 德国很漂亮","Germany is very beautiful.",ch5,"Germany is very beautiful.","Germany is very big.","Germany is very slow.","Germany is very old.",3
+ch5-ctyp1-008,vocab,6,"Essential A","Countries Phrase 1","Yìndù yǒu hěn duō rén — 印度有很多人","India has many people.",ch5,"India has many people.","India has few people.","India is very big.","India is very small.",3
+ch5-v523-001,vocab,6,"Essential A","Essential 1","kěnéng — 可能","maybe",ch5|sec5.2,"maybe","already","together","important",2
+ch5-v523-002,vocab,6,"Essential A","Essential 1","zhēn de — 真的","really",ch5|sec5.2,"really","different","before","answer",2
+ch5-v523-003,vocab,6,"Essential A","Essential 1","yìqǐ — 一起","together",ch5|sec5.2,"together","maybe","problem","this year",2
+ch5-v523-004,vocab,6,"Essential A","Essential 1","huídá — 回答","answer",ch5|sec5.2,"answer","help","opportunity","last year",2
+ch5-v523-005,vocab,6,"Essential A","Essential 1","bāngzhù — 帮助","help",ch5|sec5.2,"help","agree","finish","just",2
+ch5-v523-006,vocab,6,"Essential A","Essential 1","jīnnián — 今年","this year",ch5|sec5.2,"this year","last year","before","together",2
+ch5-v523-007,vocab,6,"Essential A","Essential 1","qùnián — 去年","last year",ch5|sec5.2,"last year","this year","maybe","important",2
+ch5-v523-008,vocab,6,"Essential A","Essential 1","jīhuì — 机会","opportunity",ch5|sec5.2,"opportunity","problem","really","answer",2
+ch5-v523-009,vocab,6,"Essential A","Essential 1","maybe","kěnéng — 可能",ch5|sec5.2|reverse,"kěnéng — 可能","zhēn de — 真的","jīhuì — 机会","yìqǐ — 一起",2
+ch5-v523-010,vocab,6,"Essential A","Essential 1","really","zhēn de — 真的",ch5|sec5.2|reverse,"huídá — 回答","zhēn de — 真的","qùnián — 去年","bāngzhù — 帮助",2
+ch5-v523-011,vocab,6,"Essential A","Essential 1","together","yìqǐ — 一起",ch5|sec5.2|reverse,"jīnnián — 今年","kěnéng — 可能","yìqǐ — 一起","jīhuì — 机会",2
+ch5-v523-012,vocab,6,"Essential A","Essential 1","answer","huídá — 回答",ch5|sec5.2|reverse,"huídá — 回答","bāngzhù — 帮助","zhēn de — 真的","qùnián — 去年",2
+ch5-v523-013,vocab,6,"Essential A","Essential 1","help","bāngzhù — 帮助",ch5|sec5.2|reverse,"jīhuì — 机会","bāngzhù — 帮助","kěnéng — 可能","jīnnián — 今年",2
+ch5-v523-014,vocab,6,"Essential A","Essential 1","this year","jīnnián — 今年",ch5|sec5.2|reverse,"qùnián — 去年","jīnnián — 今年","yìqǐ — 一起","zhēn de — 真的",2
+ch5-v523-015,vocab,6,"Essential A","Essential 1","last year","qùnián — 去年",ch5|sec5.2|reverse,"jīnnián — 今年","jīhuì — 机会","qùnián — 去年","huídá — 回答",2
+ch5-v523-016,vocab,6,"Essential A","Essential 1","opportunity","jīhuì — 机会",ch5|sec5.2|reverse,"bāngzhù — 帮助","jīhuì — 机会","kěnéng — 可能","zhēn de — 真的",2
+ch5-v524-001,vocab,6,"Essential B","Essential 2","bùtóng — 不同","different",ch5|sec5.2,"different","important","before","agree",2
+ch5-v524-002,vocab,6,"Essential B","Essential 2","zhòngyào — 重要","important",ch5|sec5.2,"important","problem","understand","hope",2
+ch5-v524-003,vocab,6,"Essential B","Essential 2","wèntí — 问题","problem",ch5|sec5.2,"problem","different","just","before",2
+ch5-v524-004,vocab,6,"Essential B","Essential 2","tóngyì — 同意","agree",ch5|sec5.2,"agree","decide","important","answer",2
+ch5-v524-005,vocab,6,"Essential B","Essential 2","míngbai — 明白","understand",ch5|sec5.2,"understand","start","different","problem",2
+ch5-v524-006,vocab,6,"Essential B","Essential 2","xīwàng — 希望","hope",ch5|sec5.2,"hope","finish","just","before",2
+ch5-v524-007,vocab,6,"Essential B","Essential 2","gāng — 刚","just",ch5|sec5.2,"just","after","different","agree",2
+ch5-v524-008,vocab,6,"Essential B","Essential 2","yǐqián — 以前","before",ch5|sec5.2,"before","after","important","understand",2
+ch5-v524-009,vocab,6,"Essential B","Essential 2","different","bùtóng — 不同",ch5|sec5.2|reverse,"zhòngyào — 重要","bùtóng — 不同","wèntí — 问题","gāng — 刚",2
+ch5-v524-010,vocab,6,"Essential B","Essential 2","important","zhòngyào — 重要",ch5|sec5.2|reverse,"tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要","míngbai — 明白",2
+ch5-v524-011,vocab,6,"Essential B","Essential 2","problem","wèntí — 问题",ch5|sec5.2|reverse,"wèntí — 问题","xīwàng — 希望","bùtóng — 不同","gāng — 刚",2
+ch5-v524-012,vocab,6,"Essential B","Essential 2","agree","tóngyì — 同意",ch5|sec5.2|reverse,"míngbai — 明白","tóngyì — 同意","zhòngyào — 重要","yǐqián — 以前",2
+ch5-v524-013,vocab,6,"Essential B","Essential 2","understand","míngbai — 明白",ch5|sec5.2|reverse,"gāng — 刚","wèntí — 问题","míngbai — 明白","bùtóng — 不同",2
+ch5-v524-014,vocab,6,"Essential B","Essential 2","hope","xīwàng — 希望",ch5|sec5.2|reverse,"xīwàng — 希望","tóngyì — 同意","yǐqián — 以前","zhòngyào — 重要",2
+ch5-v524-015,vocab,6,"Essential B","Essential 2","just","gāng — 刚",ch5|sec5.2|reverse,"yǐqián — 以前","gāng — 刚","bùtóng — 不同","tóngyì — 同意",2
+ch5-v524-016,vocab,6,"Essential B","Essential 2","before","yǐqián — 以前",ch5|sec5.2|reverse,"gāng — 刚","zhòngyào — 重要","tóngyì — 同意","yǐqián — 以前",2
+ch5-v531-001,vocab,6,"Essential B","Essential 3","qíshí — 其实","actually",ch5|sec5.3,"actually","prepare","change","after",2
+ch5-v531-002,vocab,6,"Essential B","Essential 3","yīnggāi — 应该","should",ch5|sec5.3,"should","decide","one time","before",2
+ch5-v531-003,vocab,6,"Essential B","Essential 3","juédìng — 决定","decide",ch5|sec5.3,"decide","actually","prepare","change",2
+ch5-v531-004,vocab,6,"Essential B","Essential 3","yǐhòu — 以后","after",ch5|sec5.3,"after","before","should","time",2
+ch5-v531-005,vocab,6,"Essential B","Essential 3","yí cì — 一次","one time",ch5|sec5.3,"one time","time","after","prepare",2
+ch5-v531-006,vocab,6,"Essential B","Essential 3","cì — 次","time",ch5|sec5.3,"time","one time","change","decide",2
+ch5-v531-007,vocab,6,"Essential B","Essential 3","zhǔnbèi — 准备","prepare",ch5|sec5.3,"prepare","actually","after","should",2
+ch5-v531-008,vocab,6,"Essential B","Essential 3","gǎibiàn — 改变","change",ch5|sec5.3,"change","decide","time","one time",2
+ch5-v531-009,vocab,6,"Essential B","Essential 3","actually","qíshí — 其实",ch5|sec5.3|reverse,"qíshí — 其实","zhǔnbèi — 准备","juédìng — 决定","cì — 次",2
+ch5-v531-010,vocab,6,"Essential B","Essential 3","should","yīnggāi — 应该",ch5|sec5.3|reverse,"yí cì — 一次","yīnggāi — 应该","gǎibiàn — 改变","yǐhòu — 以后",2
+ch5-v531-011,vocab,6,"Essential B","Essential 3","decide","juédìng — 决定",ch5|sec5.3|reverse,"zhǔnbèi — 准备","juédìng — 决定","qíshí — 其实","cì — 次",2
+ch5-v531-012,vocab,6,"Essential B","Essential 3","after","yǐhòu — 以后",ch5|sec5.3|reverse,"yǐhòu — 以后","yí cì — 一次","gǎibiàn — 改变","zhǔnbèi — 准备",2
+ch5-v531-013,vocab,6,"Essential B","Essential 3","one time","yí cì — 一次",ch5|sec5.3|reverse,"cì — 次","yí cì — 一次","yīnggāi — 应该","qíshí — 其实",2
+ch5-v531-014,vocab,6,"Essential B","Essential 3","time","cì — 次",ch5|sec5.3|reverse,"gǎibiàn — 改变","yí cì — 一次","cì — 次","juédìng — 决定",2
+ch5-v531-015,vocab,6,"Essential B","Essential 3","prepare","zhǔnbèi — 准备",ch5|sec5.3|reverse,"zhǔnbèi — 准备","qíshí — 其实","yǐhòu — 以后","juédìng — 决定",2
+ch5-v531-016,vocab,6,"Essential B","Essential 3","change","gǎibiàn — 改变",ch5|sec5.3|reverse,"cì — 次","yīnggāi — 应该","gǎibiàn — 改变","zhǔnbèi — 准备",2
+es1_ph-001,vocab,6,"Essential A","Essential 1 Phrases","wǒ jīnnián hěn máng — 我今年很忙","I am very busy this year.",ch5|sec5.2,"I am very busy this year.","I was busy last year.","I am busy every year.","I am not busy this year.",3
+es1_ph-002,vocab,6,"Essential A","Essential 1 Phrases","qùnián zhēn de hěn nán — 去年真的很难","Last year was really hard.",ch5|sec5.2,"Last year was really hard.","This year is really hard.","Last year was really easy.","Maybe last year was hard.",3
+es1_ph-003,vocab,6,"Essential A","Essential 1 Phrases","wǒ kěnéng huì qù — 我可能会去","I might go.",ch5|sec5.2,"I might go.","I already went.","I must go.","I will not go.",3
+es1_ph-004,vocab,6,"Essential A","Essential 1 Phrases","xièxie nǐ de bāngzhù — 谢谢你的帮助","Thanks for your help.",ch5|sec5.2,"Thanks for your help.","Can you help me?","I need help.","I will help you.",3
+es1_ph-005,vocab,6,"Essential A","Essential 1 Phrases","wǒ zhēn de bù zhīdào — 我真的不知道","I really don’t know.",ch5|sec5.2,"I really don’t know.","I really know.","I don’t want to know.","I don’t know yet.",3
+es1_ph-006,vocab,6,"Essential A","Essential 1 Phrases","wǒmen yìqǐ huídá — 我们一起回答","Let’s answer together.",ch5|sec5.2,"Let’s answer together.","Let’s go together.","Let’s help together.","Let’s talk together.",3
+es1_ph-007,vocab,6,"Essential A","Essential 1 Phrases","zhè shì yí gè jīhuì — 这是一个机会","This is an opportunity.",ch5|sec5.2,"This is an opportunity.","This is a problem.","This is an answer.","This is important.",3
+es1_ph-008,vocab,6,"Essential A","Essential 1 Phrases","nǐ kěyǐ bāng wǒ ma — 你可以帮我吗？","Can you help me?",ch5|sec5.2,"Can you help me?","Do you want to help?","I can help you.","You can answer me.",3
+es2_ph-001,vocab,6,"Essential B","Essential 2 Phrases","zhè hěn zhòngyào — 这很重要","This is very important",ch5|sec5.2,"This is very important","This is different","This is a problem","This is before",3
+es2_ph-002,vocab,6,"Essential B","Essential 2 Phrases","wǒ míngbai le — 我明白了","I understand now",ch5|sec5.2,"I understand now","I agree","I hope so","I just came",3
+es2_ph-003,vocab,6,"Essential B","Essential 2 Phrases","wǒ gāng dào — 我刚到","I just arrived",ch5|sec5.2,"I just arrived","I arrived before","I will arrive after","I hope to arrive",3
+es2_ph-004,vocab,6,"Essential B","Essential 2 Phrases","wèntí zài nǎlǐ — 问题在哪里？","Where is the problem?",ch5|sec5.2,"Where is the problem?","What is different?","Why is it important?","Do you agree?",3
+es2_ph-005,vocab,6,"Essential B","Essential 2 Phrases","wǒ tóngyì — 我同意","I agree",ch5|sec5.2,"I agree","I understand","I hope","I decide",3
+es2_ph-006,vocab,6,"Essential B","Essential 2 Phrases","wǒ xīwàng kěyǐ — 我希望可以","I hope it’s possible",ch5|sec5.2,"I hope it’s possible","I hope you agree","I just understand","I am different",3
+es2_ph-007,vocab,6,"Essential B","Essential 2 Phrases","zhè bùtóng — 这不同","This is different",ch5|sec5.2,"This is different","This is important","This is before","This is just",3
+es2_ph-008,vocab,6,"Essential B","Essential 2 Phrases","yǐqián yǒu wèntí — 以前有问题","There was a problem before",ch5|sec5.2,"There was a problem before","There will be a problem after","The problem is important","I just found a problem",3
+es3_ph-001,vocab,6,"Essential B","Essential 3 Phrases","qíshí wǒ bù zhīdào — 其实我不知道","Actually I don’t know",ch5|sec5.3,"Actually I don’t know","I really don’t know","I don’t know after","I don’t want to know",3
+es3_ph-002,vocab,6,"Essential B","Essential 3 Phrases","nǐ yīnggāi qù — 你应该去","You should go",ch5|sec5.3,"You should go","You can go","You want to go","You will go after",3
+es3_ph-003,vocab,6,"Essential B","Essential 3 Phrases","wǒ juédìng le — 我决定了","I decided",ch5|sec5.3,"I decided","I will decide","I should decide","I changed",3
+es3_ph-004,vocab,6,"Essential B","Essential 3 Phrases","yǐhòu zài shuō — 以后再说","Talk about it later",ch5|sec5.3,"Talk about it later","Say it one time","Change it later","Decide now",3
+es3_ph-005,vocab,6,"Essential B","Essential 3 Phrases","zài lái yí cì — 再来一次","One more time",ch5|sec5.3,"One more time","After one time","Change one time","Decide one time",3
+es3_ph-006,vocab,6,"Essential B","Essential 3 Phrases","zhǔnbèi hǎo le — 准备好了","Ready / prepared",ch5|sec5.3,"Ready / prepared","Actually ready","Ready after","Should prepare",3
+es3_ph-007,vocab,6,"Essential B","Essential 3 Phrases","wǒ xiǎng gǎibiàn — 我想改变","I want to change",ch5|sec5.3,"I want to change","I should change","I changed before","I will change one time",3
+es3_ph-008,vocab,6,"Essential B","Essential 3 Phrases","yīnggāi yǒu shíjiān — 应该有时间","Should have time",ch5|sec5.3,"Should have time","Need more time","One time only","After some time",3
 ch5-pair1-001,vocab,5,"Pairs 1 A","Pair Ch 1 A","zài , zài — 在 , 再","at , again",ch1|pairs|contrast,"at , again","again , at","also , only","have , is",2
 ch5-pair1-002,vocab,5,"Pairs 1 A","Pair Ch 1 A","yòu , zài — 又 , 再","again (past) , again (future)",ch1|pairs|contrast,"again (past) , again (future)","again (future) , again (past)","at , again","have , is",2
 ch5-pair1-003,vocab,5,"Pairs 1 A","Pair Ch 1 A","yǒu , shì — 有 , 是","have , is",ch1|pairs|contrast,"have , is","is , have","also , still","at , again",2
@@ -849,3 +873,80 @@ ch5-pair4b-009,vocab,5,"Pairs 1 B","Pair Ch 4 B","tíng , kào — 停 , 靠","s
 ch5-pair4b-010,vocab,5,"Pairs 1 B","Pair Ch 4 B","zhèlǐ , nàlǐ — 这里 , 那里","here , there",ch4|pairs|contrast,"here , there","there , here","location , here","here , location",2
 ch5-pair4b-011,vocab,5,"Pairs 1 B","Pair Ch 4 B","lùkǒu , zhōngzhuǎn zhàn — 路口 , 中转站","intersection , transfer station",ch4|pairs|contrast,"intersection , transfer station","transfer station , intersection","station , airport","airport , station",2
 ch5-pair4b-012,vocab,5,"Pairs 1 B","Pair Ch 4 B","dìdiǎn , chēzhàn — 地点 , 车站","location , station",ch4|pairs|contrast,"location , station","station , location","platform , location","location , platform",2
+ch7-time1-001,vocab,7,"Time & Space","Time Expressions","gāngcái — 刚才","just now",ch7,"before","just now","later","already",2
+ch7-time1-002,vocab,7,"Time & Space","Time Expressions","mǎshàng — 马上","immediately",ch7,"immediately","continuously","before","currently",2
+ch7-time1-003,vocab,7,"Time & Space","Time Expressions","yǐjīng — 已经","already",ch7,"already","later","just now","not yet",2
+ch7-time1-004,vocab,7,"Time & Space","Time Expressions","hái méi — 还没","not yet",ch7,"before","already","not yet","continuously",2
+ch7-time1-005,vocab,7,"Time & Space","Time Expressions","yǐhòu — 以后","later",ch7,"before","later","currently","just now",2
+ch7-time1-006,vocab,7,"Time & Space","Time Expressions","yǐqián — 以前","before",ch7,"before","immediately","already","continuously",2
+ch7-time1-007,vocab,7,"Time & Space","Time Expressions","zhèngzài — 正在","currently",ch7,"already","currently","later","just now",2
+ch7-time1-008,vocab,7,"Time & Space","Time Expressions","yìzhí — 一直","continuously",ch7,"continuously","before","not yet","immediately",3
+ch7-time1-009,vocab,7,"Time & Space","Time Expressions","just now","gāngcái — 刚才",ch7,"gāngcái — 刚才","yǐqián — 以前","yǐhòu — 以后","yìzhí — 一直",2
+ch7-time1-010,vocab,7,"Time & Space","Time Expressions","immediately","mǎshàng — 马上",ch7,"zhèngzài — 正在","mǎshàng — 马上","hái méi — 还没","yǐjīng — 已经",2
+ch7-time1-011,vocab,7,"Time & Space","Time Expressions","already","yǐjīng — 已经",ch7,"yǐqián — 以前","yǐjīng — 已经","yìzhí — 一直","gāngcái — 刚才",2
+ch7-time1-012,vocab,7,"Time & Space","Time Expressions","not yet","hái méi — 还没",ch7,"hái méi — 还没","zhèngzài — 正在","mǎshàng — 马上","yǐhòu — 以后",2
+ch7-time1-013,vocab,7,"Time & Space","Time Expressions","later","yǐhòu — 以后",ch7,"yǐqián — 以前","gāngcái — 刚才","yǐhòu — 以后","yǐjīng — 已经",2
+ch7-time1-014,vocab,7,"Time & Space","Time Expressions","before","yǐqián — 以前",ch7,"yǐqián — 以前","yìzhí — 一直","hái méi — 还没","zhèngzài — 正在",2
+ch7-time1-015,vocab,7,"Time & Space","Time Expressions","currently","zhèngzài — 正在",ch7,"yǐhòu — 以后","zhèngzài — 正在","yǐqián — 以前","gāngcái — 刚才",3
+ch7-time1-016,vocab,7,"Time & Space","Time Expressions","continuously","yìzhí — 一直",ch7,"mǎshàng — 马上","yǐjīng — 已经","yìzhí — 一直","yǐhòu — 以后",3
+ch7-timep1-001,phrase,7,"Time & Space","Time Phrases","wǒ gāngcái kànjiàn tā — 我刚才看见他","I just saw him.",ch7|phrase,"I just saw him.","I will see him later.","I already know him.","I am waiting for him.",2
+ch7-timep1-002,phrase,7,"Time & Space","Time Phrases","wǒ mǎshàng lái — 我马上来","I'll come immediately.",ch7|phrase,"I came before.","I am here now.","I'll come immediately.","I want to come later.",2
+ch7-timep1-003,phrase,7,"Time & Space","Time Phrases","tā yǐjīng zǒu le — 他已经走了","He already left.",ch7|phrase,"He already left.","He is leaving now.","He will leave later.","He has not left yet.",2
+ch7-timep1-004,phrase,7,"Time & Space","Time Phrases","wǒ hái méi chī fàn — 我还没吃饭","I haven't eaten yet.",ch7|phrase,"I already ate.","I haven't eaten yet.","I am eating now.","I will eat later.",2
+ch7-timep1-005,phrase,7,"Time & Space","Time Phrases","wǒmen yǐhòu zài shuō — 我们以后再说","We'll talk later.",ch7|phrase,"We already said it.","We are saying it now.","We'll talk later.","We talked before.",2
+ch7-timep1-006,phrase,7,"Time & Space","Time Phrases","wǒ yǐqián zhù zài zhèlǐ — 我以前住在这里","I lived here before.",ch7|phrase,"I live here now.","I lived here before.","I will live here later.","I am staying here today.",2
+ch7-timep1-007,phrase,7,"Time & Space","Time Phrases","tā zhèngzài gōngzuò — 他正在工作","He is currently working.",ch7|phrase,"He already worked.","He will work later.","He is currently working.","He wants to work.",2
+ch7-timep1-008,phrase,7,"Time & Space","Time Phrases","wǒ yìzhí děng nǐ — 我一直等你","I've been waiting for you.",ch7|phrase,"I just met you.","I will find you later.","I've been waiting for you.","I already told you.",3
+ch7-dir1-001,vocab,7,"Time & Space","Direction & Position","zuǒbiān — 左边","left side",ch7,"inside","left side","in front","outside",2
+ch7-dir1-002,vocab,7,"Time & Space","Direction & Position","yòubiān — 右边","right side",ch7,"right side","behind","inside","left side",2
+ch7-dir1-003,vocab,7,"Time & Space","Direction & Position","qiánmiàn — 前面","in front",ch7,"outside","behind","in front","inside",2
+ch7-dir1-004,vocab,7,"Time & Space","Direction & Position","hòumiàn — 后面","behind",ch7,"in front","behind","left side","inside",2
+ch7-dir1-005,vocab,7,"Time & Space","Direction & Position","lǐmiàn — 里面","inside",ch7,"inside","outside","in front","right side",2
+ch7-dir1-006,vocab,7,"Time & Space","Direction & Position","wàimiàn — 外面","outside",ch7,"inside","left side","outside","behind",2
+ch7-dir1-007,vocab,7,"Time & Space","Direction & Position","left side","zuǒbiān — 左边",ch7,"yòubiān — 右边","zuǒbiān — 左边","lǐmiàn — 里面","qiánmiàn — 前面",2
+ch7-dir1-008,vocab,7,"Time & Space","Direction & Position","right side","yòubiān — 右边",ch7,"yòubiān — 右边","wàimiàn — 外面","hòumiàn — 后面","zuǒbiān — 左边",2
+ch7-dir1-009,vocab,7,"Time & Space","Direction & Position","in front","qiánmiàn — 前面",ch7,"hòumiàn — 后面","lǐmiàn — 里面","qiánmiàn — 前面","wàimiàn — 外面",2
+ch7-dir1-010,vocab,7,"Time & Space","Direction & Position","behind","hòumiàn — 后面",ch7,"qiánmiàn — 前面","hòumiàn — 后面","yòubiān — 右边","lǐmiàn — 里面",2
+ch7-dir1-011,vocab,7,"Time & Space","Direction & Position","inside","lǐmiàn — 里面",ch7,"wàimiàn — 外面","qiánmiàn — 前面","lǐmiàn — 里面","zuǒbiān — 左边",2
+ch7-dir1-012,vocab,7,"Time & Space","Direction & Position","outside","wàimiàn — 外面",ch7,"lǐmiàn — 里面","yòubiān — 右边","wàimiàn — 外面","hòumiàn — 后面",2
+ch7-dirp1-001,phrase,7,"Time & Space","Direction Phrases","tā zài wǒ zuǒbiān — 他在我左边","He is on my left.",ch7|phrase,"He is on my left.","He is on my right.","He is behind me.","He is inside.",2
+ch7-pair1-001,vocab,7,"Time & Space","Direction & Position","zuǒbiān , yòubiān — 左边 , 右边","left side , right side",ch7|pairs|contrast,"left side , right side","right side , left side","inside , outside","front , back",2
+ch7-pair1-002,vocab,7,"Time & Space","Direction & Position","qiánmiàn , hòumiàn — 前面 , 后面","front , behind",ch7|pairs|contrast,"behind , front","front , behind","left , right","inside , outside",2
+ch7-pair1-003,vocab,7,"Time & Space","Direction & Position","lǐmiàn , wàimiàn — 里面 , 外面","inside , outside",ch7|pairs|contrast,"inside , outside","outside , inside","front , behind","left , right",2
+ch7-dirp1-002,phrase,7,"Time & Space","Direction Phrases","tā zài wǒ yòubiān — 他在我右边","He is on my right.",ch7|phrase,"He is inside the room.","He is on my right.","He is behind me.","He is in front of me.",2
+ch7-dirp1-003,phrase,7,"Time & Space","Direction Phrases","wǒ jiā zài qiánmiàn — 我家在前面","My home is ahead.",ch7|phrase,"My home is behind.","My home is ahead.","My home is outside.","My home is inside.",2
+ch7-dirp1-004,phrase,7,"Time & Space","Direction Phrases","chāoshì zài hòumiàn — 超市在后面","The supermarket is behind.",ch7|phrase,"The supermarket is ahead.","The supermarket is inside.","The supermarket is behind.","The supermarket is outside.",2
+ch7-dirp1-005,phrase,7,"Time & Space","Direction Phrases","māo zài hézi lǐmiàn — 猫在盒子里面","The cat is inside the box.",ch7|phrase,"The cat is behind the box.","The cat is inside the box.","The cat is outside the box.","The cat is in front of the box.",2
+ch7-dirp1-006,phrase,7,"Time & Space","Direction Phrases","tāmen zài mén wàimiàn — 他们在门外面","They are outside the door.",ch7|phrase,"They are inside the door.","They are behind the door.","They are outside the door.","They are in front of the door.",2
+ch7-wth1-001,vocab,7,"Weather & Mixed","Weather","xiàyǔ — 下雨","to rain",ch7,"to snow","windy","to rain","cloudy day",2
+ch7-wth1-002,vocab,7,"Weather & Mixed","Weather","xiàxuě — 下雪","to snow",ch7,"to snow","cool","to rain","hot",2
+ch7-wth1-003,vocab,7,"Weather & Mixed","Weather","guāfēng — 刮风","windy",ch7,"cloudy day","windy","to rain","cold",2
+ch7-wth1-004,vocab,7,"Weather & Mixed","Weather","qíngtiān — 晴天","sunny day",ch7,"sunny day","cold","windy","cloudy day",2
+ch7-wth1-005,vocab,7,"Weather & Mixed","Weather","yīntiān — 阴天","cloudy day",ch7,"sunny day","cool","cloudy day","to snow",2
+ch7-wth1-006,vocab,7,"Weather & Mixed","Weather","liángkuai — 凉快","cool",ch7,"cool","cold","windy","hot",3
+ch7-wth1-007,vocab,7,"Weather & Mixed","Weather","rè — 热","hot",ch7,"cold","hot","cool","cloudy day",2
+ch7-wth1-008,vocab,7,"Weather & Mixed","Weather","lěng — 冷","cold",ch7,"hot","windy","cold","to rain",2
+ch7-wth1-009,vocab,7,"Weather & Mixed","Weather","to rain","xiàyǔ — 下雨",ch7,"xiàxuě — 下雪","xiàyǔ — 下雨","guāfēng — 刮风","yīntiān — 阴天",2
+ch7-wth1-010,vocab,7,"Weather & Mixed","Weather","to snow","xiàxuě — 下雪",ch7,"xiàxuě — 下雪","qíngtiān — 晴天","rè — 热","liángkuai — 凉快",2
+ch7-wth1-011,vocab,7,"Weather & Mixed","Weather","windy","guāfēng — 刮风",ch7,"lěng — 冷","guāfēng — 刮风","xiàyǔ — 下雨","qíngtiān — 晴天",2
+ch7-wth1-012,vocab,7,"Weather & Mixed","Weather","sunny day","qíngtiān — 晴天",ch7,"yīntiān — 阴天","xiàxuě — 下雪","qíngtiān — 晴天","lěng — 冷",2
+ch7-wth1-013,vocab,7,"Weather & Mixed","Weather","cloudy day","yīntiān — 阴天",ch7,"yīntiān — 阴天","liángkuai — 凉快","rè — 热","guāfēng — 刮风",2
+ch7-wth1-014,vocab,7,"Weather & Mixed","Weather","cool","liángkuai — 凉快",ch7,"rè — 热","lěng — 冷","liángkuai — 凉快","qíngtiān — 晴天",3
+ch7-wth1-015,vocab,7,"Weather & Mixed","Weather","hot","rè — 热",ch7,"lěng — 冷","rè — 热","xiàyǔ — 下雨","yīntiān — 阴天",2
+ch7-wth1-016,vocab,7,"Weather & Mixed","Weather","cold","lěng — 冷",ch7,"liángkuai — 凉快","guāfēng — 刮风","lěng — 冷","xiàxuě — 下雪",2
+ch7-wthp1-001,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān xiàyǔ — 今天下雨","It is raining today.",ch7|phrase,"It will rain tomorrow.","It rained before.","It is raining today.","It is windy today.",2
+ch7-wthp1-002,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān xiàxuě — 今天下雪","It is snowing today.",ch7|phrase,"It is snowing today.","It snowed yesterday.","It will snow later.","It is cloudy today.",2
+ch7-wthp1-003,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān guāfēng — 今天刮风","It is windy today.",ch7|phrase,"It is raining today.","It is windy today.","It is hot today.","It is cold today.",2
+ch7-wthp1-004,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān qíngtiān — 今天晴天","It is sunny today.",ch7|phrase,"It is cloudy today.","It is sunny today.","It is raining today.","It is windy today.",2
+ch7-wthp1-005,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān yīntiān — 今天阴天","It is cloudy today.",ch7|phrase,"It is cloudy today.","It is sunny today.","It is cold today.","It is windy today.",2
+ch7-wthp1-006,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn rè — 今天很热","It is very hot today.",ch7|phrase,"It is very windy today.","It is very hot today.","It is very cool today.","It is very cold today.",2
+ch7-wthp1-007,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn lěng — 今天很冷","It is very cold today.",ch7|phrase,"It is very cold today.","It is very hot today.","It is very sunny today.","It is very windy today.",2
+ch7-wthp1-008,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn liángkuai — 今天很凉快","It is pleasantly cool today.",ch7|phrase,"It is very hot today.","It is pleasantly cool today.","It is very windy today.","It is raining today.",2
+ch7-mxp1-001,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān qiánmiàn xiàyǔ — 今天前面下雨","It is raining ahead today.",ch7|phrase,"It rained before.","It is raining ahead today.","It will rain later.","It is sunny ahead.",3
+ch7-mxp1-002,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān wàimiàn guāfēng — 今天外面刮风","It is windy outside today.",ch7|phrase,"It is windy outside today.","It is windy inside today.","It rained outside today.","It is cloudy outside today.",2
+ch7-mxp1-003,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān zuǒbiān xiàyǔ — 今天左边下雨","It is raining on the left today.",ch7|phrase,"It is raining on the right today.","It is raining on the left today.","It rained before on the left.","It is windy on the left today.",3
+ch7-mxp1-004,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān hòumiàn yīntiān — 今天后面阴天","It is cloudy behind today.",ch7|phrase,"It is sunny behind today.","It is cloudy behind today.","It is windy behind today.","It is raining behind today.",3
+ch7-mxp1-005,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān xiàyǔ hé guāfēng — 今天下雨和刮风","It is raining and windy today.",ch7|phrase,"It is raining or windy today.","It rained before and was windy.","It is raining and windy today.","It is sunny and windy today.",2
+ch7-mxp1-006,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān xiàyǔ huòzhě guāfēng — 今天下雨或者刮风","It is raining or windy today.",ch7|phrase,"It is raining and windy today.","It will rain later.","It is raining or windy today.","It rained before and was windy.",2
+ch7-mxp1-007,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān wàimiàn hěn lěng — 今天外面很冷","It is very cold outside today.",ch7|phrase,"It is very cold outside today.","It is very hot outside today.","It is very windy outside today.","It is cloudy outside today.",2
+ch7-mxp1-008,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān qiánmiàn hěn rè — 今天前面很热","It is very hot ahead today.",ch7|phrase,"It is very windy ahead today.","It is very cold ahead today.","It is very hot ahead today.","It is raining ahead today.",3
