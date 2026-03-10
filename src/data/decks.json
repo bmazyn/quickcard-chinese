@@ -108,6 +108,13 @@
   "ch7-es4":    { "book": 2, "chapter": 7, "section": "Essential C", "deckName": "Essential 4", "order": 1 },
   "ch7-es4p":   { "book": 2, "chapter": 7, "section": "Essential C", "deckName": "Essential 4 Phrases", "order": 2 },
   "ch7-es5":    { "book": 2, "chapter": 7, "section": "Essential C", "deckName": "Essential 5", "order": 3 },
-  "ch7-es5p":   { "book": 2, "chapter": 7, "section": "Essential C", "deckName": "Essential 5 Phrases", "order": 4 }
+  "ch7-es5p":   { "book": 2, "chapter": 7, "section": "Essential C", "deckName": "Essential 5 Phrases", "order": 4 },
+
+  "ch8-tw1": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taipei Essentials", "order": 1 },
+  "ch8-tw2": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taiwan Foods", "order": 2 },
+  "ch8-tw3": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taipei Phrases", "order": 3 },
+  "ch8-tw4": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taiwan Daily Phrases", "order": 4 },
+
+  "ch8-tw5": { "book": 2, "chapter": 8, "section": "Taiwan Travel 2", "deckName": "Night Market Phrases", "order": 1 }
 
 }
