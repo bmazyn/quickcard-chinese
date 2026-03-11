@@ -2836,7 +2836,7 @@
 
   {
     "id": "ch2-phrases-core4-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo — 我很好",
@@ -2849,7 +2849,7 @@
   },
   {
     "id": "ch2-phrases-core4-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "tā hěn máng — 他很忙",
@@ -2862,7 +2862,7 @@
   },
   {
     "id": "ch2-phrases-core4-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ fēicháng hǎo — 这里非常好",
@@ -2875,7 +2875,7 @@
   },
   {
     "id": "ch2-phrases-core4-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège hěn hǎo — 这个很好",
@@ -2888,7 +2888,7 @@
   },
   {
     "id": "ch2-phrases-core4-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège tài guì — 这个太贵",
@@ -2901,7 +2901,7 @@
   },
   {
     "id": "ch2-phrases-core4-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "wǒ tài lèi — 我太累",
@@ -2914,7 +2914,7 @@
   },
   {
     "id": "ch2-phrases-core4-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhège gèng hǎo — 这个更好",
@@ -2927,7 +2927,7 @@
   },
   {
     "id": "ch2-phrases-core4-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-phrases-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ gèng hǎo — 这里更好",
@@ -2941,7 +2941,7 @@
 
   {
     "id": "ch2-phrases-core4-009",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn hǎo, yě hěn máng — 我很好，也很忙",
@@ -2954,7 +2954,7 @@
   },
   {
     "id": "ch2-phrases-core4-010",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn lèi, dànshì wǒ hěn gāoxìng — 我很累，但是我很高兴",
@@ -2967,7 +2967,7 @@
   },
   {
     "id": "ch2-phrases-core4-011",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn máng, suǒyǐ wǒ zǒu le — 我很忙，所以我走了",
@@ -2980,7 +2980,7 @@
   },
   {
     "id": "ch2-phrases-core4-012",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "yīnwèi zhège tài guì, suǒyǐ wǒ bù mǎi — 因为这个太贵，所以我不买",
@@ -2993,7 +2993,7 @@
   },
   {
     "id": "ch2-phrases-core4-013",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "yīnwèi wǒ hěn lèi, suǒyǐ wǒ bù qù — 因为我很累，所以我不去",
@@ -3006,7 +3006,7 @@
   },
   {
     "id": "ch2-phrases-core4-014",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "zhèlǐ fēicháng hǎo, dànshì tài guì — 这里非常好，但是太贵",
@@ -3019,7 +3019,7 @@
   },
   {
     "id": "ch2-phrases-core4-015",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-sent-core4",
     "level": "HSK1",
     "promptLine": "wǒ hěn xǐhuān zhèlǐ, yīnwèi zhèlǐ hěn hǎo — 我很喜欢这里，因为这里很好",
@@ -3033,7 +3033,7 @@
 
   {
     "id": "ch2-bonus_phrase1-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "wǒ hěn xǐhuān zhèlǐ — 我很喜欢这里",
@@ -3051,7 +3051,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "zhège fàndiàn fēicháng hǎo — 这个饭店非常好",
@@ -3069,7 +3069,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "xuéxiào tài dà — 学校太大",
@@ -3087,7 +3087,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "zhèlǐ hěn máng, dànshì hěn hǎo — 这里很忙，但是很好",
@@ -3105,7 +3105,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "yīnwèi zhèlǐ hěn guì, suǒyǐ wǒ bù qù — 因为这里很贵，所以我不去",
@@ -3123,7 +3123,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "zhège gōngyuán gèng hǎo — 这个公园更好",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ch2-bonus_phrase1-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-bonus_phrase1",
     "level": "HSK1",
     "promptLine": "zhège diàn hěn guì, dànshì hěn hǎo — 这个店很贵，但是很好",
@@ -3411,7 +3411,7 @@
 
   {
     "id": "ch2-core5_phrase-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "wǒ yǒushíhou qù gōngyuán — 我有时候去公园",
@@ -3429,7 +3429,7 @@
   },
   {
     "id": "ch2-core5_phrase-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "tā zǒngshì hěn máng — 他总是很忙",
@@ -3447,7 +3447,7 @@
   },
   {
     "id": "ch2-core5_phrase-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "wǒ cháng qù xuéxiào — 我常去学校",
@@ -3465,7 +3465,7 @@
   },
   {
     "id": "ch2-core5_phrase-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "měi tiān wǒ hěn máng — 每天我很忙",
@@ -3483,7 +3483,7 @@
   },
   {
     "id": "ch2-core5_phrase-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "wǒ yǒu hěn duō péngyou — 我有很多朋友",
@@ -3501,7 +3501,7 @@
   },
   {
     "id": "ch2-core5_phrase-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "wǒ zhǐ yǒu yìdiǎn qián — 我只有一点钱",
@@ -3519,7 +3519,7 @@
   },
   {
     "id": "ch2-core5_phrase-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "tā yǒu shǎo péngyou — 他有少朋友",
@@ -3537,7 +3537,7 @@
   },
   {
     "id": "ch2-core5_phrase-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core5_phrase",
     "level": "HSK1",
     "promptLine": "wǒ yǒushíhou hěn lèi — 我有时候很累",
@@ -4339,7 +4339,7 @@
 
   {
     "id": "ch2-core7_phrase-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "wǒ jīntiān hěn máng — 我今天很忙",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "ch2-core7_phrase-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "míngtiān jiàn — 明天见",
@@ -4375,7 +4375,7 @@
   },
   {
     "id": "ch2-core7_phrase-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "zuótiān hěn lèi — 昨天很累",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "ch2-core7_phrase-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "nǐ xiànzài zài nǎr — 你现在在哪儿",
@@ -4411,7 +4411,7 @@
   },
   {
     "id": "ch2-core7_phrase-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "wǒ yǐhòu gàosu nǐ — 我以后告诉你",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "ch2-core7_phrase-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "yǐqián wǒ zhù zhèlǐ — 以前我住这里",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": "ch2-core7_phrase-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "wǒ zǎoshang qù gōngsī — 我早上去公司",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "ch2-core7_phrase-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core7_phrase",
     "level": "HSK1",
     "promptLine": "tā wǎnshang huí jiā — 他晚上回家",
@@ -4485,7 +4485,7 @@
 
   {
     "id": "ch2-core8_phrase-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core8_phrase",
     "level": "HSK2",
     "promptLine": "nà gè shíhou wǒ hěn máng — 那个时候我很忙",
@@ -4503,7 +4503,7 @@
   },
   {
     "id": "ch2-core8_phrase-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core8_phrase",
     "level": "HSK2",
     "promptLine": "zhè gè zhōu wǒ hěn máng — 这个周我很忙",
@@ -4521,7 +4521,7 @@
   },
   {
     "id": "ch2-core8_phrase-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core8_phrase",
     "level": "HSK2",
     "promptLine": "zhège yuè wǒ hěn lèi — 这个月我很累",
@@ -4539,7 +4539,7 @@
   },
   {
     "id": "ch2-core8_phrase-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core8_phrase",
     "level": "HSK2",
     "promptLine": "jīnnián wǒ hěn máng — 今年我很忙",
@@ -4557,7 +4557,7 @@
   },
   {
     "id": "ch2-core8_phrase-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch2-core8_phrase",
     "level": "HSK2",
     "promptLine": "zhōumò wǒ xiǎng xiūxi — 周末我想休息",
@@ -5407,7 +5407,7 @@
 
   {
     "id": "ch3-phrase-3-1-1-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "wǒ jīntiān qù gōngsī — 我今天去公司",
@@ -5420,7 +5420,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "wǒ míngtiān zǎoshang zǒu — 我明天早上走",
@@ -5433,7 +5433,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "zuótiān wǎnshang wǒ hěn lèi — 昨天晚上我很累",
@@ -5446,7 +5446,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "wǒ xiànzài zài jiā — 我现在在家",
@@ -5459,7 +5459,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "xīngqīyī wǒ hěn máng — 星期一我很忙",
@@ -5472,7 +5472,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "zhōumò wǒ xiǎng xiūxi — 周末我想休息",
@@ -5485,7 +5485,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "wǒ yīyuè qù Běijīng — 我一月去北京",
@@ -5498,7 +5498,7 @@
   },
   {
     "id": "ch3-phrase-3-1-1-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-1",
     "level": "HSK1",
     "promptLine": "jīnnián wǒ hěn máng — 今年我很忙",
@@ -5514,7 +5514,7 @@
 
   {
     "id": "ch3-phrase-3-1-2-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "wǒ shíyī diǎn shuìjiào — 我十一点睡觉",
@@ -5527,7 +5527,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "xiànzài èrshí fēn — 现在二十分",
@@ -5540,7 +5540,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "wǒ děng nǐ sìshíwǔ fēn — 我等你四十五分",
@@ -5553,7 +5553,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "wǒ yǐhòu zài lái — 我以后再来",
@@ -5566,7 +5566,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "yǐqián wǒ bù zài zhèlǐ — 以前我不在这里",
@@ -5579,7 +5579,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "zhè gè yuè wǒ hěn máng — 这个月我很忙",
@@ -5592,7 +5592,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "wǒ zhōumò yào gōngzuò — 我周末要工作",
@@ -5605,7 +5605,7 @@
   },
   {
     "id": "ch3-phrase-3-1-2-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-phrase-3-1-2",
     "level": "HSK1",
     "promptLine": "nà gè shíhou wǒ hěn lèi — 那个时候我很累",
@@ -5717,7 +5717,7 @@
 
   {
     "id": "ch3-ph_2_4-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "wǒ yǒu yí gè fāngfǎ — 我有一个方法",
@@ -5735,7 +5735,7 @@
   },
   {
     "id": "ch3-ph_2_4-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "wǒ děng nǐ sān fēnzhōng — 我等你三分钟",
@@ -5753,7 +5753,7 @@
   },
   {
     "id": "ch3-ph_2_4-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "tā lái liǎng cì — 他来两次",
@@ -5771,7 +5771,7 @@
   },
   {
     "id": "ch3-ph_2_4-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "wǒ zǒu zhè tiáo lù — 我走这条路",
@@ -5789,7 +5789,7 @@
   },
   {
     "id": "ch3-ph_2_4-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "wǒ gōngzuò bā xiǎoshí — 我工作八小时",
@@ -5807,7 +5807,7 @@
   },
   {
     "id": "ch3-ph_2_4-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_2_4",
     "level": "HSK2",
     "promptLine": "tā zhǔnbèi yì nián — 他准备一年",
@@ -5923,7 +5923,7 @@
 
   {
     "id": "ch3-ph_3_2-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "qǐng kāi mén — 请开门",
     "question": "What does this mean?",
@@ -5940,7 +5940,7 @@
   },
   {
     "id": "ch3-ph_3_2-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "guān chuānghu — 关窗户",
     "question": "What does this mean?",
@@ -5957,7 +5957,7 @@
   },
   {
     "id": "ch3-ph_3_2-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "tā jiào Lǐ Míng — 他叫李明",
     "question": "What does this mean?",
@@ -5974,7 +5974,7 @@
   },
   {
     "id": "ch3-ph_3_2-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "gěi wǒ nà gè — 给我那个",
     "question": "What does this mean?",
@@ -5992,7 +5992,7 @@
 ,
   {
     "id": "ch3-ph_3_2-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "bié ràng tā zǒu — 别让他走",
     "question": "What does this mean?",
@@ -6009,7 +6009,7 @@
   },
   {
     "id": "ch3-ph_3_2-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "dǎ diànhuà gěi wǒ — 打电话给我",
     "question": "What does this mean?",
@@ -6026,7 +6026,7 @@
   },
   {
     "id": "ch3-ph_3_2-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "kāi diànshì — 开电视",
     "question": "What does this mean?",
@@ -6043,7 +6043,7 @@
   },
   {
     "id": "ch3-ph_3_2-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_2",
     "promptLine": "guān diànnǎo — 关电脑",
     "question": "What does this mean?",
@@ -6063,7 +6063,7 @@
 
   {
     "id": "ch3-ph_3_4-001",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "tā hěn gāo — 他很高",
     "question": "What does this mean?",
@@ -6080,7 +6080,7 @@
   },
   {
     "id": "ch3-ph_3_4-002",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "zhè gè hěn kuài — 这个很快",
     "question": "What does this mean?",
@@ -6097,7 +6097,7 @@
   },
   {
     "id": "ch3-ph_3_4-003",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "wǒ yào kāishǐ — 我要开始",
     "question": "What does this mean?",
@@ -6114,7 +6114,7 @@
   },
   {
     "id": "ch3-ph_3_4-004",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "yóuxì jiéshù le — 游戏结束了",
     "question": "What does this mean?",
@@ -6133,7 +6133,7 @@
 
   {
     "id": "ch3-ph_3_4-005",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "tā hěn ǎi — 他很矮",
     "question": "What does this mean?",
@@ -6150,7 +6150,7 @@
   },
   {
     "id": "ch3-ph_3_4-006",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "wǒ zhǔnbèi hǎo le — 我准备好了",
     "question": "What does this mean?",
@@ -6167,7 +6167,7 @@
   },
   {
     "id": "ch3-ph_3_4-007",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "kuài diǎn — 快点",
     "question": "What does this mean?",
@@ -6184,7 +6184,7 @@
   },
   {
     "id": "ch3-ph_3_4-008",
-    "kind": "vocab",
+    "kind": "phrase",
     "deckId": "ch3-ph_3_4",
     "promptLine": "bié wán le — 别玩了",
     "question": "What does this mean?",
@@ -13774,7 +13774,7 @@
 "level":"HSK2",
 "promptLine":"bǎ — 把",
 "question":"What does this mean?",
-"choices":{"A":"ba-construction marker","B":"or","C":"from","D":"but"},
+"choices":{"A":"construction marker","B":"or","C":"from","D":"but"},
 "correct":"A",
 "tags":["ch7"],
 "difficulty":4
@@ -13868,7 +13868,7 @@
 "kind":"vocab",
 "deckId":"ch7-es5",
 "level":"HSK2",
-"promptLine":"ba-construction marker",
+"promptLine":"construction marker",
 "question":"Which is correct?",
 "choices":{"A":"bǎ — 把","B":"le — 了","C":"duì — 对","D":"liǎng — 两"},
 "correct":"A",
@@ -13912,6 +13912,222 @@
 "difficulty":4
 }
 ,
+
+{
+"id":"ch7-es4p-001",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒmen jiù qù — 我们就去",
+"question":"What does this mean?",
+"choices":{"A":"We already went.","B":"We will go later.","C":"We then go.","D":"We did not go."},
+"correct":"C",
+"explanation":"我们就去 means we then go.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es4p-002",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒmen dōu lái — 我们都来",
+"question":"What does this mean?",
+"choices":{"A":"We all come.","B":"We come later.","C":"We sometimes come.","D":"Only I come."},
+"correct":"A",
+"explanation":"我们都来 means we all come.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es4p-003",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"tā huì lái — 他会来",
+"question":"What does this mean?",
+"choices":{"A":"He came before.","B":"He will come.","C":"He comes every day.","D":"He does not come."},
+"correct":"B",
+"explanation":"他会来 means he will come.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es4p-004",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒ duì tā shuō — 我对他说",
+"question":"What does this mean?",
+"choices":{"A":"I speak toward him.","B":"He speaks to me.","C":"I speak to him.","D":"We talk together."},
+"correct":"C",
+"explanation":"我对他说 means I speak to him.",
+"tags":["ch7","phrase"],
+"difficulty":3
+},
+{
+"id":"ch7-es4p-005",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒ néng qù — 我能去",
+"question":"What does this mean?",
+"choices":{"A":"I want to go.","B":"I can go.","C":"I went already.","D":"I will not go."},
+"correct":"B",
+"explanation":"我能去 means I can go.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es4p-006",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒ qù dàn tā bù qù — 我去但他不去",
+"question":"What does this mean?",
+"choices":{"A":"He goes and I go.","B":"I go but he does not.","C":"He goes before me.","D":"We both go."},
+"correct":"B",
+"explanation":"我去但他不去 means I go but he does not.",
+"tags":["ch7","phrase"],
+"difficulty":3
+},
+{
+"id":"ch7-es4p-007",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"tā zuì máng — 他最忙",
+"question":"What does this mean?",
+"choices":{"A":"He is the most busy.","B":"He is not busy.","C":"He was busy yesterday.","D":"He will be busy tomorrow."},
+"correct":"A",
+"explanation":"他最忙 means he is the most busy.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es4p-008",
+"kind":"phrase",
+"deckId":"ch7-es4p",
+"level":"HSK2",
+"promptLine":"wǒ yǒu liǎng gè — 我有两个",
+"question":"What does this mean?",
+"choices":{"A":"I have two.","B":"I have many.","C":"I have one.","D":"I had two before."},
+"correct":"A",
+"explanation":"我有两个 means I have two.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+
+{
+"id":"ch7-es5p-001",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"wǒ zìjǐ qù — 我自己去",
+"question":"What does this mean?",
+"choices":{"A":"I go alone.","B":"We go together.","C":"He goes with me.","D":"I go later."},
+"correct":"A",
+"explanation":"我自己去 means I go by myself.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es5p-002",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"chá huò kāfēi — 茶或咖啡",
+"question":"What does this mean?",
+"choices":{"A":"Tea and coffee.","B":"Tea or coffee.","C":"Hot coffee.","D":"Cold tea."},
+"correct":"B",
+"explanation":"茶或咖啡 means tea or coffee.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es5p-003",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"wǒ cóng Zhōngguó lái — 我从中国来",
+"question":"What does this mean?",
+"choices":{"A":"I live in China.","B":"I came from China.","C":"I go to China.","D":"I study Chinese."},
+"correct":"B",
+"explanation":"我从中国来 means I come from China.",
+"tags":["ch7","phrase"],
+"difficulty":2
+},
+{
+"id":"ch7-es5p-004",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"tā cái lái — 他才来",
+"question":"What does this mean?",
+"choices":{"A":"He already came.","B":"He only just came.","C":"He will come tomorrow.","D":"He did not come."},
+"correct":"B",
+"explanation":"他才来 means he only just came.",
+"tags":["ch7","phrase"],
+"difficulty":3
+},
+{
+"id":"ch7-es5p-005",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"wǒ bǎ shū gěi tā — 我把书给他",
+"question":"What does this mean?",
+"choices":{"A":"I read his book.","B":"I give him the book.","C":"He gives me a book.","D":"I buy a book."},
+"correct":"B",
+"explanation":"我把书给他 means I give him the book.",
+"tags":["ch7","phrase"],
+"difficulty":4
+},
+{
+"id":"ch7-es5p-006",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"tā ne — 他呢",
+"question":"What does this mean?",
+"choices":{"A":"Where is he?","B":"And him?","C":"He is here.","D":"He went there."},
+"correct":"B",
+"explanation":"他呢 means what about him?",
+"tags":["ch7","phrase"],
+"difficulty":3
+},
+{
+"id":"ch7-es5p-007",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"rúguǒ xiàyǔ wǒ bù qù — 如果下雨我不去",
+"question":"What does this mean?",
+"choices":{"A":"I go when it rains.","B":"If it rains I will not go.","C":"It rained so I stayed.","D":"I go before it rains."},
+"correct":"B",
+"explanation":"如果下雨我不去 means if it rains I will not go.",
+"tags":["ch7","phrase"],
+"difficulty":3
+},
+{
+"id":"ch7-es5p-008",
+"kind":"phrase",
+"deckId":"ch7-es5p",
+"level":"HSK2",
+"promptLine":"tā lái le — 他来了",
+"question":"What does this mean?",
+"choices":{"A":"He will come.","B":"He came.","C":"He is coming later.","D":"He does not come."},
+"correct":"B",
+"explanation":"他来了 means he came.",
+"tags":["ch7","phrase"],
+"difficulty":2
+}
+,
+
+
+
+
+
 {
 "id":"ch8-tw1-001",
 "kind":"vocab",

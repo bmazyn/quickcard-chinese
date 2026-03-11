@@ -934,19 +934,115 @@ ch7-wth1-013,vocab,7,"Weather & Mixed","Weather","cloudy day","yīntiān — 阴
 ch7-wth1-014,vocab,7,"Weather & Mixed","Weather","cool","liángkuai — 凉快",ch7,"rè — 热","lěng — 冷","liángkuai — 凉快","qíngtiān — 晴天",3
 ch7-wth1-015,vocab,7,"Weather & Mixed","Weather","hot","rè — 热",ch7,"lěng — 冷","rè — 热","xiàyǔ — 下雨","yīntiān — 阴天",2
 ch7-wth1-016,vocab,7,"Weather & Mixed","Weather","cold","lěng — 冷",ch7,"liángkuai — 凉快","guāfēng — 刮风","lěng — 冷","xiàxuě — 下雪",2
-ch7-wthp1-001,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān xiàyǔ — 今天下雨","It is raining today.",ch7|phrase,"It will rain tomorrow.","It rained before.","It is raining today.","It is windy today.",2
-ch7-wthp1-002,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān xiàxuě — 今天下雪","It is snowing today.",ch7|phrase,"It is snowing today.","It snowed yesterday.","It will snow later.","It is cloudy today.",2
-ch7-wthp1-003,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān guāfēng — 今天刮风","It is windy today.",ch7|phrase,"It is raining today.","It is windy today.","It is hot today.","It is cold today.",2
-ch7-wthp1-004,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān qíngtiān — 今天晴天","It is sunny today.",ch7|phrase,"It is cloudy today.","It is sunny today.","It is raining today.","It is windy today.",2
-ch7-wthp1-005,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān yīntiān — 今天阴天","It is cloudy today.",ch7|phrase,"It is cloudy today.","It is sunny today.","It is cold today.","It is windy today.",2
-ch7-wthp1-006,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn rè — 今天很热","It is very hot today.",ch7|phrase,"It is very windy today.","It is very hot today.","It is very cool today.","It is very cold today.",2
-ch7-wthp1-007,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn lěng — 今天很冷","It is very cold today.",ch7|phrase,"It is very cold today.","It is very hot today.","It is very sunny today.","It is very windy today.",2
-ch7-wthp1-008,phrase,7,"Weather & Mixed","Weather Phrases","jīntiān hěn liángkuai — 今天很凉快","It is pleasantly cool today.",ch7|phrase,"It is very hot today.","It is pleasantly cool today.","It is very windy today.","It is raining today.",2
-ch7-mxp1-001,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān qiánmiàn xiàyǔ — 今天前面下雨","It is raining ahead today.",ch7|phrase,"It rained before.","It is raining ahead today.","It will rain later.","It is sunny ahead.",3
-ch7-mxp1-002,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān wàimiàn guāfēng — 今天外面刮风","It is windy outside today.",ch7|phrase,"It is windy outside today.","It is windy inside today.","It rained outside today.","It is cloudy outside today.",2
-ch7-mxp1-003,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān zuǒbiān xiàyǔ — 今天左边下雨","It is raining on the left today.",ch7|phrase,"It is raining on the right today.","It is raining on the left today.","It rained before on the left.","It is windy on the left today.",3
-ch7-mxp1-004,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān hòumiàn yīntiān — 今天后面阴天","It is cloudy behind today.",ch7|phrase,"It is sunny behind today.","It is cloudy behind today.","It is windy behind today.","It is raining behind today.",3
-ch7-mxp1-005,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān xiàyǔ hé guāfēng — 今天下雨和刮风","It is raining and windy today.",ch7|phrase,"It is raining or windy today.","It rained before and was windy.","It is raining and windy today.","It is sunny and windy today.",2
-ch7-mxp1-006,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān xiàyǔ huòzhě guāfēng — 今天下雨或者刮风","It is raining or windy today.",ch7|phrase,"It is raining and windy today.","It will rain later.","It is raining or windy today.","It rained before and was windy.",2
-ch7-mxp1-007,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān wàimiàn hěn lěng — 今天外面很冷","It is very cold outside today.",ch7|phrase,"It is very cold outside today.","It is very hot outside today.","It is very windy outside today.","It is cloudy outside today.",2
-ch7-mxp1-008,phrase,7,"Weather & Mixed","Mixed Phrases 1","jīntiān qiánmiàn hěn rè — 今天前面很热","It is very hot ahead today.",ch7|phrase,"It is very windy ahead today.","It is very cold ahead today.","It is very hot ahead today.","It is raining ahead today.",3
+ch7-wthp1-001,phrase,7,"Weather & Mixed","Weather Phrases","zuótiān xiàyǔ — 昨天下雨","It rained yesterday.",ch7|phrase,"It will rain tomorrow.","It rained yesterday.","It is raining today.","It is windy today.",2
+ch7-wthp1-002,phrase,7,"Weather & Mixed","Weather Phrases","míngtiān xiàxuě — 明天下雪","It will snow tomorrow.",ch7|phrase,"It is snowing today.","It snowed yesterday.","It will snow tomorrow.","It is cloudy today.",2
+ch7-wthp1-003,phrase,7,"Weather & Mixed","Weather Phrases","xiànzài guāfēng — 现在刮风","It is windy now.",ch7|phrase,"It was windy yesterday.","It is windy now.","It will be windy tomorrow.","It is hot today.",2
+ch7-wthp1-004,phrase,7,"Weather & Mixed","Weather Phrases","xià zhōu qíngtiān — 下周晴天","It will be sunny next week.",ch7|phrase,"It will be sunny next week.","It was sunny last week.","It is sunny today.","It will rain next week.",2
+ch7-wthp1-005,phrase,7,"Weather & Mixed","Weather Phrases","shàng zhōu yīntiān — 上周阴天","It was cloudy last week.",ch7|phrase,"It was cloudy last week.","It will be cloudy next week.","It is cloudy today.","It is windy this week.",2
+ch7-wthp1-006,phrase,7,"Weather & Mixed","Weather Phrases","míngtiān hěn rè — 明天很热","It will be very hot tomorrow.",ch7|phrase,"It was very hot yesterday.","It is very hot today.","It will be very hot tomorrow.","It will be windy tomorrow.",2
+ch7-wthp1-007,phrase,7,"Weather & Mixed","Weather Phrases","shàng yuè hěn lěng — 上月很冷","It was very cold last month.",ch7|phrase,"It was very cold last month.","It will be cold next month.","It is very cold today.","It was windy last month.",2
+ch7-wthp1-008,phrase,7,"Weather & Mixed","Weather Phrases","zhè zhōu hěn liángkuai — 这周很凉快","It is pleasantly cool this week.",ch7|phrase,"It will be hot this week.","It is pleasantly cool this week.","It was windy this week.","It is raining this week.",2
+ch7-mxp1-001,phrase,7,"Weather & Mixed","Mixed Phrases 1","míngtiān nàbiān xiàyǔ — 明天那边下雨","It will rain over there tomorrow.",ch7|phrase,"It rained before.","It will rain over there tomorrow.","It is raining today.","It is sunny there.",3
+ch7-mxp1-002,phrase,7,"Weather & Mixed","Mixed Phrases 1","zuótiān wàimiàn guāfēng — 昨天外面刮风","It was windy outside yesterday.",ch7|phrase,"It was windy outside yesterday.","It is windy outside today.","It will be windy tomorrow.","It was cloudy outside.",2
+ch7-mxp1-003,phrase,7,"Weather & Mixed","Mixed Phrases 1","xiànzài wàimiàn xiàyǔ — 现在外面下雨","It is raining outside now.",ch7|phrase,"It is raining inside now.","It is raining outside now.","It rained yesterday outside.","It will rain tomorrow outside.",2
+ch7-mxp1-004,phrase,7,"Weather & Mixed","Mixed Phrases 1","xià zhōu nàbiān yīntiān — 下周那边阴天","It will be cloudy there next week.",ch7|phrase,"It will be sunny there next week.","It will be cloudy there next week.","It was cloudy there last week.","It is windy there today.",3
+ch7-mxp1-005,phrase,7,"Weather & Mixed","Mixed Phrases 1","míngtiān xiàyǔ hé guāfēng — 明天下雨和刮风","It will rain and be windy tomorrow.",ch7|phrase,"It will rain or be windy tomorrow.","It will rain and be windy tomorrow.","It rained yesterday and was windy.","It will be sunny and windy tomorrow.",2
+ch7-mxp1-006,phrase,7,"Weather & Mixed","Mixed Phrases 1","zhè zhōu xiàyǔ huòzhě guāfēng — 这周下雨或者刮风","It will rain or be windy this week.",ch7|phrase,"It will rain and be windy this week.","It will rain or be windy this week.","It rained last week.","It is sunny this week.",2
+ch7-mxp1-007,phrase,7,"Weather & Mixed","Mixed Phrases 1","zuótiān wàimiàn hěn lěng — 昨天外面很冷","It was very cold outside yesterday.",ch7|phrase,"It was very cold outside yesterday.","It is very cold outside today.","It will be cold tomorrow.","It was windy yesterday.",2
+ch7-mxp1-008,phrase,7,"Weather & Mixed","Mixed Phrases 1","xià zhōu nàbiān hěn rè — 下周那边很热","It will be very hot there next week.",ch7|phrase,"It will be windy there next week.","It will be very cold there next week.","It will be very hot there next week.","It rained there last week.",3
+ch7-mxp2-001,phrase,7,"Weather & Mixed","Mixed Phrases 2","míngtiān wǒ qù nàbiān — 明天我去那边","I will go there tomorrow.",ch7|phrase,"I went there yesterday.","I will go there tomorrow.","I am there now.","I stayed there before.",2
+ch7-mxp2-002,phrase,7,"Weather & Mixed","Mixed Phrases 2","xiànzài wǒ zài lǐmiàn — 现在我在里面","I am inside now.",ch7|phrase,"I am outside now.","I was inside yesterday.","I am inside now.","I will go inside later.",2
+ch7-mxp2-003,phrase,7,"Weather & Mixed","Mixed Phrases 2","zuótiān wǒmen zài wàimiàn — 昨天我们在外面","We were outside yesterday.",ch7|phrase,"We are outside today.","We were outside yesterday.","We will go outside tomorrow.","We stayed inside yesterday.",2
+ch7-mxp2-004,phrase,7,"Weather & Mixed","Mixed Phrases 2","jīntiān wàimiàn xiàyǔ — 今天外面下雨","It is raining outside today.",ch7|phrase,"It is raining outside today.","It rained yesterday outside.","It will rain tomorrow outside.","It is windy outside today.",2
+ch7-mxp2-005,phrase,7,"Weather & Mixed","Mixed Phrases 2","míngtiān wǒmen chīfàn — 明天我们吃饭","We will eat tomorrow.",ch7|phrase,"We ate yesterday.","We will eat tomorrow.","We are eating now.","We eat every day.",2
+ch7-mxp2-006,phrase,7,"Weather & Mixed","Mixed Phrases 2","xiànzài tā zài qiánmiàn — 现在他在前面","He is in front now.",ch7|phrase,"He was behind before.","He is in front now.","He will go ahead tomorrow.","He is outside now.",2
+ch7-mxp2-007,phrase,7,"Weather & Mixed","Mixed Phrases 2","xià zhōu wǒ qù Zhōngguó — 下周我去中国","I will go to China next week.",ch7|phrase,"I went to China last week.","I will go to China next week.","I am in China now.","I will go tomorrow.",2
+ch7-mxp2-008,phrase,7,"Weather & Mixed","Mixed Phrases 2","zuótiān tā hěn máng — 昨天他很忙","He was very busy yesterday.",ch7|phrase,"He is busy today.","He was very busy yesterday.","He will be busy tomorrow.","He is not busy.",2
+ch7-es4-001,vocab,7,"Essential C","Essential 4","jiù — 就","then",ch7,"then","but","most","from",3
+ch7-es4-002,vocab,7,"Essential C","Essential 4","dōu — 都","all",ch7,"all","two","self","if",2
+ch7-es4-003,vocab,7,"Essential C","Essential 4","huì — 会","will",ch7,"will","from","most","but",2
+ch7-es4-004,vocab,7,"Essential C","Essential 4","duì — 对","toward",ch7,"toward","or","then","two",3
+ch7-es4-005,vocab,7,"Essential C","Essential 4","néng — 能","can",ch7,"can","but","all","most",2
+ch7-es4-006,vocab,7,"Essential C","Essential 4","dàn — 但","but",ch7,"but","two","from","then",2
+ch7-es4-007,vocab,7,"Essential C","Essential 4","zuì — 最","most",ch7,"most","self","or","if",2
+ch7-es4-008,vocab,7,"Essential C","Essential 4","liǎng — 两","two",ch7,"two","most","all","toward",2
+ch7-es4-009,vocab,7,"Essential C","Essential 4","then","jiù — 就",ch7|reverse,"dàn — 但","jiù — 就","zuì — 最","duì — 对",3
+ch7-es4-010,vocab,7,"Essential C","Essential 4","all","dōu — 都",ch7|reverse,"dōu — 都","liǎng — 两","huì — 会","dàn — 但",2
+ch7-es4-011,vocab,7,"Essential C","Essential 4","will","huì — 会",ch7|reverse,"huì — 会","néng — 能","duì — 对","zuì — 最",2
+ch7-es4-012,vocab,7,"Essential C","Essential 4","toward","duì — 对",ch7|reverse,"duì — 对","jiù — 就","liǎng — 两","dōu — 都",3
+ch7-es4-013,vocab,7,"Essential C","Essential 4","can","néng — 能",ch7|reverse,"néng — 能","huì — 会","dàn — 但","zuì — 最",2
+ch7-es4-014,vocab,7,"Essential C","Essential 4","but","dàn — 但",ch7|reverse,"dàn — 但","duì — 对","dōu — 都","jiù — 就",2
+ch7-es4-015,vocab,7,"Essential C","Essential 4","most","zuì — 最",ch7|reverse,"zuì — 最","liǎng — 两","huì — 会","néng — 能",2
+ch7-es4-016,vocab,7,"Essential C","Essential 4","two","liǎng — 两",ch7|reverse,"liǎng — 两","dōu — 都","duì — 对","dàn — 但",2
+ch7-es5-001,vocab,7,"Essential C","Essential 5","zìjǐ — 自己","self",ch7,"self","but","most","two",2
+ch7-es5-002,vocab,7,"Essential C","Essential 5","huò — 或","or",ch7,"or","then","all","toward",2
+ch7-es5-003,vocab,7,"Essential C","Essential 5","cóng — 从","from",ch7,"from","most","but","two",2
+ch7-es5-004,vocab,7,"Essential C","Essential 5","cái — 才","only then",ch7,"only then","all","or","self",3
+ch7-es5-005,vocab,7,"Essential C","Essential 5","bǎ — 把","ba-construction marker",ch7,"ba-construction marker","or","from","but",4
+ch7-es5-006,vocab,7,"Essential C","Essential 5","ne — 呢","question particle",ch7,"question particle","most","two","all",3
+ch7-es5-007,vocab,7,"Essential C","Essential 5","rúguǒ — 如果","if",ch7,"if","then","or","but",2
+ch7-es5-008,vocab,7,"Essential C","Essential 5","le — 了","completed-action particle",ch7,"completed-action particle","two","self","from",4
+ch7-es5-009,vocab,7,"Essential C","Essential 5","self","zìjǐ — 自己",ch7|reverse,"zìjǐ — 自己","huò — 或","cóng — 从","le — 了",2
+ch7-es5-010,vocab,7,"Essential C","Essential 5","or","huò — 或",ch7|reverse,"rúguǒ — 如果","huì — 会","huò — 或","dōu — 都",2
+ch7-es5-011,vocab,7,"Essential C","Essential 5","from","cóng — 从",ch7|reverse,"cóng — 从","duì — 对","cái — 才","jiù — 就",2
+ch7-es5-012,vocab,7,"Essential C","Essential 5","only then","cái — 才",ch7|reverse,"bǎ — 把","ne — 呢","cái — 才","dàn — 但",3
+ch7-es5-013,vocab,7,"Essential C","Essential 5","ba-construction marker","bǎ — 把",ch7|reverse,"bǎ — 把","le — 了","duì — 对","liǎng — 两",4
+ch7-es5-014,vocab,7,"Essential C","Essential 5","question particle","ne — 呢",ch7|reverse,"huò — 或","ne — 呢","zuì — 最","cóng — 从",3
+ch7-es5-015,vocab,7,"Essential C","Essential 5","if","rúguǒ — 如果",ch7|reverse,"rúguǒ — 如果","jiù — 就","dōu — 都","zìjǐ — 自己",2
+ch7-es5-016,vocab,7,"Essential C","Essential 5","completed-action particle","le — 了",ch7|reverse,"le — 了","bǎ — 把","ne — 呢","cái — 才",4
+ch8-tw1-001,vocab,8,"Taiwan Travel","Taipei Essentials","yèshì — 夜市","night market",ch8,"night market","pedestrian street","bubble tea","line / queue",2
+ch8-tw1-002,vocab,8,"Taiwan Travel","Taipei Essentials","jiéyùn — 捷运","Taipei metro (MRT)",ch8,"Taipei metro (MRT)","train station","taxi","airport",2
+ch8-tw1-003,vocab,8,"Taiwan Travel","Taipei Essentials","yōuyóu kǎ — 悠游卡","EasyCard transit card",ch8,"EasyCard transit card","credit card","ticket machine","cash",3
+ch8-tw1-004,vocab,8,"Taiwan Travel","Taipei Essentials","bùxíng jiē — 步行街","pedestrian street",ch8,"pedestrian street","shopping mall","night market","subway entrance",2
+ch8-tw1-005,vocab,8,"Taiwan Travel","Taipei Essentials","xiǎochī — 小吃","street snacks",ch8,"street snacks","full meal","dessert shop","menu",2
+ch8-tw1-006,vocab,8,"Taiwan Travel","Taipei Essentials","zhēnzhū nǎichá — 珍珠奶茶","bubble tea",ch8,"bubble tea","soy milk","iced coffee","fruit tea",2
+ch8-tw1-007,vocab,8,"Taiwan Travel","Taipei Essentials","biàndāng — 便当","lunch box meal",ch8,"lunch box meal","rice bowl","noodle soup","snack pack",2
+ch8-tw1-008,vocab,8,"Taiwan Travel","Taipei Essentials","páiduì — 排队","line / queue",ch8,"line / queue","pay the bill","buy tickets","wait inside",2
+ch8-tw1-009,vocab,8,"Taiwan Travel","Taipei Essentials","night market","yèshì — 夜市",ch8|reverse,"yèshì — 夜市","bùxíng jiē — 步行街","xiǎochī — 小吃","páiduì — 排队",2
+ch8-tw1-010,vocab,8,"Taiwan Travel","Taipei Essentials","Taipei metro (MRT)","jiéyùn — 捷运",ch8|reverse,"jiéyùn — 捷运","yèshì — 夜市","biàndāng — 便当","yōuyóu kǎ — 悠游卡",2
+ch8-tw1-011,vocab,8,"Taiwan Travel","Taipei Essentials","EasyCard transit card","yōuyóu kǎ — 悠游卡",ch8|reverse,"yōuyóu kǎ — 悠游卡","zhēnzhū nǎichá — 珍珠奶茶","jiéyùn — 捷运","bùxíng jiē — 步行街",3
+ch8-tw1-012,vocab,8,"Taiwan Travel","Taipei Essentials","pedestrian street","bùxíng jiē — 步行街",ch8|reverse,"bùxíng jiē — 步行街","yèshì — 夜市","páiduì — 排队","xiǎochī — 小吃",2
+ch8-tw1-013,vocab,8,"Taiwan Travel","Taipei Essentials","street snacks","xiǎochī — 小吃",ch8|reverse,"xiǎochī — 小吃","biàndāng — 便当","zhēnzhū nǎichá — 珍珠奶茶","yèshì — 夜市",2
+ch8-tw1-014,vocab,8,"Taiwan Travel","Taipei Essentials","bubble tea","zhēnzhū nǎichá — 珍珠奶茶",ch8|reverse,"zhēnzhū nǎichá — 珍珠奶茶","biàndāng — 便当","xiǎochī — 小吃","yōuyóu kǎ — 悠游卡",2
+ch8-tw1-015,vocab,8,"Taiwan Travel","Taipei Essentials","lunch box meal","biàndāng — 便当",ch8|reverse,"biàndāng — 便当","xiǎochī — 小吃","yèshì — 夜市","jiéyùn — 捷运",2
+ch8-tw1-016,vocab,8,"Taiwan Travel","Taipei Essentials","line / queue","páiduì — 排队",ch8|reverse,"páiduì — 排队","bùxíng jiē — 步行街","biàndāng — 便当","yèshì — 夜市",2
+ch8-tw2-001,vocab,8,"Taiwan Travel","Taiwan Foods","chòu dòufu — 臭豆腐","stinky tofu",ch8,"stinky tofu","fried dumplings","tofu soup","sweet tofu",3
+ch8-tw2-002,vocab,8,"Taiwan Travel","Taiwan Foods","ézǎi jiān — 蚵仔煎","oyster omelet",ch8,"oyster omelet","seafood noodles","fried rice","steamed bun",4
+ch8-tw2-003,vocab,8,"Taiwan Travel","Taiwan Foods","lǔ ròu fàn — 卤肉饭","braised pork rice",ch8,"braised pork rice","fried pork rice","beef noodles","rice porridge",3
+ch8-tw2-004,vocab,8,"Taiwan Travel","Taiwan Foods","cōng yóu bǐng — 葱油饼","scallion pancake",ch8,"scallion pancake","rice cake","sweet bun","egg tart",3
+ch8-tw2-005,vocab,8,"Taiwan Travel","Taiwan Foods","guā bāo — 刈包","pork belly bun",ch8,"pork belly bun","dumpling soup","steamed rice","fried chicken bun",4
+ch8-tw2-006,vocab,8,"Taiwan Travel","Taiwan Foods","dà jī pái — 大鸡排","giant fried chicken cutlet",ch8,"giant fried chicken cutlet","chicken soup","grilled chicken wings","small chicken snack",3
+ch8-tw2-007,vocab,8,"Taiwan Travel","Taiwan Foods","chē lún bǐng — 车轮饼","wheel cake",ch8,"wheel cake","rice roll","sweet soup","fried bun",4
+ch8-tw2-008,vocab,8,"Taiwan Travel","Taiwan Foods","mángguǒ bīng — 芒果冰","mango shaved ice",ch8,"mango shaved ice","mango juice","mango cake","mango tea",2
+ch8-tw2-009,vocab,8,"Taiwan Travel","Taiwan Foods","stinky tofu","chòu dòufu — 臭豆腐",ch8|reverse,"chòu dòufu — 臭豆腐","guā bāo — 刈包","lǔ ròu fàn — 卤肉饭","chē lún bǐng — 车轮饼",3
+ch8-tw2-010,vocab,8,"Taiwan Travel","Taiwan Foods","oyster omelet","ézǎi jiān — 蚵仔煎",ch8|reverse,"ézǎi jiān — 蚵仔煎","cōng yóu bǐng — 葱油饼","dà jī pái — 大鸡排","mángguǒ bīng — 芒果冰",4
+ch8-tw2-011,vocab,8,"Taiwan Travel","Taiwan Foods","braised pork rice","lǔ ròu fàn — 卤肉饭",ch8|reverse,"lǔ ròu fàn — 卤肉饭","chòu dòufu — 臭豆腐","guā bāo — 刈包","mángguǒ bīng — 芒果冰",3
+ch8-tw2-012,vocab,8,"Taiwan Travel","Taiwan Foods","scallion pancake","cōng yóu bǐng — 葱油饼",ch8|reverse,"cōng yóu bǐng — 葱油饼","chē lún bǐng — 车轮饼","ézǎi jiān — 蚵仔煎","guā bāo — 刈包",3
+ch8-tw2-013,vocab,8,"Taiwan Travel","Taiwan Foods","pork belly bun","guā bāo — 刈包",ch8|reverse,"guā bāo — 刈包","dà jī pái — 大鸡排","chòu dòufu — 臭豆腐","cōng yóu bǐng — 葱油饼",4
+ch8-tw2-014,vocab,8,"Taiwan Travel","Taiwan Foods","giant fried chicken cutlet","dà jī pái — 大鸡排",ch8|reverse,"dà jī pái — 大鸡排","guā bāo — 刈包","lǔ ròu fàn — 卤肉饭","ézǎi jiān — 蚵仔煎",3
+ch8-tw2-015,vocab,8,"Taiwan Travel","Taiwan Foods","wheel cake","chē lún bǐng — 车轮饼",ch8|reverse,"chē lún bǐng — 车轮饼","cōng yóu bǐng — 葱油饼","mángguǒ bīng — 芒果冰","chòu dòufu — 臭豆腐",4
+ch8-tw2-016,vocab,8,"Taiwan Travel","Taiwan Foods","mango shaved ice","mángguǒ bīng — 芒果冰",ch8|reverse,"mángguǒ bīng — 芒果冰","chē lún bǐng — 车轮饼","lǔ ròu fàn — 卤肉饭","dà jī pái — 大鸡排",2
+ch8-tw3-001,phrase,8,"Taiwan Travel","Taipei Phrases","yào shénme? — 要什么？","What do you want?",ch8|phrase,"What do you want?","Where are you going?","How much is it?","Do you need help?",2
+ch8-tw3-002,phrase,8,"Taiwan Travel","Taipei Phrases","yào zhège ma? — 要这个吗？","Do you want this?",ch8|phrase,"Do you want this?","Is this expensive?","Do you have this?","Can I try this?",2
+ch8-tw3-003,phrase,8,"Taiwan Travel","Taipei Phrases","kěyǐ ma? — 可以吗？","Is that OK?",ch8|phrase,"Is that OK?","How many?","What is this?","Is it ready?",2
+ch8-tw3-004,phrase,8,"Taiwan Travel","Taipei Phrases","děng yíxià — 等一下","Wait a moment.",ch8|phrase,"Wait a moment.","Come here.","Pay now.","Let's go.",2
+ch8-tw3-005,phrase,8,"Taiwan Travel","Taipei Phrases","màn màn lái — 慢慢来","Take your time.",ch8|phrase,"Take your time.","Hurry up.","Come tomorrow.","Walk this way.",2
+ch8-tw3-006,phrase,8,"Taiwan Travel","Taipei Phrases","zài zhèlǐ chī hái shì dài zǒu? — 在这里吃还是带走？","Eat here or take away?",ch8|phrase,"Eat here or take away?","Do you want rice or noodles?","Is it hot or cold?","Can I sit here?",3
+ch8-tw3-007,phrase,8,"Taiwan Travel","Taipei Phrases","yī gòng duōshǎo? — 一共多少？","How much is it total?",ch8|phrase,"How much is it total?","How many people?","How long is it?","How far is it?",2
+ch8-tw3-008,phrase,8,"Taiwan Travel","Taipei Phrases","xià yí ge — 下一个","Next person.",ch8|phrase,"Next person.","Sit here.","Last one.","This one is fine.",2
+ch8-tw4-001,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","yǒu méiyǒu X? — 有没有 X？","Do you have X?",ch8|phrase,"Do you have X?","Where is X?","How much is X?","Do you like X?",2
+ch8-tw4-002,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","kěyǐ shuā kǎ ma? — 可以刷卡吗？","Can I pay by card?",ch8|phrase,"Can I pay by card?","Can I get a receipt?","Can I sit here?","Can I use English?",3
+ch8-tw4-003,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","wǒ yào chōng zhí — 我要充值","I want to top up.",ch8|phrase,"I want to top up.","I want to pay now.","I want to go there.","I want to order food.",3
+ch8-tw4-004,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","qǐng wèn — 请问","Excuse me / may I ask",ch8|phrase,"Excuse me / may I ask","Please wait","Thank you very much","See you later",2
+ch8-tw4-005,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","zài zhè lǐ xià chē ma? — 在这里下车吗？","Do I get off here?",ch8|phrase,"Do I get off here?","Do I pay here?","Do I wait here?","Do I change here?",3
+ch8-tw4-006,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","zhè shì shénme? — 这是什么？","What is this?",ch8|phrase,"What is this?","Whose is this?","Where is this?","How is this?",2
+ch8-tw4-007,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","bāng wǒ yí xià — 帮我一下","Help me for a moment.",ch8|phrase,"Help me for a moment.","Wait for me a moment.","Call me in a moment.","Show me this one.",2
+ch8-tw4-008,phrase,8,"Taiwan Travel","Taiwan Daily Phrases","kěyǐ yòng yīngwén ma? — 可以用英文吗？","Can we use English?",ch8|phrase,"Can we use English?","Can I use a card?","Can I use this?","Can I go now?",3
+ch8-tw5-001,phrase,8,"Taiwan Travel 2","Night Market Phrases","zhège duōshao qián? — 这个多少钱？","How much is this?",ch8|phrase,"How much is this?","Where is this?","How many are there?","How long is this?",2
+ch8-tw5-002,phrase,8,"Taiwan Travel 2","Night Market Phrases","kěyǐ piányi yìdiǎn ma? — 可以便宜一点吗？","Can it be a little cheaper?",ch8|phrase,"Can it be a little cheaper?","Can it be a little bigger?","Can I have a little more?","Can I pay later?",3
+ch8-tw5-003,phrase,8,"Taiwan Travel 2","Night Market Phrases","wǒ xiǎng shì shì — 我想试试","I want to try it.",ch8|phrase,"I want to try it.","I want to buy it.","I want to wait.","I want to take it away.",2
+ch8-tw5-004,phrase,8,"Taiwan Travel 2","Night Market Phrases","zhè hěn hǎochī ma? — 这很好吃吗？","Is this good / tasty?",ch8|phrase,"Is this good / tasty?","Is this expensive?","Is this spicy?","Is this enough?",2
+ch8-tw5-005,phrase,8,"Taiwan Travel 2","Night Market Phrases","bù yào là — 不要辣","Not spicy.",ch8|phrase,"Not spicy.","Very spicy.","A little spicy.","Too salty.",2
+ch8-tw5-006,phrase,8,"Taiwan Travel 2","Night Market Phrases","shǎo yìdiǎn — 少一点","A little less.",ch8|phrase,"A little less.","A little more.","Very little.","Very much.",2
+ch8-tw5-007,phrase,8,"Taiwan Travel 2","Night Market Phrases","dài zǒu — 带走","Take away.",ch8|phrase,"Take away.","Eat here.","Bring it here.","Take the bus.",2
+ch8-tw5-008,phrase,8,"Taiwan Travel 2","Night Market Phrases","yào děng duō jiǔ? — 要等多久？","How long is the wait?",ch8|phrase,"How long is the wait?","How far is it?","How much is it?","How many people are waiting?",3
