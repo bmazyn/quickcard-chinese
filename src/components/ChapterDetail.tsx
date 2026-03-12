@@ -403,37 +403,27 @@ export default function ChapterDetail() {
         {/* Chapter-level Listening Challenge button */}
         {chapterHasListeningCards(chapter) && (
           <div style={{
-            padding: '8px 16px 16px',
+            padding: '4px 16px 16px',
             display: 'flex',
             justifyContent: 'center'
           }}>
             <button
               onClick={handleModalListeningChallenge}
               style={{
-                padding: '10px 20px',
+                padding: '0',
                 fontSize: '0.9rem',
-                fontWeight: 600,
-                color: 'white',
-                backgroundColor: 'var(--accent-color)',
+                fontWeight: 500,
+                color: 'var(--accent-color)',
+                backgroundColor: 'transparent',
                 border: 'none',
-                borderRadius: '4px',
                 cursor: 'pointer',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '8px',
-                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.15)',
-                transition: 'all 0.2s ease'
-              }}
-              onMouseOver={(e) => {
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.2)';
-              }}
-              onMouseOut={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.15)';
+                gap: '6px',
+                textDecoration: 'underline'
               }}
             >
-              <span style={{ fontSize: '1.2rem' }}>🔊</span>
+              <span style={{ fontSize: '1rem' }}>🔊</span>
               <span>Listening Challenge</span>
             </button>
           </div>
