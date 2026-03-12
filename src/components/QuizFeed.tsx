@@ -31,6 +31,9 @@ export default function QuizFeed() {
     return saved ? JSON.parse(saved) : [];
   }, [location.state?.selectedDecks]);
   
+  // Get quiz mode from location state (normal or noPinyin)
+  const quizMode = location.state?.quizMode || "normal";
+  
   const [filteredCards, setFilteredCards] = useState<QuizCardType[]>([]);
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,7 +94,12 @@ export default function QuizFeed() {
       filtered = allCards.filter(card => {
         const isValidKind = card.kind === 'vocab' || card.kind === 'sentence' || card.kind === 'phrase';
         // Filter by deckId
-        return isValidKind && selectedDeckIds.includes(card.deckId);
+        if (!isValidKind || !selectedDeckIds.includes(card.deckId)) return false;
+        
+        // If in noPinyin mode, exclude reverse cards
+        if (quizMode === 'noPinyin' && card.tags.includes('reverse')) return false;
+        
+        return true;
       });
     }
     
@@ -99,7 +107,7 @@ export default function QuizFeed() {
     setShuffledDeck(shuffleArray(filtered));
     setLoopIndex(0);
     setLoopMissed(false);
-  }, [selectedDecks]);
+  }, [selectedDecks, quizMode]);
 
   // Centralized audio playback: play current card's Chinese audio whenever visible card changes
   useEffect(() => {
@@ -592,6 +600,7 @@ export default function QuizFeed() {
         onAnswer={handleAnswer}
         onNext={handleNext}
         isDisabled={isReshuffling || showMasteryComplete}
+        hidePinyin={quizMode === "noPinyin"}
       />
     </div>
   );

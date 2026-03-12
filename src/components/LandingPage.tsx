@@ -162,6 +162,32 @@ export default function LandingPage() {
     navigate("/quiz", { state: { selectedDecks: decksToSelect } });
   };
 
+  const handleModalQuizNoPinyin = () => {
+    if (!modalDeck) return;
+    setShowDeckModal(false);
+    
+    const decksToSelect = [modalDeck];
+    
+    // Set selected deck and navigate
+    localStorage.setItem("selectedDecks", JSON.stringify(decksToSelect));
+    
+    // iOS Safari audio unlock
+    if (!audioUnlockRef.current) {
+      const silentAudio = 'data:audio/mp3;base64,SUQzBAAAAAABEVRYWFgAAAAtAAADY29tbWVudABCaWdTb3VuZEJhbmsuY29tIC8gTGFTb25vdGhlcXVlLm9yZwBURU5DAAAAHQAAA1N3aXRjaCBQbHVzIMKpIE5DSCBTb2Z0d2FyZQBUSVQyAAAABgAAAzIyMzUAVFNTRQAAAA8AAANMYXZmNTcuODMuMTAwAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
+      audioUnlockRef.current = new Audio(silentAudio);
+    }
+    const audio = audioUnlockRef.current;
+    audio.currentTime = 0;
+    audio.load();
+    audio.play().catch(() => {}).finally(() => {
+      audio.pause();
+      audio.currentTime = 0;
+    });
+    
+    // Pass selectedDecks and quizMode through navigation state
+    navigate("/quiz", { state: { selectedDecks: decksToSelect, quizMode: "noPinyin" } });
+  };
+
   const handleMultiSelectAudioLoop = () => {
     if (selectedDecks.length === 0) return;
     
@@ -337,6 +363,9 @@ export default function LandingPage() {
               <button className="modal-button" onClick={handleModalQuiz}>
                 ▶️ Quiz
               </button>
+              <button className="modal-button" onClick={handleModalQuizNoPinyin}>
+                🔊 Quiz (No Pinyin)
+              </button>
               <button 
                 className="modal-button" 
                 onClick={() => {
@@ -351,7 +380,7 @@ export default function LandingPage() {
                   cursor: masteredSections[modalDeck] ? 'pointer' : 'not-allowed'
                 }}
               >
-                {masteredSections[modalDeck] ? '⏱️ Deck Run' : '🔒 Deck Run (Master first)'}
+                {masteredSections[modalDeck] ? '⏱️ Timed Run' : '🔒 Timed Run (Master first)'}
               </button>
             </div>
             <button className="modal-cancel" onClick={() => setShowDeckModal(false)}>

@@ -11,6 +11,7 @@ interface QuizCardProps {
   isDisabled?: boolean;
   nextButtonText?: string;
   isSpeedrunMode?: boolean;
+  hidePinyin?: boolean;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -26,7 +27,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, hidePinyin = false }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -104,14 +105,16 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
   return (
     <div className={cardClassName}>
       <div className="prompt-section">
-        <div className="pinyin-container">
-          {syllableTones.map((item, index) => (
-            <div key={index} className="syllable-column">
-              <div className="pinyin">{item.syllable}</div>
-              {showToneNumbers && <div className="tone-number">{item.tone}</div>}
-            </div>
-          ))}
-        </div>
+        {!hidePinyin && (
+          <div className="pinyin-container">
+            {syllableTones.map((item, index) => (
+              <div key={index} className="syllable-column">
+                <div className="pinyin">{item.syllable}</div>
+                {showToneNumbers && <div className="tone-number">{item.tone}</div>}
+              </div>
+            ))}
+          </div>
+        )}
         <div className="hanzi" onClick={handlePronunciation}>{hanzi}</div>
       </div>
 

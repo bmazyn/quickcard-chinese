@@ -306,7 +306,7 @@ export default function Speedrun() {
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go back">
               ← Back
             </button>
-            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
+            <h2 className="speedrun-title">Timed Run — {deckParam}</h2>
           </div>
           <p className="no-cards">No cards found for this deck</p>
         </div>
@@ -323,7 +323,7 @@ export default function Speedrun() {
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go back">
               ← Back
             </button>
-            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
+            <h2 className="speedrun-title">Timed Run — {deckParam}</h2>
           </div>
 
           <div className="speedrun-prerun">
@@ -331,7 +331,7 @@ export default function Speedrun() {
               <div className="info-card">
                 <div className="info-icon">🏃</div>
                 <div className="info-text">
-                  <h3>Ready for Deck Run?</h3>
+                  <h3>Ready for Timed Run?</h3>
                   <p>{cards.length} cards • Clear all to finish</p>
                   <p style={{ fontSize: '0.9rem', marginTop: '8px', color: 'var(--text-secondary)' }}>
                     Missed cards return to the queue
@@ -340,7 +340,7 @@ export default function Speedrun() {
               </div>
             </div>
             <button className="start-speedrun-button" onClick={handleStart} disabled={cards.length === 0}>
-              Start Deck Run
+              Start Timed Run
             </button>
           </div>
         </div>
@@ -359,7 +359,7 @@ export default function Speedrun() {
             <button className="home-icon" onClick={handleBackToHome} aria-label="Go back">
               ← Back
             </button>
-            <h2 className="speedrun-title">Deck Run — {deckParam}</h2>
+            <h2 className="speedrun-title">Timed Run — {deckParam}</h2>
           </div>
 
           <div className="speedrun-complete">
