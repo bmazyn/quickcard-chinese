@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate, useParams, useLocation } from "react-router-dom";
 import { getDeckEntriesForSection, getChapterStructure } from "../utils/decks";
 import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/deckProgress";
+import { chapterHasListeningCards } from "../utils/listeningChallenge";
 import type { Deck } from "../types";
 import "./ChapterDetail.css";
 
@@ -219,6 +220,26 @@ export default function ChapterDetail() {
     navigate("/quiz", { state: { chapterId: chapter, selectedDecks: decksToSelect, quizMode: "noPinyin" } });
   };
 
+  const handleModalListeningChallenge = () => {
+    setShowDeckModal(false);
+    
+    // iOS Safari audio unlock
+    if (!audioUnlockRef.current) {
+      const silentAudio = 'data:audio/mp3;base64,SUQzBAAAAAABEVRYWFgAAAAtAAADY29tbWVudABCaWdTb3VuZEJhbmsuY29tIC8gTGFTb25vdGhlcXVlLm9yZwBURU5DAAAAHQAAA1N3aXRjaCBQbHVzIMKpIE5DSCBTb2Z0d2FyZQBUSVQyAAAABgAAAzIyMzUAVFNTRQAAAA8AAANMYXZmNTcuODMuMTAwAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
+      audioUnlockRef.current = new Audio(silentAudio);
+    }
+    const audio = audioUnlockRef.current;
+    audio.currentTime = 0;
+    audio.load();
+    audio.play().catch(() => {}).finally(() => {
+      audio.pause();
+      audio.currentTime = 0;
+    });
+    
+    // Navigate to listening challenge mode (chapter-based, not deck-based)
+    navigate("/quiz", { state: { chapterId: chapter, quizMode: "listeningChallenge" } });
+  };
+
   const handleMultiSelectAudioLoop = () => {
     if (selectedDecks.length === 0) return;
     
@@ -283,7 +304,7 @@ export default function ChapterDetail() {
             <h1 className="detail-chapter-title">Chapter {chapter}</h1>
           </div>
           
-          <div className="detail-header-actions">
+          <div className="detail-header-actions" style={{ display: 'none' }}>
             <button 
               className={`multi-select-toggle ${isMultiSelectMode ? 'active' : ''}`}
               onClick={handleToggleMultiSelect}
@@ -379,6 +400,44 @@ export default function ChapterDetail() {
           );
         })}
 
+        {/* Chapter-level Listening Challenge button */}
+        {chapterHasListeningCards(chapter) && (
+          <div style={{
+            padding: '8px 16px 16px',
+            display: 'flex',
+            justifyContent: 'center'
+          }}>
+            <button
+              onClick={handleModalListeningChallenge}
+              style={{
+                padding: '10px 20px',
+                fontSize: '0.9rem',
+                fontWeight: 600,
+                color: 'white',
+                backgroundColor: 'var(--accent-color)',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.15)',
+                transition: 'all 0.2s ease'
+              }}
+              onMouseOver={(e) => {
+                e.currentTarget.style.transform = 'translateY(-2px)';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.2)';
+              }}
+              onMouseOut={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.15)';
+              }}
+            >
+              <span style={{ fontSize: '1.2rem' }}>🔊</span>
+              <span>Listening Challenge</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Single-deck selection modal */}

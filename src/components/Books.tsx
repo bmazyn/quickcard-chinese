@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { getBookIds, getBookMasteryStats, getBookBestTime } from "../utils/decks";
+import { getBookIds, getBookMasteryStats, getBookBestTime, getChaptersForBook } from "../utils/decks";
+import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import "./Books.css";
 
 export default function Books() {
@@ -41,6 +42,28 @@ export default function Books() {
             const timeDisplay = bestTime !== null ? formatTime(bestTime) : "--:--";
             const isBookComplete = chaptersComplete === chaptersTotal && chaptersTotal > 0;
 
+            // Calculate book listening challenge rollup
+            const chapters = getChaptersForBook(bookId);
+            let listeningCorrect = 0;
+            let eligibleChapters = 0;
+            
+            chapters.forEach(chapter => {
+              // Count eligible chapters (chapters with listening cards)
+              if (chapterHasListeningCards(chapter)) {
+                eligibleChapters++;
+              }
+              
+              // Sum correct answers from completed chapters
+              const result = getChapterListeningBest(chapter);
+              if (result) {
+                listeningCorrect += result.correct;
+              }
+            });
+            
+            // Total possible = eligible chapters × 25 questions per chapter
+            const listeningTotal = eligibleChapters * 25;
+            const hasListeningResult = eligibleChapters > 0;
+
             return (
               <div 
                 key={bookId}
@@ -57,6 +80,11 @@ export default function Books() {
                   <span className="book-card-time">
                     ⏱️ {timeDisplay}
                   </span>
+                  {hasListeningResult && (
+                    <span className="book-card-listening">
+                      🔊 {listeningCorrect} / {listeningTotal}
+                    </span>
+                  )}
                   <span className="book-card-chapters">
                     {chaptersComplete} / {chaptersTotal} chapters
                   </span>

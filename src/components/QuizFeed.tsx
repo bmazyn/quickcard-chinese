@@ -3,6 +3,12 @@ import { useNavigate, useLocation } from "react-router-dom";
 import QuizCard from "./QuizCard";
 import type { QuizCard as QuizCardType, ChoiceKey, AnswerState } from "../types";
 import { getDeckIdByName } from "../utils/decks";
+import { 
+  selectListeningChallengeCards, 
+  getChapterListeningBest, 
+  saveListeningChallengeResult,
+  type ListeningChallengeResult 
+} from "../utils/listeningChallenge";
 // Single source of truth for all quiz content - DO NOT modify or supplement
 import quizCardsData from "../data/quizCards.json";
 import "./QuizFeed.css";
@@ -31,8 +37,9 @@ export default function QuizFeed() {
     return saved ? JSON.parse(saved) : [];
   }, [location.state?.selectedDecks]);
   
-  // Get quiz mode from location state (normal or noPinyin)
+  // Get quiz mode from location state (normal, noPinyin, or listeningChallenge)
   const quizMode = location.state?.quizMode || "normal";
+  const isListeningChallenge = quizMode === "listeningChallenge";
   
   const [filteredCards, setFilteredCards] = useState<QuizCardType[]>([]);
   const [shuffledDeck, setShuffledDeck] = useState<QuizCardType[]>([]);
@@ -60,6 +67,13 @@ export default function QuizFeed() {
   const [showMasteryComplete, setShowMasteryComplete] = useState(false);
   const currentSectionId = selectedDecks.join(',');
 
+  // Listening Challenge state
+  const [listeningCorrect, setListeningCorrect] = useState(0);
+  const [showListeningComplete, setShowListeningComplete] = useState(false);
+  const listeningBest = isListeningChallenge && chapterId 
+    ? getChapterListeningBest(chapterId) 
+    : null;
+
   // Track ongoing audio to prevent race conditions
   const audioPlayingRef = useRef(false);
   
@@ -85,6 +99,9 @@ export default function QuizFeed() {
       // Practice mode: load only the specified cards
       const ids = JSON.parse(practiceCardIds) as string[];
       filtered = allCards.filter(card => ids.includes(card.id));
+    } else if (isListeningChallenge && chapterId) {
+      // Listening Challenge mode: use the special card selection helper
+      filtered = selectListeningChallengeCards(chapterId);
     } else {
       // Normal mode: filter by selected decks (selectedDecks contains deck names)
       const selectedDeckIds = selectedDecks
@@ -96,8 +113,8 @@ export default function QuizFeed() {
         // Filter by deckId
         if (!isValidKind || !selectedDeckIds.includes(card.deckId)) return false;
         
-        // If in noPinyin mode, exclude reverse cards
-        if (quizMode === 'noPinyin' && card.tags.includes('reverse')) return false;
+        // If in noPinyin or listeningChallenge mode, exclude reverse cards
+        if ((quizMode === 'noPinyin' || quizMode === 'listeningChallenge') && card.tags.includes('reverse')) return false;
         
         return true;
       });
@@ -180,24 +197,33 @@ export default function QuizFeed() {
         localStorage.setItem("bestStreak", newStreak.toString());
       }
 
-      // Increment loop progress
-      const newLoopIndex = loopIndex + 1;
-      setLoopIndex(newLoopIndex);
+      // Track correct answers for listening challenge
+      if (isListeningChallenge) {
+        setListeningCorrect(prev => prev + 1);
+      }
 
-      // Check if loop completed perfectly
-      if (newLoopIndex >= shuffledDeck.length && !loopMissed) {
-        // Mark section as mastered
-        const masteredSections = JSON.parse(localStorage.getItem("quickcard_mastered_sections") || "{}");
-        masteredSections[currentSectionId] = true;
-        localStorage.setItem("quickcard_mastered_sections", JSON.stringify(masteredSections));
-        
-        // Show mastery completion screen (every time, regardless of previous mastery)
-        setShowMasteryComplete(true);
+      // Increment loop progress (not for listening challenge)
+      if (!isListeningChallenge) {
+        const newLoopIndex = loopIndex + 1;
+        setLoopIndex(newLoopIndex);
+
+        // Check if loop completed perfectly
+        if (newLoopIndex >= shuffledDeck.length && !loopMissed) {
+          // Mark section as mastered
+          const masteredSections = JSON.parse(localStorage.getItem("quickcard_mastered_sections") || "{}");
+          masteredSections[currentSectionId] = true;
+          localStorage.setItem("quickcard_mastered_sections", JSON.stringify(masteredSections));
+          
+          // Show mastery completion screen (every time, regardless of previous mastery)
+          setShowMasteryComplete(true);
+        }
       }
     } else {
       setStreak(0);
-      // Wrong answer: set flag to restart loop on Next press
-      setPendingLoopRestart(true);
+      // Wrong answer: set flag to restart loop on Next press (not in listening challenge)
+      if (!isListeningChallenge) {
+        setPendingLoopRestart(true);
+      }
     }
     
     // Auto-play reinforcement audio based on answer correctness and toggle state
@@ -251,7 +277,18 @@ export default function QuizFeed() {
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= shuffledDeck.length) {
-      // Reshuffle and restart with same filtered cards
+      // Handle quiz completion
+      if (isListeningChallenge && chapterId) {
+        // Save listening challenge result and show completion
+        const result: ListeningChallengeResult = {
+          correct: listeningCorrect,
+          total: 25
+        };
+        saveListeningChallengeResult(chapterId, result);
+        setShowListeningComplete(true);
+        return;
+      }
+      // Normal mode: reshuffle and restart with same filtered cards
       setShuffledDeck(shuffleArray(filteredCards));
       setCurrentIndex(0);
       setLoopIndex(0);
@@ -393,6 +430,118 @@ export default function QuizFeed() {
 
   if (shuffledDeck.length === 0) {
     return <div className="quiz-feed loading">Loading cards...</div>;
+  }
+
+  // Show listening challenge complete screen
+  if (showListeningComplete) {
+    const result = { correct: listeningCorrect, total: 25 };
+    const isNewBest = !listeningBest || listeningCorrect > listeningBest.correct;
+    const percentage = Math.round((listeningCorrect / 25) * 100);
+    
+    return (
+      <div className="quiz-feed">
+        <div style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          backgroundColor: 'var(--bg-card)',
+          padding: '32px 40px',
+          borderRadius: '12px',
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '24px',
+          minWidth: '320px',
+          maxWidth: '400px'
+        }}>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '12px'
+          }}>
+            <div style={{ fontSize: '3rem' }}>{isNewBest ? '🎉' : '✅'}</div>
+            <div style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>
+              Challenge Complete!
+            </div>
+            <div style={{ 
+              fontSize: '2rem', 
+              fontWeight: 700, 
+              color: 'var(--accent-color)' 
+            }}>
+              {result.correct} / {result.total}
+            </div>
+            <div style={{ fontSize: '1.125rem', color: 'var(--text-secondary)' }}>
+              {percentage}%
+            </div>
+            {isNewBest && (
+              <div style={{ 
+                fontSize: '1rem', 
+                color: 'var(--accent-color)',
+                fontWeight: 500 
+              }}>
+                🌟 New Best!
+              </div>
+            )}
+          </div>
+          <div style={{
+            display: 'flex',
+            gap: '12px',
+            width: '100%'
+          }}>
+            <button
+              onClick={() => navigate(-1)}
+              style={{
+                flex: 1,
+                padding: '12px 20px',
+                fontSize: '1rem',
+                fontWeight: 500,
+                color: 'var(--text-primary)',
+                backgroundColor: 'var(--bg-hover)',
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                transition: 'opacity 0.2s'
+              }}
+              onMouseOver={(e) => e.currentTarget.style.opacity = '0.8'}
+              onMouseOut={(e) => e.currentTarget.style.opacity = '1'}
+            >
+              Back
+            </button>
+            <button
+              onClick={() => {
+                // Reset and restart
+                setShowListeningComplete(false);
+                setListeningCorrect(0);
+                setCurrentIndex(0);
+                setAnswerState({ selectedChoice: null, isCorrect: null });
+                const filtered = selectListeningChallengeCards(chapterId!);
+                setFilteredCards(filtered);
+                setShuffledDeck(filtered);
+              }}
+              style={{
+                flex: 1,
+                padding: '12px 20px',
+                fontSize: '1rem',
+                fontWeight: 600,
+                color: 'white',
+                backgroundColor: 'var(--accent-color)',
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                transition: 'opacity 0.2s'
+              }}
+              onMouseOver={(e) => e.currentTarget.style.opacity = '0.9'}
+              onMouseOut={(e) => e.currentTarget.style.opacity = '1'}
+            >
+              Try Again
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   const currentCard = shuffledDeck[currentIndex];
@@ -600,7 +749,7 @@ export default function QuizFeed() {
         onAnswer={handleAnswer}
         onNext={handleNext}
         isDisabled={isReshuffling || showMasteryComplete}
-        hidePinyin={quizMode === "noPinyin"}
+        hidePinyin={quizMode === "noPinyin" || quizMode === "listeningChallenge"}
       />
     </div>
   );

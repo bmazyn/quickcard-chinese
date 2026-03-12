@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getChaptersForBook, getDeckEntriesForChapter } from "../utils/decks";
 import { getBestTime, isDeckComplete } from "../utils/deckProgress";
+import { getChapterListeningBest } from "../utils/listeningChallenge";
 import type { Deck } from "../types";
 import "./BookDetail.css";
 
@@ -101,6 +102,7 @@ export default function BookDetail() {
                 : !!masteredSections[entry.deckName]
             ).length;
             const isChapterComplete = masteredCount === entries.length && entries.length > 0;
+            const listeningBest = getChapterListeningBest(chapter);
 
             return (
               <div 
@@ -118,6 +120,11 @@ export default function BookDetail() {
                   <span className="book-detail-chapter-card-time">
                     ⏱️ {getChapterTime(entries)}
                   </span>
+                  {listeningBest && (
+                    <span className="book-detail-chapter-card-listening">
+                      🔊 {listeningBest.correct} / {listeningBest.total}
+                    </span>
+                  )}
                   <span className="book-detail-chapter-card-mastery">
                     {masteredCount} / {entries.length} mastered
                   </span>
