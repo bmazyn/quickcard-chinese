@@ -51,12 +51,12 @@ export default function Books() {
               // Count eligible chapters (chapters with listening cards)
               if (chapterHasListeningCards(chapter)) {
                 eligibleChapters++;
-              }
-              
-              // Sum correct answers from completed chapters
-              const result = getChapterListeningBest(chapter);
-              if (result) {
-                listeningCorrect += result.correct;
+                
+                // Sum correct answers from completed eligible chapters
+                const result = getChapterListeningBest(chapter);
+                if (result) {
+                  listeningCorrect += result.correct;
+                }
               }
             });
             

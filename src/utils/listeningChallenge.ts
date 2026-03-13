@@ -123,6 +123,9 @@ export function getChapterListeningBest(chapter: number): ListeningChallengeResu
 /**
  * Save listening challenge result if it's better than the existing best
  * Returns true if the result was saved (is new best)
+ * 
+ * "Better" means higher correct count.
+ * If tied, keeps the existing score (does not save).
  */
 export function saveListeningChallengeResult(
   chapter: number,
@@ -132,12 +135,23 @@ export function saveListeningChallengeResult(
     const key = `qc_listening_challenge:${chapter}`;
     const existing = getChapterListeningBest(chapter);
     
-    // Save if no existing result or new result is better
-    if (!existing || result.correct > existing.correct) {
+    // If no existing result, save this one
+    if (!existing) {
       localStorage.setItem(key, JSON.stringify(result));
       return true;
     }
     
+    // Only save if new score is strictly better (higher correct count)
+    // Ensure we're comparing numbers to avoid any type coercion issues
+    const newCorrect = Number(result.correct);
+    const existingCorrect = Number(existing.correct);
+    
+    if (newCorrect > existingCorrect) {
+      localStorage.setItem(key, JSON.stringify(result));
+      return true;
+    }
+    
+    // Otherwise, keep existing best score (don't save)
     return false;
   } catch {
     return false;
