@@ -113,7 +113,10 @@ export function getChapters(): number[] {
 }
 
 /**
- * Get all deck names for a chapter
+ * Get all deck names for a chapter.
+ * 
+ * Filters deck registry entries where entry.chapter === targetChapter.
+ * Does NOT rely on deck name patterns or deckId naming conventions.
  */
 export function getDecksForChapter(chapter: number): string[] {
   return Object.values(decks)
@@ -124,6 +127,11 @@ export function getDecksForChapter(chapter: number): string[] {
 
 /**
  * Get full deck entries (including deckId) for a chapter, sorted by order.
+ * 
+ * Filters deck registry entries where entry.chapter === targetChapter.
+ * This is the source of truth for chapter membership - does NOT rely on
+ * deck name patterns or deckId naming conventions.
+ * 
  * Prefer this over getDecksForChapter when you need both the id and metadata
  * (e.g. to distinguish match-mode decks that are keyed by deckId).
  */

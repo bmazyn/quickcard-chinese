@@ -24,12 +24,22 @@ export function chapterHasListeningCards(chapter: number): boolean {
 }
 
 /**
- * Get valid listening challenge cards from a list of chapters
+ * Get valid listening challenge cards from a list of chapters.
+ * 
+ * Uses the deck registry's chapter metadata as the source of truth.
+ * Does NOT rely on deck name patterns or deckId naming conventions.
+ * 
+ * Process:
+ * 1. Get all deck entries where entry.chapter === targetChapter (from registry)
+ * 2. Collect all deckIds from those entries
+ * 3. Filter quiz cards where card.deckId matches one of those deckIds
+ * 4. Apply listening challenge filters (vocab/phrase, no reverse/pair tags)
  */
 function getValidCardsForChapters(chapters: number[]): QuizCard[] {
   const allCards = quizCardsData as QuizCard[];
   
-  // Get all deck IDs from the specified chapters
+  // Get all deck IDs from the specified chapters using the deck registry
+  // getDeckEntriesForChapter filters by entry.chapter === chapter (metadata only)
   const deckIds = new Set<string>();
   chapters.forEach(chapter => {
     const entries = getDeckEntriesForChapter(chapter);
