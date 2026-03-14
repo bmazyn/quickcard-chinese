@@ -115,6 +115,15 @@
   "ch8-tw3": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taipei Phrases", "order": 3 },
   "ch8-tw4": { "book": 2, "chapter": 8, "section": "Taiwan Travel", "deckName": "Taiwan Daily Phrases", "order": 4 },
 
-  "ch8-tw5": { "book": 2, "chapter": 8, "section": "Taiwan Travel 2", "deckName": "Night Market Phrases", "order": 1 }
+  "ch8-tw5": { "book": 2, "chapter": 8, "section": "Taiwan & Common", "deckName": "Night Market Phrases", "order": 1 },
+  "ch8-twe": { "book": 2, "chapter": 8, "section": "Taiwan & Common", "deckName": "Taiwan Everyday", "order": 2 },
+  "ch8-cm1": { "book": 2, "chapter": 8, "section": "Taiwan & Common", "deckName": "Common A", "order": 3 },
+  "ch8-cm2": { "book": 2, "chapter": 8, "section": "Taiwan & Common", "deckName": "Common B", "order": 4 },
+
+  "ch8-cm3": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Common C", "order": 1 },
+  "ch8-cm4": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Common D", "order": 2 },
+  "ch8-ph1": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Phrase Builder 1", "order": 3 },
+  "ch8-ph2": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Phrase Builder 2", "order": 4 }
+
 
 }
