@@ -24260,5 +24260,101 @@
 "tags":["ch9","reverse"],
 "difficulty":1
 }
-
+,
+{
+"id":"ch9-ph3-001",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"bāokuò xǐzǎo hé shuìjiào — 包括洗澡和睡覺",
+"question":"What does this mean?",
+"choices":{"A":"That includes showering and sleeping","B":"I shower before sleeping","C":"I like showering and sleeping","D":"He is showering and sleeping"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-ph3-002",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"lìrú zuòfàn hé dǎsǎo — 例如做飯和打掃",
+"question":"What does this mean?",
+"choices":{"A":"For example, cooking and cleaning","B":"I cook before cleaning","C":"Cooking is easier than cleaning","D":"They are cooking and cleaning"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-ph3-003",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"zhè shì yuányīn — 這是原因",
+"question":"What does this mean?",
+"choices":{"A":"This is the reason","B":"This is the result","C":"This is an example","D":"This is included"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-ph3-004",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"zhè jiù shì jiéguǒ — 這就是結果",
+"question":"What does this mean?",
+"choices":{"A":"This is the result","B":"This is the reason","C":"This is the example","D":"This is the problem"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-ph3-005",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"wǒ gēnběn bù xiǎng qǐchuáng — 我根本不想起床",
+"question":"What does this mean?",
+"choices":{"A":"I do not want to get up at all","B":"I want to get up now","C":"I almost got up","D":"I get up every day"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":3
+},
+{
+"id":"ch9-ph3-006",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"jíshǐ hěn lèi, yě yào zuòfàn — 即使很累，也要做飯",
+"question":"What does this mean?",
+"choices":{"A":"Even if I am tired, I still need to cook","B":"Because I am tired, I cook","C":"I am tired after cooking","D":"I want to cook now"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":3
+},
+{
+"id":"ch9-ph3-007",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"yǔqí dǎsǎo, wǒ gèng xiǎng shuìjiào — 與其打掃，我更想睡覺",
+"question":"What does this mean?",
+"choices":{"A":"Rather than clean, I would rather sleep","B":"I clean before I sleep","C":"I am cleaning the bedroom","D":"Sleeping is cleaner"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":3
+},
+{
+"id":"ch9-ph3-008",
+"kind":"phrase",
+"deckId":"ch9-ph3",
+"level":"HSK2",
+"promptLine":"wǒ wánquán wàng le xǐyīfu — 我完全忘了洗衣服",
+"question":"What does this mean?",
+"choices":{"A":"I completely forgot to wash the clothes","B":"I already washed the clothes","C":"I want to wash the clothes","D":"I am washing clothes now"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":3
+}
 ]

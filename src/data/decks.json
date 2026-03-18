@@ -127,10 +127,10 @@
 
 "ch9-cm5": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 5", "order": 1 },
 "ch9-cm6": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 6", "order": 2 },
-"ch9-cm7": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 7", "order": 3 },
-"ch9-cm8": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 8", "order": 4 },
+"ch9-ph3": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Phrase Builder 3", "order": 3 },
+"ch9-cm7": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 7", "order": 4 },
 
-"ch9-ph3": { "book": 2, "chapter": 9, "section": "Common Words 3", "deckName": "Phrase Builder 3", "order": 1 },
+"ch9-cm8": { "book": 2, "chapter": 9, "section": "Common Words 3", "deckName": "Common 8", "order": 1 },
 "ch9-ph4": { "book": 2, "chapter": 9, "section": "Common Words 3", "deckName": "Phrase Builder 4", "order": 2 }
 
 
