@@ -428,6 +428,33 @@ export default function ChapterDetail() {
             </button>
           </div>
         )}
+
+        {/* Chapter-level 3-Layer Match bonus button */}
+        <div style={{
+          padding: '4px 16px 20px',
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+          <button
+            onClick={() => navigate(`/chapter/${chapter}/bonus/3-layer-match`)}
+            style={{
+              padding: '0',
+              fontSize: '0.9rem',
+              fontWeight: 500,
+              color: 'var(--accent-color)',
+              backgroundColor: 'transparent',
+              border: 'none',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              textDecoration: 'underline'
+            }}
+          >
+            <span style={{ fontSize: '1rem' }}>🔷</span>
+            <span>3-Layer Match</span>
+          </button>
+        </div>
       </div>
 
       {/* Single-deck selection modal */}

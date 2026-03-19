@@ -9,6 +9,7 @@ import AudioLoop from './components/AudioLoop'
 import Speedrun from './components/Speedrun'
 import StudyList from './components/StudyList'
 import RollingMatchPage from './components/RollingMatchPage'
+import ThreeLayerMatch from './components/ThreeLayerMatch'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -23,6 +24,8 @@ function App() {
         <Route path="/chapter/:chapterId" element={<ChapterDetail />} />
         <Route path="/chapters/:chapterId/bonus/rolling-match" element={<RollingMatchPage />} />
         <Route path="/chapter/:chapterId/bonus/rolling-match" element={<RollingMatchPage />} />
+        <Route path="/chapters/:chapterId/bonus/3-layer-match" element={<ThreeLayerMatch />} />
+        <Route path="/chapter/:chapterId/bonus/3-layer-match" element={<ThreeLayerMatch />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizFeed />} />
         <Route path="/audio-loop" element={<AudioLoop />} />
