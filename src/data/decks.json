@@ -125,13 +125,28 @@
   "ch8-ph1": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Phrase Builder 1", "order": 3 },
   "ch8-ph2": { "book": 2, "chapter": 8, "section": "Common Words", "deckName": "Phrase Builder 2", "order": 4 },
 
-"ch9-cm5": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 5", "order": 1 },
-"ch9-cm6": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 6", "order": 2 },
-"ch9-ph3": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Phrase Builder 3", "order": 3 },
-"ch9-cm7": { "book": 2, "chapter": 9, "section": "Common Words 2", "deckName": "Common 7", "order": 4 },
+"ch9-sp1":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 1", "deckName": "Spoken 1", "order": 1 },
+"ch9-sp2":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 1", "deckName": "Spoken 2", "order": 2 },
+"ch9-sph1": { "book": 2, "chapter": 9, "section": "Spoken Chinese 1", "deckName": "Spoken Phrase 1", "order": 3 },
+"ch9-sph2": { "book": 2, "chapter": 9, "section": "Spoken Chinese 1", "deckName": "Spoken Phrase 2", "order": 4 },
 
-"ch9-cm8": { "book": 2, "chapter": 9, "section": "Common Words 3", "deckName": "Common 8", "order": 1 },
-"ch9-ph4": { "book": 2, "chapter": 9, "section": "Common Words 3", "deckName": "Phrase Builder 4", "order": 2 }
+"ch9-sp3":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 2", "deckName": "Spoken 3", "order": 1 },
+"ch9-sp4":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 2", "deckName": "Spoken 4", "order": 2 },
+"ch9-sph3": { "book": 2, "chapter": 9, "section": "Spoken Chinese 2", "deckName": "Spoken Phrase 3", "order": 3 },
+"ch9-sph4": { "book": 2, "chapter": 9, "section": "Spoken Chinese 2", "deckName": "Spoken Phrase 4", "order": 4 },
+
+"ch9-sp5":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken 5", "order": 1 },
+"ch9-sp6":  { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken 6", "order": 2 },
+"ch9-sph5": { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken Phrase 5", "order": 3 },
+"ch9-sph6": { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken Phrase 6", "order": 4 },
+
+"ch9-cm5": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Common 5", "order": 1 },
+"ch9-cm6": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Common 6", "order": 2 },
+"ch9-ph3": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Phrase Builder 3", "order": 3 },
+"ch9-cm7": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Common 7", "order": 4 },
+
+"ch9-cm8": { "book": 3, "chapter": 11, "section": "Common Words 3", "deckName": "Common 8", "order": 1 },
+"ch9-ph4": { "book": 3, "chapter": 11, "section": "Common Words 3", "deckName": "Phrase Builder 4", "order": 2 }
 
 
 }
