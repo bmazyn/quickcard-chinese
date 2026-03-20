@@ -83,7 +83,7 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-const BOARD_SIZE = 9;
+const BOARD_SIZE = 15;
 
 export interface ThreeLayerBoard {
   /** The 9 canonical vocab items (source of truth for matching) */
@@ -127,4 +127,18 @@ export function isValidTriple(
   const pi = board.pinyinOrder[pinyinPos];
   const ei = board.englishOrder[englishPos];
   return hi === pi && pi === ei;
+}
+
+/**
+ * Check whether the two selected positions (hanzi row and english row)
+ * refer to the same vocab item. Used by the 2-layer (pinyin-free) mode.
+ */
+export function isValidPair(
+  board: ThreeLayerBoard,
+  hanziPos: number,
+  englishPos: number
+): boolean {
+  const hi = board.hanziOrder[hanziPos];
+  const ei = board.englishOrder[englishPos];
+  return hi === ei;
 }

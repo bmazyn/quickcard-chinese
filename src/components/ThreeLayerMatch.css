@@ -154,8 +154,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
-  padding: 6px 4px;
+  min-height: 42px;
+  padding: 5px 4px;
   background: var(--bg-card);
   border: 1.5px solid var(--border-color);
   border-radius: 10px;
@@ -430,13 +430,13 @@
 /* ─── Responsive ──────────────────────────────────────────────────────────── */
 @media (min-width: 400px) {
   .tlm-row-grid { gap: 7px; }
-  .tlm-cell { min-height: 52px; }
+  .tlm-cell { min-height: 44px; }
   .tlm-row--hanzi .tlm-cell-text { font-size: 1.25rem; }
 }
 
 @media (min-width: 500px) {
   .tlm-board { gap: 14px; padding: 12px 14px; }
-  .tlm-cell { min-height: 58px; padding: 8px 6px; }
+  .tlm-cell { min-height: 48px; padding: 7px 6px; }
   .tlm-cell-text { font-size: 0.9rem; }
   .tlm-row--hanzi .tlm-cell-text { font-size: 1.35rem; }
   .tlm-row--pinyin .tlm-cell-text,

@@ -6,12 +6,12 @@ import { getAllDecks } from "../utils/decks";
 import {
   extractVocabTriples,
   buildBoard,
-  isValidTriple,
+  isValidPair,
   type ThreeLayerBoard,
 } from "../utils/threeLayerMatch";
 import "./ThreeLayerMatch.css";
 
-const BOARD_SIZE = 9;
+const BOARD_SIZE = 15;
 
 // ─── Tiny confetti burst ──────────────────────────────────────────────────────
 function spawnConfetti(container: HTMLElement) {
@@ -42,11 +42,10 @@ function speakHanzi(text: string): void {
   window.speechSynthesis.speak(u);
 }
 
-type RowKind = "hanzi" | "pinyin" | "english";
+type RowKind = "hanzi" | "english";
 
 interface Selection {
   hanzi: number | null;
-  pinyin: number | null;
   english: number | null;
 }
 
@@ -60,12 +59,11 @@ function makeEmptyCells(): CellState[][] {
   return [
     Array.from({ length: BOARD_SIZE }, () => ({ matched: false, flash: null })),
     Array.from({ length: BOARD_SIZE }, () => ({ matched: false, flash: null })),
-    Array.from({ length: BOARD_SIZE }, () => ({ matched: false, flash: null })),
   ];
 }
 
 function rowIndex(kind: RowKind): number {
-  return kind === "hanzi" ? 0 : kind === "pinyin" ? 1 : 2;
+  return kind === "hanzi" ? 0 : 1;
 }
 
 export default function ThreeLayerMatch() {
@@ -78,7 +76,7 @@ export default function ThreeLayerMatch() {
   const [noCards, setNoCards] = useState(false);
 
   const [cells, setCells] = useState<CellState[][]>(makeEmptyCells());
-  const [sel, setSel] = useState<Selection>({ hanzi: null, pinyin: null, english: null });
+  const [sel, setSel] = useState<Selection>({ hanzi: null, english: null });
   const [matchedCount, setMatchedCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
   const [isLocked, setIsLocked] = useState(false); // locked during flash
@@ -107,7 +105,7 @@ export default function ThreeLayerMatch() {
     }
 
     setCells(makeEmptyCells());
-    setSel({ hanzi: null, pinyin: null, english: null });
+    setSel({ hanzi: null, english: null });
     setMatchedCount(0);
     setIsComplete(false);
     setIsLocked(false);
@@ -142,23 +140,21 @@ export default function ThreeLayerMatch() {
 
         next[kind] = pos;
 
-        // Check if all three rows are now selected
+        // Check if both rows are now selected
         const h = kind === "hanzi" ? pos : next.hanzi;
-        const p = kind === "pinyin" ? pos : next.pinyin;
         const e = kind === "english" ? pos : next.english;
 
-        if (h !== null && p !== null && e !== null) {
+        if (h !== null && e !== null) {
           // Evaluate
           setIsLocked(true);
-          const correct = isValidTriple(board, h, p, e);
+          const correct = isValidPair(board, h, e);
           const flashKind: "success" | "error" = correct ? "success" : "error";
 
-          // Flash the three cells
+          // Flash the two cells
           setCells((prevCells) => {
             const nc = prevCells.map((row) => row.map((c) => ({ ...c })));
             nc[0][h].flash = flashKind;
-            nc[1][p].flash = flashKind;
-            nc[2][e].flash = flashKind;
+            nc[1][e].flash = flashKind;
             return nc;
           });
 
@@ -169,8 +165,7 @@ export default function ThreeLayerMatch() {
               setCells((prevCells) => {
                 const nc = prevCells.map((row) => row.map((c) => ({ ...c })));
                 nc[0][h] = { matched: true, flash: null };
-                nc[1][p] = { matched: true, flash: null };
-                nc[2][e] = { matched: true, flash: null };
+                nc[1][e] = { matched: true, flash: null };
                 return nc;
               });
               setMatchedCount((c) => {
@@ -184,7 +179,7 @@ export default function ThreeLayerMatch() {
                 }
                 return next;
               });
-              setSel({ hanzi: null, pinyin: null, english: null });
+              setSel({ hanzi: null, english: null });
               setIsLocked(false);
             }, 480);
           } else {
@@ -192,17 +187,16 @@ export default function ThreeLayerMatch() {
               setCells((prevCells) => {
                 const nc = prevCells.map((row) => row.map((c) => ({ ...c })));
                 nc[0][h].flash = null;
-                nc[1][p].flash = null;
-                nc[2][e].flash = null;
+                nc[1][e].flash = null;
                 return nc;
               });
-              setSel({ hanzi: null, pinyin: null, english: null });
+              setSel({ hanzi: null, english: null });
               setIsLocked(false);
             }, 500);
           }
 
-          // Return cleared selection so we don't show all 3 "selected" briefly
-          return { hanzi: null, pinyin: null, english: null };
+          // Return cleared selection so we don't show both "selected" briefly
+          return { hanzi: null, english: null };
         }
 
         return next;
@@ -230,19 +224,14 @@ export default function ThreeLayerMatch() {
     const ri = rowIndex(kind);
     if (cells[ri][pos].matched) return "";
     const itemIdx =
-      kind === "hanzi"
-        ? board.hanziOrder[pos]
-        : kind === "pinyin"
-        ? board.pinyinOrder[pos]
-        : board.englishOrder[pos];
+      kind === "hanzi" ? board.hanziOrder[pos] : board.englishOrder[pos];
     const item = board.items[itemIdx];
     if (!item) return "";
-    return kind === "hanzi" ? item.hanzi : kind === "pinyin" ? item.pinyin : item.english;
+    return kind === "hanzi" ? item.hanzi : item.english;
   }
 
   const rows: { kind: RowKind; label: string; extraClass: string }[] = [
     { kind: "hanzi", label: "Hanzi", extraClass: "tlm-row--hanzi" },
-    { kind: "pinyin", label: "Pinyin", extraClass: "tlm-row--pinyin" },
     { kind: "english", label: "English", extraClass: "tlm-row--english" },
   ];
 
@@ -265,7 +254,7 @@ export default function ThreeLayerMatch() {
           </button>
 
           <div className="tlm-header-center">
-            <span className="tlm-title">3-Layer Match</span>
+            <span className="tlm-title">Match</span>
             <span className="tlm-subtitle">Chapter {chapter}</span>
           </div>
 
@@ -281,7 +270,7 @@ export default function ThreeLayerMatch() {
         {/* ── Instructions strip ── */}
         {!noCards && !isComplete && (
           <p className="tlm-instructions">
-            Tap one from each row to make a triple • {BOARD_SIZE - matchedCount} remaining
+            Tap one Hanzi and one English to match • {BOARD_SIZE - matchedCount} remaining
           </p>
         )}
 
@@ -345,7 +334,7 @@ export default function ThreeLayerMatch() {
             <div className="tlm-complete-card">
               <div className="tlm-complete-emoji">🎉</div>
               <h2 className="tlm-complete-title">Board cleared!</h2>
-              <p className="tlm-complete-sub">All {BOARD_SIZE} triples matched</p>
+              <p className="tlm-complete-sub">All {BOARD_SIZE} pairs matched</p>
               <div className="tlm-complete-actions">
                 <button className="tlm-btn-primary" onClick={handleRestart}>
                   Play Again

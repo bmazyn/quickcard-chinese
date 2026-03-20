@@ -24359,6 +24359,7 @@
 },
 
 
+
 {
 "id":"ch9-sp1-001",
 "kind":"vocab",
@@ -24484,9 +24485,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"hǎo a — 好啊",
+"promptLine":"bù xíng — 不行",
 "question":"What does this mean?",
-"choices":{"A":"sure","B":"okay","C":"correct","D":"can"},
+"choices":{"A":"not okay","B":"okay","C":"can","D":"no problem"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24496,9 +24497,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"sure",
+"promptLine":"not okay",
 "question":"Which is correct?",
-"choices":{"A":"hǎo a — 好啊","B":"kěyǐ a — 可以啊","C":"duì a — 對啊","D":"hǎo — 好"},
+"choices":{"A":"bù xíng — 不行","B":"hǎo — 好","C":"kěyǐ — 可以","D":"méi wèntí — 沒問題"},
 "correct":"A",
 "tags":["ch9","reverse"],
 "difficulty":1
@@ -24508,9 +24509,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"kěyǐ a — 可以啊",
+"promptLine":"bù kěyǐ — 不可以",
 "question":"What does this mean?",
-"choices":{"A":"sure","B":"can","C":"okay","D":"correct"},
+"choices":{"A":"cannot","B":"can","C":"okay","D":"correct"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24520,9 +24521,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"sure",
+"promptLine":"cannot",
 "question":"Which is correct?",
-"choices":{"A":"kěyǐ a — 可以啊","B":"hǎo a — 好啊","C":"duì a — 對啊","D":"kěyǐ — 可以"},
+"choices":{"A":"bù kěyǐ — 不可以","B":"kěyǐ — 可以","C":"hǎo — 好","D":"duì — 對"},
 "correct":"A",
 "tags":["ch9","reverse"],
 "difficulty":1
@@ -24532,9 +24533,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"duì a — 對啊",
+"promptLine":"bù yào — 不要",
 "question":"What does this mean?",
-"choices":{"A":"yeah","B":"correct","C":"okay","D":"can"},
+"choices":{"A":"don't want","B":"want","C":"okay","D":"can"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24544,9 +24545,9 @@
 "kind":"vocab",
 "deckId":"ch9-sp1",
 "level":"HSK2",
-"promptLine":"yeah",
+"promptLine":"don't want",
 "question":"Which is correct?",
-"choices":{"A":"duì a — 對啊","B":"duì — 對","C":"hǎo — 好","D":"kěyǐ — 可以"},
+"choices":{"A":"bù yào — 不要","B":"kěyǐ — 可以","C":"hǎo — 好","D":"duì — 對"},
 "correct":"A",
 "tags":["ch9","reverse"],
 "difficulty":1
@@ -24751,9 +24752,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"duì a, hěn hǎo — 對啊，很好",
+"promptLine":"kěyǐ, wǒ kěyǐ qù — 可以，我可以去",
 "question":"What does this mean?",
-"choices":{"A":"Yeah, that's good","B":"No, it's not good","C":"It's very bad","D":"I don't know"},
+"choices":{"A":"Yes, I can go","B":"No, I don't want to go","C":"I go every day","D":"I can't go today"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24763,9 +24764,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"hǎo a, kěyǐ — 好啊，可以",
+"promptLine":"bù xíng, wǒ yào gōngzuò — 不行，我要工作",
 "question":"What does this mean?",
-"choices":{"A":"Sure, that works","B":"No, I can't","C":"Maybe later","D":"I don't want to"},
+"choices":{"A":"No, I have to work","B":"Yes, I can work","C":"I don't like work","D":"Work is easy"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24775,21 +24776,21 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"méi wèntí, kěyǐ — 沒問題，可以",
+"promptLine":"duì, wǒ měi ge xīngqī pǎobù — 對，我每個星期跑步",
 "question":"What does this mean?",
-"choices":{"A":"No problem, it's okay","B":"I don't know","C":"It's too hard","D":"Not very good"},
+"choices":{"A":"Yes, I run every week","B":"No, I don't run","C":"I run today","D":"Running is hard"},
 "correct":"A",
 "tags":["ch9"],
-"difficulty":1
+"difficulty":2
 },
 {
 "id":"ch9-sph1-004",
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"méi guānxi, hái kěyǐ — 沒關係，還可以",
+"promptLine":"bù, wǒ bù hē kāfēi — 不，我不喝咖啡",
 "question":"What does this mean?",
-"choices":{"A":"It's okay, it's alright","B":"It's very good","C":"It's terrible","D":"I like it"},
+"choices":{"A":"No, I don't drink coffee","B":"Yes, I drink coffee","C":"Coffee is good","D":"I drink tea"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24799,9 +24800,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"búcuò, hěn hǎo — 不錯，很好",
+"promptLine":"hǎo, liù diǎn kěyǐ — 好，六點可以",
 "question":"What does this mean?",
-"choices":{"A":"Not bad, pretty good","B":"Very bad","C":"I don't know","D":"Too difficult"},
+"choices":{"A":"Okay, 6 o'clock works","B":"No, 6 is too late","C":"I go at 7","D":"Time is not good"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24811,9 +24812,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"tài hǎo le, duì a — 太好了，對啊",
+"promptLine":"dāngrán, wǒ kěyǐ bāngmáng — 當然，我可以幫忙",
 "question":"What does this mean?",
-"choices":{"A":"That's great, yeah","B":"That's bad","C":"I disagree","D":"Maybe later"},
+"choices":{"A":"Of course, I can help","B":"No, I can't help","C":"Help me please","D":"I need help"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24823,9 +24824,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"dāngrán, kěyǐ a — 當然，可以啊",
+"promptLine":"méi wèntí, wǒ lái — 沒問題，我來",
 "question":"What does this mean?",
-"choices":{"A":"Of course, sure","B":"No, I can't","C":"Not really","D":"Too hard"},
+"choices":{"A":"No problem, I'll do it","B":"I can't do it","C":"You do it","D":"Maybe later"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24835,22 +24836,22 @@
 "kind":"phrase",
 "deckId":"ch9-sph1",
 "level":"HSK2",
-"promptLine":"hái hǎo, bù tài hǎo — 還好，不太好",
+"promptLine":"méi guānxi, màn màn lái — 沒關係，慢慢來",
 "question":"What does this mean?",
-"choices":{"A":"So-so, not very good","B":"Very good","C":"Perfect","D":"Amazing"},
+"choices":{"A":"It's okay, take your time","B":"Hurry up","C":"Do it now","D":"Don't do it"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
-},
-
+}
+,
 {
 "id":"ch9-sph2-001",
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"zhēn de ma? búcuò — 真的嗎？不錯",
+"promptLine":"kěyǐ, wǒ děng yíxià qù — 可以，我等一下去",
 "question":"What does this mean?",
-"choices":{"A":"Really? Not bad","B":"Really? That's bad","C":"I don't know","D":"Too difficult"},
+"choices":{"A":"Yes, I'll go in a bit","B":"No, I can't go","C":"I go now","D":"I don't want to go"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -24860,21 +24861,21 @@
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"yǒudiǎn lèi, hái kěyǐ — 有點累，還可以",
+"promptLine":"bù xíng, jīntiān bù kěyǐ — 不行，今天不可以",
 "question":"What does this mean?",
-"choices":{"A":"A bit tired, but it's okay","B":"Very tired","C":"Not tired at all","D":"Too easy"},
+"choices":{"A":"No, not today","B":"Yes, today is good","C":"Tomorrow is bad","D":"I go today"},
 "correct":"A",
 "tags":["ch9"],
-"difficulty":2
+"difficulty":1
 },
 {
 "id":"ch9-sph2-003",
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"bù tài hǎo, méi guānxi — 不太好，沒關係",
+"promptLine":"duì, zhēn de búcuò — 對，真的不錯",
 "question":"What does this mean?",
-"choices":{"A":"Not very good, it's okay","B":"Very good","C":"I like it","D":"Too easy"},
+"choices":{"A":"Yes, it's really not bad","B":"No, it's very bad","C":"I don't like it","D":"It's too expensive"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -24884,21 +24885,21 @@
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"duì a, zhēn de ma — 對啊，真的嗎",
+"promptLine":"bù, wǒ bù xiǎng qù — 不，我不想去",
 "question":"What does this mean?",
-"choices":{"A":"Yeah? Really?","B":"No, not really","C":"I don't know","D":"That's bad"},
+"choices":{"A":"No, I don't want to go","B":"Yes, I want to go","C":"I go now","D":"I went already"},
 "correct":"A",
 "tags":["ch9"],
-"difficulty":2
+"difficulty":1
 },
 {
 "id":"ch9-sph2-005",
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"tài hǎo le, méi wèntí — 太好了，沒問題",
+"promptLine":"hǎo, xiànzài kěyǐ — 好，現在可以",
 "question":"What does this mean?",
-"choices":{"A":"That's great, no problem","B":"That's bad","C":"I can't do it","D":"Too difficult"},
+"choices":{"A":"Okay, now works","B":"No, not now","C":"Later is better","D":"I don't know"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24908,9 +24909,9 @@
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"hǎo a, dāngrán — 好啊，當然",
+"promptLine":"dāngrán, wǒ bāng nǐ — 當然，我幫你",
 "question":"What does this mean?",
-"choices":{"A":"Sure, of course","B":"No, I won't","C":"I don't know","D":"Too hard"},
+"choices":{"A":"Of course, I'll help you","B":"You help me","C":"No, I can't help","D":"Help is hard"},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -24920,29 +24921,26 @@
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"hái hǎo, búcuò — 還好，不錯",
+"promptLine":"méi wèntí, kěyǐ a — 沒問題，可以啊",
 "question":"What does this mean?",
-"choices":{"A":"So-so, not bad","B":"Very bad","C":"Perfect","D":"Terrible"},
+"choices":{"A":"No problem, sure","B":"No, not allowed","C":"I don't want to","D":"Maybe later"},
 "correct":"A",
 "tags":["ch9"],
-"difficulty":1
+"difficulty":2
 },
 {
 "id":"ch9-sph2-008",
 "kind":"phrase",
 "deckId":"ch9-sph2",
 "level":"HSK2",
-"promptLine":"kěyǐ a, duì a — 可以啊，對啊",
+"promptLine":"méi guānxi, zhēn de kěyǐ — 沒關係，真的可以",
 "question":"What does this mean?",
-"choices":{"A":"Sure, yeah","B":"No way","C":"I don't agree","D":"Too hard"},
+"choices":{"A":"It's okay, really it's fine","B":"No, it's not okay","C":"Don't do it","D":"Too difficult"},
 "correct":"A",
 "tags":["ch9"],
-"difficulty":1
-} ,
-
-
-
-
+"difficulty":2
+}
+,
 {
 "id":"ch9-sp3-001",
 "kind":"vocab",
