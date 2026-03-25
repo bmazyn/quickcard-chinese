@@ -25391,7 +25391,12 @@
 "level":"HSK2",
 "promptLine":"hǎo jiǔ bú jiàn, nǐ zěnme yàng — 好久不見，你怎麼樣",
 "question":"What does this mean?",
-"choices":{"A":"Long time no see, how are you","B":"See you later","C":"Wait a moment","D":"Take a look"},
+"choices":{
+"A":"Long time no see, how are you",
+"B":"See you later, talk tomorrow",
+"C":"Wait a moment, I'll come",
+"D":"Take a look, tell me"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25403,7 +25408,12 @@
 "level":"HSK2",
 "promptLine":"zěnme bàn, wǒ bù zhīdào — 怎麼辦，我不知道",
 "question":"What does this mean?",
-"choices":{"A":"What should we do, I don't know","B":"I know what to do","C":"It's very easy","D":"No problem"},
+"choices":{
+"A":"What should we do, I don't know",
+"B":"I know what to do already",
+"C":"This is very easy to do",
+"D":"No problem, we can do it"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -25415,7 +25425,12 @@
 "level":"HSK2",
 "promptLine":"màn man lái, bú yòng jí — 慢慢來，不用急",
 "question":"What does this mean?",
-"choices":{"A":"Take it slow, no need to rush","B":"Hurry up now","C":"Wait a moment","D":"Do it quickly"},
+"choices":{
+"A":"Take it slow, no need to rush",
+"B":"Do it now, don't wait at all",
+"C":"Wait a moment, I'll help you",
+"D":"Come here now, let's do it"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -25427,7 +25442,12 @@
 "level":"HSK2",
 "promptLine":"xiān zhèyàng, wǒ men míngtiān zài shuō — 先這樣，我們明天再說",
 "question":"What does this mean?",
-"choices":{"A":"Let's leave it like this, we'll talk tomorrow","B":"Let's do it now","C":"We already talked","D":"Wait a moment"},
+"choices":{
+"A":"Let's leave it like this, we'll talk tomorrow",
+"B":"Let's do it right now together",
+"C":"We already talked about this",
+"D":"Wait a moment, let's decide now"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -25439,7 +25459,12 @@
 "level":"HSK2",
 "promptLine":"děng yīxià, wǒ mǎshàng lái — 等一下，我馬上來",
 "question":"What does this mean?",
-"choices":{"A":"Wait a moment, I'll be right there","B":"I'm leaving now","C":"Come here now","D":"Take a look"},
+"choices":{
+"A":"Wait a moment, I'll be right there",
+"B":"I'm leaving now, see you later",
+"C":"Come here now, don't wait",
+"D":"Take a look, tell me now"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25451,7 +25476,12 @@
 "level":"HSK2",
 "promptLine":"kàn kàn, zhège zěnme yàng — 看看，這個怎麼樣",
 "question":"What does this mean?",
-"choices":{"A":"Take a look, how is this","B":"Don't look","C":"Wait a moment","D":"It's very bad"},
+"choices":{
+"A":"Take a look, how is this",
+"B":"Don't look now, wait a bit",
+"C":"Come here now, let's see",
+"D":"Think about it, tell me later"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25463,7 +25493,12 @@
 "level":"HSK2",
 "promptLine":"xiǎng yīxià, wǒ děng nǐ — 想一下，我等你",
 "question":"What does this mean?",
-"choices":{"A":"Think about it, I'll wait for you","B":"Don't think","C":"Come now","D":"I don't wait"},
+"choices":{
+"A":"Think about it, I'll wait for you",
+"B":"Don't think now, just do it",
+"C":"Come here now, I need you",
+"D":"Wait a moment, I'll help you"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25475,12 +25510,16 @@
 "level":"HSK2",
 "promptLine":"méi shì, zhēn de méi shì — 沒事，真的沒事",
 "question":"What does this mean?",
-"choices":{"A":"It's nothing, really it's nothing","B":"Something is wrong","C":"Wait a moment","D":"It's very serious"},
+"choices":{
+"A":"It's nothing, really it's nothing",
+"B":"Something is wrong, be careful",
+"C":"Wait a moment, it's serious",
+"D":"This is very bad, don't do it"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
 },
-
 
 {
 "id":"ch9-sph4-001",
@@ -25489,7 +25528,12 @@
 "level":"HSK2",
 "promptLine":"wǒ lái le, nǐ zài nǎlǐ — 我來了，你在哪裡",
 "question":"What does this mean?",
-"choices":{"A":"I'm here, where are you","B":"I'm leaving now","C":"Wait a moment","D":"Take a look"},
+"choices":{
+"A":"I'm here, where are you now",
+"B":"I'm leaving now, see you later",
+"C":"Wait a moment, I will come",
+"D":"Take a look, tell me now"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25501,7 +25545,12 @@
 "level":"HSK2",
 "promptLine":"wǒ dào le, nǐ kěyǐ lái le — 我到了，你可以來了",
 "question":"What does this mean?",
-"choices":{"A":"I arrived, you can come now","B":"I'm leaving now","C":"Don't come","D":"Wait a moment"},
+"choices":{
+"A":"I arrived, you can come now",
+"B":"I'm leaving now, don't come",
+"C":"Wait a moment, I will go",
+"D":"Come here now, don't wait"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25513,7 +25562,12 @@
 "level":"HSK2",
 "promptLine":"wǒ zǒu le, huítóu jiàn — 我走了，回頭見",
 "question":"What does this mean?",
-"choices":{"A":"I'm leaving, see you later","B":"I'm here now","C":"Wait for me","D":"Come here"},
+"choices":{
+"A":"I'm leaving now, see you later",
+"B":"I'm here now, where are you",
+"C":"Wait a moment, I will stay",
+"D":"Come here now, let's talk"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25525,7 +25579,12 @@
 "level":"HSK2",
 "promptLine":"nǐ zài gàn ma, zhème máng — 你在幹嘛，這麼忙",
 "question":"What does this mean?",
-"choices":{"A":"What are you doing, so busy","B":"Where are you going","C":"Are you free","D":"Wait a moment"},
+"choices":{
+"A":"What are you doing, so busy",
+"B":"Where are you going right now",
+"C":"Are you free or not now",
+"D":"Wait a moment, tell me later"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -25537,7 +25596,12 @@
 "level":"HSK2",
 "promptLine":"nǐ chī le ma, wǒ hái méi chī — 你吃了嗎，我還沒吃",
 "question":"What does this mean?",
-"choices":{"A":"Did you eat, I haven't eaten yet","B":"I already ate","C":"Let's eat later","D":"Don't eat"},
+"choices":{
+"A":"Did you eat, I haven't eaten yet",
+"B":"I already ate, you can eat now",
+"C":"Let's eat later, not right now",
+"D":"Don't eat now, wait a moment"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":2
@@ -25549,7 +25613,12 @@
 "level":"HSK2",
 "promptLine":"màn zǒu, xiǎoxīn yīdiǎn — 慢走，小心一點",
 "question":"What does this mean?",
-"choices":{"A":"Take care, be careful","B":"Walk slowly","C":"Come quickly","D":"Wait here"},
+"choices":{
+"A":"Take care, be careful on the way",
+"B":"Walk slowly now, don't be late",
+"C":"Come quickly now, don't wait",
+"D":"Wait here now, I will come"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25561,7 +25630,12 @@
 "level":"HSK2",
 "promptLine":"zǎo, nǐ jīntiān hěn zǎo — 早，你今天很早",
 "question":"What does this mean?",
-"choices":{"A":"Morning, you're early today","B":"Good night","C":"See you later","D":"Wait a moment"},
+"choices":{
+"A":"Morning, you're early today",
+"B":"Good night, see you tomorrow",
+"C":"See you later, not today",
+"D":"Wait a moment, come later"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
@@ -25573,11 +25647,18 @@
 "level":"HSK2",
 "promptLine":"huítóu jiàn, wǒ xiān zǒu le — 回頭見，我先走了",
 "question":"What does this mean?",
-"choices":{"A":"See you later, I'll head out first","B":"I'm here now","C":"Wait for me","D":"Come with me"},
+"choices":{
+"A":"See you later, I'll head out first",
+"B":"I'm here now, where are you",
+"C":"Wait a moment, I will stay",
+"D":"Come here now, let's talk"
+},
 "correct":"A",
 "tags":["ch9"],
 "difficulty":1
-},
+}
+
+,
 
 
 
