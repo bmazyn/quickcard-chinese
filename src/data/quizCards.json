@@ -23875,6 +23875,256 @@
 "difficulty":3
 }
 ,
+
+{
+"id":"ch10-pair6a-001",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"jīnnián , qùnián — 今年 , 去年",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"this year , last year","B":"last year , this year","C":"before , after","D":"maybe , really"},
+"correct":"A",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-002",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"yǐqián , yǐhòu — 以前 , 以后",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"after , before","B":"before , after","C":"last year , this year","D":"just , already"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-003",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"shēngrì , lǐwù — 生日 , 礼物",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"gift , birthday","B":"birthday , gift","C":"party , holiday","D":"happy , party"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-004",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"pài duì , hóngbāo — 派对 , 红包",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"red envelope , party","B":"photo , fireworks","C":"party , red envelope","D":"gift , birthday"},
+"correct":"C",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-005",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"zhàopiàn , yānhuā — 照片 , 烟花",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"fireworks , photo","B":"photo , fireworks","C":"party , atmosphere","D":"holiday , vacation"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-006",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"xīnnián , Chūnjié — 新年 , 春节",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"New Year , Spring Festival","B":"Spring Festival , New Year","C":"Christmas , Thanksgiving","D":"holiday , vacation"},
+"correct":"A",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6a-007",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"Shèngdànjié , Gǎn’ēnjié — 圣诞节 , 感恩节",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"Thanksgiving , Christmas","B":"Christmas , Thanksgiving","C":"New Year , Spring Festival","D":"holiday , atmosphere"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6a-008",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"jiérì , fàngjià — 节日 , 放假",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"holiday , have vacation","B":"have vacation , holiday","C":"party , holiday","D":"atmosphere , fireworks"},
+"correct":"A",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6a-009",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"Měiguó , Zhōngguó — 美国 , 中国",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"China , United States","B":"United States , China","C":"United Kingdom , Canada","D":"Japan , South Korea"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+{
+"id":"ch10-pair6a-010",
+"kind":"vocab",
+"deckId":"ch10-pair6a",
+"level":"HSK2",
+"promptLine":"Rìběn , Hánguó — 日本 , 韩国",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"South Korea , Japan","B":"Japan , South Korea","C":"France , Germany","D":"Australia , Canada"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":1
+},
+
+{
+"id":"ch10-pair6b-001",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"kěnéng , zhēn de — 可能 , 真的",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"really , maybe","B":"maybe , really","C":"actually , should","D":"important , different"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-002",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"yìqǐ , bāngzhù — 一起 , 帮助",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"help , together","B":"together , help","C":"answer , opportunity","D":"agree , understand"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-003",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"huídá , míngbai — 回答 , 明白",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"understand , answer","B":"answer , understand","C":"problem , agree","D":"help , decide"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-004",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"jīhuì , xīwàng — 机会 , 希望",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"hope , opportunity","B":"opportunity , hope","C":"change , prepare","D":"really , maybe"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-005",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"bùtóng , zhòngyào — 不同 , 重要",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"important , different","B":"different , important","C":"problem , agree","D":"just , before"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-006",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"wèntí , tóngyì — 问题 , 同意",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"agree , problem","B":"problem , agree","C":"understand , answer","D":"should , decide"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-007",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"gāng , yǐqián — 刚 , 以前",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"before , just","B":"just , before","C":"after , before","D":"one time , time"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-008",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"qíshí , yīnggāi — 其实 , 应该",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"should , actually","B":"actually , should","C":"decide , prepare","D":"really , maybe"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-009",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"juédìng , zhǔnbèi — 决定 , 准备",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"prepare , decide","B":"decide , prepare","C":"change , after","D":"one time , time"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+},
+{
+"id":"ch10-pair6b-010",
+"kind":"vocab",
+"deckId":"ch10-pair6b",
+"level":"HSK2",
+"promptLine":"yí cì , cì — 一次 , 次",
+"question":"Choose the correct meaning order.",
+"choices":{"A":"time , one time","B":"one time , time","C":"before , after","D":"just , once"},
+"correct":"B",
+"tags":["ch10","pairs","contrast"],
+"difficulty":2
+}
+,
+
+
+
+
+
+
+
 {
 "id":"ch9-cm5-001",
 "kind":"vocab",
@@ -25133,6 +25383,205 @@
 "tags":["ch9","reverse"],
 "difficulty":1
 },
+
+{
+"id":"ch9-sph3-001",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"hǎo jiǔ bú jiàn, nǐ zěnme yàng — 好久不見，你怎麼樣",
+"question":"What does this mean?",
+"choices":{"A":"Long time no see, how are you","B":"See you later","C":"Wait a moment","D":"Take a look"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph3-002",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"zěnme bàn, wǒ bù zhīdào — 怎麼辦，我不知道",
+"question":"What does this mean?",
+"choices":{"A":"What should we do, I don't know","B":"I know what to do","C":"It's very easy","D":"No problem"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-sph3-003",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"màn man lái, bú yòng jí — 慢慢來，不用急",
+"question":"What does this mean?",
+"choices":{"A":"Take it slow, no need to rush","B":"Hurry up now","C":"Wait a moment","D":"Do it quickly"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-sph3-004",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"xiān zhèyàng, wǒ men míngtiān zài shuō — 先這樣，我們明天再說",
+"question":"What does this mean?",
+"choices":{"A":"Let's leave it like this, we'll talk tomorrow","B":"Let's do it now","C":"We already talked","D":"Wait a moment"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-sph3-005",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"děng yīxià, wǒ mǎshàng lái — 等一下，我馬上來",
+"question":"What does this mean?",
+"choices":{"A":"Wait a moment, I'll be right there","B":"I'm leaving now","C":"Come here now","D":"Take a look"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph3-006",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"kàn kàn, zhège zěnme yàng — 看看，這個怎麼樣",
+"question":"What does this mean?",
+"choices":{"A":"Take a look, how is this","B":"Don't look","C":"Wait a moment","D":"It's very bad"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph3-007",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"xiǎng yīxià, wǒ děng nǐ — 想一下，我等你",
+"question":"What does this mean?",
+"choices":{"A":"Think about it, I'll wait for you","B":"Don't think","C":"Come now","D":"I don't wait"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph3-008",
+"kind":"phrase",
+"deckId":"ch9-sph3",
+"level":"HSK2",
+"promptLine":"méi shì, zhēn de méi shì — 沒事，真的沒事",
+"question":"What does this mean?",
+"choices":{"A":"It's nothing, really it's nothing","B":"Something is wrong","C":"Wait a moment","D":"It's very serious"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+
+
+{
+"id":"ch9-sph4-001",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"wǒ lái le, nǐ zài nǎlǐ — 我來了，你在哪裡",
+"question":"What does this mean?",
+"choices":{"A":"I'm here, where are you","B":"I'm leaving now","C":"Wait a moment","D":"Take a look"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph4-002",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"wǒ dào le, nǐ kěyǐ lái le — 我到了，你可以來了",
+"question":"What does this mean?",
+"choices":{"A":"I arrived, you can come now","B":"I'm leaving now","C":"Don't come","D":"Wait a moment"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph4-003",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"wǒ zǒu le, huítóu jiàn — 我走了，回頭見",
+"question":"What does this mean?",
+"choices":{"A":"I'm leaving, see you later","B":"I'm here now","C":"Wait for me","D":"Come here"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph4-004",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"nǐ zài gàn ma, zhème máng — 你在幹嘛，這麼忙",
+"question":"What does this mean?",
+"choices":{"A":"What are you doing, so busy","B":"Where are you going","C":"Are you free","D":"Wait a moment"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-sph4-005",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"nǐ chī le ma, wǒ hái méi chī — 你吃了嗎，我還沒吃",
+"question":"What does this mean?",
+"choices":{"A":"Did you eat, I haven't eaten yet","B":"I already ate","C":"Let's eat later","D":"Don't eat"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":2
+},
+{
+"id":"ch9-sph4-006",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"màn zǒu, xiǎoxīn yīdiǎn — 慢走，小心一點",
+"question":"What does this mean?",
+"choices":{"A":"Take care, be careful","B":"Walk slowly","C":"Come quickly","D":"Wait here"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph4-007",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"zǎo, nǐ jīntiān hěn zǎo — 早，你今天很早",
+"question":"What does this mean?",
+"choices":{"A":"Morning, you're early today","B":"Good night","C":"See you later","D":"Wait a moment"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+{
+"id":"ch9-sph4-008",
+"kind":"phrase",
+"deckId":"ch9-sph4",
+"level":"HSK2",
+"promptLine":"huítóu jiàn, wǒ xiān zǒu le — 回頭見，我先走了",
+"question":"What does this mean?",
+"choices":{"A":"See you later, I'll head out first","B":"I'm here now","C":"Wait for me","D":"Come with me"},
+"correct":"A",
+"tags":["ch9"],
+"difficulty":1
+},
+
+
+
+
 {
 "id":"ch9-sp4-001",
 "kind":"vocab",

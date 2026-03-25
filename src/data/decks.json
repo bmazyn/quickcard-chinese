@@ -140,6 +140,23 @@
 "ch9-sph5": { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken Phrase 5", "order": 3 },
 "ch9-sph6": { "book": 2, "chapter": 9, "section": "Spoken Chinese 3", "deckName": "Spoken Phrase 6", "order": 4 },
 
+
+  "ch10-pair6a": { "book": 2, "chapter": 10, "section": "Pairs 2 A", "deckName": "Pair Ch 6 A", "order": 1 },
+  "ch10-pair6b": { "book": 2, "chapter": 10, "section": "Pairs 2 A", "deckName": "Pair Ch 6 B", "order": 2 },
+  "ch10-pair7a": { "book": 2, "chapter": 10, "section": "Pairs 2 A", "deckName": "Pair Ch 7 A", "order": 3 },
+  "ch10-pair7b": { "book": 2, "chapter": 10, "section": "Pairs 2 A", "deckName": "Pair Ch 7 B", "order": 4 },
+
+  "ch10-pair8a":  { "book": 2, "chapter": 10, "section": "Pairs 2 B", "deckName": "Pair Ch 8 A", "order": 1 },
+  "ch10-pair8b":  { "book": 2, "chapter": 10, "section": "Pairs 2 B", "deckName": "Pair Ch 8 B", "order": 2 },
+  "ch10-pair9a":  { "book": 2, "chapter": 10, "section": "Pairs 2 B", "deckName": "Pair Ch 9 A", "order": 3 },
+  "ch10-pair9b":  { "book": 2, "chapter": 10, "section": "Pairs 2 B", "deckName": "Pair Ch 9 B", "order": 4 },
+
+  "ch10-match1": { "book": 2, "chapter": 10, "section": "Match Review 2", "deckName": "Ch6 Match", "order": 1, "mode": "match", "sourceChapter": 6 },
+  "ch10-match2": { "book": 2, "chapter": 10, "section": "Match Review 2", "deckName": "Ch7 Match", "order": 2, "mode": "match", "sourceChapter": 7 },
+  "ch10-match3": { "book": 2, "chapter": 10, "section": "Match Review 2", "deckName": "Ch8 Match", "order": 3, "mode": "match", "sourceChapter": 8 },
+  "ch10-match4": { "book": 2, "chapter": 10, "section": "Match Review 2", "deckName": "Ch9 Match", "order": 4, "mode": "match", "sourceChapter": 9 },
+
+
 "ch9-cm5": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Common 5", "order": 1 },
 "ch9-cm6": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Common 6", "order": 2 },
 "ch9-ph3": { "book": 3, "chapter": 11, "section": "Common Words 2", "deckName": "Phrase Builder 3", "order": 3 },
