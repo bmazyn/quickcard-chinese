@@ -11,6 +11,8 @@
  */
 
 import type { QuizCard } from "../types";
+import { getDeckEntriesForChapter } from "./decks";
+import quizCardsData from "../data/quizCards.json";
 
 export interface VocabTriple {
   /** Unique identifier (derived from the source card id) */
@@ -83,7 +85,7 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-const BOARD_SIZE = 15;
+export const BOARD_SIZE = 15;
 
 export interface ThreeLayerBoard {
   /** The 9 canonical vocab items (source of truth for matching) */
@@ -141,4 +143,76 @@ export function isValidPair(
   const hi = board.hanziOrder[hanziPos];
   const ei = board.englishOrder[englishPos];
   return hi === ei;
+}
+
+// ─── Persistence ─────────────────────────────────────────────────────────────
+
+const TLM_BEST_KEY_PREFIX = "qc_3lm_best:";
+
+/**
+ * True when the chapter has at least BOARD_SIZE eligible vocab triples
+ * for 3-Layer Match. Review chapters that contain only phrases/sentences
+ * return false and are excluded from rollups.
+ */
+export function chapterHas3LayerMatchVocab(chapter: number): boolean {
+  const allCards = quizCardsData as QuizCard[];
+  const chapterDeckIds = new Set(
+    getDeckEntriesForChapter(chapter).map((d) => d.deckId)
+  );
+  return extractVocabTriples(allCards, chapterDeckIds).length >= BOARD_SIZE;
+}
+
+/**
+ * Load the saved best time (in whole seconds) for a chapter's 3-Layer Match.
+ * Returns null if the mode has never been completed for this chapter.
+ */
+export function get3LayerMatchBest(chapter: number): number | null {
+  try {
+    const stored = localStorage.getItem(TLM_BEST_KEY_PREFIX + chapter);
+    return stored !== null ? parseInt(stored, 10) : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Persist a 3-Layer Match completion time for a chapter.
+ * Only updates when the new time is strictly faster than the existing best.
+ * Returns true when the stored best was updated.
+ */
+export function save3LayerMatchBest(chapter: number, seconds: number): boolean {
+  try {
+    const existing = get3LayerMatchBest(chapter);
+    if (existing === null || seconds < existing) {
+      localStorage.setItem(TLM_BEST_KEY_PREFIX + chapter, seconds.toString());
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Book-level 3-Layer Match rollup over an array of chapter numbers.
+ *
+ * Rules:
+ *  – Chapters without enough vocab (review/phrase-only chapters) are excluded.
+ *  – Returns null if any eligible chapter has no saved best time yet.
+ *  – Returns { totalSeconds, eligibleCount } once every eligible chapter
+ *    has a recorded best time.
+ */
+export function getBook3LayerMatchRollup(
+  chapters: number[]
+): { totalSeconds: number; eligibleCount: number } | null {
+  const eligible = chapters.filter(chapterHas3LayerMatchVocab);
+  if (eligible.length === 0) return null;
+
+  let total = 0;
+  for (const chapter of eligible) {
+    const best = get3LayerMatchBest(chapter);
+    if (best === null) return null; // not all eligible chapters completed yet
+    total += best;
+  }
+  return { totalSeconds: total, eligibleCount: eligible.length };
 }

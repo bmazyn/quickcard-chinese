@@ -77,7 +77,21 @@
 }
 
 .tlm-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
   flex-shrink: 0;
+}
+
+/* Live timer shown during play */
+.tlm-live-timer {
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-tertiary);
+  letter-spacing: 0.04em;
+  line-height: 1;
 }
 
 .tlm-progress-badge {
@@ -363,6 +377,34 @@
 
 .tlm-complete-sub {
   font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin: 0;
+  text-align: center;
+}
+
+/* Final time shown on the completion card */
+.tlm-complete-time {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent-color);
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* "🏆 New best!" label */
+.tlm-complete-best-badge {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #f59e0b;
+  margin: 0;
+  text-align: center;
+}
+
+/* Previous best time, shown when current run didn't improve */
+.tlm-complete-prev-best {
+  font-size: 0.78rem;
   color: var(--text-tertiary);
   margin: 0;
   text-align: center;

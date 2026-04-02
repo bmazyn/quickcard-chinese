@@ -4,6 +4,7 @@ import { getDeckEntriesForSection, getChapterStructure } from "../utils/decks";
 import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/deckProgress";
 import { chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
+import { get3LayerMatchBest } from "../utils/threeLayerMatch";
 import type { Deck } from "../types";
 import "./ChapterDetail.css";
 
@@ -291,6 +292,7 @@ export default function ChapterDetail() {
   const sectionsInChapter = chapterStructure[chapter] || [];
   const hasMrVocab = chapterHasMeaningRecallVocab(chapter);
   const mrBest = hasMrVocab ? getMeaningRecallBest(chapter) : null;
+  const tlmBest = get3LayerMatchBest(chapter);
 
   return (
     <div className="chapter-detail-page">
@@ -436,7 +438,9 @@ export default function ChapterDetail() {
         <div style={{
           padding: '4px 16px 4px',
           display: 'flex',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '8px',
         }}>
           <button
             onClick={() => navigate(`/chapter/${chapter}/bonus/3-layer-match`)}
@@ -457,6 +461,13 @@ export default function ChapterDetail() {
             <span style={{ fontSize: '1rem' }}>🔷</span>
             <span>3-Layer Match</span>
           </button>
+          <span style={{
+            fontSize: '0.75rem',
+            color: 'var(--text-tertiary)',
+            fontWeight: 400,
+          }}>
+            {tlmBest !== null ? `Best: ${formatTime(tlmBest)}` : 'Best: --'}
+          </span>
         </div>
 
         {/* Chapter-level Meaning Recall bonus button (hidden for chapters with no vocab) */}

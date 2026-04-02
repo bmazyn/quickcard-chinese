@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { getBookIds, getBookMasteryStats, getBookBestTime, getChaptersForBook } from "../utils/decks";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getBookMeaningRecallRollup } from "../utils/meaningRecall";
+import { getBook3LayerMatchRollup } from "../utils/threeLayerMatch";
 import "./Books.css";
 
 export default function Books() {
@@ -70,6 +71,9 @@ export default function Books() {
               getBookMeaningRecallRollup(chapters);
             const hasMrResult = mrEligible > 0;
 
+            // 3-Layer Match book rollup
+            const tlmRollup = getBook3LayerMatchRollup(chapters);
+
             return (
               <div 
                 key={bookId}
@@ -97,6 +101,11 @@ export default function Books() {
                   {hasMrResult && (
                     <span className="book-card-mr">
                       ✍️ {mrCorrect} / {mrTotal}
+                    </span>
+                  )}
+                  {tlmRollup !== null && (
+                    <span className="book-card-tlm">
+                      🔷 {formatTime(tlmRollup.totalSeconds)}
                     </span>
                   )}
                 </div>

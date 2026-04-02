@@ -4,6 +4,7 @@ import { getChaptersForBook, getDeckEntriesForChapter } from "../utils/decks";
 import { getBestTime, isDeckComplete } from "../utils/deckProgress";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
+import { get3LayerMatchBest, chapterHas3LayerMatchVocab } from "../utils/threeLayerMatch";
 import type { Deck } from "../types";
 import "./BookDetail.css";
 
@@ -107,6 +108,8 @@ export default function BookDetail() {
             const hasListeningCards = chapterHasListeningCards(chapter);
             const hasMrVocab = chapterHasMeaningRecallVocab(chapter);
             const mrBest = hasMrVocab ? getMeaningRecallBest(chapter) : null;
+            const has3LMVocab = chapterHas3LayerMatchVocab(chapter);
+            const tlmBest = has3LMVocab ? get3LayerMatchBest(chapter) : null;
 
             return (
               <div 
@@ -139,6 +142,11 @@ export default function BookDetail() {
                   {hasMrVocab && (
                     <span className="book-detail-chapter-card-mr">
                       ✍️ {mrBest ? `${mrBest.correct}/${mrBest.total}` : '--'}
+                    </span>
+                  )}
+                  {has3LMVocab && (
+                    <span className="book-detail-chapter-card-tlm">
+                      🔷 {tlmBest !== null ? formatTime(tlmBest) : '--'}
                     </span>
                   )}
                 </div>

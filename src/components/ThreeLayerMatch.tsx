@@ -7,12 +7,19 @@ import {
   extractVocabTriples,
   buildBoard,
   isValidPair,
+  get3LayerMatchBest,
+  save3LayerMatchBest,
   type ThreeLayerBoard,
 } from "../utils/threeLayerMatch";
 import "./ThreeLayerMatch.css";
 
 const BOARD_SIZE = 15;
-
+// ─── Time formatting ───────────────────────────────────────────────────────────
+function formatTime(seconds: number): string {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+}
 // ─── Tiny confetti burst ──────────────────────────────────────────────────────
 function spawnConfetti(container: HTMLElement) {
   const colors = ["#4a90e2", "#22c55e", "#f59e0b", "#ec4899", "#a78bfa"];
@@ -84,6 +91,14 @@ export default function ThreeLayerMatch() {
   const celebrationRef = useRef<HTMLDivElement | null>(null);
   const flashTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // ── Timer state ─────────────────────────────────────────────────────────────
+  const [elapsed, setElapsed] = useState(0);
+  const [finalTime, setFinalTime] = useState<number | null>(null);
+  const [isNewBest, setIsNewBest] = useState(false);
+  const [prevBest, setPrevBest] = useState<number | null>(null);
+  const startTimeRef = useRef<number | null>(null);
+  const timerIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
   // ── Build board on mount / restart ──────────────────────────────────────
   useEffect(() => {
     const allCards = quizCardsData as QuizCard[];
@@ -96,12 +111,30 @@ export default function ThreeLayerMatch() {
     const triples = extractVocabTriples(allCards, chapterDeckIds);
     const newBoard = buildBoard(triples);
 
+    // Always reset timer state before starting a new board
+    if (timerIntervalRef.current) {
+      clearInterval(timerIntervalRef.current);
+      timerIntervalRef.current = null;
+    }
+    setElapsed(0);
+    setFinalTime(null);
+    setIsNewBest(false);
+    setPrevBest(null);
+    startTimeRef.current = null;
+
     if (!newBoard) {
       setNoCards(true);
       setBoard(null);
     } else {
       setNoCards(false);
       setBoard(newBoard);
+
+      // Start the live timer now that the board is ready to play
+      const start = Date.now();
+      startTimeRef.current = start;
+      timerIntervalRef.current = setInterval(() => {
+        setElapsed(Math.floor((Date.now() - start) / 1000));
+      }, 1000);
     }
 
     setCells(makeEmptyCells());
@@ -112,8 +145,32 @@ export default function ThreeLayerMatch() {
 
     return () => {
       if (flashTimer.current) clearTimeout(flashTimer.current);
+      if (timerIntervalRef.current) {
+        clearInterval(timerIntervalRef.current);
+        timerIntervalRef.current = null;
+      }
     };
   }, [chapter, gameKey]);
+
+  // ── Stop timer and save best time when all pairs are matched ──────────────
+  useEffect(() => {
+    if (!isComplete) return;
+    if (timerIntervalRef.current) {
+      clearInterval(timerIntervalRef.current);
+      timerIntervalRef.current = null;
+    }
+    // Compute final seconds from the start timestamp (more precise than state)
+    const secs =
+      startTimeRef.current !== null
+        ? Math.floor((Date.now() - startTimeRef.current) / 1000)
+        : 0;
+    setFinalTime(secs);
+    // Capture previous best before overwriting, then save
+    const prevBestVal = get3LayerMatchBest(chapter);
+    setPrevBest(prevBestVal);
+    const improved = save3LayerMatchBest(chapter, secs);
+    setIsNewBest(improved);
+  }, [isComplete]); // chapter is stable per-mount; startTimeRef used instead of elapsed
 
   // ── Handle cell tap ──────────────────────────────────────────────────────
   const handleTap = useCallback(
@@ -264,6 +321,9 @@ export default function ThreeLayerMatch() {
               <span className="tlm-progress-sep">/</span>
               <span className="tlm-progress-num">{BOARD_SIZE}</span>
             </span>
+            {board && !noCards && !isComplete && (
+              <span className="tlm-live-timer">{formatTime(elapsed)}</span>
+            )}
           </div>
         </div>
 
@@ -335,6 +395,12 @@ export default function ThreeLayerMatch() {
               <div className="tlm-complete-emoji">🎉</div>
               <h2 className="tlm-complete-title">Board cleared!</h2>
               <p className="tlm-complete-sub">All {BOARD_SIZE} pairs matched</p>
+              <p className="tlm-complete-time">⏱ {formatTime(finalTime ?? elapsed)}</p>
+              {isNewBest ? (
+                <p className="tlm-complete-best-badge">🏆 New best!</p>
+              ) : prevBest !== null ? (
+                <p className="tlm-complete-prev-best">Best: {formatTime(prevBest)}</p>
+              ) : null}
               <div className="tlm-complete-actions">
                 <button className="tlm-btn-primary" onClick={handleRestart}>
                   Play Again
