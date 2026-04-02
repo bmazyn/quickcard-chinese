@@ -117,8 +117,11 @@ export default function BookDetail() {
                 <div className="book-detail-chapter-card-header">
                   <h2 className="book-detail-chapter-card-title">
                     Chapter {chapter}
-                    {isChapterComplete && <span className="chapter-completion-check">✓</span>}
                   </h2>
+                  <span className="book-detail-chapter-card-mastery-badge">
+                    {masteredCount}/{entries.length} mastered
+                    {isChapterComplete && <span className="chapter-completion-check">✓</span>}
+                  </span>
                 </div>
                 <div className="book-detail-chapter-card-footer">
                   <span className="book-detail-chapter-card-time">
@@ -138,9 +141,6 @@ export default function BookDetail() {
                       ✍️ {mrBest ? `${mrBest.correct}/${mrBest.total}` : '--'}
                     </span>
                   )}
-                  <span className="book-detail-chapter-card-mastery">
-                    {masteredCount} / {entries.length} mastered
-                  </span>
                 </div>
               </div>
             );

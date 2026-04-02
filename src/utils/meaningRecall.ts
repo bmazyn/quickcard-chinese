@@ -113,11 +113,38 @@ export function buildRound(
  *   – internal runs of whitespace collapsed to a single space
  *
  * Defensively coerces non-string input to a string so it never throws.
+ *
+ * Punctuation normalization — applied after lowercasing, before final comparison:
+ *
+ *   1. Apostrophes (straight ' U+0027 and typographic \u2019 RIGHT SINGLE QUOTATION MARK)
+ *      are removed entirely.
+ *        don't  → dont
+ *        it's   → its
+ *        o'clock → oclock
+ *
+ *   2. Hyphens and dashes (ASCII hyphen and Unicode dashes U+2010-U+2014, U+FE58)
+ *      are removed entirely.
+ *        re-enter → reenter
+ *
+ *   3. ALL whitespace is removed (not just collapsed).
+ *      Because apostrophes and hyphens are already gone, this makes
+ *      space-separated variants equal to their joined forms:
+ *        o clock  → oclock   (matches stored o'clock → oclock)
+ *        re enter → reenter  (matches stored re-enter → reenter)
+ *
+ * Deliberately NOT stripped: commas, slashes, parentheses — those characters
+ * are structural in the stored answer strings (slash variants, paren synonyms)
+ * and are processed by the pipeline BEFORE normalizeAnswer is called.
+ * By the time this function runs, each candidate is already a single phrase.
  */
 export function normalizeAnswer(text: unknown): string {
   if (text == null) return "";
   const s = typeof text === "string" ? text : String(text);
-  return s.toLowerCase().trim().replace(/\s+/g, " ");
+  return s
+    .toLowerCase()
+    .replace(/['\u2019]/g, "")                               // remove apostrophes
+    .replace(/[-\u2010\u2011\u2012\u2013\u2014\ufe58]/g, "") // remove hyphens/dashes
+    .replace(/\s+/g, "");                                    // remove all spaces
 }
 
 // ─── Internal helpers ────────────────────────────────────────────────────────

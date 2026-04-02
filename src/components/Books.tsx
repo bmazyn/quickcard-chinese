@@ -79,8 +79,11 @@ export default function Books() {
                 <div className="book-card-header">
                   <h2 className="book-card-title">
                     Book {bookId}
-                    {isBookComplete && <span className="book-completion-check">✓</span>}
                   </h2>
+                  <span className="book-card-chapters-badge">
+                    {chaptersComplete}/{chaptersTotal} chapters
+                    {isBookComplete && <span className="book-completion-check">✓</span>}
+                  </span>
                 </div>
                 <div className="book-card-footer">
                   <span className="book-card-time">
@@ -96,9 +99,6 @@ export default function Books() {
                       ✍️ {mrCorrect} / {mrTotal}
                     </span>
                   )}
-                  <span className="book-card-chapters">
-                    {chaptersComplete} / {chaptersTotal} chapters
-                  </span>
                 </div>
               </div>
             );

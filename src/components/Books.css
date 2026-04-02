@@ -87,7 +87,11 @@
 }
 
 .book-card-header {
-  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 
 .book-card-title {
@@ -95,38 +99,52 @@
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.book-card-chapters-badge {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .book-card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .book-card-time {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--accent-color);
   filter: brightness(1.1);
+  white-space: nowrap;
 }
 
 .book-card-listening {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .book-card-mr {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .book-card-chapters {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .book-completion-check {
