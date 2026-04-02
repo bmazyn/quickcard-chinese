@@ -87,9 +87,15 @@ export default function MeaningRecall() {
   }, [chapter, gameKey]);
 
   // ── autofocus input on each new card ────────────────────────────────────
+  // Primary path: the <input> has autoFocus={true}, so React calls .focus()
+  // during its synchronous commit phase.  For the "Continue →" tap this fires
+  // within the browser gesture window, which is the only way iOS Safari will
+  // reopen the keyboard without a fresh user tap.
+  // Fallback: a 0 ms timeout covers edge cases where the input mounts after
+  // the effect (e.g. the gameKey restart) on non-iOS browsers.
   useEffect(() => {
     if (gamePhase === "playing" && cardPhase === "input") {
-      const id = setTimeout(() => inputRef.current?.focus(), 80);
+      const id = setTimeout(() => inputRef.current?.focus(), 0);
       return () => clearTimeout(id);
     }
   }, [currentIndex, cardPhase, gamePhase]);
@@ -420,6 +426,10 @@ export default function MeaningRecall() {
                 autoComplete="off"
                 autoCapitalize="none"
                 spellCheck={false}
+                // autoFocus fires on every mount (conditional render = remount
+                // per card). React calls .focus() synchronously in commitMount,
+                // which is within the gesture window for the Continue-button path.
+                autoFocus
               />
               <button
                 className="mr-submit-btn"
