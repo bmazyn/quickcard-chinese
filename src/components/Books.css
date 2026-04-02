@@ -111,6 +111,18 @@
   filter: brightness(1.1);
 }
 
+.book-card-listening {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.book-card-mr {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
 .book-card-chapters {
   font-size: 1rem;
   font-weight: 500;

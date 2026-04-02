@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { getBookIds, getBookMasteryStats, getBookBestTime, getChaptersForBook } from "../utils/decks";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
+import { getBookMeaningRecallRollup } from "../utils/meaningRecall";
 import "./Books.css";
 
 export default function Books() {
@@ -64,6 +65,11 @@ export default function Books() {
             const listeningTotal = eligibleChapters * 25;
             const hasListeningResult = eligibleChapters > 0;
 
+            // Meaning Recall book rollup
+            const { correct: mrCorrect, total: mrTotal, eligibleCount: mrEligible } =
+              getBookMeaningRecallRollup(chapters);
+            const hasMrResult = mrEligible > 0;
+
             return (
               <div 
                 key={bookId}
@@ -83,6 +89,11 @@ export default function Books() {
                   {hasListeningResult && (
                     <span className="book-card-listening">
                       🔊 {listeningCorrect} / {listeningTotal}
+                    </span>
+                  )}
+                  {hasMrResult && (
+                    <span className="book-card-mr">
+                      ✍️ {mrCorrect} / {mrTotal}
                     </span>
                   )}
                   <span className="book-card-chapters">

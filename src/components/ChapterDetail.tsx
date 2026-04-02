@@ -3,6 +3,7 @@ import { useNavigate, useParams, useLocation } from "react-router-dom";
 import { getDeckEntriesForSection, getChapterStructure } from "../utils/decks";
 import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/deckProgress";
 import { chapterHasListeningCards } from "../utils/listeningChallenge";
+import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
 import type { Deck } from "../types";
 import "./ChapterDetail.css";
 
@@ -288,6 +289,8 @@ export default function ChapterDetail() {
   };
 
   const sectionsInChapter = chapterStructure[chapter] || [];
+  const hasMrVocab = chapterHasMeaningRecallVocab(chapter);
+  const mrBest = hasMrVocab ? getMeaningRecallBest(chapter) : null;
 
   return (
     <div className="chapter-detail-page">
@@ -431,7 +434,7 @@ export default function ChapterDetail() {
 
         {/* Chapter-level 3-Layer Match bonus button */}
         <div style={{
-          padding: '4px 16px 20px',
+          padding: '4px 16px 4px',
           display: 'flex',
           justifyContent: 'center'
         }}>
@@ -455,6 +458,44 @@ export default function ChapterDetail() {
             <span>3-Layer Match</span>
           </button>
         </div>
+
+        {/* Chapter-level Meaning Recall bonus button (hidden for chapters with no vocab) */}
+        {hasMrVocab && (
+          <div style={{
+            padding: '4px 16px 20px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '8px',
+          }}>
+            <button
+              onClick={() => navigate(`/chapter/${chapter}/bonus/meaning-recall`)}
+              style={{
+                padding: '0',
+                fontSize: '0.9rem',
+                fontWeight: 500,
+                color: 'var(--accent-color)',
+                backgroundColor: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                textDecoration: 'underline'
+              }}
+            >
+              <span style={{ fontSize: '1rem' }}>✍️</span>
+              <span>Meaning Recall</span>
+            </button>
+            <span style={{
+              fontSize: '0.75rem',
+              color: 'var(--text-tertiary)',
+              fontWeight: 400,
+            }}>
+              {mrBest ? `Best: ${mrBest.correct}/${mrBest.total}` : 'Best: --'}
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Single-deck selection modal */}

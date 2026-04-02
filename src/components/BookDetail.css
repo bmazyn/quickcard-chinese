@@ -116,6 +116,18 @@
   color: var(--text-secondary);
 }
 
+.book-detail-chapter-card-listening {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.book-detail-chapter-card-mr {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
 .chapter-completion-check {
   margin-left: 12px;
   font-size: 1.155rem;

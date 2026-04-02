@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getChaptersForBook, getDeckEntriesForChapter } from "../utils/decks";
 import { getBestTime, isDeckComplete } from "../utils/deckProgress";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
+import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
 import type { Deck } from "../types";
 import "./BookDetail.css";
 
@@ -104,6 +105,8 @@ export default function BookDetail() {
             const isChapterComplete = masteredCount === entries.length && entries.length > 0;
             const listeningBest = getChapterListeningBest(chapter);
             const hasListeningCards = chapterHasListeningCards(chapter);
+            const hasMrVocab = chapterHasMeaningRecallVocab(chapter);
+            const mrBest = hasMrVocab ? getMeaningRecallBest(chapter) : null;
 
             return (
               <div 
@@ -130,6 +133,11 @@ export default function BookDetail() {
                       🔊 {listeningBest.correct} / {listeningBest.total}
                     </span>
                   ) : null}
+                  {hasMrVocab && (
+                    <span className="book-detail-chapter-card-mr">
+                      ✍️ {mrBest ? `${mrBest.correct}/${mrBest.total}` : '--'}
+                    </span>
+                  )}
                   <span className="book-detail-chapter-card-mastery">
                     {masteredCount} / {entries.length} mastered
                   </span>
