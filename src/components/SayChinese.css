@@ -689,3 +689,79 @@
   .sc-hanzi  { font-size: 4.2rem; }
   .sc-card   { min-height: 220px; }
 }
+
+/* ─── Timeout panel ───────────────────────────────────────────────────────── */
+.sc-timeout-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 20px 20px;
+  text-align: center;
+}
+
+.sc-timeout-icon {
+  font-size: 2.6rem;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.sc-timeout-msg {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sc-timeout-hint {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  max-width: 280px;
+}
+
+.sc-timeout-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 6px;
+}
+
+/* ─── Event log (on-device speech API debugging) ─────────────────────────── */
+.sc-event-log {
+  width: 100%;
+  max-width: 340px;
+  max-height: 140px;
+  overflow-y: auto;
+  background: var(--bg-secondary, #f5f5f5);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin: 4px 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sc-event-log-entry {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+/* Separate log rows visually */
+.sc-event-log-entry + .sc-event-log-entry {
+  border-top: 1px solid var(--border-color);
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .sc-event-log {
+    background: var(--bg-secondary, #1e1e1e);
+  }
+}

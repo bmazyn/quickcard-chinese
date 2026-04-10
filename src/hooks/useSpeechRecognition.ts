@@ -1,27 +1,39 @@
 /**
  * useSpeechRecognition.ts
  *
- * Thin wrapper around the browser Web Speech API (SpeechRecognition /
- * webkitSpeechRecognition).  Designed to be prototype-friendly:
+ * Wrapper around the browser Web Speech API with:
+ *  - Full lifecycle event logging (onstart, onaudiostart, onsoundstart,
+ *    onspeechstart, onspeechend, onnomatch, onresult, onerror, onend)
+ *  - Safety timeout: if recognition starts but no result arrives within
+ *    SAFETY_TIMEOUT_MS, recognition is stopped gracefully and onError is
+ *    called with "no-speech-timeout"
+ *  - "End without result" detection: if onend fires without onresult ever
+ *    firing (common on iOS Safari), onError is called with "end-without-result"
+ *  - Exported eventLog[] for on-screen debugging on any device
  *
- *  - One recognition attempt per call to `startListening()`.
- *  - Language defaults to "zh-CN" for Chinese character results on
- *    Chromium-based browsers and iOS Safari.
- *  - Exposes raw `transcript` so callers can inspect what the browser
- *    actually returned during development.
- *  - All state transitions are explicit and predictable.
+ * Error codes surfaced via onError:
+ *   "no-speech"          – browser detected no speech (standard)
+ *   "end-without-result" – onend fired before onresult (iOS Safari quirk)
+ *   "no-speech-timeout"  – safety timer expired before any result
+ *   "aborted"            – user cancelled (stopListening)
+ *   <anything else>      – native browser error string
  *
- * Browser support notes:
- *  - Chrome / Edge (desktop + Android): full support, returns hanzi.
- *  - iOS Safari 14.5+: supported via webkitSpeechRecognition, returns hanzi.
- *  - Firefox: NOT supported → `isSupported` will be false.
- *
- * Usage:
- *   const { isSupported, listening, transcript, startListening, stopListening } =
- *     useSpeechRecognition({ lang: "zh-CN", onResult, onError });
+ * Browser support:
+ *  - Chrome / Edge (desktop + Android): full support, returns hanzi
+ *  - iOS Safari 14.5+: webkitSpeechRecognition, returns hanzi, quirky lifecycle
+ *  - Firefox: NOT supported → isSupported = false
  */
 
 import { useState, useRef, useCallback, useEffect } from "react";
+
+// ─── Safari/iOS detection ─────────────────────────────────────────────────────
+// Used to apply iOS-specific workarounds (explicit .stop() on onspeechend).
+const IS_IOS =
+  typeof navigator !== "undefined" &&
+  /iP(hone|od|ad)/.test(navigator.userAgent);
+
+// Safety timeout: if no result arrives within this window, stop and report.
+const SAFETY_TIMEOUT_MS = 7000;
 
 // ─── Minimal Web Speech API type declarations ─────────────────────────────────
 //
@@ -62,11 +74,15 @@ interface SpeechRecognitionInstance extends EventTarget {
   continuous: boolean;
   interimResults: boolean;
   maxAlternatives: number;
-  onstart:     ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
-  onspeechend: ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
-  onresult:    ((this: SpeechRecognitionInstance, ev: SpeechRecognitionEvent) => void) | null;
-  onerror:     ((this: SpeechRecognitionInstance, ev: SpeechRecognitionErrorEvent) => void) | null;
-  onend:       ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onstart:      ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onaudiostart: ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onsoundstart: ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onspeechstart:((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onspeechend:  ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onnomatch:    ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
+  onresult:     ((this: SpeechRecognitionInstance, ev: SpeechRecognitionEvent) => void) | null;
+  onerror:      ((this: SpeechRecognitionInstance, ev: SpeechRecognitionErrorEvent) => void) | null;
+  onend:        ((this: SpeechRecognitionInstance, ev: Event) => void) | null;
   start(): void;
   stop(): void;
   abort(): void;
@@ -98,7 +114,7 @@ export interface UseSpeechRecognitionOptions {
   lang?: string;
   /** Called with the best transcript when recognition succeeds. */
   onResult: (transcript: string) => void;
-  /** Called with an error message when recognition fails. */
+  /** Called with an error code string when recognition fails. */
   onError?: (message: string) => void;
 }
 
@@ -109,14 +125,19 @@ export interface UseSpeechRecognitionReturn {
   status: SpeechStatus;
   /** Convenience: true while the mic is open. */
   listening: boolean;
-  /**
-   * The last raw transcript string returned by the browser.
-   * Useful during development to verify what the API returns.
-   */
+  /** The last raw transcript string returned by the browser. */
   transcript: string;
+  /**
+   * Timestamped log of every lifecycle event fired since the last
+   * startListening() call.  Useful for on-screen debugging on iOS
+   * where DevTools is unavailable.
+   */
+  eventLog: string[];
+  /** Clear the event log (e.g. on new round). */
+  clearEventLog: () => void;
   /** Start a single recognition attempt.  No-op if already listening. */
   startListening: () => void;
-  /** Abort any in-progress recognition. */
+  /** Abort any in-progress recognition (user cancel). */
   stopListening: () => void;
 }
 
@@ -127,7 +148,7 @@ export function useSpeechRecognition({
   onResult,
   onError,
 }: UseSpeechRecognitionOptions): UseSpeechRecognitionReturn {
-  // Check support once at hook initialisation time.
+  // Detect constructor once at initialisation time.
   const SpeechRecognitionCtor =
     typeof window !== "undefined"
       ? window.SpeechRecognition ?? window.webkitSpeechRecognition ?? null
@@ -139,24 +160,63 @@ export function useSpeechRecognition({
     isSupported ? "idle" : "unsupported"
   );
   const [transcript, setTranscript] = useState("");
+  const [eventLog, setEventLog] = useState<string[]>([]);
 
-  // Keep a stable ref to the active recognition instance so we can abort it.
+  // Active recognition instance.
   const recognitionRef = useRef<SpeechRecognitionInstance | null>(null);
 
-  // Keep stable refs for callbacks so the recognition event handlers don't
-  // capture stale closures.
+  // Safety timeout: fires if no result arrives within SAFETY_TIMEOUT_MS.
+  const safetyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Per-attempt boolean flags (reset in startListening):
+  //   gotResult       – onresult fired
+  //   reportedError   – onerror already called onError
+  //   wasAborted      – stopListening() was called (user cancel)
+  //   timedOut        – safety timer expired
+  const gotResultRef    = useRef(false);
+  const reportedErrRef  = useRef(false);
+  const wasAbortedRef   = useRef(false);
+  const timedOutRef     = useRef(false);
+
+  // Stable refs for callbacks so event handlers never capture stale closures.
   const onResultRef = useRef(onResult);
   const onErrorRef  = useRef(onError);
   useEffect(() => { onResultRef.current = onResult; }, [onResult]);
-  useEffect(() => { onErrorRef.current = onError; }, [onError]);
+  useEffect(() => { onErrorRef.current  = onError;  }, [onError]);
+
+  // ── Helpers ────────────────────────────────────────────────────────────
+
+  const appendLog = useCallback((msg: string) => {
+    const ts = new Date().toISOString().slice(11, 23); // HH:MM:SS.mmm
+    const entry = `${ts} ${msg}`;
+    console.log(`[SayChinese] ${entry}`);
+    setEventLog((prev) => [...prev.slice(-19), entry]); // keep last 20
+  }, []);
+
+  const clearEventLog = useCallback(() => setEventLog([]), []);
+
+  const clearSafetyTimer = useCallback(() => {
+    if (safetyTimerRef.current !== null) {
+      clearTimeout(safetyTimerRef.current);
+      safetyTimerRef.current = null;
+    }
+  }, []);
+
+  // ── stopListening (user-initiated cancel) ──────────────────────────────
 
   const stopListening = useCallback(() => {
+    clearSafetyTimer();
+    wasAbortedRef.current = true;
     if (recognitionRef.current) {
       recognitionRef.current.abort();
       recognitionRef.current = null;
     }
-    setStatus((prev) => (prev === "listening" || prev === "processing" ? "idle" : prev));
-  }, []);
+    setStatus((prev) =>
+      prev === "listening" || prev === "processing" ? "idle" : prev
+    );
+  }, [clearSafetyTimer]);
+
+  // ── startListening ─────────────────────────────────────────────────────
 
   const startListening = useCallback(() => {
     if (!isSupported || !SpeechRecognitionCtor) {
@@ -165,44 +225,85 @@ export function useSpeechRecognition({
     }
     if (status === "listening" || status === "processing") return;
 
-    // Abort any leftover instance before starting a new one.
+    // Abort any leftover instance.
     if (recognitionRef.current) {
       recognitionRef.current.abort();
       recognitionRef.current = null;
     }
 
+    // Reset per-attempt flags.
+    gotResultRef.current   = false;
+    reportedErrRef.current = false;
+    wasAbortedRef.current  = false;
+    timedOutRef.current    = false;
+
     const recognition = new SpeechRecognitionCtor();
-    recognition.lang = lang;
-    recognition.continuous = false;
+    recognition.lang           = lang;
+    recognition.continuous     = false;
     recognition.interimResults = false;
-    recognition.maxAlternatives = 3;
+    recognition.maxAlternatives = 1; // 1 is safest on iOS Safari
+
+    // ── Lifecycle events (logged + status transitions) ─────────────────
 
     recognition.onstart = () => {
+      appendLog("onstart — mic open");
       setStatus("listening");
+
+      // Start safety timer: if nothing arrives, stop gracefully.
+      safetyTimerRef.current = setTimeout(() => {
+        safetyTimerRef.current = null;
+        appendLog(`safety timeout (${SAFETY_TIMEOUT_MS}ms) — calling stop()`);
+        timedOutRef.current = true;
+        if (recognitionRef.current) {
+          try {
+            recognitionRef.current.stop(); // graceful; onend will fire
+          } catch {
+            // stop() threw — fall back to abort and report directly
+            recognitionRef.current?.abort();
+            recognitionRef.current = null;
+            setStatus("error");
+            onErrorRef.current?.("no-speech-timeout");
+          }
+        }
+      }, SAFETY_TIMEOUT_MS);
+    };
+
+    recognition.onaudiostart = () => {
+      appendLog("onaudiostart — audio stream started");
+    };
+
+    recognition.onsoundstart = () => {
+      appendLog("onsoundstart — sound detected");
+    };
+
+    recognition.onspeechstart = () => {
+      appendLog("onspeechstart — speech detected");
     };
 
     recognition.onspeechend = () => {
+      appendLog("onspeechend — speech ended");
       setStatus("processing");
+      // iOS Safari quirk: explicitly call stop() when speech ends to ensure
+      // the result is processed and onresult / onend fire reliably.
+      if (IS_IOS && recognitionRef.current) {
+        appendLog("iOS: calling stop() after onspeechend");
+        try { recognitionRef.current.stop(); } catch { /* ignore */ }
+      }
+    };
+
+    recognition.onnomatch = () => {
+      appendLog("onnomatch — no match found");
     };
 
     recognition.onresult = (event: SpeechRecognitionEvent) => {
-      // Pick the best (highest-confidence) alternative.
-      const result = event.results[0];
-      let best = result[0].transcript;
-      let bestConf = result[0].confidence;
-      for (let i = 1; i < result.length; i++) {
-        if (result[i].confidence > bestConf) {
-          best = result[i].transcript;
-          bestConf = result[i].confidence;
-        }
-      }
+      clearSafetyTimer();
+      gotResultRef.current = true;
 
-      // Debug log — remove or gate on a DEV flag once you're happy.
-      console.debug(
-        "[SayChinese] raw transcript:", best,
-        "| confidence:", bestConf,
-        "| all alts:", Array.from({ length: result.length }, (_, i) => result[i].transcript)
-      );
+      const result = event.results[0];
+      const best = result[0].transcript;
+      const conf = result[0].confidence;
+
+      appendLog(`onresult — "${best}" (conf: ${conf.toFixed ? conf.toFixed(2) : conf})`);
 
       setTranscript(best);
       setStatus("done");
@@ -211,49 +312,79 @@ export function useSpeechRecognition({
     };
 
     recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
-      const msg = event.error;
-      console.warn("[SayChinese] recognition error:", msg);
+      clearSafetyTimer();
+      reportedErrRef.current = true;
+      const msg = event.error ?? "unknown";
+      appendLog(`onerror — "${msg}"`);
       setStatus("error");
       recognitionRef.current = null;
       onErrorRef.current?.(msg);
     };
 
     recognition.onend = () => {
-      // onend fires after onresult AND after onerror.
-      // Only flip back to idle if we haven't already transitioned to done/error.
-      setStatus((prev) => {
-        if (prev === "listening" || prev === "processing") return "idle";
-        return prev;
-      });
+      clearSafetyTimer();
+      appendLog(
+        `onend — gotResult:${gotResultRef.current} aborted:${wasAbortedRef.current} ` +
+        `reportedErr:${reportedErrRef.current} timedOut:${timedOutRef.current}`
+      );
+
+      // Surface "end without result" only when none of the other paths
+      // already handled the outcome.
+      if (
+        !gotResultRef.current &&
+        !reportedErrRef.current &&
+        !wasAbortedRef.current
+      ) {
+        const code = timedOutRef.current
+          ? "no-speech-timeout"
+          : "end-without-result";
+        appendLog(`onend: surfacing error "${code}"`);
+        setStatus("error");
+        recognitionRef.current = null;
+        onErrorRef.current?.(code);
+        return;
+      }
+
+      // Normal end after result or aborted — just flip back to idle if needed.
+      setStatus((prev) =>
+        prev === "listening" || prev === "processing" ? "idle" : prev
+      );
       recognitionRef.current = null;
     };
 
     recognitionRef.current = recognition;
 
     try {
+      appendLog(`start() — lang:${lang} iOS:${IS_IOS}`);
       recognition.start();
     } catch (err) {
-      console.warn("[SayChinese] recognition.start() threw:", err);
+      clearSafetyTimer();
+      appendLog(`start() threw: ${String(err)}`);
       setStatus("error");
       recognitionRef.current = null;
+      onErrorRef.current?.("start-failed");
     }
-  }, [isSupported, SpeechRecognitionCtor, lang, status]);
+  }, [isSupported, SpeechRecognitionCtor, lang, status, appendLog, clearSafetyTimer]);
 
-  // Clean up on unmount.
+  // ── Cleanup on unmount ─────────────────────────────────────────────────
+
   useEffect(() => {
     return () => {
+      clearSafetyTimer();
       if (recognitionRef.current) {
         recognitionRef.current.abort();
         recognitionRef.current = null;
       }
     };
-  }, []);
+  }, [clearSafetyTimer]);
 
   return {
     isSupported,
     status,
     listening: status === "listening",
     transcript,
+    eventLog,
+    clearEventLog,
     startListening,
     stopListening,
   };

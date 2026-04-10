@@ -34,12 +34,13 @@ import "./SayChinese.css";
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 /**
- * "prompt"    – showing English + Hanzi, waiting for user to tap mic
- * "listening" – mic is open
- * "processing"– audio captured, waiting for transcript
- * "reveal"    – result received, showing feedback (pinyin, ✓ / ✗)
+ * "prompt"     – showing English + Hanzi, waiting for user to tap mic
+ * "listening"  – mic is open
+ * "processing" – audio captured, waiting for transcript
+ * "reveal"     – result received, showing feedback (pinyin, ✓ / ✗)
+ * "timeout"    – recognition ended without a result (iOS Safari / no-speech)
  */
-type CardPhase = "prompt" | "listening" | "processing" | "reveal";
+type CardPhase = "prompt" | "listening" | "processing" | "reveal" | "timeout";
 
 type GamePhase = "playing" | "done";
 
@@ -110,16 +111,30 @@ export default function SayChinese() {
 
   const handleSpeechError = useCallback(
     (msg: string) => {
-      console.warn("[SayChinese] speech error:", msg);
-      // "no-speech" and "aborted" are non-fatal; just reset to prompt.
-      if (msg === "no-speech" || msg === "aborted") {
+      // "aborted" = user pressed Cancel — silent reset, no miss counted
+      if (msg === "aborted") {
         setCardPhase("prompt");
         return;
       }
-      // Other errors (not-allowed, network, etc.) — show as reveal with wrong
+      // "no-speech" = browser detected silence before timeout — let user retry
+      if (msg === "no-speech") {
+        setCardPhase("timeout");
+        return;
+      }
+      // "end-without-result" = onend fired before onresult (iOS Safari quirk)
+      // "no-speech-timeout"  = our safety timer expired
+      // Both mean: no transcript received — show timeout panel, let user retry
+      if (msg === "end-without-result" || msg === "no-speech-timeout") {
+        setCardPhase("timeout");
+        return;
+      }
+      // All other errors (not-allowed, network, audio-capture, etc.)
+      // Count as a miss and go to reveal with no transcript so the user can
+      // see what happened and continue.
       setMisses((m) => m + 1);
       setLastResult("wrong");
       setLastTranscript("");
+      setLastCheckResult(null);
       setCardPhase("reveal");
     },
     []
@@ -128,6 +143,8 @@ export default function SayChinese() {
   const {
     isSupported,
     status: speechStatus,
+    eventLog,
+    clearEventLog,
     startListening,
     stopListening,
   } = useSpeechRecognition({
@@ -218,9 +235,11 @@ export default function SayChinese() {
 
   const handleMicPress = useCallback(() => {
     if (!isSupported) return;
-    if (cardPhase !== "prompt") return;
+    // Allow re-tap from the timeout recovery panel as well as the normal prompt
+    if (cardPhase !== "prompt" && cardPhase !== "timeout") return;
+    clearEventLog();
     startListening();
-  }, [isSupported, cardPhase, startListening]);
+  }, [isSupported, cardPhase, clearEventLog, startListening]);
 
   const handleRestart = () => {
     stopListening();
@@ -438,6 +457,14 @@ export default function SayChinese() {
               <span className="sc-listening-label">
                 {cardPhase === "listening" ? "Listening…" : "Processing…"}
               </span>
+              {/* Live event log — shows on-device without DevTools */}
+              {eventLog.length > 0 && (
+                <div className="sc-event-log">
+                  {eventLog.map((entry, i) => (
+                    <div key={i} className="sc-event-log-entry">{entry}</div>
+                  ))}
+                </div>
+              )}
               <button
                 className="sc-cancel-btn"
                 onClick={stopListening}
@@ -445,6 +472,40 @@ export default function SayChinese() {
               >
                 Cancel
               </button>
+            </div>
+          )}
+
+          {/* ── Timeout / no-result area ── */}
+          {cardPhase === "timeout" && (
+            <div className="sc-timeout-area">
+              <div className="sc-timeout-icon" aria-hidden="true">⏱️</div>
+              <p className="sc-timeout-msg">
+                No speech received.
+              </p>
+              <p className="sc-timeout-hint">
+                Check that your browser has microphone permission, then try again.
+              </p>
+
+              {/* Event log — copy & send for debugging */}
+              {eventLog.length > 0 && (
+                <div className="sc-event-log">
+                  {eventLog.map((entry, i) => (
+                    <div key={i} className="sc-event-log-entry">{entry}</div>
+                  ))}
+                </div>
+              )}
+
+              <div className="sc-timeout-actions">
+                <button className="sc-btn-primary" onClick={handleMicPress}>
+                  🎤 Try again
+                </button>
+                <button
+                  className="sc-btn-secondary"
+                  onClick={() => advanceCard(currentIndex)}
+                >
+                  Skip →
+                </button>
+              </div>
             </div>
           )}
 
