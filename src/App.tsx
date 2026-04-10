@@ -11,6 +11,7 @@ import StudyList from './components/StudyList'
 import RollingMatchPage from './components/RollingMatchPage'
 import ThreeLayerMatch from './components/ThreeLayerMatch'
 import MeaningRecall from './components/MeaningRecall'
+import SayChinese from './components/SayChinese'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -29,6 +30,8 @@ function App() {
         <Route path="/chapter/:chapterId/bonus/3-layer-match" element={<ThreeLayerMatch />} />
         <Route path="/chapters/:chapterId/bonus/meaning-recall" element={<MeaningRecall />} />
         <Route path="/chapter/:chapterId/bonus/meaning-recall" element={<MeaningRecall />} />
+        <Route path="/chapters/:chapterId/bonus/say-chinese" element={<SayChinese />} />
+        <Route path="/chapter/:chapterId/bonus/say-chinese" element={<SayChinese />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/quiz" element={<QuizFeed />} />
         <Route path="/audio-loop" element={<AudioLoop />} />

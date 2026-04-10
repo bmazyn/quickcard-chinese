@@ -5,6 +5,7 @@ import { getBestTime as getMatchDeckBestTime, isDeckComplete } from "../utils/de
 import { chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
 import { get3LayerMatchBest } from "../utils/threeLayerMatch";
+import { getSayChineseBest, chapterHasSayChineseVocab } from "../utils/sayChinese";
 import type { Deck } from "../types";
 import "./ChapterDetail.css";
 
@@ -293,6 +294,8 @@ export default function ChapterDetail() {
   const hasMrVocab = chapterHasMeaningRecallVocab(chapter);
   const mrBest = hasMrVocab ? getMeaningRecallBest(chapter) : null;
   const tlmBest = get3LayerMatchBest(chapter);
+  const hasScVocab = chapterHasSayChineseVocab(chapter);
+  const scBest = hasScVocab ? getSayChineseBest(chapter) : null;
 
   return (
     <div className="chapter-detail-page">
@@ -504,6 +507,44 @@ export default function ChapterDetail() {
               fontWeight: 400,
             }}>
               {mrBest ? `Best: ${mrBest.correct}/${mrBest.total}` : 'Best: --'}
+            </span>
+          </div>
+        )}
+
+        {/* Chapter-level Say Chinese bonus button (hidden for chapters with no vocab) */}
+        {hasScVocab && (
+          <div style={{
+            padding: '4px 16px 20px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '8px',
+          }}>
+            <button
+              onClick={() => navigate(`/chapter/${chapter}/bonus/say-chinese`)}
+              style={{
+                padding: '0',
+                fontSize: '0.9rem',
+                fontWeight: 500,
+                color: 'var(--accent-color)',
+                backgroundColor: 'transparent',
+                border: 'none',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                textDecoration: 'underline'
+              }}
+            >
+              <span style={{ fontSize: '1rem' }}>🎤</span>
+              <span>Say Chinese</span>
+            </button>
+            <span style={{
+              fontSize: '0.75rem',
+              color: 'var(--text-tertiary)',
+              fontWeight: 400,
+            }}>
+              {scBest ? `Best: ${scBest.correct}/${scBest.total}` : 'Best: --'}
             </span>
           </div>
         )}

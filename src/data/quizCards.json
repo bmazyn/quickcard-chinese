@@ -27157,5 +27157,217 @@
 "tags":["ch9"],
 "difficulty":1
 }
+,
+  {
+    "id": "ch1-rev_phrase-001",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "What is your name?",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "nǐ de míngzi shì shénme — 你的名字是什么",
+      "B": "wǒ de míngzi shì ___ — 我的名字是 ___",
+      "C": "nǐ hǎo ma — 你好吗",
+      "D": "shéi shì zhège — 谁是这个"
+    },
+    "correct": "A",
+    "explanation": "你的名字是什么 = What is your name?",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "ch1-rev_phrase-002",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "My name is ___",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "nǐ de míngzi shì shénme — 你的名字是什么",
+      "B": "wǒ de míngzi shì ___ — 我的名字是 ___",
+      "C": "nǐ hǎo ma — 你好吗",
+      "D": "wǒ hěn hǎo — 我很好"
+    },
+    "correct": "B",
+    "explanation": "我的名字是 ___ = My name is ___.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "ch1-rev_phrase-003",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "How are you?",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "nǐ hǎo ma — 你好吗",
+      "B": "nǐ hǎo — 你好",
+      "C": "wǒ hěn hǎo — 我很好",
+      "D": "hǎo de, xièxie — 好的，谢谢"
+    },
+    "correct": "A",
+    "explanation": "你好吗 = How are you?",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-004",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "I’m very well / I’m fine.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "duìbuqǐ — 对不起",
+      "B": "wǒ hěn hǎo — 我很好",
+      "C": "bù, xièxie — 不，谢谢",
+      "D": "nǐ hǎo ma — 你好吗"
+    },
+    "correct": "B",
+    "explanation": "我很好 = I'm very well / I'm fine.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-005",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "I don’t know.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "wǒ yào zhège — 我要这个",
+      "B": "wǒ bù zhīdào — 我不知道",
+      "C": "wǒ xǐhuan tā — 我喜欢它",
+      "D": "wǒ kàn zhège — 我看这个"
+    },
+    "correct": "B",
+    "explanation": "我不知道 = I don't know.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-006",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "I want this.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "wǒ yào zhège — 我要这个",
+      "B": "wǒ xǐhuan tā — 我喜欢它",
+      "C": "wǒ yào qù — 我要去",
+      "D": "wǒ kàn zhège — 我看这个"
+    },
+    "correct": "A",
+    "explanation": "我要这个 = I want this.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-007",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "I like it.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "wǒ yào zhège — 我要这个",
+      "B": "wǒ xǐhuan tā — 我喜欢它",
+      "C": "wǒ xǐhuan zhège dìfang — 我喜欢这个地方",
+      "D": "tāmen yǒu háizi — 他们有孩子"
+    },
+    "correct": "B",
+    "explanation": "我喜欢它 = I like it.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "ch1-rev_phrase-008",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "No, thank you.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "hǎo de, xièxie — 好的，谢谢",
+      "B": "xièxie — 谢谢",
+      "C": "bù, xièxie — 不，谢谢",
+      "D": "duìbuqǐ — 对不起"
+    },
+    "correct": "C",
+    "explanation": "不，谢谢 = No, thank you.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-009",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "Okay, thank you.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "hǎo de, xièxie — 好的，谢谢",
+      "B": "bù, xièxie — 不，谢谢",
+      "C": "nǐ hǎo — 你好",
+      "D": "duìbuqǐ — 对不起"
+    },
+    "correct": "A",
+    "explanation": "好的，谢谢 = Okay, thank you.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ch1-rev_phrase-010",
+    "kind": "phrase",
+    "deckId": "ch1-rev-phrase",
+    "level": "HSK1",
+    "promptLine": "I need help.",
+    "question": "Which Chinese phrase matches this?",
+    "choices": {
+      "A": "yǒurén bāng wǒ — 有人帮我",
+      "B": "wǒ xūyào bāngmáng — 我需要帮忙",
+      "C": "wǒ zhǎo zhège dìfang — 我找这个地方",
+      "D": "wǒ zài jiā gōngzuò — 我在家工作"
+    },
+    "correct": "B",
+    "explanation": "我需要帮忙 = I need help.",
+    "tags": [
+      "rev_phrase",
+      "phrases"
+    ],
+    "difficulty": 2
+  }
+
 
 ]
