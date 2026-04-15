@@ -8,8 +8,6 @@ import {
   addToReviewPool,
   removeFromReviewPool,
   saveBookReviewResult,
-  getBookReviewStats,
-  getPerfectClears,
   SESSION_SIZE,
   MAX_PERFECT_CLEARS,
   type BookReviewStats,
