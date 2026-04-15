@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getChaptersForBook, getDeckEntriesForChapter } from "../utils/decks";
 import { getBestTime, isDeckComplete } from "../utils/deckProgress";
+import { getReviewPool, getBookReviewStats, getPerfectClears, MAX_PERFECT_CLEARS } from "../utils/bookReview";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
 import { get3LayerMatchBest, chapterHas3LayerMatchVocab } from "../utils/threeLayerMatch";
@@ -61,6 +62,10 @@ export default function BookDetail() {
     const saved = localStorage.getItem("quickcard_mastered_sections");
     return saved ? JSON.parse(saved) : {};
   });
+
+  const [reviewPoolCount] = useState<number>(() => getReviewPool(bookNumber).length);
+  const [reviewBestStats] = useState(() => getBookReviewStats(bookNumber));
+  const [reviewClears] = useState<number>(() => getPerfectClears(bookNumber));
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -153,6 +158,32 @@ export default function BookDetail() {
               </div>
             );
           })}
+        </div>
+
+        <div className="book-detail-mode-section">
+          <div
+            className="book-detail-mode-card book-review-mode-card"
+            onClick={() => navigate(`/books/${bookNumber}/review`)}
+          >
+            <span className="book-detail-mode-icon">📖</span>
+            <div className="book-detail-mode-info">
+              <span className="book-detail-mode-name">Book Review</span>
+              <span className="book-detail-mode-desc">
+                {reviewBestStats
+                  ? `Best: ${reviewBestStats.bestCorrect}/${reviewBestStats.bestTotal} • ${Math.round((reviewBestStats.bestCorrect / reviewBestStats.bestTotal) * 100)}%`
+                  : 'Best: —'}
+              </span>
+              <span className="book-review-clears-track">
+                {Array.from({ length: MAX_PERFECT_CLEARS }).map((_, i) => (
+                  <span key={i} className={i < reviewClears ? 'br-pip br-pip--filled' : 'br-pip'} />
+                ))}
+                <span className="br-clears-count">({reviewClears}/{MAX_PERFECT_CLEARS})</span>
+              </span>
+            </div>
+            {reviewPoolCount > 0 && (
+              <span className="book-detail-mode-badge">Pool: {reviewPoolCount}</span>
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -152,3 +152,101 @@
   color: var(--success-border);
   font-weight: 600;
 }
+
+/* ─── Book-level mode cards (e.g. Book Review) ───────────────────────────── */
+
+.book-detail-mode-section {
+  width: 100%;
+}
+
+.book-detail-mode-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.book-detail-mode-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-detail-mode-card:active {
+  transform: translateY(0);
+}
+
+.book-review-mode-card {
+  border-color: rgba(76, 175, 80, 0.35);
+}
+
+.book-detail-mode-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.book-detail-mode-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.book-detail-mode-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.book-detail-mode-desc {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+}
+
+.book-review-clears-track {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 5px;
+  flex-wrap: nowrap;
+}
+
+.br-pip {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--bg-hover);
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.br-pip--filled {
+  background: var(--success-border);
+  border-color: var(--success-border);
+}
+
+.br-clears-count {
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.book-detail-mode-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--success-text);
+  background: var(--success-bg);
+  padding: 3px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}

@@ -7,6 +7,7 @@ import LandingPage from './components/LandingPage'
 import QuizFeed from './components/QuizFeed'
 import AudioLoop from './components/AudioLoop'
 import Speedrun from './components/Speedrun'
+import BookReview from './components/BookReview'
 import StudyList from './components/StudyList'
 import RollingMatchPage from './components/RollingMatchPage'
 import ThreeLayerMatch from './components/ThreeLayerMatch'
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<StartPage />} />
         <Route path="/books" element={<Books />} />
         <Route path="/books/:bookId" element={<BookDetail />} />
+        <Route path="/books/:bookId/review" element={<BookReview />} />
         <Route path="/chapters/:chapterId" element={<ChapterDetail />} />
         <Route path="/chapter/:chapterId" element={<ChapterDetail />} />
         <Route path="/chapters/:chapterId/bonus/rolling-match" element={<RollingMatchPage />} />
