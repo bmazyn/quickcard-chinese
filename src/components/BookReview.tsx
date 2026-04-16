@@ -9,8 +9,8 @@ import {
   removeFromReviewPool,
   saveBookReviewResult,
   SESSION_SIZE,
-  MAX_PERFECT_CLEARS,
-  type BookReviewStats,
+  TOP_RUNS_COUNT,
+  type BookReviewRun,
 } from "../utils/bookReview";
 import "./BookReview.css";
 import "./QuizFeed.css";
@@ -33,8 +33,7 @@ export default function BookReview() {
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const [audioOnCorrect, setAudioOnCorrect] = useState(true);
   const reinforcementTimeoutRef = useRef<number | null>(null);
-  const [savedStats, setSavedStats] = useState<BookReviewStats | null>(null);
-  const [savedClears, setSavedClears] = useState(0);
+  const [topRuns, setTopRuns] = useState<BookReviewRun[]>([]);
 
   // Build initial session and load pool count on mount
   useEffect(() => {
@@ -175,8 +174,7 @@ export default function BookReview() {
     const nextIndex = currentIndex + 1;
     if (nextIndex >= session.length) {
       const result = saveBookReviewResult(bookNumber, correctCount, session.length);
-      setSavedStats(result.stats);
-      setSavedClears(result.clears);
+    setTopRuns(result.topRuns);
       setIsComplete(true);
       setIsStarted(false);
       setPoolCount(getReviewPool(bookNumber).length);
@@ -250,14 +248,9 @@ export default function BookReview() {
 
   // ── End screen ───────────────────────────────────────────────────────────
   if (isComplete) {
-    const total  = session.length;
-    const pct    = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    const total     = session.length;
+    const pct       = total > 0 ? Math.round((correctCount / total) * 100) : 0;
     const isPerfect = correctCount === total && total > 0;
-    const bestStats  = savedStats;
-    const clears     = savedClears;
-    const bestPct    = bestStats && bestStats.bestTotal > 0
-      ? Math.round((bestStats.bestCorrect / bestStats.bestTotal) * 100)
-      : null;
 
     return (
       <div className="book-review">
@@ -283,31 +276,19 @@ export default function BookReview() {
                   <span className="book-review-stat-pct"> • {pct}%</span>
                 </span>
               </div>
-              {bestStats && (
-                <div className="book-review-stat-row">
-                  <span className="book-review-stat-label">Best</span>
-                  <span className="book-review-stat-value">
-                    {bestStats.bestCorrect} / {bestStats.bestTotal}
-                    <span className="book-review-stat-pct"> • {bestPct}%</span>
-                  </span>
-                </div>
-              )}
               <div className="book-review-stat-row">
                 <span className="book-review-stat-label">Review Pool</span>
                 <span className="book-review-stat-value">{poolCount}</span>
               </div>
-              <div className="book-review-stat-row book-review-clears-row">
-                <span className="book-review-stat-label">Perfect Clears</span>
-                <span className="book-review-stat-value">
-                  <span className="book-review-clears-pips">
-                    {Array.from({ length: MAX_PERFECT_CLEARS }).map((_, i) => (
-                      <span
-                        key={i}
-                        className={i < clears ? "book-review-pip filled" : "book-review-pip"}
-                      />
-                    ))}
-                  </span>
-                  <span className="book-review-clears-count">{clears} / {MAX_PERFECT_CLEARS}</span>
+              <div className="book-review-stat-row book-review-top10-row">
+                <span className="book-review-stat-label">Top Runs</span>
+                <span className="book-review-top10-slots">
+                  {Array.from({ length: TOP_RUNS_COUNT }).map((_, i) => {
+                    const run = topRuns[i];
+                    if (!run) return <span key={i} className="br-slot br-slot--empty" />;
+                    if (run.pct === 1) return <span key={i} className="br-slot br-slot--perfect">✓</span>;
+                    return <span key={i} className="br-slot br-slot--score">{run.correct}</span>;
+                  })}
                 </span>
               </div>
             </div>

@@ -12,7 +12,7 @@ import type { QuizCard } from "../types";
 import { getAllDecks } from "./decks";
 import quizCardsData from "../data/quizCards.json";
 
-export const SESSION_SIZE = 25;
+export const SESSION_SIZE = 20;
 
 // ── Storage helpers ──────────────────────────────────────────────────────────
 
@@ -134,77 +134,53 @@ export function buildBookReviewSession(
   return session;
 }
 
-// ── Score & perfect-clear persistence ───────────────────────────────────────
+// ── Top-10 runs persistence ─────────────────────────────────────────────────
 
-export interface BookReviewStats {
-  lastCorrect: number;
-  lastTotal: number;
-  bestCorrect: number;
-  bestTotal: number;
+export interface BookReviewRun {
+  correct: number;
+  total: number;
+  pct: number; // 0–1
 }
 
-const STATS_KEY_PREFIX  = "qc_book_review_stats:";
-const CLEARS_KEY_PREFIX = "qc_book_review_clears:";
-export const MAX_PERFECT_CLEARS = 10;
+const TOP10_KEY_PREFIX = "qc_book_review_top10:";
+export const TOP_RUNS_COUNT = 10;
 
-/** Read stored score stats for a book, or null if never played. */
-export function getBookReviewStats(bookId: number): BookReviewStats | null {
+/** Read the stored top-10 runs for a book, sorted best→worst. */
+export function getTopRuns(bookId: number): BookReviewRun[] {
   try {
-    const stored = localStorage.getItem(STATS_KEY_PREFIX + bookId);
-    return stored ? (JSON.parse(stored) as BookReviewStats) : null;
+    const stored = localStorage.getItem(TOP10_KEY_PREFIX + bookId);
+    return stored ? (JSON.parse(stored) as BookReviewRun[]) : [];
   } catch {
-    return null;
-  }
-}
-
-/** Read the number of perfect clears for a book (0–10). */
-export function getPerfectClears(bookId: number): number {
-  try {
-    const stored = localStorage.getItem(CLEARS_KEY_PREFIX + bookId);
-    return stored ? parseInt(stored, 10) : 0;
-  } catch {
-    return 0;
+    return [];
   }
 }
 
 /**
- * Persist a completed session result for a book.
- * – Always updates last score.
- * – Updates best score only when the new percentage is strictly higher.
- * – Awards one perfect-clear check when correct === total (capped at MAX_PERFECT_CLEARS).
- * Returns the final saved stats and clears count.
+ * Add the latest run to the leaderboard.
+ * Keeps only the top TOP_RUNS_COUNT entries sorted by pct descending.
+ * Returns the updated leaderboard.
  */
 export function saveBookReviewResult(
   bookId: number,
   correct: number,
   total: number
-): { stats: BookReviewStats; clears: number } {
-  const existing = getBookReviewStats(bookId);
-  const existingClears = getPerfectClears(bookId);
-
-  const newPct  = total > 0 ? correct / total : 0;
-  const bestPct = existing && existing.bestTotal > 0
-    ? existing.bestCorrect / existing.bestTotal
-    : -1;
-
-  const stats: BookReviewStats = {
-    lastCorrect: correct,
-    lastTotal:   total,
-    bestCorrect: newPct > bestPct ? correct : (existing?.bestCorrect ?? correct),
-    bestTotal:   newPct > bestPct ? total   : (existing?.bestTotal   ?? total),
+): { topRuns: BookReviewRun[] } {
+  const existing = getTopRuns(bookId);
+  const newRun: BookReviewRun = {
+    correct,
+    total,
+    pct: total > 0 ? correct / total : 0,
   };
 
-  const isPerfect = correct === total && total > 0;
-  const clears = isPerfect
-    ? Math.min(existingClears + 1, MAX_PERFECT_CLEARS)
-    : existingClears;
+  const updated = [...existing, newRun]
+    .sort((a, b) => b.pct - a.pct || b.correct - a.correct)
+    .slice(0, TOP_RUNS_COUNT);
 
   try {
-    localStorage.setItem(STATS_KEY_PREFIX  + bookId, JSON.stringify(stats));
-    localStorage.setItem(CLEARS_KEY_PREFIX + bookId, clears.toString());
+    localStorage.setItem(TOP10_KEY_PREFIX + bookId, JSON.stringify(updated));
   } catch {
     /* ignore storage errors */
   }
 
-  return { stats, clears };
+  return { topRuns: updated };
 }

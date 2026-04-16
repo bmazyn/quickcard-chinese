@@ -211,38 +211,46 @@
   color: var(--success-text);
 }
 
-/* ─── Perfect-clear pip track ────────────────────────────────────────────── */
+/* ─── Top-10 runs slots ──────────────────────────────────────────────────── */
 
-.book-review-clears-row .book-review-stat-value {
-  gap: 8px;
+.book-review-top10-row .book-review-stat-value {
+  gap: 6px;
 }
 
-.book-review-clears-pips {
+.book-review-top10-slots {
   display: flex;
   gap: 4px;
   align-items: center;
 }
 
-.book-review-pip {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--border-color);
-  border: 1px solid var(--text-tertiary);
+.br-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
   flex-shrink: 0;
+  border: 1.5px solid var(--text-tertiary);
 }
 
-.book-review-pip.filled {
+.br-slot--empty {
+  background: var(--bg-secondary);
+  color: transparent;
+}
+
+.br-slot--perfect {
   background: var(--success-border);
   border-color: var(--success-border);
+  color: #fff;
+  font-size: 0.78rem;
 }
 
-.book-review-clears-count {
-  font-size: 0.85rem;
-  font-weight: 600;
+.br-slot--score {
+  background: var(--bg-secondary);
   color: var(--text-secondary);
-  white-space: nowrap;
 }
 
 .book-review-complete-btns {
