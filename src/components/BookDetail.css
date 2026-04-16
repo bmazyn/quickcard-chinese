@@ -230,16 +230,18 @@
   gap: 3px;
   margin-top: 5px;
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .br-slot {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  flex: 1;
+  min-width: 0;
+  height: 26px;
   border-radius: 4px;
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   font-weight: 700;
   flex-shrink: 0;
   border: 1.5px solid var(--text-tertiary);
