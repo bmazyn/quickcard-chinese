@@ -7,6 +7,7 @@
     "targetPinyin": "wo de mama xihuan cha",
     "targetHanzi": "我的妈妈喜欢茶",
     "hintWords": [],
+    "wordBank": ["xihuan", "cha", "wo de", "mama"],
     "acceptedVariants": ["wo de mama xihuan cha"]
   },
   {
@@ -17,6 +18,7 @@
     "targetPinyin": "wo de baba zai jia gongzuo",
     "targetHanzi": "我的爸爸在家工作",
     "hintWords": ["gongzuo"],
+    "wordBank": ["zai jia", "wo de", "gongzuo", "baba"],
     "acceptedVariants": ["wo de baba zai jia gongzuo"]
   },
   {
@@ -27,6 +29,7 @@
     "targetPinyin": "wo de jiejie xihuan kafei",
     "targetHanzi": "我的姐姐喜欢咖啡",
     "hintWords": ["jiejie", "kafei"],
+    "wordBank": ["wo de", "kafei", "jiejie", "xihuan"],
     "acceptedVariants": ["wo de jiejie xihuan kafei"]
   },
   {
@@ -37,6 +40,7 @@
     "targetPinyin": "wo de didi xue zhongwen",
     "targetHanzi": "我的弟弟学中文",
     "hintWords": ["didi", "zhongwen"],
+    "wordBank": ["didi", "xue", "wo de", "zhongwen"],
     "acceptedVariants": ["wo de didi xue zhongwen"]
   },
   {
@@ -47,6 +51,7 @@
     "targetPinyin": "wo de jiaren hen mang",
     "targetHanzi": "我的家人很忙",
     "hintWords": ["jiaren"],
+    "wordBank": ["hen mang", "wo de", "jiaren"],
     "acceptedVariants": ["wo de jiaren hen mang"]
   },
   {
@@ -57,6 +62,7 @@
     "targetPinyin": "wo jiao Brian",
     "targetHanzi": "我叫Brian",
     "hintWords": [],
+    "wordBank": ["Brian", "wo", "jiao"],
     "acceptedVariants": ["wo jiao brian"]
   },
   {
@@ -67,6 +73,7 @@
     "targetPinyin": "wo shi diannao chengxuyuan",
     "targetHanzi": "我是电脑程序员",
     "hintWords": ["diannao", "chengxuyuan"],
+    "wordBank": ["shi", "diannao", "chengxuyuan", "wo"],
     "acceptedVariants": ["wo shi diannao chengxuyuan"]
   },
   {
@@ -77,6 +84,7 @@
     "targetPinyin": "wo yong shuju gongzuo",
     "targetHanzi": "我用数据工作",
     "hintWords": ["shuju", "gongzuo"],
+    "wordBank": ["shuju", "yong", "wo", "gongzuo"],
     "acceptedVariants": ["wo yong shuju gongzuo"]
   },
   {
@@ -87,6 +95,7 @@
     "targetPinyin": "wo zhu zai meiguo",
     "targetHanzi": "我住在美国",
     "hintWords": ["meiguo"],
+    "wordBank": ["zai", "wo", "zhu", "meiguo"],
     "acceptedVariants": ["wo zhu zai meiguo"]
   },
   {
@@ -97,6 +106,7 @@
     "targetPinyin": "wo mei tian xue zhongwen",
     "targetHanzi": "我每天学中文",
     "hintWords": ["zhongwen"],
+    "wordBank": ["wo", "mei tian", "xue", "zhongwen"],
     "acceptedVariants": ["wo mei tian xue zhongwen", "wo meitian xue zhongwen"]
   },
   {
@@ -107,6 +117,7 @@
     "targetPinyin": "wo xihuan shandi zixingche",
     "targetHanzi": "我喜欢山地自行车",
     "hintWords": ["shandi", "zixingche"],
+    "wordBank": ["wo", "zixingche", "xihuan", "shandi"],
     "acceptedVariants": ["wo xihuan shandi zixingche", "wo xihuan shan di zixingche"]
   },
   {
@@ -117,6 +128,7 @@
     "targetPinyin": "wo xihuan kafei he cha",
     "targetHanzi": "我喜欢咖啡和茶",
     "hintWords": ["kafei"],
+    "wordBank": ["he", "xihuan", "cha", "wo", "kafei"],
     "acceptedVariants": ["wo xihuan kafei he cha"]
   },
   {
@@ -127,6 +139,7 @@
     "targetPinyin": "wo xihuan yinyue",
     "targetHanzi": "我喜欢音乐",
     "hintWords": ["yinyue"],
+    "wordBank": ["xihuan", "wo", "yinyue"],
     "acceptedVariants": ["wo xihuan yinyue"]
   },
   {
@@ -137,6 +150,7 @@
     "targetPinyin": "wo xihuan zhongwen",
     "targetHanzi": "我喜欢中文",
     "hintWords": ["zhongwen"],
+    "wordBank": ["zhongwen", "wo", "xihuan"],
     "acceptedVariants": ["wo xihuan zhongwen"]
   },
   {
@@ -147,6 +161,7 @@
     "targetPinyin": "wo xihuan wo de jiaren",
     "targetHanzi": "我喜欢我的家人",
     "hintWords": ["jiaren"],
+    "wordBank": ["wo", "wo de", "xihuan", "jiaren"],
     "acceptedVariants": ["wo xihuan wo de jiaren"]
   },
   {
@@ -157,6 +172,7 @@
     "targetPinyin": "wo zao shang he kafei",
     "targetHanzi": "我早上喝咖啡",
     "hintWords": ["kafei"],
+    "wordBank": ["kafei", "wo", "he", "zao shang"],
     "acceptedVariants": ["wo zao shang he kafei", "wo zaoshang he kafei"]
   },
   {
@@ -167,6 +183,7 @@
     "targetPinyin": "wo mei tian qu gongzuo",
     "targetHanzi": "我每天去工作",
     "hintWords": ["gongzuo"],
+    "wordBank": ["qu", "wo", "gongzuo", "mei tian"],
     "acceptedVariants": ["wo mei tian qu gongzuo", "wo meitian qu gongzuo"]
   },
   {
@@ -177,6 +194,7 @@
     "targetPinyin": "wo wan shang xue zhongwen",
     "targetHanzi": "我晚上学中文",
     "hintWords": ["zhongwen"],
+    "wordBank": ["xue", "wan shang", "zhongwen", "wo"],
     "acceptedVariants": ["wo wan shang xue zhongwen", "wo wanshang xue zhongwen"]
   },
   {
@@ -187,6 +205,7 @@
     "targetPinyin": "wo zai jia chi wanfan",
     "targetHanzi": "我在家吃晚饭",
     "hintWords": ["wanfan"],
+    "wordBank": ["zai jia", "wo", "wanfan", "chi"],
     "acceptedVariants": ["wo zai jia chi wanfan"]
   },
   {
@@ -197,6 +216,7 @@
     "targetPinyin": "wo shui de hen wan",
     "targetHanzi": "我睡得很晚",
     "hintWords": [],
+    "wordBank": ["wo", "hen wan", "shui de"],
     "acceptedVariants": ["wo shui de hen wan"]
   },
   {
@@ -207,6 +227,7 @@
     "targetPinyin": "wo hen zao qichuang",
     "targetHanzi": "我很早起床",
     "hintWords": ["qichuang"],
+    "wordBank": ["qichuang", "wo", "hen zao"],
     "acceptedVariants": ["wo hen zao qichuang"]
   },
   {
@@ -217,6 +238,7 @@
     "targetPinyin": "wo zai jia chi zaofan",
     "targetHanzi": "我在家吃早饭",
     "hintWords": ["zaofan"],
+    "wordBank": ["chi", "zaofan", "wo", "zai jia"],
     "acceptedVariants": ["wo zai jia chi zaofan"]
   },
   {
@@ -227,6 +249,7 @@
     "targetPinyin": "wo wan shang hui jia",
     "targetHanzi": "我晚上回家",
     "hintWords": [],
+    "wordBank": ["hui jia", "wo", "wan shang"],
     "acceptedVariants": ["wo wan shang hui jia", "wo wanshang hui jia"]
   },
   {
@@ -234,9 +257,10 @@
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I read at night.",
-    "targetPinyin": "wo wan shang kandu shu",
+    "targetPinyin": "wo wan shang kan shu",
     "targetHanzi": "我晚上看书",
     "hintWords": ["kanshu"],
+    "wordBank": ["kan shu", "wo", "wan shang"],
     "acceptedVariants": ["wo wan shang kan shu", "wo wanshang kan shu", "wo wanshang kanshu", "wo wan shang kanshu"]
   },
   {
@@ -247,7 +271,7 @@
     "targetPinyin": "wo zhoumo zai jia xiuxi",
     "targetHanzi": "我周末在家休息",
     "hintWords": ["zhoumo", "xiuxi"],
+    "wordBank": ["zhoumo", "xiuxi", "wo", "zai jia"],
     "acceptedVariants": ["wo zhoumo zai jia xiuxi"]
   }
-  
 ]

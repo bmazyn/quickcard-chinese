@@ -14,6 +14,7 @@ import ThreeLayerMatch from './components/ThreeLayerMatch'
 import MeaningRecall from './components/MeaningRecall'
 import SayChinese from './components/SayChinese'
 import SentenceBuilder from './components/SentenceBuilder'
+import SentenceWordBank from './components/SentenceWordBank'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/speedrun" element={<Speedrun />} />
         <Route path="/study-list" element={<StudyList />} />
         <Route path="/sentence-builder" element={<SentenceBuilder />} />
+        <Route path="/sentence-word-bank" element={<SentenceWordBank />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

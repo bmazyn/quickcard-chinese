@@ -118,7 +118,14 @@ export default function Books() {
           className="books-sentence-builder-btn"
           onClick={() => navigate('/sentence-builder')}
         >
-          Sentence Builder (test)
+          Sentence Builder (Type)
+        </button>
+
+        <button
+          className="books-sentence-builder-btn"
+          onClick={() => navigate('/sentence-word-bank')}
+        >
+          Sentence Builder (Word Bank)
         </button>
       </div>
     </div>
