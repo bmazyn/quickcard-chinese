@@ -54,19 +54,19 @@
 }
 
 .sb-title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .sb-subtitle {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   font-style: italic;
 }
 
 .sb-counter {
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   color: var(--text-secondary);
   white-space: nowrap;
 }
@@ -84,7 +84,7 @@
 }
 
 .sb-section-label {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -93,7 +93,7 @@
 }
 
 .sb-english {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
@@ -105,7 +105,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
   cursor: pointer;
   user-select: none;
@@ -129,12 +129,12 @@
   color: var(--accent, #4a9eff);
   border-radius: 20px;
   padding: 6px 14px;
-  font-size: 1.1rem;
+  font-size: 1.32rem;
   font-weight: 500;
 }
 
 .sb-no-hints {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
   font-style: italic;
   margin: 0;
@@ -148,7 +148,7 @@
   border: 1.5px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   outline: none;
   transition: border-color 0.15s;
   box-sizing: border-box;
@@ -170,7 +170,7 @@
   border: none;
   background: var(--accent, #4a9eff);
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.15s, transform 0.1s;
@@ -207,13 +207,13 @@
 }
 
 .sb-verdict {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
 }
 
 .sb-typo-note {
-  font-size: 0.88rem;
+  font-size: 0.97rem;
   color: var(--text-secondary);
   margin: 0;
   font-style: italic;
@@ -222,7 +222,7 @@
 .sb-result-row {
   display: flex;
   gap: 8px;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   align-items: baseline;
   flex-wrap: wrap;
 }
@@ -236,11 +236,11 @@
 .sb-result-value {
   color: var(--text-primary);
   word-break: break-word;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .sb-hanzi {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   letter-spacing: 0.04em;
 }
 
@@ -259,7 +259,7 @@
   border: 1.5px solid var(--border-color);
   background: transparent;
   color: var(--text-primary);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.15s, opacity 0.15s;
@@ -285,7 +285,7 @@
   }
 
   .sb-english {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
 
   .sb-submit-btn {
@@ -331,19 +331,19 @@
 }
 
 .sb-title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .sb-subtitle {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   font-style: italic;
 }
 
 .sb-counter {
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   color: var(--text-secondary);
   white-space: nowrap;
 }
@@ -361,7 +361,7 @@
 }
 
 .sb-section-label {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -370,7 +370,7 @@
 }
 
 .sb-english {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
@@ -381,7 +381,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.88rem;
+  font-size: 0.97rem;
   color: var(--text-secondary);
   cursor: pointer;
   user-select: none;
@@ -405,12 +405,12 @@
   color: var(--accent, #4a9eff);
   border-radius: 20px;
   padding: 4px 12px;
-  font-size: 0.88rem;
+  font-size: 1.05rem;
   font-weight: 500;
 }
 
 .sb-no-hints {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   font-style: italic;
   margin: 0;
@@ -424,7 +424,7 @@
   border: 1.5px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 1.2rem;
   outline: none;
   transition: border-color 0.15s;
   box-sizing: border-box;
@@ -444,7 +444,7 @@
   border: none;
   background: var(--accent, #4a9eff);
   color: #fff;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.15s, transform 0.1s;
@@ -480,13 +480,13 @@
 }
 
 .sb-verdict {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 700;
   margin: 0;
 }
 
 .sb-typo-note {
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   color: var(--text-secondary);
   margin: 0;
   font-style: italic;
@@ -495,7 +495,7 @@
 .sb-result-row {
   display: flex;
   gap: 8px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   align-items: baseline;
 }
 
@@ -511,7 +511,7 @@
 }
 
 .sb-hanzi {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.04em;
 }
 
@@ -530,7 +530,7 @@
   border: 1.5px solid var(--border-color);
   background: transparent;
   color: var(--text-primary);
-  font-size: 0.92rem;
+  font-size: 1.01rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.15s, opacity 0.15s;
