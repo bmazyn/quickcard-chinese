@@ -13,6 +13,7 @@ import RollingMatchPage from './components/RollingMatchPage'
 import ThreeLayerMatch from './components/ThreeLayerMatch'
 import MeaningRecall from './components/MeaningRecall'
 import SayChinese from './components/SayChinese'
+import SentenceBuilder from './components/SentenceBuilder'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -39,6 +40,7 @@ function App() {
         <Route path="/audio-loop" element={<AudioLoop />} />
         <Route path="/speedrun" element={<Speedrun />} />
         <Route path="/study-list" element={<StudyList />} />
+        <Route path="/sentence-builder" element={<SentenceBuilder />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

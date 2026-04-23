@@ -1,0 +1,253 @@
+[
+  {
+    "id": "sent-family-001",
+    "category": "family",
+    "section": "Family",
+    "english": "My mom likes tea.",
+    "targetPinyin": "wo de mama xihuan cha",
+    "targetHanzi": "我的妈妈喜欢茶",
+    "hintWords": [],
+    "acceptedVariants": ["wo de mama xihuan cha"]
+  },
+  {
+    "id": "sent-family-002",
+    "category": "family",
+    "section": "Family",
+    "english": "My dad works at home.",
+    "targetPinyin": "wo de baba zai jia gongzuo",
+    "targetHanzi": "我的爸爸在家工作",
+    "hintWords": ["gongzuo"],
+    "acceptedVariants": ["wo de baba zai jia gongzuo"]
+  },
+  {
+    "id": "sent-family-003",
+    "category": "family",
+    "section": "Family",
+    "english": "My older sister likes coffee.",
+    "targetPinyin": "wo de jiejie xihuan kafei",
+    "targetHanzi": "我的姐姐喜欢咖啡",
+    "hintWords": ["jiejie", "kafei"],
+    "acceptedVariants": ["wo de jiejie xihuan kafei"]
+  },
+  {
+    "id": "sent-family-004",
+    "category": "family",
+    "section": "Family",
+    "english": "My younger brother studies Chinese.",
+    "targetPinyin": "wo de didi xue zhongwen",
+    "targetHanzi": "我的弟弟学中文",
+    "hintWords": ["didi", "zhongwen"],
+    "acceptedVariants": ["wo de didi xue zhongwen"]
+  },
+  {
+    "id": "sent-family-005",
+    "category": "family",
+    "section": "Family",
+    "english": "My family is very busy.",
+    "targetPinyin": "wo de jiaren hen mang",
+    "targetHanzi": "我的家人很忙",
+    "hintWords": ["jiaren"],
+    "acceptedVariants": ["wo de jiaren hen mang"]
+  },
+  {
+    "id": "sent-self-001",
+    "category": "self_intro",
+    "section": "Self Intro",
+    "english": "My name is Brian.",
+    "targetPinyin": "wo jiao Brian",
+    "targetHanzi": "我叫Brian",
+    "hintWords": [],
+    "acceptedVariants": ["wo jiao brian"]
+  },
+  {
+    "id": "sent-self-002",
+    "category": "self_intro",
+    "section": "Self Intro",
+    "english": "I am a computer programmer.",
+    "targetPinyin": "wo shi diannao chengxuyuan",
+    "targetHanzi": "我是电脑程序员",
+    "hintWords": ["diannao", "chengxuyuan"],
+    "acceptedVariants": ["wo shi diannao chengxuyuan"]
+  },
+  {
+    "id": "sent-self-003",
+    "category": "self_intro",
+    "section": "Self Intro",
+    "english": "I work with data.",
+    "targetPinyin": "wo yong shuju gongzuo",
+    "targetHanzi": "我用数据工作",
+    "hintWords": ["shuju", "gongzuo"],
+    "acceptedVariants": ["wo yong shuju gongzuo"]
+  },
+  {
+    "id": "sent-self-004",
+    "category": "self_intro",
+    "section": "Self Intro",
+    "english": "I live in the United States.",
+    "targetPinyin": "wo zhu zai meiguo",
+    "targetHanzi": "我住在美国",
+    "hintWords": ["meiguo"],
+    "acceptedVariants": ["wo zhu zai meiguo"]
+  },
+  {
+    "id": "sent-self-005",
+    "category": "self_intro",
+    "section": "Self Intro",
+    "english": "I study Chinese every day.",
+    "targetPinyin": "wo mei tian xue zhongwen",
+    "targetHanzi": "我每天学中文",
+    "hintWords": ["zhongwen"],
+    "acceptedVariants": ["wo mei tian xue zhongwen", "wo meitian xue zhongwen"]
+  },
+  {
+    "id": "sent-likes-001",
+    "category": "likes",
+    "section": "Likes",
+    "english": "I like mountain bikes.",
+    "targetPinyin": "wo xihuan shandi zixingche",
+    "targetHanzi": "我喜欢山地自行车",
+    "hintWords": ["shandi", "zixingche"],
+    "acceptedVariants": ["wo xihuan shandi zixingche", "wo xihuan shan di zixingche"]
+  },
+  {
+    "id": "sent-likes-002",
+    "category": "likes",
+    "section": "Likes",
+    "english": "I like coffee and tea.",
+    "targetPinyin": "wo xihuan kafei he cha",
+    "targetHanzi": "我喜欢咖啡和茶",
+    "hintWords": ["kafei"],
+    "acceptedVariants": ["wo xihuan kafei he cha"]
+  },
+  {
+    "id": "sent-likes-003",
+    "category": "likes",
+    "section": "Likes",
+    "english": "I like music.",
+    "targetPinyin": "wo xihuan yinyue",
+    "targetHanzi": "我喜欢音乐",
+    "hintWords": ["yinyue"],
+    "acceptedVariants": ["wo xihuan yinyue"]
+  },
+  {
+    "id": "sent-likes-004",
+    "category": "likes",
+    "section": "Likes",
+    "english": "I like Chinese.",
+    "targetPinyin": "wo xihuan zhongwen",
+    "targetHanzi": "我喜欢中文",
+    "hintWords": ["zhongwen"],
+    "acceptedVariants": ["wo xihuan zhongwen"]
+  },
+  {
+    "id": "sent-likes-005",
+    "category": "likes",
+    "section": "Likes",
+    "english": "I like my family.",
+    "targetPinyin": "wo xihuan wo de jiaren",
+    "targetHanzi": "我喜欢我的家人",
+    "hintWords": ["jiaren"],
+    "acceptedVariants": ["wo xihuan wo de jiaren"]
+  },
+  {
+    "id": "sent-daily-001",
+    "category": "daily_life",
+    "section": "Daily Life",
+    "english": "I drink coffee in the morning.",
+    "targetPinyin": "wo zao shang he kafei",
+    "targetHanzi": "我早上喝咖啡",
+    "hintWords": ["kafei"],
+    "acceptedVariants": ["wo zao shang he kafei", "wo zaoshang he kafei"]
+  },
+  {
+    "id": "sent-daily-002",
+    "category": "daily_life",
+    "section": "Daily Life",
+    "english": "I go to work every day.",
+    "targetPinyin": "wo mei tian qu gongzuo",
+    "targetHanzi": "我每天去工作",
+    "hintWords": ["gongzuo"],
+    "acceptedVariants": ["wo mei tian qu gongzuo", "wo meitian qu gongzuo"]
+  },
+  {
+    "id": "sent-daily-003",
+    "category": "daily_life",
+    "section": "Daily Life",
+    "english": "I study Chinese at night.",
+    "targetPinyin": "wo wan shang xue zhongwen",
+    "targetHanzi": "我晚上学中文",
+    "hintWords": ["zhongwen"],
+    "acceptedVariants": ["wo wan shang xue zhongwen", "wo wanshang xue zhongwen"]
+  },
+  {
+    "id": "sent-daily-004",
+    "category": "daily_life",
+    "section": "Daily Life",
+    "english": "I eat dinner at home.",
+    "targetPinyin": "wo zai jia chi wanfan",
+    "targetHanzi": "我在家吃晚饭",
+    "hintWords": ["wanfan"],
+    "acceptedVariants": ["wo zai jia chi wanfan"]
+  },
+  {
+    "id": "sent-daily-005",
+    "category": "daily_life",
+    "section": "Daily Life",
+    "english": "I sleep very late.",
+    "targetPinyin": "wo shui de hen wan",
+    "targetHanzi": "我睡得很晚",
+    "hintWords": [],
+    "acceptedVariants": ["wo shui de hen wan"]
+  },
+  {
+    "id": "sent-daily2-001",
+    "category": "daily_life",
+    "section": "Daily 2",
+    "english": "I wake up very early.",
+    "targetPinyin": "wo hen zao qichuang",
+    "targetHanzi": "我很早起床",
+    "hintWords": ["qichuang"],
+    "acceptedVariants": ["wo hen zao qichuang"]
+  },
+  {
+    "id": "sent-daily2-002",
+    "category": "daily_life",
+    "section": "Daily 2",
+    "english": "I eat breakfast at home.",
+    "targetPinyin": "wo zai jia chi zaofan",
+    "targetHanzi": "我在家吃早饭",
+    "hintWords": ["zaofan"],
+    "acceptedVariants": ["wo zai jia chi zaofan"]
+  },
+  {
+    "id": "sent-daily2-003",
+    "category": "daily_life",
+    "section": "Daily 2",
+    "english": "I go home at night.",
+    "targetPinyin": "wo wan shang hui jia",
+    "targetHanzi": "我晚上回家",
+    "hintWords": [],
+    "acceptedVariants": ["wo wan shang hui jia", "wo wanshang hui jia"]
+  },
+  {
+    "id": "sent-daily2-004",
+    "category": "daily_life",
+    "section": "Daily 2",
+    "english": "I read at night.",
+    "targetPinyin": "wo wan shang kandu shu",
+    "targetHanzi": "我晚上看书",
+    "hintWords": ["kanshu"],
+    "acceptedVariants": ["wo wan shang kan shu", "wo wanshang kan shu", "wo wanshang kanshu", "wo wan shang kanshu"]
+  },
+  {
+    "id": "sent-daily2-005",
+    "category": "daily_life",
+    "section": "Daily 2",
+    "english": "I rest at home on the weekend.",
+    "targetPinyin": "wo zhoumo zai jia xiuxi",
+    "targetHanzi": "我周末在家休息",
+    "hintWords": ["zhoumo", "xiuxi"],
+    "acceptedVariants": ["wo zhoumo zai jia xiuxi"]
+  }
+  
+]

@@ -113,6 +113,13 @@ export default function Books() {
             );
           })}
         </div>
+
+        <button
+          className="books-sentence-builder-btn"
+          onClick={() => navigate('/sentence-builder')}
+        >
+          Sentence Builder (test)
+        </button>
       </div>
     </div>
   );
