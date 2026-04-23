@@ -264,6 +264,25 @@
   letter-spacing: 0.04em;
 }
 
+.swb-speak-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 8px;
+  line-height: 1;
+  transition: transform 0.1s, opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  flex-shrink: 0;
+  align-self: center;
+}
+.swb-speak-btn:hover  { opacity: 0.75; }
+.swb-speak-btn:active { transform: scale(0.88); }
+
 /* ─── Navigation ─────────────────────────────────────────────────────────── */
 .swb-nav {
   display: flex;

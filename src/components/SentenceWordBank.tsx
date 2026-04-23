@@ -4,6 +4,16 @@ import sentencesRaw from "../data/sentences.json";
 import { normalizePinyin } from "../utils/sentenceGrading";
 import "./SentenceWordBank.css";
 
+/** Speak text using the Web Speech API. Falls back silently if unavailable. */
+function speakHanzi(text: string, lang = "zh-CN") {
+  if (typeof window === "undefined" || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = lang;
+  utt.rate = 0.9;
+  window.speechSynthesis.speak(utt);
+}
+
 interface Sentence {
   id: string;
   category: string;
@@ -71,7 +81,9 @@ export default function SentenceWordBank() {
     const built = placed.join(" ");
     const builtNorm = normalizePinyin(built);
     const targets = [sentence.targetPinyin, ...sentence.acceptedVariants].map(normalizePinyin);
-    setOutcome(targets.includes(builtNorm) ? "correct" : "wrong");
+    const isCorrect = targets.includes(builtNorm);
+    setOutcome(isCorrect ? "correct" : "wrong");
+    if (isCorrect) speakHanzi(sentence.targetHanzi);
   };
 
   const handleReset = () => {
@@ -167,6 +179,14 @@ export default function SentenceWordBank() {
             <div className="swb-result-row">
               <span className="swb-result-label">Hanzi:</span>
               <span className="swb-result-value swb-hanzi">{sentence.targetHanzi}</span>
+              <button
+                className="swb-speak-btn"
+                onClick={() => speakHanzi(sentence.targetHanzi)}
+                aria-label="Replay audio"
+                title="Replay"
+              >
+                🔊
+              </button>
             </div>
           </div>
         )}

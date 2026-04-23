@@ -273,5 +273,62 @@
     "hintWords": ["zhoumo", "xiuxi"],
     "wordBank": ["zhoumo", "xiuxi", "wo", "zai jia"],
     "acceptedVariants": ["wo zhoumo zai jia xiuxi"]
+  },
+
+  {
+    "id": "sent-medium-001",
+    "category": "medium_sentences",
+    "section": "Medium",
+    "english": "My mom drinks tea at home.",
+    "targetPinyin": "wo de mama zai jia he cha",
+    "targetHanzi": "我的妈妈在家喝茶",
+    "hintWords": ["mama"],
+    "wordBank": ["he", "wo de", "zai jia", "mama", "cha"],
+    "acceptedVariants": ["wo de mama zai jia he cha"]
+  },
+  {
+    "id": "sent-medium-002",
+    "category": "medium_sentences",
+    "section": "Medium",
+    "english": "I like coffee, but my dad likes tea.",
+    "targetPinyin": "wo xihuan kafei, dan wo de baba xihuan cha",
+    "targetHanzi": "我喜欢咖啡，但我的爸爸喜欢茶",
+    "hintWords": ["kafei", "baba"],
+    "wordBank": ["wo", "xihuan", "kafei", "dan", "wo de", "baba", "xihuan", "cha"],
+    "acceptedVariants": ["wo xihuan kafei dan wo de baba xihuan cha"]
+  },
+  {
+    "id": "sent-medium-003",
+    "category": "medium_sentences",
+    "section": "Medium",
+    "english": "I study Chinese at home every day.",
+    "targetPinyin": "wo mei tian zai jia xue zhongwen",
+    "targetHanzi": "我每天在家学中文",
+    "hintWords": ["zhongwen"],
+    "wordBank": ["wo", "mei tian", "zai jia", "xue", "zhongwen"],
+    "acceptedVariants": ["wo mei tian zai jia xue zhongwen", "wo meitian zai jia xue zhongwen"]
+  },
+  {
+    "id": "sent-medium-004",
+    "category": "medium_sentences",
+    "section": "Medium",
+    "english": "My older sister works in the United States.",
+    "targetPinyin": "wo de jiejie zai meiguo gongzuo",
+    "targetHanzi": "我的姐姐在美国工作",
+    "hintWords": ["jiejie", "meiguo", "gongzuo"],
+    "wordBank": ["wo de", "jiejie", "zai", "meiguo", "gongzuo"],
+    "acceptedVariants": ["wo de jiejie zai meiguo gongzuo"]
+  },
+  {
+    "id": "sent-medium-005",
+    "category": "medium_sentences",
+    "section": "Medium",
+    "english": "I drink coffee in the morning and tea at night.",
+    "targetPinyin": "wo zao shang he kafei, wan shang he cha",
+    "targetHanzi": "我早上喝咖啡，晚上喝茶",
+    "hintWords": ["kafei"],
+    "wordBank": ["wo", "zao shang", "he", "kafei", "wan shang", "he", "cha"],
+    "acceptedVariants": ["wo zao shang he kafei wan shang he cha", "wo zaoshang he kafei wanshang he cha"]
   }
+
 ]
