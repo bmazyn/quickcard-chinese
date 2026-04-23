@@ -129,7 +129,7 @@
   color: var(--accent, #4a9eff);
   border-radius: 20px;
   padding: 6px 14px;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
@@ -148,7 +148,7 @@
   border: 1.5px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   outline: none;
   transition: border-color 0.15s;
   box-sizing: border-box;
