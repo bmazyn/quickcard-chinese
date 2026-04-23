@@ -103,6 +103,10 @@ export default function SentenceBuilder() {
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => { if (e.key === "Enter" && input.trim() && !result) handleSubmit(); }}
             disabled={!!result}
+            autoCorrect="off"
+            autoCapitalize="none"
+            autoComplete="off"
+            spellCheck={false}
           />
 
           {!result && (
