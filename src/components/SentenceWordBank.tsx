@@ -91,12 +91,6 @@ export default function SentenceWordBank() {
     setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 80);
   };
 
-  const handleReset = () => {
-    setAvailable(shuffledBank(sentence));
-    setPlaced([]);
-    setOutcome(null);
-  };
-
   const builtAnswer = placed.join(" ");
 
   return (
@@ -158,7 +152,7 @@ export default function SentenceWordBank() {
         {/* Result */}
         {outcome !== null && (
           <div ref={resultRef} className={`swb-result ${outcome === "correct" ? "swb-result--correct" : "swb-result--wrong"}`}>
-            <p className="swb-verdict">{outcome === "correct" ? "✅ Correct!" : "❌ Try again"}</p>
+            <p className="swb-verdict">{outcome === "correct" ? "✅ Correct!" : "❌ Incorrect"}</p>
             <div className="swb-result-row">
               <span className="swb-result-label">Answer:</span>
               <span className="swb-result-value">{builtAnswer}</span>
@@ -188,26 +182,11 @@ export default function SentenceWordBank() {
         {/* Single bottom action bar — constrained by swb-shell max-width */}
         <div className="swb-bottom-nav">
           {outcome === null && (
-            <>
-              <button className="swb-nav-btn swb-nav-btn--secondary swb-nav-btn--small" onClick={handleReset} disabled={placed.length === 0}>
-                Reset
-              </button>
-              <button className="swb-nav-btn swb-nav-btn--primary" onClick={handleSubmit} disabled={placed.length === 0}>
-                Submit
-              </button>
-            </>
+            <button className="swb-nav-btn swb-nav-btn--primary" onClick={handleSubmit} disabled={placed.length === 0}>
+              Submit
+            </button>
           )}
-          {outcome === "wrong" && (
-            <>
-              <button className="swb-nav-btn swb-nav-btn--secondary swb-nav-btn--small" onClick={handleReset}>
-                Reset
-              </button>
-              <button className="swb-nav-btn swb-nav-btn--secondary" onClick={handleReset}>
-                Try again
-              </button>
-            </>
-          )}
-          {outcome === "correct" && (
+          {outcome !== null && (
             <button
               className="swb-nav-btn swb-nav-btn--primary"
               onClick={() => goTo(index + 1)}
