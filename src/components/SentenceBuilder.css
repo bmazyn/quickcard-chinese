@@ -128,8 +128,8 @@
   background: var(--accent-subtle, rgba(74,158,255,0.12));
   color: var(--accent, #4a9eff);
   border-radius: 20px;
-  padding: 6px 14px;
-  font-size: 1.32rem;
+  padding: 8px 16px;
+  font-size: 1.9rem;
   font-weight: 500;
 }
 
@@ -143,12 +143,12 @@
 /* ─── Input & submit ─────────────────────────────────────────────────────── */
 .sb-input {
   width: 100%;
-  padding: 12px 14px;
+  padding: 14px 14px;
   border-radius: 10px;
   border: 1.5px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1.5rem;
+  font-size: 2rem;
   outline: none;
   transition: border-color 0.15s;
   box-sizing: border-box;
@@ -222,7 +222,7 @@
 .sb-result-row {
   display: flex;
   gap: 8px;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   align-items: baseline;
   flex-wrap: wrap;
 }
@@ -236,11 +236,11 @@
 .sb-result-value {
   color: var(--text-primary);
   word-break: break-word;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
 .sb-hanzi {
-  font-size: 1.4rem;
+  font-size: 2rem;
   letter-spacing: 0.04em;
 }
 
@@ -405,7 +405,7 @@
   color: var(--accent, #4a9eff);
   border-radius: 20px;
   padding: 4px 12px;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
@@ -424,7 +424,7 @@
   border: 1.5px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   outline: none;
   transition: border-color 0.15s;
   box-sizing: border-box;
@@ -495,7 +495,7 @@
 .sb-result-row {
   display: flex;
   gap: 8px;
-  font-size: 1rem;
+  font-size: 1.05rem;
   align-items: baseline;
 }
 
@@ -508,10 +508,11 @@
 .sb-result-value {
   color: var(--text-primary);
   word-break: break-word;
+  font-size: 1.3rem;
 }
 
 .sb-hanzi {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.04em;
 }
 
