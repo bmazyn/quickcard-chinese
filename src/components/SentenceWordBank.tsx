@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import sentencesRaw from "../data/sentences.json";
 import { normalizePinyin } from "../utils/sentenceGrading";
@@ -55,6 +55,8 @@ export default function SentenceWordBank() {
   const [available, setAvailable] = useState<string[]>(() => shuffledBank(sentence));
   const [placed, setPlaced] = useState<string[]>([]);
   const [outcome, setOutcome] = useState<Outcome>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
+  const pageRef = useRef<HTMLDivElement>(null);
 
   const goTo = (newIndex: number) => {
     const next = sentences[newIndex];
@@ -62,6 +64,7 @@ export default function SentenceWordBank() {
     setAvailable(shuffledBank(next));
     setPlaced([]);
     setOutcome(null);
+    pageRef.current?.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const tapAvailable = (chip: string, idx: number) => {
@@ -84,6 +87,8 @@ export default function SentenceWordBank() {
     const isCorrect = targets.includes(builtNorm);
     setOutcome(isCorrect ? "correct" : "wrong");
     if (isCorrect) speakHanzi(sentence.targetHanzi);
+    // Scroll result into view after state update
+    setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 80);
   };
 
   const handleReset = () => {
@@ -95,7 +100,7 @@ export default function SentenceWordBank() {
   const builtAnswer = placed.join(" ");
 
   return (
-    <div className="swb-page">
+    <div ref={pageRef} className="swb-page">
       <div className="swb-shell">
 
         {/* Header */}
@@ -166,14 +171,14 @@ export default function SentenceWordBank() {
 
         {/* Result */}
         {outcome !== null && (
-          <div className={`swb-result ${outcome === "correct" ? "swb-result--correct" : "swb-result--wrong"}`}>
+          <div ref={resultRef} className={`swb-result ${outcome === "correct" ? "swb-result--correct" : "swb-result--wrong"}`}>
             <p className="swb-verdict">{outcome === "correct" ? "✅ Correct!" : "❌ Try again"}</p>
             <div className="swb-result-row">
-              <span className="swb-result-label">Your answer:</span>
+              <span className="swb-result-label">Answer:</span>
               <span className="swb-result-value">{builtAnswer}</span>
             </div>
             <div className="swb-result-row">
-              <span className="swb-result-label">Target pinyin:</span>
+              <span className="swb-result-label">Target:</span>
               <span className="swb-result-value">{sentence.targetPinyin}</span>
             </div>
             <div className="swb-result-row">
