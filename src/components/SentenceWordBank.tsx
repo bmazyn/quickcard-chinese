@@ -153,20 +153,6 @@ export default function SentenceWordBank() {
               </button>
             ))}
           </div>
-
-          {/* Actions */}
-          <div className="swb-actions">
-            {outcome === null ? (
-              <>
-                <button className="swb-reset-btn" onClick={handleReset}>Reset</button>
-                <button className="swb-submit-btn" onClick={handleSubmit} disabled={placed.length === 0}>
-                  Submit
-                </button>
-              </>
-            ) : (
-              <button className="swb-reset-btn swb-reset-btn--full" onClick={handleReset}>Try again</button>
-            )}
-          </div>
         </div>
 
         {/* Result */}
@@ -196,14 +182,40 @@ export default function SentenceWordBank() {
           </div>
         )}
 
-        {/* Navigation */}
-        <div className="swb-nav">
-          <button className="swb-nav-btn" onClick={() => goTo(index - 1)} disabled={index === 0}>
-            ← Previous
-          </button>
-          <button className="swb-nav-btn" onClick={() => goTo(index + 1)} disabled={index === sentences.length - 1}>
-            Next →
-          </button>
+        {/* Spacer above the action bar */}
+        <div className="swb-nav-spacer" />
+
+        {/* Single bottom action bar — constrained by swb-shell max-width */}
+        <div className="swb-bottom-nav">
+          {outcome === null && (
+            <>
+              <button className="swb-nav-btn swb-nav-btn--secondary swb-nav-btn--small" onClick={handleReset} disabled={placed.length === 0}>
+                Reset
+              </button>
+              <button className="swb-nav-btn swb-nav-btn--primary" onClick={handleSubmit} disabled={placed.length === 0}>
+                Submit
+              </button>
+            </>
+          )}
+          {outcome === "wrong" && (
+            <>
+              <button className="swb-nav-btn swb-nav-btn--secondary swb-nav-btn--small" onClick={handleReset}>
+                Reset
+              </button>
+              <button className="swb-nav-btn swb-nav-btn--secondary" onClick={handleReset}>
+                Try again
+              </button>
+            </>
+          )}
+          {outcome === "correct" && (
+            <button
+              className="swb-nav-btn swb-nav-btn--primary"
+              onClick={() => goTo(index + 1)}
+              disabled={index === sentences.length - 1}
+            >
+              Next →
+            </button>
+          )}
         </div>
 
       </div>
