@@ -898,5 +898,914 @@
       "level3": { "mode": "typing" }
     },
     "acceptedVariants": ["wo xihuan cha he yinyue"]
+  },
+
+
+  {
+    "id": "sent-set2-q-001",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Where do you live?",
+    "targetPinyin": "ni zhu zai nali",
+    "targetHanzi": "你住在哪里？",
+    "hintWords": ["nali"],
+    "wordBank": ["ni", "zhu", "zai", "nali"],
+    "extraWord": "meiguo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "meiguo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni zhu zai nali", "ni zhu zai nar"]
+  },
+  {
+    "id": "sent-set2-q-002",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "What do you study?",
+    "targetPinyin": "ni xue shenme ne",
+    "targetHanzi": "你学什么呢？",
+    "hintWords": ["shenme"],
+    "wordBank": ["ni", "xue", "shenme", "ne"],
+    "extraWord": "zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xue shenme ne"]
+  },
+  {
+    "id": "sent-set2-q-003",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Who is he?",
+    "targetPinyin": "ta shi shei a",
+    "targetHanzi": "他是谁啊？",
+    "hintWords": ["shei"],
+    "wordBank": ["ta", "shi", "shei", "a"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta shi shei a"]
+  },
+  {
+    "id": "sent-set2-q-004",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Who is she?",
+    "targetPinyin": "ta shi shei ne",
+    "targetHanzi": "她是谁呢？",
+    "hintWords": ["shei"],
+    "wordBank": ["ta", "shi", "shei", "ne"],
+    "extraWord": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta shi shei ne"]
+  },
+  {
+    "id": "sent-set2-q-005",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Do you like coffee?",
+    "targetPinyin": "ni xihuan kafei ma",
+    "targetHanzi": "你喜欢咖啡吗？",
+    "hintWords": ["kafei"],
+    "wordBank": ["ni", "xihuan", "kafei", "ma"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xihuan kafei ma"]
+  },
+  {
+    "id": "sent-set2-q-006",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Do you want tea?",
+    "targetPinyin": "ni yao cha ma",
+    "targetHanzi": "你要茶吗？",
+    "hintWords": [],
+    "wordBank": ["ni", "yao", "cha", "ma"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni yao cha ma"]
+  },
+  {
+    "id": "sent-set2-q-007",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "What does she want?",
+    "targetPinyin": "ta yao shenme ne",
+    "targetHanzi": "她要什么呢？",
+    "hintWords": ["shenme"],
+    "wordBank": ["ta", "yao", "shenme", "ne"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta yao shenme ne"]
+  },
+  {
+    "id": "sent-set2-q-008",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Where is he now?",
+    "targetPinyin": "ta xianzai zai nali",
+    "targetHanzi": "他现在在哪里？",
+    "hintWords": ["xianzai", "nali"],
+    "wordBank": ["ta", "xianzai", "zai", "nali"],
+    "extraWord": "jia",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jia" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta xianzai zai nali", "ta xianzai zai nar"]
+  },
+  {
+    "id": "sent-set2-q-009",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "When do you go home?",
+    "targetPinyin": "ni shenme shihou hui jia",
+    "targetHanzi": "你什么时候回家？",
+    "hintWords": ["shenme shihou"],
+    "wordBank": ["ni", "shenme shihou", "hui jia"],
+    "extraWord": "wan shang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wan shang" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni shenme shihou hui jia"]
+  },
+  {
+    "id": "sent-set2-q-010",
+    "set": 2,
+    "category": "questions",
+    "section": "Questions",
+    "english": "Can you help me?",
+    "targetPinyin": "ni keyi bang wo ma",
+    "targetHanzi": "你可以帮我吗？",
+    "hintWords": ["keyi"],
+    "wordBank": ["ni", "keyi", "bang", "wo", "ma"],
+    "extraWord": "ta",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni keyi bang wo ma"]
+  },
+
+  {
+    "id": "sent-set2-social-001",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "How are you today?",
+    "targetPinyin": "ni jintian hao ma",
+    "targetHanzi": "你今天好吗？",
+    "hintWords": ["jintian"],
+    "wordBank": ["ni", "jintian", "hao", "ma"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni jintian hao ma"]
+  },
+  {
+    "id": "sent-set2-social-002",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "I am very good today.",
+    "targetPinyin": "wo jintian hen hao",
+    "targetHanzi": "我今天很好。",
+    "hintWords": ["jintian"],
+    "wordBank": ["wo", "jintian", "hen", "hao"],
+    "extraWord": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo jintian hen hao"]
+  },
+  {
+    "id": "sent-set2-social-003",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Nice to meet you today.",
+    "targetPinyin": "jintian hen gaoxing renshi ni",
+    "targetHanzi": "今天很高兴认识你。",
+    "hintWords": ["gaoxing", "renshi"],
+    "wordBank": ["jintian", "hen", "gaoxing", "renshi", "ni"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["jintian hen gaoxing renshi ni"]
+  },
+  {
+    "id": "sent-set2-social-004",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "See you again tomorrow.",
+    "targetPinyin": "women mingtian zai jian",
+    "targetHanzi": "我们明天再见。",
+    "hintWords": ["mingtian"],
+    "wordBank": ["women", "mingtian", "zai", "jian"],
+    "extraWord": "jintian",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jintian" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["women mingtian zai jian"]
+  },
+  {
+    "id": "sent-set2-social-005",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Good morning, everyone.",
+    "targetPinyin": "dajia zaoshang hao",
+    "targetHanzi": "大家早上好。",
+    "hintWords": ["dajia"],
+    "wordBank": ["dajia", "zaoshang", "hao"],
+    "extraWord": "wanshang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wanshang" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["dajia zaoshang hao", "dajia zao shang hao"]
+  },
+  {
+    "id": "sent-set2-social-006",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Sleep well tonight.",
+    "targetPinyin": "jinwan shui ge hao jiao",
+    "targetHanzi": "今晚睡个好觉。",
+    "hintWords": ["jinwan"],
+    "wordBank": ["jinwan", "shui", "ge", "hao jiao"],
+    "extraWord": "zaoshang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zaoshang" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["jinwan shui ge hao jiao"]
+  },
+  {
+    "id": "sent-set2-social-007",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Thank you very much today.",
+    "targetPinyin": "jintian feichang xiexie ni",
+    "targetHanzi": "今天非常谢谢你。",
+    "hintWords": ["feichang", "xiexie"],
+    "wordBank": ["jintian", "feichang", "xiexie", "ni"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["jintian feichang xiexie ni"]
+  },
+  {
+    "id": "sent-set2-social-008",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "You are very welcome.",
+    "targetPinyin": "ni zhen de bu keqi",
+    "targetHanzi": "你真的不客气。",
+    "hintWords": ["keqi"],
+    "wordBank": ["ni", "zhen de", "bu", "keqi"],
+    "extraWord": "xiexie",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni zhen de bu keqi"]
+  },
+  {
+    "id": "sent-set2-social-009",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Please come in first.",
+    "targetPinyin": "qing xian jin lai",
+    "targetHanzi": "请先进来。",
+    "hintWords": ["xian"],
+    "wordBank": ["qing", "xian", "jin lai"],
+    "extraWord": "chu qu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chu qu" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["qing xian jin lai"]
+  },
+  {
+    "id": "sent-set2-social-010",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Please sit down here.",
+    "targetPinyin": "qing zuo zai zheli",
+    "targetHanzi": "请坐在这里。",
+    "hintWords": ["zheli"],
+    "wordBank": ["qing", "zuo", "zai", "zheli"],
+    "extraWord": "nali",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["qing zuo zai zheli"]
+  },
+  {
+    "id": "sent-set2-social-011",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "There is no problem now.",
+    "targetPinyin": "xianzai mei you wenti",
+    "targetHanzi": "现在没有问题。",
+    "hintWords": ["xianzai", "wenti"],
+    "wordBank": ["xianzai", "mei you", "wenti"],
+    "extraWord": "guanxi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "guanxi" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["xianzai mei you wenti"]
+  },
+  {
+    "id": "sent-set2-social-012",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "It is really okay now.",
+    "targetPinyin": "xianzai zhen de mei guanxi",
+    "targetHanzi": "现在真的没关系。",
+    "hintWords": ["guanxi"],
+    "wordBank": ["xianzai", "zhen de", "mei", "guanxi"],
+    "extraWord": "wenti",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wenti" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["xianzai zhen de mei guanxi"]
+  },
+  {
+    "id": "sent-set2-social-013",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Is that really true?",
+    "targetPinyin": "na shi zhen de ma",
+    "targetHanzi": "那是真的吗？",
+    "hintWords": ["zhende"],
+    "wordBank": ["na", "shi", "zhen de", "ma"],
+    "extraWord": "ne",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ne" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["na shi zhen de ma"]
+  },
+  {
+    "id": "sent-set2-social-014",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "Of course I can.",
+    "targetPinyin": "dangran wo keyi a",
+    "targetHanzi": "当然我可以啊。",
+    "hintWords": ["dangran", "keyi"],
+    "wordBank": ["dangran", "wo", "keyi", "a"],
+    "extraWord": "bu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["dangran wo keyi a"]
+  },
+  {
+    "id": "sent-set2-social-015",
+    "set": 2,
+    "category": "social_phrases",
+    "section": "Simple Social Phrases",
+    "english": "We all welcome you.",
+    "targetPinyin": "women dou huanying ni",
+    "targetHanzi": "我们都欢迎你。",
+    "hintWords": ["huanying"],
+    "wordBank": ["women", "dou", "huanying", "ni"],
+    "extraWord": "ta",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["women dou huanying ni"]
+  },
+
+  {
+    "id": "sent-set2-answer-001",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "Yes, that is right.",
+    "targetPinyin": "shi de na dui",
+    "targetHanzi": "是的，那对。",
+    "hintWords": [],
+    "wordBank": ["shi de", "na", "dui"],
+    "extraWord": "bu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["shi de na dui"]
+  },
+  {
+    "id": "sent-set2-answer-002",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "No, that is not right.",
+    "targetPinyin": "bu shi na bu dui",
+    "targetHanzi": "不是，那不对。",
+    "hintWords": [],
+    "wordBank": ["bu shi", "na", "bu dui"],
+    "extraWord": "hen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["bu shi na bu dui"]
+  },
+  {
+    "id": "sent-set2-answer-003",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "Yes, I like that.",
+    "targetPinyin": "shi wo xihuan na ge",
+    "targetHanzi": "是，我喜欢那个。",
+    "hintWords": [],
+    "wordBank": ["shi", "wo", "xihuan", "na ge"],
+    "extraWord": "bu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["shi wo xihuan na ge"]
+  },
+  {
+    "id": "sent-set2-answer-004",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "No, I do not like that.",
+    "targetPinyin": "bu wo bu xihuan na ge",
+    "targetHanzi": "不，我不喜欢那个。",
+    "hintWords": [],
+    "wordBank": ["bu", "wo", "bu", "xihuan", "na ge"],
+    "extraWord": "shi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shi" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["bu wo bu xihuan na ge"]
+  },
+  {
+    "id": "sent-set2-answer-005",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "I know that now.",
+    "targetPinyin": "wo xianzai zhidao le",
+    "targetHanzi": "我现在知道了。",
+    "hintWords": ["xianzai", "zhidao"],
+    "wordBank": ["wo", "xianzai", "zhidao", "le"],
+    "extraWord": "bu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xianzai zhidao le"]
+  },
+  {
+    "id": "sent-set2-answer-006",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "I still do not know.",
+    "targetPinyin": "wo haishi bu zhidao",
+    "targetHanzi": "我还是不知道。",
+    "hintWords": ["haishi", "zhidao"],
+    "wordBank": ["wo", "haishi", "bu", "zhidao"],
+    "extraWord": "xihuan",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xihuan" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo haishi bu zhidao"]
+  },
+  {
+    "id": "sent-set2-answer-007",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "He already knows that.",
+    "targetPinyin": "ta yijing zhidao le",
+    "targetHanzi": "他已经知道了。",
+    "hintWords": ["yijing", "zhidao"],
+    "wordBank": ["ta", "yijing", "zhidao", "le"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta yijing zhidao le"]
+  },
+  {
+    "id": "sent-set2-answer-008",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "She really does not know.",
+    "targetPinyin": "ta zhen de bu zhidao",
+    "targetHanzi": "她真的不知道。",
+    "hintWords": ["zhidao"],
+    "wordBank": ["ta", "zhen de", "bu", "zhidao"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta zhen de bu zhidao"]
+  },
+  {
+    "id": "sent-set2-answer-009",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "Maybe he can help.",
+    "targetPinyin": "keneng ta keyi bang",
+    "targetHanzi": "可能他可以帮。",
+    "hintWords": ["keneng", "keyi"],
+    "wordBank": ["keneng", "ta", "keyi", "bang"],
+    "extraWord": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["keneng ta keyi bang"]
+  },
+  {
+    "id": "sent-set2-answer-010",
+    "set": 2,
+    "category": "short_answers",
+    "section": "Short Answers",
+    "english": "Today is not bad.",
+    "targetPinyin": "jintian haishi bucuo",
+    "targetHanzi": "今天还是不错。",
+    "hintWords": ["jintian"],
+    "wordBank": ["jintian", "haishi", "bucuo"],
+    "extraWord": "hen hao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen hao" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["jintian haishi bucuo"]
+  },
+
+  {
+    "id": "sent-set2-need-001",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "I want some coffee now.",
+    "targetPinyin": "wo xianzai yao kafei",
+    "targetHanzi": "我现在要咖啡。",
+    "hintWords": ["kafei"],
+    "wordBank": ["wo", "xianzai", "yao", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xianzai yao kafei"]
+  },
+  {
+    "id": "sent-set2-need-002",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "You want some tea now.",
+    "targetPinyin": "ni xianzai yao cha",
+    "targetHanzi": "你现在要茶。",
+    "hintWords": [],
+    "wordBank": ["ni", "xianzai", "yao", "cha"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xianzai yao cha"]
+  },
+  {
+    "id": "sent-set2-need-003",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "He wants some water now.",
+    "targetPinyin": "ta xianzai yao shui",
+    "targetHanzi": "他现在要水。",
+    "hintWords": ["shui"],
+    "wordBank": ["ta", "xianzai", "yao", "shui"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta xianzai yao shui"]
+  },
+  {
+    "id": "sent-set2-need-004",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "She needs my help today.",
+    "targetPinyin": "ta jintian xuyao wo bangmang",
+    "targetHanzi": "她今天需要我帮忙。",
+    "hintWords": ["xuyao", "bangmang"],
+    "wordBank": ["ta", "jintian", "xuyao", "wo", "bangmang"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta jintian xuyao wo bangmang"]
+  },
+  {
+    "id": "sent-set2-need-005",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "I need your help now.",
+    "targetPinyin": "wo xianzai xuyao ni bangmang",
+    "targetHanzi": "我现在需要你帮忙。",
+    "hintWords": ["xuyao", "bangmang"],
+    "wordBank": ["wo", "xianzai", "xuyao", "ni", "bangmang"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xianzai xuyao ni bangmang"]
+  },
+  {
+    "id": "sent-set2-need-006",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "Do you need my help now?",
+    "targetPinyin": "ni xianzai xuyao wo bangmang ma",
+    "targetHanzi": "你现在需要我帮忙吗？",
+    "hintWords": ["xuyao", "bangmang"],
+    "wordBank": ["ni", "xianzai", "xuyao", "wo", "bangmang", "ma"],
+    "extraWord": "ta",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xianzai xuyao wo bangmang ma"]
+  },
+  {
+    "id": "sent-set2-need-007",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "I want to go home now.",
+    "targetPinyin": "wo xianzai xiang hui jia",
+    "targetHanzi": "我现在想回家。",
+    "hintWords": ["hui jia"],
+    "wordBank": ["wo", "xianzai", "xiang", "hui jia"],
+    "extraWord": "qu gongzuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu gongzuo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xianzai xiang hui jia"]
+  },
+  {
+    "id": "sent-set2-need-008",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "Do you want to study Chinese now?",
+    "targetPinyin": "ni xianzai xiang xue zhongwen ma",
+    "targetHanzi": "你现在想学中文吗？",
+    "hintWords": ["zhongwen"],
+    "wordBank": ["ni", "xianzai", "xiang", "xue", "zhongwen", "ma"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xianzai xiang xue zhongwen ma"]
+  },
+  {
+    "id": "sent-set2-need-009",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "He wants to drink coffee now.",
+    "targetPinyin": "ta xianzai xiang he kafei",
+    "targetHanzi": "他现在想喝咖啡。",
+    "hintWords": ["kafei"],
+    "wordBank": ["ta", "xianzai", "xiang", "he", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta xianzai xiang he kafei"]
+  },
+  {
+    "id": "sent-set2-need-010",
+    "set": 2,
+    "category": "needs_wants",
+    "section": "Needs Wants",
+    "english": "She wants to study at home.",
+    "targetPinyin": "ta xiang zai jia xuexi",
+    "targetHanzi": "她想在家学习。",
+    "hintWords": ["xuexi"],
+    "wordBank": ["ta", "xiang", "zai jia", "xuexi"],
+    "extraWord": "xiuxi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xiuxi" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta xiang zai jia xuexi"]
+  },
+
+  {
+    "id": "sent-set2-stmt-001",
+    "set": 2,
+    "category": "statements",
+    "section": "Statements",
+    "english": "You are my good friend.",
+    "targetPinyin": "ni shi wo de hao pengyou",
+    "targetHanzi": "你是我的好朋友。",
+    "hintWords": ["pengyou"],
+    "wordBank": ["ni", "shi", "wo de", "hao", "pengyou"],
+    "extraWord": "laoshi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "laoshi" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni shi wo de hao pengyou"]
+  },
+  {
+    "id": "sent-set2-stmt-002",
+    "set": 2,
+    "category": "statements",
+    "section": "Statements",
+    "english": "He is at home now.",
+    "targetPinyin": "ta xianzai zai jia",
+    "targetHanzi": "他现在在家。",
+    "hintWords": ["xianzai"],
+    "wordBank": ["ta", "xianzai", "zai", "jia"],
+    "extraWord": "gongzuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta xianzai zai jia"]
+  },
+  {
+    "id": "sent-set2-stmt-003",
+    "set": 2,
+    "category": "statements",
+    "section": "Statements",
+    "english": "She is very busy today.",
+    "targetPinyin": "ta jintian hen mang a",
+    "targetHanzi": "她今天很忙啊。",
+    "hintWords": ["jintian"],
+    "wordBank": ["ta", "jintian", "hen", "mang", "a"],
+    "extraWord": "hen hao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen hao" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ta jintian hen mang a"]
+  },
+  {
+    "id": "sent-set2-stmt-004",
+    "set": 2,
+    "category": "statements",
+    "section": "Statements",
+    "english": "You can come in now.",
+    "targetPinyin": "ni xianzai keyi jin lai",
+    "targetHanzi": "你现在可以进来。",
+    "hintWords": ["keyi"],
+    "wordBank": ["ni", "xianzai", "keyi", "jin lai"],
+    "extraWord": "zuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zuo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["ni xianzai keyi jin lai"]
+  },
+  {
+    "id": "sent-set2-stmt-005",
+    "set": 2,
+    "category": "statements",
+    "section": "Statements",
+    "english": "I am here, and she is there now.",
+    "targetPinyin": "wo zai zheli ta xianzai zai nali",
+    "targetHanzi": "我在这里，她现在在那里。",
+    "hintWords": ["zheli", "nali"],
+    "wordBank": ["wo", "zai", "zheli", "ta", "xianzai", "zai", "nali"],
+    "extraWord": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zai zheli ta xianzai zai nali", "wo zai zheli ta xianzai zai nar"]
   }
+ 
+
+
 ]

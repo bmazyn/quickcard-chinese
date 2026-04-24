@@ -3,6 +3,7 @@ import { getBookIds, getBookMasteryStats, getBookBestTime, getChaptersForBook } 
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getBookMeaningRecallRollup } from "../utils/meaningRecall";
 import { getBook3LayerMatchRollup } from "../utils/threeLayerMatch";
+import sentencesRaw from "../data/sentences.json";
 import "./Books.css";
 
 export default function Books() {
@@ -128,12 +129,17 @@ export default function Books() {
           Sentence Builder (Word Bank)
         </button>
 
-        <button
-          className="books-sentence-builder-btn"
-          onClick={() => navigate('/sentence-set/1')}
-        >
-          Sentence Set 1
-        </button>
+        {Array.from(
+          new Set((sentencesRaw as { set: number }[]).map(s => s.set))
+        ).sort((a, b) => a - b).map(setNum => (
+          <button
+            key={setNum}
+            className="books-sentence-builder-btn"
+            onClick={() => navigate(`/sentence-set/${setNum}`)}
+          >
+            Sentence Set {setNum}
+          </button>
+        ))}
       </div>
     </div>
   );

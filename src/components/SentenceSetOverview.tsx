@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import sentencesRaw from "../data/sentences.json";
 import { getCardProgress } from "../utils/sentenceSetProgress";
 import "./SentenceSetOverview.css";
@@ -9,8 +9,6 @@ interface Sentence {
   set: number;
   english: string;
 }
-
-const SET_NUMBER = 1;
 
 function ProgressFill({ progress }: { progress: 0 | 1 | 2 | 3 }) {
   const pct = [0, 33, 66, 100][progress];
@@ -23,10 +21,12 @@ function ProgressFill({ progress }: { progress: 0 | 1 | 2 | 3 }) {
 
 export default function SentenceSetOverview() {
   const navigate = useNavigate();
+  const { setId } = useParams<{ setId: string }>();
+  const setNum = Number(setId ?? 1);
 
   const sentences = useMemo(
-    () => (sentencesRaw as Sentence[]).filter((s) => s.set === SET_NUMBER),
-    []
+    () => (sentencesRaw as Sentence[]).filter((s) => s.set === setNum),
+    [setNum]
   );
 
   // Read live progress on every render (store is module-level, always current)
@@ -46,7 +46,7 @@ export default function SentenceSetOverview() {
           >
             ←
           </button>
-          <h1 className="sso-title">Sentence Set {SET_NUMBER}</h1>
+          <h1 className="sso-title">Sentence Set {setNum}</h1>
         </div>
 
         {/* Stats */}
@@ -81,7 +81,7 @@ export default function SentenceSetOverview() {
         <div className="sso-play-wrap">
           <button
             className="sso-play-btn"
-            onClick={() => navigate(`/sentence-set/${SET_NUMBER}/run`)}
+            onClick={() => navigate(`/sentence-set/${setNum}/run`)}
           >
             ▶ Play
           </button>
