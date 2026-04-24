@@ -1,105 +1,169 @@
 [
   {
     "id": "sent-family-001",
+    "set": 1,
     "category": "family",
     "section": "Family",
     "english": "My mom likes tea.",
     "targetPinyin": "wo de mama xihuan cha",
     "targetHanzi": "我的妈妈喜欢茶",
     "hintWords": [],
-    "wordBank": ["xihuan", "cha", "wo de", "mama"],
+    "wordBank": ["wo de", "mama", "xihuan", "cha"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de mama xihuan cha"]
   },
   {
     "id": "sent-family-002",
+    "set": 1,
     "category": "family",
     "section": "Family",
     "english": "My dad works at home.",
     "targetPinyin": "wo de baba zai jia gongzuo",
     "targetHanzi": "我的爸爸在家工作",
     "hintWords": ["gongzuo"],
-    "wordBank": ["zai jia", "wo de", "gongzuo", "baba"],
+    "wordBank": ["wo de", "baba", "zai jia", "gongzuo"],
+    "extraWord": "xue",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xue" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de baba zai jia gongzuo"]
   },
   {
     "id": "sent-family-003",
+    "set": 1,
     "category": "family",
     "section": "Family",
     "english": "My older sister likes coffee.",
     "targetPinyin": "wo de jiejie xihuan kafei",
     "targetHanzi": "我的姐姐喜欢咖啡",
     "hintWords": ["jiejie", "kafei"],
-    "wordBank": ["wo de", "kafei", "jiejie", "xihuan"],
+    "wordBank": ["wo de", "jiejie", "xihuan", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de jiejie xihuan kafei"]
   },
   {
     "id": "sent-family-004",
+    "set": 1,
     "category": "family",
     "section": "Family",
     "english": "My younger brother studies Chinese.",
     "targetPinyin": "wo de didi xue zhongwen",
     "targetHanzi": "我的弟弟学中文",
     "hintWords": ["didi", "zhongwen"],
-    "wordBank": ["didi", "xue", "wo de", "zhongwen"],
+    "wordBank": ["wo de", "didi", "xue", "zhongwen"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de didi xue zhongwen"]
   },
   {
     "id": "sent-family-005",
+    "set": 1,
     "category": "family",
     "section": "Family",
     "english": "My family is very busy.",
     "targetPinyin": "wo de jiaren hen mang",
     "targetHanzi": "我的家人很忙",
     "hintWords": ["jiaren"],
-    "wordBank": ["hen mang", "wo de", "jiaren"],
+    "wordBank": ["wo de", "jiaren", "hen mang"],
+    "extraWord": "hen lei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen lei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de jiaren hen mang"]
   },
   {
     "id": "sent-self-001",
+    "set": 1,
     "category": "self_intro",
     "section": "Self Intro",
     "english": "My name is Brian.",
     "targetPinyin": "wo jiao Brian",
     "targetHanzi": "我叫Brian",
     "hintWords": [],
-    "wordBank": ["Brian", "wo", "jiao"],
+    "wordBank": ["wo", "jiao", "Brian"],
+    "extraWord": "shi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shi" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo jiao brian"]
   },
   {
     "id": "sent-self-002",
+    "set": 1,
     "category": "self_intro",
     "section": "Self Intro",
     "english": "I am a computer programmer.",
     "targetPinyin": "wo shi diannao chengxuyuan",
     "targetHanzi": "我是电脑程序员",
     "hintWords": ["diannao", "chengxuyuan"],
-    "wordBank": ["shi", "diannao", "chengxuyuan", "wo"],
+    "wordBank": ["wo", "shi", "diannao", "chengxuyuan"],
+    "extraWord": "shuju",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shuju" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo shi diannao chengxuyuan"]
   },
   {
     "id": "sent-self-003",
+    "set": 1,
     "category": "self_intro",
     "section": "Self Intro",
     "english": "I work with data.",
     "targetPinyin": "wo yong shuju gongzuo",
     "targetHanzi": "我用数据工作",
     "hintWords": ["shuju", "gongzuo"],
-    "wordBank": ["shuju", "yong", "wo", "gongzuo"],
+    "wordBank": ["wo", "yong", "shuju", "gongzuo"],
+    "extraWord": "diannao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "diannao" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo yong shuju gongzuo"]
   },
   {
     "id": "sent-self-004",
+    "set": 1,
     "category": "self_intro",
     "section": "Self Intro",
     "english": "I live in the United States.",
     "targetPinyin": "wo zhu zai meiguo",
     "targetHanzi": "我住在美国",
     "hintWords": ["meiguo"],
-    "wordBank": ["zai", "wo", "zhu", "meiguo"],
+    "wordBank": ["wo", "zhu", "zai", "meiguo"],
+    "extraWord": "zhongguo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zhu zai meiguo"]
   },
   {
     "id": "sent-self-005",
+    "set": 1,
     "category": "self_intro",
     "section": "Self Intro",
     "english": "I study Chinese every day.",
@@ -107,187 +171,305 @@
     "targetHanzi": "我每天学中文",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "mei tian", "xue", "zhongwen"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo mei tian xue zhongwen", "wo meitian xue zhongwen"]
   },
   {
     "id": "sent-likes-001",
+    "set": 1,
     "category": "likes",
     "section": "Likes",
     "english": "I like mountain bikes.",
     "targetPinyin": "wo xihuan shandi zixingche",
     "targetHanzi": "我喜欢山地自行车",
     "hintWords": ["shandi", "zixingche"],
-    "wordBank": ["wo", "zixingche", "xihuan", "shandi"],
+    "wordBank": ["wo", "xihuan", "shandi", "zixingche"],
+    "extraWord": "diannao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "diannao" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan shandi zixingche", "wo xihuan shan di zixingche"]
   },
   {
     "id": "sent-likes-002",
+    "set": 1,
     "category": "likes",
     "section": "Likes",
     "english": "I like coffee and tea.",
     "targetPinyin": "wo xihuan kafei he cha",
     "targetHanzi": "我喜欢咖啡和茶",
     "hintWords": ["kafei"],
-    "wordBank": ["he", "xihuan", "cha", "wo", "kafei"],
+    "wordBank": ["wo", "xihuan", "kafei", "he", "cha"],
+    "extraWord": "shui",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shui" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan kafei he cha"]
   },
   {
     "id": "sent-likes-003",
+    "set": 1,
     "category": "likes",
     "section": "Likes",
     "english": "I like music.",
     "targetPinyin": "wo xihuan yinyue",
     "targetHanzi": "我喜欢音乐",
     "hintWords": ["yinyue"],
-    "wordBank": ["xihuan", "wo", "yinyue"],
+    "wordBank": ["wo", "xihuan", "yinyue"],
+    "extraWord": "zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan yinyue"]
   },
   {
     "id": "sent-likes-004",
+    "set": 1,
     "category": "likes",
     "section": "Likes",
     "english": "I like Chinese.",
     "targetPinyin": "wo xihuan zhongwen",
     "targetHanzi": "我喜欢中文",
     "hintWords": ["zhongwen"],
-    "wordBank": ["zhongwen", "wo", "xihuan"],
+    "wordBank": ["wo", "xihuan", "zhongwen"],
+    "extraWord": "yinyue",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan zhongwen"]
   },
   {
     "id": "sent-likes-005",
+    "set": 1,
     "category": "likes",
     "section": "Likes",
     "english": "I like my family.",
     "targetPinyin": "wo xihuan wo de jiaren",
     "targetHanzi": "我喜欢我的家人",
     "hintWords": ["jiaren"],
-    "wordBank": ["wo", "wo de", "xihuan", "jiaren"],
+    "wordBank": ["wo", "xihuan", "wo de", "jiaren"],
+    "extraWord": "jiejie",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jiejie" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan wo de jiaren"]
   },
   {
     "id": "sent-daily-001",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily Life",
     "english": "I drink coffee in the morning.",
     "targetPinyin": "wo zao shang he kafei",
     "targetHanzi": "我早上喝咖啡",
     "hintWords": ["kafei"],
-    "wordBank": ["kafei", "wo", "he", "zao shang"],
+    "wordBank": ["wo", "zao shang", "he", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zao shang he kafei", "wo zaoshang he kafei"]
   },
   {
     "id": "sent-daily-002",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily Life",
     "english": "I go to work every day.",
     "targetPinyin": "wo mei tian qu gongzuo",
     "targetHanzi": "我每天去工作",
     "hintWords": ["gongzuo"],
-    "wordBank": ["qu", "wo", "gongzuo", "mei tian"],
+    "wordBank": ["wo", "mei tian", "qu", "gongzuo"],
+    "extraWord": "hui jia",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo mei tian qu gongzuo", "wo meitian qu gongzuo"]
   },
   {
     "id": "sent-daily-003",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily Life",
     "english": "I study Chinese at night.",
     "targetPinyin": "wo wan shang xue zhongwen",
     "targetHanzi": "我晚上学中文",
     "hintWords": ["zhongwen"],
-    "wordBank": ["xue", "wan shang", "zhongwen", "wo"],
+    "wordBank": ["wo", "wan shang", "xue", "zhongwen"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo wan shang xue zhongwen", "wo wanshang xue zhongwen"]
   },
   {
     "id": "sent-daily-004",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily Life",
     "english": "I eat dinner at home.",
     "targetPinyin": "wo zai jia chi wanfan",
     "targetHanzi": "我在家吃晚饭",
     "hintWords": ["wanfan"],
-    "wordBank": ["zai jia", "wo", "wanfan", "chi"],
+    "wordBank": ["wo", "zai jia", "chi", "wanfan"],
+    "extraWord": "zaofan",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zaofan" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zai jia chi wanfan"]
   },
   {
     "id": "sent-daily-005",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily Life",
     "english": "I sleep very late.",
     "targetPinyin": "wo shui de hen wan",
     "targetHanzi": "我睡得很晚",
     "hintWords": [],
-    "wordBank": ["wo", "hen wan", "shui de"],
+    "wordBank": ["wo", "shui de", "hen wan"],
+    "extraWord": "hen zao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen zao" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo shui de hen wan"]
   },
   {
     "id": "sent-daily2-001",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I wake up very early.",
     "targetPinyin": "wo hen zao qichuang",
     "targetHanzi": "我很早起床",
     "hintWords": ["qichuang"],
-    "wordBank": ["qichuang", "wo", "hen zao"],
+    "wordBank": ["wo", "hen zao", "qichuang"],
+    "extraWord": "shui de",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shui de" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo hen zao qichuang"]
   },
   {
     "id": "sent-daily2-002",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I eat breakfast at home.",
     "targetPinyin": "wo zai jia chi zaofan",
     "targetHanzi": "我在家吃早饭",
     "hintWords": ["zaofan"],
-    "wordBank": ["chi", "zaofan", "wo", "zai jia"],
+    "wordBank": ["wo", "zai jia", "chi", "zaofan"],
+    "extraWord": "wanfan",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wanfan" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zai jia chi zaofan"]
   },
   {
     "id": "sent-daily2-003",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I go home at night.",
     "targetPinyin": "wo wan shang hui jia",
     "targetHanzi": "我晚上回家",
     "hintWords": [],
-    "wordBank": ["hui jia", "wo", "wan shang"],
+    "wordBank": ["wo", "wan shang", "hui jia"],
+    "extraWord": "qu gongzuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu gongzuo" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo wan shang hui jia", "wo wanshang hui jia"]
   },
   {
     "id": "sent-daily2-004",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I read at night.",
     "targetPinyin": "wo wan shang kan shu",
     "targetHanzi": "我晚上看书",
     "hintWords": ["kanshu"],
-    "wordBank": ["kan shu", "wo", "wan shang"],
+    "wordBank": ["wo", "wan shang", "kan shu"],
+    "extraWord": "xue zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xue zhongwen" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo wan shang kan shu", "wo wanshang kan shu", "wo wanshang kanshu", "wo wan shang kanshu"]
   },
   {
     "id": "sent-daily2-005",
+    "set": 1,
     "category": "daily_life",
     "section": "Daily 2",
     "english": "I rest at home on the weekend.",
     "targetPinyin": "wo zhoumo zai jia xiuxi",
     "targetHanzi": "我周末在家休息",
     "hintWords": ["zhoumo", "xiuxi"],
-    "wordBank": ["zhoumo", "xiuxi", "wo", "zai jia"],
+    "wordBank": ["wo", "zhoumo", "zai jia", "xiuxi"],
+    "extraWord": "gongzuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zhoumo zai jia xiuxi"]
   },
-
   {
     "id": "sent-medium-001",
+    "set": 1,
     "category": "medium_sentences",
     "section": "Medium",
     "english": "My mom drinks tea at home.",
     "targetPinyin": "wo de mama zai jia he cha",
     "targetHanzi": "我的妈妈在家喝茶",
     "hintWords": ["mama"],
-    "wordBank": ["he", "wo de", "zai jia", "mama", "cha"],
+    "wordBank": ["wo de", "mama", "zai jia", "he", "cha"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de mama zai jia he cha"]
   },
   {
     "id": "sent-medium-002",
+    "set": 1,
     "category": "medium_sentences",
     "section": "Medium",
     "english": "I like coffee, but my dad likes tea.",
@@ -295,10 +477,17 @@
     "targetHanzi": "我喜欢咖啡，但我的爸爸喜欢茶",
     "hintWords": ["kafei", "baba"],
     "wordBank": ["wo", "xihuan", "kafei", "dan", "wo de", "baba", "xihuan", "cha"],
+    "extraWord": "yinyue",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo xihuan kafei dan wo de baba xihuan cha"]
   },
   {
     "id": "sent-medium-003",
+    "set": 1,
     "category": "medium_sentences",
     "section": "Medium",
     "english": "I study Chinese at home every day.",
@@ -306,10 +495,17 @@
     "targetHanzi": "我每天在家学中文",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "mei tian", "zai jia", "xue", "zhongwen"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo mei tian zai jia xue zhongwen", "wo meitian zai jia xue zhongwen"]
   },
   {
     "id": "sent-medium-004",
+    "set": 1,
     "category": "medium_sentences",
     "section": "Medium",
     "english": "My older sister works in the United States.",
@@ -317,10 +513,17 @@
     "targetHanzi": "我的姐姐在美国工作",
     "hintWords": ["jiejie", "meiguo", "gongzuo"],
     "wordBank": ["wo de", "jiejie", "zai", "meiguo", "gongzuo"],
+    "extraWord": "zhongguo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo de jiejie zai meiguo gongzuo"]
   },
   {
     "id": "sent-medium-005",
+    "set": 1,
     "category": "medium_sentences",
     "section": "Medium",
     "english": "I drink coffee in the morning and tea at night.",
@@ -328,7 +531,372 @@
     "targetHanzi": "我早上喝咖啡，晚上喝茶",
     "hintWords": ["kafei"],
     "wordBank": ["wo", "zao shang", "he", "kafei", "wan shang", "he", "cha"],
+    "extraWord": "xihuan",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xihuan" },
+      "level3": { "mode": "typing" }
+    },
     "acceptedVariants": ["wo zao shang he kafei wan shang he cha", "wo zaoshang he kafei wanshang he cha"]
+  },
+  {
+    "id": "sent-extra-001",
+    "set": 1,
+    "category": "family",
+    "section": "Family 2",
+    "english": "My dad likes music.",
+    "targetPinyin": "wo de baba xihuan yinyue",
+    "targetHanzi": "我的爸爸喜欢音乐",
+    "hintWords": ["baba", "yinyue"],
+    "wordBank": ["wo de", "baba", "xihuan", "yinyue"],
+    "extraWord": "zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de baba xihuan yinyue"]
+  },
+  {
+    "id": "sent-extra-002",
+    "set": 1,
+    "category": "family",
+    "section": "Family 2",
+    "english": "My younger sister studies at home.",
+    "targetPinyin": "wo de meimei zai jia xuexi",
+    "targetHanzi": "我的妹妹在家学习",
+    "hintWords": ["meimei", "xuexi"],
+    "wordBank": ["wo de", "meimei", "zai jia", "xuexi"],
+    "extraWord": "gongzuo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de meimei zai jia xuexi"]
+  },
+  {
+    "id": "sent-extra-003",
+    "set": 1,
+    "category": "family",
+    "section": "Family 2",
+    "english": "My older brother drinks coffee.",
+    "targetPinyin": "wo de gege he kafei",
+    "targetHanzi": "我的哥哥喝咖啡",
+    "hintWords": ["gege", "kafei"],
+    "wordBank": ["wo de", "gege", "he", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de gege he kafei"]
+  },
+  {
+    "id": "sent-extra-004",
+    "set": 1,
+    "category": "family",
+    "section": "Family 2",
+    "english": "My family lives in the United States.",
+    "targetPinyin": "wo de jiaren zhu zai meiguo",
+    "targetHanzi": "我的家人住在美国",
+    "hintWords": ["jiaren", "meiguo"],
+    "wordBank": ["wo de", "jiaren", "zhu", "zai", "meiguo"],
+    "extraWord": "zhongguo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de jiaren zhu zai meiguo"]
+  },
+  {
+    "id": "sent-extra-005",
+    "set": 1,
+    "category": "self_intro",
+    "section": "Self Intro 2",
+    "english": "I am very busy today.",
+    "targetPinyin": "wo jintian hen mang",
+    "targetHanzi": "我今天很忙",
+    "hintWords": ["jintian"],
+    "wordBank": ["wo", "jintian", "hen mang"],
+    "extraWord": "hen lei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen lei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo jintian hen mang"]
+  },
+  {
+    "id": "sent-extra-006",
+    "set": 1,
+    "category": "self_intro",
+    "section": "Self Intro 2",
+    "english": "I work at home today.",
+    "targetPinyin": "wo jintian zai jia gongzuo",
+    "targetHanzi": "我今天在家工作",
+    "hintWords": ["jintian", "gongzuo"],
+    "wordBank": ["wo", "jintian", "zai jia", "gongzuo"],
+    "extraWord": "xue zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xue zhongwen" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo jintian zai jia gongzuo"]
+  },
+  {
+    "id": "sent-extra-007",
+    "set": 1,
+    "category": "self_intro",
+    "section": "Self Intro 2",
+    "english": "I use a computer every day.",
+    "targetPinyin": "wo mei tian yong diannao",
+    "targetHanzi": "我每天用电脑",
+    "hintWords": ["diannao"],
+    "wordBank": ["wo", "mei tian", "yong", "diannao"],
+    "extraWord": "shouji",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shouji" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo mei tian yong diannao", "wo meitian yong diannao"]
+  },
+  {
+    "id": "sent-extra-008",
+    "set": 1,
+    "category": "likes",
+    "section": "Likes 2",
+    "english": "I like tea very much.",
+    "targetPinyin": "wo hen xihuan cha",
+    "targetHanzi": "我很喜欢茶",
+    "hintWords": [],
+    "wordBank": ["wo", "hen", "xihuan", "cha"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo hen xihuan cha"]
+  },
+  {
+    "id": "sent-extra-009",
+    "set": 1,
+    "category": "likes",
+    "section": "Likes 2",
+    "english": "I like my mom and dad.",
+    "targetPinyin": "wo xihuan wo de mama he baba",
+    "targetHanzi": "我喜欢我的妈妈和爸爸",
+    "hintWords": ["mama", "baba"],
+    "wordBank": ["wo", "xihuan", "wo de", "mama", "he", "baba"],
+    "extraWord": "jiejie",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jiejie" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xihuan wo de mama he baba"]
+  },
+  {
+    "id": "sent-extra-010",
+    "set": 1,
+    "category": "likes",
+    "section": "Likes 2",
+    "english": "I like studying Chinese.",
+    "targetPinyin": "wo xihuan xue zhongwen",
+    "targetHanzi": "我喜欢学中文",
+    "hintWords": ["zhongwen"],
+    "wordBank": ["wo", "xihuan", "xue", "zhongwen"],
+    "extraWord": "yinyue",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xihuan xue zhongwen"]
+  },
+  {
+    "id": "sent-extra-011",
+    "set": 1,
+    "category": "likes",
+    "section": "Likes 2",
+    "english": "I like coffee in the morning.",
+    "targetPinyin": "wo zao shang xihuan kafei",
+    "targetHanzi": "我早上喜欢咖啡",
+    "hintWords": ["kafei"],
+    "wordBank": ["wo", "zao shang", "xihuan", "kafei"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zao shang xihuan kafei", "wo zaoshang xihuan kafei"]
+  },
+  {
+    "id": "sent-extra-012",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I drink tea at night.",
+    "targetPinyin": "wo wan shang he cha",
+    "targetHanzi": "我晚上喝茶",
+    "hintWords": [],
+    "wordBank": ["wo", "wan shang", "he", "cha"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo wan shang he cha", "wo wanshang he cha"]
+  },
+  {
+    "id": "sent-extra-013",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I eat breakfast every day.",
+    "targetPinyin": "wo mei tian chi zaofan",
+    "targetHanzi": "我每天吃早饭",
+    "hintWords": ["zaofan"],
+    "wordBank": ["wo", "mei tian", "chi", "zaofan"],
+    "extraWord": "wanfan",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wanfan" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo mei tian chi zaofan", "wo meitian chi zaofan"]
+  },
+  {
+    "id": "sent-extra-014",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I read at home.",
+    "targetPinyin": "wo zai jia kan shu",
+    "targetHanzi": "我在家看书",
+    "hintWords": ["kanshu"],
+    "wordBank": ["wo", "zai jia", "kan shu"],
+    "extraWord": "he kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "he kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zai jia kan shu", "wo zai jia kanshu"]
+  },
+  {
+    "id": "sent-extra-015",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I sleep at home.",
+    "targetPinyin": "wo zai jia shuijiao",
+    "targetHanzi": "我在家睡觉",
+    "hintWords": ["shuijiao"],
+    "wordBank": ["wo", "zai jia", "shuijiao"],
+    "extraWord": "qichuang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qichuang" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zai jia shuijiao"]
+  },
+  {
+    "id": "sent-extra-016",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I go to work in the morning.",
+    "targetPinyin": "wo zao shang qu gongzuo",
+    "targetHanzi": "我早上去工作",
+    "hintWords": ["gongzuo"],
+    "wordBank": ["wo", "zao shang", "qu", "gongzuo"],
+    "extraWord": "hui jia",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zao shang qu gongzuo", "wo zaoshang qu gongzuo"]
+  },
+  {
+    "id": "sent-extra-017",
+    "set": 1,
+    "category": "daily_life",
+    "section": "Daily 3",
+    "english": "I drink water at home.",
+    "targetPinyin": "wo zai jia he shui",
+    "targetHanzi": "我在家喝水",
+    "hintWords": ["shui"],
+    "wordBank": ["wo", "zai jia", "he", "shui"],
+    "extraWord": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo zai jia he shui"]
+  },
+  {
+    "id": "sent-extra-018",
+    "set": 1,
+    "category": "medium_sentences",
+    "section": "Medium 2",
+    "english": "My dad studies Chinese at night.",
+    "targetPinyin": "wo de baba wan shang xue zhongwen",
+    "targetHanzi": "我的爸爸晚上学中文",
+    "hintWords": ["baba", "zhongwen"],
+    "wordBank": ["wo de", "baba", "wan shang", "xue", "zhongwen"],
+    "extraWord": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de baba wan shang xue zhongwen", "wo de baba wanshang xue zhongwen"]
+  },
+  {
+    "id": "sent-extra-019",
+    "set": 1,
+    "category": "medium_sentences",
+    "section": "Medium 2",
+    "english": "My mom works in the morning.",
+    "targetPinyin": "wo de mama zao shang gongzuo",
+    "targetHanzi": "我的妈妈早上工作",
+    "hintWords": ["mama", "gongzuo"],
+    "wordBank": ["wo de", "mama", "zao shang", "gongzuo"],
+    "extraWord": "xiuxi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xiuxi" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo de mama zao shang gongzuo", "wo de mama zaoshang gongzuo"]
+  },
+  {
+    "id": "sent-extra-020",
+    "set": 1,
+    "category": "medium_sentences",
+    "section": "Medium 2",
+    "english": "I like tea and music.",
+    "targetPinyin": "wo xihuan cha he yinyue",
+    "targetHanzi": "我喜欢茶和音乐",
+    "hintWords": ["yinyue"],
+    "wordBank": ["wo", "xihuan", "cha", "he", "yinyue"],
+    "extraWord": "zhongwen",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
+      "level3": { "mode": "typing" }
+    },
+    "acceptedVariants": ["wo xihuan cha he yinyue"]
   }
-
 ]

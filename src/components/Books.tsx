@@ -127,6 +127,13 @@ export default function Books() {
         >
           Sentence Builder (Word Bank)
         </button>
+
+        <button
+          className="books-sentence-builder-btn"
+          onClick={() => navigate('/sentence-set/1')}
+        >
+          Sentence Set 1
+        </button>
       </div>
     </div>
   );

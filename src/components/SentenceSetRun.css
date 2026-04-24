@@ -1,0 +1,64 @@
+/* ─── End-of-run summary screen ─────────────────────────────────────────── */
+.ssr-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 8px;
+  padding: 40px 24px 120px;
+  text-align: center;
+}
+
+.ssr-summary-icon {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.ssr-summary-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: var(--text-primary);
+}
+
+.ssr-summary-score {
+  margin: 0;
+  line-height: 1;
+}
+
+.ssr-summary-num {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--accent, #3b82f6);
+}
+
+.ssr-summary-den {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+}
+
+.ssr-summary-label {
+  font-size: 1rem;
+  color: var(--text-secondary, #6b7280);
+  margin: 4px 0 32px;
+}
+
+.ssr-summary-btn {
+  width: 100%;
+  max-width: 300px;
+  padding: 14px 0;
+  border-radius: 12px;
+  border: none;
+  background: var(--accent, #3b82f6);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.ssr-summary-btn:hover { opacity: 0.88; }
+.ssr-summary-btn:active { opacity: 0.75; }

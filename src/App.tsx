@@ -15,6 +15,8 @@ import MeaningRecall from './components/MeaningRecall'
 import SayChinese from './components/SayChinese'
 import SentenceBuilder from './components/SentenceBuilder'
 import SentenceWordBank from './components/SentenceWordBank'
+import SentenceSetOverview from './components/SentenceSetOverview'
+import SentenceSetRun from './components/SentenceSetRun'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -43,6 +45,8 @@ function App() {
         <Route path="/study-list" element={<StudyList />} />
         <Route path="/sentence-builder" element={<SentenceBuilder />} />
         <Route path="/sentence-word-bank" element={<SentenceWordBank />} />
+        <Route path="/sentence-set/:setId" element={<SentenceSetOverview />} />
+        <Route path="/sentence-set/:setId/run" element={<SentenceSetRun />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,151 @@
+/* ─── Page shell (escapes #root overflow:hidden) ───────────────────────── */
+.sso-page {
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.sso-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 12px 120px;
+  min-height: 100%;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────────── */
+.sso-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 0 10px;
+}
+
+.sso-back-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  padding: 4px 8px;
+  border-radius: 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.sso-back-btn:hover { background: var(--bg-secondary); }
+
+.sso-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ─── Stats row ─────────────────────────────────────────────────────────── */
+.sso-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.sso-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-secondary, #f3f4f6);
+  border-radius: 12px;
+  padding: 10px 24px;
+  min-width: 80px;
+}
+
+.sso-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.sso-stat-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Grid ──────────────────────────────────────────────────────────────── */
+.sso-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.sso-card {
+  position: relative;
+  overflow: hidden;
+  height: 28px;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  border-radius: 6px;
+  background: var(--bg-secondary, #f9fafb);
+  cursor: default;
+  transition: border-color 0.15s;
+}
+
+.sso-card--done {
+  /* fully filled — no extra border needed */
+}
+
+/* Two vertical divider lines splitting each box into 3 equal level sections */
+.sso-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    transparent calc(33.33% - 0.5px),
+    rgba(255, 255, 255, 0.35) calc(33.33% - 0.5px),
+    rgba(255, 255, 255, 0.35) calc(33.33% + 0.5px),
+    transparent calc(33.33% + 0.5px),
+    transparent calc(66.66% - 0.5px),
+    rgba(255, 255, 255, 0.35) calc(66.66% - 0.5px),
+    rgba(255, 255, 255, 0.35) calc(66.66% + 0.5px),
+    transparent calc(66.66% + 0.5px)
+  );
+}
+
+/* ─── Fill-bar progress ─────────────────────────────────────────────────── */
+.sso-fill-track {
+  position: absolute;
+  inset: 0;
+}
+
+.sso-fill-bar {
+  height: 100%;
+  background: var(--accent, #3b82f6);
+  opacity: 0.55;
+  transition: width 0.3s ease;
+}
+
+/* ─── Play button ───────────────────────────────────────────────────────── */
+.sso-play-wrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.sso-play-btn {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px 0;
+  border-radius: 12px;
+  border: none;
+  background: var(--accent, #3b82f6);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.sso-play-btn:hover { opacity: 0.88; }
+.sso-play-btn:active { opacity: 0.75; }
