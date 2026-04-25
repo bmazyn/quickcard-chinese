@@ -10,10 +10,11 @@
     "hintWords": [],
     "wordBank": ["wo de", "mama", "xihuan", "cha"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de mama xihuan cha"]
   },
@@ -28,10 +29,11 @@
     "hintWords": ["gongzuo"],
     "wordBank": ["wo de", "baba", "zai jia", "gongzuo"],
     "extraWord": "xue",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xue" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xue", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de baba zai jia gongzuo"]
   },
@@ -46,10 +48,11 @@
     "hintWords": ["jiejie", "kafei"],
     "wordBank": ["wo de", "jiejie", "xihuan", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de jiejie xihuan kafei"]
   },
@@ -64,10 +67,11 @@
     "hintWords": ["didi", "zhongwen"],
     "wordBank": ["wo de", "didi", "xue", "zhongwen"],
     "extraWord": "kafei",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de didi xue zhongwen"]
   },
@@ -82,10 +86,11 @@
     "hintWords": ["jiaren"],
     "wordBank": ["wo de", "jiaren", "hen mang"],
     "extraWord": "hen lei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen lei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen lei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de jiaren hen mang"]
   },
@@ -95,15 +100,16 @@
     "category": "self_intro",
     "section": "Self Intro",
     "english": "My name is Brian.",
-    "targetPinyin": "wo jiao Brian",
-    "targetHanzi": "我叫Brian",
+    "targetPinyin": "wo jiao brian",
+    "targetHanzi": "我叫Brian。",
     "hintWords": [],
-    "wordBank": ["wo", "jiao", "Brian"],
+    "wordBank": ["wo", "jiao", "brian"],
     "extraWord": "shi",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shi", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo jiao brian"]
   },
@@ -114,14 +120,15 @@
     "section": "Self Intro",
     "english": "I am a computer programmer.",
     "targetPinyin": "wo shi diannao chengxuyuan",
-    "targetHanzi": "我是电脑程序员",
+    "targetHanzi": "我是电脑程序员。",
     "hintWords": ["diannao", "chengxuyuan"],
     "wordBank": ["wo", "shi", "diannao", "chengxuyuan"],
     "extraWord": "shuju",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shuju" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shuju", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo shi diannao chengxuyuan"]
   },
@@ -132,14 +139,15 @@
     "section": "Self Intro",
     "english": "I work with data.",
     "targetPinyin": "wo yong shuju gongzuo",
-    "targetHanzi": "我用数据工作",
+    "targetHanzi": "我用数据工作。",
     "hintWords": ["shuju", "gongzuo"],
     "wordBank": ["wo", "yong", "shuju", "gongzuo"],
     "extraWord": "diannao",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "diannao" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "diannao", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo yong shuju gongzuo"]
   },
@@ -150,14 +158,15 @@
     "section": "Self Intro",
     "english": "I live in the United States.",
     "targetPinyin": "wo zhu zai meiguo",
-    "targetHanzi": "我住在美国",
+    "targetHanzi": "我住在美国。",
     "hintWords": ["meiguo"],
     "wordBank": ["wo", "zhu", "zai", "meiguo"],
     "extraWord": "zhongguo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongguo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zhu zai meiguo"]
   },
@@ -168,14 +177,15 @@
     "section": "Self Intro",
     "english": "I study Chinese every day.",
     "targetPinyin": "wo mei tian xue zhongwen",
-    "targetHanzi": "我每天学中文",
+    "targetHanzi": "我每天学中文。",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "mei tian", "xue", "zhongwen"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo mei tian xue zhongwen", "wo meitian xue zhongwen"]
   },
@@ -186,14 +196,15 @@
     "section": "Likes",
     "english": "I like mountain bikes.",
     "targetPinyin": "wo xihuan shandi zixingche",
-    "targetHanzi": "我喜欢山地自行车",
+    "targetHanzi": "我喜欢山地自行车。",
     "hintWords": ["shandi", "zixingche"],
     "wordBank": ["wo", "xihuan", "shandi", "zixingche"],
     "extraWord": "diannao",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "diannao" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "diannao", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan shandi zixingche", "wo xihuan shan di zixingche"]
   },
@@ -204,14 +215,15 @@
     "section": "Likes",
     "english": "I like coffee and tea.",
     "targetPinyin": "wo xihuan kafei he cha",
-    "targetHanzi": "我喜欢咖啡和茶",
+    "targetHanzi": "我喜欢咖啡和茶。",
     "hintWords": ["kafei"],
     "wordBank": ["wo", "xihuan", "kafei", "he", "cha"],
     "extraWord": "shui",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shui" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shui", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan kafei he cha"]
   },
@@ -222,14 +234,15 @@
     "section": "Likes",
     "english": "I like music.",
     "targetPinyin": "wo xihuan yinyue",
-    "targetHanzi": "我喜欢音乐",
+    "targetHanzi": "我喜欢音乐。",
     "hintWords": ["yinyue"],
     "wordBank": ["wo", "xihuan", "yinyue"],
     "extraWord": "zhongwen",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongwen", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan yinyue"]
   },
@@ -240,14 +253,15 @@
     "section": "Likes",
     "english": "I like Chinese.",
     "targetPinyin": "wo xihuan zhongwen",
-    "targetHanzi": "我喜欢中文",
+    "targetHanzi": "我喜欢中文。",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "xihuan", "zhongwen"],
     "extraWord": "yinyue",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "yinyue", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan zhongwen"]
   },
@@ -258,14 +272,15 @@
     "section": "Likes",
     "english": "I like my family.",
     "targetPinyin": "wo xihuan wo de jiaren",
-    "targetHanzi": "我喜欢我的家人",
+    "targetHanzi": "我喜欢我的家人。",
     "hintWords": ["jiaren"],
     "wordBank": ["wo", "xihuan", "wo de", "jiaren"],
     "extraWord": "jiejie",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "jiejie" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jiejie", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan wo de jiaren"]
   },
@@ -276,14 +291,15 @@
     "section": "Daily Life",
     "english": "I drink coffee in the morning.",
     "targetPinyin": "wo zao shang he kafei",
-    "targetHanzi": "我早上喝咖啡",
+    "targetHanzi": "我早上喝咖啡。",
     "hintWords": ["kafei"],
     "wordBank": ["wo", "zao shang", "he", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zao shang he kafei", "wo zaoshang he kafei"]
   },
@@ -294,14 +310,15 @@
     "section": "Daily Life",
     "english": "I go to work every day.",
     "targetPinyin": "wo mei tian qu gongzuo",
-    "targetHanzi": "我每天去工作",
+    "targetHanzi": "我每天去工作。",
     "hintWords": ["gongzuo"],
     "wordBank": ["wo", "mei tian", "qu", "gongzuo"],
     "extraWord": "hui jia",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo mei tian qu gongzuo", "wo meitian qu gongzuo"]
   },
@@ -312,14 +329,15 @@
     "section": "Daily Life",
     "english": "I study Chinese at night.",
     "targetPinyin": "wo wan shang xue zhongwen",
-    "targetHanzi": "我晚上学中文",
+    "targetHanzi": "我晚上学中文。",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "wan shang", "xue", "zhongwen"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo wan shang xue zhongwen", "wo wanshang xue zhongwen"]
   },
@@ -330,14 +348,15 @@
     "section": "Daily Life",
     "english": "I eat dinner at home.",
     "targetPinyin": "wo zai jia chi wanfan",
-    "targetHanzi": "我在家吃晚饭",
+    "targetHanzi": "我在家吃晚饭。",
     "hintWords": ["wanfan"],
     "wordBank": ["wo", "zai jia", "chi", "wanfan"],
     "extraWord": "zaofan",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zaofan" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zaofan", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zai jia chi wanfan"]
   },
@@ -348,14 +367,15 @@
     "section": "Daily Life",
     "english": "I sleep very late.",
     "targetPinyin": "wo shui de hen wan",
-    "targetHanzi": "我睡得很晚",
+    "targetHanzi": "我睡得很晚。",
     "hintWords": [],
     "wordBank": ["wo", "shui de", "hen wan"],
     "extraWord": "hen zao",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen zao" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen zao", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo shui de hen wan"]
   },
@@ -366,14 +386,15 @@
     "section": "Daily 2",
     "english": "I wake up very early.",
     "targetPinyin": "wo hen zao qichuang",
-    "targetHanzi": "我很早起床",
+    "targetHanzi": "我很早起床。",
     "hintWords": ["qichuang"],
     "wordBank": ["wo", "hen zao", "qichuang"],
     "extraWord": "shui de",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shui de" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shui de", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo hen zao qichuang"]
   },
@@ -384,14 +405,15 @@
     "section": "Daily 2",
     "english": "I eat breakfast at home.",
     "targetPinyin": "wo zai jia chi zaofan",
-    "targetHanzi": "我在家吃早饭",
+    "targetHanzi": "我在家吃早饭。",
     "hintWords": ["zaofan"],
     "wordBank": ["wo", "zai jia", "chi", "zaofan"],
     "extraWord": "wanfan",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wanfan" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wanfan", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zai jia chi zaofan"]
   },
@@ -402,14 +424,15 @@
     "section": "Daily 2",
     "english": "I go home at night.",
     "targetPinyin": "wo wan shang hui jia",
-    "targetHanzi": "我晚上回家",
+    "targetHanzi": "我晚上回家。",
     "hintWords": [],
     "wordBank": ["wo", "wan shang", "hui jia"],
     "extraWord": "qu gongzuo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "qu gongzuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu gongzuo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo wan shang hui jia", "wo wanshang hui jia"]
   },
@@ -420,14 +443,15 @@
     "section": "Daily 2",
     "english": "I read at night.",
     "targetPinyin": "wo wan shang kan shu",
-    "targetHanzi": "我晚上看书",
+    "targetHanzi": "我晚上看书。",
     "hintWords": ["kanshu"],
     "wordBank": ["wo", "wan shang", "kan shu"],
     "extraWord": "xue zhongwen",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xue zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xue zhongwen", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo wan shang kan shu", "wo wanshang kan shu", "wo wanshang kanshu", "wo wan shang kanshu"]
   },
@@ -438,14 +462,15 @@
     "section": "Daily 2",
     "english": "I rest at home on the weekend.",
     "targetPinyin": "wo zhoumo zai jia xiuxi",
-    "targetHanzi": "我周末在家休息",
+    "targetHanzi": "我周末在家休息。",
     "hintWords": ["zhoumo", "xiuxi"],
     "wordBank": ["wo", "zhoumo", "zai jia", "xiuxi"],
     "extraWord": "gongzuo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zhoumo zai jia xiuxi"]
   },
@@ -456,14 +481,15 @@
     "section": "Medium",
     "english": "My mom drinks tea at home.",
     "targetPinyin": "wo de mama zai jia he cha",
-    "targetHanzi": "我的妈妈在家喝茶",
+    "targetHanzi": "我的妈妈在家喝茶。",
     "hintWords": ["mama"],
     "wordBank": ["wo de", "mama", "zai jia", "he", "cha"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de mama zai jia he cha"]
   },
@@ -473,15 +499,16 @@
     "category": "medium_sentences",
     "section": "Medium",
     "english": "I like coffee, but my dad likes tea.",
-    "targetPinyin": "wo xihuan kafei, dan wo de baba xihuan cha",
-    "targetHanzi": "我喜欢咖啡，但我的爸爸喜欢茶",
+    "targetPinyin": "wo xihuan kafei dan wo de baba xihuan cha",
+    "targetHanzi": "我喜欢咖啡，但我的爸爸喜欢茶。",
     "hintWords": ["kafei", "baba"],
     "wordBank": ["wo", "xihuan", "kafei", "dan", "wo de", "baba", "xihuan", "cha"],
     "extraWord": "yinyue",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "yinyue", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan kafei dan wo de baba xihuan cha"]
   },
@@ -492,14 +519,15 @@
     "section": "Medium",
     "english": "I study Chinese at home every day.",
     "targetPinyin": "wo mei tian zai jia xue zhongwen",
-    "targetHanzi": "我每天在家学中文",
+    "targetHanzi": "我每天在家学中文。",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "mei tian", "zai jia", "xue", "zhongwen"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo mei tian zai jia xue zhongwen", "wo meitian zai jia xue zhongwen"]
   },
@@ -510,14 +538,15 @@
     "section": "Medium",
     "english": "My older sister works in the United States.",
     "targetPinyin": "wo de jiejie zai meiguo gongzuo",
-    "targetHanzi": "我的姐姐在美国工作",
+    "targetHanzi": "我的姐姐在美国工作。",
     "hintWords": ["jiejie", "meiguo", "gongzuo"],
     "wordBank": ["wo de", "jiejie", "zai", "meiguo", "gongzuo"],
     "extraWord": "zhongguo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongguo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de jiejie zai meiguo gongzuo"]
   },
@@ -527,15 +556,16 @@
     "category": "medium_sentences",
     "section": "Medium",
     "english": "I drink coffee in the morning and tea at night.",
-    "targetPinyin": "wo zao shang he kafei, wan shang he cha",
-    "targetHanzi": "我早上喝咖啡，晚上喝茶",
+    "targetPinyin": "wo zao shang he kafei wan shang he cha",
+    "targetHanzi": "我早上喝咖啡，晚上喝茶。",
     "hintWords": ["kafei"],
     "wordBank": ["wo", "zao shang", "he", "kafei", "wan shang", "he", "cha"],
     "extraWord": "xihuan",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xihuan" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xihuan", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zao shang he kafei wan shang he cha", "wo zaoshang he kafei wanshang he cha"]
   },
@@ -546,14 +576,15 @@
     "section": "Family 2",
     "english": "My dad likes music.",
     "targetPinyin": "wo de baba xihuan yinyue",
-    "targetHanzi": "我的爸爸喜欢音乐",
+    "targetHanzi": "我的爸爸喜欢音乐。",
     "hintWords": ["baba", "yinyue"],
     "wordBank": ["wo de", "baba", "xihuan", "yinyue"],
     "extraWord": "zhongwen",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongwen", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de baba xihuan yinyue"]
   },
@@ -564,14 +595,15 @@
     "section": "Family 2",
     "english": "My younger sister studies at home.",
     "targetPinyin": "wo de meimei zai jia xuexi",
-    "targetHanzi": "我的妹妹在家学习",
+    "targetHanzi": "我的妹妹在家学习。",
     "hintWords": ["meimei", "xuexi"],
     "wordBank": ["wo de", "meimei", "zai jia", "xuexi"],
     "extraWord": "gongzuo",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de meimei zai jia xuexi"]
   },
@@ -582,14 +614,15 @@
     "section": "Family 2",
     "english": "My older brother drinks coffee.",
     "targetPinyin": "wo de gege he kafei",
-    "targetHanzi": "我的哥哥喝咖啡",
+    "targetHanzi": "我的哥哥喝咖啡。",
     "hintWords": ["gege", "kafei"],
     "wordBank": ["wo de", "gege", "he", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de gege he kafei"]
   },
@@ -600,14 +633,15 @@
     "section": "Family 2",
     "english": "My family lives in the United States.",
     "targetPinyin": "wo de jiaren zhu zai meiguo",
-    "targetHanzi": "我的家人住在美国",
+    "targetHanzi": "我的家人住在美国。",
     "hintWords": ["jiaren", "meiguo"],
     "wordBank": ["wo de", "jiaren", "zhu", "zai", "meiguo"],
     "extraWord": "zhongguo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongguo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongguo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo de jiaren zhu zai meiguo"]
   },
@@ -618,14 +652,15 @@
     "section": "Self Intro 2",
     "english": "I am very busy today.",
     "targetPinyin": "wo jintian hen mang",
-    "targetHanzi": "我今天很忙",
+    "targetHanzi": "我今天很忙。",
     "hintWords": ["jintian"],
     "wordBank": ["wo", "jintian", "hen mang"],
     "extraWord": "hen lei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen lei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen lei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo jintian hen mang"]
   },
@@ -636,14 +671,15 @@
     "section": "Self Intro 2",
     "english": "I work at home today.",
     "targetPinyin": "wo jintian zai jia gongzuo",
-    "targetHanzi": "我今天在家工作",
+    "targetHanzi": "我今天在家工作。",
     "hintWords": ["jintian", "gongzuo"],
     "wordBank": ["wo", "jintian", "zai jia", "gongzuo"],
     "extraWord": "xue zhongwen",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xue zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xue zhongwen", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo jintian zai jia gongzuo"]
   },
@@ -654,14 +690,15 @@
     "section": "Self Intro 2",
     "english": "I use a computer every day.",
     "targetPinyin": "wo mei tian yong diannao",
-    "targetHanzi": "我每天用电脑",
+    "targetHanzi": "我每天用电脑。",
     "hintWords": ["diannao"],
     "wordBank": ["wo", "mei tian", "yong", "diannao"],
     "extraWord": "shouji",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shouji" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shouji", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo mei tian yong diannao", "wo meitian yong diannao"]
   },
@@ -672,14 +709,15 @@
     "section": "Likes 2",
     "english": "I like tea very much.",
     "targetPinyin": "wo hen xihuan cha",
-    "targetHanzi": "我很喜欢茶",
+    "targetHanzi": "我很喜欢茶。",
     "hintWords": [],
     "wordBank": ["wo", "hen", "xihuan", "cha"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo hen xihuan cha"]
   },
@@ -690,14 +728,15 @@
     "section": "Likes 2",
     "english": "I like my mom and dad.",
     "targetPinyin": "wo xihuan wo de mama he baba",
-    "targetHanzi": "我喜欢我的妈妈和爸爸",
+    "targetHanzi": "我喜欢我的妈妈和爸爸。",
     "hintWords": ["mama", "baba"],
     "wordBank": ["wo", "xihuan", "wo de", "mama", "he", "baba"],
     "extraWord": "jiejie",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "jiejie" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jiejie", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan wo de mama he baba"]
   },
@@ -708,14 +747,15 @@
     "section": "Likes 2",
     "english": "I like studying Chinese.",
     "targetPinyin": "wo xihuan xue zhongwen",
-    "targetHanzi": "我喜欢学中文",
+    "targetHanzi": "我喜欢学中文。",
     "hintWords": ["zhongwen"],
     "wordBank": ["wo", "xihuan", "xue", "zhongwen"],
     "extraWord": "yinyue",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "yinyue" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "yinyue", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan xue zhongwen"]
   },
@@ -726,14 +766,15 @@
     "section": "Likes 2",
     "english": "I like coffee in the morning.",
     "targetPinyin": "wo zao shang xihuan kafei",
-    "targetHanzi": "我早上喜欢咖啡",
+    "targetHanzi": "我早上喜欢咖啡。",
     "hintWords": ["kafei"],
     "wordBank": ["wo", "zao shang", "xihuan", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zao shang xihuan kafei", "wo zaoshang xihuan kafei"]
   },
@@ -744,14 +785,15 @@
     "section": "Daily 3",
     "english": "I drink tea at night.",
     "targetPinyin": "wo wan shang he cha",
-    "targetHanzi": "我晚上喝茶",
+    "targetHanzi": "我晚上喝茶。",
     "hintWords": [],
     "wordBank": ["wo", "wan shang", "he", "cha"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo wan shang he cha", "wo wanshang he cha"]
   },
@@ -762,14 +804,15 @@
     "section": "Daily 3",
     "english": "I eat breakfast every day.",
     "targetPinyin": "wo mei tian chi zaofan",
-    "targetHanzi": "我每天吃早饭",
+    "targetHanzi": "我每天吃早饭。",
     "hintWords": ["zaofan"],
     "wordBank": ["wo", "mei tian", "chi", "zaofan"],
     "extraWord": "wanfan",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wanfan" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wanfan", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo mei tian chi zaofan", "wo meitian chi zaofan"]
   },
@@ -780,14 +823,15 @@
     "section": "Daily 3",
     "english": "I read at home.",
     "targetPinyin": "wo zai jia kan shu",
-    "targetHanzi": "我在家看书",
+    "targetHanzi": "我在家看书。",
     "hintWords": ["kanshu"],
     "wordBank": ["wo", "zai jia", "kan shu"],
     "extraWord": "he kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "he kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "he kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zai jia kan shu", "wo zai jia kanshu"]
   },
@@ -798,14 +842,15 @@
     "section": "Daily 3",
     "english": "I sleep at home.",
     "targetPinyin": "wo zai jia shuijiao",
-    "targetHanzi": "我在家睡觉",
+    "targetHanzi": "我在家睡觉。",
     "hintWords": ["shuijiao"],
     "wordBank": ["wo", "zai jia", "shuijiao"],
     "extraWord": "qichuang",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "qichuang" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qichuang", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zai jia shuijiao"]
   },
@@ -816,14 +861,15 @@
     "section": "Daily 3",
     "english": "I go to work in the morning.",
     "targetPinyin": "wo zao shang qu gongzuo",
-    "targetHanzi": "我早上去工作",
+    "targetHanzi": "我早上去工作。",
     "hintWords": ["gongzuo"],
     "wordBank": ["wo", "zao shang", "qu", "gongzuo"],
     "extraWord": "hui jia",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zao shang qu gongzuo", "wo zaoshang qu gongzuo"]
   },
@@ -834,14 +880,15 @@
     "section": "Daily 3",
     "english": "I drink water at home.",
     "targetPinyin": "wo zai jia he shui",
-    "targetHanzi": "我在家喝水",
+    "targetHanzi": "我在家喝水。",
     "hintWords": ["shui"],
     "wordBank": ["wo", "zai jia", "he", "shui"],
     "extraWord": "cha",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo zai jia he shui"]
   },
@@ -852,14 +899,15 @@
     "section": "Medium 2",
     "english": "My dad studies Chinese at night.",
     "targetPinyin": "wo de baba wan shang xue zhongwen",
-    "targetHanzi": "我的爸爸晚上学中文",
+    "targetHanzi": "我的爸爸晚上学中文。",
     "hintWords": ["baba", "zhongwen"],
     "wordBank": ["wo de", "baba", "wan shang", "xue", "zhongwen"],
     "extraWord": "kafei",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de baba wan shang xue zhongwen", "wo de baba wanshang xue zhongwen"]
   },
@@ -870,14 +918,15 @@
     "section": "Medium 2",
     "english": "My mom works in the morning.",
     "targetPinyin": "wo de mama zao shang gongzuo",
-    "targetHanzi": "我的妈妈早上工作",
+    "targetHanzi": "我的妈妈早上工作。",
     "hintWords": ["mama", "gongzuo"],
     "wordBank": ["wo de", "mama", "zao shang", "gongzuo"],
     "extraWord": "xiuxi",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xiuxi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xiuxi", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo de mama zao shang gongzuo", "wo de mama zaoshang gongzuo"]
   },
@@ -888,18 +937,18 @@
     "section": "Medium 2",
     "english": "I like tea and music.",
     "targetPinyin": "wo xihuan cha he yinyue",
-    "targetHanzi": "我喜欢茶和音乐",
+    "targetHanzi": "我喜欢茶和音乐。",
     "hintWords": ["yinyue"],
     "wordBank": ["wo", "xihuan", "cha", "he", "yinyue"],
     "extraWord": "zhongwen",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongwen", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xihuan cha he yinyue"]
   },
-
 
   {
     "id": "sent-set2-q-001",
@@ -912,10 +961,11 @@
     "hintWords": ["nali"],
     "wordBank": ["ni", "zhu", "zai", "nali"],
     "extraWord": "meiguo",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "meiguo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "meiguo", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni zhu zai nali", "ni zhu zai nar"]
   },
@@ -930,10 +980,11 @@
     "hintWords": ["shenme"],
     "wordBank": ["ni", "xue", "shenme", "ne"],
     "extraWord": "zhongwen",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zhongwen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhongwen", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni xue shenme ne"]
   },
@@ -948,10 +999,11 @@
     "hintWords": ["shei"],
     "wordBank": ["ta", "shi", "shei", "a"],
     "extraWord": "wo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta shi shei a"]
   },
@@ -966,10 +1018,11 @@
     "hintWords": ["shei"],
     "wordBank": ["ta", "shi", "shei", "ne"],
     "extraWord": "ni",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta shi shei ne"]
   },
@@ -984,10 +1037,11 @@
     "hintWords": ["kafei"],
     "wordBank": ["ni", "xihuan", "kafei", "ma"],
     "extraWord": "cha",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni xihuan kafei ma"]
   },
@@ -1002,10 +1056,11 @@
     "hintWords": [],
     "wordBank": ["ni", "yao", "cha", "ma"],
     "extraWord": "kafei",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni yao cha ma"]
   },
@@ -1020,10 +1075,11 @@
     "hintWords": ["shenme"],
     "wordBank": ["ta", "yao", "shenme", "ne"],
     "extraWord": "cha",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta yao shenme ne"]
   },
@@ -1038,10 +1094,11 @@
     "hintWords": ["xianzai", "nali"],
     "wordBank": ["ta", "xianzai", "zai", "nali"],
     "extraWord": "jia",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "jia" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jia", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta xianzai zai nali", "ta xianzai zai nar"]
   },
@@ -1056,10 +1113,11 @@
     "hintWords": ["shenme shihou"],
     "wordBank": ["ni", "shenme shihou", "hui jia"],
     "extraWord": "wan shang",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wan shang" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wan shang", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni shenme shihou hui jia"]
   },
@@ -1074,10 +1132,11 @@
     "hintWords": ["keyi"],
     "wordBank": ["ni", "keyi", "bang", "wo", "ma"],
     "extraWord": "ta",
+    "extraWord2": "women",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "women" }
     },
     "acceptedVariants": ["ni keyi bang wo ma"]
   },
@@ -1093,10 +1152,11 @@
     "hintWords": ["jintian"],
     "wordBank": ["ni", "jintian", "hao", "ma"],
     "extraWord": "wo",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ta" }
     },
     "acceptedVariants": ["ni jintian hao ma"]
   },
@@ -1111,10 +1171,11 @@
     "hintWords": ["jintian"],
     "wordBank": ["wo", "jintian", "hen", "hao"],
     "extraWord": "ni",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo jintian hen hao"]
   },
@@ -1129,10 +1190,11 @@
     "hintWords": ["gaoxing", "renshi"],
     "wordBank": ["jintian", "hen", "gaoxing", "renshi", "ni"],
     "extraWord": "wo",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ta" }
     },
     "acceptedVariants": ["jintian hen gaoxing renshi ni"]
   },
@@ -1147,10 +1209,11 @@
     "hintWords": ["mingtian"],
     "wordBank": ["women", "mingtian", "zai", "jian"],
     "extraWord": "jintian",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "jintian" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jintian", "extraWord2": "ni" }
     },
     "acceptedVariants": ["women mingtian zai jian"]
   },
@@ -1165,10 +1228,11 @@
     "hintWords": ["dajia"],
     "wordBank": ["dajia", "zaoshang", "hao"],
     "extraWord": "wanshang",
+    "extraWord2": "wanan",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wanshang" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wanshang", "extraWord2": "wanan" }
     },
     "acceptedVariants": ["dajia zaoshang hao", "dajia zao shang hao"]
   },
@@ -1183,10 +1247,11 @@
     "hintWords": ["jinwan"],
     "wordBank": ["jinwan", "shui", "ge", "hao jiao"],
     "extraWord": "zaoshang",
+    "extraWord2": "qichuang",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zaoshang" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zaoshang", "extraWord2": "qichuang" }
     },
     "acceptedVariants": ["jinwan shui ge hao jiao"]
   },
@@ -1201,10 +1266,11 @@
     "hintWords": ["feichang", "xiexie"],
     "wordBank": ["jintian", "feichang", "xiexie", "ni"],
     "extraWord": "wo",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ta" }
     },
     "acceptedVariants": ["jintian feichang xiexie ni"]
   },
@@ -1219,10 +1285,11 @@
     "hintWords": ["keqi"],
     "wordBank": ["ni", "zhen de", "bu", "keqi"],
     "extraWord": "xiexie",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xiexie", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni zhen de bu keqi"]
   },
@@ -1237,10 +1304,11 @@
     "hintWords": ["xian"],
     "wordBank": ["qing", "xian", "jin lai"],
     "extraWord": "chu qu",
+    "extraWord2": "zuo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "chu qu" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chu qu", "extraWord2": "zuo" }
     },
     "acceptedVariants": ["qing xian jin lai"]
   },
@@ -1255,10 +1323,11 @@
     "hintWords": ["zheli"],
     "wordBank": ["qing", "zuo", "zai", "zheli"],
     "extraWord": "nali",
+    "extraWord2": "zhan",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "zhan" }
     },
     "acceptedVariants": ["qing zuo zai zheli"]
   },
@@ -1273,10 +1342,11 @@
     "hintWords": ["xianzai", "wenti"],
     "wordBank": ["xianzai", "mei you", "wenti"],
     "extraWord": "guanxi",
+    "extraWord2": "bucuo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "guanxi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "guanxi", "extraWord2": "bucuo" }
     },
     "acceptedVariants": ["xianzai mei you wenti"]
   },
@@ -1291,10 +1361,11 @@
     "hintWords": ["guanxi"],
     "wordBank": ["xianzai", "zhen de", "mei", "guanxi"],
     "extraWord": "wenti",
+    "extraWord2": "bucuo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wenti" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wenti", "extraWord2": "bucuo" }
     },
     "acceptedVariants": ["xianzai zhen de mei guanxi"]
   },
@@ -1309,10 +1380,11 @@
     "hintWords": ["zhende"],
     "wordBank": ["na", "shi", "zhen de", "ma"],
     "extraWord": "ne",
+    "extraWord2": "bu",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ne" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ne", "extraWord2": "bu" }
     },
     "acceptedVariants": ["na shi zhen de ma"]
   },
@@ -1327,10 +1399,11 @@
     "hintWords": ["dangran", "keyi"],
     "wordBank": ["dangran", "wo", "keyi", "a"],
     "extraWord": "bu",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu", "extraWord2": "ni" }
     },
     "acceptedVariants": ["dangran wo keyi a"]
   },
@@ -1345,10 +1418,11 @@
     "hintWords": ["huanying"],
     "wordBank": ["women", "dou", "huanying", "ni"],
     "extraWord": "ta",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "wo" }
     },
     "acceptedVariants": ["women dou huanying ni"]
   },
@@ -1364,10 +1438,11 @@
     "hintWords": [],
     "wordBank": ["shi de", "na", "dui"],
     "extraWord": "bu",
+    "extraWord2": "cuo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu", "extraWord2": "cuo" }
     },
     "acceptedVariants": ["shi de na dui"]
   },
@@ -1382,10 +1457,11 @@
     "hintWords": [],
     "wordBank": ["bu shi", "na", "bu dui"],
     "extraWord": "hen",
+    "extraWord2": "dui",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen", "extraWord2": "dui" }
     },
     "acceptedVariants": ["bu shi na bu dui"]
   },
@@ -1400,10 +1476,11 @@
     "hintWords": [],
     "wordBank": ["shi", "wo", "xihuan", "na ge"],
     "extraWord": "bu",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu", "extraWord2": "ni" }
     },
     "acceptedVariants": ["shi wo xihuan na ge"]
   },
@@ -1418,10 +1495,11 @@
     "hintWords": [],
     "wordBank": ["bu", "wo", "bu", "xihuan", "na ge"],
     "extraWord": "shi",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "shi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shi", "extraWord2": "ni" }
     },
     "acceptedVariants": ["bu wo bu xihuan na ge"]
   },
@@ -1436,10 +1514,11 @@
     "hintWords": ["xianzai", "zhidao"],
     "wordBank": ["wo", "xianzai", "zhidao", "le"],
     "extraWord": "bu",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xianzai zhidao le"]
   },
@@ -1454,10 +1533,11 @@
     "hintWords": ["haishi", "zhidao"],
     "wordBank": ["wo", "haishi", "bu", "zhidao"],
     "extraWord": "xihuan",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xihuan" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xihuan", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo haishi bu zhidao"]
   },
@@ -1472,10 +1552,11 @@
     "hintWords": ["yijing", "zhidao"],
     "wordBank": ["ta", "yijing", "zhidao", "le"],
     "extraWord": "wo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta yijing zhidao le"]
   },
@@ -1490,10 +1571,11 @@
     "hintWords": ["zhidao"],
     "wordBank": ["ta", "zhen de", "bu", "zhidao"],
     "extraWord": "wo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta zhen de bu zhidao"]
   },
@@ -1508,10 +1590,11 @@
     "hintWords": ["keneng", "keyi"],
     "wordBank": ["keneng", "ta", "keyi", "bang"],
     "extraWord": "wo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["keneng ta keyi bang"]
   },
@@ -1526,10 +1609,11 @@
     "hintWords": ["jintian"],
     "wordBank": ["jintian", "haishi", "bucuo"],
     "extraWord": "hen hao",
+    "extraWord2": "hen mang",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen hao" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen hao", "extraWord2": "hen mang" }
     },
     "acceptedVariants": ["jintian haishi bucuo"]
   },
@@ -1545,10 +1629,11 @@
     "hintWords": ["kafei"],
     "wordBank": ["wo", "xianzai", "yao", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xianzai yao kafei"]
   },
@@ -1563,10 +1648,11 @@
     "hintWords": [],
     "wordBank": ["ni", "xianzai", "yao", "cha"],
     "extraWord": "kafei",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni xianzai yao cha"]
   },
@@ -1581,10 +1667,11 @@
     "hintWords": ["shui"],
     "wordBank": ["ta", "xianzai", "yao", "shui"],
     "extraWord": "cha",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta xianzai yao shui"]
   },
@@ -1599,10 +1686,11 @@
     "hintWords": ["xuyao", "bangmang"],
     "wordBank": ["ta", "jintian", "xuyao", "wo", "bangmang"],
     "extraWord": "kafei",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ni" }
     },
     "acceptedVariants": ["ta jintian xuyao wo bangmang"]
   },
@@ -1617,10 +1705,11 @@
     "hintWords": ["xuyao", "bangmang"],
     "wordBank": ["wo", "xianzai", "xuyao", "ni", "bangmang"],
     "extraWord": "cha",
+    "extraWord2": "ta",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "ta" }
     },
     "acceptedVariants": ["wo xianzai xuyao ni bangmang"]
   },
@@ -1635,10 +1724,11 @@
     "hintWords": ["xuyao", "bangmang"],
     "wordBank": ["ni", "xianzai", "xuyao", "wo", "bangmang", "ma"],
     "extraWord": "ta",
+    "extraWord2": "women",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "women" }
     },
     "acceptedVariants": ["ni xianzai xuyao wo bangmang ma"]
   },
@@ -1653,10 +1743,11 @@
     "hintWords": ["hui jia"],
     "wordBank": ["wo", "xianzai", "xiang", "hui jia"],
     "extraWord": "qu gongzuo",
+    "extraWord2": "ni",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "qu gongzuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu gongzuo", "extraWord2": "ni" }
     },
     "acceptedVariants": ["wo xianzai xiang hui jia"]
   },
@@ -1671,10 +1762,11 @@
     "hintWords": ["zhongwen"],
     "wordBank": ["ni", "xianzai", "xiang", "xue", "zhongwen", "ma"],
     "extraWord": "kafei",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni xianzai xiang xue zhongwen ma"]
   },
@@ -1689,10 +1781,11 @@
     "hintWords": ["kafei"],
     "wordBank": ["ta", "xianzai", "xiang", "he", "kafei"],
     "extraWord": "cha",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta xianzai xiang he kafei"]
   },
@@ -1707,10 +1800,11 @@
     "hintWords": ["xuexi"],
     "wordBank": ["ta", "xiang", "zai jia", "xuexi"],
     "extraWord": "xiuxi",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "xiuxi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xiuxi", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta xiang zai jia xuexi"]
   },
@@ -1726,10 +1820,11 @@
     "hintWords": ["pengyou"],
     "wordBank": ["ni", "shi", "wo de", "hao", "pengyou"],
     "extraWord": "laoshi",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "laoshi" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "laoshi", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni shi wo de hao pengyou"]
   },
@@ -1744,10 +1839,11 @@
     "hintWords": ["xianzai"],
     "wordBank": ["ta", "xianzai", "zai", "jia"],
     "extraWord": "gongzuo",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta xianzai zai jia"]
   },
@@ -1762,10 +1858,11 @@
     "hintWords": ["jintian"],
     "wordBank": ["ta", "jintian", "hen", "mang", "a"],
     "extraWord": "hen hao",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "hen hao" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen hao", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ta jintian hen mang a"]
   },
@@ -1780,10 +1877,11 @@
     "hintWords": ["keyi"],
     "wordBank": ["ni", "xianzai", "keyi", "jin lai"],
     "extraWord": "zuo",
+    "extraWord2": "wo",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "zuo" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zuo", "extraWord2": "wo" }
     },
     "acceptedVariants": ["ni xianzai keyi jin lai"]
   },
@@ -1798,14 +1896,12 @@
     "hintWords": ["zheli", "nali"],
     "wordBank": ["wo", "zai", "zheli", "ta", "xianzai", "zai", "nali"],
     "extraWord": "ni",
+    "extraWord2": "women",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
-      "level3": { "mode": "typing" }
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "women" }
     },
     "acceptedVariants": ["wo zai zheli ta xianzai zai nali", "wo zai zheli ta xianzai zai nar"]
   }
- 
-
-
 ]

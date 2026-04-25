@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import sentencesRaw from "../data/sentences.json";
-import { getCardProgress } from "../utils/sentenceSetProgress";
+import { getCardProgress, setPercentComplete } from "../utils/sentenceSetProgress";
 import "./SentenceSetOverview.css";
 
 interface Sentence {
@@ -33,6 +33,7 @@ export default function SentenceSetOverview() {
   const progress = sentences.map((s) => getCardProgress(s.id));
 
   const completed = progress.filter((p) => p === 3).length;
+  const pct = setPercentComplete(sentences.map((s) => s.id));
 
   return (
     <div className="sso-page">
@@ -58,6 +59,10 @@ export default function SentenceSetOverview() {
           <div className="sso-stat">
             <span className="sso-stat-value">{completed}</span>
             <span className="sso-stat-label">Complete</span>
+          </div>
+          <div className="sso-stat">
+            <span className="sso-stat-value">{pct}%</span>
+            <span className="sso-stat-label">Progress</span>
           </div>
         </div>
 

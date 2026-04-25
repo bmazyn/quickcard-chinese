@@ -15,13 +15,14 @@ interface Sentence {
   targetHanzi: string;
   wordBank: string[];
   extraWord?: string;
+  extraWord2?: string;
   acceptedVariants: string[];
   section: string;
 }
 
 interface DeckCard {
   sentence: Sentence;
-  level: 1 | 2;
+  level: 1 | 2 | 3;
 }
 
 const RUN_SIZE = 10;
@@ -46,7 +47,8 @@ function speakHanzi(text: string) {
 
 function buildBank(card: DeckCard): string[] {
   const chips = [...card.sentence.wordBank];
-  if (card.level === 2 && card.sentence.extraWord) chips.push(card.sentence.extraWord);
+  if (card.level >= 2 && card.sentence.extraWord) chips.push(card.sentence.extraWord);
+  if (card.level >= 3 && card.sentence.extraWord2) chips.push(card.sentence.extraWord2);
   return shuffle(chips);
 }
 
@@ -58,7 +60,7 @@ export default function SentenceSetRun() {
   const { setId } = useParams<{ setId: string }>();
   const setNum = Number(setId ?? 1);
 
-  // Build deck: L1 for progress=0, L2 for progress=1, skip progress≥2
+  // Build deck: L1 for progress=0, L2 for progress=1, L3 for progress=2, skip progress=3
   const deck = useMemo<DeckCard[]>(() => {
     const pool = (sentencesRaw as Sentence[]).filter(
       s => s.set === setNum && Array.isArray(s.wordBank) && s.wordBank.length > 0
@@ -68,7 +70,8 @@ export default function SentenceSetRun() {
       const p = getCardProgress(s.id);
       if (p === 0) eligible.push({ sentence: s, level: 1 });
       else if (p === 1) eligible.push({ sentence: s, level: 2 });
-      // p >= 2: skip until Level 3 is implemented
+      else if (p === 2) eligible.push({ sentence: s, level: 3 });
+      // p === 3: fully complete, skip
     }
     return shuffle(eligible).slice(0, RUN_SIZE);
   }, [setNum]);

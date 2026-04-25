@@ -78,6 +78,11 @@ function isQuickCardProgressKey(key: string): boolean {
     return true;
   }
 
+  // Sentence Set progress (stored by sentenceSetProgress.ts)
+  if (key === 'sentenceSetProgress') {
+    return true;
+  }
+
   return false;
 }
 

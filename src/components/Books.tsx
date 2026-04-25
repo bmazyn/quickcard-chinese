@@ -4,6 +4,7 @@ import { getChapterListeningBest, chapterHasListeningCards } from "../utils/list
 import { getBookMeaningRecallRollup } from "../utils/meaningRecall";
 import { getBook3LayerMatchRollup } from "../utils/threeLayerMatch";
 import sentencesRaw from "../data/sentences.json";
+import { setPercentComplete } from "../utils/sentenceSetProgress";
 import "./Books.css";
 
 export default function Books() {
@@ -130,16 +131,22 @@ export default function Books() {
         </button>
 
         {Array.from(
-          new Set((sentencesRaw as { set: number }[]).map(s => s.set))
-        ).sort((a, b) => a - b).map(setNum => (
-          <button
-            key={setNum}
-            className="books-sentence-builder-btn"
-            onClick={() => navigate(`/sentence-set/${setNum}`)}
-          >
-            Sentence Set {setNum}
-          </button>
-        ))}
+          new Set((sentencesRaw as { set: number; id: string }[]).map(s => s.set))
+        ).sort((a, b) => a - b).map(setNum => {
+          const ids = (sentencesRaw as { set: number; id: string }[])
+            .filter(s => s.set === setNum)
+            .map(s => s.id);
+          const pct = setPercentComplete(ids);
+          return (
+            <button
+              key={setNum}
+              className="books-sentence-builder-btn"
+              onClick={() => navigate(`/sentence-set/${setNum}`)}
+            >
+              Sentence Set {setNum} — {pct}%
+            </button>
+          );
+        })}
       </div>
     </div>
   );

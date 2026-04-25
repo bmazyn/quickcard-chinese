@@ -47,3 +47,14 @@ export function advanceCardProgress(id: string, level: 1 | 2 | 3): void {
     saveStore(store);
   }
 }
+
+/**
+ * Returns the rounded percent complete (0–100) for a collection of card ids.
+ * Total possible = ids.length * 3 (three levels per card).
+ */
+export function setPercentComplete(ids: string[]): number {
+  if (ids.length === 0) return 0;
+  const total = ids.length * 3;
+  const current = ids.reduce((sum, id) => sum + getCardProgress(id), 0);
+  return Math.round((current / total) * 100);
+}
