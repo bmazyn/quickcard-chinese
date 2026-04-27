@@ -994,10 +994,10 @@
     "category": "questions",
     "section": "Questions",
     "english": "Who is he?",
-    "targetPinyin": "ta shi shei a",
+    "targetPinyin": "ta shi shei",
     "targetHanzi": "他是谁啊？",
     "hintWords": ["shei"],
-    "wordBank": ["ta", "shi", "shei", "a"],
+    "wordBank": ["ta", "shi", "shei"],
     "extraWord": "wo",
     "extraWord2": "ni",
     "levels": {
@@ -1005,7 +1005,7 @@
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
       "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "ni" }
     },
-    "acceptedVariants": ["ta shi shei a"]
+    "acceptedVariants": ["ta shi shei"]
   },
   {
     "id": "sent-set2-q-004",
@@ -1274,25 +1274,25 @@
     },
     "acceptedVariants": ["jintian feichang xiexie ni"]
   },
-  {
-    "id": "sent-set2-social-008",
-    "set": 2,
-    "category": "social_phrases",
-    "section": "Simple Social Phrases",
-    "english": "You are very welcome.",
-    "targetPinyin": "ni zhen de bu keqi",
-    "targetHanzi": "你真的不客气。",
-    "hintWords": ["keqi"],
-    "wordBank": ["ni", "zhen de", "bu", "keqi"],
-    "extraWord": "xiexie",
-    "extraWord2": "wo",
-    "levels": {
-      "level1": { "mode": "word_bank" },
-      "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
-      "level3": { "mode": "word_bank_extra2", "extraWord": "xiexie", "extraWord2": "wo" }
-    },
-    "acceptedVariants": ["ni zhen de bu keqi"]
+ {
+  "id": "sent-set2-social-008",
+  "set": 2,
+  "category": "social_phrases",
+  "section": "Simple Social Phrases",
+  "english": "You’re very welcome.",
+  "targetPinyin": "zhen de bu keqi",
+  "targetHanzi": "真的不客气。",
+  "hintWords": ["keqi"],
+  "wordBank": ["zhen de", "bu", "keqi"],
+  "extraWord": "xiexie",
+  "extraWord2": "ni",
+  "levels": {
+    "level1": { "mode": "word_bank" },
+    "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
+    "level3": { "mode": "word_bank_extra2", "extraWord": "xiexie", "extraWord2": "ni" }
   },
+  "acceptedVariants": ["zhen de bu keqi"]
+},
   {
     "id": "sent-set2-social-009",
     "set": 2,
@@ -1394,10 +1394,10 @@
     "category": "social_phrases",
     "section": "Simple Social Phrases",
     "english": "Of course I can.",
-    "targetPinyin": "dangran wo keyi a",
+    "targetPinyin": "dangran wo keyi",
     "targetHanzi": "当然我可以啊。",
     "hintWords": ["dangran", "keyi"],
-    "wordBank": ["dangran", "wo", "keyi", "a"],
+    "wordBank": ["dangran", "wo", "keyi"],
     "extraWord": "bu",
     "extraWord2": "ni",
     "levels": {
@@ -1405,7 +1405,7 @@
       "level2": { "mode": "word_bank_extra", "extraWord": "bu" },
       "level3": { "mode": "word_bank_extra2", "extraWord": "bu", "extraWord2": "ni" }
     },
-    "acceptedVariants": ["dangran wo keyi a"]
+    "acceptedVariants": ["dangran wo keyi"]
   },
   {
     "id": "sent-set2-social-015",
@@ -1853,10 +1853,10 @@
     "category": "statements",
     "section": "Statements",
     "english": "She is very busy today.",
-    "targetPinyin": "ta jintian hen mang a",
+    "targetPinyin": "ta jintian hen mang",
     "targetHanzi": "她今天很忙啊。",
     "hintWords": ["jintian"],
-    "wordBank": ["ta", "jintian", "hen", "mang", "a"],
+    "wordBank": ["ta", "jintian", "hen", "mang"],
     "extraWord": "hen hao",
     "extraWord2": "wo",
     "levels": {
@@ -1864,7 +1864,7 @@
       "level2": { "mode": "word_bank_extra", "extraWord": "hen hao" },
       "level3": { "mode": "word_bank_extra2", "extraWord": "hen hao", "extraWord2": "wo" }
     },
-    "acceptedVariants": ["ta jintian hen mang a"]
+    "acceptedVariants": ["ta jintian hen mang"]
   },
   {
     "id": "sent-set2-stmt-004",
@@ -1903,5 +1903,491 @@
       "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "women" }
     },
     "acceptedVariants": ["wo zai zheli ta xianzai zai nali", "wo zai zheli ta xianzai zai nar"]
+  },
+
+  
+
+  {
+    "id": "sent-set3h-place-001",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "I am at home now, but he is at work.",
+    "targetPinyin": "wo xianzai zai jia, dan ta zai gongzuo",
+    "targetHanzi": "我现在在家，但他在工作。",
+    "hintWords": ["xianzai", "gongzuo"],
+    "wordBank": ["wo", "xianzai", "zai jia", "dan", "ta", "zai", "gongzuo"],
+    "extraWord": "xuexiao",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xuexiao", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xianzai zai jia dan ta zai gongzuo"]
+  },
+  {
+    "id": "sent-set3h-place-002",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "You are here now, and she is there.",
+    "targetPinyin": "ni xianzai zai zheli, ta zai nali",
+    "targetHanzi": "你现在在这里，她在那里。",
+    "hintWords": ["xianzai", "zheli", "nali"],
+    "wordBank": ["ni", "xianzai", "zai zheli", "ta", "zai", "nali"],
+    "extraWord": "wo",
+    "extraWord2": "jia",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "jia" }
+    },
+    "acceptedVariants": ["ni xianzai zai zheli ta zai nali", "ni xianzai zai zheli ta zai nar"]
+  },
+  {
+    "id": "sent-set3h-place-003",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "My mom is at home, and my dad is at school.",
+    "targetPinyin": "wo de mama zai jia, wo de baba zai xuexiao",
+    "targetHanzi": "我的妈妈在家，我的爸爸在学校。",
+    "hintWords": ["mama", "baba", "xuexiao"],
+    "wordBank": ["wo de", "mama", "zai jia", "wo de", "baba", "zai", "xuexiao"],
+    "extraWord": "gongzuo",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo de mama zai jia wo de baba zai xuexiao"]
+  },
+  {
+    "id": "sent-set3h-place-004",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "Where is your younger sister now?",
+    "targetPinyin": "ni de meimei xianzai zai nali",
+    "targetHanzi": "你的妹妹现在在哪里？",
+    "hintWords": ["meimei", "xianzai", "nali"],
+    "wordBank": ["ni de", "meimei", "xianzai", "zai", "nali"],
+    "extraWord": "zheli",
+    "extraWord2": "wo de",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zheli" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zheli", "extraWord2": "wo de" }
+    },
+    "acceptedVariants": ["ni de meimei xianzai zai nali", "ni de meimei xianzai zai nar"]
+  },
+  {
+    "id": "sent-set3h-place-005",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "He is not here; he is at home.",
+    "targetPinyin": "ta bu zai zheli, ta zai jia",
+    "targetHanzi": "他不在这里，他在家。",
+    "hintWords": ["zheli"],
+    "wordBank": ["ta", "bu", "zai zheli", "ta", "zai jia"],
+    "extraWord": "nali",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta bu zai zheli ta zai jia"]
+  },
+
+  {
+    "id": "sent-set3h-go-001",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "I am going home now, and she is coming later.",
+    "targetPinyin": "wo xianzai hui jia, ta deng yixia lai",
+    "targetHanzi": "我现在回家，她等一下来。",
+    "hintWords": ["xianzai", "hui jia", "deng yixia"],
+    "wordBank": ["wo", "xianzai", "hui jia", "ta", "deng yixia", "lai"],
+    "extraWord": "qu xuexiao",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu xuexiao", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xianzai hui jia ta deng yixia lai"]
+  },
+  {
+    "id": "sent-set3h-go-002",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "Are you going to work now or going home?",
+    "targetPinyin": "ni xianzai qu gongzuo, haishi hui jia",
+    "targetHanzi": "你现在去工作，还是回家？",
+    "hintWords": ["xianzai", "gongzuo", "hui jia"],
+    "wordBank": ["ni", "xianzai", "qu", "gongzuo", "haishi", "hui jia"],
+    "extraWord": "lai",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni xianzai qu gongzuo haishi hui jia"]
+  },
+  {
+    "id": "sent-set3h-go-003",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "He is coming here with his friend.",
+    "targetPinyin": "ta gen ta de pengyou lai zheli",
+    "targetHanzi": "他跟他的朋友来这里。",
+    "hintWords": ["pengyou", "zheli"],
+    "wordBank": ["ta", "gen", "ta de", "pengyou", "lai", "zheli"],
+    "extraWord": "qu",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta gen ta de pengyou lai zheli"]
+  },
+  {
+    "id": "sent-set3h-go-004",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "She is going back home after work.",
+    "targetPinyin": "ta gongzuo hou hui jia",
+    "targetHanzi": "她工作后回家。",
+    "hintWords": ["gongzuo", "hui jia"],
+    "wordBank": ["ta", "gongzuo hou", "hui jia"],
+    "extraWord": "lai zheli",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai zheli" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai zheli", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta gongzuo hou hui jia"]
+  },
+  {
+    "id": "sent-set3h-go-005",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "When are you coming here?",
+    "targetPinyin": "ni shenme shihou lai zheli",
+    "targetHanzi": "你什么时候来这里？",
+    "hintWords": ["shenme shihou", "zheli"],
+    "wordBank": ["ni", "shenme shihou", "lai", "zheli"],
+    "extraWord": "hui jia",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni shenme shihou lai zheli"]
+  },
+
+  {
+    "id": "sent-set3h-time-001",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "I am busy today, but tomorrow I am free.",
+    "targetPinyin": "wo jintian hen mang, dan mingtian you kong",
+    "targetHanzi": "我今天很忙，但明天有空。",
+    "hintWords": ["jintian", "mingtian"],
+    "wordBank": ["wo", "jintian", "hen mang", "dan", "mingtian", "you kong"],
+    "extraWord": "ni",
+    "extraWord2": "haishi",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "haishi" }
+    },
+    "acceptedVariants": ["wo jintian hen mang dan mingtian you kong"]
+  },
+  {
+    "id": "sent-set3h-time-002",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "Are you studying now or resting at home?",
+    "targetPinyin": "ni xianzai xuexi, haishi zai jia xiuxi",
+    "targetHanzi": "你现在学习，还是在家休息？",
+    "hintWords": ["xianzai", "xuexi", "xiuxi"],
+    "wordBank": ["ni", "xianzai", "xuexi", "haishi", "zai jia", "xiuxi"],
+    "extraWord": "gongzuo",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni xianzai xuexi haishi zai jia xiuxi"]
+  },
+  {
+    "id": "sent-set3h-time-003",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "He is working now, and she is studying later.",
+    "targetPinyin": "ta xianzai gongzuo, ta deng yixia xuexi",
+    "targetHanzi": "他现在工作，她等一下学习。",
+    "hintWords": ["xianzai", "gongzuo", "deng yixia", "xuexi"],
+    "wordBank": ["ta", "xianzai", "gongzuo", "ta", "deng yixia", "xuexi"],
+    "extraWord": "wo",
+    "extraWord2": "you kong",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "you kong" }
+    },
+    "acceptedVariants": ["ta xianzai gongzuo ta deng yixia xuexi"]
+  },
+  {
+    "id": "sent-set3h-time-004",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "After dinner, I want to go home.",
+    "targetPinyin": "chi wanfan hou, wo xiang hui jia",
+    "targetHanzi": "吃晚饭后，我想回家。",
+    "hintWords": ["wanfan", "hui jia"],
+    "wordBank": ["chi wanfan hou", "wo", "xiang", "hui jia"],
+    "extraWord": "qu gongzuo",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu gongzuo", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["chi wanfan hou wo xiang hui jia"]
+  },
+  {
+    "id": "sent-set3h-time-005",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "Tomorrow morning she is going to school.",
+    "targetPinyin": "mingtian zao shang ta qu xuexiao",
+    "targetHanzi": "明天早上她去学校。",
+    "hintWords": ["mingtian", "xuexiao"],
+    "wordBank": ["mingtian", "zao shang", "ta", "qu", "xuexiao"],
+    "extraWord": "hui jia",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["mingtian zao shang ta qu xuexiao", "mingtian zaoshang ta qu xuexiao"]
+  },
+
+  {
+    "id": "sent-set3h-can-001",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "I can help you now, but he cannot.",
+    "targetPinyin": "wo xianzai keyi bang ni, dan ta bu keyi",
+    "targetHanzi": "我现在可以帮你，但他不可以。",
+    "hintWords": ["xianzai", "keyi"],
+    "wordBank": ["wo", "xianzai", "keyi", "bang", "ni", "dan", "ta", "bu keyi"],
+    "extraWord": "wo de",
+    "extraWord2": "ta de",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo de" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo de", "extraWord2": "ta de" }
+    },
+    "acceptedVariants": ["wo xianzai keyi bang ni dan ta bu keyi"]
+  },
+  {
+    "id": "sent-set3h-can-002",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "You can come in, but you cannot sit here.",
+    "targetPinyin": "ni keyi jin lai, dan bu keyi zuo zai zheli",
+    "targetHanzi": "你可以进来，但不可以坐在这里。",
+    "hintWords": ["keyi", "zheli"],
+    "wordBank": ["ni", "keyi", "jin lai", "dan", "bu keyi", "zuo", "zai", "zheli"],
+    "extraWord": "wo",
+    "extraWord2": "nali",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "nali" }
+    },
+    "acceptedVariants": ["ni keyi jin lai dan bu keyi zuo zai zheli"]
+  },
+  {
+    "id": "sent-set3h-can-003",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "He cannot go now because he is busy.",
+    "targetPinyin": "ta xianzai bu neng qu, yinwei ta hen mang",
+    "targetHanzi": "他现在不能去，因为他很忙。",
+    "hintWords": ["xianzai", "yinwei"],
+    "wordBank": ["ta", "xianzai", "bu neng", "qu", "yinwei", "ta", "hen mang"],
+    "extraWord": "you kong",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "you kong" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "you kong", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta xianzai bu neng qu yinwei ta hen mang"]
+  },
+  {
+    "id": "sent-set3h-can-004",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "She cannot drink coffee at night.",
+    "targetPinyin": "ta wan shang bu neng he kafei",
+    "targetHanzi": "她晚上不能喝咖啡。",
+    "hintWords": ["kafei"],
+    "wordBank": ["ta", "wan shang", "bu neng", "he", "kafei"],
+    "extraWord": "cha",
+    "extraWord2": "zao shang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "zao shang" }
+    },
+    "acceptedVariants": ["ta wan shang bu neng he kafei", "ta wanshang bu neng he kafei"]
+  },
+  {
+    "id": "sent-set3h-can-005",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "Can you study Chinese with me today?",
+    "targetPinyin": "ni jintian keyi gen wo xue zhongwen ma",
+    "targetHanzi": "你今天可以跟我学中文吗？",
+    "hintWords": ["jintian", "keyi", "zhongwen"],
+    "wordBank": ["ni", "jintian", "keyi", "gen", "wo", "xue", "zhongwen", "ma"],
+    "extraWord": "ta",
+    "extraWord2": "kafei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "kafei" }
+    },
+    "acceptedVariants": ["ni jintian keyi gen wo xue zhongwen ma"]
+  },
+
+  {
+    "id": "sent-set3h-with-001",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "I am going to school with my younger sister.",
+    "targetPinyin": "wo gen wo de meimei qu xuexiao",
+    "targetHanzi": "我跟我的妹妹去学校。",
+    "hintWords": ["meimei", "xuexiao"],
+    "wordBank": ["wo", "gen", "wo de", "meimei", "qu", "xuexiao"],
+    "extraWord": "hui jia",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo gen wo de meimei qu xuexiao"]
+  },
+  {
+    "id": "sent-set3h-with-002",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "He is here with his mom and dad.",
+    "targetPinyin": "ta gen ta de mama he baba zai zheli",
+    "targetHanzi": "他跟他的妈妈和爸爸在这里。",
+    "hintWords": ["mama", "baba", "zheli"],
+    "wordBank": ["ta", "gen", "ta de", "mama", "he", "baba", "zai", "zheli"],
+    "extraWord": "nali",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta gen ta de mama he baba zai zheli"]
+  },
+  {
+    "id": "sent-set3h-with-003",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "This coffee is for you, not for me.",
+    "targetPinyin": "zhe ge kafei shi gei ni de, bu shi gei wo de",
+    "targetHanzi": "这个咖啡是给你的，不是给我的。",
+    "hintWords": ["kafei", "gei"],
+    "wordBank": ["zhe ge", "kafei", "shi", "gei", "ni de", "bu shi", "gei", "wo de"],
+    "extraWord": "ta de",
+    "extraWord2": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta de" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta de", "extraWord2": "cha" }
+    },
+    "acceptedVariants": ["zhe ge kafei shi gei ni de bu shi gei wo de"]
+  },
+  {
+    "id": "sent-set3h-with-004",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "I want to go eat with my friends.",
+    "targetPinyin": "wo xiang gen wo de pengyou qu chi fan",
+    "targetHanzi": "我想跟我的朋友去吃饭。",
+    "hintWords": ["pengyou", "chi fan"],
+    "wordBank": ["wo", "xiang", "gen", "wo de", "pengyou", "qu", "chi fan"],
+    "extraWord": "hui jia",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xiang gen wo de pengyou qu chi fan"]
+  },
+  {
+    "id": "sent-set3h-with-005",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "She wants to go home with her older sister.",
+    "targetPinyin": "ta xiang gen ta de jiejie hui jia",
+    "targetHanzi": "她想跟她的姐姐回家。",
+    "hintWords": ["jiejie", "hui jia"],
+    "wordBank": ["ta", "xiang", "gen", "ta de", "jiejie", "hui jia"],
+    "extraWord": "qu xuexiao",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu xuexiao", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta xiang gen ta de jiejie hui jia"]
   }
+
+
+
+
 ]
