@@ -14,8 +14,11 @@ interface Sentence {
   targetPinyin: string;
   targetHanzi: string;
   wordBank: string[];
+  hanziWordBank?: string[];
   extraWord?: string;
+  extraWordHanzi?: string;
   extraWord2?: string;
+  extraWord2Hanzi?: string;
   acceptedVariants: string[];
   section: string;
 }
@@ -53,6 +56,39 @@ function buildBank(card: DeckCard): string[] {
 }
 
 type Outcome = "correct" | "wrong" | null;
+
+/** Build a pinyin -> hanzi map from parallel arrays (safe if lengths differ or field missing). */
+function buildHanziMap(sentence: Sentence): Map<string, string> {
+  const map = new Map<string, string>();
+  const hw = sentence.hanziWordBank;
+  if (!hw) return map;
+  sentence.wordBank.forEach((py, i) => {
+    if (i < hw.length) map.set(py, hw[i]);
+  });
+  if (sentence.extraWord && sentence.extraWordHanzi)
+    map.set(sentence.extraWord, sentence.extraWordHanzi);
+  if (sentence.extraWord2 && sentence.extraWord2Hanzi)
+    map.set(sentence.extraWord2, sentence.extraWord2Hanzi);
+  return map;
+}
+
+/** A single word-bank chip. Shows pinyin only, or pinyin + hanzi if available. */
+function Chip({
+  pinyin, hanzi, onClick, disabled, className,
+}: {
+  pinyin: string;
+  hanzi?: string;
+  onClick: () => void;
+  disabled: boolean;
+  className: string;
+}) {
+  return (
+    <button className={className} onClick={onClick} disabled={disabled}>
+      <span className="ssr-chip-pinyin">{pinyin}</span>
+      {hanzi && <span className="ssr-chip-hanzi">{hanzi}</span>}
+    </button>
+  );
+}
 
 // ─── Main run component ────────────────────────────────────────────────────
 export default function SentenceSetRun() {
@@ -134,6 +170,7 @@ export default function SentenceSetRun() {
   }
 
   const builtAnswer = placed.join(" ");
+  const hanziMap = buildHanziMap(sentence);
 
   return (
     <div ref={pageRef} className="swb-page">
@@ -167,28 +204,28 @@ export default function SentenceSetRun() {
             {placed.length === 0
               ? <span className="swb-tray-placeholder">Tap words below to build your answer</span>
               : placed.map((chip, i) => (
-                  <button
+                  <Chip
                     key={`p-${i}`}
+                    pinyin={chip}
+                    hanzi={hanziMap.get(chip)}
                     className="swb-chip swb-chip--placed"
                     onClick={() => tapPlaced(chip, i)}
                     disabled={outcome !== null}
-                  >
-                    {chip}
-                  </button>
+                  />
                 ))
             }
           </div>
 
           <div className="swb-bank">
             {available.map((chip, i) => (
-              <button
+              <Chip
                 key={`a-${i}`}
+                pinyin={chip}
+                hanzi={hanziMap.get(chip)}
                 className="swb-chip swb-chip--available"
                 onClick={() => tapAvailable(chip, i)}
                 disabled={outcome !== null}
-              >
-                {chip}
-              </button>
+              />
             ))}
           </div>
         </div>

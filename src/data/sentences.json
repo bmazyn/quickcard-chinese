@@ -3827,7 +3827,6 @@
 
 
 
-
   {
     "id": "sent-set4-001",
     "set": 5,
@@ -3840,7 +3839,9 @@
     "wordBank": ["wo", "xianzai", "hui jia"],
     "hanziWordBank": ["我", "现在", "回家"],
     "extraWord": "qu xuexiao",
+    "extraWordHanzi": "去学校",
     "extraWord2": "ni",
+    "extraWord2Hanzi": "你",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "qu xuexiao" },
@@ -3860,7 +3861,9 @@
     "wordBank": ["ni", "xianzai", "zai", "zheli"],
     "hanziWordBank": ["你", "现在", "在", "这里"],
     "extraWord": "nali",
+    "extraWordHanzi": "哪里",
     "extraWord2": "wo",
+    "extraWord2Hanzi": "我",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
@@ -3880,7 +3883,9 @@
     "wordBank": ["ta", "xiang", "he", "kafei"],
     "hanziWordBank": ["她", "想", "喝", "咖啡"],
     "extraWord": "cha",
+    "extraWordHanzi": "茶",
     "extraWord2": "wo",
+    "extraWord2Hanzi": "我",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
@@ -3900,7 +3905,9 @@
     "wordBank": ["ni", "keyi", "gen", "wo", "xue", "zhongwen", "ma"],
     "hanziWordBank": ["你", "可以", "跟", "我", "学", "中文", "吗"],
     "extraWord": "kafei",
+    "extraWordHanzi": "咖啡",
     "extraWord2": "ta",
+    "extraWord2Hanzi": "他",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
@@ -3920,7 +3927,9 @@
     "wordBank": ["zhe ge", "kafei", "shi", "gei", "ni", "de"],
     "hanziWordBank": ["这个", "咖啡", "是", "给", "你", "的"],
     "extraWord": "wo",
+    "extraWordHanzi": "我",
     "extraWord2": "cha",
+    "extraWord2Hanzi": "茶",
     "levels": {
       "level1": { "mode": "word_bank" },
       "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
@@ -3928,6 +3937,8 @@
     },
     "acceptedVariants": ["zhe ge kafei shi gei ni de"]
   }
+
+
 
 
 ]

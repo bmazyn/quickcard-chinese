@@ -1,3 +1,16 @@
+/* ─── Two-line chip (pinyin + hanzi) ────────────────────────────────────── */
+.ssr-chip-pinyin,
+.ssr-chip-hanzi {
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ssr-chip-hanzi {
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+
 /* ─── End-of-run summary screen ─────────────────────────────────────────── */
 .ssr-summary {
   display: flex;
