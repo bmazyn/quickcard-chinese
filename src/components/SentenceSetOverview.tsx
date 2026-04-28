@@ -88,7 +88,7 @@ export default function SentenceSetOverview() {
             className="sso-play-btn"
             onClick={() => navigate(`/sentence-set/${setNum}/run`)}
           >
-            ▶ Play
+            ▶ Play (10)
           </button>
         </div>
       </div>

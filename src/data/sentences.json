@@ -2386,8 +2386,1548 @@
     },
     "acceptedVariants": ["ta xiang gen ta de jiejie hui jia"]
   }
+,
+
+  {
+    "id": "sent-set3-place-001",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "I am at home.",
+    "targetPinyin": "wo zai jia",
+    "targetHanzi": "我在家。",
+    "hintWords": [],
+    "wordBank": ["wo", "zai", "jia"],
+    "extraWord": "gongzuo",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo zai jia"]
+  },
+  {
+    "id": "sent-set3-place-002",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "You are at school.",
+    "targetPinyin": "ni zai xuexiao",
+    "targetHanzi": "你在学校。",
+    "hintWords": ["xuexiao"],
+    "wordBank": ["ni", "zai", "xuexiao"],
+    "extraWord": "jia",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jia", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni zai xuexiao"]
+  },
+  {
+    "id": "sent-set3-place-003",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "He is at work.",
+    "targetPinyin": "ta zai gongzuo",
+    "targetHanzi": "他在工作。",
+    "hintWords": ["gongzuo"],
+    "wordBank": ["ta", "zai", "gongzuo"],
+    "extraWord": "xuexiao",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xuexiao", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta zai gongzuo"]
+  },
+  {
+    "id": "sent-set3-place-004",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "She is here.",
+    "targetPinyin": "ta zai zheli",
+    "targetHanzi": "她在这里。",
+    "hintWords": ["zheli"],
+    "wordBank": ["ta", "zai", "zheli"],
+    "extraWord": "nali",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta zai zheli"]
+  },
+  {
+    "id": "sent-set3-place-005",
+    "set": 3,
+    "category": "places_location",
+    "section": "Places / Location",
+    "english": "Where are you now?",
+    "targetPinyin": "ni xianzai zai nali",
+    "targetHanzi": "你现在在哪里？",
+    "hintWords": ["xianzai", "nali"],
+    "wordBank": ["ni", "xianzai", "zai", "nali"],
+    "extraWord": "zheli",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zheli" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zheli", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni xianzai zai nali", "ni xianzai zai nar"]
+  },
+
+  {
+    "id": "sent-set3-go-001",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "I am going home.",
+    "targetPinyin": "wo qu hui jia",
+    "targetHanzi": "我去回家。",
+    "hintWords": ["hui jia"],
+    "wordBank": ["wo", "qu", "hui jia"],
+    "extraWord": "lai",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo qu hui jia"]
+  },
+  {
+    "id": "sent-set3-go-002",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "Are you coming now?",
+    "targetPinyin": "ni xianzai lai ma",
+    "targetHanzi": "你现在来吗？",
+    "hintWords": ["xianzai"],
+    "wordBank": ["ni", "xianzai", "lai", "ma"],
+    "extraWord": "qu",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni xianzai lai ma"]
+  },
+  {
+    "id": "sent-set3-go-003",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "He is coming here.",
+    "targetPinyin": "ta lai zheli",
+    "targetHanzi": "他来这里。",
+    "hintWords": ["zheli"],
+    "wordBank": ["ta", "lai", "zheli"],
+    "extraWord": "nali",
+    "extraWord2": "qu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "qu" }
+    },
+    "acceptedVariants": ["ta lai zheli"]
+  },
+  {
+    "id": "sent-set3-go-004",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "She is going to school.",
+    "targetPinyin": "ta qu xuexiao",
+    "targetHanzi": "她去学校。",
+    "hintWords": ["xuexiao"],
+    "wordBank": ["ta", "qu", "xuexiao"],
+    "extraWord": "lai",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta qu xuexiao"]
+  },
+  {
+    "id": "sent-set3-go-005",
+    "set": 3,
+    "category": "going_coming",
+    "section": "Going / Coming",
+    "english": "I am going back home.",
+    "targetPinyin": "wo hui jia",
+    "targetHanzi": "我回家。",
+    "hintWords": ["hui jia"],
+    "wordBank": ["wo", "hui jia"],
+    "extraWord": "qu",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo hui jia"]
+  },
+
+  {
+    "id": "sent-set3-time-001",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "I am busy today.",
+    "targetPinyin": "wo jintian hen mang",
+    "targetHanzi": "我今天很忙。",
+    "hintWords": ["jintian"],
+    "wordBank": ["wo", "jintian", "hen mang"],
+    "extraWord": "mingtian",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mingtian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mingtian", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo jintian hen mang"]
+  },
+  {
+    "id": "sent-set3-time-002",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "Are you free tomorrow?",
+    "targetPinyin": "ni mingtian you kong ma",
+    "targetHanzi": "你明天有空吗？",
+    "hintWords": ["mingtian"],
+    "wordBank": ["ni", "mingtian", "you kong", "ma"],
+    "extraWord": "jintian",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jintian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jintian", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni mingtian you kong ma"]
+  },
+  {
+    "id": "sent-set3-time-003",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "I am studying now.",
+    "targetPinyin": "wo xianzai xuexi",
+    "targetHanzi": "我现在学习。",
+    "hintWords": ["xianzai", "xuexi"],
+    "wordBank": ["wo", "xianzai", "xuexi"],
+    "extraWord": "gongzuo",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xianzai xuexi"]
+  },
+  {
+    "id": "sent-set3-time-004",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "He is going later.",
+    "targetPinyin": "ta deng yixia qu",
+    "targetHanzi": "他等一下去。",
+    "hintWords": ["deng yixia"],
+    "wordBank": ["ta", "deng yixia", "qu"],
+    "extraWord": "lai",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta deng yixia qu"]
+  },
+  {
+    "id": "sent-set3-time-005",
+    "set": 3,
+    "category": "time_day_plans",
+    "section": "Time / Day Plans",
+    "english": "She is working after lunch.",
+    "targetPinyin": "ta chi fan hou gongzuo",
+    "targetHanzi": "她吃饭后工作。",
+    "hintWords": ["gongzuo"],
+    "wordBank": ["ta", "chi fan hou", "gongzuo"],
+    "extraWord": "xuexi",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xuexi" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xuexi", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta chi fan hou gongzuo"]
+  },
+
+  {
+    "id": "sent-set3-can-001",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "I can help you.",
+    "targetPinyin": "wo keyi bang ni",
+    "targetHanzi": "我可以帮你。",
+    "hintWords": ["keyi"],
+    "wordBank": ["wo", "keyi", "bang", "ni"],
+    "extraWord": "ta",
+    "extraWord2": "bu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "bu" }
+    },
+    "acceptedVariants": ["wo keyi bang ni"]
+  },
+  {
+    "id": "sent-set3-can-002",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "You can come in.",
+    "targetPinyin": "ni keyi jin lai",
+    "targetHanzi": "你可以进来。",
+    "hintWords": ["keyi"],
+    "wordBank": ["ni", "keyi", "jin lai"],
+    "extraWord": "chu qu",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chu qu" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chu qu", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni keyi jin lai"]
+  },
+  {
+    "id": "sent-set3-can-003",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "He cannot go now.",
+    "targetPinyin": "ta xianzai bu keyi qu",
+    "targetHanzi": "他现在不可以去。",
+    "hintWords": ["xianzai", "keyi"],
+    "wordBank": ["ta", "xianzai", "bu", "keyi", "qu"],
+    "extraWord": "lai",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta xianzai bu keyi qu"]
+  },
+  {
+    "id": "sent-set3-can-004",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "She cannot drink coffee.",
+    "targetPinyin": "ta bu neng he kafei",
+    "targetHanzi": "她不能喝咖啡。",
+    "hintWords": ["kafei"],
+    "wordBank": ["ta", "bu neng", "he", "kafei"],
+    "extraWord": "cha",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta bu neng he kafei"]
+  },
+  {
+    "id": "sent-set3-can-005",
+    "set": 3,
+    "category": "can_cant",
+    "section": "Can / Can’t",
+    "english": "Can you study today?",
+    "targetPinyin": "ni jintian keyi xuexi ma",
+    "targetHanzi": "你今天可以学习吗？",
+    "hintWords": ["jintian", "keyi", "xuexi"],
+    "wordBank": ["ni", "jintian", "keyi", "xuexi", "ma"],
+    "extraWord": "gongzuo",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongzuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongzuo", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni jintian keyi xuexi ma"]
+  },
+
+  {
+    "id": "sent-set3-with-001",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "I am going with my mom.",
+    "targetPinyin": "wo gen wo de mama qu",
+    "targetHanzi": "我跟我的妈妈去。",
+    "hintWords": ["mama"],
+    "wordBank": ["wo", "gen", "wo de", "mama", "qu"],
+    "extraWord": "lai",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "lai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "lai", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo gen wo de mama qu"]
+  },
+  {
+    "id": "sent-set3-with-002",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "He is here with friends.",
+    "targetPinyin": "ta gen pengyou zai zheli",
+    "targetHanzi": "他跟朋友在这里。",
+    "hintWords": ["pengyou", "zheli"],
+    "wordBank": ["ta", "gen", "pengyou", "zai", "zheli"],
+    "extraWord": "nali",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta gen pengyou zai zheli"]
+  },
+  {
+    "id": "sent-set3-with-003",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "This is for you.",
+    "targetPinyin": "zhe ge shi gei ni de",
+    "targetHanzi": "这个是给你的。",
+    "hintWords": ["gei"],
+    "wordBank": ["zhe ge", "shi", "gei", "ni", "de"],
+    "extraWord": "wo",
+    "extraWord2": "na ge",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "na ge" }
+    },
+    "acceptedVariants": ["zhe ge shi gei ni de"]
+  },
+  {
+    "id": "sent-set3-with-004",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "I want to go eat.",
+    "targetPinyin": "wo xiang qu chi fan",
+    "targetHanzi": "我想去吃饭。",
+    "hintWords": ["chi fan"],
+    "wordBank": ["wo", "xiang", "qu", "chi fan"],
+    "extraWord": "hui jia",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hui jia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hui jia", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xiang qu chi fan"]
+  },
+  {
+    "id": "sent-set3-with-005",
+    "set": 3,
+    "category": "with_for_want_to",
+    "section": "With / For / Want To",
+    "english": "She wants to go home.",
+    "targetPinyin": "ta xiang hui jia",
+    "targetHanzi": "她想回家。",
+    "hintWords": ["hui jia"],
+    "wordBank": ["ta", "xiang", "hui jia"],
+    "extraWord": "qu xuexiao",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu xuexiao", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta xiang hui jia"]
+  },
 
 
+  {
+    "id": "sent-set4-travel-001",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "I am going to Taiwan today.",
+    "targetPinyin": "wo jintian qu taiwan",
+    "targetHanzi": "我今天去台湾。",
+    "hintWords": ["jintian", "taiwan"],
+    "wordBank": ["wo", "jintian", "qu", "taiwan"],
+    "extraWord": "meiguo",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "meiguo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "meiguo", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo jintian qu taiwan"]
+  },
+  {
+    "id": "sent-set4-travel-002",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "Where is the airport?",
+    "targetPinyin": "jichang zai nali",
+    "targetHanzi": "机场在哪里？",
+    "hintWords": ["jichang", "nali"],
+    "wordBank": ["jichang", "zai", "nali"],
+    "extraWord": "huochezhan",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "huochezhan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "huochezhan", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["jichang zai nali", "jichang zai nar"]
+  },
+  {
+    "id": "sent-set4-travel-003",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "I need my passport.",
+    "targetPinyin": "wo xuyao wo de huzhao",
+    "targetHanzi": "我需要我的护照。",
+    "hintWords": ["xuyao", "huzhao"],
+    "wordBank": ["wo", "xuyao", "wo de", "huzhao"],
+    "extraWord": "qianbao",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qianbao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qianbao", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xuyao wo de huzhao"]
+  },
+  {
+    "id": "sent-set4-travel-004",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "Where is check-in?",
+    "targetPinyin": "banli dengji zai nali",
+    "targetHanzi": "办理登机在哪里？",
+    "hintWords": ["dengji", "nali"],
+    "wordBank": ["banli dengji", "zai", "nali"],
+    "extraWord": "anhao jiancha",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "anhao jiancha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "anhao jiancha", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["banli dengji zai nali", "banli dengji zai nar"]
+  },
+  {
+    "id": "sent-set4-travel-005",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "My bag is very heavy.",
+    "targetPinyin": "wo de xingli hen zhong",
+    "targetHanzi": "我的行李很重。",
+    "hintWords": ["xingli"],
+    "wordBank": ["wo de", "xingli", "hen zhong"],
+    "extraWord": "hen qing",
+    "extraWord2": "ni de",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen qing" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen qing", "extraWord2": "ni de" }
+    },
+    "acceptedVariants": ["wo de xingli hen zhong"]
+  },
+  {
+    "id": "sent-set4-travel-006",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "Where is the gate?",
+    "targetPinyin": "dengjimen zai nali",
+    "targetHanzi": "登机门在哪里？",
+    "hintWords": ["dengjimen", "nali"],
+    "wordBank": ["dengjimen", "zai", "nali"],
+    "extraWord": "piaokou",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "piaokou" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "piaokou", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["dengjimen zai nali", "dengjimen zai nar"]
+  },
+  {
+    "id": "sent-set4-travel-007",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "The flight is late.",
+    "targetPinyin": "banji chi dao le",
+    "targetHanzi": "班机迟到了。",
+    "hintWords": ["banji"],
+    "wordBank": ["banji", "chi dao", "le"],
+    "extraWord": "zao dao",
+    "extraWord2": "huoche",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zao dao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zao dao", "extraWord2": "huoche" }
+    },
+    "acceptedVariants": ["banji chi dao le"]
+  },
+  {
+    "id": "sent-set4-travel-008",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "I need help at the airport.",
+    "targetPinyin": "wo zai jichang xuyao bangmang",
+    "targetHanzi": "我在机场需要帮忙。",
+    "hintWords": ["jichang", "xuyao", "bangmang"],
+    "wordBank": ["wo", "zai", "jichang", "xuyao", "bangmang"],
+    "extraWord": "fandian",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "fandian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "fandian", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo zai jichang xuyao bangmang"]
+  },
+  {
+    "id": "sent-set4-travel-009",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "Can I sit here?",
+    "targetPinyin": "wo keyi zuo zai zheli ma",
+    "targetHanzi": "我可以坐在这里吗？",
+    "hintWords": ["keyi", "zheli"],
+    "wordBank": ["wo", "keyi", "zuo", "zai", "zheli", "ma"],
+    "extraWord": "nali",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo keyi zuo zai zheli ma"]
+  },
+  {
+    "id": "sent-set4-travel-010",
+    "set": 4,
+    "category": "airport",
+    "section": "Airport",
+    "english": "Please speak more slowly.",
+    "targetPinyin": "qing shuo man yi dian",
+    "targetHanzi": "请说慢一点。",
+    "hintWords": ["qing", "man yi dian"],
+    "wordBank": ["qing", "shuo", "man yi dian"],
+    "extraWord": "kuai yi dian",
+    "extraWord2": "ting",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kuai yi dian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kuai yi dian", "extraWord2": "ting" }
+    },
+    "acceptedVariants": ["qing shuo man yi dian"]
+  },
+
+  {
+    "id": "sent-set4-travel-011",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "Where is the MRT station?",
+    "targetPinyin": "jiedaochezhan zai nali",
+    "targetHanzi": "捷运站在哪里？",
+    "hintWords": ["jiedaochezhan", "nali"],
+    "wordBank": ["jiedaochezhan", "zai", "nali"],
+    "extraWord": "fandian",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "fandian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "fandian", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["jiedaochezhan zai nali", "jiedaochezhan zai nar"]
+  },
+  {
+    "id": "sent-set4-travel-012",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "I want to buy a ticket.",
+    "targetPinyin": "wo xiang mai yi zhang piao",
+    "targetHanzi": "我想买一张票。",
+    "hintWords": ["mai", "piao"],
+    "wordBank": ["wo", "xiang", "mai", "yi zhang", "piao"],
+    "extraWord": "ka",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ka" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ka", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xiang mai yi zhang piao"]
+  },
+  {
+    "id": "sent-set4-travel-013",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "How much is one ticket?",
+    "targetPinyin": "yi zhang piao duo shao qian",
+    "targetHanzi": "一张票多少钱？",
+    "hintWords": ["piao", "duo shao qian"],
+    "wordBank": ["yi zhang", "piao", "duo shao qian"],
+    "extraWord": "liang zhang",
+    "extraWord2": "ka",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "liang zhang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "liang zhang", "extraWord2": "ka" }
+    },
+    "acceptedVariants": ["yi zhang piao duo shao qian"]
+  },
+  {
+    "id": "sent-set4-travel-014",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "Which line do I take?",
+    "targetPinyin": "wo yao zuo na yi tiao xian",
+    "targetHanzi": "我要坐哪一条线？",
+    "hintWords": ["zuo", "na yi tiao xian"],
+    "wordBank": ["wo", "yao", "zuo", "na yi tiao xian"],
+    "extraWord": "yi zhang piao",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "yi zhang piao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "yi zhang piao", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo yao zuo na yi tiao xian"]
+  },
+  {
+    "id": "sent-set4-travel-015",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "I need to go to Taipei Main Station.",
+    "targetPinyin": "wo yao qu taibei chezhan",
+    "targetHanzi": "我要去台北车站。",
+    "hintWords": ["taibei chezhan"],
+    "wordBank": ["wo", "yao", "qu", "taibei chezhan"],
+    "extraWord": "gao xiong",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gao xiong" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gao xiong", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo yao qu taibei chezhan"]
+  },
+  {
+    "id": "sent-set4-travel-016",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "Does this train go to Tainan?",
+    "targetPinyin": "zhe ban huoche qu tai nan ma",
+    "targetHanzi": "这班火车去台南吗？",
+    "hintWords": ["huoche", "tai nan"],
+    "wordBank": ["zhe ban", "huoche", "qu", "tai nan", "ma"],
+    "extraWord": "taizhong",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "taizhong" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "taizhong", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["zhe ban huoche qu tai nan ma"]
+  },
+  {
+    "id": "sent-set4-travel-017",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "I am getting off at the next stop.",
+    "targetPinyin": "wo xia yi zhan xia che",
+    "targetHanzi": "我下一站下车。",
+    "hintWords": ["xia yi zhan", "xia che"],
+    "wordBank": ["wo", "xia yi zhan", "xia che"],
+    "extraWord": "shang che",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shang che" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shang che", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xia yi zhan xia che"]
+  },
+  {
+    "id": "sent-set4-travel-018",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "Please tell me when we arrive.",
+    "targetPinyin": "dao le qing gaosu wo",
+    "targetHanzi": "到了请告诉我。",
+    "hintWords": ["gaosu"],
+    "wordBank": ["dao le", "qing", "gaosu", "wo"],
+    "extraWord": "ni",
+    "extraWord2": "zou",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni", "extraWord2": "zou" }
+    },
+    "acceptedVariants": ["dao le qing gaosu wo"]
+  },
+  {
+    "id": "sent-set4-travel-019",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "Can I use EasyCard here?",
+    "targetPinyin": "wo keyi yong youyouka ma",
+    "targetHanzi": "我可以用悠游卡吗？",
+    "hintWords": ["keyi", "youyouka"],
+    "wordBank": ["wo", "keyi", "yong", "youyouka", "ma"],
+    "extraWord": "xinyongka",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xinyongka" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xinyongka", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo keyi yong youyouka ma"]
+  },
+  {
+    "id": "sent-set4-travel-020",
+    "set": 4,
+    "category": "transport",
+    "section": "MRT / Train",
+    "english": "The station is very close.",
+    "targetPinyin": "chezhan hen jin",
+    "targetHanzi": "车站很近。",
+    "hintWords": ["chezhan"],
+    "wordBank": ["chezhan", "hen jin"],
+    "extraWord": "hen yuan",
+    "extraWord2": "jichang",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen yuan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen yuan", "extraWord2": "jichang" }
+    },
+    "acceptedVariants": ["chezhan hen jin"]
+  },
+
+  {
+    "id": "sent-set4-travel-021",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "I have a reservation.",
+    "targetPinyin": "wo you yuding",
+    "targetHanzi": "我有预订。",
+    "hintWords": ["yuding"],
+    "wordBank": ["wo", "you", "yuding"],
+    "extraWord": "fangjian",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "fangjian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "fangjian", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo you yuding"]
+  },
+  {
+    "id": "sent-set4-travel-022",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "I want to check in.",
+    "targetPinyin": "wo xiang banli ruzhu",
+    "targetHanzi": "我想办理入住。",
+    "hintWords": ["ruzhu"],
+    "wordBank": ["wo", "xiang", "banli", "ruzhu"],
+    "extraWord": "tuifang",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "tuifang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "tuifang", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xiang banli ruzhu"]
+  },
+  {
+    "id": "sent-set4-travel-023",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "Do you have a single room?",
+    "targetPinyin": "ni men you danren fang ma",
+    "targetHanzi": "你们有单人房吗？",
+    "hintWords": ["danren fang"],
+    "wordBank": ["ni men", "you", "danren fang", "ma"],
+    "extraWord": "shuangren fang",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shuangren fang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shuangren fang", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni men you danren fang ma"]
+  },
+  {
+    "id": "sent-set4-travel-024",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "How much is one night?",
+    "targetPinyin": "yi wan duo shao qian",
+    "targetHanzi": "一晚多少钱？",
+    "hintWords": ["duo shao qian"],
+    "wordBank": ["yi wan", "duo shao qian"],
+    "extraWord": "liang wan",
+    "extraWord2": "fangjian",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "liang wan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "liang wan", "extraWord2": "fangjian" }
+    },
+    "acceptedVariants": ["yi wan duo shao qian"]
+  },
+  {
+    "id": "sent-set4-travel-025",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "The room key is here.",
+    "targetPinyin": "fangka zai zheli",
+    "targetHanzi": "房卡在这里。",
+    "hintWords": ["fangka", "zheli"],
+    "wordBank": ["fangka", "zai", "zheli"],
+    "extraWord": "nali",
+    "extraWord2": "fangjian",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "fangjian" }
+    },
+    "acceptedVariants": ["fangka zai zheli"]
+  },
+  {
+    "id": "sent-set4-travel-026",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "I need a towel.",
+    "targetPinyin": "wo xuyao maojin",
+    "targetHanzi": "我需要毛巾。",
+    "hintWords": ["xuyao", "maojin"],
+    "wordBank": ["wo", "xuyao", "maojin"],
+    "extraWord": "shuibei",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shuibei" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shuibei", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xuyao maojin"]
+  },
+  {
+    "id": "sent-set4-travel-027",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "There is no hot water.",
+    "targetPinyin": "mei you re shui",
+    "targetHanzi": "没有热水。",
+    "hintWords": ["re shui"],
+    "wordBank": ["mei you", "re shui"],
+    "extraWord": "leng shui",
+    "extraWord2": "fangjian",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "leng shui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "leng shui", "extraWord2": "fangjian" }
+    },
+    "acceptedVariants": ["mei you re shui"]
+  },
+  {
+    "id": "sent-set4-travel-028",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "Can I check out now?",
+    "targetPinyin": "wo xianzai keyi tuifang ma",
+    "targetHanzi": "我现在可以退房吗？",
+    "hintWords": ["xianzai", "keyi", "tuifang"],
+    "wordBank": ["wo", "xianzai", "keyi", "tuifang", "ma"],
+    "extraWord": "ruzhu",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ruzhu" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ruzhu", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xianzai keyi tuifang ma"]
+  },
+  {
+    "id": "sent-set4-travel-029",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "Please help me call a taxi.",
+    "targetPinyin": "qing bang wo jiao chuzuche",
+    "targetHanzi": "请帮我叫出租车。",
+    "hintWords": ["bang", "chuzuche"],
+    "wordBank": ["qing", "bang", "wo", "jiao", "chuzuche"],
+    "extraWord": "gongche",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gongche" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gongche", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["qing bang wo jiao chuzuche"]
+  },
+  {
+    "id": "sent-set4-travel-030",
+    "set": 4,
+    "category": "hotel",
+    "section": "Hotel",
+    "english": "The hotel is very nice.",
+    "targetPinyin": "zhe ge fandian hen piaoliang",
+    "targetHanzi": "这个饭店很漂亮。",
+    "hintWords": ["fandian", "piaoliang"],
+    "wordBank": ["zhe ge", "fandian", "hen piaoliang"],
+    "extraWord": "hen gui",
+    "extraWord2": "minsu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen gui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen gui", "extraWord2": "minsu" }
+    },
+    "acceptedVariants": ["zhe ge fandian hen piaoliang"]
+  },
+
+  {
+    "id": "sent-set4-travel-031",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "I want to order food.",
+    "targetPinyin": "wo xiang dian cai",
+    "targetHanzi": "我想点菜。",
+    "hintWords": ["dian cai"],
+    "wordBank": ["wo", "xiang", "dian cai"],
+    "extraWord": "mai dan",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mai dan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mai dan", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xiang dian cai"]
+  },
+  {
+    "id": "sent-set4-travel-032",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "The menu, please.",
+    "targetPinyin": "qing gei wo caidan",
+    "targetHanzi": "请给我菜单。",
+    "hintWords": ["caidan"],
+    "wordBank": ["qing", "gei", "wo", "caidan"],
+    "extraWord": "zhangdan",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zhangdan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zhangdan", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["qing gei wo caidan"]
+  },
+  {
+    "id": "sent-set4-travel-033",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "I do not eat beef.",
+    "targetPinyin": "wo bu chi niurou",
+    "targetHanzi": "我不吃牛肉。",
+    "hintWords": ["niurou"],
+    "wordBank": ["wo", "bu", "chi", "niurou"],
+    "extraWord": "jirou",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jirou" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jirou", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo bu chi niurou"]
+  },
+  {
+    "id": "sent-set4-travel-034",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "Do you have vegetarian food?",
+    "targetPinyin": "ni men you su shi ma",
+    "targetHanzi": "你们有素食吗？",
+    "hintWords": ["su shi"],
+    "wordBank": ["ni men", "you", "su shi", "ma"],
+    "extraWord": "niurou",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "niurou" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "niurou", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni men you su shi ma"]
+  },
+  {
+    "id": "sent-set4-travel-035",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "I want one bowl of beef noodles.",
+    "targetPinyin": "wo yao yi wan niurou mian",
+    "targetHanzi": "我要一碗牛肉面。",
+    "hintWords": ["yi wan", "niurou mian"],
+    "wordBank": ["wo", "yao", "yi wan", "niurou mian"],
+    "extraWord": "chaofan",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chaofan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chaofan", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo yao yi wan niurou mian"]
+  },
+  {
+    "id": "sent-set4-travel-036",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "I want bubble tea with less sugar.",
+    "targetPinyin": "wo yao shao tang zhenzhu naicha",
+    "targetHanzi": "我要少糖珍珠奶茶。",
+    "hintWords": ["shao tang", "zhenzhu naicha"],
+    "wordBank": ["wo", "yao", "shao tang", "zhenzhu naicha"],
+    "extraWord": "duo bing",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "duo bing" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "duo bing", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo yao shao tang zhenzhu naicha"]
+  },
+  {
+    "id": "sent-set4-travel-037",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "No ice, please.",
+    "targetPinyin": "qing bu yao bing",
+    "targetHanzi": "请不要冰。",
+    "hintWords": ["bing"],
+    "wordBank": ["qing", "bu yao", "bing"],
+    "extraWord": "tang",
+    "extraWord2": "re shui",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "tang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "tang", "extraWord2": "re shui" }
+    },
+    "acceptedVariants": ["qing bu yao bing"]
+  },
+  {
+    "id": "sent-set4-travel-038",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "How much is this?",
+    "targetPinyin": "zhe ge duo shao qian",
+    "targetHanzi": "这个多少钱？",
+    "hintWords": ["duo shao qian"],
+    "wordBank": ["zhe ge", "duo shao qian"],
+    "extraWord": "na ge",
+    "extraWord2": "piao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "na ge" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "na ge", "extraWord2": "piao" }
+    },
+    "acceptedVariants": ["zhe ge duo shao qian"]
+  },
+  {
+    "id": "sent-set4-travel-039",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "The food is very delicious.",
+    "targetPinyin": "zhe ge cai hen hao chi",
+    "targetHanzi": "这个菜很好吃。",
+    "hintWords": ["cai", "hao chi"],
+    "wordBank": ["zhe ge", "cai", "hen hao chi"],
+    "extraWord": "hen gui",
+    "extraWord2": "he shui",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen gui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen gui", "extraWord2": "he shui" }
+    },
+    "acceptedVariants": ["zhe ge cai hen hao chi"]
+  },
+  {
+    "id": "sent-set4-travel-040",
+    "set": 4,
+    "category": "food",
+    "section": "Food / Ordering",
+    "english": "Please bring me the bill.",
+    "targetPinyin": "qing gei wo zhangdan",
+    "targetHanzi": "请给我账单。",
+    "hintWords": ["zhangdan"],
+    "wordBank": ["qing", "gei", "wo", "zhangdan"],
+    "extraWord": "caidan",
+    "extraWord2": "mai piao",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "caidan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "caidan", "extraWord2": "mai piao" }
+    },
+    "acceptedVariants": ["qing gei wo zhangdan"]
+  },
+
+  {
+    "id": "sent-set4-travel-041",
+    "set": 4,
+    "category": "directions",
+    "section": "Directions / Money / Help",
+    "english": "Where is the bathroom?",
+    "targetPinyin": "cesuo zai nali",
+    "targetHanzi": "厕所在哪里？",
+    "hintWords": ["cesuo", "nali"],
+    "wordBank": ["cesuo", "zai", "nali"],
+    "extraWord": "fandian",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "fandian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "fandian", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["cesuo zai nali", "cesuo zai nar"]
+  },
+  {
+    "id": "sent-set4-travel-042",
+    "set": 4,
+    "category": "directions",
+    "section": "Directions / Money / Help",
+    "english": "Go straight, then turn left.",
+    "targetPinyin": "yi zhi zou, ranhou zuo guai",
+    "targetHanzi": "一直走，然后左拐。",
+    "hintWords": ["yi zhi zou", "zuo guai"],
+    "wordBank": ["yi zhi zou", "ranhou", "zuo guai"],
+    "extraWord": "you guai",
+    "extraWord2": "ting",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "you guai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "you guai", "extraWord2": "ting" }
+    },
+    "acceptedVariants": ["yi zhi zou ranhou zuo guai"]
+  },
+  {
+    "id": "sent-set4-travel-043",
+    "set": 4,
+    "category": "directions",
+    "section": "Directions / Money / Help",
+    "english": "Turn right at the next corner.",
+    "targetPinyin": "xia yi ge jiaokou you guai",
+    "targetHanzi": "下一个角口右拐。",
+    "hintWords": ["xia yi ge", "you guai"],
+    "wordBank": ["xia yi ge", "jiaokou", "you guai"],
+    "extraWord": "zuo guai",
+    "extraWord2": "yi zhi zou",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zuo guai" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zuo guai", "extraWord2": "yi zhi zou" }
+    },
+    "acceptedVariants": ["xia yi ge jiaokou you guai"]
+  },
+  {
+    "id": "sent-set4-travel-044",
+    "set": 4,
+    "category": "money",
+    "section": "Directions / Money / Help",
+    "english": "Can I pay by card?",
+    "targetPinyin": "wo keyi shua ka ma",
+    "targetHanzi": "我可以刷卡吗？",
+    "hintWords": ["keyi", "ka"],
+    "wordBank": ["wo", "keyi", "shua ka", "ma"],
+    "extraWord": "xianjin",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xianjin" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xianjin", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo keyi shua ka ma"]
+  },
+  {
+    "id": "sent-set4-travel-045",
+    "set": 4,
+    "category": "money",
+    "section": "Directions / Money / Help",
+    "english": "I only have cash.",
+    "targetPinyin": "wo zhiyou xianjin",
+    "targetHanzi": "我只有现金。",
+    "hintWords": ["xianjin"],
+    "wordBank": ["wo", "zhiyou", "xianjin"],
+    "extraWord": "ka",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ka" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ka", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo zhiyou xianjin"]
+  },
+  {
+    "id": "sent-set4-travel-046",
+    "set": 4,
+    "category": "money",
+    "section": "Directions / Money / Help",
+    "english": "Where can I exchange money?",
+    "targetPinyin": "wo zai nali keyi huan qian",
+    "targetHanzi": "我在哪里可以换钱？",
+    "hintWords": ["nali", "keyi", "huan qian"],
+    "wordBank": ["wo", "zai", "nali", "keyi", "huan qian"],
+    "extraWord": "mai piao",
+    "extraWord2": "zheli",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mai piao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mai piao", "extraWord2": "zheli" }
+    },
+    "acceptedVariants": ["wo zai nali keyi huan qian", "wo zai nar keyi huan qian"]
+  },
+  {
+    "id": "sent-set4-travel-047",
+    "set": 4,
+    "category": "help",
+    "section": "Directions / Money / Help",
+    "english": "I am lost.",
+    "targetPinyin": "wo mi lu le",
+    "targetHanzi": "我迷路了。",
+    "hintWords": ["mi lu"],
+    "wordBank": ["wo", "mi lu", "le"],
+    "extraWord": "dao le",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "dao le" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "dao le", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo mi lu le"]
+  },
+  {
+    "id": "sent-set4-travel-048",
+    "set": 4,
+    "category": "help",
+    "section": "Directions / Money / Help",
+    "english": "Please help me find this place.",
+    "targetPinyin": "qing bang wo zhao zhe ge difang",
+    "targetHanzi": "请帮我找这个地方。",
+    "hintWords": ["bang", "zhao", "difang"],
+    "wordBank": ["qing", "bang", "wo", "zhao", "zhe ge", "difang"],
+    "extraWord": "na ge",
+    "extraWord2": "qu",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "na ge" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "na ge", "extraWord2": "qu" }
+    },
+    "acceptedVariants": ["qing bang wo zhao zhe ge difang"]
+  },
+  {
+    "id": "sent-set4-travel-049",
+    "set": 4,
+    "category": "help",
+    "section": "Directions / Money / Help",
+    "english": "Can you help me take a photo?",
+    "targetPinyin": "ni keyi bang wo pai zhao ma",
+    "targetHanzi": "你可以帮我拍照吗？",
+    "hintWords": ["keyi", "pai zhao"],
+    "wordBank": ["ni", "keyi", "bang", "wo", "pai zhao", "ma"],
+    "extraWord": "chi fan",
+    "extraWord2": "ta",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chi fan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chi fan", "extraWord2": "ta" }
+    },
+    "acceptedVariants": ["ni keyi bang wo pai zhao ma"]
+  },
+  {
+    "id": "sent-set4-travel-050",
+    "set": 4,
+    "category": "help",
+    "section": "Directions / Money / Help",
+    "english": "Taiwan is very beautiful.",
+    "targetPinyin": "taiwan hen piaoliang",
+    "targetHanzi": "台湾很漂亮。",
+    "hintWords": ["taiwan", "piaoliang"],
+    "wordBank": ["taiwan", "hen piaoliang"],
+    "extraWord": "hen gui",
+    "extraWord2": "taibei",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen gui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen gui", "extraWord2": "taibei" }
+    },
+    "acceptedVariants": ["taiwan hen piaoliang"]
+  }
+  ,
+
+
+
+
+  {
+    "id": "sent-set4-001",
+    "set": 5,
+    "category": "hanzi_wordbank_test",
+    "section": "Set 4 Test",
+    "english": "I am going home now.",
+    "targetPinyin": "wo xianzai hui jia",
+    "targetHanzi": "我现在回家。",
+    "hintWords": ["xianzai", "hui jia"],
+    "wordBank": ["wo", "xianzai", "hui jia"],
+    "hanziWordBank": ["我", "现在", "回家"],
+    "extraWord": "qu xuexiao",
+    "extraWord2": "ni",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "qu xuexiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "qu xuexiao", "extraWord2": "ni" }
+    },
+    "acceptedVariants": ["wo xianzai hui jia"]
+  },
+  {
+    "id": "sent-set4-002",
+    "set": 5,
+    "category": "hanzi_wordbank_test",
+    "section": "Set 4 Test",
+    "english": "You are here now.",
+    "targetPinyin": "ni xianzai zai zheli",
+    "targetHanzi": "你现在在这里。",
+    "hintWords": ["xianzai", "zheli"],
+    "wordBank": ["ni", "xianzai", "zai", "zheli"],
+    "hanziWordBank": ["你", "现在", "在", "这里"],
+    "extraWord": "nali",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "nali" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "nali", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ni xianzai zai zheli"]
+  },
+  {
+    "id": "sent-set4-003",
+    "set": 5,
+    "category": "hanzi_wordbank_test",
+    "section": "Set 4 Test",
+    "english": "She wants to drink coffee.",
+    "targetPinyin": "ta xiang he kafei",
+    "targetHanzi": "她想喝咖啡。",
+    "hintWords": ["kafei"],
+    "wordBank": ["ta", "xiang", "he", "kafei"],
+    "hanziWordBank": ["她", "想", "喝", "咖啡"],
+    "extraWord": "cha",
+    "extraWord2": "wo",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["ta xiang he kafei"]
+  },
+  {
+    "id": "sent-set4-004",
+    "set": 5,
+    "category": "hanzi_wordbank_test",
+    "section": "Set 4 Test",
+    "english": "Can you study Chinese with me?",
+    "targetPinyin": "ni keyi gen wo xue zhongwen ma",
+    "targetHanzi": "你可以跟我学中文吗？",
+    "hintWords": ["keyi", "zhongwen"],
+    "wordBank": ["ni", "keyi", "gen", "wo", "xue", "zhongwen", "ma"],
+    "hanziWordBank": ["你", "可以", "跟", "我", "学", "中文", "吗"],
+    "extraWord": "kafei",
+    "extraWord2": "ta",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafei" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafei", "extraWord2": "ta" }
+    },
+    "acceptedVariants": ["ni keyi gen wo xue zhongwen ma"]
+  },
+  {
+    "id": "sent-set4-005",
+    "set": 5,
+    "category": "hanzi_wordbank_test",
+    "section": "Set 4 Test",
+    "english": "This coffee is for you.",
+    "targetPinyin": "zhe ge kafei shi gei ni de",
+    "targetHanzi": "这个咖啡是给你的。",
+    "hintWords": ["kafei", "gei"],
+    "wordBank": ["zhe ge", "kafei", "shi", "gei", "ni", "de"],
+    "hanziWordBank": ["这个", "咖啡", "是", "给", "你", "的"],
+    "extraWord": "wo",
+    "extraWord2": "cha",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "cha" }
+    },
+    "acceptedVariants": ["zhe ge kafei shi gei ni de"]
+  }
 
 
 ]

@@ -123,13 +123,6 @@ export default function Books() {
           Sentence Builder (Type)
         </button>
 
-        <button
-          className="books-sentence-builder-btn"
-          onClick={() => navigate('/sentence-word-bank')}
-        >
-          Sentence Builder (Word Bank)
-        </button>
-
         {Array.from(
           new Set((sentencesRaw as { set: number; id: string }[]).map(s => s.set))
         ).sort((a, b) => a - b).map(setNum => {
