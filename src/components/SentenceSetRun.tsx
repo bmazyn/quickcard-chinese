@@ -96,7 +96,7 @@ export default function SentenceSetRun() {
   const { setId } = useParams<{ setId: string }>();
   const setNum = Number(setId ?? 1);
 
-  // Build deck: L1 for progress=0, L2 for progress=1, L3 for progress=2, skip progress=3
+  // Build deck: L1->p0, L2->p1, L3->p2. If set is 100% complete, review 10 random L3 cards.
   const deck = useMemo<DeckCard[]>(() => {
     const pool = (sentencesRaw as Sentence[]).filter(
       s => s.set === setNum && Array.isArray(s.wordBank) && s.wordBank.length > 0
@@ -107,12 +107,29 @@ export default function SentenceSetRun() {
       if (p === 0) eligible.push({ sentence: s, level: 1 });
       else if (p === 1) eligible.push({ sentence: s, level: 2 });
       else if (p === 2) eligible.push({ sentence: s, level: 3 });
-      // p === 3: fully complete, skip
+      // p === 3: fully complete, skip in normal mode
+    }
+    // If nothing is eligible (set 100% done), offer a Level-3 review of completed cards
+    if (eligible.length === 0) {
+      const completed = pool.map(s => ({ sentence: s, level: 3 as const }));
+      return shuffle(completed).slice(0, RUN_SIZE);
     }
     return shuffle(eligible).slice(0, RUN_SIZE);
   }, [setNum]);
 
   const [index, setIndex] = useState(0);
+
+  // Safety: if deck is empty (no sentences for this set at all), show a fallback
+  if (deck.length === 0) {
+    return (
+      <div className="swb-page">
+        <div className="swb-shell ssr-summary">
+          <p className="ssr-summary-title">No cards found for Set {setNum}.</p>
+          <button className="ssr-summary-btn" onClick={() => navigate(`/sentence-set/${setNum}`)}>← Back to Set</button>
+        </div>
+      </div>
+    );
+  }
 
   const card = deck[index];
   const sentence = card.sentence;

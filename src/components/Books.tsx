@@ -123,6 +123,7 @@ export default function Books() {
           Sentence Builder (Type)
         </button>
 
+        <div className="books-set-grid">
         {Array.from(
           new Set((sentencesRaw as { set: number; id: string }[]).map(s => s.set))
         ).sort((a, b) => a - b).map(setNum => {
@@ -136,10 +137,11 @@ export default function Books() {
               className="books-sentence-builder-btn"
               onClick={() => navigate(`/sentence-set/${setNum}`)}
             >
-              Sentence Set {setNum} — {pct}%
+              Set {setNum} — {pct}%
             </button>
           );
         })}
+        </div>
       </div>
     </div>
   );
