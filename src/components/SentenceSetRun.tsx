@@ -21,6 +21,7 @@ interface Sentence {
   extraWord2Hanzi?: string;
   acceptedVariants: string[];
   section: string;
+  breakdown?: { pinyin: string; english: string }[];
 }
 
 interface DeckCard {
@@ -273,6 +274,18 @@ export default function SentenceSetRun() {
                 🔊
               </button>
             </div>
+            {sentence.breakdown && sentence.breakdown.length > 0 && (
+              <div className="ssr-breakdown">
+                <span className="ssr-breakdown-title">Breakdown</span>
+                {sentence.breakdown.map((item, i) => (
+                  <div key={i} className="ssr-breakdown-row">
+                    <span className="ssr-breakdown-pinyin">{item.pinyin}</span>
+                    <span className="ssr-breakdown-sep">—</span>
+                    <span className="ssr-breakdown-english">{item.english}</span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 

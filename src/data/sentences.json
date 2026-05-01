@@ -6340,6 +6340,1448 @@
     },
     "acceptedVariants": ["ni xingqi ri zao shang you kong ma"]
   }
+,
+
+  {
+    "id": "sent-set7-001",
+    "set": 7,
+    "category": "greetings",
+    "section": "Meet & Greet",
+    "english": "Good morning, everyone.",
+    "targetPinyin": "dajia zao an ni men hao",
+    "targetHanzi": "大家早安，你们好。",
+    "hintWords": ["zao an"],
+    "wordBank": ["dajia", "zao an", "ni men", "hao"],
+    "hanziWordBank": ["大家", "早安", "你们", "好"],
+    "breakdown": [
+      { "pinyin": "dajia", "english": "everyone" },
+      { "pinyin": "zao an", "english": "good morning" },
+      { "pinyin": "ni men", "english": "you all" },
+      { "pinyin": "hao", "english": "good / hello" }
+    ],
+    "extraWord": "wan an",
+    "extraWordHanzi": "晚安",
+    "extraWord2": "zaoshang",
+    "extraWord2Hanzi": "早上",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wan an" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wan an", "extraWord2": "zaoshang" }
+    },
+    "acceptedVariants": ["dajia zao an ni men hao"]
+  },
+  {
+    "id": "sent-set7-002",
+    "set": 7,
+    "category": "greetings",
+    "section": "Meet & Greet",
+    "english": "Good night, everyone.",
+    "targetPinyin": "dajia wan an ni men hao",
+    "targetHanzi": "大家晚安，你们好。",
+    "hintWords": ["wan an"],
+    "wordBank": ["dajia", "wan an", "ni men", "hao"],
+    "hanziWordBank": ["大家", "晚安", "你们", "好"],
+    "breakdown": [
+      { "pinyin": "dajia", "english": "everyone" },
+      { "pinyin": "wan an", "english": "good night" },
+      { "pinyin": "ni men", "english": "you all" },
+      { "pinyin": "hao", "english": "good / hello" }
+    ],
+    "extraWord": "zao an",
+    "extraWordHanzi": "早安",
+    "extraWord2": "jinwan",
+    "extraWord2Hanzi": "今晚",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zao an" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zao an", "extraWord2": "jinwan" }
+    },
+    "acceptedVariants": ["dajia wan an ni men hao"]
+  },
+  {
+    "id": "sent-set7-003",
+    "set": 7,
+    "category": "greetings",
+    "section": "Meet & Greet",
+    "english": "Hello, nice to meet you.",
+    "targetPinyin": "ni hao renshi ni hen gaoxing",
+    "targetHanzi": "你好，认识你很高兴。",
+    "hintWords": ["renshi", "gaoxing"],
+    "wordBank": ["ni hao", "renshi", "ni", "hen gaoxing"],
+    "hanziWordBank": ["你好", "认识", "你", "很高兴"],
+    "breakdown": [
+      { "pinyin": "ni hao", "english": "hello" },
+      { "pinyin": "renshi", "english": "to meet / to get to know" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "hen gaoxing", "english": "very happy / glad" }
+    ],
+    "extraWord": "wan an",
+    "extraWordHanzi": "晚安",
+    "extraWord2": "zai jian",
+    "extraWord2Hanzi": "再见",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wan an" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wan an", "extraWord2": "zai jian" }
+    },
+    "acceptedVariants": ["ni hao renshi ni hen gaoxing"]
+  },
+  {
+    "id": "sent-set7-004",
+    "set": 7,
+    "category": "greetings",
+    "section": "Meet & Greet",
+    "english": "Long time no see.",
+    "targetPinyin": "hao jiu bu jian ni le",
+    "targetHanzi": "好久不见你了。",
+    "hintWords": ["hao jiu", "bu jian"],
+    "wordBank": ["hao jiu", "bu jian", "ni", "le"],
+    "hanziWordBank": ["好久", "不见", "你", "了"],
+    "breakdown": [
+      { "pinyin": "hao jiu", "english": "a long time" },
+      { "pinyin": "bu jian", "english": "not see" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "le", "english": "completed action / change marker" }
+    ],
+    "extraWord": "zai jian",
+    "extraWordHanzi": "再见",
+    "extraWord2": "wan an",
+    "extraWord2Hanzi": "晚安",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zai jian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zai jian", "extraWord2": "wan an" }
+    },
+    "acceptedVariants": ["hao jiu bu jian ni le"]
+  },
+  {
+    "id": "sent-set7-005",
+    "set": 7,
+    "category": "greetings",
+    "section": "Meet & Greet",
+    "english": "See you later, bye-bye.",
+    "targetPinyin": "deng yixia women bai bai",
+    "targetHanzi": "等一下我们拜拜。",
+    "hintWords": ["deng yixia", "bai bai"],
+    "wordBank": ["deng yixia", "women", "bai bai", "ba"],
+    "hanziWordBank": ["等一下", "我们", "拜拜", "吧"],
+    "breakdown": [
+      { "pinyin": "deng yixia", "english": "later / in a bit" },
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "bai bai", "english": "bye-bye" },
+      { "pinyin": "ba", "english": "soft suggestion / okay?" }
+    ],
+    "extraWord": "zai jian",
+    "extraWordHanzi": "再见",
+    "extraWord2": "jinwan",
+    "extraWord2Hanzi": "今晚",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zai jian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zai jian", "extraWord2": "jinwan" }
+    },
+    "acceptedVariants": ["deng yixia women bai bai"]
+  },
+  {
+    "id": "sent-set7-006",
+    "set": 7,
+    "category": "thanks",
+    "section": "Meet & Greet",
+    "english": "Thanks, you really helped me.",
+    "targetPinyin": "xiexie ni zhen de bang dao wo",
+    "targetHanzi": "谢谢你，真的帮到我。",
+    "hintWords": ["xiexie", "bang dao"],
+    "wordBank": ["xiexie", "ni", "zhen de", "bang dao", "wo"],
+    "hanziWordBank": ["谢谢", "你", "真的", "帮到", "我"],
+    "breakdown": [
+      { "pinyin": "xiexie", "english": "thank you" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "zhen de", "english": "really / truly" },
+      { "pinyin": "bang dao", "english": "helped / was helpful to" },
+      { "pinyin": "wo", "english": "me / I" }
+    ],
+    "extraWord": "bu hui",
+    "extraWordHanzi": "不会",
+    "extraWord2": "mei guanxi",
+    "extraWord2Hanzi": "没关系",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu hui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu hui", "extraWord2": "mei guanxi" }
+    },
+    "acceptedVariants": ["xiexie ni zhen de bang dao wo"]
+  },
+  {
+    "id": "sent-set7-007",
+    "set": 7,
+    "category": "thanks",
+    "section": "Meet & Greet",
+    "english": "You are welcome, it is nothing.",
+    "targetPinyin": "bu hui zhe mei shenme",
+    "targetHanzi": "不会，这没什么。",
+    "hintWords": ["bu hui", "mei shenme"],
+    "wordBank": ["bu hui", "zhe", "mei shenme", "shi"],
+    "hanziWordBank": ["不会", "这", "没什么", "是"],
+    "breakdown": [
+      { "pinyin": "bu hui", "english": "you're welcome / no problem" },
+      { "pinyin": "zhe", "english": "this" },
+      { "pinyin": "mei shenme", "english": "it's nothing / not much" },
+      { "pinyin": "shi", "english": "is / to be" }
+    ],
+    "extraWord": "xiexie",
+    "extraWordHanzi": "谢谢",
+    "extraWord2": "mei guanxi",
+    "extraWord2Hanzi": "没关系",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xiexie", "extraWord2": "mei guanxi" }
+    },
+    "acceptedVariants": ["bu hui zhe mei shenme"]
+  },
+  {
+    "id": "sent-set7-008",
+    "set": 7,
+    "category": "thanks",
+    "section": "Meet & Greet",
+    "english": "Thank you so much today.",
+    "targetPinyin": "jintian zhen de hen xiexie ni",
+    "targetHanzi": "今天真的很谢谢你。",
+    "hintWords": ["jintian", "xiexie"],
+    "wordBank": ["jintian", "zhen de", "hen", "xiexie", "ni"],
+    "hanziWordBank": ["今天", "真的", "很", "谢谢", "你"],
+    "breakdown": [
+      { "pinyin": "jintian", "english": "today" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "hen", "english": "very" },
+      { "pinyin": "xiexie", "english": "thank" },
+      { "pinyin": "ni", "english": "you" }
+    ],
+    "extraWord": "bu hui",
+    "extraWordHanzi": "不会",
+    "extraWord2": "mingtian",
+    "extraWord2Hanzi": "明天",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu hui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu hui", "extraWord2": "mingtian" }
+    },
+    "acceptedVariants": ["jintian zhen de hen xiexie ni"]
+  },
+  {
+    "id": "sent-set7-009",
+    "set": 7,
+    "category": "thanks",
+    "section": "Meet & Greet",
+    "english": "No worries, really.",
+    "targetPinyin": "mei guanxi zhen de mei shi",
+    "targetHanzi": "没关系，真的没事。",
+    "hintWords": ["mei guanxi", "mei shi"],
+    "wordBank": ["mei guanxi", "zhen de", "mei", "shi"],
+    "hanziWordBank": ["没关系", "真的", "没", "事"],
+    "breakdown": [
+      { "pinyin": "mei guanxi", "english": "it's okay / no problem" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "mei", "english": "not / no" },
+      { "pinyin": "shi", "english": "matter / thing" }
+    ],
+    "extraWord": "bu hui",
+    "extraWordHanzi": "不会",
+    "extraWord2": "xiexie",
+    "extraWord2Hanzi": "谢谢",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu hui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu hui", "extraWord2": "xiexie" }
+    },
+    "acceptedVariants": ["mei guanxi zhen de mei shi"]
+  },
+  {
+    "id": "sent-set7-010",
+    "set": 7,
+    "category": "thanks",
+    "section": "Meet & Greet",
+    "english": "You are too kind.",
+    "targetPinyin": "ni zhen de tai keqi le",
+    "targetHanzi": "你真的太客气了。",
+    "hintWords": ["keqi"],
+    "wordBank": ["ni", "zhen de", "tai", "keqi", "le"],
+    "hanziWordBank": ["你", "真的", "太", "客气", "了"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "tai", "english": "too / very" },
+      { "pinyin": "keqi", "english": "polite / courteous" },
+      { "pinyin": "le", "english": "sentence ending particle" }
+    ],
+    "extraWord": "xiexie",
+    "extraWordHanzi": "谢谢",
+    "extraWord2": "bu hui",
+    "extraWord2Hanzi": "不会",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "xiexie" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "xiexie", "extraWord2": "bu hui" }
+    },
+    "acceptedVariants": ["ni zhen de tai keqi le"]
+  },
+  {
+    "id": "sent-set7-011",
+    "set": 7,
+    "category": "small_talk",
+    "section": "Meet & Greet",
+    "english": "How have you been lately?",
+    "targetPinyin": "ni zui jin guo de zenme yang",
+    "targetHanzi": "你最近过得怎么样？",
+    "hintWords": ["zui jin", "zenme yang"],
+    "wordBank": ["ni", "zui jin", "guo de", "zenme yang"],
+    "hanziWordBank": ["你", "最近", "过得", "怎么样"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "zui jin", "english": "recently / lately" },
+      { "pinyin": "guo de", "english": "to be getting along / to be doing" },
+      { "pinyin": "zenme yang", "english": "how / how is it" }
+    ],
+    "extraWord": "wo",
+    "extraWordHanzi": "我",
+    "extraWord2": "hai hao",
+    "extraWord2Hanzi": "还好",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "hai hao" }
+    },
+    "acceptedVariants": ["ni zui jin guo de zenme yang"]
+  },
+  {
+    "id": "sent-set7-012",
+    "set": 7,
+    "category": "small_talk",
+    "section": "Meet & Greet",
+    "english": "I have been pretty good lately.",
+    "targetPinyin": "wo zui jin hai man hao de",
+    "targetHanzi": "我最近还蛮好的。",
+    "hintWords": ["zui jin", "man hao"],
+    "wordBank": ["wo", "zui jin", "hai", "man hao", "de"],
+    "hanziWordBank": ["我", "最近", "还", "蛮好", "的"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "zui jin", "english": "recently / lately" },
+      { "pinyin": "hai", "english": "still / fairly" },
+      { "pinyin": "man hao", "english": "pretty good" },
+      { "pinyin": "de", "english": "sentence softener / descriptive ending" }
+    ],
+    "extraWord": "hen mang",
+    "extraWordHanzi": "很忙",
+    "extraWord2": "you dian lei",
+    "extraWord2Hanzi": "有点累",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen mang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen mang", "extraWord2": "you dian lei" }
+    },
+    "acceptedVariants": ["wo zui jin hai man hao de"]
+  },
+  {
+    "id": "sent-set7-013",
+    "set": 7,
+    "category": "small_talk",
+    "section": "Meet & Greet",
+    "english": "I am a little busy this week.",
+    "targetPinyin": "wo zhe zhou you dian mang",
+    "targetHanzi": "我这周有点忙。",
+    "hintWords": ["zhe zhou", "you dian"],
+    "wordBank": ["wo", "zhe zhou", "you dian", "mang"],
+    "hanziWordBank": ["我", "这周", "有点", "忙"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "zhe zhou", "english": "this week" },
+      { "pinyin": "you dian", "english": "a little / somewhat" },
+      { "pinyin": "mang", "english": "busy" }
+    ],
+    "extraWord": "you kong",
+    "extraWordHanzi": "有空",
+    "extraWord2": "hen lei",
+    "extraWord2Hanzi": "很累",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "you kong" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "you kong", "extraWord2": "hen lei" }
+    },
+    "acceptedVariants": ["wo zhe zhou you dian mang"]
+  },
+  {
+    "id": "sent-set7-014",
+    "set": 7,
+    "category": "small_talk",
+    "section": "Meet & Greet",
+    "english": "I am okay, just a little tired.",
+    "targetPinyin": "wo hai hao zhi shi you dian lei",
+    "targetHanzi": "我还好，只是有点累。",
+    "hintWords": ["hai hao", "you dian lei"],
+    "wordBank": ["wo", "hai hao", "zhi shi", "you dian lei"],
+    "hanziWordBank": ["我", "还好", "只是", "有点累"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "hai hao", "english": "okay / so-so / pretty okay" },
+      { "pinyin": "zhi shi", "english": "just / only" },
+      { "pinyin": "you dian lei", "english": "a little tired" }
+    ],
+    "extraWord": "hen mang",
+    "extraWordHanzi": "很忙",
+    "extraWord2": "kai xin",
+    "extraWord2Hanzi": "开心",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen mang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen mang", "extraWord2": "kai xin" }
+    },
+    "acceptedVariants": ["wo hai hao zhi shi you dian lei"]
+  },
+  {
+    "id": "sent-set7-015",
+    "set": 7,
+    "category": "small_talk",
+    "section": "Meet & Greet",
+    "english": "Really? That sounds good.",
+    "targetPinyin": "zhen de ma ting qi lai bu cuo",
+    "targetHanzi": "真的吗？听起来不错。",
+    "hintWords": ["zhen de ma", "bu cuo"],
+    "wordBank": ["zhen de ma", "ting qi lai", "bu cuo", "hen hao"],
+    "hanziWordBank": ["真的吗", "听起来", "不错", "很好"],
+    "breakdown": [
+      { "pinyin": "zhen de ma", "english": "really?" },
+      { "pinyin": "ting qi lai", "english": "sounds like / seems" },
+      { "pinyin": "bu cuo", "english": "not bad / pretty good" },
+      { "pinyin": "hen hao", "english": "very good" }
+    ],
+    "extraWord": "hai hao",
+    "extraWordHanzi": "还好",
+    "extraWord2": "wo",
+    "extraWord2Hanzi": "我",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hai hao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hai hao", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["zhen de ma ting qi lai bu cuo"]
+  },
+  {
+    "id": "sent-set7-016",
+    "set": 7,
+    "category": "introductions",
+    "section": "Meet & Greet",
+    "english": "My name is Amy, and I am from Taipei.",
+    "targetPinyin": "wo jiao Amy wo shi taibei ren",
+    "targetHanzi": "我叫Amy，我是台北人。",
+    "hintWords": ["jiao", "taibei ren"],
+    "wordBank": ["wo", "jiao", "Amy", "wo", "shi", "taibei ren"],
+    "hanziWordBank": ["我", "叫", "Amy", "我", "是", "台北人"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "jiao", "english": "am called / name is" },
+      { "pinyin": "Amy", "english": "Amy" },
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "shi", "english": "am / to be" },
+      { "pinyin": "taibei ren", "english": "person from Taipei" }
+    ],
+    "extraWord": "gaoxiong ren",
+    "extraWordHanzi": "高雄人",
+    "extraWord2": "meiguo ren",
+    "extraWord2Hanzi": "美国人",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "gaoxiong ren" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "gaoxiong ren", "extraWord2": "meiguo ren" }
+    },
+    "acceptedVariants": ["wo jiao Amy wo shi taibei ren"]
+  },
+  {
+    "id": "sent-set7-017",
+    "set": 7,
+    "category": "introductions",
+    "section": "Meet & Greet",
+    "english": "What should I call you?",
+    "targetPinyin": "wo yinggai zenme chenghu ni",
+    "targetHanzi": "我应该怎么称呼你？",
+    "hintWords": ["zenme", "chenghu"],
+    "wordBank": ["wo", "yinggai", "zenme", "chenghu", "ni"],
+    "hanziWordBank": ["我", "应该", "怎么", "称呼", "你"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "yinggai", "english": "should / ought to" },
+      { "pinyin": "zenme", "english": "how" },
+      { "pinyin": "chenghu", "english": "address / call" },
+      { "pinyin": "ni", "english": "you" }
+    ],
+    "extraWord": "jiao",
+    "extraWordHanzi": "叫",
+    "extraWord2": "mingzi",
+    "extraWord2Hanzi": "名字",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jiao" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jiao", "extraWord2": "mingzi" }
+    },
+    "acceptedVariants": ["wo yinggai zenme chenghu ni"]
+  },
+  {
+    "id": "sent-set7-018",
+    "set": 7,
+    "category": "introductions",
+    "section": "Meet & Greet",
+    "english": "You can just call me Brian.",
+    "targetPinyin": "ni keyi jiao wo Brian jiu hao",
+    "targetHanzi": "你可以叫我Brian就好。",
+    "hintWords": ["jiao", "jiu hao"],
+    "wordBank": ["ni", "keyi", "jiao", "wo", "Brian", "jiu hao"],
+    "hanziWordBank": ["你", "可以", "叫", "我", "Brian", "就好"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "keyi", "english": "can / may" },
+      { "pinyin": "jiao", "english": "call" },
+      { "pinyin": "wo", "english": "me" },
+      { "pinyin": "Brian", "english": "Brian" },
+      { "pinyin": "jiu hao", "english": "is fine / just fine" }
+    ],
+    "extraWord": "Amy",
+    "extraWordHanzi": "Amy",
+    "extraWord2": "ta",
+    "extraWord2Hanzi": "他",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "Amy" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "Amy", "extraWord2": "ta" }
+    },
+    "acceptedVariants": ["ni keyi jiao wo Brian jiu hao"]
+  },
+  {
+    "id": "sent-set7-019",
+    "set": 7,
+    "category": "introductions",
+    "section": "Meet & Greet",
+    "english": "I am from the U.S., but I live here now.",
+    "targetPinyin": "wo shi meiguo ren dan wo xianzai zhu zheli",
+    "targetHanzi": "我是美国人，但我现在住这里。",
+    "hintWords": ["meiguo ren", "xianzai"],
+    "wordBank": ["wo", "shi", "meiguo ren", "dan", "wo", "xianzai", "zhu", "zheli"],
+    "hanziWordBank": ["我", "是", "美国人", "但", "我", "现在", "住", "这里"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "shi", "english": "am" },
+      { "pinyin": "meiguo ren", "english": "American / person from the U.S." },
+      { "pinyin": "dan", "english": "but" },
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "xianzai", "english": "now" },
+      { "pinyin": "zhu", "english": "live / reside" },
+      { "pinyin": "zheli", "english": "here" }
+    ],
+    "extraWord": "taibei",
+    "extraWordHanzi": "台北",
+    "extraWord2": "gaoxiong",
+    "extraWord2Hanzi": "高雄",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "taibei" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "taibei", "extraWord2": "gaoxiong" }
+    },
+    "acceptedVariants": ["wo shi meiguo ren dan wo xianzai zhu zheli"]
+  },
+  {
+    "id": "sent-set7-020",
+    "set": 7,
+    "category": "introductions",
+    "section": "Meet & Greet",
+    "english": "I came with a friend today.",
+    "targetPinyin": "wo jintian gen pengyou yiqi lai",
+    "targetHanzi": "我今天跟朋友一起来。",
+    "hintWords": ["jintian", "pengyou", "yiqi"],
+    "wordBank": ["wo", "jintian", "gen", "pengyou", "yiqi", "lai"],
+    "hanziWordBank": ["我", "今天", "跟", "朋友", "一起", "来"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "jintian", "english": "today" },
+      { "pinyin": "gen", "english": "with" },
+      { "pinyin": "pengyou", "english": "friend" },
+      { "pinyin": "yiqi", "english": "together" },
+      { "pinyin": "lai", "english": "come / came" }
+    ],
+    "extraWord": "wo de",
+    "extraWordHanzi": "我的",
+    "extraWord2": "ta",
+    "extraWord2Hanzi": "他",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo de" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo de", "extraWord2": "ta" }
+    },
+    "acceptedVariants": ["wo jintian gen pengyou yiqi lai"]
+  },
+  {
+    "id": "sent-set7-021",
+    "set": 7,
+    "category": "casual",
+    "section": "Meet & Greet",
+    "english": "It has been a hard day today.",
+    "targetPinyin": "jintian zhen de you dian xin ku",
+    "targetHanzi": "今天真的有点辛苦。",
+    "hintWords": ["jintian", "xin ku"],
+    "wordBank": ["jintian", "zhen de", "you dian", "xin ku"],
+    "hanziWordBank": ["今天", "真的", "有点", "辛苦"],
+    "breakdown": [
+      { "pinyin": "jintian", "english": "today" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "you dian", "english": "a little / somewhat" },
+      { "pinyin": "xin ku", "english": "tiring / hard" }
+    ],
+    "extraWord": "kai xin",
+    "extraWordHanzi": "开心",
+    "extraWord2": "mingtian",
+    "extraWord2Hanzi": "明天",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kai xin" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kai xin", "extraWord2": "mingtian" }
+    },
+    "acceptedVariants": ["jintian zhen de you dian xin ku"]
+  },
+  {
+    "id": "sent-set7-022",
+    "set": 7,
+    "category": "casual",
+    "section": "Meet & Greet",
+    "english": "You must be tired too.",
+    "targetPinyin": "ni yinggai ye you dian lei",
+    "targetHanzi": "你应该也有点累。",
+    "hintWords": ["yinggai", "you dian lei"],
+    "wordBank": ["ni", "yinggai", "ye", "you dian lei"],
+    "hanziWordBank": ["你", "应该", "也", "有点累"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "yinggai", "english": "should / probably / must" },
+      { "pinyin": "ye", "english": "also / too" },
+      { "pinyin": "you dian lei", "english": "a little tired" }
+    ],
+    "extraWord": "wo",
+    "extraWordHanzi": "我",
+    "extraWord2": "kai xin",
+    "extraWord2Hanzi": "开心",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo", "extraWord2": "kai xin" }
+    },
+    "acceptedVariants": ["ni yinggai ye you dian lei"]
+  },
+  {
+    "id": "sent-set7-023",
+    "set": 7,
+    "category": "casual",
+    "section": "Meet & Greet",
+    "english": "Let us rest a bit first.",
+    "targetPinyin": "women xian xiuxi yi xia ba",
+    "targetHanzi": "我们先休息一下吧。",
+    "hintWords": ["xian", "xiuxi yi xia"],
+    "wordBank": ["women", "xian", "xiuxi yi xia", "ba"],
+    "hanziWordBank": ["我们", "先", "休息一下", "吧"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "xian", "english": "first" },
+      { "pinyin": "xiuxi yi xia", "english": "rest a bit" },
+      { "pinyin": "ba", "english": "suggestion particle / let's" }
+    ],
+    "extraWord": "chi fan",
+    "extraWordHanzi": "吃饭",
+    "extraWord2": "he kafei",
+    "extraWord2Hanzi": "喝咖啡",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chi fan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chi fan", "extraWord2": "he kafei" }
+    },
+    "acceptedVariants": ["women xian xiuxi yi xia ba"]
+  },
+  {
+    "id": "sent-set7-024",
+    "set": 7,
+    "category": "casual",
+    "section": "Meet & Greet",
+    "english": "Let us grab coffee later.",
+    "targetPinyin": "women deng yixia qu he kafei",
+    "targetHanzi": "我们等一下去喝咖啡。",
+    "hintWords": ["deng yixia", "kafei"],
+    "wordBank": ["women", "deng yixia", "qu", "he", "kafei"],
+    "hanziWordBank": ["我们", "等一下", "去", "喝", "咖啡"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "deng yixia", "english": "later / in a bit" },
+      { "pinyin": "qu", "english": "go" },
+      { "pinyin": "he", "english": "drink" },
+      { "pinyin": "kafei", "english": "coffee" }
+    ],
+    "extraWord": "naicha",
+    "extraWordHanzi": "奶茶",
+    "extraWord2": "chi fan",
+    "extraWord2Hanzi": "吃饭",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "naicha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "naicha", "extraWord2": "chi fan" }
+    },
+    "acceptedVariants": ["women deng yixia qu he kafei"]
+  },
+  {
+    "id": "sent-set7-025",
+    "set": 7,
+    "category": "casual",
+    "section": "Meet & Greet",
+    "english": "Maybe we can eat together tonight.",
+    "targetPinyin": "keneng women jinwan keyi yiqi chi fan",
+    "targetHanzi": "可能我们今晚可以一起吃饭。",
+    "hintWords": ["keneng", "jinwan", "yiqi"],
+    "wordBank": ["keneng", "women", "jinwan", "keyi", "yiqi", "chi fan"],
+    "hanziWordBank": ["可能", "我们", "今晚", "可以", "一起", "吃饭"],
+    "breakdown": [
+      { "pinyin": "keneng", "english": "maybe / perhaps" },
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "jinwan", "english": "tonight" },
+      { "pinyin": "keyi", "english": "can / may" },
+      { "pinyin": "yiqi", "english": "together" },
+      { "pinyin": "chi fan", "english": "eat / have a meal" }
+    ],
+    "extraWord": "mingtian",
+    "extraWordHanzi": "明天",
+    "extraWord2": "he kafei",
+    "extraWord2Hanzi": "喝咖啡",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mingtian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mingtian", "extraWord2": "he kafei" }
+    },
+    "acceptedVariants": ["keneng women jinwan keyi yiqi chi fan"]
+  },
+  {
+    "id": "sent-set7-026",
+    "set": 7,
+    "category": "replies",
+    "section": "Meet & Greet",
+    "english": "Sure, no problem at all.",
+    "targetPinyin": "dangran mei wenti hen keyi",
+    "targetHanzi": "当然，没问题，很可以。",
+    "hintWords": ["dangran", "mei wenti"],
+    "wordBank": ["dangran", "mei wenti", "hen", "keyi"],
+    "hanziWordBank": ["当然", "没问题", "很", "可以"],
+    "breakdown": [
+      { "pinyin": "dangran", "english": "of course" },
+      { "pinyin": "mei wenti", "english": "no problem" },
+      { "pinyin": "hen", "english": "very" },
+      { "pinyin": "keyi", "english": "okay / can do" }
+    ],
+    "extraWord": "bu xing",
+    "extraWordHanzi": "不行",
+    "extraWord2": "bu ke yi",
+    "extraWord2Hanzi": "不可以",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu xing" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu xing", "extraWord2": "bu ke yi" }
+    },
+    "acceptedVariants": ["dangran mei wenti hen keyi"]
+  },
+  {
+    "id": "sent-set7-027",
+    "set": 7,
+    "category": "replies",
+    "section": "Meet & Greet",
+    "english": "That is okay with me.",
+    "targetPinyin": "zheyang dui wo mei wenti",
+    "targetHanzi": "这样对我没问题。",
+    "hintWords": ["zheyang", "mei wenti"],
+    "wordBank": ["zheyang", "dui", "wo", "mei wenti"],
+    "hanziWordBank": ["这样", "对", "我", "没问题"],
+    "breakdown": [
+      { "pinyin": "zheyang", "english": "like this / this way" },
+      { "pinyin": "dui", "english": "for / toward" },
+      { "pinyin": "wo", "english": "me / I" },
+      { "pinyin": "mei wenti", "english": "no problem" }
+    ],
+    "extraWord": "bu ke yi",
+    "extraWordHanzi": "不可以",
+    "extraWord2": "bu xing",
+    "extraWord2Hanzi": "不行",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu ke yi" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu ke yi", "extraWord2": "bu xing" }
+    },
+    "acceptedVariants": ["zheyang dui wo mei wenti"]
+  },
+  {
+    "id": "sent-set7-028",
+    "set": 7,
+    "category": "replies",
+    "section": "Meet & Greet",
+    "english": "No, that is not very good.",
+    "targetPinyin": "bu xing zheyang bu tai hao",
+    "targetHanzi": "不行，这样不太好。",
+    "hintWords": ["bu xing", "bu tai hao"],
+    "wordBank": ["bu xing", "zheyang", "bu tai hao", "zhen de"],
+    "hanziWordBank": ["不行", "这样", "不太好", "真的"],
+    "breakdown": [
+      { "pinyin": "bu xing", "english": "not okay / won't work" },
+      { "pinyin": "zheyang", "english": "like this / this way" },
+      { "pinyin": "bu tai hao", "english": "not very good" },
+      { "pinyin": "zhen de", "english": "really" }
+    ],
+    "extraWord": "ke yi",
+    "extraWordHanzi": "可以",
+    "extraWord2": "mei wenti",
+    "extraWord2Hanzi": "没问题",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ke yi" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ke yi", "extraWord2": "mei wenti" }
+    },
+    "acceptedVariants": ["bu xing zheyang bu tai hao"]
+  },
+  {
+    "id": "sent-set7-029",
+    "set": 7,
+    "category": "replies",
+    "section": "Meet & Greet",
+    "english": "That sounds pretty good.",
+    "targetPinyin": "ting qi lai hai man hao de",
+    "targetHanzi": "听起来还蛮好的。",
+    "hintWords": ["ting qi lai", "man hao"],
+    "wordBank": ["ting qi lai", "hai", "man hao", "de"],
+    "hanziWordBank": ["听起来", "还", "蛮好", "的"],
+    "breakdown": [
+      { "pinyin": "ting qi lai", "english": "sounds like / seems" },
+      { "pinyin": "hai", "english": "quite / fairly / still" },
+      { "pinyin": "man hao", "english": "pretty good" },
+      { "pinyin": "de", "english": "ending particle" }
+    ],
+    "extraWord": "bu cuo",
+    "extraWordHanzi": "不错",
+    "extraWord2": "hen hao",
+    "extraWord2Hanzi": "很好",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "bu cuo" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "bu cuo", "extraWord2": "hen hao" }
+    },
+    "acceptedVariants": ["ting qi lai hai man hao de"]
+  },
+  {
+    "id": "sent-set7-030",
+    "set": 7,
+    "category": "replies",
+    "section": "Meet & Greet",
+    "english": "Let me think about it first.",
+    "targetPinyin": "rang wo xian xiang yi xia",
+    "targetHanzi": "让我先想一下。",
+    "hintWords": ["xian", "xiang yi xia"],
+    "wordBank": ["rang", "wo", "xian", "xiang yi xia"],
+    "hanziWordBank": ["让", "我", "先", "想一下"],
+    "breakdown": [
+      { "pinyin": "rang", "english": "let / allow" },
+      { "pinyin": "wo", "english": "me / I" },
+      { "pinyin": "xian", "english": "first" },
+      { "pinyin": "xiang yi xia", "english": "think a bit" }
+    ],
+    "extraWord": "shuo yi xia",
+    "extraWordHanzi": "说一下",
+    "extraWord2": "ting yi xia",
+    "extraWord2Hanzi": "听一下",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "shuo yi xia" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "shuo yi xia", "extraWord2": "ting yi xia" }
+    },
+    "acceptedVariants": ["rang wo xian xiang yi xia"]
+  },
+  {
+    "id": "sent-set7-031",
+    "set": 7,
+    "category": "scheduling",
+    "section": "Meet & Greet",
+    "english": "Are you free this weekend?",
+    "targetPinyin": "ni zhe ge zhoumo you kong ma",
+    "targetHanzi": "你这个周末有空吗？",
+    "hintWords": ["zhoumo", "you kong"],
+    "wordBank": ["ni", "zhe ge zhoumo", "you kong", "ma"],
+    "hanziWordBank": ["你", "这个周末", "有空", "吗"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "zhe ge zhoumo", "english": "this weekend" },
+      { "pinyin": "you kong", "english": "free / available" },
+      { "pinyin": "ma", "english": "question particle" }
+    ],
+    "extraWord": "hen mang",
+    "extraWordHanzi": "很忙",
+    "extraWord2": "xia zhou",
+    "extraWord2Hanzi": "下周",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen mang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen mang", "extraWord2": "xia zhou" }
+    },
+    "acceptedVariants": ["ni zhe ge zhoumo you kong ma"]
+  },
+  {
+    "id": "sent-set7-032",
+    "set": 7,
+    "category": "scheduling",
+    "section": "Meet & Greet",
+    "english": "We can meet next week.",
+    "targetPinyin": "women xia zhou ke yi jianmian",
+    "targetHanzi": "我们下周可以见面。",
+    "hintWords": ["xia zhou", "jianmian"],
+    "wordBank": ["women", "xia zhou", "ke yi", "jianmian"],
+    "hanziWordBank": ["我们", "下周", "可以", "见面"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "xia zhou", "english": "next week" },
+      { "pinyin": "ke yi", "english": "can / may" },
+      { "pinyin": "jianmian", "english": "meet / meet up" }
+    ],
+    "extraWord": "jin tian",
+    "extraWordHanzi": "今天",
+    "extraWord2": "zhe zhou",
+    "extraWord2Hanzi": "这周",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jin tian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jin tian", "extraWord2": "zhe zhou" }
+    },
+    "acceptedVariants": ["women xia zhou ke yi jianmian"]
+  },
+  {
+    "id": "sent-set7-033",
+    "set": 7,
+    "category": "scheduling",
+    "section": "Meet & Greet",
+    "english": "I am free after work today.",
+    "targetPinyin": "wo jintian xia ban hou you kong",
+    "targetHanzi": "我今天下班后有空。",
+    "hintWords": ["xia ban hou", "you kong"],
+    "wordBank": ["wo", "jintian", "xia ban hou", "you kong"],
+    "hanziWordBank": ["我", "今天", "下班后", "有空"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "jintian", "english": "today" },
+      { "pinyin": "xia ban hou", "english": "after work" },
+      { "pinyin": "you kong", "english": "free / available" }
+    ],
+    "extraWord": "hen mang",
+    "extraWordHanzi": "很忙",
+    "extraWord2": "jinwan",
+    "extraWord2Hanzi": "今晚",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen mang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen mang", "extraWord2": "jinwan" }
+    },
+    "acceptedVariants": ["wo jintian xia ban hou you kong"]
+  },
+  {
+    "id": "sent-set7-034",
+    "set": 7,
+    "category": "scheduling",
+    "section": "Meet & Greet",
+    "english": "Do you want to eat together later?",
+    "targetPinyin": "ni deng yixia yao bu yao yiqi chi",
+    "targetHanzi": "你等一下要不要一起吃？",
+    "hintWords": ["deng yixia", "yiqi"],
+    "wordBank": ["ni", "deng yixia", "yao bu yao", "yiqi", "chi"],
+    "hanziWordBank": ["你", "等一下", "要不要", "一起", "吃"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "deng yixia", "english": "later / in a bit" },
+      { "pinyin": "yao bu yao", "english": "want or not / do you want to" },
+      { "pinyin": "yiqi", "english": "together" },
+      { "pinyin": "chi", "english": "eat" }
+    ],
+    "extraWord": "he",
+    "extraWordHanzi": "喝",
+    "extraWord2": "wan",
+    "extraWord2Hanzi": "玩",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "he" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "he", "extraWord2": "wan" }
+    },
+    "acceptedVariants": ["ni deng yixia yao bu yao yiqi chi"]
+  },
+  {
+    "id": "sent-set7-035",
+    "set": 7,
+    "category": "scheduling",
+    "section": "Meet & Greet",
+    "english": "I can message you tonight.",
+    "targetPinyin": "wo jinwan ke yi chuan xunxi gei ni",
+    "targetHanzi": "我今晚可以传讯息给你。",
+    "hintWords": ["jinwan", "xunxi"],
+    "wordBank": ["wo", "jinwan", "ke yi", "chuan xunxi", "gei", "ni"],
+    "hanziWordBank": ["我", "今晚", "可以", "传讯息", "给", "你"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "jinwan", "english": "tonight" },
+      { "pinyin": "ke yi", "english": "can / may" },
+      { "pinyin": "chuan xunxi", "english": "send a message" },
+      { "pinyin": "gei", "english": "to / for" },
+      { "pinyin": "ni", "english": "you" }
+    ],
+    "extraWord": "mingtian",
+    "extraWordHanzi": "明天",
+    "extraWord2": "dianhua",
+    "extraWord2Hanzi": "电话",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mingtian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mingtian", "extraWord2": "dianhua" }
+    },
+    "acceptedVariants": ["wo jinwan ke yi chuan xunxi gei ni"]
+  },
+  {
+    "id": "sent-set7-036",
+    "set": 7,
+    "category": "friends",
+    "section": "Meet & Greet",
+    "english": "Your friend seems really nice.",
+    "targetPinyin": "ni de pengyou kan qilai hen hao",
+    "targetHanzi": "你的朋友看起来很好。",
+    "hintWords": ["pengyou", "kan qilai"],
+    "wordBank": ["ni de", "pengyou", "kan qilai", "hen hao"],
+    "hanziWordBank": ["你的", "朋友", "看起来", "很好"],
+    "breakdown": [
+      { "pinyin": "ni de", "english": "your" },
+      { "pinyin": "pengyou", "english": "friend" },
+      { "pinyin": "kan qilai", "english": "seems / looks" },
+      { "pinyin": "hen hao", "english": "very good / very nice" }
+    ],
+    "extraWord": "wo de",
+    "extraWordHanzi": "我的",
+    "extraWord2": "ta de",
+    "extraWord2Hanzi": "他的",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo de" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo de", "extraWord2": "ta de" }
+    },
+    "acceptedVariants": ["ni de pengyou kan qilai hen hao"]
+  },
+  {
+    "id": "sent-set7-037",
+    "set": 7,
+    "category": "friends",
+    "section": "Meet & Greet",
+    "english": "We met through a friend.",
+    "targetPinyin": "women shi tongguo pengyou renshi de",
+    "targetHanzi": "我们是通过朋友认识的。",
+    "hintWords": ["tongguo", "renshi"],
+    "wordBank": ["women", "shi", "tongguo", "pengyou", "renshi", "de"],
+    "hanziWordBank": ["我们", "是", "通过", "朋友", "认识", "的"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "shi", "english": "are / is" },
+      { "pinyin": "tongguo", "english": "through / by means of" },
+      { "pinyin": "pengyou", "english": "friend" },
+      { "pinyin": "renshi", "english": "to meet / know" },
+      { "pinyin": "de", "english": "descriptive/ending particle" }
+    ],
+    "extraWord": "wo de",
+    "extraWordHanzi": "我的",
+    "extraWord2": "ni de",
+    "extraWord2Hanzi": "你的",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wo de" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wo de", "extraWord2": "ni de" }
+    },
+    "acceptedVariants": ["women shi tongguo pengyou renshi de"]
+  },
+  {
+    "id": "sent-set7-038",
+    "set": 7,
+    "category": "friends",
+    "section": "Meet & Greet",
+    "english": "I often hang out with them.",
+    "targetPinyin": "wo changchang gen tamen yiqi wan",
+    "targetHanzi": "我常常跟他们一起玩。",
+    "hintWords": ["changchang", "tamen", "yiqi"],
+    "wordBank": ["wo", "changchang", "gen", "tamen", "yiqi", "wan"],
+    "hanziWordBank": ["我", "常常", "跟", "他们", "一起", "玩"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "changchang", "english": "often" },
+      { "pinyin": "gen", "english": "with" },
+      { "pinyin": "tamen", "english": "them / they" },
+      { "pinyin": "yiqi", "english": "together" },
+      { "pinyin": "wan", "english": "play / hang out" }
+    ],
+    "extraWord": "ni men",
+    "extraWordHanzi": "你们",
+    "extraWord2": "wo men",
+    "extraWord2Hanzi": "我们",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ni men" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ni men", "extraWord2": "wo men" }
+    },
+    "acceptedVariants": ["wo changchang gen tamen yiqi wan"]
+  },
+  {
+    "id": "sent-set7-039",
+    "set": 7,
+    "category": "friends",
+    "section": "Meet & Greet",
+    "english": "They are all pretty easygoing.",
+    "targetPinyin": "tamen dou hai man suihe de",
+    "targetHanzi": "他们都还蛮随和的。",
+    "hintWords": ["dou", "suihe"],
+    "wordBank": ["tamen", "dou", "hai", "man", "suihe", "de"],
+    "hanziWordBank": ["他们", "都", "还", "蛮", "随和", "的"],
+    "breakdown": [
+      { "pinyin": "tamen", "english": "they / them" },
+      { "pinyin": "dou", "english": "all / both" },
+      { "pinyin": "hai", "english": "quite / fairly" },
+      { "pinyin": "man", "english": "pretty / rather" },
+      { "pinyin": "suihe", "english": "easygoing / agreeable" },
+      { "pinyin": "de", "english": "descriptive ending" }
+    ],
+    "extraWord": "hen mang",
+    "extraWordHanzi": "很忙",
+    "extraWord2": "bu hao",
+    "extraWord2Hanzi": "不好",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen mang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen mang", "extraWord2": "bu hao" }
+    },
+    "acceptedVariants": ["tamen dou hai man suihe de"]
+  },
+  {
+    "id": "sent-set7-040",
+    "set": 7,
+    "category": "friends",
+    "section": "Meet & Greet",
+    "english": "I would like to get to know you better.",
+    "targetPinyin": "wo xiang geng duo liaojie ni yi dian",
+    "targetHanzi": "我想更多了解你一点。",
+    "hintWords": ["liaojie", "yi dian"],
+    "wordBank": ["wo", "xiang", "geng duo", "liaojie", "ni", "yi dian"],
+    "hanziWordBank": ["我", "想", "更多", "了解", "你", "一点"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "xiang", "english": "want / would like" },
+      { "pinyin": "geng duo", "english": "more" },
+      { "pinyin": "liaojie", "english": "understand / get to know" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "yi dian", "english": "a bit / a little" }
+    ],
+    "extraWord": "ta",
+    "extraWordHanzi": "他",
+    "extraWord2": "wo men",
+    "extraWord2Hanzi": "我们",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "ta" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "ta", "extraWord2": "wo men" }
+    },
+    "acceptedVariants": ["wo xiang geng duo liaojie ni yi dian"]
+  },
+  {
+    "id": "sent-set7-041",
+    "set": 7,
+    "category": "food_social",
+    "section": "Meet & Greet",
+    "english": "This restaurant is pretty popular.",
+    "targetPinyin": "zhe jia canting hai man youming de",
+    "targetHanzi": "这家餐厅还蛮有名的。",
+    "hintWords": ["canting", "youming"],
+    "wordBank": ["zhe jia", "canting", "hai", "man", "youming", "de"],
+    "hanziWordBank": ["这家", "餐厅", "还", "蛮", "有名", "的"],
+    "breakdown": [
+      { "pinyin": "zhe jia", "english": "this (measure for shop/place)" },
+      { "pinyin": "canting", "english": "restaurant" },
+      { "pinyin": "hai", "english": "quite / fairly" },
+      { "pinyin": "man", "english": "pretty / rather" },
+      { "pinyin": "youming", "english": "famous / popular" },
+      { "pinyin": "de", "english": "descriptive ending" }
+    ],
+    "extraWord": "kafeidian",
+    "extraWordHanzi": "咖啡店",
+    "extraWord2": "fandian",
+    "extraWord2Hanzi": "饭店",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "kafeidian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "kafeidian", "extraWord2": "fandian" }
+    },
+    "acceptedVariants": ["zhe jia canting hai man youming de"]
+  },
+  {
+    "id": "sent-set7-042",
+    "set": 7,
+    "category": "food_social",
+    "section": "Meet & Greet",
+    "english": "The food here is not bad at all.",
+    "targetPinyin": "zheli de cai yi dian ye bu cuo",
+    "targetHanzi": "这里的菜一点也不错。",
+    "hintWords": ["zheli", "bu cuo"],
+    "wordBank": ["zheli de", "cai", "yi dian ye", "bu cuo"],
+    "hanziWordBank": ["这里的", "菜", "一点也", "不错"],
+    "breakdown": [
+      { "pinyin": "zheli de", "english": "here's / the ... here" },
+      { "pinyin": "cai", "english": "dish / food" },
+      { "pinyin": "yi dian ye", "english": "not at all (with negative) / even a little" },
+      { "pinyin": "bu cuo", "english": "not bad / pretty good" }
+    ],
+    "extraWord": "hen gui",
+    "extraWordHanzi": "很贵",
+    "extraWord2": "bu tai hao",
+    "extraWord2Hanzi": "不太好",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "hen gui" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "hen gui", "extraWord2": "bu tai hao" }
+    },
+    "acceptedVariants": ["zheli de cai yi dian ye bu cuo"]
+  },
+  {
+    "id": "sent-set7-043",
+    "set": 7,
+    "category": "food_social",
+    "section": "Meet & Greet",
+    "english": "I really like Taiwanese breakfast.",
+    "targetPinyin": "wo zhen de hen xihuan tai shi zaocan",
+    "targetHanzi": "我真的很喜欢台式早餐。",
+    "hintWords": ["zhen de", "zaocan"],
+    "wordBank": ["wo", "zhen de", "hen", "xihuan", "tai shi", "zaocan"],
+    "hanziWordBank": ["我", "真的", "很", "喜欢", "台式", "早餐"],
+    "breakdown": [
+      { "pinyin": "wo", "english": "I" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "hen", "english": "very" },
+      { "pinyin": "xihuan", "english": "like" },
+      { "pinyin": "tai shi", "english": "Taiwan-style" },
+      { "pinyin": "zaocan", "english": "breakfast" }
+    ],
+    "extraWord": "wancan",
+    "extraWordHanzi": "晚餐",
+    "extraWord2": "wufan",
+    "extraWord2Hanzi": "午饭",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "wancan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "wancan", "extraWord2": "wufan" }
+    },
+    "acceptedVariants": ["wo zhen de hen xihuan tai shi zaocan"]
+  },
+  {
+    "id": "sent-set7-044",
+    "set": 7,
+    "category": "food_social",
+    "section": "Meet & Greet",
+    "english": "Do you want bubble tea or coffee?",
+    "targetPinyin": "ni yao zhenzhu naicha haishi kafei",
+    "targetHanzi": "你要珍珠奶茶还是咖啡？",
+    "hintWords": ["naicha", "haishi", "kafei"],
+    "wordBank": ["ni", "yao", "zhenzhu naicha", "haishi", "kafei"],
+    "hanziWordBank": ["你", "要", "珍珠奶茶", "还是", "咖啡"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "yao", "english": "want" },
+      { "pinyin": "zhenzhu naicha", "english": "bubble milk tea" },
+      { "pinyin": "haishi", "english": "or" },
+      { "pinyin": "kafei", "english": "coffee" }
+    ],
+    "extraWord": "cha",
+    "extraWordHanzi": "茶",
+    "extraWord2": "niurou mian",
+    "extraWord2Hanzi": "牛肉面",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "niurou mian" }
+    },
+    "acceptedVariants": ["ni yao zhenzhu naicha haishi kafei"]
+  },
+  {
+    "id": "sent-set7-045",
+    "set": 7,
+    "category": "food_social",
+    "section": "Meet & Greet",
+    "english": "Let me buy you a drink.",
+    "targetPinyin": "rang wo qing ni he yinliao",
+    "targetHanzi": "让我请你喝饮料。",
+    "hintWords": ["qing", "yinliao"],
+    "wordBank": ["rang", "wo", "qing", "ni", "he", "yinliao"],
+    "hanziWordBank": ["让", "我", "请", "你", "喝", "饮料"],
+    "breakdown": [
+      { "pinyin": "rang", "english": "let / allow" },
+      { "pinyin": "wo", "english": "me / I" },
+      { "pinyin": "qing", "english": "treat / invite / pay for" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "he", "english": "drink" },
+      { "pinyin": "yinliao", "english": "drink / beverage" }
+    ],
+    "extraWord": "chi fan",
+    "extraWordHanzi": "吃饭",
+    "extraWord2": "kafei",
+    "extraWord2Hanzi": "咖啡",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "chi fan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "chi fan", "extraWord2": "kafei" }
+    },
+    "acceptedVariants": ["rang wo qing ni he yinliao"]
+  },
+  {
+    "id": "sent-set7-046",
+    "set": 7,
+    "category": "ending",
+    "section": "Meet & Greet",
+    "english": "It was nice meeting you today.",
+    "targetPinyin": "jintian renshi ni zhen de hen gaoxing",
+    "targetHanzi": "今天认识你真的很高兴。",
+    "hintWords": ["jintian", "gaoxing"],
+    "wordBank": ["jintian", "renshi", "ni", "zhen de", "hen gaoxing"],
+    "hanziWordBank": ["今天", "认识", "你", "真的", "很高兴"],
+    "breakdown": [
+      { "pinyin": "jintian", "english": "today" },
+      { "pinyin": "renshi", "english": "to meet / know" },
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "zhen de", "english": "really" },
+      { "pinyin": "hen gaoxing", "english": "very happy / glad" }
+    ],
+    "extraWord": "mingtian",
+    "extraWordHanzi": "明天",
+    "extraWord2": "wo",
+    "extraWord2Hanzi": "我",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "mingtian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "mingtian", "extraWord2": "wo" }
+    },
+    "acceptedVariants": ["jintian renshi ni zhen de hen gaoxing"]
+  },
+  {
+    "id": "sent-set7-047",
+    "set": 7,
+    "category": "ending",
+    "section": "Meet & Greet",
+    "english": "Let us stay in touch.",
+    "targetPinyin": "women baochi lianluo hao ma",
+    "targetHanzi": "我们保持联络好吗？",
+    "hintWords": ["baochi lianluo"],
+    "wordBank": ["women", "baochi lianluo", "hao", "ma"],
+    "hanziWordBank": ["我们", "保持联络", "好", "吗"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "baochi lianluo", "english": "keep in touch" },
+      { "pinyin": "hao", "english": "good / okay" },
+      { "pinyin": "ma", "english": "question particle" }
+    ],
+    "extraWord": "zai jian",
+    "extraWordHanzi": "再见",
+    "extraWord2": "chuan xunxi",
+    "extraWord2Hanzi": "传讯息",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zai jian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zai jian", "extraWord2": "chuan xunxi" }
+    },
+    "acceptedVariants": ["women baochi lianluo hao ma"]
+  },
+  {
+    "id": "sent-set7-048",
+    "set": 7,
+    "category": "ending",
+    "section": "Meet & Greet",
+    "english": "Message me when you get home.",
+    "targetPinyin": "ni dao jia zai chuan xunxi gei wo",
+    "targetHanzi": "你到家再传讯息给我。",
+    "hintWords": ["dao jia", "xunxi"],
+    "wordBank": ["ni", "dao jia", "zai", "chuan xunxi", "gei", "wo"],
+    "hanziWordBank": ["你", "到家", "再", "传讯息", "给", "我"],
+    "breakdown": [
+      { "pinyin": "ni", "english": "you" },
+      { "pinyin": "dao jia", "english": "arrive home / get home" },
+      { "pinyin": "zai", "english": "then / again / after that" },
+      { "pinyin": "chuan xunxi", "english": "send a message" },
+      { "pinyin": "gei", "english": "to / for" },
+      { "pinyin": "wo", "english": "me / I" }
+    ],
+    "extraWord": "jinwan",
+    "extraWordHanzi": "今晚",
+    "extraWord2": "ta",
+    "extraWord2Hanzi": "他",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jinwan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jinwan", "extraWord2": "ta" }
+    },
+    "acceptedVariants": ["ni dao jia zai chuan xunxi gei wo"]
+  },
+  {
+    "id": "sent-set7-049",
+    "set": 7,
+    "category": "ending",
+    "section": "Meet & Greet",
+    "english": "Okay then, bye-bye for now.",
+    "targetPinyin": "hao na women xian bai bai",
+    "targetHanzi": "好，那我们先拜拜。",
+    "hintWords": ["xian", "bai bai"],
+    "wordBank": ["hao", "na", "women", "xian", "bai bai"],
+    "hanziWordBank": ["好", "那", "我们", "先", "拜拜"],
+    "breakdown": [
+      { "pinyin": "hao", "english": "okay / good" },
+      { "pinyin": "na", "english": "then / in that case" },
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "xian", "english": "first / for now" },
+      { "pinyin": "bai bai", "english": "bye-bye" }
+    ],
+    "extraWord": "zai jian",
+    "extraWordHanzi": "再见",
+    "extraWord2": "wan an",
+    "extraWord2Hanzi": "晚安",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zai jian" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zai jian", "extraWord2": "wan an" }
+    },
+    "acceptedVariants": ["hao na women xian bai bai"]
+  },
+  {
+    "id": "sent-set7-050",
+    "set": 7,
+    "category": "ending",
+    "section": "Meet & Greet",
+    "english": "See you again next time.",
+    "targetPinyin": "women xia ci zai jian ba",
+    "targetHanzi": "我们下次再见吧。",
+    "hintWords": ["xia ci", "zai jian"],
+    "wordBank": ["women", "xia ci", "zai jian", "ba"],
+    "hanziWordBank": ["我们", "下次", "再见", "吧"],
+    "breakdown": [
+      { "pinyin": "women", "english": "we / us" },
+      { "pinyin": "xia ci", "english": "next time" },
+      { "pinyin": "zai jian", "english": "see again / goodbye" },
+      { "pinyin": "ba", "english": "suggestion / soft ending" }
+    ],
+    "extraWord": "jinwan",
+    "extraWordHanzi": "今晚",
+    "extraWord2": "mingtian",
+    "extraWord2Hanzi": "明天",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jinwan" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jinwan", "extraWord2": "mingtian" }
+    },
+    "acceptedVariants": ["women xia ci zai jian ba"]
+  }
 
 
 ]

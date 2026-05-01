@@ -11,6 +11,45 @@
   opacity: 0.8;
 }
 
+/* ─── Breakdown section (results only) ──────────────────────────────────── */
+.ssr-breakdown {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color, #d1d5db);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ssr-breakdown-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary, #6b7280);
+  margin-bottom: 4px;
+}
+
+.ssr-breakdown-row {
+  display: flex;
+  gap: 6px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.ssr-breakdown-pinyin {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ssr-breakdown-sep {
+  color: var(--text-secondary, #9ca3af);
+}
+
+.ssr-breakdown-english {
+  color: var(--text-secondary, #6b7280);
+}
+
 /* ─── End-of-run summary screen ─────────────────────────────────────────── */
 .ssr-summary {
   display: flex;
