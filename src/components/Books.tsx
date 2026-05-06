@@ -116,13 +116,6 @@ export default function Books() {
           })}
         </div>
 
-        <button
-          className="books-sentence-builder-btn"
-          onClick={() => navigate('/sentence-builder')}
-        >
-          Sentence Builder (Type)
-        </button>
-
         <div className="books-set-grid">
         {Array.from(
           new Set((sentencesRaw as { set: number; id: string }[]).map(s => s.set))

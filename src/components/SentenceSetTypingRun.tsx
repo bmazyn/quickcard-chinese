@@ -80,6 +80,21 @@ export default function SentenceSetTypingRun() {
   const sentence = sentences[index];
   const isLast = index === sentences.length - 1;
 
+  const speakHanzi = (text: string) => {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "zh-CN";
+    // prefer a Chinese voice if available
+    const voices = window.speechSynthesis.getVoices();
+    const chinese = voices.find(
+      (v) => v.lang.startsWith("zh") || v.lang.startsWith("cmn")
+    );
+    if (chinese) utter.voice = chinese;
+    utter.rate = 0.9;
+    window.speechSynthesis.speak(utter);
+  };
+
   const handleSubmit = () => {
     const grade = gradeSentence(input, sentence.targetPinyin, sentence.acceptedVariants);
     setResult({ grade, userAnswer: input.trim() });
@@ -203,7 +218,17 @@ export default function SentenceSetTypingRun() {
             </div>
             <div className="sb-result-row">
               <span className="sb-result-label">Hanzi:</span>
-              <span className="sb-result-value sb-hanzi">{sentence.targetHanzi}</span>
+              <span className="sb-result-value sb-hanzi">
+                {sentence.targetHanzi}
+                <button
+                  className="sb-speak-btn"
+                  onClick={() => speakHanzi(sentence.targetHanzi)}
+                  aria-label="Play audio"
+                  title="Play audio"
+                >
+                  🔊
+                </button>
+              </span>
             </div>
 
             <button className="sb-submit-btn" onClick={goNext}>

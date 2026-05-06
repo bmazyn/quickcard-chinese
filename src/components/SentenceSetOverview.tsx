@@ -105,7 +105,6 @@ export default function SentenceSetOverview() {
         </div>
 
         {/* ── Typing mode section ── */}
-        <div className="sso-section-label">Typing Mode</div>
 
         {/* Typing stats */}
         <div className="sso-stats">
