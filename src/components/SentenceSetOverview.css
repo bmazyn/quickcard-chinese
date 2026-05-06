@@ -11,8 +11,7 @@
 .sso-shell {
   max-width: 480px;
   margin: 0 auto;
-  padding: 0 12px 80px;
-  min-height: 100%;
+  padding: 0 12px calc(16px + env(safe-area-inset-bottom, 0px));
 }
 
 /* ─── Header ────────────────────────────────────────────────────────────── */
