@@ -126,6 +126,39 @@
   transition: width 0.3s ease;
 }
 
+.sso-fill-bar--typing {
+  background: #22c55e; /* green */
+}
+
+/* ─── Section label (between builder and typing) ───────────────────────── */
+.sso-section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-secondary, #6b7280);
+  margin: 8px 0 10px;
+}
+
+/* ─── Typing grid (10 columns) ──────────────────────────────────────────── */
+.sso-grid--typing {
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+}
+
+.sso-card--typing {
+  border-color: rgba(34, 197, 94, 0.45);
+}
+
+.sso-card--typing-done {
+  border-color: #22c55e;
+}
+
+/* typing cards have no level dividers */
+.sso-card--typing::after {
+  display: none;
+}
+
 /* ─── Play button ───────────────────────────────────────────────────────── */
 .sso-play-wrap {
   display: flex;
@@ -149,3 +182,8 @@
 }
 .sso-play-btn:hover { opacity: 0.88; }
 .sso-play-btn:active { opacity: 0.75; }
+
+.sso-play-btn--typing {
+  background: #22c55e;
+  color: #fff;
+}

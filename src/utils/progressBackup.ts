@@ -83,6 +83,11 @@ function isQuickCardProgressKey(key: string): boolean {
     return true;
   }
 
+  // Sentence Set typing progress
+  if (key === 'sentenceSetTypingProgress') {
+    return true;
+  }
+
   return false;
 }
 

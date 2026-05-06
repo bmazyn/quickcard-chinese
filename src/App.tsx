@@ -17,6 +17,7 @@ import SentenceBuilder from './components/SentenceBuilder'
 import SentenceWordBank from './components/SentenceWordBank'
 import SentenceSetOverview from './components/SentenceSetOverview'
 import SentenceSetRun from './components/SentenceSetRun'
+import SentenceSetTypingRun from './components/SentenceSetTypingRun'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -47,6 +48,7 @@ function App() {
         <Route path="/sentence-word-bank" element={<SentenceWordBank />} />
         <Route path="/sentence-set/:setId" element={<SentenceSetOverview />} />
         <Route path="/sentence-set/:setId/run" element={<SentenceSetRun />} />
+        <Route path="/sentence-set/:setId/type" element={<SentenceSetTypingRun />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
