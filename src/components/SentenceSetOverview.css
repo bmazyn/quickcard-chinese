@@ -44,8 +44,8 @@
 /* ─── Stats row ─────────────────────────────────────────────────────────── */
 .sso-stats {
   display: flex;
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 
 .sso-stat {
@@ -53,18 +53,19 @@
   flex-direction: column;
   align-items: center;
   background: var(--bg-secondary, #f3f4f6);
-  border-radius: 12px;
-  padding: 10px 24px;
-  min-width: 80px;
+  border-radius: 10px;
+  padding: 6px 16px;
+  min-width: 68px;
 }
 
 .sso-stat-value {
-  font-size: 1.6rem;
+  font-size: 1.35rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .sso-stat-label {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   color: var(--text-secondary, #6b7280);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -75,7 +76,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 6px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .sso-card {
@@ -163,18 +164,18 @@
 .sso-play-wrap {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
+  padding-bottom: 10px;
 }
 
 .sso-play-btn {
   width: 100%;
   max-width: 320px;
-  padding: 15px 0;
+  padding: 10px 0;
   border-radius: 12px;
   border: none;
   background: var(--accent, #3b82f6);
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   transition: opacity 0.15s;
