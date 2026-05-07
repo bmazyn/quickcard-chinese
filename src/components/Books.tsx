@@ -5,6 +5,7 @@ import { getBookMeaningRecallRollup } from "../utils/meaningRecall";
 import { getBook3LayerMatchRollup } from "../utils/threeLayerMatch";
 import sentencesRaw from "../data/sentences.json";
 import { setPercentComplete } from "../utils/sentenceSetProgress";
+import { typingPercentComplete } from "../utils/sentenceSetTypingProgress";
 import "./Books.css";
 
 export default function Books() {
@@ -124,13 +125,17 @@ export default function Books() {
             .filter(s => s.set === setNum)
             .map(s => s.id);
           const pct = setPercentComplete(ids);
+          const tpct = typingPercentComplete(ids);
           return (
             <button
               key={setNum}
               className="books-sentence-builder-btn"
               onClick={() => navigate(`/sentence-set/${setNum}`)}
             >
-              Set {setNum} — {pct}%
+              Set {setNum} —{" "}
+              <span className="books-set-pct books-set-pct--wb">{pct}%</span>
+              {" "}–{" "}
+              <span className="books-set-pct books-set-pct--type">{tpct}%</span>
             </button>
           );
         })}
