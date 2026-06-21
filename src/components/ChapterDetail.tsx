@@ -312,7 +312,7 @@ export default function ChapterDetail() {
             <h1 className="detail-chapter-title">Chapter {chapter}</h1>
           </div>
           
-          <div className="detail-header-actions" style={{ display: 'none' }}>
+          <div className="detail-header-actions">
             <button 
               className={`multi-select-toggle ${isMultiSelectMode ? 'active' : ''}`}
               onClick={handleToggleMultiSelect}

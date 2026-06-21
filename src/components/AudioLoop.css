@@ -143,3 +143,101 @@
   color: var(--text-secondary);
   margin-top: 32px;
 }
+
+/* ── Pocket Mode ─────────────────────────────────── */
+.pocket-button {
+  background: #1a1a2e;
+}
+
+.pocket-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 32px 80px;
+  /* block all accidental tap-through */
+  touch-action: none;
+}
+
+.pocket-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.pocket-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.pocket-deck {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+
+.pocket-counter {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.pocket-wake-warning {
+  font-size: 0.85rem;
+  color: rgba(255, 200, 80, 0.8);
+  text-align: center;
+  max-width: 280px;
+  line-height: 1.5;
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 200, 80, 0.3);
+  border-radius: 10px;
+}
+
+/* Circular hold-to-unlock button using conic-gradient */
+.pocket-unlock-btn {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  /* conic-gradient applied inline via style prop for live progress */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  /* prevent long-press context menu on mobile */
+  -webkit-touch-callout: none;
+}
+
+.pocket-unlock-btn:active {
+  transform: scale(0.96);
+}
+
+.pocket-unlock-inner {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 1.5;
+  pointer-events: none;
+}

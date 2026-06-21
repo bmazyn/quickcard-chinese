@@ -23,6 +23,14 @@ export default function AudioLoop() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const timeoutRef = useRef<number | null>(null);
 
+  // Pocket Mode
+  const [isPocketMode, setIsPocketMode] = useState(false);
+  const [wakeLockSupported, setWakeLockSupported] = useState(true);
+  const [holdProgress, setHoldProgress] = useState(0); // 0-100
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
+  const holdIntervalRef = useRef<number | null>(null);
+  const holdStartRef = useRef<number | null>(null);
+
   // Load cards for the selected decks/levels
   useEffect(() => {
     let sectionCards: QuizCard[] = [];
@@ -154,6 +162,62 @@ export default function AudioLoop() {
     setCurrentIndex((prev) => (prev + 1) % cards.length);
   };
 
+  // Pocket Mode helpers
+  const enterPocketMode = async () => {
+    // Start playing if not already
+    if (!isPlaying || isPaused) {
+      setIsPlaying(true);
+      setIsPaused(false);
+    }
+    // Request wake lock
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLockRef.current = await navigator.wakeLock.request('screen');
+        setWakeLockSupported(true);
+      } catch {
+        setWakeLockSupported(false);
+      }
+    } else {
+      setWakeLockSupported(false);
+    }
+    setIsPocketMode(true);
+  };
+
+  const exitPocketMode = () => {
+    setIsPocketMode(false);
+    setHoldProgress(0);
+    if (wakeLockRef.current) {
+      wakeLockRef.current.release().catch(() => {});
+      wakeLockRef.current = null;
+    }
+    if (holdIntervalRef.current) {
+      clearInterval(holdIntervalRef.current);
+      holdIntervalRef.current = null;
+    }
+  };
+
+  const handleHoldStart = () => {
+    holdStartRef.current = Date.now();
+    holdIntervalRef.current = window.setInterval(() => {
+      const elapsed = Date.now() - (holdStartRef.current ?? Date.now());
+      const pct = Math.min(100, (elapsed / 3000) * 100);
+      setHoldProgress(pct);
+      if (elapsed >= 3000) {
+        clearInterval(holdIntervalRef.current!);
+        holdIntervalRef.current = null;
+        exitPocketMode();
+      }
+    }, 30);
+  };
+
+  const handleHoldEnd = () => {
+    if (holdIntervalRef.current) {
+      clearInterval(holdIntervalRef.current);
+      holdIntervalRef.current = null;
+    }
+    setHoldProgress(0);
+  };
+
   // Handle play button
   const handlePlay = () => {
     setIsPlaying(true);
@@ -183,6 +247,10 @@ export default function AudioLoop() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
+    // Exit pocket mode if active (requirement 7)
+    if (isPocketMode) {
+      exitPocketMode();
+    }
   };
 
   // Auto-play when play state changes
@@ -200,6 +268,12 @@ export default function AudioLoop() {
       }
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
+      }
+      if (wakeLockRef.current) {
+        wakeLockRef.current.release().catch(() => {});
+      }
+      if (holdIntervalRef.current) {
+        clearInterval(holdIntervalRef.current);
       }
     };
   }, []);
@@ -242,6 +316,40 @@ export default function AudioLoop() {
 
   return (
     <div className="audio-loop">
+      {/* Pocket Mode overlay */}
+      {isPocketMode && (
+        <div className="pocket-overlay">
+          <div className="pocket-info">
+            <div className="pocket-label">Pocket Mode</div>
+            {displayTitle && <div className="pocket-deck">{displayTitle}</div>}
+            {cards.length > 0 && (
+              <div className="pocket-counter">{currentIndex + 1} / {cards.length}</div>
+            )}
+            {!wakeLockSupported && (
+              <div className="pocket-wake-warning">
+                Keep-awake not supported. You may need to set Auto-Lock to Never.
+              </div>
+            )}
+          </div>
+          <button
+            className="pocket-unlock-btn"
+            onMouseDown={handleHoldStart}
+            onMouseUp={handleHoldEnd}
+            onMouseLeave={handleHoldEnd}
+            onTouchStart={handleHoldStart}
+            onTouchEnd={handleHoldEnd}
+            onTouchCancel={handleHoldEnd}
+            style={{
+              background: `conic-gradient(rgba(255,255,255,0.9) ${holdProgress * 3.6}deg, rgba(255,255,255,0.15) 0deg)`
+            }}
+          >
+            <span className="pocket-unlock-inner">
+              Hold 3s<br />to unlock
+            </span>
+          </button>
+        </div>
+      )}
+
       <div className="audio-loop-content">
         <div className="audio-loop-header">
           <button className="home-icon" onClick={() => {
@@ -282,6 +390,9 @@ export default function AudioLoop() {
           )}
           <button className="control-button stop-button" onClick={handleStop}>
             ⏹️ Stop
+          </button>
+          <button className="control-button pocket-button" onClick={enterPocketMode}>
+            🌙 Pocket
           </button>
         </div>
       </div>

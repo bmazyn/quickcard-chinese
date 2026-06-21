@@ -1,0 +1,539 @@
+饭
+Rice / meal
+饭
+[PAUSE 1 SECOND]
+
+面
+Noodles
+面
+[PAUSE 1 SECOND]
+
+肉
+Meat
+肉
+[PAUSE 1 SECOND]
+
+菜
+Dish / vegetables
+菜
+[PAUSE 1 SECOND]
+
+咖啡
+Coffee
+咖啡
+[PAUSE 1 SECOND]
+
+茶
+Tea
+茶
+[PAUSE 1 SECOND]
+
+鸡
+Chicken
+鸡
+[PAUSE 1 SECOND]
+
+牛
+Beef
+牛
+[PAUSE 1 SECOND]
+
+点
+Order
+点
+[PAUSE 1 SECOND]
+
+叫
+Call / order
+叫
+[PAUSE 1 SECOND]
+
+试
+Try
+试
+[PAUSE 1 SECOND]
+
+拿
+Take
+拿
+[PAUSE 1 SECOND]
+
+等
+Wait
+等
+[PAUSE 1 SECOND]
+
+选
+Choose
+选
+[PAUSE 1 SECOND]
+
+来
+Bring / have
+来
+[PAUSE 1 SECOND]
+
+买
+Buy
+买
+[PAUSE 1 SECOND]
+
+菜单
+Menu
+菜单
+[PAUSE 1 SECOND]
+
+服务员
+Server
+服务员
+[PAUSE 1 SECOND]
+
+口味
+Flavor
+口味
+[PAUSE 1 SECOND]
+
+辣
+Spicy
+辣
+[PAUSE 1 SECOND]
+
+甜
+Sweet
+甜
+[PAUSE 1 SECOND]
+
+咸
+Salty
+咸
+[PAUSE 1 SECOND]
+
+杯子
+Cup
+杯子
+[PAUSE 1 SECOND]
+
+桌子
+Table
+桌子
+[PAUSE 1 SECOND]
+
+我要点菜
+I want to order food.
+我要点菜
+[PAUSE 1 SECOND]
+
+我要这个菜
+I want this dish.
+我要这个菜
+[PAUSE 1 SECOND]
+
+我要面
+I want noodles.
+我要面
+[PAUSE 1 SECOND]
+
+我要饭
+I want rice.
+我要饭
+[PAUSE 1 SECOND]
+
+我要鸡
+I want chicken.
+我要鸡
+[PAUSE 1 SECOND]
+
+我要牛
+I want beef.
+我要牛
+[PAUSE 1 SECOND]
+
+我要茶
+I want tea.
+我要茶
+[PAUSE 1 SECOND]
+
+我要咖啡
+I want coffee.
+我要咖啡
+[PAUSE 1 SECOND]
+
+我要水
+I want water.
+我要水
+[PAUSE 1 SECOND]
+
+这太辣了
+This is too spicy.
+这太辣了
+[PAUSE 1 SECOND]
+
+这很好
+This is good.
+这很好
+[PAUSE 1 SECOND]
+
+请给我账单
+The bill, please.
+请给我账单
+[PAUSE 1 SECOND]
+
+商店
+Store
+商店
+[PAUSE 1 SECOND]
+
+银行
+Bank
+银行
+[PAUSE 1 SECOND]
+
+医院
+Hospital
+医院
+[PAUSE 1 SECOND]
+
+厕所
+Bathroom
+厕所
+[PAUSE 1 SECOND]
+
+饭店
+Restaurant
+饭店
+[PAUSE 1 SECOND]
+
+酒店
+Hotel
+酒店
+[PAUSE 1 SECOND]
+
+超市
+Supermarket
+超市
+[PAUSE 1 SECOND]
+
+药房
+Pharmacy
+药房
+[PAUSE 1 SECOND]
+
+钱
+Money
+钱
+[PAUSE 1 SECOND]
+
+现金
+Cash
+现金
+[PAUSE 1 SECOND]
+
+卡
+Card
+卡
+[PAUSE 1 SECOND]
+
+付
+Pay
+付
+[PAUSE 1 SECOND]
+
+找
+Give change
+找
+[PAUSE 1 SECOND]
+
+贵
+Expensive
+贵
+[PAUSE 1 SECOND]
+
+便宜
+Cheap
+便宜
+[PAUSE 1 SECOND]
+
+价格
+Price
+价格
+[PAUSE 1 SECOND]
+
+帮
+Help
+帮
+[PAUSE 1 SECOND]
+
+问
+Ask
+问
+[PAUSE 1 SECOND]
+
+知道
+Know
+知道
+[PAUSE 1 SECOND]
+
+迷
+Lost
+迷
+[PAUSE 1 SECOND]
+
+东西
+Thing
+东西
+[PAUSE 1 SECOND]
+
+这里
+Here
+这里
+[PAUSE 1 SECOND]
+
+那里
+There
+那里
+[PAUSE 1 SECOND]
+
+错
+Wrong
+错
+[PAUSE 1 SECOND]
+
+厕所在哪里
+Where is the bathroom?
+厕所在哪里
+[PAUSE 1 SECOND]
+
+商店在哪里
+Where is the store?
+商店在哪里
+[PAUSE 1 SECOND]
+
+酒店在哪里
+Where is the hotel?
+酒店在哪里
+[PAUSE 1 SECOND]
+
+银行在哪里
+Where is the bank?
+银行在哪里
+[PAUSE 1 SECOND]
+
+这太贵了
+This is too expensive.
+这太贵了
+[PAUSE 1 SECOND]
+
+这很便宜
+This is cheap.
+这很便宜
+[PAUSE 1 SECOND]
+
+这多少钱
+How much is this?
+这多少钱
+[PAUSE 1 SECOND]
+
+我要付
+I want to pay.
+我要付
+[PAUSE 1 SECOND]
+
+可以用卡吗
+Can I use a card?
+可以用卡吗
+[PAUSE 1 SECOND]
+
+我需要帮忙
+I need help.
+我需要帮忙
+[PAUSE 1 SECOND]
+
+我迷了
+I’m lost.
+我迷了
+[PAUSE 1 SECOND]
+
+这是错的
+This is wrong.
+这是错的
+[PAUSE 1 SECOND]
+
+车
+Vehicle
+车
+[PAUSE 1 SECOND]
+
+出租车
+Taxi
+出租车
+[PAUSE 1 SECOND]
+
+公共汽车
+Bus
+公共汽车
+[PAUSE 1 SECOND]
+
+地铁
+Subway
+地铁
+[PAUSE 1 SECOND]
+
+火车
+Train
+火车
+[PAUSE 1 SECOND]
+
+飞机
+Airplane
+飞机
+[PAUSE 1 SECOND]
+
+自行车
+Bicycle
+自行车
+[PAUSE 1 SECOND]
+
+班车
+Shuttle
+班车
+[PAUSE 1 SECOND]
+
+车站
+Station
+车站
+[PAUSE 1 SECOND]
+
+机场
+Airport
+机场
+[PAUSE 1 SECOND]
+
+站台
+Platform
+站台
+[PAUSE 1 SECOND]
+
+出口
+Exit
+出口
+[PAUSE 1 SECOND]
+
+入口
+Entrance
+入口
+[PAUSE 1 SECOND]
+
+路口
+Intersection
+路口
+[PAUSE 1 SECOND]
+
+中转站
+Transfer station
+中转站
+[PAUSE 1 SECOND]
+
+地点
+Location
+地点
+[PAUSE 1 SECOND]
+
+到
+Arrive
+到
+[PAUSE 1 SECOND]
+
+出发
+Depart
+出发
+[PAUSE 1 SECOND]
+
+换
+Transfer
+换
+[PAUSE 1 SECOND]
+
+过
+Pass / cross
+过
+[PAUSE 1 SECOND]
+
+进
+Enter
+进
+[PAUSE 1 SECOND]
+
+出
+Exit
+出
+[PAUSE 1 SECOND]
+
+停
+Stop
+停
+[PAUSE 1 SECOND]
+
+靠
+Pull over / next to
+靠
+[PAUSE 1 SECOND]
+
+车站在哪里
+Where is the station?
+车站在哪里
+[PAUSE 1 SECOND]
+
+机场在哪里
+Where is the airport?
+机场在哪里
+[PAUSE 1 SECOND]
+
+地铁在哪里
+Where is the subway?
+地铁在哪里
+[PAUSE 1 SECOND]
+
+入口在哪里
+Where is the entrance?
+入口在哪里
+[PAUSE 1 SECOND]
+
+出口在哪里
+Where is the exit?
+出口在哪里
+[PAUSE 1 SECOND]
+
+我去机场
+I’m going to the airport.
+我去机场
+[PAUSE 1 SECOND]
+
+我要去这里
+I want to go here.
+我要去这里
+[PAUSE 1 SECOND]
+
+我到这里
+I arrive here.
+我到这里
+[PAUSE 1 SECOND]
+
+在这里换
+Transfer here.
+在这里换
+[PAUSE 1 SECOND]
+
+请在这里停
+Stop here, please.
+请在这里停
+[PAUSE 1 SECOND]
+
+在这里下车
+Get off here.
+在这里下车
+[PAUSE 1 SECOND]
+
+过这个路口
+Pass this intersection.
+过这个路口
+[PAUSE 1 SECOND]
