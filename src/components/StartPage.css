@@ -147,3 +147,51 @@
     width: 100%;
   }
 }
+
+/* Short Stories card */
+.start-stories-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 320px;
+  text-align: left;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.start-stories-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+}
+
+.start-stories-btn:active {
+  transform: translateY(0);
+}
+
+.start-stories-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.start-stories-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.start-stories-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.start-stories-sub {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "too-spicy",
+    "title": "Too Spicy",
+    "level": 1,
+    "description": "Beginner listening story",
+    "lines": [
+      {
+        "hanzi": "Brian 去饭店。",
+        "pinyin": "Brian qù fàndiàn.",
+        "english": "Brian goes to a restaurant."
+      },
+      {
+        "hanzi": "他看菜单。",
+        "pinyin": "Tā kàn càidān.",
+        "english": "He looks at the menu."
+      },
+      {
+        "hanzi": "他要牛肉面和茶。",
+        "pinyin": "Tā yào niúròu miàn hé chá.",
+        "english": "He wants beef noodles and tea."
+      },
+      {
+        "hanzi": "服务员拿来面。",
+        "pinyin": "Fúwùyuán ná lái miàn.",
+        "english": "The server brings the noodles."
+      },
+      {
+        "hanzi": "他吃一口。",
+        "pinyin": "Tā chī yì kǒu.",
+        "english": "He takes one bite."
+      },
+      {
+        "hanzi": "不好，太辣了。",
+        "pinyin": "Bù hǎo, tài là le.",
+        "english": "Oh no, it is too spicy."
+      },
+      {
+        "hanzi": "他喝茶。",
+        "pinyin": "Tā hē chá.",
+        "english": "He drinks tea."
+      },
+      {
+        "hanzi": "茶很甜。",
+        "pinyin": "Chá hěn tián.",
+        "english": "The tea is sweet."
+      },
+      {
+        "hanzi": "现在好多了。",
+        "pinyin": "Xiànzài hǎo duō le.",
+        "english": "Now he feels better."
+      },
+      {
+        "hanzi": "他付钱，然后走了。",
+        "pinyin": "Tā fù qián, ránhòu zǒu le.",
+        "english": "He pays and then leaves."
+      }
+    ]
+  }
+]

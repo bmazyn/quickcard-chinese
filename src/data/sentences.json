@@ -8891,6 +8891,73 @@
     "acceptedVariants": ["wo zai zheli ta xianzai zai nali", "wo zai zheli ta xianzai zai nar"]
   }
 
+  ,
+  {
+    "id": "sent-set9-test-001",
+    "set": 9,
+    "category": "audio-test",
+    "section": "Audio Loop Test",
+    "english": "I want coffee.",
+    "targetPinyin": "wo yao kafei",
+    "targetHanzi": "我要咖啡。",
+    "hintWords": ["yao", "kafei"],
+    "wordBank": ["wo", "yao", "kafei", "cha", "fandian", "qu", "zheli", "ni", "shui"],
+    "hanziWordBank": ["我", "要", "咖啡", "茶", "饭店", "去", "这里", "你", "水"],
+    "extraWord": "cha",
+    "extraWordHanzi": "茶",
+    "extraWord2": "shui",
+    "extraWord2Hanzi": "水",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "cha" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "cha", "extraWord2": "shui" }
+    },
+    "acceptedVariants": ["wo yao kafei"]
+  },
+  {
+    "id": "sent-set9-test-002",
+    "set": 9,
+    "category": "audio-test",
+    "section": "Audio Loop Test",
+    "english": "The bathroom is over there.",
+    "targetPinyin": "cesuo zai nali",
+    "targetHanzi": "厕所在那里。",
+    "hintWords": ["cesuo", "nali"],
+    "wordBank": ["cesuo", "zai", "nali", "zheli", "fandian", "wo", "yao", "qu", "chezhan"],
+    "hanziWordBank": ["厕所", "在", "那里", "这里", "饭店", "我", "要", "去", "车站"],
+    "extraWord": "zheli",
+    "extraWordHanzi": "这里",
+    "extraWord2": "chezhan",
+    "extraWord2Hanzi": "车站",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "zheli" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "zheli", "extraWord2": "chezhan" }
+    },
+    "acceptedVariants": ["cesuo zai nali", "cesuo zai nar"]
+  },
+  {
+    "id": "sent-set9-test-003",
+    "set": 9,
+    "category": "audio-test",
+    "section": "Audio Loop Test",
+    "english": "I want to go to the station.",
+    "targetPinyin": "wo yao qu chezhan",
+    "targetHanzi": "我要去车站。",
+    "hintWords": ["qu", "chezhan"],
+    "wordBank": ["wo", "yao", "qu", "chezhan", "jichang", "cesuo", "zai", "nali", "kafei"],
+    "hanziWordBank": ["我", "要", "去", "车站", "机场", "厕所", "在", "那里", "咖啡"],
+    "extraWord": "jichang",
+    "extraWordHanzi": "机场",
+    "extraWord2": "cesuo",
+    "extraWord2Hanzi": "厕所",
+    "levels": {
+      "level1": { "mode": "word_bank" },
+      "level2": { "mode": "word_bank_extra", "extraWord": "jichang" },
+      "level3": { "mode": "word_bank_extra2", "extraWord": "jichang", "extraWord2": "cesuo" }
+    },
+    "acceptedVariants": ["wo yao qu chezhan"]
+  }
 
 
 ]

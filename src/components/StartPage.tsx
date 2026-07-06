@@ -70,6 +70,14 @@ export default function StartPage() {
             style={{ display: 'none' }}
           />
         </div>
+
+        <button className="start-stories-btn" onClick={() => navigate("/stories")}>
+          <span className="start-stories-icon">📖</span>
+          <div className="start-stories-text">
+            <span className="start-stories-title">Short Stories</span>
+            <span className="start-stories-sub">Simple Chinese listening stories</span>
+          </div>
+        </button>
       </div>
     </div>
   );

@@ -126,6 +126,8 @@ export default function Books() {
             .map(s => s.id);
           const pct = setPercentComplete(ids);
           const tpct = typingPercentComplete(ids);
+          const rawLoops = parseInt(localStorage.getItem(`sentenceAudioLoopsCompleted_set${setNum}`) ?? "0", 10) || 0;
+          const loops = Math.min(rawLoops, 5);
           return (
             <button
               key={setNum}
@@ -136,6 +138,8 @@ export default function Books() {
               <span className="books-set-pct books-set-pct--wb">{pct}%</span>
               {" "}–{" "}
               <span className="books-set-pct books-set-pct--type">{tpct}%</span>
+              {" "}–{" "}
+              <span className="books-set-pct books-set-pct--loops">{loops}/5</span>
             </button>
           );
         })}

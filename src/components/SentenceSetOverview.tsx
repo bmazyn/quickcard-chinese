@@ -147,6 +147,35 @@ export default function SentenceSetOverview() {
             ⌨ Play Typing (10)
           </button>
         </div>
+
+        {/* Audio Loop progress */}
+        {(() => {
+          const rawLoops = parseInt(localStorage.getItem(`sentenceAudioLoopsCompleted_set${setNum}`) ?? "0", 10) || 0;
+          const loops = Math.min(rawLoops, 5);
+          return (
+            <div className="sso-audio-progress">
+              <span className="sso-audio-label">Audio Loops {rawLoops}/{5}</span>
+              <div className="sso-audio-slots">
+                {Array.from({ length: 5 }, (_, i) => (
+                  <div
+                    key={i}
+                    className={`sso-audio-slot${i < loops ? " sso-audio-slot--done" : ""}`}
+                  />
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* Audio Loop button */}
+        <div className="sso-play-wrap">
+          <button
+            className="sso-play-btn sso-play-btn--audio"
+            onClick={() => navigate(`/sentence-set/${setNum}/audio-loop`)}
+          >
+            🔊 Audio Loop
+          </button>
+        </div>
       </div>
     </div>
   );
