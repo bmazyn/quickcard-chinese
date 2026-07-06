@@ -48,15 +48,12 @@ export default function SentenceAudioLoop() {
   const [holdProgress, setHoldProgress] = useState(0);
   const [wakeLockSupported, setWakeLockSupported] = useState(true);
 
-  // ── Refs for async loop (avoid stale closures) ─────────────────────────────
-  // runIdRef: incremented each time a new loop starts — old loops bail on mismatch
-  const runIdRef = useRef(0);
-  const shouldPlayRef = useRef(false);
+  // ── Refs for one-item-at-a-time playback (avoid stale closures) ────────────
+  // playTokenRef: incremented each time a new item's playback sequence starts.
+  // A stale in-flight sequence checks this and bails out if it no longer matches.
+  const playTokenRef = useRef(0);
   const isPlayingRef = useRef(false);
   const isPausedRef = useRef(false);
-  const currentIndexRef = useRef(0);
-  // queueRef is the source of truth for runLoop; state is only for rendering
-  const queueRef = useRef<SentenceCard[]>(queue);
   const loopsCompletedRef = useRef<number>(
     parseInt(localStorage.getItem(storageKey) ?? "0", 10) || 0
   );
@@ -147,88 +144,102 @@ export default function SentenceAudioLoop() {
     });
   }
 
-  // ── Main audio loop ────────────────────────────────────────────────────────
-  // Each invocation grabs a unique myId. If runIdRef changes (new call started),
-  // the old loop exits at the next check — prevents double-running.
+  // ── Play one sentence, then advance (one item at a time) ───────────────────
+  // Mirrors the Chapter Audio Loop pattern: play the current sentence fully,
+  // then hand off to React state (setCurrentIndex / setQueue) so a fresh effect
+  // invocation starts the next item. iOS Safari's speechSynthesis can silently
+  // ignore later speak() calls when they're chained deep inside one long-lived
+  // async/await loop — starting each item from a brand-new function call
+  // (triggered by an effect, not a recursive await) avoids that.
+  async function playCurrentSentence(idx: number, currentQueue: SentenceCard[]) {
+    const myToken = ++playTokenRef.current;
+    const shouldContinue = () =>
+      myToken === playTokenRef.current &&
+      isPlayingRef.current &&
+      !isPausedRef.current;
 
-  async function runLoop() {
-    const myId = ++runIdRef.current;
+    if (currentQueue.length === 0 || idx >= currentQueue.length) return;
+    const card = currentQueue[idx];
 
-    while (myId === runIdRef.current && shouldPlayRef.current) {
-      const idx = currentIndexRef.current;
-      const q = queueRef.current;
-      if (q.length === 0 || idx >= q.length) break;
+    // 1. Speak targetHanzi in Chinese
+    await speakChinese(card.targetHanzi);
+    if (!shouldContinue()) return;
 
-      const card = q[idx];
+    // 2. 0.25s pause
+    await sleep(250);
+    if (!shouldContinue()) return;
 
-      // 1. Speak targetHanzi in Chinese
-      await speakChinese(card.targetHanzi);
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    // 3. Speak English
+    await speakEnglish(card.english);
+    if (!shouldContinue()) return;
 
-      // 2. 0.25s pause
-      await sleep(250);
-      await speakEnglish(card.english);
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    // 4. 0.25s pause
+    await sleep(250);
+    if (!shouldContinue()) return;
 
-      // 4. 0.25s pause
-      await sleep(250);
-      await speakChinese(card.targetHanzi, 1.0);
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    // 5. Speak targetHanzi in Chinese again, at full rate
+    await speakChinese(card.targetHanzi, 1.0);
+    if (!shouldContinue()) return;
 
-      // 6. 0.5s pause, soft beep, 0.75s pause before next sentence
-      await sleep(500);
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    // 6. 0.5s pause, soft beep, 0.75s pause before next sentence
+    await sleep(500);
+    if (!shouldContinue()) return;
 
-      await playBeep();
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    await playBeep();
+    if (!shouldContinue()) return;
 
-      await sleep(750);
-      if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+    await sleep(750);
+    if (!shouldContinue()) return;
 
-      // 5. Advance
-      const nextIdx = idx + 1;
-      if (nextIdx >= q.length) {
-        // ── Full set completed ──
-        const newCount = loopsCompletedRef.current + 1;
-        loopsCompletedRef.current = newCount;
-        localStorage.setItem(storageKey, String(newCount));
-        setLoopsCompleted(newCount);
+    // 7. Advance — only update state here; the effect below starts the next
+    // item with a fresh call instead of recursing/looping within this one.
+    const nextIdx = idx + 1;
+    if (nextIdx >= currentQueue.length) {
+      // ── Full set completed ──
+      const newCount = loopsCompletedRef.current + 1;
+      loopsCompletedRef.current = newCount;
+      localStorage.setItem(storageKey, String(newCount));
+      setLoopsCompleted(newCount);
 
-        // Announce
-        await speakEnglish(
-          `Loop ${newCount} completed. Starting loop ${newCount + 1}.`
-        );
-        if (myId !== runIdRef.current || !shouldPlayRef.current) break;
+      // Announce
+      await speakEnglish(
+        `Loop ${newCount} completed. Starting loop ${newCount + 1}.`
+      );
+      if (!shouldContinue()) return;
 
-        // Reshuffle, restart
-        const newQueue = shuffle(allSentences);
-        queueRef.current = newQueue;
-        setQueue(newQueue);
-        currentIndexRef.current = 0;
-        setCurrentIndex(0);
-      } else {
-        currentIndexRef.current = nextIdx;
-        setCurrentIndex(nextIdx);
-      }
+      // Reshuffle, restart
+      setQueue(shuffle(allSentences));
+      setCurrentIndex(0);
+    } else {
+      setCurrentIndex(nextIdx);
     }
   }
 
+  // Auto-advance: whenever play state, index, or queue changes, play the
+  // current sentence — one fresh call per item, same as the Chapter Audio Loop.
+  useEffect(() => {
+    if (isPlaying && !isPaused && queue.length > 0) {
+      playCurrentSentence(currentIndex, queue);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPlaying, isPaused, currentIndex, queue]);
+
   // ── Controls ───────────────────────────────────────────────────────────────
+  // Handlers only update state/refs — the effect above is solely responsible
+  // for starting playback, one item at a time.
 
   function stopAudio() {
-    shouldPlayRef.current = false;
+    playTokenRef.current++; // invalidate any in-flight sequence
     clearPending();
     if ("speechSynthesis" in window) speechSynthesis.cancel();
   }
 
   const handlePlay = () => {
-    if (shouldPlayRef.current) return; // already running
-    shouldPlayRef.current = true;
+    if (isPlayingRef.current && !isPausedRef.current) return; // already running
     isPlayingRef.current = true;
     isPausedRef.current = false;
     setIsPlaying(true);
     setIsPaused(false);
-    runLoop();
   };
 
   const handlePause = () => {
@@ -244,70 +255,42 @@ export default function SentenceAudioLoop() {
     isPausedRef.current = false;
     setIsPlaying(false);
     setIsPaused(false);
-    const newQueue = shuffle(allSentences);
-    queueRef.current = newQueue;
-    currentIndexRef.current = 0;
-    setQueue(newQueue);
+    setQueue(shuffle(allSentences));
     setCurrentIndex(0);
   };
 
   const handleNext = () => {
-    const wasPlaying = isPlayingRef.current && !isPausedRef.current;
-    // Invalidate any running loop
-    runIdRef.current++;
-    stopAudio();
+    stopAudio(); // invalidate any in-flight sequence & cancel current speech
 
-    const q = queueRef.current;
-    const nextIdx = currentIndexRef.current + 1;
-    if (nextIdx >= q.length) {
+    const nextIdx = currentIndex + 1;
+    if (nextIdx >= queue.length) {
       // Wrap without loop credit (manual skip)
-      const newQueue = shuffle(allSentences);
-      queueRef.current = newQueue;
-      setQueue(newQueue);
-      currentIndexRef.current = 0;
+      setQueue(shuffle(allSentences));
       setCurrentIndex(0);
     } else {
-      currentIndexRef.current = nextIdx;
       setCurrentIndex(nextIdx);
     }
-
-    if (wasPlaying) {
-      // Brief delay so cancelled TTS resolves before new loop starts
-      setTimeout(() => {
-        shouldPlayRef.current = true;
-        runLoop();
-      }, 80);
-    }
+    // If isPlaying && !isPaused, the effect above notices the index (and
+    // possibly queue) change and starts the next item fresh automatically.
   };
 
   const handlePrev = () => {
-    const wasPlaying = isPlayingRef.current && !isPausedRef.current;
-    runIdRef.current++;
     stopAudio();
 
-    if (currentIndexRef.current > 0) {
-      currentIndexRef.current -= 1;
-      setCurrentIndex(currentIndexRef.current);
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
     }
-
-    if (wasPlaying) {
-      setTimeout(() => {
-        shouldPlayRef.current = true;
-        runLoop();
-      }, 80);
-    }
+    // Same as handleNext: playback (if active) resumes via the effect above.
   };
 
   // ── Pocket Mode helpers ────────────────────────────────────────────────────
   const enterPocketMode = async () => {
     if (!isPlayingRef.current || isPausedRef.current) {
-      // Start playing if not already
-      shouldPlayRef.current = true;
+      // Start playing if not already — the effect above starts playback
       isPlayingRef.current = true;
       isPausedRef.current = false;
       setIsPlaying(true);
       setIsPaused(false);
-      runLoop();
     }
     if ("wakeLock" in navigator) {
       try {
@@ -360,7 +343,7 @@ export default function SentenceAudioLoop() {
   // ── Cleanup on unmount ─────────────────────────────────────────────────────
   useEffect(() => {
     return () => {
-      shouldPlayRef.current = false;
+      isPlayingRef.current = false;
       clearPending();
       if ("speechSynthesis" in window) speechSynthesis.cancel();
       if (wakeLockRef.current) {
@@ -370,7 +353,7 @@ export default function SentenceAudioLoop() {
         clearInterval(holdIntervalRef.current);
       }
     };
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
 
   // ── Render ─────────────────────────────────────────────────────────────────
 
