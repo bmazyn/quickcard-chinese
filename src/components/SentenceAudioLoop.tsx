@@ -85,28 +85,44 @@ export default function SentenceAudioLoop() {
   function speakChinese(text: string, rate = 0.85): Promise<void> {
     return new Promise((resolve) => {
       if (!("speechSynthesis" in window)) { resolve(); return; }
-      speechSynthesis.cancel();
-      const utt = new SpeechSynthesisUtterance(text);
-      utt.lang = "zh-CN";
-      utt.rate = rate;
-      utt.onend = () => resolve();
-      utt.onerror = () => resolve();
-      speechSynthesis.speak(utt);
+      let settled = false;
+      const finish = () => { if (!settled) { settled = true; resolve(); } };
+      // Generous fallback: if onend never fires (iOS bug), continue anyway
+      const timer = window.setTimeout(finish, 20000);
+      // setTimeout(0) forces speak() into a macrotask — required on iOS Safari
+      window.setTimeout(() => {
+        if (settled) return;
+        if (speechSynthesis.speaking) speechSynthesis.cancel();
+        if (speechSynthesis.paused) speechSynthesis.resume();
+        const utt = new SpeechSynthesisUtterance(text);
+        utt.lang = "zh-CN";
+        utt.rate = rate;
+        utt.onend = () => { clearTimeout(timer); finish(); };
+        utt.onerror = () => { clearTimeout(timer); finish(); };
+        speechSynthesis.speak(utt);
+      }, 0);
     });
   }
 
   function speakEnglish(text: string): Promise<void> {
     return new Promise((resolve) => {
       if (!("speechSynthesis" in window)) { resolve(); return; }
-      const voices = speechSynthesis.getVoices();
-      const engVoice = voices.find((v) => v.lang.startsWith("en"));
-      const utt = new SpeechSynthesisUtterance(text);
-      utt.lang = "en-US";
-      if (engVoice) utt.voice = engVoice;
-      utt.rate = 0.9;
-      utt.onend = () => resolve();
-      utt.onerror = () => resolve();
-      speechSynthesis.speak(utt);
+      let settled = false;
+      const finish = () => { if (!settled) { settled = true; resolve(); } };
+      const timer = window.setTimeout(finish, 30000);
+      window.setTimeout(() => {
+        if (settled) return;
+        if (speechSynthesis.paused) speechSynthesis.resume();
+        const voices = speechSynthesis.getVoices();
+        const engVoice = voices.find((v) => v.lang.startsWith("en"));
+        const utt = new SpeechSynthesisUtterance(text);
+        utt.lang = "en-US";
+        if (engVoice) utt.voice = engVoice;
+        utt.rate = 0.9;
+        utt.onend = () => { clearTimeout(timer); finish(); };
+        utt.onerror = () => { clearTimeout(timer); finish(); };
+        speechSynthesis.speak(utt);
+      }, 0);
     });
   }
 
