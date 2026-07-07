@@ -123,27 +123,6 @@ export default function SentenceAudioLoop() {
     });
   }
 
-  function playBeep(): Promise<void> {
-    return new Promise((resolve) => {
-      try {
-        const ctx = new AudioContext();
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.connect(gain);
-        gain.connect(ctx.destination);
-        osc.type = "sine";
-        osc.frequency.setValueAtTime(600, ctx.currentTime);
-        gain.gain.setValueAtTime(0.08, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.12);
-        osc.start(ctx.currentTime);
-        osc.stop(ctx.currentTime + 0.12);
-        osc.onended = () => { ctx.close(); resolve(); };
-      } catch {
-        resolve();
-      }
-    });
-  }
-
   // ── Play one sentence, then advance (one item at a time) ───────────────────
   // Mirrors the Chapter Audio Loop pattern: play the current sentence fully,
   // then hand off to React state (setCurrentIndex / setQueue) so a fresh effect
@@ -181,14 +160,8 @@ export default function SentenceAudioLoop() {
     await speakChinese(card.targetHanzi, 1.0);
     if (!shouldContinue()) return;
 
-    // 6. 0.5s pause, soft beep, 0.75s pause before next sentence
-    await sleep(500);
-    if (!shouldContinue()) return;
-
-    await playBeep();
-    if (!shouldContinue()) return;
-
-    await sleep(750);
+    // 6. Pause before next sentence
+    await sleep(1000);
     if (!shouldContinue()) return;
 
     // 7. Advance — only update state here; the effect below starts the next
