@@ -101,7 +101,7 @@ export default function SentenceAudioLoop() {
     });
   }
 
-  function speakEnglish(text: string): Promise<void> {
+  function speakEnglish(text: string, rate = 0.9): Promise<void> {
     return new Promise((resolve) => {
       if (!("speechSynthesis" in window)) { resolve(); return; }
       let settled = false;
@@ -115,7 +115,7 @@ export default function SentenceAudioLoop() {
         const utt = new SpeechSynthesisUtterance(text);
         utt.lang = "en-US";
         if (engVoice) utt.voice = engVoice;
-        utt.rate = 0.9;
+        utt.rate = rate;
         utt.onend = () => { clearTimeout(timer); finish(); };
         utt.onerror = () => { clearTimeout(timer); finish(); };
         speechSynthesis.speak(utt);
@@ -140,16 +140,16 @@ export default function SentenceAudioLoop() {
     if (currentQueue.length === 0 || idx >= currentQueue.length) return;
     const card = currentQueue[idx];
 
-    // 1. Speak targetHanzi in Chinese
-    await speakChinese(card.targetHanzi);
+    // 1. Speak targetHanzi in Chinese (slower first pass, per A/B test request)
+    await speakChinese(card.targetHanzi, 0.75);
     if (!shouldContinue()) return;
 
     // 2. 0.25s pause
     await sleep(250);
     if (!shouldContinue()) return;
 
-    // 3. Speak English
-    await speakEnglish(card.english);
+    // 3. Speak English at normal rate
+    await speakEnglish(card.english, 1.0);
     if (!shouldContinue()) return;
 
     // 4. 0.25s pause
