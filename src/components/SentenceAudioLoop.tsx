@@ -144,8 +144,8 @@ export default function SentenceAudioLoop() {
     await speakChinese(card.targetHanzi, 0.75);
     if (!shouldContinue()) return;
 
-    // 2. 0.25s pause
-    await sleep(250);
+    // 2. 0.5s pause
+    await sleep(500);
     if (!shouldContinue()) return;
 
     // 3. Speak English at normal rate
