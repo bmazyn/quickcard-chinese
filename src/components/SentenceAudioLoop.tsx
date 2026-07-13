@@ -140,20 +140,20 @@ export default function SentenceAudioLoop() {
     if (currentQueue.length === 0 || idx >= currentQueue.length) return;
     const card = currentQueue[idx];
 
-    // 1. Speak targetHanzi in Chinese (slower first pass, per A/B test request)
-    await speakChinese(card.targetHanzi, 0.75);
-    if (!shouldContinue()) return;
-
-    // 2. 0.5s pause
-    await sleep(500);
-    if (!shouldContinue()) return;
-
-    // 3. Speak English at normal rate
+    // 1. Speak English at normal rate (Recall order: English first)
     await speakEnglish(card.english, 1.0);
     if (!shouldContinue()) return;
 
-    // 4. 0.25s pause
-    await sleep(250);
+    // 2. No pause
+    await sleep(0);
+    if (!shouldContinue()) return;
+
+    // 3. Speak targetHanzi in Chinese (slower first pass, per A/B test request)
+    await speakChinese(card.targetHanzi, 0.75);
+    if (!shouldContinue()) return;
+
+    // 4. 1s pause
+    await sleep(1000);
     if (!shouldContinue()) return;
 
     // 5. Speak targetHanzi in Chinese again, at full rate
