@@ -144,16 +144,16 @@ export default function SentenceAudioLoop() {
     await speakEnglish(card.english, 1.0);
     if (!shouldContinue()) return;
 
-    // 2. No pause
-    await sleep(0);
+    // 2. 0.1s pause
+    await sleep(100);
     if (!shouldContinue()) return;
 
     // 3. Speak targetHanzi in Chinese (slower first pass, per A/B test request)
     await speakChinese(card.targetHanzi, 0.75);
     if (!shouldContinue()) return;
 
-    // 4. 1s pause
-    await sleep(1000);
+    // 4. 1.25s pause
+    await sleep(1250);
     if (!shouldContinue()) return;
 
     // 5. Speak targetHanzi in Chinese again, at full rate
@@ -161,7 +161,7 @@ export default function SentenceAudioLoop() {
     if (!shouldContinue()) return;
 
     // 6. Pause before next sentence
-    await sleep(1000);
+    await sleep(1250);
     if (!shouldContinue()) return;
 
     // 7. Advance — only update state here; the effect below starts the next
