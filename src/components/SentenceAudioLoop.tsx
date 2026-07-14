@@ -149,7 +149,7 @@ export default function SentenceAudioLoop() {
     if (!shouldContinue()) return;
 
     // 3. Speak targetHanzi in Chinese (slower first pass, per A/B test request)
-    await speakChinese(card.targetHanzi, 0.5);
+    await speakChinese(card.targetHanzi, 0.3);
     if (!shouldContinue()) return;
 
     // 4. 1.5s pause
