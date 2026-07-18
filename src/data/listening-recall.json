@@ -1,0 +1,361 @@
+[
+
+{
+  "group": 1,
+  "cards": [
+    {
+      "id": "g01-001",
+      "hanzi": "我很好。",
+      "pinyin": "wo hen hao",
+      "english": "I am doing well."
+    },
+    {
+      "id": "g01-002",
+      "hanzi": "我很累。",
+      "pinyin": "wo hen lei",
+      "english": "I am very tired."
+    },
+    {
+      "id": "g01-003",
+      "hanzi": "我不知道。",
+      "pinyin": "wo bu zhidao",
+      "english": "I don't know."
+    },
+    {
+      "id": "g01-004",
+      "hanzi": "我明白了。",
+      "pinyin": "wo mingbai le",
+      "english": "I understand."
+    },
+    {
+      "id": "g01-005",
+      "hanzi": "没问题。",
+      "pinyin": "mei wenti",
+      "english": "No problem."
+    },
+    {
+      "id": "g01-006",
+      "hanzi": "请等一下。",
+      "pinyin": "qing deng yixia",
+      "english": "Please wait a moment."
+    },
+    {
+      "id": "g01-007",
+      "hanzi": "谢谢你。",
+      "pinyin": "xiexie ni",
+      "english": "Thank you."
+    },
+    {
+      "id": "g01-008",
+      "hanzi": "不用客气。",
+      "pinyin": "buyong keqi",
+      "english": "You're welcome."
+    },
+    {
+      "id": "g01-009",
+      "hanzi": "对不起。",
+      "pinyin": "duibuqi",
+      "english": "I'm sorry."
+    },
+    {
+      "id": "g01-010",
+      "hanzi": "没关系。",
+      "pinyin": "mei guanxi",
+      "english": "That's okay."
+    },
+    {
+      "id": "g01-011",
+      "hanzi": "我在这里。",
+      "pinyin": "wo zai zheli",
+      "english": "I am here."
+    },
+    {
+      "id": "g01-012",
+      "hanzi": "他在那里。",
+      "pinyin": "ta zai nali",
+      "english": "He is over there."
+    },
+    {
+      "id": "g01-013",
+      "hanzi": "我有时间。",
+      "pinyin": "wo you shijian",
+      "english": "I have time."
+    },
+    {
+      "id": "g01-014",
+      "hanzi": "我没有时间。",
+      "pinyin": "wo meiyou shijian",
+      "english": "I don't have time."
+    },
+    {
+      "id": "g01-015",
+      "hanzi": "我们走吧。",
+      "pinyin": "women zou ba",
+      "english": "Let's go."
+    },
+    {
+      "id": "g01-016",
+      "hanzi": "我回来了。",
+      "pinyin": "wo huilai le",
+      "english": "I'm back."
+    },
+    {
+      "id": "g01-017",
+      "hanzi": "我准备好了。",
+      "pinyin": "wo zhunbei hao le",
+      "english": "I'm ready."
+    },
+    {
+      "id": "g01-018",
+      "hanzi": "今天很热。",
+      "pinyin": "jintian hen re",
+      "english": "It's very hot today."
+    },
+    {
+      "id": "g01-019",
+      "hanzi": "明天见。",
+      "pinyin": "mingtian jian",
+      "english": "See you tomorrow."
+    },
+    {
+      "id": "g01-020",
+      "hanzi": "祝你好运。",
+      "pinyin": "zhu ni haoyun",
+      "english": "Good luck."
+    }
+  ]
+}
+,{
+  "group": 2,
+  "cards": [
+    {
+      "id": "g02-001",
+      "hanzi": "我喜欢这个。",
+      "pinyin": "wo xihuan zhege",
+      "english": "I like this."
+    },
+    {
+      "id": "g02-002",
+      "hanzi": "我不喜欢那个。",
+      "pinyin": "wo bu xihuan nage",
+      "english": "I don't like that."
+    },
+    {
+      "id": "g02-003",
+      "hanzi": "现在几点？",
+      "pinyin": "xianzai ji dian",
+      "english": "What time is it now?"
+    },
+    {
+      "id": "g02-004",
+      "hanzi": "我现在很忙。",
+      "pinyin": "wo xianzai hen mang",
+      "english": "I'm busy right now."
+    },
+    {
+      "id": "g02-005",
+      "hanzi": "我想喝水。",
+      "pinyin": "wo xiang he shui",
+      "english": "I want to drink water."
+    },
+    {
+      "id": "g02-006",
+      "hanzi": "我想吃饭。",
+      "pinyin": "wo xiang chi fan",
+      "english": "I want to eat."
+    },
+    {
+      "id": "g02-007",
+      "hanzi": "你在做什么？",
+      "pinyin": "ni zai zuo shenme",
+      "english": "What are you doing?"
+    },
+    {
+      "id": "g02-008",
+      "hanzi": "我在学习中文。",
+      "pinyin": "wo zai xuexi Zhongwen",
+      "english": "I am studying Chinese."
+    },
+    {
+      "id": "g02-009",
+      "hanzi": "今天怎么样？",
+      "pinyin": "jintian zenmeyang",
+      "english": "How is today going?"
+    },
+    {
+      "id": "g02-010",
+      "hanzi": "天气很好。",
+      "pinyin": "tianqi hen hao",
+      "english": "The weather is nice."
+    },
+    {
+      "id": "g02-011",
+      "hanzi": "我马上回来。",
+      "pinyin": "wo mashang huilai",
+      "english": "I'll be right back."
+    },
+    {
+      "id": "g02-012",
+      "hanzi": "祝你今天愉快。",
+      "pinyin": "zhu ni jintian yukuai",
+      "english": "Have a great day."
+    }
+  ]
+}
+
+
+,    {
+    "group": 10,
+    "cards": [
+      {
+        "id": "g10-001",
+        "hanzi": "我本来想早点回家。",
+        "pinyin": "wo benlai xiang zao dian huijia",
+        "english": "I originally wanted to go home earlier."
+      },
+      {
+        "id": "g10-002",
+        "hanzi": "事情没有我想的那么简单。",
+        "pinyin": "shiqing meiyou wo xiang de name jiandan",
+        "english": "Things are not as simple as I thought."
+      },
+      {
+        "id": "g10-003",
+        "hanzi": "如果下雨，我们就不去了。",
+        "pinyin": "ruguo xiayu, women jiu bu qu le",
+        "english": "If it rains, we won't go."
+      },
+      {
+        "id": "g10-004",
+        "hanzi": "我还没有决定要不要去。",
+        "pinyin": "wo hai meiyou jueding yao bu yao qu",
+        "english": "I haven't decided whether to go."
+      },
+      {
+        "id": "g10-005",
+        "hanzi": "你准备什么时候出发？",
+        "pinyin": "ni zhunbei shenme shihou chufa",
+        "english": "When are you planning to leave?"
+      },
+      {
+        "id": "g10-006",
+        "hanzi": "我们可能会晚一点到。",
+        "pinyin": "women keneng hui wan yidian dao",
+        "english": "We might arrive a little late."
+      },
+      {
+        "id": "g10-007",
+        "hanzi": "计划突然改变了。",
+        "pinyin": "jihua turan gaibian le",
+        "english": "The plan suddenly changed."
+      },
+      {
+        "id": "g10-008",
+        "hanzi": "我得先把这件事做完。",
+        "pinyin": "wo dei xian ba zhe jian shi zuowan",
+        "english": "I have to finish this first."
+      },
+      {
+        "id": "g10-009",
+        "hanzi": "等你准备好了再告诉我。",
+        "pinyin": "deng ni zhunbei hao le zai gaosu wo",
+        "english": "Tell me when you're ready."
+      },
+      {
+        "id": "g10-010",
+        "hanzi": "我差点忘了今天的安排。",
+        "pinyin": "wo chadian wang le jintian de anpai",
+        "english": "I almost forgot today's plans."
+      },
+      {
+        "id": "g10-011",
+        "hanzi": "我们最好提前确认一下。",
+        "pinyin": "women zuihao tiqian queren yixia",
+        "english": "We'd better confirm it ahead of time."
+      },
+      {
+        "id": "g10-012",
+        "hanzi": "到时候再看情况吧。",
+        "pinyin": "dao shihou zai kan qingkuang ba",
+        "english": "Let's see how things go then."
+      }
+    ]
+  },
+  {
+    "group": 11,
+    "cards": [
+      {
+        "id": "g11-001",
+        "hanzi": "今天比昨天凉快多了。",
+        "pinyin": "jintian bi zuotian liangkuai duo le",
+        "english": "Today is much cooler than yesterday."
+      },
+      {
+        "id": "g11-002",
+        "hanzi": "我越来越喜欢骑自行车。",
+        "pinyin": "wo yuelaiyue xihuan qi zixingche",
+        "english": "I like riding my bike more and more."
+      },
+      {
+        "id": "g11-003",
+        "hanzi": "这条路比那条路近一点。",
+        "pinyin": "zhe tiao lu bi na tiao lu jin yidian",
+        "english": "This road is a little shorter than that one."
+      },
+      {
+        "id": "g11-004",
+        "hanzi": "今天的人没有昨天那么多。",
+        "pinyin": "jintian de ren meiyou zuotian name duo",
+        "english": "There aren't as many people today as yesterday."
+      },
+      {
+        "id": "g11-005",
+        "hanzi": "我已经习惯每天学习中文了。",
+        "pinyin": "wo yijing xiguan meitian xuexi Zhongwen le",
+        "english": "I'm already used to studying Chinese every day."
+      },
+      {
+        "id": "g11-006",
+        "hanzi": "最近工作越来越忙。",
+        "pinyin": "zuijin gongzuo yuelaiyue mang",
+        "english": "Work has been getting busier lately."
+      },
+      {
+        "id": "g11-007",
+        "hanzi": "这家咖啡店比以前安静。",
+        "pinyin": "zhe jia kafeidian bi yiqian anjing",
+        "english": "This coffee shop is quieter than before."
+      },
+      {
+        "id": "g11-008",
+        "hanzi": "我今天起得比较早。",
+        "pinyin": "wo jintian qi de bijiao zao",
+        "english": "I got up fairly early today."
+      },
+      {
+        "id": "g11-009",
+        "hanzi": "我觉得这个办法更好。",
+        "pinyin": "wo juede zhege banfa geng hao",
+        "english": "I think this method is better."
+      },
+      {
+        "id": "g11-010",
+        "hanzi": "学习中文需要一点耐心。",
+        "pinyin": "xuexi Zhongwen xuyao yidian naixin",
+        "english": "Learning Chinese takes a little patience."
+      },
+      {
+        "id": "g11-011",
+        "hanzi": "我希望今年能进步很多。",
+        "pinyin": "wo xiwang jinnian neng jinbu henduo",
+        "english": "I hope to improve a lot this year."
+      },
+      {
+        "id": "g11-012",
+        "hanzi": "慢慢来，不用着急。",
+        "pinyin": "manman lai, buyong zhaoji",
+        "english": "Take your time. There's no need to rush."
+      }
+    ]
+  }
+]

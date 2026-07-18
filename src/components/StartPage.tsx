@@ -78,6 +78,14 @@ export default function StartPage() {
             <span className="start-stories-sub">Simple Chinese listening stories</span>
           </div>
         </button>
+
+        <button className="start-stories-btn" onClick={() => navigate("/listening-recall")}>
+          <span className="start-stories-icon">🎧</span>
+          <div className="start-stories-text">
+            <span className="start-stories-title">Listening Recall</span>
+            <span className="start-stories-sub">Focused English-to-Chinese practice</span>
+          </div>
+        </button>
       </div>
     </div>
   );

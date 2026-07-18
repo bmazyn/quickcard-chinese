@@ -21,6 +21,8 @@ import SentenceSetTypingRun from './components/SentenceSetTypingRun'
 import SentenceAudioLoop from './components/SentenceAudioLoop'
 import Stories from './components/Stories'
 import StoryPlayer from './components/StoryPlayer'
+import ListeningRecallHome from './components/ListeningRecallHome'
+import ListeningRecallPlayer from './components/ListeningRecallPlayer'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -55,6 +57,8 @@ function App() {
         <Route path="/sentence-set/:setId/audio-loop" element={<SentenceAudioLoop />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/stories/:storyId" element={<StoryPlayer />} />
+        <Route path="/listening-recall" element={<ListeningRecallHome />} />
+        <Route path="/listening-recall/:groupId" element={<ListeningRecallPlayer />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
