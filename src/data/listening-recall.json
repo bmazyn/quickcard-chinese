@@ -202,7 +202,62 @@
     }
   ]
 }
-
+,
+{
+  "group": 3,
+  "cards": [
+    {
+      "hanzi": "我准备好了。",
+      "pinyin": "wǒ zhǔn bèi hǎo le",
+      "english": "I am ready."
+    },
+    {
+      "hanzi": "请等一下。",
+      "pinyin": "qǐng děng yí xià",
+      "english": "Please wait a moment."
+    },
+    {
+      "hanzi": "我马上回来。",
+      "pinyin": "wǒ mǎ shàng huí lái",
+      "english": "I will be right back."
+    },
+    {
+      "hanzi": "你在哪里？",
+      "pinyin": "nǐ zài nǎ lǐ",
+      "english": "Where are you?"
+    },
+    {
+      "hanzi": "我在家里。",
+      "pinyin": "wǒ zài jiā lǐ",
+      "english": "I am at home."
+    },
+    {
+      "hanzi": "外面很热。",
+      "pinyin": "wài miàn hěn rè",
+      "english": "It is hot outside."
+    },
+    {
+      "hanzi": "我们走吧。",
+      "pinyin": "wǒ men zǒu ba",
+      "english": "Let's go."
+    },
+    {
+      "hanzi": "我有一点饿。",
+      "pinyin": "wǒ yǒu yì diǎn è",
+      "english": "I am a little hungry."
+    },
+    {
+      "hanzi": "这个很好吃。",
+      "pinyin": "zhè ge hěn hǎo chī",
+      "english": "This is delicious."
+    },
+    {
+      "hanzi": "明天见。",
+      "pinyin": "míng tiān jiàn",
+      "english": "See you tomorrow."
+    }
+  ]
+}
 
 ,    {
     "group": 10,

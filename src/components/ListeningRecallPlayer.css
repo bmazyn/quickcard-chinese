@@ -79,6 +79,20 @@
   line-height: 1.25;
 }
 
+/* ─── Round-complete message ────────────────────────────────────────────── */
+.lrp-round-message {
+  justify-content: center;
+  min-height: 120px;
+}
+
+.lrp-round-message-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+
 .lrp-pinyin {
   font-size: 1.85rem;
   font-weight: 500;

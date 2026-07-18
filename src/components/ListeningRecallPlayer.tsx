@@ -4,6 +4,7 @@ import {
   listeningRecallGroups,
   getGroupProgress,
   setGroupProgress,
+  MAX_COMPLETED_ROUNDS,
   type ListeningRecallCard,
 } from "../utils/listeningRecall";
 import "./ListeningRecallPlayer.css";
@@ -27,6 +28,9 @@ export default function ListeningRecallPlayer() {
   );
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  // Shown for ~2s after a round completes automatically; cleared before
+  // continuing into the next round. Never set for manual skip/Stop/leaving.
+  const [roundMessage, setRoundMessage] = useState<string | null>(null);
 
   // ── Pocket Mode state ──────────────────────────────────────────────────────
   const [isPocketMode, setIsPocketMode] = useState(false);
@@ -128,9 +132,9 @@ export default function ListeningRecallPlayer() {
       stepRef.current = step;
     }
 
-    // 2. 100ms pause
+    // 2. 250ms pause
     if (step <= 1) {
-      await sleep(100);
+      await sleep(250);
       if (!shouldContinue()) { stepRef.current = 2; return; }
       step = 2;
       stepRef.current = step;
@@ -171,10 +175,18 @@ export default function ListeningRecallPlayer() {
     const nextIdx = idx + 1;
     if (nextIdx >= currentCards.length) {
       // ── Round completed (every card finished fully, automatically) ──
-      const newCount = Math.min(5, roundsCompletedRef.current + 1);
+      const newCount = Math.min(MAX_COMPLETED_ROUNDS, roundsCompletedRef.current + 1);
       roundsCompletedRef.current = newCount;
       setGroupProgress(groupNum, { completedRounds: newCount });
       setRoundsCompleted(newCount);
+
+      // Show "Round X complete" briefly, then return to card 1 and continue
+      // automatically if playback is still active.
+      setRoundMessage(`Round ${newCount} complete`);
+      await sleep(2000);
+      setRoundMessage(null);
+      if (!shouldContinue()) return;
+
       setCurrentIndex(0);
     } else {
       setCurrentIndex(nextIdx);
@@ -221,6 +233,7 @@ export default function ListeningRecallPlayer() {
     isPausedRef.current = false;
     setIsPlaying(false);
     setIsPaused(false);
+    setRoundMessage(null);
     // Stopping mid-round never awards a round and never persists position —
     // the in-progress round's position is discarded and the group resets to
     // card 0 for the next play.
@@ -231,6 +244,7 @@ export default function ListeningRecallPlayer() {
   const handleNext = () => {
     stopAudio(); // invalidate any in-flight sequence & cancel current speech
     stepRef.current = 0; // navigating starts the destination card from the beginning
+    setRoundMessage(null);
 
     const nextIdx = currentIndex + 1;
     if (nextIdx >= cards.length) {
@@ -244,6 +258,7 @@ export default function ListeningRecallPlayer() {
   const handlePrev = () => {
     stopAudio();
     stepRef.current = 0; // navigating starts the destination card from the beginning
+    setRoundMessage(null);
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
@@ -396,7 +411,11 @@ export default function ListeningRecallPlayer() {
       </div>
 
       {/* Card */}
-      {currentCard && (
+      {roundMessage ? (
+        <div className="lrp-card lrp-round-message">
+          <div className="lrp-round-message-text">{roundMessage}</div>
+        </div>
+      ) : currentCard && (
         <div className="lrp-card">
           <div className="lrp-english">{currentCard.english}</div>
           <div className="lrp-hanzi">{currentCard.hanzi}</div>

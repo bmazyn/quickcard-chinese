@@ -19,7 +19,7 @@ export function getSortedListeningRecallGroups(): ListeningRecallGroup[] {
 }
 
 const STORAGE_KEY = "quickcard-listening-recall-progress";
-const MAX_COMPLETED_ROUNDS = 5;
+const MAX_COMPLETED_ROUNDS = 8;
 
 export interface ListeningRecallProgress {
   completedRounds: number;
