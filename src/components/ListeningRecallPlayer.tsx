@@ -164,26 +164,38 @@ export default function ListeningRecallPlayer() {
       stepRef.current = step;
     }
 
-    // 6. 1250ms pause before next card
-    if (step <= 5) {
+    const nextIdx = idx + 1;
+    const isLastCardOfRound = nextIdx >= currentCards.length;
+
+    // 6. Pause before next card — unless this is the final card of the
+    // round, in which case we speak the round-complete announcement instead
+    // (right after the final Chinese audio, before resetting to card 1).
+    if (step <= 5 && !isLastCardOfRound) {
       await sleep(1250);
       if (!shouldContinue()) { stepRef.current = 5; return; }
     }
 
     // 7. Advance — the whole sequence for this card completed fully.
     stepRef.current = 0;
-    const nextIdx = idx + 1;
-    if (nextIdx >= currentCards.length) {
+    if (isLastCardOfRound) {
       // ── Round completed (every card finished fully, automatically) ──
       const newCount = Math.min(MAX_COMPLETED_ROUNDS, roundsCompletedRef.current + 1);
       roundsCompletedRef.current = newCount;
       setGroupProgress(groupNum, { completedRounds: newCount });
       setRoundsCompleted(newCount);
 
-      // Show "Round X complete" briefly, then return to card 1 and continue
-      // automatically if playback is still active.
+      // Show "Round X complete" on screen and speak it aloud using the same
+      // speech system as the rest of the sequence. speakEnglish() is awaited
+      // fully here — since nothing else calls speechSynthesis.speak() until
+      // this promise resolves, the announcement cannot be cut off by the
+      // next round's card audio starting (important on mobile Safari, where
+      // a new speak() call cancels any utterance still in flight).
       setRoundMessage(`Round ${newCount} complete`);
-      await sleep(2000);
+      await speakEnglish(`Round ${newCount} complete.`, 1.0);
+      if (!shouldContinue()) { setRoundMessage(null); return; }
+
+      // Brief pause after the announcement before starting the next round.
+      await sleep(750);
       setRoundMessage(null);
       if (!shouldContinue()) return;
 
