@@ -88,15 +88,15 @@
 
 .listening-recall-group-progress {
   display: flex;
-  gap: 6px;
+  gap: 5px;
   flex-shrink: 0;
 }
 
 .listening-recall-progress-box {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   border: 2px solid rgba(255, 255, 255, 0.85);
-  border-radius: 6px;
+  border-radius: 5px;
   background: transparent;
   box-sizing: border-box;
 }

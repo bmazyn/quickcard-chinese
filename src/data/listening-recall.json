@@ -199,13 +199,7 @@
       "hanzi": "祝你今天愉快。",
       "pinyin": "zhu ni jintian yukuai",
       "english": "Have a great day."
-    }
-  ]
-}
-,
-{
-  "group": 3,
-  "cards": [
+    },
     {
       "hanzi": "我准备好了。",
       "pinyin": "wǒ zhǔn bèi hǎo le",
@@ -255,6 +249,132 @@
       "hanzi": "明天见。",
       "pinyin": "míng tiān jiàn",
       "english": "See you tomorrow."
+    }
+  ]
+},
+
+{
+  "group": 3,
+  "cards": [
+    {
+      "id": "g03-001",
+      "hanzi": "我可以帮你。",
+      "pinyin": "wo keyi bang ni",
+      "english": "I can help you."
+    },
+    {
+      "id": "g03-002",
+      "hanzi": "你可以慢一点吗？",
+      "pinyin": "ni keyi man yi dian ma",
+      "english": "Can you slow down?"
+    },
+    {
+      "id": "g03-003",
+      "hanzi": "我想回家。",
+      "pinyin": "wo xiang hui jia",
+      "english": "I want to go home."
+    },
+    {
+      "id": "g03-004",
+      "hanzi": "我们一起去吧。",
+      "pinyin": "women yiqi qu ba",
+      "english": "Let's go together."
+    },
+    {
+      "id": "g03-005",
+      "hanzi": "你在哪里？",
+      "pinyin": "ni zai nali",
+      "english": "Where are you?"
+    },
+    {
+      "id": "g03-006",
+      "hanzi": "我马上到。",
+      "pinyin": "wo mashang dao",
+      "english": "I'll be there soon."
+    },
+    {
+      "id": "g03-007",
+      "hanzi": "今天很忙。",
+      "pinyin": "jintian hen mang",
+      "english": "Today is busy."
+    },
+    {
+      "id": "g03-008",
+      "hanzi": "今天不太忙。",
+      "pinyin": "jintian bu tai mang",
+      "english": "Today isn't very busy."
+    },
+    {
+      "id": "g03-009",
+      "hanzi": "我觉得很好。",
+      "pinyin": "wo juede hen hao",
+      "english": "I think it's good."
+    },
+    {
+      "id": "g03-010",
+      "hanzi": "我觉得可以。",
+      "pinyin": "wo juede keyi",
+      "english": "I think that's okay."
+    },
+    {
+      "id": "g03-011",
+      "hanzi": "因为我很累。",
+      "pinyin": "yinwei wo hen lei",
+      "english": "Because I'm very tired."
+    },
+    {
+      "id": "g03-012",
+      "hanzi": "所以我要休息。",
+      "pinyin": "suoyi wo yao xiuxi",
+      "english": "So I need to rest."
+    },
+    {
+      "id": "g03-013",
+      "hanzi": "现在可以吗？",
+      "pinyin": "xianzai keyi ma",
+      "english": "Is now okay?"
+    },
+    {
+      "id": "g03-014",
+      "hanzi": "等一下。",
+      "pinyin": "deng yixia",
+      "english": "Wait a moment."
+    },
+    {
+      "id": "g03-015",
+      "hanzi": "我听到了。",
+      "pinyin": "wo ting dao le",
+      "english": "I heard it."
+    },
+    {
+      "id": "g03-016",
+      "hanzi": "我看到了。",
+      "pinyin": "wo kan dao le",
+      "english": "I saw it."
+    },
+    {
+      "id": "g03-017",
+      "hanzi": "你今天忙吗？",
+      "pinyin": "ni jintian mang ma",
+      "english": "Are you busy today?"
+    },
+    {
+      "id": "g03-018",
+      "hanzi": "明天再说吧。",
+      "pinyin": "mingtian zai shuo ba",
+      "english": "Let's talk about it tomorrow."
+    },
+    {
+      "id": "g03-019",
+      "hanzi": "我们开始吧。",
+      "pinyin": "women kaishi ba",
+      "english": "Let's get started."
+    },
+    {
+      "id": "g03-020",
+      "hanzi": "祝你玩得开心。",
+      "pinyin": "zhu ni wan de kaixin",
+      "english": "Have fun."
     }
   ]
 }
