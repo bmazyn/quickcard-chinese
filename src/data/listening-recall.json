@@ -456,6 +456,261 @@
       }
     ]
   },
+
+{
+  "group": 5,
+  "cards": [
+    {
+      "id": "g05-001",
+      "hanzi": "我要去台湾。",
+      "pinyin": "wo yao qu Taiwan",
+      "english": "I am going to Taiwan."
+    },
+    {
+      "id": "g05-002",
+      "hanzi": "我要收拾行李。",
+      "pinyin": "wo yao shoushi xingli",
+      "english": "I need to pack my suitcase."
+    },
+    {
+      "id": "g05-003",
+      "hanzi": "我带了护照。",
+      "pinyin": "wo dai le huzhao",
+      "english": "I brought my passport."
+    },
+    {
+      "id": "g05-004",
+      "hanzi": "我带了机票。",
+      "pinyin": "wo dai le jipiao",
+      "english": "I brought my plane ticket."
+    },
+    {
+      "id": "g05-005",
+      "hanzi": "我们开车去机场。",
+      "pinyin": "women kaiche qu jichang",
+      "english": "We drive to the airport."
+    },
+    {
+      "id": "g05-006",
+      "hanzi": "我们到了机场。",
+      "pinyin": "women dao le jichang",
+      "english": "We arrive at the airport."
+    },
+    {
+      "id": "g05-007",
+      "hanzi": "我们办理登机。",
+      "pinyin": "women banli dengji",
+      "english": "We check in."
+    },
+    {
+      "id": "g05-008",
+      "hanzi": "我们通过安检。",
+      "pinyin": "women tongguo anjian",
+      "english": "We go through security."
+    },
+    {
+      "id": "g05-009",
+      "hanzi": "我们在登机口等。",
+      "pinyin": "women zai dengjikou deng",
+      "english": "We wait at the gate."
+    },
+    {
+      "id": "g05-010",
+      "hanzi": "现在可以登机了。",
+      "pinyin": "xianzai keyi dengji le",
+      "english": "Now it's time to board."
+    },
+    {
+      "id": "g05-011",
+      "hanzi": "我们找到座位。",
+      "pinyin": "women zhaodao zuowei",
+      "english": "We find our seats."
+    },
+    {
+      "id": "g05-012",
+      "hanzi": "飞机起飞了。",
+      "pinyin": "feiji qifei le",
+      "english": "The plane takes off."
+    },
+    {
+      "id": "g05-013",
+      "hanzi": "我们在飞机上吃饭。",
+      "pinyin": "women zai feiji shang chi fan",
+      "english": "We eat on the plane."
+    },
+    {
+      "id": "g05-014",
+      "hanzi": "我看了一部电影。",
+      "pinyin": "wo kan le yi bu dianying",
+      "english": "I watch a movie."
+    },
+    {
+      "id": "g05-015",
+      "hanzi": "飞机到了台湾。",
+      "pinyin": "feiji dao le Taiwan",
+      "english": "The plane arrives in Taiwan."
+    },
+    {
+      "id": "g05-016",
+      "hanzi": "我们拿行李。",
+      "pinyin": "women na xingli",
+      "english": "We pick up our luggage."
+    },
+    {
+      "id": "g05-017",
+      "hanzi": "我们坐出租车。",
+      "pinyin": "women zuo chuzuche",
+      "english": "We take a taxi."
+    },
+    {
+      "id": "g05-018",
+      "hanzi": "我们到了饭店。",
+      "pinyin": "women dao le fandian",
+      "english": "We arrive at the hotel."
+    },
+    {
+      "id": "g05-019",
+      "hanzi": "我们办理入住。",
+      "pinyin": "women banli ruzhu",
+      "english": "We check in to the hotel."
+    },
+    {
+      "id": "g05-020",
+      "hanzi": "我们很累，先休息。",
+      "pinyin": "women hen lei, xian xiuxi",
+      "english": "We are tired, so we rest first."
+    }
+  ]
+},
+
+{
+  "group": 4,
+  "cards": [
+    {
+      "id": "g04-001",
+      "hanzi": "Brian 去饭店。",
+      "pinyin": "Brian qù fàndiàn.",
+      "english": "Brian goes to a restaurant."
+    },
+    {
+      "id": "g04-002",
+      "hanzi": "今天他很饿。",
+      "pinyin": "Jīntiān tā hěn è.",
+      "english": "Today he is very hungry."
+    },
+    {
+      "id": "g04-003",
+      "hanzi": "他看菜单。",
+      "pinyin": "Tā kàn càidān.",
+      "english": "He looks at the menu."
+    },
+    {
+      "id": "g04-004",
+      "hanzi": "菜单有很多菜。",
+      "pinyin": "Càidān yǒu hěn duō cài.",
+      "english": "The menu has many dishes."
+    },
+    {
+      "id": "g04-005",
+      "hanzi": "他想吃牛肉面。",
+      "pinyin": "Tā xiǎng chī niúròu miàn.",
+      "english": "He wants beef noodles."
+    },
+    {
+      "id": "g04-006",
+      "hanzi": "他也要一杯茶。",
+      "pinyin": "Tā yě yào yì bēi chá.",
+      "english": "He also wants a cup of tea."
+    },
+    {
+      "id": "g04-007",
+      "hanzi": "服务员来了。",
+      "pinyin": "Fúwùyuán lái le.",
+      "english": "The server comes over."
+    },
+    {
+      "id": "g04-008",
+      "hanzi": "服务员拿来面。",
+      "pinyin": "Fúwùyuán ná lái miàn.",
+      "english": "The server brings the noodles."
+    },
+    {
+      "id": "g04-009",
+      "hanzi": "面看起来很好吃。",
+      "pinyin": "Miàn kàn qǐlái hěn hǎo chī.",
+      "english": "The noodles look delicious."
+    },
+    {
+      "id": "g04-010",
+      "hanzi": "他吃一口。",
+      "pinyin": "Tā chī yì kǒu.",
+      "english": "He takes one bite."
+    },
+    {
+      "id": "g04-011",
+      "hanzi": "不好，太辣了。",
+      "pinyin": "Bù hǎo, tài là le.",
+      "english": "Oh no, it's too spicy."
+    },
+    {
+      "id": "g04-012",
+      "hanzi": "他的嘴很辣。",
+      "pinyin": "Tā de zuǐ hěn là.",
+      "english": "His mouth is burning."
+    },
+    {
+      "id": "g04-013",
+      "hanzi": "他马上喝茶。",
+      "pinyin": "Tā mǎshàng hē chá.",
+      "english": "He immediately drinks tea."
+    },
+    {
+      "id": "g04-014",
+      "hanzi": "茶很甜。",
+      "pinyin": "Chá hěn tián.",
+      "english": "The tea is sweet."
+    },
+    {
+      "id": "g04-015",
+      "hanzi": "他又喝一口茶。",
+      "pinyin": "Tā yòu hē yì kǒu chá.",
+      "english": "He takes another sip of tea."
+    },
+    {
+      "id": "g04-016",
+      "hanzi": "现在好多了。",
+      "pinyin": "Xiànzài hǎo duō le.",
+      "english": "Now he feels much better."
+    },
+    {
+      "id": "g04-017",
+      "hanzi": "牛肉面很好吃。",
+      "pinyin": "Niúròu miàn hěn hǎo chī.",
+      "english": "The beef noodles are very tasty."
+    },
+    {
+      "id": "g04-018",
+      "hanzi": "他吃完了。",
+      "pinyin": "Tā chī wán le.",
+      "english": "He finishes eating."
+    },
+    {
+      "id": "g04-019",
+      "hanzi": "他付钱。",
+      "pinyin": "Tā fù qián.",
+      "english": "He pays."
+    },
+    {
+      "id": "g04-020",
+      "hanzi": "他很开心地回家了。",
+      "pinyin": "Tā hěn kāixīn de huí jiā le.",
+      "english": "He happily goes home."
+    }
+  ]
+},
+
+
+
   {
     "group": 11,
     "cards": [
