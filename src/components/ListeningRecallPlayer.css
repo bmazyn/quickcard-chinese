@@ -148,6 +148,28 @@
   border: 1px solid var(--border-color, rgba(255,255,255,0.12));
 }
 
+/* ─── Slow Mode toggle ──────────────────────────────────────────────────── */
+.lrp-slowmode-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.lrp-btn--slowmode {
+  background: var(--bg-secondary, #374151);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color, rgba(255,255,255,0.12));
+  min-width: 160px;
+}
+
+.lrp-btn--slowmode.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: #fff;
+}
+
 /* ─── Empty state ───────────────────────────────────────────────────────── */
 .lrp-empty {
   color: var(--text-secondary, #6b7280);

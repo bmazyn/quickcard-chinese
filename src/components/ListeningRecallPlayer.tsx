@@ -28,6 +28,10 @@ export default function ListeningRecallPlayer() {
   );
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  // Slow Mode: adds an extra final Normal Chinese playback and multiplies
+  // every silent pause by 1.5×. Remains active until the user toggles it
+  // again (session-only state, not persisted).
+  const [isSlowMode, setIsSlowMode] = useState(false);
   // Shown for ~2s after a round completes automatically; cleared before
   // continuing into the next round. Never set for manual skip/Stop/leaving.
   const [roundMessage, setRoundMessage] = useState<string | null>(null);
@@ -115,71 +119,78 @@ export default function ListeningRecallPlayer() {
   // ── Play one card's sequence starting at a given step, then advance ────────
   // Resumable so that Pause/Play can stop and continue from the same place
   // in the sequence instead of restarting the card from the beginning.
-  async function playFromStep(idx: number, startStep: number, currentCards: ListeningRecallCard[]) {
+  //
+  // The sequence is built as an ordered list of actions so that Slow Mode can
+  // insert an extra final Normal Chinese playback and scale every existing
+  // pause by 1.5× without hard-coding a second sequence or new pause values.
+  async function playFromStep(
+    idx: number,
+    startStep: number,
+    currentCards: ListeningRecallCard[],
+    slowMode: boolean
+  ) {
     const myToken = ++playTokenRef.current;
     const shouldContinue = () =>
       myToken === playTokenRef.current && isPlayingRef.current && !isPausedRef.current;
 
     if (currentCards.length === 0 || idx >= currentCards.length) return;
     const card = currentCards[idx];
-    let step = startStep;
+    const pauseScale = slowMode ? 1.5 : 1;
 
-    // 1. English at rate 1.0
-    if (step <= 0) {
-      await speakEnglish(card.english, 1.0);
-      if (!shouldContinue()) { stepRef.current = 1; return; }
-      step = 1;
-      stepRef.current = step;
+    type Action =
+      | { kind: "speak-en"; rate: number }
+      | { kind: "speak-zh"; rate: number }
+      | { kind: "pause"; ms: number };
+
+    // Normal Mode: English → Slow Chinese → Normal Chinese.
+    // Slow Mode: English → Slow Chinese → Normal Chinese → Normal Chinese
+    // (one extra Normal Chinese playback, same existing pause durations,
+    // each pause scaled by 1.5×).
+    const actions: Action[] = [
+      { kind: "speak-en", rate: 1.0 },       // 0: English at rate 1.0
+      { kind: "pause", ms: 250 },            // 1: existing 250ms pause
+      { kind: "speak-zh", rate: 0.3 },       // 2: Hanzi slow pass
+      { kind: "pause", ms: 2000 },           // 3: existing 2000ms pause
+      { kind: "speak-zh", rate: 1.0 },       // 4: Hanzi normal pass
+    ];
+    if (slowMode) {
+      actions.push({ kind: "speak-zh", rate: 1.0 }); // extra Normal Chinese pass
     }
 
-    // 2. 250ms pause
-    if (step <= 1) {
-      await sleep(250);
-      if (!shouldContinue()) { stepRef.current = 2; return; }
-      step = 2;
-      stepRef.current = step;
-    }
-
-    // 3. Hanzi slow pass (rate 0.3)
-    if (step <= 2) {
-      await speakChinese(card.hanzi, 0.3);
-      if (!shouldContinue()) { stepRef.current = 3; return; }
-      step = 3;
-      stepRef.current = step;
-    }
-
-    // 4. 2000ms pause
-    if (step <= 3) {
-      await sleep(2000);
-      if (!shouldContinue()) { stepRef.current = 4; return; }
-      step = 4;
-      stepRef.current = step;
-    }
-
-    // 5. Hanzi normal pass (rate 1.0)
-    if (step <= 4) {
-      await speakChinese(card.hanzi, 1.0);
-      if (!shouldContinue()) { stepRef.current = 5; return; }
-      step = 5;
-      stepRef.current = step;
+    for (let i = startStep; i < actions.length; i++) {
+      const action = actions[i];
+      if (action.kind === "speak-en") {
+        await speakEnglish(card.english, action.rate);
+      } else if (action.kind === "speak-zh") {
+        await speakChinese(card.hanzi, action.rate);
+      } else {
+        await sleep(action.ms * pauseScale);
+      }
+      if (!shouldContinue()) { stepRef.current = i + 1; return; }
+      stepRef.current = i + 1;
     }
 
     const nextIdx = idx + 1;
     const isLastCardOfRound = nextIdx >= currentCards.length;
 
-    // 6. Pause before next card — unless this is the final card of the
-    // round, in which case we speak the round-complete announcement instead
-    // (right after the final Chinese audio, before resetting to card 1).
-    if (step <= 5 && !isLastCardOfRound) {
-      await sleep(1250);
-      if (!shouldContinue()) { stepRef.current = 5; return; }
+    // Existing 1250ms pause before next card — unless this is the final card
+    // of the round, in which case we speak the round-complete announcement
+    // instead (right after the final Chinese audio, before resetting to
+    // card 1). Scaled by 1.5× in Slow Mode like every other pause.
+    if (stepRef.current <= actions.length && !isLastCardOfRound) {
+      await sleep(1250 * pauseScale);
+      if (!shouldContinue()) { stepRef.current = actions.length; return; }
     }
 
     // 7. Advance — the whole sequence for this card completed fully.
     stepRef.current = 0;
     if (isLastCardOfRound) {
       // ── Round completed (every card finished fully, automatically) ──
-      const newCount = Math.min(MAX_COMPLETED_ROUNDS, roundsCompletedRef.current + 1);
+      // completedRounds is an uncapped lifetime counter, so the announcement
+      // and display always use the actual round number (e.g. "Round 11
+      // complete", "Round 17 complete"), never reset once the 10 progress
+      // boxes are all filled.
+      const newCount = roundsCompletedRef.current + 1;
       roundsCompletedRef.current = newCount;
       setGroupProgress(groupNum, { completedRounds: newCount });
       setRoundsCompleted(newCount);
@@ -205,14 +216,15 @@ export default function ListeningRecallPlayer() {
     }
   }
 
-  // Auto-advance: whenever play/pause state, index, or cards change, resume
-  // playback of the current card from wherever stepRef left off.
+  // Auto-advance: whenever play/pause state, index, cards, or slow-mode
+  // change, resume playback of the current card from wherever stepRef left
+  // off (slow mode reflects the latest toggle since it's read fresh here).
   useEffect(() => {
     if (isPlaying && !isPaused && cards.length > 0) {
-      playFromStep(currentIndex, stepRef.current, cards);
+      playFromStep(currentIndex, stepRef.current, cards, isSlowMode);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isPlaying, isPaused, currentIndex, cards]);
+  }, [isPlaying, isPaused, currentIndex, cards, isSlowMode]);
 
   // ── Controls ───────────────────────────────────────────────────────────────
 
@@ -462,6 +474,18 @@ export default function ListeningRecallPlayer() {
 
         <button className="lrp-btn lrp-btn--nav" onClick={handleNext} aria-label="Next">
           Next ▶
+        </button>
+      </div>
+
+      {/* Slow Mode toggle */}
+      <div className="lrp-slowmode-wrap">
+        <button
+          className={"lrp-btn lrp-btn--slowmode" + (isSlowMode ? " active" : "")}
+          onClick={() => setIsSlowMode((v) => !v)}
+          aria-pressed={isSlowMode}
+          aria-label="Toggle Slow Mode"
+        >
+          🐢 Slow Mode {isSlowMode ? "On" : "Off"}
         </button>
       </div>
 

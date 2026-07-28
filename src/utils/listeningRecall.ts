@@ -64,10 +64,10 @@ export function setGroupProgress(
   const key = String(groupId);
   const current = map[key] ?? { completedRounds: 0 };
   const merged: ListeningRecallProgress = {
-    completedRounds: Math.max(
-      0,
-      Math.min(MAX_COMPLETED_ROUNDS, progress.completedRounds ?? current.completedRounds)
-    ),
+    // completedRounds is an uncapped lifetime counter — it keeps increasing
+    // past MAX_COMPLETED_ROUNDS. Only the on-screen boxes are capped at
+    // MAX_COMPLETED_ROUNDS (all boxes simply stay filled once reached).
+    completedRounds: Math.max(0, progress.completedRounds ?? current.completedRounds),
   };
   map[key] = merged;
   writeProgressMap(map);
@@ -77,7 +77,7 @@ export function setGroupProgress(
 export function incrementCompletedRounds(groupId: number | string): ListeningRecallProgress {
   const current = getGroupProgress(groupId);
   return setGroupProgress(groupId, {
-    completedRounds: Math.min(MAX_COMPLETED_ROUNDS, current.completedRounds + 1),
+    completedRounds: current.completedRounds + 1,
   });
 }
 
