@@ -154,6 +154,7 @@ export default function ListeningRecallPlayer() {
       { kind: "speak-zh", rate: 1.0 },       // 4: Hanzi normal pass
     ];
     if (slowMode) {
+      actions.push({ kind: "pause", ms: 750 });
       actions.push({ kind: "speak-zh", rate: 1.0 }); // extra Normal Chinese pass
     }
 
