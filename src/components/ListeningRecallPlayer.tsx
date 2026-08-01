@@ -19,6 +19,8 @@ export default function ListeningRecallPlayer() {
     return g ? g.cards : [];
   }, [groupNum]);
 
+  type PlaybackMode = "normal" | "slow" | "reverse";
+
   // ── UI state ───────────────────────────────────────────────────────────────
   // Every visit to this page always starts at card 0 — position within a
   // round is never persisted (a round only counts if completed in one go).
@@ -28,10 +30,11 @@ export default function ListeningRecallPlayer() {
   );
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
-  // Slow Mode: adds an extra final Normal Chinese playback and multiplies
-  // every silent pause by 1.5×. Remains active until the user toggles it
-  // again (session-only state, not persisted).
-  const [isSlowMode, setIsSlowMode] = useState(false);
+  // Playback mode remains active until the user changes it.
+  // - normal: existing default sequence
+  // - slow: existing sequence + extra final Normal Chinese, with pauses 1.5×
+  // - reverse: Chinese (normal) → pause → English → pause → Chinese (normal)
+  const [playbackMode, setPlaybackMode] = useState<PlaybackMode>("normal");
   // Shown for ~2s after a round completes automatically; cleared before
   // continuing into the next round. Never set for manual skip/Stop/leaving.
   const [roundMessage, setRoundMessage] = useState<string | null>(null);
@@ -127,7 +130,7 @@ export default function ListeningRecallPlayer() {
     idx: number,
     startStep: number,
     currentCards: ListeningRecallCard[],
-    slowMode: boolean
+    mode: PlaybackMode
   ) {
     const myToken = ++playTokenRef.current;
     const shouldContinue = () =>
@@ -135,27 +138,44 @@ export default function ListeningRecallPlayer() {
 
     if (currentCards.length === 0 || idx >= currentCards.length) return;
     const card = currentCards[idx];
-    const pauseScale = slowMode ? 1.5 : 1;
+    const pauseScale = mode === "slow" ? 1.5 : 1;
 
     type Action =
       | { kind: "speak-en"; rate: number }
       | { kind: "speak-zh"; rate: number }
       | { kind: "pause"; ms: number };
 
-    // Normal Mode: English → Slow Chinese → Normal Chinese.
-    // Slow Mode: English → Slow Chinese → Normal Chinese → Normal Chinese
-    // (one extra Normal Chinese playback, same existing pause durations,
-    // each pause scaled by 1.5×).
-    const actions: Action[] = [
-      { kind: "speak-en", rate: 1.0 },       // 0: English at rate 1.0
-      { kind: "pause", ms: 250 },            // 1: existing 250ms pause
-      { kind: "speak-zh", rate: 0.3 },       // 2: Hanzi slow pass
-      { kind: "pause", ms: 2000 },           // 3: existing 2000ms pause
-      { kind: "speak-zh", rate: 1.0 },       // 4: Hanzi normal pass
-    ];
-    if (slowMode) {
-      actions.push({ kind: "pause", ms: 750 });
-      actions.push({ kind: "speak-zh", rate: 1.0 }); // extra Normal Chinese pass
+    let actions: Action[];
+    if (mode === "reverse") {
+      // Reverse Mode sequence:
+      // 1) Chinese first pass (0.5)
+      // 2) Pause 2000ms
+      // 3) English normal (1.0)
+      // 4) Pause 1000ms
+      // 5) Chinese normal (1.0)
+      actions = [
+        { kind: "speak-zh", rate: 0.5 },
+        { kind: "pause", ms: 2000 },
+        { kind: "speak-en", rate: 1.0 },
+        { kind: "pause", ms: 1000 },
+        { kind: "speak-zh", rate: 1.0 },
+      ];
+    } else {
+      // Normal Mode: English → Slow Chinese → Normal Chinese.
+      // Slow Mode: English → Slow Chinese → Normal Chinese → Normal Chinese
+      // (one extra Normal Chinese playback, same existing pause durations,
+      // each pause scaled by 1.5×).
+      actions = [
+        { kind: "speak-en", rate: 1.0 },       // 0: English at rate 1.0
+        { kind: "pause", ms: 250 },            // 1: existing 250ms pause
+        { kind: "speak-zh", rate: 0.3 },       // 2: Hanzi slow pass
+        { kind: "pause", ms: 2000 },           // 3: existing 2000ms pause
+        { kind: "speak-zh", rate: 1.0 },       // 4: Hanzi normal pass
+      ];
+      if (mode === "slow") {
+        actions.push({ kind: "pause", ms: 750 });
+        actions.push({ kind: "speak-zh", rate: 1.0 }); // extra Normal Chinese pass
+      }
     }
 
     for (let i = startStep; i < actions.length; i++) {
@@ -217,15 +237,15 @@ export default function ListeningRecallPlayer() {
     }
   }
 
-  // Auto-advance: whenever play/pause state, index, cards, or slow-mode
+  // Auto-advance: whenever play/pause state, index, cards, or playback mode
   // change, resume playback of the current card from wherever stepRef left
-  // off (slow mode reflects the latest toggle since it's read fresh here).
+  // off (mode reflects the latest toggle since it's read fresh here).
   useEffect(() => {
     if (isPlaying && !isPaused && cards.length > 0) {
-      playFromStep(currentIndex, stepRef.current, cards, isSlowMode);
+      playFromStep(currentIndex, stepRef.current, cards, playbackMode);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isPlaying, isPaused, currentIndex, cards, isSlowMode]);
+  }, [isPlaying, isPaused, currentIndex, cards, playbackMode]);
 
   // ── Controls ───────────────────────────────────────────────────────────────
 
@@ -382,6 +402,8 @@ export default function ListeningRecallPlayer() {
   }
 
   const currentCard = cards[currentIndex] ?? null;
+  const isSlowMode = playbackMode === "slow";
+  const isReverseMode = playbackMode === "reverse";
 
   return (
     <div className="lrp-page">
@@ -478,15 +500,23 @@ export default function ListeningRecallPlayer() {
         </button>
       </div>
 
-      {/* Slow Mode toggle */}
-      <div className="lrp-slowmode-wrap">
+      {/* Playback mode toggles */}
+      <div className="lrp-modes-wrap">
         <button
           className={"lrp-btn lrp-btn--slowmode" + (isSlowMode ? " active" : "")}
-          onClick={() => setIsSlowMode((v) => !v)}
+          onClick={() => setPlaybackMode((m) => (m === "slow" ? "normal" : "slow"))}
           aria-pressed={isSlowMode}
           aria-label="Toggle Slow Mode"
         >
           🐢 Slow Mode {isSlowMode ? "On" : "Off"}
+        </button>
+        <button
+          className={"lrp-btn lrp-btn--slowmode" + (isReverseMode ? " active" : "")}
+          onClick={() => setPlaybackMode((m) => (m === "reverse" ? "normal" : "reverse"))}
+          aria-pressed={isReverseMode}
+          aria-label="Toggle Reverse Mode"
+        >
+          🔄 Reverse Mode {isReverseMode ? "On" : "Off"}
         </button>
       </div>
 

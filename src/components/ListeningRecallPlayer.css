@@ -148,10 +148,12 @@
   border: 1px solid var(--border-color, rgba(255,255,255,0.12));
 }
 
-/* ─── Slow Mode toggle ──────────────────────────────────────────────────── */
-.lrp-slowmode-wrap {
+/* ─── Playback mode toggles ─────────────────────────────────────────────── */
+.lrp-modes-wrap {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
   margin-top: 20px;
   width: 100%;
   max-width: 480px;
