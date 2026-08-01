@@ -151,14 +151,11 @@ export default function ListeningRecallPlayer() {
       // 1) Chinese first pass (0.5)
       // 2) Pause 2000ms
       // 3) English normal (1.0)
-      // 4) Pause 1000ms
-      // 5) Chinese normal (1.0)
+      // 4) Then continue normal advance flow (mode-specific pause/round-end)
       actions = [
         { kind: "speak-zh", rate: 0.5 },
         { kind: "pause", ms: 2000 },
         { kind: "speak-en", rate: 1.0 },
-        { kind: "pause", ms: 1000 },
-        { kind: "speak-zh", rate: 1.0 },
       ];
     } else {
       // Normal Mode: English → Slow Chinese → Normal Chinese.
@@ -194,12 +191,14 @@ export default function ListeningRecallPlayer() {
     const nextIdx = idx + 1;
     const isLastCardOfRound = nextIdx >= currentCards.length;
 
-    // Existing 1250ms pause before next card — unless this is the final card
+    // Existing pause before next card — unless this is the final card
     // of the round, in which case we speak the round-complete announcement
-    // instead (right after the final Chinese audio, before resetting to
-    // card 1). Scaled by 1.5× in Slow Mode like every other pause.
+    // instead (right after the final audio, before resetting to card 1).
+    // Normal/Slow keep their existing 1250ms (scaled in Slow Mode).
+    // Reverse uses 1500ms.
     if (stepRef.current <= actions.length && !isLastCardOfRound) {
-      await sleep(1250 * pauseScale);
+      const interCardPause = mode === "reverse" ? 1500 : 1250 * pauseScale;
+      await sleep(interCardPause);
       if (!shouldContinue()) { stepRef.current = actions.length; return; }
     }
 
@@ -227,7 +226,8 @@ export default function ListeningRecallPlayer() {
       if (!shouldContinue()) { setRoundMessage(null); return; }
 
       // Brief pause after the announcement before starting the next round.
-      await sleep(750);
+      // Reverse uses 1000ms; Normal/Slow keep existing 750ms.
+      await sleep(mode === "reverse" ? 1000 : 750);
       setRoundMessage(null);
       if (!shouldContinue()) return;
 
