@@ -148,12 +148,12 @@ export default function ListeningRecallPlayer() {
     let actions: Action[];
     if (mode === "reverse") {
       // Reverse Mode sequence:
-      // 1) Chinese first pass (0.4)
+      // 1) Chinese first pass (0.2)
       // 2) Pause 2500ms
       // 3) English normal (1.0)
       // 4) Then continue normal advance flow (mode-specific pause/round-end)
       actions = [
-        { kind: "speak-zh", rate: 0.4 },
+        { kind: "speak-zh", rate: 0.2 },
         { kind: "pause", ms: 2500 },
         { kind: "speak-en", rate: 1.0 },
       ];

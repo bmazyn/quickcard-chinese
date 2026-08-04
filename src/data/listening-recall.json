@@ -588,9 +588,9 @@
   "cards": [
     {
       "id": "g04-001",
-      "hanzi": "小明去饭店。",
-      "pinyin": "Xiǎomíng qù fàndiàn.",
-      "english": "Xiaoming goes to a restaurant."
+      "hanzi": "Walt 去饭店。",
+      "pinyin": "Walt qù fàndiàn.",
+      "english": "Walt goes to a restaurant."
     },
     {
       "id": "g04-002",
@@ -705,6 +705,145 @@
       "hanzi": "他很开心地回家了。",
       "pinyin": "Tā hěn kāixīn de huí jiā le.",
       "english": "He happily goes home."
+    }
+  ]
+},
+
+
+{
+  "group": 6,
+  "cards": [
+    {
+      "id": "g06-001",
+      "hanzi": "Brian喜欢台北。",
+      "pinyin": "Brian xihuan Taibei",
+      "english": "Brian likes Taipei."
+    },
+    {
+      "id": "g06-002",
+      "hanzi": "我喜欢走路。",
+      "pinyin": "wo xihuan zoulu",
+      "english": "I like walking."
+    },
+    {
+      "id": "g06-003",
+      "hanzi": "早上比较凉快。",
+      "pinyin": "zaoshang bijiao liangkuai",
+      "english": "It is cooler in the morning."
+    },
+    {
+      "id": "g06-004",
+      "hanzi": "我喜欢丹迪旅店的早餐。",
+      "pinyin": "wo xihuan Dandi Ludian de zaocan",
+      "english": "I like the breakfast at Dandy Hotel."
+    },
+    {
+      "id": "g06-005",
+      "hanzi": "我喜欢骑车。",
+      "pinyin": "wo xihuan qiche",
+      "english": "I like riding a bike."
+    },
+    {
+      "id": "g06-006",
+      "hanzi": "Brian喜欢骑YouBike。",
+      "pinyin": "Brian xihuan qi YouBike",
+      "english": "Brian likes riding YouBike."
+    },
+    {
+      "id": "g06-007",
+      "hanzi": "我喜欢坐捷运。",
+      "pinyin": "wo xihuan zuo jieyun",
+      "english": "I like taking the MRT."
+    },
+    {
+      "id": "g06-008",
+      "hanzi": "我喜欢去公园。",
+      "pinyin": "wo xihuan qu gongyuan",
+      "english": "I like going to the park."
+    },
+    {
+      "id": "g06-009",
+      "hanzi": "Brian喜欢去东门。",
+      "pinyin": "Brian xihuan qu Dongmen",
+      "english": "Brian likes going to Dongmen."
+    },
+    {
+      "id": "g06-010",
+      "hanzi": "我喜欢去新店。",
+      "pinyin": "wo xihuan qu Xindian",
+      "english": "I like going to Xindian."
+    },
+    {
+      "id": "g06-011",
+      "hanzi": "我喜欢河边。",
+      "pinyin": "wo xihuan hebian",
+      "english": "I like the riverside."
+    },
+    {
+      "id": "g06-012",
+      "hanzi": "我喜欢台湾菜。",
+      "pinyin": "wo xihuan Taiwan cai",
+      "english": "I like Taiwanese food."
+    },
+    {
+      "id": "g06-013",
+      "hanzi": "Brian喜欢去吃鹅肉。",
+      "pinyin": "Brian xihuan qu chi erou",
+      "english": "Brian likes going out for goose."
+    },
+    {
+      "id": "g06-014",
+      "hanzi": "我想出去走走。",
+      "pinyin": "wo xiang chuqu zouzou",
+      "english": "I want to go for a walk."
+    },
+    {
+      "id": "g06-015",
+      "hanzi": "我想骑自行车。",
+      "pinyin": "wo xiang qi zixingche",
+      "english": "I want to ride a bike."
+    },
+    {
+      "id": "g06-016",
+      "hanzi": "我想去公园。",
+      "pinyin": "wo xiang qu gongyuan",
+      "english": "I want to go to the park."
+    },
+    {
+      "id": "g06-017",
+      "hanzi": "Brian想去象山。",
+      "pinyin": "Brian xiang qu Xiangshan",
+      "english": "Brian wants to go to Elephant Mountain."
+    },
+    {
+      "id": "g06-018",
+      "hanzi": "这里很方便。",
+      "pinyin": "zheli hen fangbian",
+      "english": "It is convenient here."
+    },
+    {
+      "id": "g06-019",
+      "hanzi": "这里很好看。",
+      "pinyin": "zheli hen haokan",
+      "english": "It is beautiful here."
+    },
+    {
+      "id": "g06-020",
+      "hanzi": "我有点累。",
+      "pinyin": "wo youdian lei",
+      "english": "I am a little tired."
+    },
+    {
+      "id": "g06-021",
+      "hanzi": "我想休息一下。",
+      "pinyin": "wo xiang xiuxi yixia",
+      "english": "I want to rest a little."
+    },
+    {
+      "id": "g06-022",
+      "hanzi": "明天再出去。",
+      "pinyin": "mingtian zai chuqu",
+      "english": "I will go out again tomorrow."
     }
   ]
 },
