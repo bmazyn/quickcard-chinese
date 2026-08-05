@@ -136,7 +136,7 @@ export function buildBookReviewSession(
 
 // ── Top-10 runs persistence ─────────────────────────────────────────────────
 
-const TOP10_KEY_PREFIX = "qc_book_review_top10:";
+const TOP10_KEY_PREFIX = "qc_book_review_top_scores_v2_10q:";
 export const TOP_RUNS_COUNT = 10;
 
 /** Read the stored top-10 scores for a book, sorted best→worst. */
@@ -146,26 +146,16 @@ export function getTopRuns(bookId: number): number[] {
     if (!stored) return [];
 
     const parsed = JSON.parse(stored) as unknown[];
-    const scores = parsed
-      .map((run) => {
-        if (typeof run === "number") {
-          return Math.max(0, Math.min(BOOK_REVIEW_QUESTION_COUNT, Math.round(run)));
-        }
-        if (run && typeof run === "object" && "correct" in run && "total" in run) {
-          const { correct, total } = run as { correct?: unknown; total?: unknown };
-          if (typeof correct === "number" && typeof total === "number" && total > 0) {
-            return Math.round((correct / total) * BOOK_REVIEW_QUESTION_COUNT);
-          }
-        }
-        return null;
-      })
-      .filter((score): score is number => score !== null)
+    return parsed
+      .filter(
+        (score): score is number =>
+          typeof score === "number" &&
+          Number.isInteger(score) &&
+          score >= 0 &&
+          score <= BOOK_REVIEW_QUESTION_COUNT
+      )
       .sort((a, b) => b - a)
       .slice(0, TOP_RUNS_COUNT);
-
-    // Rewrite legacy run objects as the new compact numeric score format.
-    localStorage.setItem(TOP10_KEY_PREFIX + bookId, JSON.stringify(scores));
-    return scores;
   } catch {
     return [];
   }
