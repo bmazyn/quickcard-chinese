@@ -12,7 +12,7 @@ import type { QuizCard } from "../types";
 import { getAllDecks } from "./decks";
 import quizCardsData from "../data/quizCards.json";
 
-export const SESSION_SIZE = 20;
+export const BOOK_REVIEW_QUESTION_COUNT = 10;
 
 // ── Storage helpers ──────────────────────────────────────────────────────────
 
@@ -107,7 +107,7 @@ export function getEligibleCardsForBook(bookId: number): QuizCard[] {
  */
 export function buildBookReviewSession(
   bookId: number,
-  size: number = SESSION_SIZE
+  size: number = BOOK_REVIEW_QUESTION_COUNT
 ): QuizCard[] {
   const eligible = getEligibleCardsForBook(bookId);
   if (eligible.length === 0) return [];
@@ -136,20 +136,36 @@ export function buildBookReviewSession(
 
 // ── Top-10 runs persistence ─────────────────────────────────────────────────
 
-export interface BookReviewRun {
-  correct: number;
-  total: number;
-  pct: number; // 0–1
-}
-
 const TOP10_KEY_PREFIX = "qc_book_review_top10:";
 export const TOP_RUNS_COUNT = 10;
 
-/** Read the stored top-10 runs for a book, sorted best→worst. */
-export function getTopRuns(bookId: number): BookReviewRun[] {
+/** Read the stored top-10 scores for a book, sorted best→worst. */
+export function getTopRuns(bookId: number): number[] {
   try {
     const stored = localStorage.getItem(TOP10_KEY_PREFIX + bookId);
-    return stored ? (JSON.parse(stored) as BookReviewRun[]) : [];
+    if (!stored) return [];
+
+    const parsed = JSON.parse(stored) as unknown[];
+    const scores = parsed
+      .map((run) => {
+        if (typeof run === "number") {
+          return Math.max(0, Math.min(BOOK_REVIEW_QUESTION_COUNT, Math.round(run)));
+        }
+        if (run && typeof run === "object" && "correct" in run && "total" in run) {
+          const { correct, total } = run as { correct?: unknown; total?: unknown };
+          if (typeof correct === "number" && typeof total === "number" && total > 0) {
+            return Math.round((correct / total) * BOOK_REVIEW_QUESTION_COUNT);
+          }
+        }
+        return null;
+      })
+      .filter((score): score is number => score !== null)
+      .sort((a, b) => b - a)
+      .slice(0, TOP_RUNS_COUNT);
+
+    // Rewrite legacy run objects as the new compact numeric score format.
+    localStorage.setItem(TOP10_KEY_PREFIX + bookId, JSON.stringify(scores));
+    return scores;
   } catch {
     return [];
   }
@@ -157,23 +173,17 @@ export function getTopRuns(bookId: number): BookReviewRun[] {
 
 /**
  * Add the latest run to the leaderboard.
- * Keeps only the top TOP_RUNS_COUNT entries sorted by pct descending.
+ * Keeps only the top TOP_RUNS_COUNT numeric scores, sorted descending.
  * Returns the updated leaderboard.
  */
 export function saveBookReviewResult(
   bookId: number,
-  correct: number,
-  total: number
-): { topRuns: BookReviewRun[] } {
+  correct: number
+): { topRuns: number[] } {
   const existing = getTopRuns(bookId);
-  const newRun: BookReviewRun = {
-    correct,
-    total,
-    pct: total > 0 ? correct / total : 0,
-  };
-
-  const updated = [...existing, newRun]
-    .sort((a, b) => b.pct - a.pct || b.correct - a.correct)
+  const score = Math.max(0, Math.min(BOOK_REVIEW_QUESTION_COUNT, Math.round(correct)));
+  const updated = [...existing, score]
+    .sort((a, b) => b - a)
     .slice(0, TOP_RUNS_COUNT);
 
   try {

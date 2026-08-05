@@ -8,9 +8,8 @@ import {
   addToReviewPool,
   removeFromReviewPool,
   saveBookReviewResult,
-  SESSION_SIZE,
+  BOOK_REVIEW_QUESTION_COUNT,
   TOP_RUNS_COUNT,
-  type BookReviewRun,
 } from "../utils/bookReview";
 import "./BookReview.css";
 import "./QuizFeed.css";
@@ -33,7 +32,7 @@ export default function BookReview() {
   const [isPlayingReinforcement, setIsPlayingReinforcement] = useState(false);
   const [audioOnCorrect, setAudioOnCorrect] = useState(true);
   const reinforcementTimeoutRef = useRef<number | null>(null);
-  const [topRuns, setTopRuns] = useState<BookReviewRun[]>([]);
+  const [topRuns, setTopRuns] = useState<number[]>([]);
 
   // Build initial session and load pool count on mount
   useEffect(() => {
@@ -173,8 +172,8 @@ export default function BookReview() {
   const handleNext = () => {
     const nextIndex = currentIndex + 1;
     if (nextIndex >= session.length) {
-      const result = saveBookReviewResult(bookNumber, correctCount, session.length);
-    setTopRuns(result.topRuns);
+      const result = saveBookReviewResult(bookNumber, correctCount);
+      setTopRuns(result.topRuns);
       setIsComplete(true);
       setIsStarted(false);
       setPoolCount(getReviewPool(bookNumber).length);
@@ -213,7 +212,7 @@ export default function BookReview() {
   // ── Pre-run screen ───────────────────────────────────────────────────────
   if (!isStarted && !isComplete) {
     const prePoolCount = getReviewPool(bookNumber).length;
-    const cardCount = Math.min(session.length, SESSION_SIZE);
+    const questionCount = Math.min(session.length, BOOK_REVIEW_QUESTION_COUNT);
     return (
       <div className="book-review">
         <div className="book-review-content">
@@ -229,7 +228,7 @@ export default function BookReview() {
               <div className="book-review-info-icon">📖</div>
               <div className="book-review-info-text">
                 <h3>Book Review</h3>
-                <p>{cardCount} cards · All card types · Untimed</p>
+                <p>{questionCount} questions · All card types · Untimed</p>
                 {prePoolCount > 0 && (
                   <p className="book-review-pool-hint">
                     🔁 Review pool: {prePoolCount} card{prePoolCount !== 1 ? "s" : ""} included
@@ -249,7 +248,6 @@ export default function BookReview() {
   // ── End screen ───────────────────────────────────────────────────────────
   if (isComplete) {
     const total     = session.length;
-    const pct       = total > 0 ? Math.round((correctCount / total) * 100) : 0;
     const isPerfect = correctCount === total && total > 0;
 
     return (
@@ -271,23 +269,19 @@ export default function BookReview() {
             <div className="book-review-stats-table">
               <div className="book-review-stat-row">
                 <span className="book-review-stat-label">Score</span>
-                <span className="book-review-stat-value">
-                  {correctCount} / {total}
-                  <span className="book-review-stat-pct"> • {pct}%</span>
-                </span>
+                <span className="book-review-stat-value">{correctCount}</span>
               </div>
               <div className="book-review-stat-row">
                 <span className="book-review-stat-label">Review Pool</span>
                 <span className="book-review-stat-value">{poolCount}</span>
               </div>
               <div className="book-review-stat-row book-review-top10-row">
-                <span className="book-review-stat-label">Top Runs</span>
+                <span className="book-review-stat-label">Best scores</span>
                 <span className="book-review-top10-slots">
                   {Array.from({ length: TOP_RUNS_COUNT }).map((_, i) => {
-                    const run = topRuns[i];
-                    if (!run) return <span key={i} className="br-slot br-slot--empty" />;
-                    if (run.pct === 1) return <span key={i} className="br-slot br-slot--perfect">✓</span>;
-                    return <span key={i} className="br-slot br-slot--score">{run.correct}</span>;
+                    const score = topRuns[i];
+                    if (score === undefined) return <span key={i} className="br-slot br-slot--empty" />;
+                    return <span key={i} className="br-slot br-slot--score">{score}</span>;
                   })}
                 </span>
               </div>
@@ -321,7 +315,7 @@ export default function BookReview() {
         </button>
 
         <div className="progress-display">
-          {currentIndex + 1} / {session.length}
+          Question {currentIndex + 1}
         </div>
 
         <div className="audio-controls-group">

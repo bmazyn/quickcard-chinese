@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getChaptersForBook, getDeckEntriesForChapter } from "../utils/decks";
 import { getBestTime, isDeckComplete } from "../utils/deckProgress";
-import { getReviewPool, getTopRuns, TOP_RUNS_COUNT, type BookReviewRun } from "../utils/bookReview";
+import { getReviewPool, getTopRuns, TOP_RUNS_COUNT } from "../utils/bookReview";
 import { getChapterListeningBest, chapterHasListeningCards } from "../utils/listeningChallenge";
 import { getMeaningRecallBest, chapterHasMeaningRecallVocab } from "../utils/meaningRecall";
 import { get3LayerMatchBest, chapterHas3LayerMatchVocab } from "../utils/threeLayerMatch";
@@ -64,7 +64,7 @@ export default function BookDetail() {
   });
 
   const [reviewPoolCount] = useState<number>(() => getReviewPool(bookNumber).length);
-  const [topRuns] = useState<BookReviewRun[]>(() => getTopRuns(bookNumber));
+  const [topRuns] = useState<number[]>(() => getTopRuns(bookNumber));
 
   // Format time as mm:ss
   const formatTime = (seconds: number): string => {
@@ -175,10 +175,9 @@ export default function BookDetail() {
               </div>
               <span className="book-review-top10-track">
                 {Array.from({ length: TOP_RUNS_COUNT }).map((_, i) => {
-                  const run = topRuns[i];
-                  if (!run) return <span key={i} className="br-slot br-slot--empty" />;
-                  if (run.pct === 1) return <span key={i} className="br-slot br-slot--perfect">✓</span>;
-                  return <span key={i} className="br-slot br-slot--score">{run.correct}</span>;
+                  const score = topRuns[i];
+                  if (score === undefined) return <span key={i} className="br-slot br-slot--empty" />;
+                  return <span key={i} className="br-slot br-slot--score">{score}</span>;
                 })}
               </span>
             </div>
