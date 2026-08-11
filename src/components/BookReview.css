@@ -303,6 +303,59 @@
 
 /* ─── No-cards fallback ───────────────────────────────────────────────────── */
 
+.book-review-missed {
+  width: 100%;
+  text-align: center;
+}
+
+.book-review-missed h4 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.book-review-missed-list {
+  border-top: 1px solid var(--border-color);
+}
+
+.book-review-missed-item {
+  padding: 12px 4px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.book-review-missed-chinese {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+}
+
+.book-review-missed-pinyin,
+.book-review-missed-hanzi {
+  flex: 1;
+  min-width: 0;
+}
+
+.book-review-missed-pinyin {
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 1.32rem;
+  font-weight: 700;
+}
+
+.book-review-missed-hanzi {
+  text-align: left;
+  color: var(--text-primary);
+  font-size: 1.386rem;
+}
+
+.book-review-missed-english {
+  margin-top: 4px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
 .book-review-no-cards {
   text-align: center;
   font-size: 1.125rem;

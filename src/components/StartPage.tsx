@@ -71,11 +71,11 @@ export default function StartPage() {
           />
         </div>
 
-        <button className="start-stories-btn" onClick={() => navigate("/stories")}>
-          <span className="start-stories-icon">📖</span>
+        <button className="start-stories-btn" onClick={() => navigate("/chapter-review")}>
+          <span className="start-stories-icon">📚</span>
           <div className="start-stories-text">
-            <span className="start-stories-title">Short Stories</span>
-            <span className="start-stories-sub">Simple Chinese listening stories</span>
+            <span className="start-stories-title">Chapter Review</span>
+            <span className="start-stories-sub">10-question chapter practice</span>
           </div>
         </button>
 

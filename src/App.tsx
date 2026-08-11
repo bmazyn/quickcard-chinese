@@ -23,6 +23,8 @@ import Stories from './components/Stories'
 import StoryPlayer from './components/StoryPlayer'
 import ListeningRecallHome from './components/ListeningRecallHome'
 import ListeningRecallPlayer from './components/ListeningRecallPlayer'
+import ChapterReviewHome from './components/ChapterReviewHome'
+import ChapterReview from './components/ChapterReview'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -59,6 +61,8 @@ function App() {
         <Route path="/stories/:storyId" element={<StoryPlayer />} />
         <Route path="/listening-recall" element={<ListeningRecallHome />} />
         <Route path="/listening-recall/:groupId" element={<ListeningRecallPlayer />} />
+        <Route path="/chapter-review" element={<ChapterReviewHome />} />
+        <Route path="/chapter-review/:chapterId/run" element={<ChapterReview />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

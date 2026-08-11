@@ -14,6 +14,20 @@ import {
 import "./BookReview.css";
 import "./QuizFeed.css";
 
+function getMissedCardText(card: QuizCardType) {
+  const correctChoice = card.choices[card.correct];
+  const promptHasChineseSide = card.promptLine.includes("—");
+  const chineseSide = promptHasChineseSide ? card.promptLine : correctChoice;
+  const english = promptHasChineseSide ? correctChoice : card.promptLine;
+  const [pinyin = "", ...hanziParts] = chineseSide.split("—");
+
+  return {
+    pinyin: pinyin.trim(),
+    hanzi: hanziParts.join("—").trim(),
+    english: english.trim(),
+  };
+}
+
 export default function BookReview() {
   const navigate = useNavigate();
   const { bookId } = useParams<{ bookId: string }>();
@@ -33,6 +47,7 @@ export default function BookReview() {
   const [audioOnCorrect, setAudioOnCorrect] = useState(true);
   const reinforcementTimeoutRef = useRef<number | null>(null);
   const [topRuns, setTopRuns] = useState<number[]>([]);
+  const [missedCards, setMissedCards] = useState<QuizCardType[]>([]);
 
   // Build initial session and load pool count on mount
   useEffect(() => {
@@ -145,6 +160,7 @@ export default function BookReview() {
     setSession(cards);
     setCurrentIndex(0);
     setCorrectCount(0);
+    setMissedCards([]);
     setAnswerState({ selectedChoice: null, isCorrect: null });
     setIsStarted(true);
     setIsComplete(false);
@@ -160,6 +176,7 @@ export default function BookReview() {
       removeFromReviewPool(bookNumber, currentCard.id);
     } else {
       addToReviewPool(bookNumber, currentCard.id);
+      setMissedCards((cards) => [...cards, currentCard]);
     }
 
     // Auto-play reinforcement audio (same logic as QuizFeed)
@@ -261,7 +278,7 @@ export default function BookReview() {
           </div>
 
           <div className="book-review-complete">
-            <div className="book-review-complete-icon">{isPerfect ? "🏆" : "📖"}</div>
+            {isPerfect && <div className="book-review-complete-icon">🏆</div>}
             <h3 className="book-review-complete-title">
               {isPerfect ? "Perfect Clear!" : "Session Complete!"}
             </h3>
@@ -295,6 +312,26 @@ export default function BookReview() {
                 ← Back to Book
               </button>
             </div>
+
+            {missedCards.length > 0 && (
+              <section className="book-review-missed" aria-labelledby="book-review-missed-title">
+                <h4 id="book-review-missed-title">Missed This Round</h4>
+                <div className="book-review-missed-list">
+                  {missedCards.map((card) => {
+                    const text = getMissedCardText(card);
+                    return (
+                      <div key={card.id} className="book-review-missed-item">
+                        <div className="book-review-missed-chinese">
+                          <span className="book-review-missed-pinyin">{text.pinyin}</span>
+                          <span className="book-review-missed-hanzi">{text.hanzi}</span>
+                        </div>
+                        <div className="book-review-missed-english">{text.english}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
           </div>
         </div>
       </div>
