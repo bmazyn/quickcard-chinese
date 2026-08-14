@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import QuizCard from "./QuizCard";
 import type { AnswerState, ChoiceKey, QuizCard as QuizCardType } from "../types";
 import {
@@ -28,21 +28,23 @@ function getMissedCardText(card: QuizCardType) {
 
 export default function ChapterReview() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const { chapterId } = useParams<{ chapterId: string }>();
   const chapter = Number(chapterId);
+  const isNoPinyin = searchParams.get("mode") === "no-pinyin";
   const book = getDeckEntriesForChapter(chapter).find(
     (deck) => deck.book !== undefined
   )?.book;
 
   const [session, setSession] = useState<QuizCardType[]>(() =>
-    buildChapterReviewSession(chapter)
+    buildChapterReviewSession(chapter, isNoPinyin)
   );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [missedCards, setMissedCards] = useState<QuizCardType[]>([]);
   const [topScores, setTopScores] = useState<number[]>(() =>
-    getChapterReviewTopScores(chapter)
+    getChapterReviewTopScores(chapter, isNoPinyin)
   );
   const [answerState, setAnswerState] = useState<AnswerState>({
     selectedChoice: null,
@@ -156,7 +158,7 @@ export default function ChapterReview() {
   const handleNext = () => {
     const nextIndex = currentIndex + 1;
     if (nextIndex >= session.length) {
-      setTopScores(saveChapterReviewScore(chapter, correctCount));
+      setTopScores(saveChapterReviewScore(chapter, correctCount, isNoPinyin));
       setIsComplete(true);
       return;
     }
@@ -165,7 +167,7 @@ export default function ChapterReview() {
   };
 
   const handleNewSession = () => {
-    setSession(buildChapterReviewSession(chapter));
+    setSession(buildChapterReviewSession(chapter, isNoPinyin));
     setCurrentIndex(0);
     setCorrectCount(0);
     setMissedCards([]);
@@ -200,7 +202,7 @@ export default function ChapterReview() {
           <div className="book-review-header">
             <button className="book-review-back-btn" onClick={handleBack}>← Back</button>
             <h2 className="book-review-title">
-              Book {book} — Chapter {chapter} Review
+              Book {book} — Chapter {chapter} {isNoPinyin ? "No Pinyin " : ""}Review
             </h2>
           </div>
 
@@ -301,6 +303,8 @@ export default function ChapterReview() {
         onAnswer={handleAnswer}
         onNext={handleNext}
         nextButtonText="Next →"
+        hidePinyin={isNoPinyin}
+        hanziFocusMode={isNoPinyin}
       />
     </div>
   );

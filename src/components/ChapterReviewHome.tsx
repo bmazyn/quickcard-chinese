@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { getBookIds, getChaptersForBook } from "../utils/decks";
 import {
-  CHAPTER_REVIEW_TOP_SCORE_COUNT,
+  CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT,
   getChapterReviewTopScores,
 } from "../utils/chapterReview";
 import "./ChapterReviewHome.css";
@@ -10,11 +10,33 @@ export default function ChapterReviewHome() {
   const navigate = useNavigate();
   const chapters = getBookIds().flatMap((book) =>
     getChaptersForBook(book).map((chapter) => ({
-      book,
       chapter,
-      scores: getChapterReviewTopScores(chapter),
+      normalScores: getChapterReviewTopScores(chapter),
+      noPinyinScores: getChapterReviewTopScores(chapter, true),
     }))
   );
+
+  const renderScoreGroup = (scores: number[]) =>
+    Array.from({ length: CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT }).map((_, index) => {
+      const score = scores[index];
+      return (
+        <span
+          key={index}
+          className={
+            "chapter-review-score-box" +
+            (score === undefined
+              ? ""
+              : score === 10
+                ? " chapter-review-score-box--green"
+                : score === 9
+                  ? " chapter-review-score-box--yellow"
+                  : " chapter-review-score-box--red")
+          }
+        >
+          {score}
+        </span>
+      );
+    });
 
   return (
     <div className="chapter-review-home-page">
@@ -33,41 +55,24 @@ export default function ChapterReviewHome() {
         </div>
 
         <div className="chapter-review-home-list">
-          {chapters.map(({ book, chapter, scores }) => (
-            <button
-              key={chapter}
-              className="chapter-review-card"
-              onClick={() => navigate(`/chapter-review/${chapter}/run`)}
-            >
-              <span className="chapter-review-card-name">
-                Book {book} — Chapter {chapter}
-              </span>
-              <span
-                className="chapter-review-card-scores"
-                aria-label={scores.length > 0 ? `Top scores: ${scores.join(", ")}` : "Top scores: none yet"}
+          {chapters.map(({ chapter, normalScores, noPinyinScores }) => (
+            <div key={chapter} className="chapter-review-card">
+              <span className="chapter-review-card-name">{chapter}</span>
+              <button
+                className="chapter-review-score-group"
+                onClick={() => navigate(`/chapter-review/${chapter}/run`)}
+                aria-label={`Start normal review for ${chapter}. Top scores: ${normalScores.join(", ") || "none"}`}
               >
-                {Array.from({ length: CHAPTER_REVIEW_TOP_SCORE_COUNT }).map((_, index) => {
-                  const score = scores[index];
-                  return (
-                    <span
-                      key={index}
-                      className={
-                        "chapter-review-score-box" +
-                        (score === undefined
-                          ? ""
-                          : score === 10
-                            ? " chapter-review-score-box--green"
-                            : score === 9
-                              ? " chapter-review-score-box--yellow"
-                              : " chapter-review-score-box--red")
-                      }
-                    >
-                      {score}
-                    </span>
-                  );
-                })}
-              </span>
-            </button>
+                {renderScoreGroup(normalScores)}
+              </button>
+              <button
+                className="chapter-review-score-group"
+                onClick={() => navigate(`/chapter-review/${chapter}/run?mode=no-pinyin`)}
+                aria-label={`Start no-pinyin review for ${chapter}. Top scores: ${noPinyinScores.join(", ") || "none"}`}
+              >
+                {renderScoreGroup(noPinyinScores)}
+              </button>
+            </div>
           ))}
         </div>
       </div>

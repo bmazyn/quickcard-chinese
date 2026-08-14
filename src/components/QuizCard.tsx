@@ -12,6 +12,7 @@ interface QuizCardProps {
   nextButtonText?: string;
   isSpeedrunMode?: boolean;
   hidePinyin?: boolean;
+  hanziFocusMode?: boolean;
 }
 
 function triggerHaptic(isCorrect: boolean) {
@@ -27,7 +28,7 @@ function triggerHaptic(isCorrect: boolean) {
   }
 }
 
-export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, hidePinyin = false }: QuizCardProps) {
+export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabled = false, nextButtonText = "Next →", isSpeedrunMode = false, hidePinyin = false, hanziFocusMode = false }: QuizCardProps) {
   const isAnswered = answerState.selectedChoice !== null;
   
   // Shuffle choices once per card to prevent position memorization
@@ -89,7 +90,15 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
 
   // Check if promptLine contains Han characters (Chinese)
   const hasHanCharacters = /[\u4e00-\u9fff]/.test(card.promptLine);
-  const cardClassName = hasHanCharacters ? "quiz-card" : "quiz-card englishPrompt";
+  const cardClassName =
+    (hasHanCharacters ? "quiz-card" : "quiz-card englishPrompt") +
+    (hanziFocusMode ? " hanzi-focus" : "");
+
+  const getChoiceText = (choice: ChoiceKey): string => {
+    const text = card.choices[choice];
+    if (!hanziFocusMode || !text.includes("—")) return text;
+    return text.split("—").slice(1).join("—").trim();
+  };
 
   // Hide tone numbers if card has long-form tags (these override everything)
   const hideToneNumbers =
@@ -126,8 +135,7 @@ export default function QuizCard({ card, answerState, onAnswer, onNext, isDisabl
             onClick={(e) => handleAnswerClick(choice, e)}
             disabled={isAnswered || isDisabled}
           >
-            {/* Answer text comes directly from card.choices - no modifications */}
-            <span className="choice-text">{card.choices[choice]}</span>
+            <span className="choice-text">{getChoiceText(choice)}</span>
           </button>
         ))}
       </div>

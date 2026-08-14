@@ -4,12 +4,22 @@ import { getDeckEntriesForChapter } from "./decks";
 
 export const CHAPTER_REVIEW_QUESTION_COUNT = 10;
 export const CHAPTER_REVIEW_TOP_SCORE_COUNT = 10;
+export const CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT = 5;
 
 const TOP_SCORES_KEY_PREFIX = "qc_chapter_review_top_scores_v1_10q:";
+const NO_PINYIN_TOP_SCORES_KEY_PREFIX =
+  "qc_chapter_review_top_scores_v1_10q_no_pinyin:";
 
-export function getChapterReviewTopScores(chapter: number): number[] {
+function topScoresKey(chapter: number, noPinyin: boolean): string {
+  return (noPinyin ? NO_PINYIN_TOP_SCORES_KEY_PREFIX : TOP_SCORES_KEY_PREFIX) + chapter;
+}
+
+export function getChapterReviewTopScores(
+  chapter: number,
+  noPinyin = false
+): number[] {
   try {
-    const stored = localStorage.getItem(TOP_SCORES_KEY_PREFIX + chapter);
+    const stored = localStorage.getItem(topScoresKey(chapter, noPinyin));
     if (!stored) return [];
 
     const parsed = JSON.parse(stored) as unknown;
@@ -30,17 +40,21 @@ export function getChapterReviewTopScores(chapter: number): number[] {
   }
 }
 
-export function saveChapterReviewScore(chapter: number, score: number): number[] {
+export function saveChapterReviewScore(
+  chapter: number,
+  score: number,
+  noPinyin = false
+): number[] {
   const normalizedScore = Math.max(
     0,
     Math.min(CHAPTER_REVIEW_QUESTION_COUNT, Math.round(score))
   );
-  const topScores = [...getChapterReviewTopScores(chapter), normalizedScore]
+  const topScores = [...getChapterReviewTopScores(chapter, noPinyin), normalizedScore]
     .sort((a, b) => b - a)
     .slice(0, CHAPTER_REVIEW_TOP_SCORE_COUNT);
 
   try {
-    localStorage.setItem(TOP_SCORES_KEY_PREFIX + chapter, JSON.stringify(topScores));
+    localStorage.setItem(topScoresKey(chapter, noPinyin), JSON.stringify(topScores));
   } catch {
     /* ignore storage errors */
   }
@@ -71,8 +85,15 @@ export function getEligibleCardsForChapter(chapter: number): QuizCard[] {
   );
 }
 
-export function buildChapterReviewSession(chapter: number): QuizCard[] {
-  return shuffle(getEligibleCardsForChapter(chapter)).slice(
+export function buildChapterReviewSession(
+  chapter: number,
+  noPinyin = false
+): QuizCard[] {
+  const eligibleCards = getEligibleCardsForChapter(chapter).filter(
+    (card) => !noPinyin || !card.tags.includes("reverse")
+  );
+
+  return shuffle(eligibleCards).slice(
     0,
     CHAPTER_REVIEW_QUESTION_COUNT
   );

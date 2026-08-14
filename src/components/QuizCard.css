@@ -82,6 +82,11 @@
   user-select: none;
 }
 
+.quiz-card.hanzi-focus .hanzi {
+  font-size: 3.125rem;
+  overflow-wrap: anywhere;
+}
+
 .question {
   font-size: 1.125rem;
   font-weight: 500;
@@ -300,6 +305,11 @@
 
   .hanzi {
     font-size: 3.5rem;
+  }
+
+  .quiz-card.hanzi-focus .hanzi {
+    font-size: 4.375rem;
+    line-height: 1.15;
   }
 
   .question {

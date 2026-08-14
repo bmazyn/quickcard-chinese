@@ -58,37 +58,58 @@
 .chapter-review-card {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 6px;
-  padding: 18px 22px;
+  padding: 14px 16px;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-  text-align: left;
-  cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.chapter-review-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
-}
-
-.chapter-review-card:active {
-  transform: translateY(0);
 }
 
 .chapter-review-card-name {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-primary);
+  flex: 0 0 24px;
+  text-align: center;
 }
 
-.chapter-review-card-scores {
+.chapter-review-score-group {
   display: flex;
-  gap: 5px;
-  width: 100%;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 7px 6px;
+  box-sizing: border-box;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.chapter-review-score-group + .chapter-review-score-group {
+  margin-left: 8px;
+}
+
+@media (hover: hover) {
+  .chapter-review-score-group:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.chapter-review-score-group:active {
+  transform: scale(0.97);
+  background: rgba(0, 0, 0, 0.24);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.chapter-review-score-group:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
 }
 
 .chapter-review-score-box {
