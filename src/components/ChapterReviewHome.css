@@ -112,6 +112,42 @@
   outline-offset: 2px;
 }
 
+.chapter-review-streak-status {
+  flex: 0 0 44px;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.chapter-review-streak-button {
+  min-height: 44px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+@media (hover: hover) {
+  .chapter-review-streak-button:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.22);
+  }
+}
+
+.chapter-review-streak-button:active {
+  transform: scale(0.94);
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.chapter-review-streak-button:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
 .chapter-review-score-box {
   flex: 1;
   min-width: 0;

@@ -5,10 +5,12 @@ import { getDeckEntriesForChapter } from "./decks";
 export const CHAPTER_REVIEW_QUESTION_COUNT = 10;
 export const CHAPTER_REVIEW_TOP_SCORE_COUNT = 10;
 export const CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT = 5;
+export const CHAPTER_REVIEW_MAX_STREAK = 100;
 
 const TOP_SCORES_KEY_PREFIX = "qc_chapter_review_top_scores_v1_10q:";
 const NO_PINYIN_TOP_SCORES_KEY_PREFIX =
   "qc_chapter_review_top_scores_v1_10q_no_pinyin:";
+const BEST_STREAK_KEY_PREFIX = "qc_chapter_review_best_streak_v1:";
 
 function topScoresKey(chapter: number, noPinyin: boolean): string {
   return (noPinyin ? NO_PINYIN_TOP_SCORES_KEY_PREFIX : TOP_SCORES_KEY_PREFIX) + chapter;
@@ -60,6 +62,41 @@ export function saveChapterReviewScore(
   }
 
   return topScores;
+}
+
+export function getChapterReviewBestStreak(chapter: number): number {
+  try {
+    const stored = localStorage.getItem(BEST_STREAK_KEY_PREFIX + chapter);
+    if (stored === null) return 0;
+    const streak = Number(stored);
+    return Number.isInteger(streak) && streak >= 0
+      ? Math.min(streak, CHAPTER_REVIEW_MAX_STREAK)
+      : 0;
+  } catch {
+    return 0;
+  }
+}
+
+export function saveChapterReviewBestStreak(
+  chapter: number,
+  streak: number
+): number {
+  const normalizedStreak = Math.max(
+    0,
+    Math.min(CHAPTER_REVIEW_MAX_STREAK, Math.round(streak))
+  );
+  const bestStreak = Math.max(
+    getChapterReviewBestStreak(chapter),
+    normalizedStreak
+  );
+
+  try {
+    localStorage.setItem(BEST_STREAK_KEY_PREFIX + chapter, String(bestStreak));
+  } catch {
+    /* ignore storage errors */
+  }
+
+  return bestStreak;
 }
 
 function shuffle<T>(items: T[]): T[] {

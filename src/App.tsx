@@ -25,6 +25,7 @@ import ListeningRecallHome from './components/ListeningRecallHome'
 import ListeningRecallPlayer from './components/ListeningRecallPlayer'
 import ChapterReviewHome from './components/ChapterReviewHome'
 import ChapterReview from './components/ChapterReview'
+import ChapterReviewStreak from './components/ChapterReviewStreak'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -63,6 +64,7 @@ function App() {
         <Route path="/listening-recall/:groupId" element={<ListeningRecallPlayer />} />
         <Route path="/chapter-review" element={<ChapterReviewHome />} />
         <Route path="/chapter-review/:chapterId/run" element={<ChapterReview />} />
+        <Route path="/chapter-review/:chapterId/streak" element={<ChapterReviewStreak />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

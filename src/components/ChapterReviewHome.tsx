@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { getBookIds, getChaptersForBook } from "../utils/decks";
 import {
   CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT,
+  getChapterReviewBestStreak,
   getChapterReviewTopScores,
 } from "../utils/chapterReview";
 import "./ChapterReviewHome.css";
@@ -13,6 +14,7 @@ export default function ChapterReviewHome() {
       chapter,
       normalScores: getChapterReviewTopScores(chapter),
       noPinyinScores: getChapterReviewTopScores(chapter, true),
+      bestStreak: getChapterReviewBestStreak(chapter),
     }))
   );
 
@@ -55,25 +57,52 @@ export default function ChapterReviewHome() {
         </div>
 
         <div className="chapter-review-home-list">
-          {chapters.map(({ chapter, normalScores, noPinyinScores }) => (
-            <div key={chapter} className="chapter-review-card">
-              <span className="chapter-review-card-name">{chapter}</span>
-              <button
-                className="chapter-review-score-group"
-                onClick={() => navigate(`/chapter-review/${chapter}/run`)}
-                aria-label={`Start normal review for ${chapter}. Top scores: ${normalScores.join(", ") || "none"}`}
-              >
-                {renderScoreGroup(normalScores)}
-              </button>
-              <button
-                className="chapter-review-score-group"
-                onClick={() => navigate(`/chapter-review/${chapter}/run?mode=no-pinyin`)}
-                aria-label={`Start no-pinyin review for ${chapter}. Top scores: ${noPinyinScores.join(", ") || "none"}`}
-              >
-                {renderScoreGroup(noPinyinScores)}
-              </button>
-            </div>
-          ))}
+          {chapters.map(({ chapter, normalScores, noPinyinScores, bestStreak }) => {
+            const isMastered = (scores: number[]) =>
+              scores.length >= CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT &&
+              scores
+                .slice(0, CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT)
+                .every((score) => score === 10);
+            const isStreakUnlocked =
+              chapter === 1 ||
+              (isMastered(normalScores) && isMastered(noPinyinScores));
+
+            return (
+              <div key={chapter} className="chapter-review-card">
+                <span className="chapter-review-card-name">{chapter}</span>
+                <button
+                  className="chapter-review-score-group"
+                  onClick={() => navigate(`/chapter-review/${chapter}/run`)}
+                  aria-label={`Start normal review for ${chapter}. Top scores: ${normalScores.join(", ") || "none"}`}
+                >
+                  {renderScoreGroup(normalScores)}
+                </button>
+                <button
+                  className="chapter-review-score-group"
+                  onClick={() => navigate(`/chapter-review/${chapter}/run?mode=no-pinyin`)}
+                  aria-label={`Start no-pinyin review for ${chapter}. Top scores: ${noPinyinScores.join(", ") || "none"}`}
+                >
+                  {renderScoreGroup(noPinyinScores)}
+                </button>
+                {isStreakUnlocked ? (
+                  <button
+                    className="chapter-review-streak-status chapter-review-streak-button"
+                    onClick={() => navigate(`/chapter-review/${chapter}/streak`)}
+                    aria-label={`Open Chapter ${chapter} Streak Mode. Best streak: ${bestStreak}`}
+                  >
+                    🔥 {bestStreak}
+                  </button>
+                ) : (
+                  <span
+                    className="chapter-review-streak-status"
+                    aria-label="Streak Mode locked"
+                  >
+                    🔒
+                  </span>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
