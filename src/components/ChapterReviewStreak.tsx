@@ -29,6 +29,15 @@ function getMissedCardText(card: QuizCardType) {
   };
 }
 
+function isReverseCard(card: QuizCardType): boolean {
+  return card.tags.includes("reverse") || !/[\u4e00-\u9fff]/.test(card.promptLine);
+}
+
+function extractHanziFromChoice(choiceText: string): string {
+  if (choiceText.includes("—")) return choiceText.split("—")[1].trim();
+  return choiceText.match(/[\u4e00-\u9fff]+/)?.[0] ?? "";
+}
+
 export default function ChapterReviewStreak() {
   const navigate = useNavigate();
   const { chapterId } = useParams<{ chapterId: string }>();
@@ -61,13 +70,16 @@ export default function ChapterReviewStreak() {
   useEffect(() => {
     if (!currentCard || isComplete || answerState.selectedChoice !== null) return;
     if (!("speechSynthesis" in window)) return;
-    const hanzi = currentCard.promptLine.split(" — ")[1];
-    if (!hanzi) return;
+    const reverse = isReverseCard(currentCard);
+    const spokenText = reverse
+      ? currentCard.promptLine
+      : currentCard.promptLine.split(" — ")[1];
+    if (!spokenText) return;
 
     window.speechSynthesis.cancel();
     const timeout = window.setTimeout(() => {
-      const utterance = new SpeechSynthesisUtterance(hanzi);
-      utterance.lang = "zh-CN";
+      const utterance = new SpeechSynthesisUtterance(spokenText);
+      utterance.lang = reverse ? "en-US" : "zh-CN";
       utterance.rate = 0.9;
       window.speechSynthesis.speak(utterance);
     }, 100);
@@ -91,6 +103,21 @@ export default function ChapterReviewStreak() {
     if (!("speechSynthesis" in window) || isPlayingReinforcement) return;
     window.speechSynthesis.cancel();
     setIsPlayingReinforcement(true);
+
+    if (isReverseCard(card)) {
+      const hanzi = extractHanziFromChoice(card.choices[card.correct]);
+      if (!hanzi) {
+        setIsPlayingReinforcement(false);
+        return;
+      }
+      const chinese = new SpeechSynthesisUtterance(hanzi);
+      chinese.lang = "zh-CN";
+      chinese.rate = 0.9;
+      chinese.onend = () => setIsPlayingReinforcement(false);
+      chinese.onerror = () => setIsPlayingReinforcement(false);
+      window.speechSynthesis.speak(chinese);
+      return;
+    }
 
     const hanzi = card.promptLine.split(" — ")[1];
     const chinese = new SpeechSynthesisUtterance(hanzi);
