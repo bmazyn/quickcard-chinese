@@ -34,10 +34,7 @@ export default function ChapterReviewStreak() {
   const { chapterId } = useParams<{ chapterId: string }>();
   const chapter = Number(chapterId);
   const eligibleCards = useMemo(
-    () =>
-      getEligibleCardsForChapter(chapter).filter(
-        (card) => !card.tags.includes("reverse")
-      ),
+    () => getEligibleCardsForChapter(chapter),
     [chapter]
   );
 
