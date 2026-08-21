@@ -3788,7 +3788,7 @@
   {
     "id": "corePhrases-001",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒ kàn zhège — 我看这个",
     "question": "What does this mean?",
@@ -3811,7 +3811,7 @@
   {
     "id": "corePhrases-002",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒ xūyào bāngmáng — 我需要帮忙",
     "question": "What does this mean?",
@@ -3857,7 +3857,7 @@
   {
     "id": "corePhrases-004",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒ xǐhuan zhège dìfang — 我喜欢这个地方",
     "question": "What does this mean?",
@@ -3880,7 +3880,7 @@
   {
     "id": "corePhrases-005",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒmen qù jiā — 我们去家",
     "question": "What does this mean?",
@@ -3903,7 +3903,7 @@
   {
     "id": "corePhrases-006",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "tāmen yǒu háizi — 他们有孩子",
     "question": "What does this mean?",
@@ -3926,7 +3926,7 @@
   {
     "id": "corePhrases-007",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒ zài jiā gōngzuò — 我在家工作",
     "question": "What does this mean?",
@@ -3949,7 +3949,7 @@
   {
     "id": "corePhrases-008",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒ zhǎo zhège dìfang — 我找这个地方",
     "question": "What does this mean?",
@@ -3972,7 +3972,7 @@
   {
     "id": "corePhrases-009",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "yǒurén bāng wǒ — 有人帮我",
     "question": "What does this mean?",
@@ -3995,7 +3995,7 @@
   {
     "id": "corePhrases-010",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wǒmen zài zuò — 我们再做",
     "question": "What does this mean?",
@@ -4018,7 +4018,7 @@
   {
     "id": "corePhrases-011",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "duōshǎo rén — 多少人",
     "question": "What does this mean?",
@@ -4041,7 +4041,7 @@
   {
     "id": "corePhrases-012",
     "kind": "phrase",
-    "deckId": "corePhrases",
+    "deckId": "corePhrasesDisabled",
     "level": "HSK1",
     "promptLine": "wèishénme tāmen qù — 为什么他们去",
     "question": "What does this mean?",
@@ -4061,6 +4061,411 @@
     ],
     "difficulty": 1
   },
+
+  {
+    "id": "corePhrases-reverse-001",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I see this",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ kàn zhège — 我看这个",
+      "B": "wǒ xǐhuan zhège — 我喜欢这个",
+      "C": "wǒ yào zhège — 我要这个",
+      "D": "wǒ zhǎo zhège — 我找这个"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我看这个 means I see this."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-002",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I need help",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ xūyào bāngmáng — 我需要帮忙",
+      "B": "wǒ bāng nǐ — 我帮你",
+      "C": "wǒ xiǎng bāngmáng — 我想帮忙",
+      "D": "yǒurén bāng wǒ — 有人帮我"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我需要帮忙 means I need help."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-003",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I want to go",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ yào qù — 我要去",
+      "B": "wǒ xiànzài qù — 我现在去",
+      "C": "wǒ yào lái — 我要来",
+      "D": "wǒ xǐhuan qù — 我喜欢去"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我要去 means I want to go."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-004",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I like this place",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ xǐhuan zhège dìfang — 我喜欢这个地方",
+      "B": "wǒ kàn zhège dìfang — 我看这个地方",
+      "C": "wǒ zhǎo zhège dìfang — 我找这个地方",
+      "D": "wǒ yào qù zhège dìfang — 我要去这个地方"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我喜欢这个地方 means I like this place."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-005",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "We go home",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒmen huí jiā — 我们回家",
+      "B": "wǒmen zài jiā — 我们在家",
+      "C": "wǒmen xǐhuan jiā — 我们喜欢家",
+      "D": "wǒmen qù gōngzuò — 我们去工作"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我们回家 means we go home."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-006",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "They have children",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "tāmen yǒu háizi — 他们有孩子",
+      "B": "tāmen xǐhuan háizi — 他们喜欢孩子",
+      "C": "tāmen bāng háizi — 他们帮孩子",
+      "D": "tāmen zhǎo háizi — 他们找孩子"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 他们有孩子 means they have children."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-007",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I work at home",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ zài jiā gōngzuò — 我在家工作",
+      "B": "wǒ zài gōngzuò — 我在工作",
+      "C": "wǒ qù jiā gōngzuò — 我去家工作",
+      "D": "wǒ xǐhuan gōngzuò — 我喜欢工作"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我在家工作 means I work at home."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-008",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "I look for this place",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒ zhǎo zhège dìfang — 我找这个地方",
+      "B": "wǒ kàn zhège dìfang — 我看这个地方",
+      "C": "wǒ xǐhuan zhège dìfang — 我喜欢这个地方",
+      "D": "wǒ qù zhège dìfang — 我去这个地方"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我找这个地方 means I look for this place."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-009",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "Someone helps me",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "yǒurén bāng wǒ — 有人帮我",
+      "B": "wǒ bāng biérén — 我帮别人",
+      "C": "yǒurén zhǎo wǒ — 有人找我",
+      "D": "wǒ xūyào bāngmáng — 我需要帮忙"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 有人帮我 means someone helps me."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-010",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "We do it again",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wǒmen zài zuò — 我们再做",
+      "B": "wǒmen zài zuò — 我们在做",
+      "C": "wǒmen yào zuò — 我们要做",
+      "D": "wǒmen bù zuò — 我们不做"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 我们再做 means we do it again."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-011",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "How many people?",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "duōshǎo rén — 多少人",
+      "B": "shénme rén — 什么人",
+      "C": "nǎge rén — 哪个人",
+      "D": "yǒurén — 有人"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 多少人 means how many people."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },
+  {
+    "id": "corePhrases-reverse-012",
+    "kind": "phrase",
+    "deckId": "corePhrases",
+    "level": "HSK1",
+    "promptLine": "Why do they go?",
+    "question": "Which Chinese phrase means this?",
+    "choices": {
+      "A": "wèishénme tāmen qù — 为什么他们去",
+      "B": "tāmen shénme shíhou qù — 他们什么时候去",
+      "C": "tāmen qù nǎlǐ — 他们去哪里",
+      "D": "tāmen zěnme qù — 他们怎么去"
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct! 为什么他们去 means why do they go."
+    },
+    "tags": ["beginner", "phrase", "reverse"],
+    "difficulty": 1
+  },  
+{
+  "id": "corePhrases-reverse-013",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "I am at home now",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "wǒ xiànzài zài jiā — 我现在在家",
+    "B": "wǒ xiànzài huí jiā — 我现在回家",
+    "C": "wǒ míngtiān zài jiā — 我明天在家",
+    "D": "wǒ xiànzài qù jiā — 我现在去家"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 我现在在家 means I am at home now."
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-014",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "Where are you going?",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "nǐ qù nǎlǐ — 你去哪里",
+    "B": "nǐ zài nǎlǐ — 你在哪里",
+    "C": "nǐ cóng nǎlǐ lái — 你从哪里来",
+    "D": "nǐ shénme shíhou qù — 你什么时候去"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 你去哪里 means where are you going?"
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-015",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "I don't want this",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "wǒ bú yào zhège — 我不要这个",
+    "B": "wǒ bù xǐhuan zhège — 我不喜欢这个",
+    "C": "wǒ méiyǒu zhège — 我没有这个",
+    "D": "wǒ bù kàn zhège — 我不看这个"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 我不要这个 means I don't want this."
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-016",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "She is not at home",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "tā bú zài jiā — 她不在家",
+    "B": "tā bù huí jiā — 她不回家",
+    "C": "tā méiyǒu jiā — 她没有家",
+    "D": "tā bù qù jiā — 她不去家"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 她不在家 means she is not at home."
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-017",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "What do you want to eat?",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "nǐ xiǎng chī shénme — 你想吃什么",
+    "B": "nǐ xǐhuan chī shénme — 你喜欢吃什么",
+    "C": "nǐ zài chī shénme — 你在吃什么",
+    "D": "nǐ shénme shíhou chī — 你什么时候吃"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 你想吃什么 means what do you want to eat?"
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-018",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "We are working now",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "wǒmen xiànzài zài gōngzuò — 我们现在在工作",
+    "B": "wǒmen xiànzài qù gōngzuò — 我们现在去工作",
+    "C": "wǒmen míngtiān gōngzuò — 我们明天工作",
+    "D": "wǒmen zài gōngzuò — 我们再工作"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 我们现在在工作 means we are working now."
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-019",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "Can you help me?",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "nǐ kěyǐ bāng wǒ ma — 你可以帮我吗",
+    "B": "wǒ kěyǐ bāng nǐ ma — 我可以帮你吗",
+    "C": "nǐ xūyào bāngmáng ma — 你需要帮忙吗",
+    "D": "shéi kěyǐ bāng nǐ — 谁可以帮你"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 你可以帮我吗 means can you help me?"
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+},
+{
+  "id": "corePhrases-reverse-020",
+  "kind": "phrase",
+  "deckId": "corePhrases",
+  "level": "HSK1",
+  "promptLine": "I know where he is",
+  "question": "Which Chinese phrase means this?",
+  "choices": {
+    "A": "wǒ zhīdào tā zài nǎlǐ — 我知道他在哪里",
+    "B": "wǒ bù zhīdào tā zài nǎlǐ — 我不知道他在哪里",
+    "C": "wǒ zhīdào tā qù nǎlǐ — 我知道他去哪里",
+    "D": "tā zhīdào wǒ zài nǎlǐ — 他知道我在哪里"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct! 我知道他在哪里 means I know where he is."
+  },
+  "tags": ["beginner", "phrase", "reverse"],
+  "difficulty": 2
+}
+,
+
+
+
   {
     "id": "ch2-core4-001",
     "kind": "vocab",

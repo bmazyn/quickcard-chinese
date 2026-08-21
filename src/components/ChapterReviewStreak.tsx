@@ -11,14 +11,13 @@ import {
 import "./BookReview.css";
 import "./QuizFeed.css";
 
-function pickRandomCard(cards: QuizCardType[], previousCardId?: string): QuizCardType | null {
-  const choices =
-    cards.length > 1 && previousCardId
-      ? cards.filter((card) => card.id !== previousCardId)
-      : cards;
-  return choices.length > 0
-    ? choices[Math.floor(Math.random() * choices.length)]
-    : null;
+function buildStreakQueue(cards: QuizCardType[]): QuizCardType[] {
+  const shuffled = [...cards];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, CHAPTER_REVIEW_MAX_STREAK);
 }
 
 function getMissedCardText(card: QuizCardType) {
@@ -42,9 +41,12 @@ export default function ChapterReviewStreak() {
     [chapter]
   );
 
-  const [currentCard, setCurrentCard] = useState<QuizCardType | null>(() =>
-    pickRandomCard(eligibleCards)
+  const [streakQueue, setStreakQueue] = useState<QuizCardType[]>(() =>
+    buildStreakQueue(eligibleCards)
   );
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentCard = streakQueue[currentIndex] ?? null;
+  const runMax = streakQueue.length;
   const [currentStreak, setCurrentStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(() =>
     getChapterReviewBestStreak(chapter)
@@ -132,14 +134,14 @@ export default function ChapterReviewStreak() {
 
     const nextStreak = currentStreak + 1;
     setCurrentStreak(nextStreak);
-    if (nextStreak >= CHAPTER_REVIEW_MAX_STREAK) {
-      finishRun(CHAPTER_REVIEW_MAX_STREAK, true);
+    if (nextStreak >= runMax) {
+      finishRun(runMax, true);
     }
   };
 
   const handleNext = () => {
     if (!currentCard || answerState.isCorrect !== true) return;
-    setCurrentCard(pickRandomCard(eligibleCards, currentCard.id));
+    setCurrentIndex((index) => index + 1);
     setAnswerState({ selectedChoice: null, isCorrect: null });
   };
 
@@ -149,7 +151,8 @@ export default function ChapterReviewStreak() {
       reinforcementTimeoutRef.current = null;
     }
     window.speechSynthesis?.cancel();
-    setCurrentCard(pickRandomCard(eligibleCards));
+    setStreakQueue(buildStreakQueue(eligibleCards));
+    setCurrentIndex(0);
     setCurrentStreak(0);
     setMissedCard(null);
     setAnswerState({ selectedChoice: null, isCorrect: null });
@@ -194,7 +197,7 @@ export default function ChapterReviewStreak() {
           <div className="book-review-complete">
             {isPerfect && <div className="book-review-complete-icon">🏆</div>}
             <h3 className="book-review-complete-title">
-              {isPerfect ? "Perfect Streak: 100" : "Streak Ended"}
+              {isPerfect ? `Perfect Streak: ${runMax}` : "Streak Ended"}
             </h3>
 
             <div className="book-review-stats-table">

@@ -5,7 +5,7 @@ import { getDeckEntriesForChapter } from "./decks";
 export const CHAPTER_REVIEW_QUESTION_COUNT = 10;
 export const CHAPTER_REVIEW_TOP_SCORE_COUNT = 10;
 export const CHAPTER_REVIEW_DASHBOARD_SCORE_COUNT = 5;
-export const CHAPTER_REVIEW_MAX_STREAK = 100;
+export const CHAPTER_REVIEW_MAX_STREAK = 50;
 
 const TOP_SCORES_KEY_PREFIX = "qc_chapter_review_top_scores_v1_10q:";
 const NO_PINYIN_TOP_SCORES_KEY_PREFIX =
@@ -69,9 +69,7 @@ export function getChapterReviewBestStreak(chapter: number): number {
     const stored = localStorage.getItem(BEST_STREAK_KEY_PREFIX + chapter);
     if (stored === null) return 0;
     const streak = Number(stored);
-    return Number.isInteger(streak) && streak >= 0
-      ? Math.min(streak, CHAPTER_REVIEW_MAX_STREAK)
-      : 0;
+    return Number.isInteger(streak) && streak >= 0 ? streak : 0;
   } catch {
     return 0;
   }
@@ -81,10 +79,7 @@ export function saveChapterReviewBestStreak(
   chapter: number,
   streak: number
 ): number {
-  const normalizedStreak = Math.max(
-    0,
-    Math.min(CHAPTER_REVIEW_MAX_STREAK, Math.round(streak))
-  );
+  const normalizedStreak = Math.max(0, Math.round(streak));
   const bestStreak = Math.max(
     getChapterReviewBestStreak(chapter),
     normalizedStreak
