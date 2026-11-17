@@ -3,8 +3,20 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
+type NavigatorWithAudioSession = Navigator & {
+  audioSession?: {
+    type: string
+  }
+}
+
 // Set dark mode permanently
 document.documentElement.setAttribute('data-theme', 'dark');
+
+// Keep spoken study audio audible when an iPhone's Ring/Silent switch is off.
+const audioSession = (navigator as NavigatorWithAudioSession).audioSession
+if (audioSession) {
+  audioSession.type = 'playback'
+}
 
 // Register PWA service worker
 if ('serviceWorker' in navigator) {
